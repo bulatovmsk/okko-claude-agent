@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bash scripts/pack-skills.sh)",
+      "Bash(bash scripts/sync-from-figma.sh)",
+      "Bash(ls *)",
+      "Bash(tree)",
+      "Bash(zip *)",
+      "Bash(unzip *)"
+    ]
+  }
+}
