@@ -6,6 +6,7 @@
 - BottomSheet — `node-id=28934-239837`
 - TabGroup — `node-id=24233-7754`
 - **Chips — `node-id=39348-13491`** (`Component guide_Chips`, наиболее свежий эталон)
+- **Select — `node-id=39484-30540`** (`Component guide_Select`) — та же каноническая структура, что и Chips (секции `334931/5/13/2/3/21/23/24/22`). Reference-карточка: `design-system/components/select.md`.
 
 Файл: `Lib-iOS` (fileKey `rMcDm5qGp4CXkXXddEbcMh`).
 
