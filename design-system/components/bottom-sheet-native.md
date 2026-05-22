@@ -54,6 +54,10 @@
 - `Select` — раскрывает свой список опций именно в шите
 - Header — переиспользуемая шапка `_🛠️Sheet Native - Header` (тип Primary)
 
+## Тех-долг
+
+- ⚠️ Кнопка закрытия (×) в хедере `_🛠️Sheet Native - Header` собрана на инстансе `🔴 [Deprecated] mini Button`. **Заменить** на актуальную кнопку. До замены — учитывать при аудите: ссылка на deprecated-компонент внутри готового (`🟢`) шита.
+
 ## Источник
 
 - Компонент: Figma `rMcDm5qGp4CXkXXddEbcMh` node `37371:7396` (`🟢Sheet Native` COMPONENT_SET)
