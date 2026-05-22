@@ -1,7 +1,7 @@
 # Шаблон шторки: Фильтры (Sheet template / Filters)
 
 > Reference-карточка компонента. Источник: COMPONENT_SET `Шаблоны шторки / Фильтры` в Figma — file `rMcDm5qGp4CXkXXddEbcMh` (Lib-iOS), node `37390:49620`.
-> Шаблон строится поверх [`🟢Sheet Native`](bottom-sheet-native.md) и **вызывается компонентом [`Select`](select.md)** при раскрытии списка опций.
+> Шаблон строится поверх [`🟢Sheet Native`](bottom-sheet-native.md) и **вызывается компонентом [`Select`](select.md)** при раскрытии списка опций. Продуктовое поведение всей группы фильтрации см. [filters-group.md](filters-group.md).
 
 ## Назначение
 
