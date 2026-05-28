@@ -46,12 +46,12 @@
 
 | Skill | Когда вызывается |
 |---|---|
-| `okko-ds-librarian` | «Какой компонент использовать для…», «какой токен…», поиск по библиотеке |
-| `okko-ds-auditor` | Проверка макета/прототипа на соответствие ДС: токены, компоненты, паттерны |
-| `okko-layout-helper` | Сборка макета экрана из компонентов ДС |
-| `okko-doc-writer` | Написание гайдлайна (документации) компонента в Figma по единому шаблону |
-| `okko-platform-tv` | Особенности TV (D-pad focus, размеры под 10-foot UI, Android TV / SmartTV Web) |
-| `okko-platform-mobile` | Особенности iOS/Android (safe area, touch targets, gestures) |
+| `design-ds-librarian` | «Какой компонент использовать для…», «какой токен…», поиск по библиотеке |
+| `design-ds-auditor` | Проверка макета/прототипа на соответствие ДС: токены, компоненты, паттерны |
+| `design-layout-helper` | Сборка макета экрана из компонентов ДС |
+| `design-doc-writer` | Написание гайдлайна (документации) компонента в Figma по единому шаблону |
+| `design-platform-tv` | Особенности TV (D-pad focus, размеры под 10-foot UI, Android TV / SmartTV Web) |
+| `design-platform-mobile` | Особенности iOS/Android (safe area, touch targets, gestures) |
 
 ## Обновление
 
@@ -90,7 +90,7 @@ bash scripts/figma-api.sh "/v1/files/$FIGMA_LIB_IOS_KEY/variables/local"
 - [STRUCTURE.md](design-system/guidelines/STRUCTURE.md) — общий каркас гайдлайна (15 секций, обязательные/рекомендованные/опциональные).
 - [section-templates/](design-system/guidelines/section-templates/) — детальные шаблоны по каждой секции.
 
-За автоматическое создание гайдлайнов в Figma отвечает Skill `okko-doc-writer`.
+За автоматическое создание гайдлайнов в Figma отвечает Skill `design-doc-writer`.
 
 После — повторить шаги «для админа» и оповестить команду, что нужно обновить Skills у себя.
 
@@ -105,11 +105,11 @@ okko_claude_agent/
 │   ├── platforms/
 │   └── brand/
 ├── skills/               # Слой 2: исходники Agent Skills
-│   ├── okko-ds-librarian/
-│   ├── okko-ds-auditor/
-│   ├── okko-layout-helper/
-│   ├── okko-platform-tv/
-│   └── okko-platform-mobile/
+│   ├── design-ds-librarian/
+│   ├── design-ds-auditor/
+│   ├── design-layout-helper/
+│   ├── design-platform-tv/
+│   └── design-platform-mobile/
 └── scripts/
     ├── pack-skills.sh
     └── sync-from-figma.sh

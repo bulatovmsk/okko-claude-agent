@@ -1,0 +1,2580 @@
+{
+  "Глобальные ошибки": {
+    "Нет интернета": {
+      "Модальная": {
+        "Заголовок": {
+          "$type": "string",
+          "$value": "error.internet.modal.title",
+          "$description": "Проблемы с соединением, нет соединения, интернет",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:36485:2514",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Описание": {
+          "$type": "string",
+          "$value": "error.internet.modal.body",
+          "$description": "Проблемы с соединением, нет соединения, интернет",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:36485:2515",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Действия": {
+          "Вторичное действие": {
+            "$type": "string",
+            "$value": "error.internet.modal.action.secondary",
+            "$description": "Открыть загрузки, перейти в загрузки. Проблемы с соединением, нет соединения, интернет",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:36536:2552",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "Главное действие": {
+            "$type": "string",
+            "$value": "{Универсальное.Действие.Повторная попытка}",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:36541:2513",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          }
+        }
+      },
+      "Уведомление": {
+        "Однострочник": {
+          "$type": "string",
+          "$value": "error.internet.oneliner",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:37855:3",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "Ошибка часового пояса": {
+      "Заголовок": {
+        "$type": "string",
+        "$value": "error.timezone.title",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:37739:2",
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "Описание": {
+        "$type": "string",
+        "$value": "error.timezone.body",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:37740:3",
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "Главное действие": {
+        "$type": "string",
+        "$value": "{Универсальное.Действие.Понятно}",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:37740:4",
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "Вторичное действие": {
+        "$type": "string",
+        "$value": "{Универсальное.Действие.Связаться с поддержкой}",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:37740:6",
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.type": "string"
+        }
+      }
+    },
+    "АЗ5": {
+      "Заголовок": {
+        "$type": "string",
+        "$value": "error.meltdown.title",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:37596:5364",
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "Описание": {
+        "$type": "string",
+        "$value": "error.meltdown.body",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:37596:5365",
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "Действие": {
+        "$type": "string",
+        "$value": "{Универсальное.Действие.Связаться с поддержкой}",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:37596:5366",
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.type": "string"
+        }
+      }
+    },
+    "Логи": {
+      "Заголовок": {
+        "$type": "string",
+        "$value": "error.log.title",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:36544:2540",
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.type": "string"
+        }
+      }
+    }
+  },
+  "Универсальное": {
+    "Подсказка": {
+      "Задержка": {
+        "Задержка перед попыткой": {
+          "$type": "string",
+          "$value": "common.hint.cooldown.retry",
+          "$description": "Попробовать ещё раз, повторить попытку",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:36485:2538",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Код в смс": {
+          "$type": "string",
+          "$value": "common.hint.cooldown.sms",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:36847:18",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "Действие": {
+      "Повторная попытка": {
+        "$type": "string",
+        "$value": "common.action.retry",
+        "$description": "Попробовать ещё раз, повторить попытку",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:36536:2517",
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "Связаться с поддержкой": {
+        "$type": "string",
+        "$value": "common.action.contactSupport",
+        "$description": "Связаться с поддержкой",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:36536:2521",
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "Понятно": {
+        "$type": "string",
+        "$value": "common.action.ok",
+        "$description": "Понятно, ладно, окей, согласие",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:37740:5",
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "Продолжить": {
+        "$type": "string",
+        "$value": "common.action.next",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:37767:966",
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "Готово": {
+        "$type": "string",
+        "$value": "common.action.done",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:37820:6",
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "Просмотр": {
+        "Смотреть": {
+          "$type": "string",
+          "$value": "common.action.play",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:38588:231",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Продолжить просмотр": {
+          "$type": "string",
+          "$value": "common.action.continueWatching",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:38588:232",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "Описание": {
+      "Код из смс": {
+        "$type": "string",
+        "$value": "common.body.sms_challenge ",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:36847:16",
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.type": "string"
+        }
+      }
+    },
+    "Заголовок": {
+      "Введите номер телефона": {
+        "$type": "string",
+        "$value": "common.title.phone_input",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:36843:10",
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "Код из смс": {
+        "$type": "string",
+        "$value": "common.title.sms_challenge",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:36843:15",
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.type": "string"
+        }
+      }
+    }
+  },
+  "Второй экран": {
+    "Тост": {
+      "Не удалось инициировать флоу запуска на ТВ": {
+        "$type": "string",
+        "$value": "ss.toast.connectionError.body",
+        "$description": "Эта ошибка используется для двух кейсов: либо у юзера нет интернета, либо ошибка на запрос getDeviceLink. Должна быть универсальной",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:37546:4477",
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.type": "string"
+        }
+      }
+    },
+    "Промо": {
+      "В поиске": {
+        "Саджест асситента": {
+          "$type": "string",
+          "$value": "ss.promo.search.assistant.suggest",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:39921:873",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Ответ ассистента": {
+          "$type": "string",
+          "$value": "ss.promo.search.assistant.answer",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:39921:874",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "Онбординг": {
+      "Промо баббл запуска": {
+        "Заголовок": {
+          "$type": "string",
+          "$value": "ss.onboarding.promoBubble.title",
+          "$description": "Добавить устройство, управлять другим устройством",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:36583:2546",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Описание": {
+          "$type": "string",
+          "$value": "ss.onboarding.promoBubble.body",
+          "$description": "Добавить устройство, управлять другим устройством",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:36583:2547",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "Плеер": {
+      "Полный экран": {
+        "Ассистент": {
+          "Кнопка вызова": {
+            "$type": "string",
+            "$value": "ss.player.fs.assistant.action",
+            "$description": "Спросить ассистента, задать вопрос, обсудить фильм",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:36590:2513",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          }
+        }
+      }
+    },
+    "Шторка": {
+      "Запуск": {
+        "Заголовок": {
+          "$type": "string",
+          "$value": "ss.sheet.launch.title",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:36583:2543",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Вторичное действие": {
+          "$type": "string",
+          "$value": "ss.sheet.launch.action.secondary",
+          "$description": "Добавить устройство, управлять другим устройством",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:36583:2544",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Перехват устройства": {
+          "Заголовок": {
+            "$type": "string",
+            "$value": "ss.sheet.launch.profileSwitch.title",
+            "$description": "Смена профиля, выбрать профиль",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:36739:2",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "Описание": {
+            "$type": "string",
+            "$value": "ss.sheet.launch.profileSwitch.body ",
+            "$description": "Смотрит другой профиль ",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:36739:3",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "Главное действие": {
+            "$type": "string",
+            "$value": "ss.sheet.launch.profileSwitch.action",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:36740:4",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "Вторичное действие": {
+            "$type": "string",
+            "$value": "ss.sheet.launch.profileSwitch.action.secondary ",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:36740:5",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          }
+        }
+      },
+      "Смена управляемого": {
+        "Заголовок": {
+          "$type": "string",
+          "$value": "ss.sheet.deviceSwitch.title",
+          "$description": "Смена устройства, управлять другим, каким управлять, каким телевизором управлять",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:36686:2",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    }
+  },
+  "Карточка контента": {
+    "Действия": {
+      "Второй экран": {
+        "Включить на ТВ": {
+          "$type": "string",
+          "$value": "cc.action.ss.launch",
+          "$description": "Запустить на телевизоре, второй экран",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:36583:2545",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Играет на ТВ": {
+          "$type": "string",
+          "$value": "cc.action.ss.active",
+          "$description": "Запустить на телевизоре, второй экран",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:36592:2514",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "Загрузка": {
+        "Загрузить": {
+          "$type": "string",
+          "$value": "cc.action.download.start",
+          "$description": "Начать загрузку",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:38566:1308",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Статус": {
+          "В процессе": {
+            "$type": "string",
+            "$value": "cc.action.download.active",
+            "$description": "Загрузка в процессе, активная загрузка",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:38566:1309",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "В очереди": {
+            "$type": "string",
+            "$value": "cc.action.download.queued",
+            "$description": "Загрузка в очереди",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:38566:1318",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "На паузе": {
+            "$type": "string",
+            "$value": "cc.action.download.paused",
+            "$description": "Загрузка остановлена юзером, на паузе юзером",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:38566:1313",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "Завершена": {
+            "$type": "string",
+            "$value": "cc.action.download.done",
+            "$description": "Загружено на устройство, загрузка завершена",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:38566:1316",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "Рыба для макетов": {
+            "РЫБА Загрузка 0%": {
+              "$type": "string",
+              "$value": "{Карточка контента.Действия.Загрузка.Статус.В процессе}",
+              "$extensions": {
+                "com.figma.variableId": "VariableID:38566:1310",
+                "com.figma.scopes": [
+                  "TEXT_CONTENT"
+                ],
+                "com.figma.type": "string"
+              }
+            },
+            "РЫБА Загрузка 1%": {
+              "$type": "string",
+              "$value": "{Карточка контента.Действия.Загрузка.Статус.В процессе}",
+              "$extensions": {
+                "com.figma.variableId": "VariableID:38566:1311",
+                "com.figma.scopes": [
+                  "TEXT_CONTENT"
+                ],
+                "com.figma.type": "string"
+              }
+            },
+            "РЫБА Загружается 25%": {
+              "$type": "string",
+              "$value": "{Карточка контента.Действия.Загрузка.Статус.В процессе}",
+              "$extensions": {
+                "com.figma.variableId": "VariableID:38566:1312",
+                "com.figma.scopes": [
+                  "TEXT_CONTENT"
+                ],
+                "com.figma.type": "string"
+              }
+            }
+          },
+          "Проблемный": {
+            "Ждёт Wi-FI": {
+              "$type": "string",
+              "$value": "cc.action.download.needsWifi",
+              "$description": "Ошибка загрузки из-за вайфай Reason: \"network\"",
+              "$extensions": {
+                "com.figma.variableId": "VariableID:38566:1319",
+                "com.figma.scopes": [
+                  "TEXT_CONTENT"
+                ],
+                "com.figma.type": "string"
+              }
+            },
+            "Ошибка": {
+              "$type": "string",
+              "$value": "cc.action.download.failed",
+              "$description": "Ошибка загрузки Reason: \"segmentDownloadFailed\", \"licenseFailed\"",
+              "$extensions": {
+                "com.figma.variableId": "VariableID:38566:1317",
+                "com.figma.scopes": [
+                  "TEXT_CONTENT"
+                ],
+                "com.figma.type": "string"
+              }
+            },
+            "Недостаточно места на устройстве": {
+              "$type": "string",
+              "$value": "cc.action.download.storageFull",
+              "$description": "Ошибка загрузки из-за вайфая Reason: \"storageFull\"",
+              "$extensions": {
+                "com.figma.variableId": "VariableID:38566:1320",
+                "com.figma.scopes": [
+                  "TEXT_CONTENT"
+                ],
+                "com.figma.type": "string"
+              }
+            },
+            "Нет интернета": {
+              "$type": "string",
+              "$value": "cc.action.download.offline",
+              "$description": "Reason: \"offline\"",
+              "$extensions": {
+                "com.figma.variableId": "VariableID:38581:211",
+                "com.figma.scopes": [
+                  "TEXT_CONTENT"
+                ],
+                "com.figma.type": "string"
+              }
+            },
+            "Авария": {
+              "$type": "string",
+              "$value": "cc.action.download.meltdown",
+              "$description": "Reason: \"emergencyMode\"",
+              "$extensions": {
+                "com.figma.variableId": "VariableID:38581:212",
+                "com.figma.scopes": [
+                  "TEXT_CONTENT"
+                ],
+                "com.figma.type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "АЗ-5": {
+    "Баннер": {
+      "Заголовок": {
+        "$type": "string",
+        "$value": "meltdown.banner.title",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:37811:3",
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "Описание": {
+        "$type": "string",
+        "$value": "meltdown.banner.body",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:37811:4",
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "Однострочник": {
+        "$type": "string",
+        "$value": "meltdown.banner.oneliner",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:37811:5",
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.type": "string"
+        }
+      }
+    },
+    "Главный экран": {
+      "Заголовок": {
+        "$type": "string",
+        "$value": "meltdown.main.title",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:37598:5367",
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "Описание": {
+        "$type": "string",
+        "$value": "meltdown.main.body",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:37598:5368",
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "Главное действие": {
+        "$type": "string",
+        "$value": "{Универсальное.Действие.Повторная попытка}",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:37598:5369",
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.type": "string"
+        }
+      }
+    }
+  },
+  "Детское": {
+    "Защита": {
+      "Установка защиты (РКН)": {
+        "Предложение установить": {
+          "Заголовок": {
+            "$type": "string",
+            "$value": "kids.safety.advisedSetup.title",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:36843:3",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "Описание": {
+            "$type": "string",
+            "$value": "kids.safety.advisedSetup.body",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:36843:4",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "Главное действие": {
+            "$type": "string",
+            "$value": "kids.safety.advisedSetup.action",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:36843:5",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "Вторичное действие": {
+            "$type": "string",
+            "$value": "kids.safety.advisedSetup.action.secondary",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:36843:6",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          }
+        },
+        "Дисклеймер для отказа": {
+          "Заголовок": {
+            "$type": "string",
+            "$value": "kids.safety.advisedSetup.rejectDisclaimer.title",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:36843:11",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "Описание": {
+            "$type": "string",
+            "$value": "kids.safety.advisedSetup.rejectDisclaimer.body",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:36852:2",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "Главное действие": {
+            "$type": "string",
+            "$value": "kids.safety.advisedSetup.rejectDisclaimer.action",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:36852:3",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "Вторичное действие": {
+            "$type": "string",
+            "$value": "kids.safety.advisedSetup.rejectDisclaimer.action.secondary",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:36852:4",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          }
+        },
+        "Создание кода": {
+          "Заголовок": {
+            "$type": "string",
+            "$value": "kids.safety.advisedSetup.code.title",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:36843:7",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "Описание": {
+            "$type": "string",
+            "$value": "kids.safety.advisedSetup.code.body",
+            "$description": "Отличается от стандартного окна создания кода. Во флоу РКН нет экрана, где юзер выбирает уровень защиты. Поэтому здесь чуть больше информации, чем в обычном создании кода",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:36843:8",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "Главное действие": {
+            "$type": "string",
+            "$value": "kids.safety.advisedSetup.code.creation.action",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:36843:9",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "Подтверждение телефона": {
+            "Заголовок": {
+              "$type": "string",
+              "$value": "{Универсальное.Заголовок.Введите номер телефона}",
+              "$extensions": {
+                "com.figma.variableId": "VariableID:36843:12",
+                "com.figma.scopes": [
+                  "TEXT_CONTENT"
+                ],
+                "com.figma.type": "string"
+              }
+            },
+            "Описание": {
+              "$type": "string",
+              "$value": "kids.safety.advisedSetup.code.phoneChallenge.body",
+              "$extensions": {
+                "com.figma.variableId": "VariableID:36843:13",
+                "com.figma.scopes": [
+                  "TEXT_CONTENT"
+                ],
+                "com.figma.type": "string"
+              }
+            },
+            "Главное действие": {
+              "$type": "string",
+              "$value": "{Универсальное.Действие.Продолжить}",
+              "$extensions": {
+                "com.figma.variableId": "VariableID:36843:14",
+                "com.figma.scopes": [
+                  "TEXT_CONTENT"
+                ],
+                "com.figma.type": "string"
+              }
+            }
+          }
+        }
+      },
+      "Обычная установка защиты": {
+        "Выбор уровня защиты": {
+          "Заголовок": {
+            "$type": "string",
+            "$value": "kids.safety.setup.level.title",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:37802:2",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "Опция 1 (переход и покупки)": {
+            "$type": "string",
+            "$value": "kids.safety.setup.level.option.1",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:37822:7",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "Опция 2 (покупки)": {
+            "$type": "string",
+            "$value": "kids.safety.setup.level.option.2",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:37822:8",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "Опция 3 (пропустить)": {
+            "$type": "string",
+            "$value": "kids.safety.setup.level.option.3",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:37822:9",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "Действие": {
+            "$type": "string",
+            "$value": "{Универсальное.Действие.Продолжить}",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:37822:10",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          }
+        },
+        "Создание кода": {
+          "Заголовок": {
+            "$type": "string",
+            "$value": "kids.safety.setup.code.title",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:37822:11",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "Описание": {
+            "$type": "string",
+            "$value": "kids.safety.setup.code.body",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:37834:12",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "Главное действие": {
+            "$type": "string",
+            "$value": "{Универсальное.Действие.Готово}",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:37834:14",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          }
+        }
+      }
+    },
+    "Таймер": {
+      "Экран таймера в меню": {
+        "Заголовок": {
+          "$type": "string",
+          "$value": "kids.timer.screen.title",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:37548:4478",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Как включить": {
+          "$type": "string",
+          "$value": "kids.timer.screen.body.1",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:37548:4479",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Логика блокировки": {
+          "$type": "string",
+          "$value": "kids.timer.screen.body.2",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:37569:4483",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Главное действие": {
+          "$type": "string",
+          "$value": "kids.timer.screen.action",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:37549:4481",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "Фидбек": {
+        "Успех": {
+          "Таймёр продлён": {
+            "$type": "string",
+            "$value": "kids.timer.feedback.successful.edit",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:37570:4491",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "Таймер выключен": {
+            "$type": "string",
+            "$value": "kids.timer.feedback.successful.deactivation",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:37570:4492",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "Таймер установлен": {
+            "$type": "string",
+            "$value": "kids.timer.feedback.successful.start",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:37570:4488",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "Снялась блокировка": {
+            "$type": "string",
+            "$value": "kids.timer.feedback.successful.unlock",
+            "$description": "Время кончилось, телевизор заблокирован, дети не могут смотреть, снять/убрать  блокировку/ограничение",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:37570:4493",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          }
+        },
+        "Ошибка": {
+          "Таймер не продлён": {
+            "$type": "string",
+            "$value": "kids.timer.feedback.failed.edit",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:37571:4494",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "Таймер не установлен": {
+            "$type": "string",
+            "$value": "kids.timer.feedback.failed.start",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:37571:4497",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "Таймер не выключился": {
+            "$type": "string",
+            "$value": "kids.timer.feedback.failed.deactivation",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:37571:4498",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "Не снялась блокировка": {
+            "$type": "string",
+            "$value": "kids.timer.feedback.failed.unlock",
+            "$description": "Время кончилось, телевизор заблокирован, дети не могут смотреть, снять/убрать  блокировку/ограничение",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:37571:4499",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          }
+        }
+      },
+      "Шторка": {
+        "Установка": {
+          "Заголовок": {
+            "$type": "string",
+            "$value": "kids.timer.sheet.setup.title",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:37570:4485",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "Описание": {
+            "$type": "string",
+            "$value": "kids.timer.sheet.setup.body",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:37570:4486",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "Кнопка настройки ВЭ": {
+            "$type": "string",
+            "$value": "kids.timer.sheet.setup.action.SecondScreen",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:37570:4487",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          }
+        },
+        "Редактирование": {
+          "Заголовок": {
+            "$type": "string",
+            "$value": "kids.timer.sheet.edit.title",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:37570:4490",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "Описание": {
+            "$type": "string",
+            "$value": "{Детское.Таймер.Шторка.Установка.Описание}",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:37571:4496",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "Кнопка выключения таймера": {
+            "$type": "string",
+            "$value": "kids.timer.sheet.edit.deactivate",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:37570:4489",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          }
+        }
+      },
+      "Блокировка": {
+        "Пуш": {
+          "Заголовок": {
+            "$type": "string",
+            "$value": "kids.timer.locked.push.title",
+            "$description": "Время истекло, таймер кончился, детские профили заблокированы, просмотр заблокирован",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:36787:2",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "Описание": {
+            "$type": "string",
+            "$value": "kids.timer.locked.push.body",
+            "$description": "Время истекло, таймер кончился, детские профили заблокированы, просмотр заблокирован",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:36787:3",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          }
+        },
+        "Экран блокировки на ТВ": {
+          "Заголовок": {
+            "$type": "string",
+            "$value": "kids.timer.tvLockScreen.title",
+            "$description": "Снять блокировку, сменить профиль, время закончилось",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:36779:4",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "Подсказка": {
+            "$type": "string",
+            "$value": "kids.timer.tvLockScreen.tip",
+            "$description": "Снять блокировку, сменить профиль, время закончилось",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:36779:3",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "Диалог": {
+            "Заголовок": {
+              "$type": "string",
+              "$value": "kids.timer.tvLockScreen.dialogue.title",
+              "$description": "Время кончилось, телевизор заблокирован, дети не могут смотреть",
+              "$extensions": {
+                "com.figma.variableId": "VariableID:36812:2",
+                "com.figma.scopes": [
+                  "TEXT_CONTENT"
+                ],
+                "com.figma.type": "string"
+              }
+            },
+            "Главное действие": {
+              "$type": "string",
+              "$value": "kids.timer.tvLockScreen.dialogue.action",
+              "$description": "Время кончилось, телевизор заблокирован, дети не могут смотреть, сменить профиль ",
+              "$extensions": {
+                "com.figma.variableId": "VariableID:36812:3",
+                "com.figma.scopes": [
+                  "TEXT_CONTENT"
+                ],
+                "com.figma.type": "string"
+              }
+            },
+            "Вторичное действие": {
+              "$type": "string",
+              "$value": "kids.timer.tvLockScreen.dialogue.action.secondary",
+              "$description": "Время кончилось, телевизор заблокирован, дети не могут смотреть, снять/убрать  блокировку/ограничение",
+              "$extensions": {
+                "com.figma.variableId": "VariableID:36812:4",
+                "com.figma.scopes": [
+                  "TEXT_CONTENT"
+                ],
+                "com.figma.type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Флоу создания профиля": {
+      "Настройка предпочтений": {
+        "Заголовок до 7 лет": {
+          "$type": "string",
+          "$value": "kids.newProfile.taste.heroes.title",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:37767:972",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Описание до 7 лет": {
+          "$type": "string",
+          "$value": "kids.newProfile.taste.heroes.body",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:37767:975",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Заголовок 8-12 лет": {
+          "$type": "string",
+          "$value": "kids.newProfile.taste.movies.title",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:37767:973",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Описание 8-12 лет": {
+          "$type": "string",
+          "$value": "kids.newProfile.taste.movies.body",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:37767:974",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Первичное действие (пропустить)": {
+          "$type": "string",
+          "$value": "kids.newProfile.taste.button.skip",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:37767:976",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Вторичное действие (не нравится)": {
+          "$type": "string",
+          "$value": "kids.newProfile.taste.button.refresh",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:37767:977",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "Выбор аватара": {
+        "Заголовок": {
+          "$type": "string",
+          "$value": "kids.newProfile.icon.title",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:37767:967",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Группа иконок 1": {
+          "$type": "string",
+          "$value": "kids.newProfile.icon.row1",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:37767:968",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Группа иконок 2": {
+          "$type": "string",
+          "$value": "kids.newProfile.icon.row2",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:37767:969",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "Выбор возраста": {
+        "Заголовок": {
+          "$type": "string",
+          "$value": "kids.newProfile.age.title",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:37767:970",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Описание": {
+          "$type": "string",
+          "$value": "kids.newProfile.age.body",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:37767:971",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "Ввод имени": {
+        "Заголовок": {
+          "$type": "string",
+          "$value": "kids.newProfile.name.title",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:37767:963",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Плейсхолдер поля": {
+          "$type": "string",
+          "$value": "kids.newProfile.name.placeholder",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:37767:964",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Кнопка продолжения": {
+          "$type": "string",
+          "$value": "{Универсальное.Действие.Продолжить}",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:37767:965",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    }
+  },
+  "Выбор профиля": {
+    "Заголовок": {
+      "$type": "string",
+      "$value": "profilePicker.title",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:37767:958",
+        "com.figma.scopes": [
+          "TEXT_CONTENT"
+        ],
+        "com.figma.type": "string"
+      }
+    },
+    "Кнопка автовыбора": {
+      "$type": "string",
+      "$value": "profilePicker.autopick",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:37767:961",
+        "com.figma.scopes": [
+          "TEXT_CONTENT"
+        ],
+        "com.figma.type": "string"
+      }
+    },
+    "Кнопка создания нового профиля": {
+      "$type": "string",
+      "$value": "profilePicker.create.button",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:37767:962",
+        "com.figma.scopes": [
+          "TEXT_CONTENT"
+        ],
+        "com.figma.type": "string"
+      }
+    },
+    "Редактирование": {
+      "Заголовок": {
+        "$type": "string",
+        "$value": "profilePicker.edit.title",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:37871:1006",
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "Описание": {
+        "$type": "string",
+        "$value": "profilePicker.edit.body",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:37871:1007",
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.type": "string"
+        }
+      }
+    },
+    "Создание нового": {
+      "Заголовок": {
+        "$type": "string",
+        "$value": "profilePicker.create.title ",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:37767:959",
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "Описание": {
+        "$type": "string",
+        "$value": "profilePicker.create.body",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:37767:960",
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.type": "string"
+        }
+      }
+    }
+  },
+  "Настройки": {
+    "Раздел уведомлений": {
+      "Ошибка, не работают тоглы": {
+        "$type": "string",
+        "$value": "settings.notifications.toggleError",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:37887:3",
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.type": "string"
+        }
+      }
+    }
+  },
+  "Загрузки": {
+    "Подсказка": {
+      "Страница сезона": {
+        "Сезон недоступен для загрузки": {
+          "$type": "string",
+          "$value": "downloads.hint.season.restrictedBy.Owner",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:38591:237",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Сезон недоступен по гео": {
+          "$type": "string",
+          "$value": "downloads.hint.season.restrictedBy.Geo",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:38592:238",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "Шторка": {
+      "Нужен вайфай": {
+        "Заголовок": {
+          "$type": "string",
+          "$value": "downloads.sheet.needWifi.title",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:38585:214",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Описание": {
+          "$type": "string",
+          "$value": "downloads.sheet.needWifi.body",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:38585:215",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Главное действие": {
+          "$type": "string",
+          "$value": "downloads.sheet.needWifi.action",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:38585:216",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Вторичное действие": {
+          "$type": "string",
+          "$value": "downloads.sheet.needWifi.action.secondary",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:38585:217",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "Загруженный тайтл": {
+        "Заголовок": {
+          "$type": "string",
+          "$value": "downloads.sheet.offlineReady.title",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:38588:227",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Описание": {
+          "$type": "string",
+          "$value": "downloads.sheet.offlineReady.body",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:38588:229",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Действие 1": {
+          "$type": "string",
+          "$value": "{Универсальное.Действие.Просмотр.Смотреть}",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:38588:233",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Действие 2": {
+          "$type": "string",
+          "$value": "downloads.sheet.offlineReady.delete",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:38588:234",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "Недостаточно места": {
+        "Заголовок": {
+          "$type": "string",
+          "$value": "downloads.sheet.storageFull.title",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:38586:218",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Описание": {
+          "$type": "string",
+          "$value": "downloads.sheet.storageFull.body",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:38766:3",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Действие": {
+          "$type": "string",
+          "$value": "{Универсальное.Действие.Понятно}",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:38586:219",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Вторичное действие": {
+          "$type": "string",
+          "$value": "downloads.sheet.storageFull.action.secondary",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:38586:220",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "Уведомление (тост)": {
+      "Загрузка ждёт местоc": {
+        "$type": "string",
+        "$value": "downloads.toast.storageFull",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:38586:221",
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "Успешные": {
+        "Загрузка началась": {
+          "$type": "string",
+          "$value": "downloads.toast.started",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:38550:212",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Разрешили без вайфай": {
+          "$type": "string",
+          "$value": "downloads.toast.cellularAllowed",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:38766:2",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Загрузка отменена": {
+          "$type": "string",
+          "$value": "downloads.toast.cancelled",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:38585:213",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Загрузка завершилась": {
+          "$type": "string",
+          "$value": "downloads.toast.сompleted",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:38588:236",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Загрузка удалена": {
+          "$type": "string",
+          "$value": "downloads.toast.deleted",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:38588:235",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "Ошибки": {
+        "Не удалось возобновить загрузку": {
+          "$type": "string",
+          "$value": "downloads.toast.retryFailed",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:39207:2",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Не удалось начать загрузку": {
+          "$type": "string",
+          "$value": "downloads.toast.startFailed",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:39225:50",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "АЗ-5": {
+          "$type": "string",
+          "$value": "downloads.toast.retryFailed.meltdown",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:39397:49",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "Загрузка невозможна": {
+        "Универсальное": {
+          "$type": "string",
+          "$value": "downloads.toast.unavailable",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:39406:50",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Нужна подписка": {
+          "$type": "string",
+          "$value": "downloads.toast.needTo.subscribe",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:38586:222",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Нужен апгрейд": {
+          "$type": "string",
+          "$value": "downloads.toast.needTo.upgrade",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:38587:223",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Нужно купить": {
+          "$type": "string",
+          "$value": "downloads.toast.needTo.buy",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:38587:224",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Гео блок": {
+          "$type": "string",
+          "$value": "downloads.toast.restrictedBy.Geo",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:38587:225",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Правообладатель запретил загрузку": {
+          "$type": "string",
+          "$value": "downloads.toast.restrictedBy.Owner",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:38587:226",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Нет интернета": {
+          "$type": "string",
+          "$value": "downloads.toast.offline",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:38767:4",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    }
+  },
+  "Status Header": {
+    "Системные статусы": {
+      "Негативные": {
+        "Нет интернета": {
+          "Заголовок": {
+            "$type": "string",
+            "$value": "status.offline.title",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:38595:241",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "Описание": {
+            "$type": "string",
+            "$value": "status.offline.body",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:38595:242",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          }
+        },
+        "АЗ-5": {
+          "Заголовок": {
+            "$type": "string",
+            "$value": "status.meltdown.title",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:38595:243",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "Описание": {
+            "$type": "string",
+            "$value": "status.meltdown.body",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:38595:244",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          }
+        },
+        "Гео блок": {
+          "Заголовок": {
+            "$type": "string",
+            "$value": "status.restrictedBy.Geo.title",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:38595:245",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "Описание": {
+            "$type": "string",
+            "$value": "status.restrictedBy.Geo.body",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:38595:246",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          }
+        }
+      },
+      "Позитивные": {
+        "Соединение восстановлено": {
+          "$type": "string",
+          "$value": "status.offline.isOff",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:38597:256",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "АЗ-5 выключился": {
+          "$type": "string",
+          "$value": "status.meltdown.isOff",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:38597:257",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "Статусы загрузки": {
+      "Есть активная загрузка": {
+        "Заголовок": {
+          "$type": "string",
+          "$value": "status.download.active.title",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:38595:240",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Описание": {
+          "$type": "string",
+          "$value": "status.download.active.body",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:38595:248",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "Есть несколько ошибок": {
+        "Заголовок": {
+          "$type": "string",
+          "$value": "status.download.failed.several",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:38596:250",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "Одна ошибка загрузки": {
+        "Ошибка загрузки сегмента": {
+          "$type": "string",
+          "$value": "status.download.failed",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:38595:249",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Недостаточно места на устройстве": {
+          "$type": "string",
+          "$value": "status.download.failed.storageFull",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:38596:251",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Нужен вайфай": {
+          "Заголовок": {
+            "$type": "string",
+            "$value": "status.download.waitingWiFi.title",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:38596:252",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "Описание": {
+            "$type": "string",
+            "$value": "status.download.waitingWiFi.body",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:38601:211",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          }
+        }
+      },
+      "Загрузки завершились": {
+        "Заголовок": {
+          "$type": "string",
+          "$value": "status.download.completed.title",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:38597:253",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Описание": {
+          "$type": "string",
+          "$value": "status.download.completed.body",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:38597:254",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    }
+  },
+  "Уведомление": {
+    "1": {
+      "$type": "string",
+      "$value": "Убрали из Любимого мира",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:38925:5",
+        "com.figma.scopes": [
+          "TEXT_CONTENT"
+        ],
+        "com.figma.type": "string"
+      }
+    },
+    "2": {
+      "$type": "string",
+      "$value": "Убрали из Любимого сериала моего деда",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:38925:6",
+        "com.figma.scopes": [
+          "TEXT_CONTENT"
+        ],
+        "com.figma.type": "string"
+      }
+    },
+    "3": {
+      "$type": "string",
+      "$value": "Убрали из Любимого мужа из жизни",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:38925:7",
+        "com.figma.scopes": [
+          "TEXT_CONTENT"
+        ],
+        "com.figma.type": "string"
+      }
+    }
+  },
+  "Музыка": {
+    "Плеер": {
+      "Уведомление": {
+        "Лайк": {
+          "Поставлен": {
+            "$type": "string",
+            "$value": "music.player.toast.like",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:38930:2",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "Снят": {
+            "$type": "string",
+            "$value": "music.player.toast.like.withdraw",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:38930:3",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "Ошибка": {
+            "$type": "string",
+            "$value": "music.player.toast.like.error",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:38930:4",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          }
+        },
+        "Дизлайк": {
+          "Поставлен": {
+            "$type": "string",
+            "$value": "music.player.toast.dislike",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:38931:5",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "Ошибка": {
+            "$type": "string",
+            "$value": "music.player.toast.dislike.error",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:38931:6",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          }
+        },
+        "Перемешивание": {
+          "ВКЛючили перемешивание": {
+            "$type": "string",
+            "$value": "music.player.toast.shuffle.on",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:38932:7",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "ВЫКЛючили перемешивание": {
+            "$type": "string",
+            "$value": "music.player.toast.shuffle.off",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:38932:8",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          }
+        },
+        "Повтор": {
+          "Повтор альбома": {
+            "$type": "string",
+            "$value": "music.player.toast.repeat.album",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:38932:9",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "Повтор плейлиста": {
+            "$type": "string",
+            "$value": "music.player.toast.repeat.playlist",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:38932:10",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "Повтор трека": {
+            "$type": "string",
+            "$value": "music.player.toast.repeat.playlist",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:38939:11",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "Повтор выключен": {
+            "$type": "string",
+            "$value": "music.player.toast.repeat.playlist",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:38939:12",
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.type": "string"
+            }
+          }
+        }
+      }
+    },
+    "Ошибки": {
+      "Нужно обратиться в поддержку": {
+        "Заголовок": {
+          "$type": "string",
+          "$value": "music.error.needTo.contactSupport.title",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:39270:52",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Описание": {
+          "$type": "string",
+          "$value": "music.error.needTo.contactSupport.body",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:39270:53",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Главное действие": {
+          "$type": "string",
+          "$value": "{Универсальное.Действие.Связаться с поддержкой}",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:39270:54",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "Нужен Сбер ID": {
+        "Заголовок": {
+          "$type": "string",
+          "$value": "music.error.needTo.sberID.title",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:39270:66",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Описание": {
+          "$type": "string",
+          "$value": "music.error.needTo.sberID.body",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:39270:67",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "Недоступный контент": {
+        "Заголовок": {
+          "$type": "string",
+          "$value": "music.error.notFound.title",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:39270:63",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Описание": {
+          "$type": "string",
+          "$value": "music.error.notFound.body",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:39270:64",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "Гео блок": {
+        "Заголовок": {
+          "$type": "string",
+          "$value": "music.error.restrictedBy.Geo.title",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:39270:61",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Описание": {
+          "$type": "string",
+          "$value": "music.error.restrictedBy.Geo.body",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:39270:62",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "Решается ожиданием": {
+        "Заголовок": {
+          "$type": "string",
+          "$value": "music.error.needTo.wait.title",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:39270:55",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Описание": {
+          "$type": "string",
+          "$value": "music.error.needTo.wait.body",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:39270:56",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "Звук не видит подписку": {
+        "Заголовок": {
+          "$type": "string",
+          "$value": "music.error.subscription.mismatch.title",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:39297:53",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Описание": {
+          "$type": "string",
+          "$value": "music.error.subscription.mismatch.body",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:39297:54",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "Подписка оформляется": {
+        "Заголовок": {
+          "$type": "string",
+          "$value": "music.error.subscription.inProgress.title",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:39270:59",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Описание": {
+          "$type": "string",
+          "$value": "music.error.subscription.inProgress.body",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:39270:60",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "Нужно обновиться": {
+        "Заголовок": {
+          "$type": "string",
+          "$value": "music.error.needTo.update.title",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:39295:49",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Заголовок 2": {
+          "$type": "string",
+          "$value": "music.error.needTo.update.body",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:39295:50",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    }
+  },
+  "События": {
+    "WIP Ошибки": {
+      "Ошибка 1": {
+        "Заголовок": {
+          "$type": "string",
+          "$value": "String value",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:39341:57",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Описание": {
+          "$type": "string",
+          "$value": "String value",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:39341:58",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Главное действие": {
+          "$type": "string",
+          "$value": "String value",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:39341:59",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "Вторичное действие": {
+          "$type": "string",
+          "$value": "String value",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:39341:60",
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    }
+  },
+  "$extensions": {
+    "com.figma.modeName": "ID"
+  }
+}

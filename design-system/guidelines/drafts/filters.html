@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+<title>Фильтры — гайдлайн группы компонентов</title>
+<style>
+  :root {
+    --bg:#0F1014; --bg-2:#1A1B22; --bg-3:#232430;
+    --text:rgba(255,255,255,0.96); --text-muted:rgba(255,255,255,0.6); --text-dim:rgba(255,255,255,0.4);
+    --border:rgba(255,255,255,0.08); --accent:#8A6CFF; --success:#5CCE6F; --error:#FF5D6E; --warn:#FFB13D;
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:14px/1.5 -apple-system,BlinkMacSystemFont,"Suisse Int'l","Inter",sans-serif; padding:56px 64px; }
+  .doc { max-width:1400px; margin:0 auto; }
+  h1 { font-size:64px; font-weight:600; letter-spacing:-1px; margin:0 0 12px; }
+  h2 { font-size:32px; font-weight:600; margin:72px 0 16px; padding-top:24px; border-top:1px solid var(--border); }
+  h3 { font-size:20px; font-weight:600; margin:36px 0 8px; }
+  h4 { font-size:15px; font-weight:600; margin:24px 0 6px; color:var(--text); }
+  .lede { font-size:18px; line-height:1.55; color:var(--text-muted); max-width:900px; margin:0 0 20px; }
+  .meta { font-size:12px; color:var(--text-dim); margin:4px 0 32px; }
+  ul.features { list-style:none; padding:0; margin:0 0 24px; color:var(--text-muted); }
+  ul.features li::before { content:"— "; color:var(--text-dim); }
+  ul { color:var(--text-muted); }
+  .chips-row { display:flex; gap:12px; flex-wrap:wrap; margin:24px 0 12px; }
+  .anchor { display:inline-block; padding:8px 14px; background:var(--bg-2); color:var(--text-muted); border-radius:100px; font-size:13px; text-decoration:none; }
+  .anchor:hover { background:var(--bg-3); color:var(--text); }
+  .frame { background:var(--bg-2); border-radius:16px; padding:32px; margin:16px 0; }
+  .frame--note { background:rgba(255,177,61,0.08); border:1px solid rgba(255,177,61,0.3); }
+  .frame--note p { color:var(--warn); margin:0; }
+  .grid { display:grid; gap:24px; }
+  .grid-2 { grid-template-columns:repeat(2,1fr); }
+  .grid-3 { grid-template-columns:repeat(3,1fr); }
+  .grid-4 { grid-template-columns:repeat(4,1fr); }
+  table { width:100%; border-collapse:collapse; margin:16px 0; }
+  th,td { text-align:left; padding:12px 16px; border-bottom:1px solid var(--border); font-size:13px; vertical-align:top; }
+  th { color:var(--text-dim); font-weight:500; }
+  td strong { color:var(--text); }
+  .card { background:var(--bg-2); border-radius:16px; padding:24px; }
+  .card h3 { margin-top:0; }
+  .pill { display:inline-block; font-size:11px; font-weight:600; letter-spacing:0.4px; padding:3px 9px; border-radius:100px; margin:0 6px 6px 0; }
+  .pill--single { background:rgba(138,108,255,0.18); color:var(--accent); }
+  .pill--multi { background:rgba(92,206,111,0.16); color:var(--success); }
+  .pill--special { background:rgba(255,177,61,0.16); color:var(--warn); }
+  .shot { width:100%; border-radius:14px; border:1px solid var(--border); display:block; }
+  .shot-wrap { background:var(--bg-3); border-radius:16px; padding:16px; }
+  .caption { font-size:13px; color:var(--text-muted); margin:12px 0 0; }
+  .cap-dim { font-size:12px; color:var(--text-dim); margin:8px 0 0; text-align:center; }
+  code { background:var(--bg-3); padding:1px 6px; border-radius:4px; font-size:12px; color:var(--accent); }
+  hr { border:0; border-top:1px solid var(--border); margin:48px 0; }
+  p { color:var(--text-muted); }
+  strong { color:var(--text); font-weight:500; }
+  .ok { color:var(--success); } .no { color:var(--error); } .warn-t { color:var(--warn); }
+  .tag-disabled { color:var(--text-dim); }
+  .flow { counter-reset:step; list-style:none; padding:0; }
+  .flow li { position:relative; padding:8px 0 8px 40px; color:var(--text-muted); border-bottom:1px solid var(--border); }
+  .flow li::before { counter-increment:step; content:counter(step); position:absolute; left:0; top:8px; width:26px; height:26px; border-radius:100px; background:var(--bg-3); color:var(--accent); font-weight:600; font-size:12px; display:flex; align-items:center; justify-content:center; }
+</style>
+</head>
+<body>
+<div class="doc">
+
+  <h1>Фильтры</h1>
+  <p class="lede">Группа компонентов фильтрации Окко: <strong>Chips</strong>, <strong>Select</strong> и шторка выбора <strong>BottomSheetFilters</strong>. Документ описывает, какой компонент выбрать, как ведут себя кнопки и какие бывают типы фильтров и краевые случаи.</p>
+  <p class="meta">Источники: Lib-iOS (<code>rMcDm5qGp4CXkXXddEbcMh</code>) · продуктовые кейсы «Афиша» (<code>xFhW4a26fD7hE0zK88ClF2 · 8563:230330</code>) и «Каталог-категория» (<code>Z4cJG20xxYb6oEECodt5WD · 2441:143240</code>). Тема — Dark.</p>
+
+  <div class="chips-row">
+    <a class="anchor" href="#components">Компоненты</a>
+    <a class="anchor" href="#types">Типы выбора</a>
+    <a class="anchor" href="#buttons">Кнопки</a>
+    <a class="anchor" href="#search">Поиск</a>
+    <a class="anchor" href="#flow">Флоу и анимации</a>
+    <a class="anchor" href="#domain">Типы фильтров</a>
+    <a class="anchor" href="#states">Состояния</a>
+    <a class="anchor" href="#corner">Краевые случаи</a>
+    <a class="anchor" href="#application">Применение</a>
+  </div>
+
+  <!-- ───────────── Компоненты ───────────── -->
+  <h2 id="components">Три компонента группы</h2>
+  <div class="grid grid-3">
+    <div class="card">
+      <h3>Chips</h3>
+      <p>Компактный выбор, когда варианты <strong>помещаются на экран</strong>. Живут строкой, поддерживают «выбран».</p>
+      <p class="caption">iPhone 36pt / iPad 40pt · radius 8/10 · текст Suisse Int'l Medium 13/14.</p>
+    </div>
+    <div class="card">
+      <h3>Select</h3>
+      <p>Дропдаун со счётчиком: прячет варианты за одним контролом, раскрывает список в шторке. Для <strong>длинных списков</strong>.</p>
+      <p class="caption">iPhone 36pt / iPad 40pt · показывает имя значения или counter.</p>
+    </div>
+    <div class="card">
+      <h3>BottomSheetFilters</h3>
+      <p>Шаблон шторки выбора (<code>Шаблоны шторки / Фильтры</code>) поверх Sheet Native. <strong>Вызывается из Select</strong>.</p>
+      <p class="caption">Header · поиск · список (List Item) · футер (Сбросить/Применить).</p>
+    </div>
+  </div>
+
+  <h3>Что выбрать</h3>
+  <table>
+    <tr><th>Ситуация</th><th>Компонент</th></tr>
+    <tr><td>Варианты помещаются на экран, быстрый/бинарный выбор</td><td><strong>Chips</strong></td></tr>
+    <tr><td>Длинный список, нужен счётчик и экономия места</td><td><strong>Select</strong> + BottomSheetFilters</td></tr>
+    <tr><td>Раскрытие списка опций по тапу</td><td><strong>BottomSheetFilters</strong> (из Select)</td></tr>
+    <tr><td>Произвольный контент шторки (не фильтр)</td><td>BottomSheet / Sheet Native напрямую</td></tr>
+  </table>
+
+  <!-- ───────────── Типы выбора ───────────── -->
+  <h2 id="types">Типы выбора</h2>
+  <p>В шаблон заложены 4 варианта логики. Отличаются изначальным состоянием, типом выбора и поведением кнопок.</p>
+  <table>
+    <tr><th>Вариант</th><th>Старт</th><th>Выбор</th><th>«Сбросить»</th><th>Select после «Применить»</th><th>× на Select</th></tr>
+    <tr>
+      <td><span class="pill pill--single">1. Сингл с дефолтом</span></td>
+      <td>дефолт уже выбран (✓)</td><td>одиночный</td>
+      <td>есть; <strong>неактивна</strong> пока стоит дефолт</td>
+      <td>имя значения</td>
+      <td>сброс <strong>до дефолта</strong></td>
+    </tr>
+    <tr>
+      <td><span class="pill pill--multi">2. Мульти без дефолта</span></td>
+      <td>всегда пусто</td><td>множественный (по «ИЛИ»)</td>
+      <td>есть; неактивна пока пусто</td>
+      <td>counter (число)</td>
+      <td>очистка <strong>до пуста</strong></td>
+    </tr>
+    <tr>
+      <td><span class="pill pill--single">3. Сингл без дефолта</span></td>
+      <td>пусто</td><td>одиночный</td>
+      <td>есть; неактивна пока пусто</td>
+      <td>имя значения + ×</td>
+      <td>очистка <strong>до пуста</strong></td>
+    </tr>
+    <tr>
+      <td><span class="pill pill--special">4. Выбор города</span></td>
+      <td>город всегда выбран</td><td>одиночный, обязательный, с поиском</td>
+      <td class="no">нет — значение обязательно</td>
+      <td>имя города</td>
+      <td class="tag-disabled">— нельзя очистить</td>
+    </tr>
+  </table>
+  <div class="frame frame--note"><p>Множественный выбор всегда работает по принципу <strong>«ИЛИ»</strong> (значения объединяются). Единичный — при смене значения предыдущее сбрасывается.</p></div>
+
+  <!-- ───────────── Кнопки ───────────── -->
+  <h2 id="buttons">Кнопки шторки: Применить / Сбросить</h2>
+  <div class="grid grid-2">
+    <div class="card">
+      <h4>Применить</h4>
+      <ul>
+        <li>Присутствует всегда. Применяет выбор и <strong>закрывает шторку</strong>.</li>
+        <li>Выбор применяется <strong>только по этой кнопке</strong>.</li>
+        <li>В выборе города — на всю ширину (т.к. «Сбросить» нет).</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h4>Сбросить</h4>
+      <ul>
+        <li><strong>Disabled</strong>, пока выбор не менялся (дефолт для №1, пусто для №2–3).</li>
+        <li><strong>Активируется</strong>, как только выбор изменён.</li>
+        <li>Возвращает к изначальному состоянию (дефолт / пусто).</li>
+        <li>В выборе города кнопки нет.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="frame frame--note"><p>Закрытие шторки <strong>без «Применить»</strong> (×, свайп вниз, тап по затемнению) — выбор <strong>не применяется</strong>: фильтр остаётся как был.</p></div>
+
+  <!-- ───────────── Поиск ───────────── -->
+  <h2 id="search">Поиск внутри шторки</h2>
+  <p>Показ поля поиска зависит от числа вариантов в списке.</p>
+  <table>
+    <tr><th>Количество вариантов</th><th>Поиск</th></tr>
+    <tr><td><strong>&gt; 20</strong></td><td class="ok">показываем</td></tr>
+    <tr><td><strong>&lt; 20</strong> («мало вариантов»)</td><td class="no">не показываем</td></tr>
+    <tr><td><strong>очень мало</strong> (помещается на один экран)</td><td class="no">не нужен</td></tr>
+  </table>
+
+  <!-- ───────────── Флоу ───────────── -->
+  <h2 id="flow">Флоу и анимации</h2>
+  <h3>Поведение списка</h3>
+  <ul>
+    <li><strong>Первое посещение</strong> — список в обычном порядке.</li>
+    <li><strong>Повторное посещение</strong> — ранее выбранные пункты поднимаются <strong>наверх</strong> списка.</li>
+    <li><strong>Снятие выбора при повторном входе</strong> — снятые айтемы остаются на местах; не выбранное ранее — в привычном порядке.</li>
+  </ul>
+  <h3>Перемещение выбранного в начало</h3>
+  <ul>
+    <li>Выбранный чип/селект <strong>переходит в начало</strong> строки фильтров.</li>
+    <li>Анимация перемещения — <strong>300 ms</strong> после нажатия.</li>
+    <li>Подгрузка пунктов — <strong>скелетонами</strong>.</li>
+  </ul>
+  <h3>Отображение в Chips / Select</h3>
+  <ul>
+    <li>Выбран <strong>один</strong> пункт — показывается имя значения.</li>
+    <li>Выбрано <strong>2 и более</strong> — показывается counter (число).</li>
+  </ul>
+
+  <!-- ───────────── Типы фильтров ───────────── -->
+  <h2 id="domain">Типы фильтров (домен «Афиша»)</h2>
+  <table>
+    <tr><th>Фильтр</th><th>Правило</th></tr>
+    <tr><td><strong>Театр / кинотеатр / площадка</strong></td><td>обычно первым в подразделах; &gt;20 вариантов → с поиском, &lt;20 → без</td></tr>
+    <tr><td><strong>Жанр</strong></td><td>множественный, по «ИЛИ»</td></tr>
+    <tr><td><strong>Возраст</strong></td><td>без поиска</td></tr>
+    <tr><td><strong>Тип события</strong></td><td>только при переходе с главной через календарь в грид</td></tr>
+    <tr><td><strong>Пушкинская карта</strong> · <strong>Детские</strong> · <strong>Кешбэк/бонусы</strong></td><td>без поиска</td></tr>
+    <tr><td><strong>Скидки</strong></td><td>отбирает события со скидками</td></tr>
+    <tr><td><strong>Премьеры</strong></td><td>может быть «премьеры недели»</td></tr>
+    <tr><td><strong>Высокий рейтинг</strong></td><td>события с рейтингом выше 7</td></tr>
+    <tr><td><strong>Выбор редакции</strong></td><td class="warn-t">«Выбор Афиши» под другим именем — про Афишу не упоминаем</td></tr>
+  </table>
+
+  <!-- ───────────── Состояния ───────────── -->
+  <h2 id="states">Состояния</h2>
+  <div class="grid grid-2">
+    <div class="card">
+      <h4>Загрузка</h4>
+      <p>После применения фильтра результаты подгружаются <strong>скелетонами</strong> (есть адаптивы под разные экраны).</p>
+    </div>
+    <div class="card">
+      <h4>Ничего не нашлось</h4>
+      <p>Иллюстрация + «Увы, нам ничего не удалось найти» + «Попробуйте изменить фильтры или сбросьте их» + кнопка <strong>«Сбросить фильтры»</strong>.</p>
+    </div>
+    <div class="card">
+      <h4>Недоступные теги</h4>
+      <p>Пункты, под которые нет результатов, показываются <strong>disabled</strong>.</p>
+    </div>
+    <div class="card">
+      <h4>Сброс всех фильтров</h4>
+      <p>При активных фильтрах в начале строки — круглая <strong>×</strong> (сброс всех). Активные чипы имеют индивидуальный ×.</p>
+    </div>
+  </div>
+
+  <!-- ───────────── Краевые случаи ───────────── -->
+  <h2 id="corner">Краевые случаи</h2>
+  <ul>
+    <li><strong>Мульти всегда пуст на старте</strong> — у множественного выбора не бывает предвыбранных значений.</li>
+    <li><strong>&gt; 3 активных категорий</strong> — появляется кнопка сброса всех фильтров сразу.</li>
+    <li><strong>Выбор города</strong> — обязателен: нет «Сбросить», нет × на чипе; выбранный город закреплён вверху, остальные по алфавиту; поиск всегда.</li>
+    <li><strong>Закрытие без «Применить»</strong> — изменения не сохраняются.</li>
+    <li><strong>Снятие выбора при повторном входе</strong> — порядок не «прыгает»: снятые остаются на местах.</li>
+    <li><strong>Тип события</strong> — фильтр появляется только в сценарии входа через календарь.</li>
+    <li><strong>Скролл страницы категории</strong> — строка фильтров залипает (sticky) над контентом.</li>
+    <li><strong>Sort-шторка в каталоге</strong> — единичный с дефолтом, но кнопка одна: «Применить» на всю ширину, сброс вынесен на уровень страницы (отличается от шторки фильтра в Афише, где «Сбросить» — внутри). <span class="warn-t">Два паттерна; требует унификации.</span></li>
+  </ul>
+
+  <!-- ───────────── Применение ───────────── -->
+  <h2 id="application">Применение в продукте</h2>
+
+  <h3>Афиша — строка фильтров</h3>
+  <p>В гриде/каталоге сверху — горизонтальная строка: Chips для быстрых фильтров (<code>В моей подписке</code>, <code>Высокий рейтинг</code>, <code>Новое</code>) и Select для списочных (<code>Сортировка</code>, <code>Жанр</code>, <code>Годы</code>, <code>Страна</code>). Активный элемент уезжает в начало (300 ms).</p>
+
+  <h3>Каталог-категория — экраны</h3>
+  <div class="grid grid-3">
+    <figure class="shot-wrap" style="margin:0">
+      <img class="shot" src="../../components/assets/filters-collection-category-filters.png" alt="Строка фильтров с активными значениями" />
+      <figcaption class="cap-dim">Активные фильтры: круглая × сброса всех + чипы с индивидуальным ×</figcaption>
+    </figure>
+    <figure class="shot-wrap" style="margin:0">
+      <img class="shot" src="../../components/assets/filters-collection-category-sort.png" alt="Шторка сортировки" />
+      <figcaption class="cap-dim">Сортировка: Рекомендуемые ✓ / Высокий рейтинг / Новые · «Применить» на всю ширину</figcaption>
+    </figure>
+    <figure class="shot-wrap" style="margin:0">
+      <img class="shot" src="../../components/assets/filters-collection-null-state.png" alt="Нулевое состояние" />
+      <figcaption class="cap-dim">Ничего не нашлось → «Сбросить фильтры»</figcaption>
+    </figure>
+  </div>
+  <div class="frame frame--note" style="margin-top:24px"><p>Часть кейса про <strong>страницу коллекции</strong> — нерелевантна, на неё не ориентируемся.</p></div>
+
+  <h3>Сценарии</h3>
+  <h4>A — мультивыбор «Жанр»</h4>
+  <ol class="flow">
+    <li>Тап по <code>Жанр</code> → шторка «Жанры» (пусто, «Сбросить» неактивна; поиск если &gt;20).</li>
+    <li>Отмечаем Ужасы / Приключения / Комедии → «Сбросить» активна.</li>
+    <li>«Применить» → селект показывает counter «Жанры · 3», уезжает в начало.</li>
+    <li>Повторное открытие — выбранные сверху. × на селекте — очистка до пуста.</li>
+  </ol>
+  <h4>B — сортировка (сингл с дефолтом)</h4>
+  <ol class="flow">
+    <li>Тап → «Рекомендуемые ✓» по умолчанию.</li>
+    <li>Выбираем «А-Я» → предыдущее сбрасывается.</li>
+    <li>«Применить» → чип показывает «А-Я».</li>
+    <li>× на чипе — возврат к дефолту (не к пустому).</li>
+  </ol>
+  <h4>C — выбор города (уникальный)</h4>
+  <ol class="flow">
+    <li>Чип города в шапке → полноэкранная шторка «Город».</li>
+    <li>Поиск; выбранный город закреплён вверху, остальные по алфавиту.</li>
+    <li>Нижних кнопок нет: применяется по «Применить» на всю ширину, сброса нет.</li>
+  </ol>
+
+  <hr />
+  <p class="meta">Гайд группы Filters · собрано из карточек chips.md / select.md / sheet-template-filters.md / filters-group.md и продуктовых кейсов. Окко DS.</p>
+
+</div>
+</body>
+</html>
