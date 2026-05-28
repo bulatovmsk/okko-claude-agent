@@ -1,5 +1,5 @@
 ---
-name: okko-platform-tv
+name: design-platform-tv
 description: Эксперт по нюансам TV-платформ Окко (Android TV и SmartTV Web — LG webOS, Samsung Tizen). Использовать, когда обсуждается TV-интерфейс, focus management, D-pad навигация, 10-foot UI, размеры под просмотр с дивана, особенности SmartTV-движков. Подключается автоматически другими Skills при платформе TV.
 ---
 
@@ -10,7 +10,7 @@ description: Эксперт по нюансам TV-платформ Окко (An
 ## Когда срабатывать
 
 - Запросы со словами: «TV», «телевизор», «Android TV», «Smart TV», «webOS», «Tizen», «10-foot», «D-pad», «фокус», «leanback»
-- Когда `okko-layout-helper` или `okko-ds-auditor` работают с TV-платформой
+- Когда `design-layout-helper` или `design-ds-auditor` работают с TV-платформой
 - Когда пользователь спрашивает о фокусе, навигации пультом, размерах для просмотра с расстояния
 
 ## Что знаю
@@ -46,12 +46,12 @@ description: Эксперт по нюансам TV-платформ Окко (An
 
 ## Ограничения
 
-- Не отвечаю на mobile/web вопросы — для них `okko-platform-mobile` или общие skills.
+- Не отвечаю на mobile/web вопросы — для них `design-platform-mobile` или общие skills.
 - Не выдумываю модели TV — если данных по конкретной модели нет, говорю «нужен тест».
 - Если правило ДС противоречит платформенному стандарту TV — флагирую конфликт, не решаю молча.
 
 ## Связь с другими skills
 
-- `okko-ds-librarian` — справочник компонентов в TV-варианте
-- `okko-ds-auditor` — для платформенного аудита TV-макетов
-- `okko-layout-helper` — при сборке TV-экранов меня зовут для focus order
+- `design-ds-librarian` — справочник компонентов в TV-варианте
+- `design-ds-auditor` — для платформенного аудита TV-макетов
+- `design-layout-helper` — при сборке TV-экранов меня зовут для focus order

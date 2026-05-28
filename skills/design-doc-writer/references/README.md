@@ -1,4 +1,4 @@
-# Бандлованные ресурсы для okko-doc-writer
+# Бандлованные ресурсы для design-doc-writer
 
 Содержимое синхронизируется из корневого `design-system/guidelines/` командой `bash scripts/pack-skills.sh`.
 

@@ -26,16 +26,16 @@ mkdir -p "$DIST_DIR"
 
 # Skills, которым нужна выжимка ДС (компоненты/токены/платформы/бренд) в references/
 SKILLS_WITH_DS_REFS=(
-  "okko-ds-librarian"
-  "okko-ds-auditor"
-  "okko-layout-helper"
-  "okko-platform-tv"
-  "okko-platform-mobile"
+  "design-ds-librarian"
+  "design-ds-auditor"
+  "design-layout-helper"
+  "design-platform-tv"
+  "design-platform-mobile"
 )
 
 # Skills, которым нужна выжимка гайдлайнов (STRUCTURE.md + section-templates) в references/
 SKILLS_WITH_GUIDELINES_REFS=(
-  "okko-doc-writer"
+  "design-doc-writer"
 )
 
 for skill_path in "$SKILLS_DIR"/*/; do

@@ -230,7 +230,7 @@ _Подобрать 1–2 полноэкранных скриншота:_
 
 ---
 
-## Сводка для okko-doc-writer
+## Сводка для design-doc-writer
 
 Что заполнено автоматически из данных Figma:
 - ✅ Свойства компонента (variants, text/instance properties)

@@ -1,4 +1,4 @@
-# Бандлованная выжимка ДС для okko-ds-auditor
+# Бандлованная выжимка ДС для design-ds-auditor
 
 Синхронизируется из корневого `design-system/` командой `bash scripts/pack-skills.sh`.
 

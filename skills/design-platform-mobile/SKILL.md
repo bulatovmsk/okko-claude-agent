@@ -1,5 +1,5 @@
 ---
-name: okko-platform-mobile
+name: design-platform-mobile
 description: Эксперт по нюансам мобильных платформ Окко (iOS и Android). Использовать, когда обсуждаются жесты, safe area, hit-area, ripple, swipe-back, dynamic type, TalkBack/VoiceOver, материальный дизайн, HIG. Подключается автоматически другими Skills при платформе iOS или Android.
 ---
 
@@ -10,7 +10,7 @@ description: Эксперт по нюансам мобильных платфо�
 ## Когда срабатывать
 
 - Запросы со словами: «iOS», «iPhone», «iPad», «SwiftUI», «UIKit», «Android», «Material», «Compose», «жест», «свайп», «safe area», «hit-area», «ripple», «long-press», «TalkBack», «VoiceOver»
-- Когда `okko-layout-helper` или `okko-ds-auditor` работают с iOS/Android
+- Когда `design-layout-helper` или `design-ds-auditor` работают с iOS/Android
 - Запросы о различиях iOS vs Android
 
 ## Что знаю
@@ -49,12 +49,12 @@ description: Эксперт по нюансам мобильных платфо�
 
 ## Ограничения
 
-- Не про TV — для TV есть `okko-platform-tv`.
+- Не про TV — для TV есть `design-platform-tv`.
 - Не про web — общие skills либо платформенный файл `web.md` в librarian.
 - Если паттерн в Figma-библиотеке расходится с платформенным гайдом — флагирую и эскалирую.
 
 ## Связь с другими skills
 
-- `okko-ds-librarian` — справочник
-- `okko-ds-auditor` — для платформенного аудита
-- `okko-layout-helper` — при сборке мобильных экранов
+- `design-ds-librarian` — справочник
+- `design-ds-auditor` — для платформенного аудита
+- `design-layout-helper` — при сборке мобильных экранов
