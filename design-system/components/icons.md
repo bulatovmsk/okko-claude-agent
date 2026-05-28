@@ -1,7 +1,7 @@
 # Иконки — Main Pack (Okko Head Library)
-> Источник: файл **Okko Head Library** (fileKey `HYB1u9ysALVWtVWKoagiDH`), секция **Main pack** — node `29361:322`. Только Main Pack (другие паки в базу не вносятся).
+> Источник: file **Okko Head Library** (`HYB1u9ysALVWtVWKoagiDH`), секция **Main pack** — node `29361:322`. Только Main Pack (другие паки в базу не вносятся).
 
-**490 компонентов-иконок** в **16 категориях**. Все — фреймы **24×24px** (единый размер кадра; оптический размер глифа внутри меньше).
+**493 компонентов-иконок** в **16 категориях**. Все — фреймы **24×24px** (единый размер кадра; оптический размер глифа внутри меньше).
 
 ## Конвенция именования
 
@@ -34,6 +34,7 @@
 - Логотипы партнёров/соцсетей — только в санкционированных контекстах (авторизация, партнёрские блоки).
 
 ## Категории
+
 | Категория | Кол-во | Назначение |
 |---|---|---|
 | Menu | 69 | таб-бар и разделы приложения |
@@ -44,7 +45,7 @@
 | Labels | 12 | метки (рубль, подарок, замок) |
 | Notification | 11 | колокольчик, галочки прочтения |
 | Objects | 54 | предметы и сущности (карты, документы, фильтры) |
-| Actions | 51 | действия (добавить, удалить, поделиться) |
+| Actions | 54 | действия (добавить, удалить, поделиться) |
 | Devices | 16 | устройства (TV, телефон, пульт) |
 | Player | 89 | управление плеером |
 | Logotypes | 32 | логотипы Окко, партнёров, соцсетей |
@@ -55,7 +56,7 @@
 
 ## Полный список (по категориям)
 
-<details><summary>Развернуть все 490 иконок</summary>
+<details><summary>Развернуть все иконки</summary>
 
 **Menu** (69): `Avatar`, `Avatar_Bold`, `Avatar_Solid`, `Avatar_Solid_Bold`, `Bag`, `Bag_Bold`, `Bag_Solid`, `Bag_Solid_Bold`, `Ball`, `Ball_Bold`, `Ball_Solid`, `Ball_Solid_Bold`, `Bear`, `Bear_Bold`, `Bear_Solid`, `Bear_Solid_Bold`, `Bookmark`, `Bookmark_Bold`, `Bookmark_Bold_Indicator`, `Bookmark_Indicator`, `Bookmark_Solid`, `Bookmark_Solid_Bold`, `Bookmark_Solid_Bold_Indicator`, `Bookmark_Solid_Indicator`, `Game`, `Game_Bold`, `Game_Solid`, `Game_Solid_Bold`, `Gear`, `Gear_Bold`, `Gear_Solid`, `Gear_Solid_Bold`, `House`, `House_Bold`, `House_Solid`, `House_Solid_Bold`, `Magnifier`, `Magnifier_Bold`, `Magnifier_Solid`, `Magnifier_Solid_Bold`, `Megaphone`, `Megaphone_Bold`, `Megaphone_Solid`, `Megaphone_Solid_Bold`, `Moments`, `Moments_Bold`, `Moments_Solid`, `Play_Catalog`, `Play_Catalog_Bold`, `Play_Catalog_Solid`, `Play_Catalog_Solid_Bold`, `Stack`, `Stack_Bold`, `Stack_Solid`, `Stack_Solid_Bold`, `Subscription`, `Subscription_Bold`, `Subscription_Solid`, `Subscription_Solid_Bold`, `TV_Old`, `TV_Old_Bold`, `TV_Old_Solid`, `TV_Old_Solid_Bold`, `Timer`, `Timer_Bold`, `Timer_Indicator`, `Timer_Indicator_Bold`, `Timer_Solid`, `Timer_Solid_Bold`
 
@@ -73,7 +74,7 @@
 
 **Objects** (54): `AI Kinobi`, `Bank`, `Bank_Bold`, `Call`, `Call_Bold`, `Card_Back`, `Card_Back_Bold`, `Card_Back_CVV`, `Card_Back_CVV_Bold`, `Card_Back_CVV_Light`, `Card_Back_Light`, `Card_Back_Solid`, `Card_Back_Solid_Bold`, `Card_Face`, `Card_Face_Bold`, `Card_Face_Light`, `Chat`, `Chat_Solid_Bold`, `Clock`, `Clock_Bold`, `Document`, `Document_Bold`, `Document_Solid`, `Document_Solid_Bold`, `Documents`, `Email`, `Email_Bold`, `Equalizer_Not_Played`, `Equalizer_Not_Played_Bold`, `Equalizer_Played`, `Equalizer_Played_Bold`, `Filters`, `Filters_Bold`, `Filters_Indicator`, `Filters_Indicator_Bold`, `Focus`, `Focus_Bold`, `Geo`, `Globe`, `Globe_Bold`, `Magic_Solid`, `Moon_Solid`, `Picker`, `Privacy`, `Qr_Code`, `Qr_Code_Bold`, `Shield_Solid`, `Shield_Solid_Bold`, `Stack`, `Ticket_Solid`, `Top`, `Top_Bold`, `Wallet`, `Wallet_Bold`
 
-**Actions** (51): `Calendar`, `Calendar_Add`, `Calendar_Bold`, `Circle_Crossed`, `Circle_Crossed_Bold`, `Clear`, `Clear_Bold`, `Copy`, `Copy_Bold`, `Cross`, `Cross_Bold`, `Cross_Small`, `Cross_Small_Bold`, `Cross_Solid`, `Download`, `Eye`, `Eye_Bold`, `Eye_Crossed`, `Eye_Crossed_Bold`, `Info_Symbol`, `Info_Symbol_Bold`, `KeyboardAbove_Solid`, `KeyboardAbove_Solid_Bold`, `Keyboard_Bold`, `Keyboard_Solid_Bold`, `Medal`, `Medal_Bold`, `Minus`, `Minus_Bold`, `Move`, `Move_Bold`, `Pencil`, `Pencil_Bold`, `Play`, `Play_Bold`, `Plus`, `Plus_Bold`, `Plus_Circled`, `Plus_Circled_Bold`, `Plus_Circled_Light`, `Plus_Small`, `Plus_Small_Bold`, `Share`, `Share_Bold`, `Trash`, `Trash_Bold`, `Trash_Detailed`, `Trash_Detailed_Bold`, `Upper_Case_Bold`, `Upper_Case_Long_Solid`, `Upper_Case_On_One_Solid`
+**Actions** (54): `Bubokko`, `Calendar`, `Calendar_Add`, `Calendar_Bold`, `Circle_Crossed`, `Circle_Crossed_Bold`, `Clear`, `Clear_Bold`, `Copy`, `Copy_Bold`, `Cross`, `Cross_Bold`, `Cross_Small`, `Cross_Small_Bold`, `Cross_Solid`, `Download`, `Eye`, `Eye_Bold`, `Eye_Crossed`, `Eye_Crossed_Bold`, `Info_Symbol`, `Info_Symbol_Bold`, `KeyboardAbove_Solid`, `KeyboardAbove_Solid_Bold`, `Keyboard_Bold`, `Keyboard_Solid_Bold`, `Medal`, `Medal_Bold`, `Minus`, `Minus_Bold`, `Move`, `Move_Bold`, `Pencil`, `Pencil_Bold`, `Pencil_NEW`, `Play`, `Play_Bold`, `Plus`, `Plus_Bold`, `Plus_Circled`, `Plus_Circled_Bold`, `Plus_Circled_Light`, `Plus_Small`, `Plus_Small_Bold`, `Prime`, `Share`, `Share_Bold`, `Trash`, `Trash_Bold`, `Trash_Detailed`, `Trash_Detailed_Bold`, `Upper_Case_Bold`, `Upper_Case_Long_Solid`, `Upper_Case_On_One_Solid`
 
 **Devices** (16): `Computer`, `Computer_Bold`, `Connected_Devices`, `Connected_Devices_Bold`, `Phone`, `Phone_Bold`, `Remote`, `Remote_Bold`, `Remote_Rotated`, `Remote_Rotated_Bold`, `TV`, `TV_Bold`, `TV_Box`, `TV_Box_Bold`, `Tablet`, `Tablet_Bold`
 
@@ -91,6 +92,34 @@
 
 </details>
 
+## Правила выбора модификатора
+
+Какой суффикс брать в каком контексте — это редактируемый раздел, `sync` его **не перезаписывает**.
+
+| Контекст | Модификатор | Почему |
+|---|---|---|
+| Таб-бар: активная вкладка | `_Solid_Bold` (или `_Bold` если нет Solid) | максимальная заметность, контраст с inactive |
+| Таб-бар: неактивная вкладка | base (без суффикса), реже `_Light` | приглушённое состояние, экономия акцента |
+| Иконка в Chips / Select / Button (контурная) | base или `_Bold` (в зависимости от размера компонента) | гармонирует с тонкой обводкой компонента |
+| Иконка в filled-кнопке (Primary, Action) | `_Solid` | заливка под заливку, не «дырявит» кнопку |
+| Иконка с уведомлением (точка-бейдж) | `_Indicator` (тот же глиф + `Badge`) | бейдж — отдельный VECTOR, цвет через переменную (акцент / негатив) |
+| Иконка для выбранного состояния (Chips=Selected, Tab=active) | `_Solid_Bold` или `_Bold` (если в покое — base) | визуально отличает выбранное от обычного |
+| Логотипы (Okko, партнёры, соцсети) | `_Color` или просто из категории `Logotypes/*` | фиксированные фирменные цвета, нельзя перекрашивать |
+| Многоцветные смысловые (Football/Cards, Mark/Thumbs_Up_Color) | `_Color` | многоцветность — часть знака |
+| Контекст с очень тонкой графикой / 16pt-иконка | `_Light` | тоньше базового, не «выпирает» в плотных макетах |
+
+**Парные варианты:** один глиф (например `Magnifier`) есть в base/`_Bold`/`_Solid`/`_Solid_Bold`. В одном экране **придерживайся одного веса** — не смешивай base и Bold в одной строке.
+
+**Цвет:** монохромные модификаторы (всё, кроме `_Color`) перекрашиваются цветом контекста. Применяй переменную `color.text-icon.*` (см. [`design-system/tokens/colors.md`](../tokens/colors.md#a3-semantic-токены--color-применять-в-макетах)) — `primary` для активного состояния, `secondary` для приглушённого, `accent` для акцентных action-иконок.
+
 ## Источник
 
 - Figma `HYB1u9ysALVWtVWKoagiDH` node `29361:322` (секция Main pack).
+
+## Обновление
+
+```bash
+bash scripts/figma-sync-head-library.sh icons
+```
+
+Скрипт перепишет всё, **кроме раздела «Правила выбора модификатора»** (он редактируется вручную и сохраняется при синке).

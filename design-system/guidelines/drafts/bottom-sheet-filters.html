@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+<title>BottomSheetFilters — гайдлайн</title>
+<style>
+  :root {
+    --bg:#0F1014; --bg-2:#1A1B22; --bg-3:#232430;
+    --text:rgba(255,255,255,0.96); --text-muted:rgba(255,255,255,0.6); --text-dim:rgba(255,255,255,0.4);
+    --border:rgba(255,255,255,0.08); --accent:#8A6CFF; --success:#5CCE6F; --error:#FF5D6E; --warn:#FFB13D;
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:14px/1.5 -apple-system,BlinkMacSystemFont,"Suisse Int'l","Inter",sans-serif; padding:56px 64px; }
+  .doc { max-width:1400px; margin:0 auto; }
+  h1 { font-size:64px; font-weight:600; letter-spacing:-1px; margin:0 0 12px; }
+  h2 { font-size:32px; font-weight:600; margin:72px 0 16px; padding-top:24px; border-top:1px solid var(--border); }
+  h3 { font-size:20px; font-weight:600; margin:36px 0 8px; }
+  h4 { font-size:15px; font-weight:600; margin:24px 0 6px; color:var(--text); }
+  .lede { font-size:18px; line-height:1.55; color:var(--text-muted); max-width:900px; margin:0 0 20px; }
+  .meta { font-size:12px; color:var(--text-dim); margin:4px 0 32px; }
+  ul.features { list-style:none; padding:0; margin:0 0 24px; color:var(--text-muted); }
+  ul.features li::before { content:"— "; color:var(--text-dim); }
+  ul { color:var(--text-muted); }
+  .chips-row { display:flex; gap:12px; flex-wrap:wrap; margin:24px 0 12px; }
+  .anchor { display:inline-block; padding:8px 14px; background:var(--bg-2); color:var(--text-muted); border-radius:100px; font-size:13px; text-decoration:none; }
+  .anchor:hover { background:var(--bg-3); color:var(--text); }
+  .frame { background:var(--bg-2); border-radius:16px; padding:32px; margin:16px 0; }
+  .frame--note { background:rgba(255,177,61,0.08); border:1px solid rgba(255,177,61,0.3); }
+  .frame--note p { color:var(--warn); margin:0; }
+  .grid { display:grid; gap:24px; }
+  .grid-2 { grid-template-columns:repeat(2,1fr); }
+  .grid-3 { grid-template-columns:repeat(3,1fr); }
+  .grid-4 { grid-template-columns:repeat(4,1fr); }
+  table { width:100%; border-collapse:collapse; margin:16px 0; }
+  th,td { text-align:left; padding:12px 16px; border-bottom:1px solid var(--border); font-size:13px; vertical-align:top; }
+  th { color:var(--text-dim); font-weight:500; }
+  td strong { color:var(--text); }
+  .card { background:var(--bg-2); border-radius:16px; padding:24px; }
+  .card h3, .card h4 { margin-top:0; }
+  .pill { display:inline-block; font-size:11px; font-weight:600; letter-spacing:0.4px; padding:3px 9px; border-radius:100px; margin:0 6px 6px 0; }
+  .pill--single { background:rgba(138,108,255,0.18); color:var(--accent); }
+  .pill--multi { background:rgba(92,206,111,0.16); color:var(--success); }
+  .pill--special { background:rgba(255,177,61,0.16); color:var(--warn); }
+  .anatomy { background:var(--bg-3); border-radius:12px; padding:40px; }
+  .anatomy ol { color:var(--text-muted); margin:0; padding-left:20px; }
+  .anatomy li { padding:6px 0; }
+  .shot { width:100%; border-radius:14px; border:1px solid var(--border); display:block; }
+  .shot-wrap { background:var(--bg-3); border-radius:16px; padding:16px; }
+  .cap-dim { font-size:12px; color:var(--text-dim); margin:8px 0 0; text-align:center; }
+  code { background:var(--bg-3); padding:1px 6px; border-radius:4px; font-size:12px; color:var(--accent); }
+  hr { border:0; border-top:1px solid var(--border); margin:48px 0; }
+  p { color:var(--text-muted); }
+  strong { color:var(--text); font-weight:500; }
+  .ok { color:var(--success); } .no { color:var(--error); } .warn-t { color:var(--warn); }
+  .tag-disabled { color:var(--text-dim); }
+  .debt { background:rgba(255,93,110,0.08); border:1px solid rgba(255,93,110,0.3); border-radius:12px; padding:18px 22px; }
+  .debt p { color:var(--error); margin:0 0 6px; }
+  .debt p:last-child { margin:0; }
+</style>
+</head>
+<body>
+<div class="doc">
+
+  <h1>BottomSheetFilters</h1>
+  <p class="lede">Шаблон шторки выбора (<code>Шаблоны шторки / Фильтры</code>) с поиском, списком опций и кнопками внизу. Появляется при тапе на <strong>Select</strong> — раскрывает список значений фильтра. Построен на <strong>Sheet Native</strong>.</p>
+  <p class="meta">Источник: Lib-iOS (<code>rMcDm5qGp4CXkXXddEbcMh</code>) · COMPONENT_SET <code>37390:49620</code> · база — <code>🟢Sheet Native (37371:7396)</code>. Тема — Dark.</p>
+
+  <ul class="features">
+    <li>Header (заголовок фильтра + ×), Search Input, прокручиваемый список опций, две кнопки внизу: <strong>Сбросить</strong> и <strong>Применить</strong></li>
+    <li>4 заложенных варианта логики выбора — сингл с дефолтом / мульти без / сингл без / выбор города</li>
+    <li>Адаптируется под iPhone (прижат к низу) и iPad (плавающий по центру)</li>
+  </ul>
+
+  <div class="chips-row">
+    <a class="anchor" href="#when">Когда</a>
+    <a class="anchor" href="#anatomy">Анатомия</a>
+    <a class="anchor" href="#props">Свойства</a>
+    <a class="anchor" href="#sizes">Размеры</a>
+    <a class="anchor" href="#types">Типы выбора</a>
+    <a class="anchor" href="#buttons">Кнопки</a>
+    <a class="anchor" href="#search">Поиск</a>
+    <a class="anchor" href="#application">Применение</a>
+    <a class="anchor" href="#related">Связанные</a>
+  </div>
+
+  <!-- ───────────── Когда ───────────── -->
+  <h2 id="when">Когда использовать</h2>
+  <ul>
+    <li>Раскрытие списка опций по тапу на <code>Select</code></li>
+    <li>Выбор значений фильтра с поиском и подтверждением (Применить / Сбросить)</li>
+    <li>Длинный/прокручиваемый список опций, который не помещается в Chips</li>
+  </ul>
+
+  <h3>Когда НЕ использовать</h3>
+  <table>
+    <tr><th>Сценарий</th><th>Вместо</th></tr>
+    <tr><td>Короткий список, варианты помещаются на экран</td><td><code>Chips</code> (без шторки)</td></tr>
+    <tr><td>Произвольный контент шторки (не фильтр)</td><td><code>BottomSheet</code> / <code>Sheet Native</code> напрямую</td></tr>
+    <tr><td>Полноэкранный сценарий / отдельный шаг флоу</td><td>Отдельный экран (push)</td></tr>
+  </table>
+
+  <!-- ───────────── Анатомия ───────────── -->
+  <h2 id="anatomy">Анатомия</h2>
+  <p>Инстанс <code>🟢Sheet Native</code> (Scrim + Sheet + Header), у которого <code>Slot Box</code> заполнен содержимым фильтра:</p>
+  <div class="anatomy">
+    <ol>
+      <li><strong>Header</strong> (48pt) — заголовок фильтра + кнопка закрытия (×)</li>
+      <li><strong>Search Input</strong> (54pt, Searchbar) — поиск по списку опций</li>
+      <li><strong>List</strong> — прокручиваемый список строк <code>List Item V2</code> (52pt каждая)</li>
+      <li><strong>Button Box</strong> (футер) — две кнопки <code>Button</code> 190×48: <strong>Сбросить</strong> и <strong>Применить</strong></li>
+    </ol>
+  </div>
+  <p>Наследует от Sheet Native: scrim (чёрный 56%), радиус листа 16 (iPhone — только верхние углы, iPad — все углы).</p>
+
+  <!-- ───────────── Свойства ───────────── -->
+  <h2 id="props">Свойства</h2>
+  <table>
+    <tr><th>Свойство</th><th>Тип</th><th>Значения</th></tr>
+    <tr><td><code>Device</code></td><td>variant</td><td>iPhone / iPad</td></tr>
+  </table>
+  <p>Наполнение (заголовок, состав списка, тексты кнопок) задаётся через слоты и инстансы внутри (Header, List Item V2, Button).</p>
+
+  <!-- ───────────── Размеры ───────────── -->
+  <h2 id="sizes">Размеры и поведение</h2>
+  <table>
+    <tr><th>Параметр</th><th>iPhone</th><th>iPad</th></tr>
+    <tr><td>Кадр</td><td>390×721</td><td>1080×1080</td></tr>
+    <tr><td>Лист (Sheet)</td><td>390×430, прижат к низу</td><td>620×634, плавающий по центру</td></tr>
+    <tr><td>Радиус листа</td><td>16 (верхние углы)</td><td>16 (все углы)</td></tr>
+    <tr><td>Scrim</td><td>чёрный 56%</td><td>чёрный 56%</td></tr>
+    <tr><td>Header</td><td>48pt</td><td>48pt</td></tr>
+    <tr><td>Search Input</td><td>54pt</td><td>54pt</td></tr>
+    <tr><td>Строка списка</td><td>52pt</td><td>52pt</td></tr>
+    <tr><td>Кнопка футера</td><td>190×48</td><td>190×48</td></tr>
+  </table>
+
+  <!-- ───────────── Типы выбора ───────────── -->
+  <h2 id="types">Варианты фильтра</h2>
+  <p>В шаблоне заложены 4 варианта логики. Отличаются изначальным состоянием, типом выбора и поведением кнопок.</p>
+  <table>
+    <tr>
+      <th>Вариант</th><th>Старт</th><th>Тип выбора</th>
+      <th>«Сбросить»</th><th>Что показывает Select</th><th>× на Select</th>
+    </tr>
+    <tr>
+      <td><span class="pill pill--single">1. Сингл с дефолтом</span></td>
+      <td>дефолтное значение выбрано (✓)</td><td>одиночный</td>
+      <td>есть; <strong>disabled</strong> пока стоит дефолт</td>
+      <td>имя выбранного значения</td>
+      <td>сброс <strong>до дефолта</strong></td>
+    </tr>
+    <tr>
+      <td><span class="pill pill--multi">2. Мульти без дефолта</span></td>
+      <td>всегда пусто</td><td>множественный (по «ИЛИ»)</td>
+      <td>есть; disabled пока пусто</td>
+      <td>counter (число выбранных)</td>
+      <td>очистка <strong>до пуста</strong></td>
+    </tr>
+    <tr>
+      <td><span class="pill pill--single">3. Сингл без дефолта</span></td>
+      <td>пусто</td><td>одиночный</td>
+      <td>есть; disabled пока пусто</td>
+      <td>имя значения + ×</td>
+      <td>очистка <strong>до пуста</strong></td>
+    </tr>
+    <tr>
+      <td><span class="pill pill--special">4. Выбор города</span></td>
+      <td>город всегда выбран</td><td>одиночный, обязательный, с поиском</td>
+      <td class="no">нет — значение обязательно</td>
+      <td>имя города</td>
+      <td class="tag-disabled">— нельзя очистить</td>
+    </tr>
+  </table>
+  <div class="frame frame--note"><p>Множественный выбор всегда работает по принципу <strong>«ИЛИ»</strong>. Единичный — при смене значения предыдущее сбрасывается.</p></div>
+
+  <!-- ───────────── Кнопки ───────────── -->
+  <h2 id="buttons">Кнопки: Применить / Сбросить</h2>
+  <div class="grid grid-2">
+    <div class="card">
+      <h4>Применить</h4>
+      <ul>
+        <li>Присутствует всегда. Применяет выбор и <strong>закрывает шторку</strong></li>
+        <li>Выбор применяется <strong>только по этой кнопке</strong></li>
+        <li>В выборе города — на всю ширину (т.к. «Сбросить» нет)</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h4>Сбросить</h4>
+      <ul>
+        <li><strong>Disabled</strong>, пока выбор не менялся (дефолт для №1, пусто для №2–3)</li>
+        <li><strong>Активируется</strong>, как только выбор изменён</li>
+        <li>Возвращает к изначальному состоянию (дефолт / пусто)</li>
+        <li>В выборе города кнопки нет</li>
+      </ul>
+    </div>
+  </div>
+  <div class="frame frame--note"><p>Закрытие шторки <strong>без «Применить»</strong> (×, свайп вниз, тап по затемнению) — выбор <strong>не применяется</strong>: фильтр остаётся как был.</p></div>
+
+  <!-- ───────────── Поиск ───────────── -->
+  <h2 id="search">Поиск внутри шторки</h2>
+  <p>Показ поля поиска зависит от числа вариантов в списке.</p>
+  <table>
+    <tr><th>Количество вариантов</th><th>Поиск</th></tr>
+    <tr><td><strong>&gt; 20</strong></td><td class="ok">показываем</td></tr>
+    <tr><td><strong>&lt; 20</strong> («мало вариантов»)</td><td class="no">не показываем</td></tr>
+    <tr><td><strong>очень мало</strong> (помещается на один экран)</td><td class="no">не нужен</td></tr>
+  </table>
+
+  <h3>Поведение списка</h3>
+  <ul>
+    <li><strong>Первое посещение</strong> — список в обычном порядке</li>
+    <li><strong>Повторное посещение</strong> — ранее выбранные пункты поднимаются <strong>наверх</strong> списка</li>
+    <li><strong>Снятие выбора при повторном входе</strong> — снятые айтемы остаются на своих местах</li>
+  </ul>
+
+  <!-- ───────────── Применение ───────────── -->
+  <h2 id="application">Применение в продукте</h2>
+  <p>Шторка вызывается тапом на <code>Select</code> в строке фильтров каталога / категории / Афиши.</p>
+
+  <h3>Реальные экраны</h3>
+  <div class="grid grid-3">
+    <figure class="shot-wrap" style="margin:0">
+      <img class="shot" src="../../components/assets/filters-collection-category-filters.png" alt="Активные фильтры в строке" />
+      <figcaption class="cap-dim">Откуда вызывается: строка фильтров с Chips и Select сверху грида</figcaption>
+    </figure>
+    <figure class="shot-wrap" style="margin:0">
+      <img class="shot" src="../../components/assets/filters-collection-category-sort.png" alt="Шторка сортировки" />
+      <figcaption class="cap-dim">Сингл с дефолтом: «Рекомендуемые ✓» / Высокий рейтинг / Новые. Здесь «Применить» на всю ширину</figcaption>
+    </figure>
+    <figure class="shot-wrap" style="margin:0">
+      <img class="shot" src="../../components/assets/filters-collection-null-state.png" alt="Нулевое состояние" />
+      <figcaption class="cap-dim">Состояние, в которое можно прийти, если фильтр обнулил выдачу</figcaption>
+    </figure>
+  </div>
+
+  <h3>Сценарий — мультивыбор «Жанр»</h3>
+  <ol style="color:var(--text-muted)">
+    <li>Тап по <code>Select</code> «Жанр» → шторка «Жанры» (пусто, «Сбросить» disabled; поиск если жанров &gt;20).</li>
+    <li>Отмечаем Ужасы / Приключения / Комедии → «Сбросить» активна.</li>
+    <li>«Применить» → шторка закрывается, Select показывает counter «Жанры · 3» и уезжает в начало строки (анимация 300 ms).</li>
+    <li>Повторное открытие — выбранные жанры показаны наверху списка.</li>
+  </ol>
+
+  <h3>Сценарий — сортировка (сингл с дефолтом)</h3>
+  <ol style="color:var(--text-muted)">
+    <li>Тап по «Сортировка» → шторка с выбранным по умолчанию «Рекомендуемые ✓», «Сбросить» disabled.</li>
+    <li>Выбираем «А-Я» → предыдущее значение сбрасывается, «Сбросить» активна.</li>
+    <li>«Применить» → чип показывает имя «А-Я».</li>
+  </ol>
+
+  <h3>Уникальный кейс — выбор города</h3>
+  <ul>
+    <li>Город обязателен и всегда имеет значение → <strong>«Сбросить» отсутствует</strong>, только «Применить» на всю ширину.</li>
+    <li>Есть поиск «Найти город» (всегда).</li>
+    <li>Выбранный город закреплён вверху списка, остальные — по алфавиту.</li>
+    <li>Полноэкранная подача (поверх главного экрана), не компактная шторка.</li>
+  </ul>
+
+  <!-- ───────────── Тех-долг ───────────── -->
+  <h2>Тех-долг</h2>
+  <div class="debt">
+    <p>⚠️ Строки списка собраны на <code>🟡 List Item V2</code> — статус «в работе», не финальный.</p>
+    <p>⚠️ Унаследовано от Sheet Native: кнопка закрытия в хедере — <code>🔴 [Deprecated] mini Button</code>. Заменить при стабилизации.</p>
+    <p>⚠️ Расхождение паттерна: в шторке Афиши «Сбросить» — внутри шторки; в sort-шторке каталога «Применить» на всю ширину, а сброс вынесен на страницу. Требует унификации.</p>
+  </div>
+
+  <!-- ───────────── Связанные ───────────── -->
+  <h2 id="related">Связанные компоненты</h2>
+  <ul>
+    <li><strong>Select</strong> — вызывает эту шторку при раскрытии</li>
+    <li><strong>Sheet Native</strong> — база, на которой собран шаблон (scrim, Sheet, Header)</li>
+    <li><strong>BottomSheet</strong> (кастомный) — для произвольного контента шторки, когда нужен контроль detent/высоты/жестов</li>
+    <li><strong>Chips</strong> — альтернатива, когда варианты помещаются на экран без шторки</li>
+    <li><strong>List Item V2</strong> — строка опции в списке</li>
+    <li><strong>Search Input</strong> — поиск по списку</li>
+    <li><strong>Button</strong> — кнопки футера</li>
+  </ul>
+
+  <hr />
+  <p class="meta">Гайд BottomSheetFilters (Шаблоны шторки / Фильтры) · собрано из карточек sheet-template-filters.md / filters-group.md / bottom-sheet-native.md + продуктовых кейсов. Окко DS.</p>
+
+</div>
+</body>
+</html>
