@@ -112,14 +112,54 @@
 
 ---
 
-### Lib-Android, Lib-TV, Lib-Web — TBD
+### 🦍 Tokens [tv]  (системные токены для TV: spacing / corner-radius / typography)
 
-Платформенные библиотеки пока не зафиксированы в реестре. Когда будут — добавить сюда fileKey, активный бранч и ключевые nodeId.
+| Параметр | Значение |
+|---|---|
+| fileKey | `Zn2JrOHhSURjCuUEp6JcI8` |
+| URL | https://www.figma.com/design/Zn2JrOHhSURjCuUEp6JcI8 |
+| Назначение | Системные токены для Smart TV / Android TV (1920×1080): 24 spacing-токена + 2 screen-padding + 31 corner-radius (16 regular + 15 focus) + 30 published TEXT-стилей. |
+| Используется в | Lib-TV (`Q3DVcDJnhMCtpdQAUoDPrp`) |
+
+**Ключевые страницы:**
+
+| Назначение | nodeId | Локальный кэш |
+|---|---|---|
+| Text Styles (30 published TEXT-стилей: H1/H2/H3, Body 1–4, Button, Label, Others) | `0:1` | [`design-system/tokens/typography-tv.md`](../../../design-system/tokens/typography-tv.md) |
+| Spacing (24 token + 2 screen-padding) | `857:2088` (+ Guide `859:2964`) | [`design-system/tokens/spacing-tv.md`](../../../design-system/tokens/spacing-tv.md) |
+| Corner-radius regular (16 токенов) | `859:3226` | [`design-system/tokens/corner-radius-tv.md`](../../../design-system/tokens/corner-radius-tv.md) |
+| Corner-radius focus (15 токенов, outline при наведении пультом) | `3143:465` | там же |
+| Changelog | `3123:2137` | — |
+
+> **NUMBER variables** (spacing/corner-radius) лежат в коллекции **`Semantic`** с единственным модом **`TV`**. REST `/variables/local` → 403 — забираем через Plugin API в `use_figma` (`__NUMBER_VARDEFS_DUMP_TV__`).
+>
+> **Focus-radius** — TV-специфика: outline при навигации пультом. Значение `corner-radius/focus/X` = `corner-radius/X` + 6px (компенсация толщины контура).
+
+---
+
+### Lib-TV (платформенная библиотека компонентов для Smart TV / Android TV)
+
+| Параметр | Значение |
+|---|---|
+| fileKey | `Q3DVcDJnhMCtpdQAUoDPrp` |
+| URL | https://www.figma.com/design/Q3DVcDJnhMCtpdQAUoDPrp/Lib-TV |
+| Платформа | Smart TV (webOS, Tizen) + Android TV, разрешение 1920×1080 |
+| Зависит от | 🦍 Tokens [tv] (системные токены) + Okko Head Library (цвета, иконки, иллюстрации) |
+
+**Ключевые гайд-страницы:**
+
+| Назначение | nodeId | Что там |
+|---|---|---|
+| Grid & Safezones & Spacing | `12902:105094` | **Гайд-описание правил** (модуль 8px, safe-zones 102/78/60). Не источник токенов — для понимания правил. Сами токены — в 🦍 Tokens [tv]. |
+| Текстовые блоки 🦍 | `6943:28698` | Композитные блоки (h1+body, h2+body…) — примеры применения TEXT-стилей |
+
+---
+
+### Lib-Android, Lib-Web — TBD
 
 | Библиотека | fileKey | Статус |
 |---|---|---|
 | Lib-Android | — | TBD |
-| Lib-TV (Android TV + SmartTV Web: webOS, Tizen) | — | TBD |
 | Lib-Web | — | TBD |
 
 ---
@@ -140,9 +180,10 @@
 ```
 Okko Head Library          ── цвета, иконки, иллюстрации ──┐
 🦖 Tokens [mobile & web]   ── spacing/corner/typography ────┤
+🦍 Tokens [tv]             ── spacing/corner/typography ────┤
                                                             ├─→ Lib-iOS ──компоненты──┐
                                                             ├─→ Lib-Android (TBD) ────┤─→ Продуктовые файлы
-                                                            ├─→ Lib-TV (TBD)      ────┤   (Афиша, ios-коллекции…)
+                                                            ├─→ Lib-TV ───────────────┤   (Афиша, ios-коллекции…)
                                                             └─→ Lib-Web (TBD)     ────┘
 ```
 

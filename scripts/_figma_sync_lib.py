@@ -806,6 +806,235 @@ def write_number_var_skeleton(out_path, title, source_node, source_page, intro,
 
 
 # ============================================================
+# TV TOKENS — file 🦍 Tokens [tv]  (Zn2JrOHhSURjCuUEp6JcI8)
+# ============================================================
+
+TOKENS_TV_FILE_KEY = "Zn2JrOHhSURjCuUEp6JcI8"
+
+TV_TYPO_GROUP_ORDER = ['Headings', 'Body', 'Buttons', 'Labels', 'Others']
+
+
+def classify_tv_style(name):
+    """TV TEXT-стили: группа + полное имя. Один-в-один не из mobile/web."""
+    if '/' in name:
+        head, _, _ = name.partition('/')
+    else:
+        head = name
+    base = head.strip()
+    first_word = base.split()[0] if base else ''
+    if base in ('H1', 'H2', 'H3') or first_word in ('H1', 'H2', 'H3'):
+        return 'Headings'
+    if first_word == 'Body':
+        return 'Body'
+    if first_word == 'Button':
+        return 'Buttons'
+    if first_word in ('Label',):
+        return 'Labels'
+    return 'Others'
+
+
+def render_tv_typo_table(rows):
+    """rows: list[(name, props)] → 2-колоночная таблица."""
+    if not rows:
+        return "_нет стилей_\n"
+    L = ["| Стиль | Размер · Line-height · Weight |\n", "|---|---|\n"]
+    for name, props in sorted(rows, key=lambda r: r[0]):
+        L.append(f"| **{name}** | {fmt_typography_cell(props)} |\n")
+    return ''.join(L)
+
+
+def cmd_typography_tv_fetch(cache_dir):
+    styles = json.load(open(os.path.join(cache_dir, 'styles.json')))
+    fills = [s for s in styles['meta']['styles']
+             if s['style_type'] == 'TEXT' and not s['name'].startswith('[Deprecated]')]
+    ids = [s['node_id'] for s in fills]
+    nodes = fetch_style_nodes_chunked(TOKENS_TV_FILE_KEY, ids)
+    with open(os.path.join(cache_dir, 'style-nodes.json'), 'w') as f:
+        json.dump(nodes, f)
+
+
+def cmd_typography_tv(cache_dir, out_path):
+    styles = json.load(open(os.path.join(cache_dir, 'styles.json')))
+    nodes = json.load(open(os.path.join(cache_dir, 'style-nodes.json')))
+    fills = [s for s in styles['meta']['styles']
+             if s['style_type'] == 'TEXT' and not s['name'].startswith('[Deprecated]')]
+
+    by_group = {g: [] for g in TV_TYPO_GROUP_ORDER}
+    family_counter = Counter()
+    for s in fills:
+        node = nodes['nodes'].get(s['node_id'])
+        if not node:
+            continue
+        props = extract_typography_props(node)
+        if props.get('fontFamily'):
+            family_counter[props['fontFamily']] += 1
+        by_group[classify_tv_style(s['name'])].append((s['name'], props))
+
+    L = []
+    L.append("# Типографика — Tokens [tv]\n")
+    L.append(f"> Источник: file **🦍 Tokens [tv]** (`{TOKENS_TV_FILE_KEY}`), страница **Text Styles** — node `0:1`. "
+             f"Опубликованных TEXT-стилей — **{len(fills)}**. Резолв: REST `/styles` + дозапрос `/nodes`.\n\n")
+    L.append("**Формат ячейки:** `<size>/<line-height> · <weight>` (опц. `· ls <letter-spacing>`).\n\n")
+    if family_counter:
+        L.append("**Шрифты в файле:** " + ', '.join(f"`{f}` ({n})" for f, n in family_counter.most_common(5)) + "\n\n")
+    L.append("Все стили — для разрешения 1920×1080 (Smart TV / Android TV). Платформенных вариантов нет — один стиль на устройство.\n\n")
+
+    for group in TV_TYPO_GROUP_ORDER:
+        if not by_group[group]:
+            continue
+        L.append(f"---\n\n## {group}\n\n")
+        L.append(render_tv_typo_table(by_group[group]))
+        L.append("\n")
+
+    L.append("""---
+
+## Правила выбора стиля
+
+> Раздел редактируется вручную и **не перезаписывается** при `sync`.
+
+| Контекст | Стиль |
+|---|---|
+| Главный заголовок экрана | `H2` |
+| Подзаголовок раздела | `H3` |
+| Основной текст | `Body 1/Default` |
+| Акцентный текст в карточке | `Body 1/Accent` или `Body 2/Accent` |
+| Caption / мелкие пояснения | `Body 3/Default` |
+| Подпись кнопки | `Button/Large` |
+| Лейбл бонуса/значка | `Label/Bonus` |
+| Пункт меню | `Others/Menu Item` |
+
+**TV-специфика:** все размеры рассчитаны на расстояние просмотра ≈ 3 м. Не использовать `Body 3` для контента — только для caption/служебных подписей.
+
+---
+
+## Обновление
+
+```bash
+bash scripts/figma-sync-tokens.sh typography-tv
+```
+
+Скрипт перепишет основной контент. Раздел «Правила выбора стиля» сохраняется.
+""")
+
+    rules_block = ''
+    if os.path.exists(out_path):
+        old = open(out_path).read()
+        m = re.search(r'(## Правила выбора стиля\n.*?)(?=\n## Обновление|\Z)', old, re.S)
+        if m:
+            rules_block = '\n' + m.group(1).rstrip() + '\n\n---\n\n'
+
+    new_text = ''.join(L)
+    if rules_block:
+        new_text = re.sub(
+            r'\n## Правила выбора стиля\n.*?\n\n---\n\n## Обновление\n',
+            rules_block + '## Обновление\n',
+            new_text, count=1, flags=re.S
+        )
+
+    with open(out_path, 'w') as f:
+        f.write(new_text)
+
+
+DEFAULT_TV_SPACING_RULES = """\
+| Контекст | Токен |
+|---|---|
+| Базовый модуль | 8px (рекомендация: использовать кратные модулю) |
+| Внутренний padding кнопки/чипса | `spacing.s` / `spacing.m` |
+| Gap между элементами строки (chip-ряд, top-навигация) | `spacing.s` |
+| Внутренний padding карточки контента / постера | `spacing.m` или `spacing.l` |
+| Отступ между секциями экрана | `spacing.xl` или больше |
+| Safe-zone (1920×1080) | left 102 / right 78 / top-bottom 60 — НЕ token, а правило страницы |
+
+Подробное визуальное гайд-описание см. в Lib-TV: `Grid & Safezones & Spacing` (12902:105094). Конкретные значения токенов — в таблице выше.
+"""
+
+DEFAULT_TV_CORNER_RADIUS_RULES = """\
+| Контекст | Токен |
+|---|---|
+| Маленькие чипсы, теги | `radius.s` |
+| Кнопки (Default-стейт) | `radius.m` |
+| Карточки контента, постеры | `radius.l` или `radius.xl` |
+| Большие модалки/шторки | `radius.xl` |
+| Полностью круглые (avatars) | `radius.full` / 9999 |
+
+**Focus-radius:** при наведении пультом радиус контура отличается от обычного — см. отдельную таблицу `Corner-radius focus` выше. Применять focus-вариант для outline вокруг компонента в состоянии focus, обычный — для самого компонента.
+"""
+
+
+def write_tv_number_var_skeleton(out_path, title, source_node, source_page, intro,
+                                 marker, rules, target_arg, extra_section=''):
+    rules_block = ''
+    if os.path.exists(out_path):
+        old = open(out_path).read()
+        m = re.search(r'(## Правила выбора\n.*?)(?=\n## Обновление|\Z)', old, re.S)
+        if m:
+            rules_block = m.group(1).rstrip() + '\n\n---\n\n'
+
+    if not rules_block:
+        rules_block = "## Правила выбора\n\n" + rules + "\n---\n\n"
+
+    L = [
+        f"# {title} — Tokens [tv]\n",
+        f"> Источник: file **🦍 Tokens [tv]** (`{TOKENS_TV_FILE_KEY}`), "
+        f"страница **{source_page}** — node `{source_node}`. "
+        f"Токены — NUMBER variables Figma (REST не отдаёт значений, забираются через Plugin API).\n\n",
+        intro + "\n\n",
+        "## Токены\n\n",
+        f"<!-- {marker} — заполняется через use_figma + figma.variables.* -->\n\n",
+        "_Если таблица пустая или содержит маркер выше — запусти команду из раздела «Обновление»; "
+        "затем скил `design-figma-libraries` пройдётся через MCP `use_figma` Plugin API "
+        "и впишет значения._\n\n",
+    ]
+    if extra_section:
+        L.append(extra_section)
+    L.extend([
+        "---\n\n",
+        rules_block,
+        f"## Обновление\n\n```bash\nbash scripts/figma-sync-tokens.sh {target_arg}\n```\n\n",
+        f"Скрипт обновит шапку и скелет. Resolved-значения NUMBER-переменных подставляет скил через "
+        f"`use_figma` (Plugin API, fileKey `{TOKENS_TV_FILE_KEY}`).\n",
+        "Раздел «Правила выбора» сохраняется при пересборе.\n",
+    ])
+    with open(out_path, 'w') as f:
+        f.write(''.join(L))
+
+
+def cmd_spacing_tv(cache_dir, out_path):
+    write_tv_number_var_skeleton(
+        out_path=out_path,
+        title='Spacing',
+        source_node='857:2088',
+        source_page='Spacing',
+        intro=("Токены отступов для TV-интерфейса (Smart TV / Android TV, 1920×1080). "
+               "Базовый модуль — 8px. Это **NUMBER variables** Figma."),
+        marker='VARDEFS_FROM_PLUGIN_API:spacing-tv',
+        rules=DEFAULT_TV_SPACING_RULES,
+        target_arg='spacing-tv',
+    )
+
+
+def cmd_corner_radius_tv(cache_dir, out_path):
+    extra = (
+        "### Focus-radius\n\n"
+        "<!-- VARDEFS_FROM_PLUGIN_API:corner-radius-tv-focus — заполняется отдельной таблицей -->\n\n"
+        "_TV-специфика: при наведении пультом контур имеет отдельный радиус. "
+        "Таблица берётся из node `3143:465` (Corner-radius focus) того же файла._\n\n"
+    )
+    write_tv_number_var_skeleton(
+        out_path=out_path,
+        title='Corner-radius',
+        source_node='857:2089',
+        source_page='Corner-radius',
+        intro=("Токены скруглений для TV-интерфейса. Включают **regular** (для самих компонентов, node `859:3226`) "
+               "и **focus** (контур при наведении пультом, node `3143:465`) — это две разные сущности."),
+        marker='VARDEFS_FROM_PLUGIN_API:corner-radius-tv',
+        rules=DEFAULT_TV_CORNER_RADIUS_RULES,
+        target_arg='corner-radius-tv',
+        extra_section=extra,
+    )
+
+
+# ============================================================
 # main
 # ============================================================
 
@@ -825,5 +1054,13 @@ if __name__ == '__main__':
         cmd_spacing(sys.argv[2], sys.argv[3])
     elif cmd == 'corner_radius':
         cmd_corner_radius(sys.argv[2], sys.argv[3])
+    elif cmd == 'typography_tv_fetch':
+        cmd_typography_tv_fetch(sys.argv[2])
+    elif cmd == 'typography_tv':
+        cmd_typography_tv(sys.argv[2], sys.argv[3])
+    elif cmd == 'spacing_tv':
+        cmd_spacing_tv(sys.argv[2], sys.argv[3])
+    elif cmd == 'corner_radius_tv':
+        cmd_corner_radius_tv(sys.argv[2], sys.argv[3])
     else:
         print(f"unknown cmd: {cmd}", file=sys.stderr); sys.exit(2)
