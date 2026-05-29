@@ -40,7 +40,10 @@ description: Карта Figma-библиотек дизайн-системы О�
 | Что | Где |
 |---|---|
 | Цвета (primitives + semantic + Brand) | [`design-system/tokens/colors.md`](../../design-system/tokens/colors.md) |
-| Иконки Main Pack (490 в 16 категориях) | [`design-system/components/icons.md`](../../design-system/components/icons.md) |
+| Spacing (рампа + screen-padding) | [`design-system/tokens/spacing.md`](../../design-system/tokens/spacing.md) |
+| Corner-radius (шкала + `round`) | [`design-system/tokens/corner-radius.md`](../../design-system/tokens/corner-radius.md) |
+| Типографика (TEXT-стили mobile/web) | [`design-system/tokens/typography.md`](../../design-system/tokens/typography.md) |
+| Иконки Main Pack (493 в 16 категориях) | [`design-system/components/icons.md`](../../design-system/components/icons.md) |
 | Иллюстрации (Static / Product images / Bobokko) | [`design-system/components/illustrations.md`](../../design-system/components/illustrations.md) |
 | Карточки компонентов (chips, select, sheet-native и др.) | [`design-system/components/*.md`](../../design-system/components/) |
 | Гайдлайны и структура секций | [`design-system/guidelines/`](../../design-system/guidelines/) |
@@ -63,30 +66,38 @@ description: Карта Figma-библиотек дизайн-системы О�
 
 ## Обновление данных (команда sync)
 
-Кэш в `design-system/` синхронизируется со свежей Figma по команде:
+Два sync-скрипта — по одному на каждый файл-источник:
 
 ```bash
-bash scripts/figma-sync-head-library.sh [colors|icons|illustrations|all]
+bash scripts/figma-sync-head-library.sh [colors|icons|illustrations|all]   # Okko Head Library
+bash scripts/figma-sync-tokens.sh        [spacing|corner-radius|typography|all]   # 🦖 Tokens [mobile & web]
 ```
 
 Триггеры в чате (распознавать как запрос на sync):
-- «обнови данные Head Library», «синхронизируй цвета», «refresh head library», «sync icons», «обнови иконки»
-- слэш-форма: `/sync-head-library [target]`
+- Head Library: «обнови данные Head Library», «синхронизируй цвета», «refresh head library», «sync icons», «обнови иконки» · слэш-форма `/sync-head-library [target]`
+- Tokens: «обнови spacing», «sync typography», «обнови токены mobile/web», «синхронизируй corner radius» · слэш-форма `/sync-tokens [target]`
 
 **Шаги, которые делает скил при срабатывании триггера:**
 
-1. Запустить `scripts/figma-sync-head-library.sh <target>` через Bash. Скрипт перепишет соответствующие файлы в `design-system/`. Раздел «Правила выбора модификатора» в `icons.md` сохраняется (он ручной).
-2. **Для цветов**: после скрипта в `design-system/tokens/colors.md` появится маркер `<!-- VARDEFS_FROM_MCP:semantic ... -->`. Чтобы заполнить resolved-hex semantic-токенов — выполнить use_figma-скрипт, который вызывает `figma.variables.getLocalVariableCollectionsAsync()` для коллекций `Theme` и `Primitives`, резолвит по Dark mode и пишет результат в temp TEXT-узел `__VARDEFS_DUMP__`. Затем прочитать узел через REST, распарсить и подставить в маркеры. (`get_variable_defs` MCP-tool требует ручное выделение слоя в Figma, поэтому ненадёжен — используем Plugin API.)
+1. Запустить соответствующий скрипт через Bash. Скрипты пишут актуальный контент в `design-system/`. Ручные разделы («Правила выбора модификатора» в `icons.md`, «Правила выбора стиля» в `typography.md`, «Правила выбора» в `spacing.md` / `corner-radius.md`) сохраняются.
+2. **Если в файле есть маркер `<!-- VARDEFS_FROM_MCP:* -->` (цвета) или `<!-- VARDEFS_FROM_PLUGIN_API:* -->` (spacing / corner-radius)** — нужно подставить значения переменных через Plugin API.
+   Выполнить `use_figma`-снимок:
+   - для цветов: `figma.variables.getLocalVariableCollectionsAsync()` → коллекции `Theme` + `Primitives` → резолв по Dark mode (с разворачиванием алиасов) → запись JSON в temp TEXT-узел.
+   - для NUMBER-переменных (spacing/corner-radius): то же, но фильтр по `resolvedType === 'FLOAT'`.
+   Temp-узлы: `__VARDEFS_DUMP__` (цвета) и `__NUMBER_VARDEFS_DUMP__` (NUMBER). Затем прочитать узел через REST `/v1/files/<key>/nodes?ids=<id>`, распарсить JSON из `characters`, подставить в маркеры в файлах. Удалить temp-узел. (`get_variable_defs` MCP-tool требует ручное выделение слоя — не надёжен, **используем Plugin API**.)
 3. Показать пользователю `git diff -- design-system/` и предложить закоммитить.
 
 Что обновляется в каждом таргете:
 
-| Target | Файл | Источник в Figma |
-|---|---|---|
-| `colors` | `design-system/tokens/colors.md` | `/styles` + node `32102:23149` (Color Tokens) + Plugin API variables |
-| `icons` | `design-system/components/icons.md` | node `29361:322` (Main Pack) |
-| `illustrations` | `design-system/components/illustrations.md` | nodes `39089:10560`, `39101:215`, `39104:349` |
-| `all` | всё подряд | — |
+| Скрипт | Target | Файл | Источник в Figma |
+|---|---|---|---|
+| `figma-sync-head-library.sh` | `colors` | `design-system/tokens/colors.md` | `/styles` + node `32102:23149` (Color Tokens) + Plugin API variables |
+| `figma-sync-head-library.sh` | `icons` | `design-system/components/icons.md` | node `29361:322` (Main Pack) |
+| `figma-sync-head-library.sh` | `illustrations` | `design-system/components/illustrations.md` | nodes `39089:10560`, `39101:215`, `39104:349` |
+| `figma-sync-tokens.sh` | `typography` | `design-system/tokens/typography.md` | `/styles` (TEXT) + дозапрос нод (font properties) |
+| `figma-sync-tokens.sh` | `spacing` | `design-system/tokens/spacing.md` | Plugin API: коллекция `Semantic`, FLOAT-переменные `spacing/*` + `screen-padding/*` |
+| `figma-sync-tokens.sh` | `corner-radius` | `design-system/tokens/corner-radius.md` | Plugin API: коллекция `Semantic`, FLOAT-переменные `corner-radius/*` |
+| любой | `all` | всё подряд из своего файла | — |
 
 ## Ограничения
 

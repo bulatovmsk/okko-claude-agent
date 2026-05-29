@@ -90,6 +90,28 @@
 
 ---
 
+### 🦖 Tokens [mobile & web]  (системные токены spacing / corner-radius / typography)
+
+| Параметр | Значение |
+|---|---|
+| fileKey | `vztN8doGwBZOCbpDf2PhKR` |
+| URL | https://www.figma.com/design/vztN8doGwBZOCbpDf2PhKR/%F0%9F%A6%96-Tokens--mobile---web- |
+| Назначение | Числовые токены (NUMBER variables) для spacing/corner-radius + текстовые стили (145 шт.) для mobile и web. Edge-кейсы: `Mobile 0+/320+/375+`, `Tablet 600+`, `Desktop 1320+/1720+`, `iPhone SE/iPhone/iPad`, `Android Mobile/Tablet`. |
+| Используется в | Lib-iOS + (через моды) платформенные библиотеки Android / Web |
+
+**Ключевые страницы:**
+
+| Назначение | nodeId | Локальный кэш |
+|---|---|---|
+| Text Styles (145 TEXT-стилей) | `3:9` | [`design-system/tokens/typography.md`](../../../design-system/tokens/typography.md) |
+| Spacing (22 рампа + 8 screen-padding) | `2280:155798` | [`design-system/tokens/spacing.md`](../../../design-system/tokens/spacing.md) |
+| Corner-radius (11 + `round`) | `2287:157374` | [`design-system/tokens/corner-radius.md`](../../../design-system/tokens/corner-radius.md) |
+| Changelog (история изменений) | `4583:9689` | — |
+
+> **NUMBER variables** (spacing/corner-radius) лежат в одной коллекции **`Semantic`** с модой `Web&Mobile` (одно значение на web и mobile — брейкпоинты учитываются через TEXT-стили). REST `/variables/local` отдаёт 403 — забираем через Plugin API в `use_figma`.
+
+---
+
 ### Lib-Android, Lib-TV, Lib-Web — TBD
 
 Платформенные библиотеки пока не зафиксированы в реестре. Когда будут — добавить сюда fileKey, активный бранч и ключевые nodeId.
@@ -116,12 +138,12 @@
 ## Граф зависимостей
 
 ```
-Okko Head Library  ── цвета, иконки, иллюстрации ──┐
-                                                    ├─→  Lib-iOS  ──компоненты──┐
-                                                    │                            ├─→  Продуктовые файлы
-                                                    ├─→  Lib-Android (TBD) ─────┤    (Афиша, ios-коллекции, …)
-                                                    ├─→  Lib-TV (TBD)      ─────┤
-                                                    └─→  Lib-Web (TBD)     ─────┘
+Okko Head Library          ── цвета, иконки, иллюстрации ──┐
+🦖 Tokens [mobile & web]   ── spacing/corner/typography ────┤
+                                                            ├─→ Lib-iOS ──компоненты──┐
+                                                            ├─→ Lib-Android (TBD) ────┤─→ Продуктовые файлы
+                                                            ├─→ Lib-TV (TBD)      ────┤   (Афиша, ios-коллекции…)
+                                                            └─→ Lib-Web (TBD)     ────┘
 ```
 
 ## Соглашения

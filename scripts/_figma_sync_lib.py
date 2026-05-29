@@ -492,16 +492,338 @@ def cmd_illustrations(cache_dir, out_path):
 
 
 # ============================================================
+# TYPOGRAPHY — TEXT styles из vztN8doGwBZOCbpDf2PhKR
+# ============================================================
+
+TOKENS_FILE_KEY = "vztN8doGwBZOCbpDf2PhKR"
+
+# Порядок колонок в сводной таблице — основные платформенные категории
+TYPOGRAPHY_PLATFORM_ORDER = [
+    'iPhone SE', 'iPhone', 'Android Mobile', 'Mobile 0+', 'Mobile 320+',
+    '320+', '375+', 'Mobile',
+    'iPad', 'Android Tablet', 'Tablet 600+', '600+', 'Tablet',
+    '1320+', '1720+', 'Desktop 1720+', 'Desktop', 'Dektop 1720+',
+    'Android Default',
+]
+
+
+def fetch_style_nodes_chunked(file_key, node_ids, chunk_size=80):
+    """Запросить style-ноды через scripts/figma-api.sh пачками."""
+    ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    merged = {'nodes': {}}
+    for i in range(0, len(node_ids), chunk_size):
+        chunk = node_ids[i:i+chunk_size]
+        ids_arg = ','.join(chunk)
+        r = subprocess.run(
+            ['bash', os.path.join(ROOT, 'scripts/figma-api.sh'),
+             f"/v1/files/{file_key}/nodes?ids={ids_arg}"],
+            capture_output=True, text=True, check=True
+        )
+        nd = json.loads(r.stdout)
+        merged['nodes'].update(nd.get('nodes', {}))
+    return merged
+
+
+def cmd_typography_fetch(cache_dir):
+    """Дозапрос всех TEXT-стилей по их node_id (для извлечения font properties)."""
+    styles = json.load(open(os.path.join(cache_dir, 'styles.json')))
+    fills = [s for s in styles['meta']['styles']
+             if s['style_type'] == 'TEXT' and not s['name'].startswith('[Deprecated]')]
+    ids = [s['node_id'] for s in fills]
+    nodes = fetch_style_nodes_chunked(TOKENS_FILE_KEY, ids)
+    with open(os.path.join(cache_dir, 'style-nodes.json'), 'w') as f:
+        json.dump(nodes, f)
+
+
+def is_okkolokino(style_meta):
+    """Является ли стиль частью sub-brand Okkolokino (по description)."""
+    desc = (style_meta.get('description') or '').lower()
+    return 'окколокино' in desc or 'okkolokino' in desc
+
+
+def classify_style(name, meta):
+    """Вернёт ('main' | 'okkolokino' | 'other', logical_name, platform_suffix)."""
+    if '/' in name:
+        log, _, suf = name.rpartition('/')
+    else:
+        log, suf = name, ''
+    # признак Okkolokino — по description
+    if is_okkolokino(meta):
+        return 'okkolokino', log, suf
+    # эвристика по имени для прочих sub-brands
+    first = log.split()[0] if log else ''
+    if first in ('Godzilla', 'Spasibo', 'Meta'):
+        return 'other', log, suf
+    # Media — Okkolokino даже без description
+    if first == 'Media':
+        return 'okkolokino', log, suf
+    return 'main', log, suf
+
+
+def extract_typography_props(style_node):
+    """Из COMPONENT/style ноды достать font properties."""
+    doc = style_node['document']
+    st = doc.get('style', {})
+    return {
+        'fontFamily': st.get('fontFamily'),
+        'fontPostScriptName': st.get('fontPostScriptName'),
+        'fontWeight': st.get('fontWeight'),
+        'fontSize': st.get('fontSize'),
+        'lineHeightPx': st.get('lineHeightPx'),
+        'lineHeightPercent': st.get('lineHeightPercent'),
+        'letterSpacing': st.get('letterSpacing'),
+        'paragraphSpacing': st.get('paragraphSpacing'),
+    }
+
+
+def fmt_typography_cell(props):
+    """Компактное представление: 22/26 · 600 (без шрифта в ячейке, шрифт — отдельной колонкой)."""
+    if not props or not props.get('fontSize'):
+        return '—'
+    fs = int(round(props['fontSize']))
+    lh = props.get('lineHeightPx')
+    lh_s = str(int(round(lh))) if lh else '—'
+    w = props.get('fontWeight')
+    ls = props.get('letterSpacing')
+    ls_s = ''
+    if ls is not None and abs(ls) > 0.01:
+        ls_s = f' · ls {ls:.2f}'
+    return f"{fs}/{lh_s} · {w}{ls_s}"
+
+
+def render_typography_section(rows, all_platforms):
+    """rows: dict logical_name → dict suffix → props. Возвращает markdown-таблицу."""
+    if not rows:
+        return "_нет стилей_\n"
+    # колонки — те платформы, что встречаются хоть в одной строке (в порядке TYPOGRAPHY_PLATFORM_ORDER)
+    used = set()
+    for cells in rows.values():
+        used.update(cells.keys())
+    cols = [p for p in TYPOGRAPHY_PLATFORM_ORDER if p in used]
+    # плюс «прочие» в конце по алфавиту
+    extras = sorted(used - set(cols))
+    cols += extras
+
+    # колонка «Шрифт» (если есть единый fontFamily) — для упрощения покажем основной
+    head = "| Стиль |" + "|".join(f" {c} " for c in cols) + "|\n"
+    sep = "|---|" + "|".join("---" for _ in cols) + "|\n"
+    body = []
+    for logical in sorted(rows.keys()):
+        cells = rows[logical]
+        cells_md = []
+        for c in cols:
+            cells_md.append(fmt_typography_cell(cells.get(c)))
+        body.append(f"| **{logical}** | " + " | ".join(cells_md) + " |\n")
+    return head + sep + ''.join(body)
+
+
+def cmd_typography(cache_dir, out_path):
+    styles = json.load(open(os.path.join(cache_dir, 'styles.json')))
+    nodes = json.load(open(os.path.join(cache_dir, 'style-nodes.json')))
+    fills = [s for s in styles['meta']['styles']
+             if s['style_type'] == 'TEXT' and not s['name'].startswith('[Deprecated]')]
+
+    # сгруппировать
+    by_cat = {'main': {}, 'okkolokino': {}, 'other': {}}
+    family_counter = Counter()
+    for s in fills:
+        nid = s['node_id']
+        node = nodes['nodes'].get(nid)
+        if not node: continue
+        cat, logical, suf = classify_style(s['name'], s)
+        props = extract_typography_props(node)
+        if props.get('fontFamily'):
+            family_counter[props['fontFamily']] += 1
+        by_cat[cat].setdefault(logical, {})[suf] = props
+
+    # собрать markdown
+    L = []
+    L.append("# Типографика — Tokens [mobile & web]\n")
+    L.append("> Источник: file **🦖 Tokens [mobile & web]** (`vztN8doGwBZOCbpDf2PhKR`), страница **Text Styles** — node `3:9`. "
+             "Опубликованных TEXT-стилей — **{}**. Резолв: REST `/styles` + дозапрос `/nodes`.\n".format(len(fills)))
+    L.append("\n**Формат ячейки:** `<size>/<line-height> · <weight>` (точно как в стиле Figma). "
+             "Опциональная добавка `· ls 0.13` — letter-spacing.\n")
+    L.append("\n**Шрифты в файле:** " + ', '.join(f"`{f}` ({n})" for f, n in family_counter.most_common(5)) + "\n")
+
+    L.append("\n---\n\n## Основные стили\n")
+    L.append(render_typography_section(by_cat['main'], TYPOGRAPHY_PLATFORM_ORDER))
+
+    if by_cat['okkolokino']:
+        L.append("\n---\n\n## Okkolokino (sub-brand)\n")
+        L.append("Стили раздела Окколокино (помечены в описании стиля или по группе `Media/*`).\n\n")
+        L.append(render_typography_section(by_cat['okkolokino'], TYPOGRAPHY_PLATFORM_ORDER))
+
+    if by_cat['other']:
+        L.append("\n---\n\n## Прочие\n")
+        L.append("Спец-стили (`Godzilla`, `Spasibo`, `Meta` и т.п.) — для отдельных продуктовых контекстов.\n\n")
+        L.append(render_typography_section(by_cat['other'], TYPOGRAPHY_PLATFORM_ORDER))
+
+    L.append("""
+---
+
+## Правила выбора стиля
+
+> Раздел редактируется вручную и **не перезаписывается** при `sync`.
+
+| Контекст | Стиль |
+|---|---|
+| Заголовок раздела (mobile) | `Label Large/iPhone` (или платформенный аналог) |
+| Заголовок раздела (tablet) | `Label Large/iPad` |
+| Подзаголовок / описание | `Subtitles/...` |
+| Текст параграфа | `Body 2/...` или `Body 3/...` в зависимости от плотности |
+| Акцентный текст в карточке | `Body N Accent/...` |
+| Caption / мелкие пояснения | `Label Small/...` или `Caption/...` |
+| Кнопка | `Button Small/...` или `Button/...` |
+| Меню (sidebar/dropdown) | `Menu Item/...` |
+| Декоративный (промо, splash) | `Decorative/...` |
+| Возрастные знаки | `Age Mark/...` |
+
+**Правила парных платформ:** для одного экрана выбирай суффикс по таргет-устройству — на iPhone берём `/iPhone` или `/iPhone SE`, на iPad `/iPad`, на Web по брейкпоинту (`320+` / `600+` / `1320+` / `1720+` или семантические `Mobile 0+` / `Tablet 600+` / `Desktop 1720+`).
+
+**Шрифты:** базовый шрифт интерфейса — `Suisse Int'l` (основной набор). Okkolokino sub-brand использует свой набор (см. колонки таблицы).
+
+---
+
+## Обновление
+
+```bash
+bash scripts/figma-sync-tokens.sh typography
+```
+
+Скрипт перепишет основной контент. Раздел «Правила выбора стиля» сохраняется.
+""")
+
+    # Сохранение ручного раздела при пересборе (если он уже есть)
+    rules_block = ''
+    if os.path.exists(out_path):
+        old = open(out_path).read()
+        m = re.search(r'(## Правила выбора стиля\n.*?)(?=\n## Обновление|\Z)', old, re.S)
+        if m:
+            rules_block = '\n' + m.group(1).rstrip() + '\n\n---\n\n'
+
+    new_text = ''.join(L)
+    if rules_block:
+        # заменить дефолтный rules-блок на ручной
+        new_text = re.sub(
+            r'\n## Правила выбора стиля\n.*?\n\n---\n\n## Обновление\n',
+            rules_block + '## Обновление\n',
+            new_text, count=1, flags=re.S
+        )
+
+    with open(out_path, 'w') as f:
+        f.write(new_text)
+
+
+# ============================================================
+# SPACING and CORNER-RADIUS — NUMBER variables (Plugin API)
+# ============================================================
+
+def cmd_spacing(cache_dir, out_path):
+    """Создать скелет spacing.md с маркерами для Plugin API."""
+    write_number_var_skeleton(
+        out_path=out_path,
+        title='Spacing',
+        source_node='2280:155798',
+        source_page='Spacing',
+        intro=("Токены отступов: внутренние padding'и компонентов, gap'ы между элементами, "
+               "размеры секций и грид-промежутки. Это **NUMBER variables** Figma."),
+        marker='VARDEFS_FROM_PLUGIN_API:spacing',
+        rules=DEFAULT_SPACING_RULES,
+        target_arg='spacing',
+    )
+
+
+def cmd_corner_radius(cache_dir, out_path):
+    write_number_var_skeleton(
+        out_path=out_path,
+        title='Corner-radius',
+        source_node='2287:157374',
+        source_page='Corner-radius',
+        intro=("Токены скруглений углов компонентов и контейнеров. Это **NUMBER variables** Figma."),
+        marker='VARDEFS_FROM_PLUGIN_API:corner-radius',
+        rules=DEFAULT_CORNER_RADIUS_RULES,
+        target_arg='corner-radius',
+    )
+
+
+DEFAULT_SPACING_RULES = """\
+| Контекст | Токен |
+|---|---|
+| Внутренний padding кнопки/чипса (H/V) | `spacing.s` / `spacing.xs` (зависит от размера компонента) |
+| Gap между элементами в строке (Chips, Tabs) | `spacing.s` |
+| Внутренний padding карточек контента | `spacing.m` или `spacing.l` |
+| Отступ между секциями экрана | `spacing.xl` или больше |
+| Inset от безопасной зоны до контента | `spacing.l` (mobile) / `spacing.xl` (tablet) |
+
+Конкретные значения см. в таблице выше. Между mobile и web/tablet token-имена общие — меняются **значения** под брейкпоинт через моды.
+"""
+
+DEFAULT_CORNER_RADIUS_RULES = """\
+| Контекст | Токен |
+|---|---|
+| Маленькие чипсы, теги | `radius.s` (≈ 8) |
+| Кнопки (мелкая / средняя) | `radius.m` (≈ 12) |
+| Карточки контента, постеры | `radius.l` (≈ 16) |
+| Большие сабшиты, шторки | `radius.xl` (≈ 20–24) |
+| Полностью круглые (avatars, icon buttons) | `radius.full` / 9999 |
+
+Значения отличаются по платформе — см. колонки таблицы выше.
+"""
+
+
+def write_number_var_skeleton(out_path, title, source_node, source_page, intro,
+                              marker, rules, target_arg):
+    """Каркас файла для NUMBER vars (заполняется потом из Plugin API)."""
+    rules_block = ''
+    if os.path.exists(out_path):
+        old = open(out_path).read()
+        m = re.search(r'(## Правила выбора\n.*?)(?=\n## Обновление|\Z)', old, re.S)
+        if m:
+            rules_block = m.group(1).rstrip() + '\n\n---\n\n'
+
+    if not rules_block:
+        rules_block = "## Правила выбора\n\n" + rules + "\n---\n\n"
+    L = [
+        f"# {title} — Tokens [mobile & web]\n",
+        f"> Источник: file **🦖 Tokens [mobile & web]** (`{TOKENS_FILE_KEY}`), "
+        f"страница **{source_page}** — node `{source_node}`. "
+        f"Токены — NUMBER variables Figma (REST не отдаёт значений, забираются через Plugin API).\n\n",
+        intro + "\n\n",
+        "## Токены\n\n",
+        f"<!-- {marker} — заполняется через use_figma + figma.variables.* -->\n\n",
+        "_Если таблица пустая или содержит маркер выше — запусти команду из раздела «Обновление»; "
+        "затем скил `design-figma-libraries` пройдётся через MCP `use_figma` Plugin API "
+        "и впишет значения._\n\n",
+        "---\n\n",
+        rules_block,
+        f"## Обновление\n\n```bash\nbash scripts/figma-sync-tokens.sh {target_arg}\n```\n\n",
+        f"Скрипт обновит шапку и скелет. Resolved-значения NUMBER-переменных подставляет скил через "
+        f"`use_figma` (figma.variables.getLocalVariableCollectionsAsync → фильтр FLOAT → temp TEXT-узел → REST).\n",
+        "Раздел «Правила выбора» сохраняется при пересборе.\n",
+    ]
+    with open(out_path, 'w') as f:
+        f.write(''.join(L))
+
+
+# ============================================================
 # main
 # ============================================================
 
 if __name__ == '__main__':
-    cmd, cache_dir, out_path = sys.argv[1], sys.argv[2], sys.argv[3]
+    cmd = sys.argv[1]
     if cmd == 'colors':
-        cmd_colors(cache_dir, out_path)
+        cmd_colors(sys.argv[2], sys.argv[3])
     elif cmd == 'icons':
-        cmd_icons(cache_dir, out_path)
+        cmd_icons(sys.argv[2], sys.argv[3])
     elif cmd == 'illustrations':
-        cmd_illustrations(cache_dir, out_path)
+        cmd_illustrations(sys.argv[2], sys.argv[3])
+    elif cmd == 'typography_fetch':
+        cmd_typography_fetch(sys.argv[2])
+    elif cmd == 'typography':
+        cmd_typography(sys.argv[2], sys.argv[3])
+    elif cmd == 'spacing':
+        cmd_spacing(sys.argv[2], sys.argv[3])
+    elif cmd == 'corner_radius':
+        cmd_corner_radius(sys.argv[2], sys.argv[3])
     else:
         print(f"unknown cmd: {cmd}", file=sys.stderr); sys.exit(2)
