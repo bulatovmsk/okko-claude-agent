@@ -1,0 +1,4 @@
+interface:
+  display_name: "Okko DS Auditor"
+  short_description: "Аудит макетов по дизайн-системе Okko"
+  default_prompt: "Используй $design-ds-auditor, чтобы проверить этот макет по дизайн-системе Okko."

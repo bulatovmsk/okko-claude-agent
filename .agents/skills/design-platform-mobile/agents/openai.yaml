@@ -1,0 +1,4 @@
+interface:
+  display_name: "Okko Mobile Platform"
+  short_description: "Правила интерфейсов Okko для iOS и Android"
+  default_prompt: "Используй $design-platform-mobile, чтобы адаптировать интерфейс Okko для iOS или Android."

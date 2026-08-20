@@ -1,0 +1,46 @@
+{
+  "collections": [
+    {
+      "id": "primitive",
+      "name": "Primitive",
+      "modes": [{"modeId": "primitive-mode", "name": "Web&Mobile"}]
+    },
+    {
+      "id": "semantic",
+      "name": "Semantic",
+      "modes": [{"modeId": "semantic-mode", "name": "Web&Mobile"}]
+    }
+  ],
+  "variables": [
+    {
+      "id": "spacing-base",
+      "name": "spacing/100",
+      "variableCollectionId": "primitive",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {"primitive-mode": 4}
+    },
+    {
+      "id": "spacing-alias",
+      "name": "spacing/200",
+      "variableCollectionId": "semantic",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "semantic-mode": {"type": "VARIABLE_ALIAS", "id": "spacing-base"}
+      }
+    },
+    {
+      "id": "screen-padding",
+      "name": "screen-padding/ios/iphone",
+      "variableCollectionId": "semantic",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {"semantic-mode": 15}
+    },
+    {
+      "id": "radius-base",
+      "name": "corner-radius/100",
+      "variableCollectionId": "semantic",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {"semantic-mode": 2}
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Okko DS Librarian"
+  short_description: "Поиск компонентов и правил ДС Okko"
+  default_prompt: "Используй $design-ds-librarian, чтобы подобрать компонент или токен дизайн-системы Okko."

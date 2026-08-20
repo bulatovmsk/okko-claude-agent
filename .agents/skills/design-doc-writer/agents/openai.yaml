@@ -1,0 +1,4 @@
+interface:
+  display_name: "Okko Component Docs"
+  short_description: "Гайдлайны компонентов Okko в Figma"
+  default_prompt: "Используй $design-doc-writer, чтобы создать гайдлайн для компонента Okko в Figma."

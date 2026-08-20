@@ -137,7 +137,7 @@ def write_colors_md(prim, ext, styles, out_path):
     lines.append("\nЦвета устроены как **переменные** (variables) и **стили** (опубликованные FILL-стили Figma):\n")
     lines.append("\n- **Variables** — применяются программно (Code Connect, токены) и через bound variables в Figma. Это и сырая палитра (`primitives.*`), и семантика (`color.*`), и `brand.*`.")
     lines.append("\n- **Styles** — опубликованные FILL-стили; **только для градиентов и многостоповых fade**, которые нельзя выразить одной переменной.\n")
-    lines.append("\nСинхронизация: `bash scripts/figma-sync-head-library.sh colors` (см. раздел «Обновление» внизу).\n")
+    lines.append("\nСинхронизация: `bash scripts/sync-from-figma.sh head colors` (см. раздел «Обновление» внизу).\n")
     lines.append("\n---\n")
 
     # ───────── Часть A — Variables ─────────
@@ -256,10 +256,10 @@ def write_colors_md(prim, ext, styles, out_path):
     # ───────── Обновление ─────────
     lines.append("\n---\n")
     lines.append("\n## Обновление\n")
-    lines.append("\n```bash\nbash scripts/figma-sync-head-library.sh colors\n```\n")
-    lines.append("\nСкрипт перепишет этот файл из актуальной Figma. Resolved-hex semantic-токенов "
-                 "далее заполняются скилом `design-figma-libraries` через MCP `get_variable_defs` "
-                 "(см. маркеры `VARDEFS_FROM_MCP` выше).\n")
+    lines.append("\n```bash\nbash scripts/sync-from-figma.sh head colors --variables-dir <dump-dir>\n```\n")
+    lines.append("\nWorkflow получает актуальные данные Figma, разрешает alias chains из Variables API "
+                 "или Figma MCP dump, обновляет source и skill references и формирует отчёт. "
+                 "При незаполненных маркерах рабочие файлы не изменяются.\n")
 
     with open(out_path, 'w') as f:
         f.write(''.join(lines))
@@ -791,14 +791,13 @@ def write_number_var_skeleton(out_path, title, source_node, source_page, intro,
         intro + "\n\n",
         "## Токены\n\n",
         f"<!-- {marker} — заполняется через use_figma + figma.variables.* -->\n\n",
-        "_Если таблица пустая или содержит маркер выше — запусти команду из раздела «Обновление»; "
-        "затем скил `design-figma-libraries` пройдётся через MCP `use_figma` Plugin API "
-        "и впишет значения._\n\n",
+        "_Маркер существует только в staged-копии. `sync-from-figma.sh` заменяет его таблицей "
+        "после разрешения aliases и не публикует незавершённый source._\n\n",
         "---\n\n",
         rules_block,
-        f"## Обновление\n\n```bash\nbash scripts/figma-sync-tokens.sh {target_arg}\n```\n\n",
-        f"Скрипт обновит шапку и скелет. Resolved-значения NUMBER-переменных подставляет скил через "
-        f"`use_figma` (figma.variables.getLocalVariableCollectionsAsync → фильтр FLOAT → temp TEXT-узел → REST).\n",
+        f"## Обновление\n\n```bash\nbash scripts/sync-from-figma.sh tokens {target_arg} --variables-dir <dump-dir>\n```\n\n",
+        "Workflow принимает Variables REST API или Figma MCP dump, разрешает alias chains, "
+        "обновляет source и references и формирует отчёт.\n",
         "Раздел «Правила выбора» сохраняется при пересборе.\n",
     ]
     with open(out_path, 'w') as f:
@@ -981,18 +980,17 @@ def write_tv_number_var_skeleton(out_path, title, source_node, source_page, intr
         intro + "\n\n",
         "## Токены\n\n",
         f"<!-- {marker} — заполняется через use_figma + figma.variables.* -->\n\n",
-        "_Если таблица пустая или содержит маркер выше — запусти команду из раздела «Обновление»; "
-        "затем скил `design-figma-libraries` пройдётся через MCP `use_figma` Plugin API "
-        "и впишет значения._\n\n",
+        "_Маркер существует только в staged-копии. `sync-from-figma.sh` заменяет его таблицей "
+        "после разрешения aliases и не публикует незавершённый source._\n\n",
     ]
     if extra_section:
         L.append(extra_section)
     L.extend([
         "---\n\n",
         rules_block,
-        f"## Обновление\n\n```bash\nbash scripts/figma-sync-tokens.sh {target_arg}\n```\n\n",
-        f"Скрипт обновит шапку и скелет. Resolved-значения NUMBER-переменных подставляет скил через "
-        f"`use_figma` (Plugin API, fileKey `{TOKENS_TV_FILE_KEY}`).\n",
+        f"## Обновление\n\n```bash\nbash scripts/sync-from-figma.sh tokens {target_arg} --variables-dir <dump-dir>\n```\n\n",
+        "Workflow принимает Variables REST API или Figma MCP dump, разрешает alias chains, "
+        "обновляет source и references и формирует отчёт.\n",
         "Раздел «Правила выбора» сохраняется при пересборе.\n",
     ])
     with open(out_path, 'w') as f:

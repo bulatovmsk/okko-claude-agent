@@ -1,0 +1,4 @@
+interface:
+  display_name: "Okko UX Copy"
+  short_description: "Редактура интерфейсных текстов Okko"
+  default_prompt: "Используй $ux-copy, чтобы проверить и отредактировать этот интерфейсный текст Okko."

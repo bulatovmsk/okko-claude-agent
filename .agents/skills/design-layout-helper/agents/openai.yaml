@@ -1,0 +1,4 @@
+interface:
+  display_name: "Okko Layout Helper"
+  short_description: "Компоновка экранов из компонентов Okko"
+  default_prompt: "Используй $design-layout-helper, чтобы спроектировать экран из компонентов дизайн-системы Okko."

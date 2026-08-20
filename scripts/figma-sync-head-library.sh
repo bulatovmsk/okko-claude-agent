@@ -5,7 +5,7 @@
 #   colors        → design-system/tokens/colors.md
 #                   - Часть A (Variables): структура primitives/semantic/brand
 #                     значения hex semantic-токенов оставляет маркером VARDEFS_FROM_MCP,
-#                     которые потом заполняются вызовом MCP get_variable_defs из Claude.
+#                     которые затем заполняются через доступные Figma-инструменты Codex.
 #                   - Часть B (Styles): опубликованные FILL-стили + их стопы
 #   icons         → design-system/components/icons.md
 #                   Парсит Main Pack (29361:322), переписывает «Категории» и «Полный список».
@@ -26,6 +26,7 @@ cd "$ROOT"
 
 TARGET="${1:-all}"
 FILE_KEY="HYB1u9ysALVWtVWKoagiDH"
+DESIGN_SYSTEM_DIR="${FIGMA_SYNC_DESIGN_SYSTEM_DIR:-$ROOT/design-system}"
 
 if [ ! -f "$ROOT/.env" ]; then echo "❌ нет .env (нужен FIGMA_TOKEN)"; exit 1; fi
 set -a; source "$ROOT/.env"; set +a
@@ -46,8 +47,8 @@ sync_colors() {
   echo "  • node 32102:23149 (Color Tokens, full depth)"
   bash "$ROOT/scripts/figma-api.sh" "/v1/files/$FILE_KEY/nodes?ids=32102:23149" > "$CACHE/palette.json"
 
-  python3 "$ROOT/scripts/_figma_sync_lib.py" colors "$CACHE" "$ROOT/design-system/tokens/colors.md"
-  echo "  ✓ design-system/tokens/colors.md"
+  python3 "$ROOT/scripts/_figma_sync_lib.py" colors "$CACHE" "$DESIGN_SYSTEM_DIR/tokens/colors.md"
+  echo "  ✓ $DESIGN_SYSTEM_DIR/tokens/colors.md"
 }
 
 # ──────────────────────────────────────────────────────────────────────
@@ -57,8 +58,8 @@ sync_icons() {
   echo "→ Синхронизирую иконки Main Pack…"
   echo "  • node 29361:322 (depth=2)"
   bash "$ROOT/scripts/figma-api.sh" "/v1/files/$FILE_KEY/nodes?ids=29361:322&depth=2" > "$CACHE/icons.json"
-  python3 "$ROOT/scripts/_figma_sync_lib.py" icons "$CACHE" "$ROOT/design-system/components/icons.md"
-  echo "  ✓ design-system/components/icons.md (раздел «Правила выбора модификатора» сохранён)"
+  python3 "$ROOT/scripts/_figma_sync_lib.py" icons "$CACHE" "$DESIGN_SYSTEM_DIR/components/icons.md"
+  echo "  ✓ $DESIGN_SYSTEM_DIR/components/icons.md (раздел «Правила выбора модификатора» сохранён)"
 }
 
 # ──────────────────────────────────────────────────────────────────────
@@ -68,8 +69,8 @@ sync_illustrations() {
   echo "→ Синхронизирую иллюстрации…"
   echo "  • nodes 39089:10560, 39101:215, 39104:349 (depth=3)"
   bash "$ROOT/scripts/figma-api.sh" "/v1/files/$FILE_KEY/nodes?ids=39089:10560,39101:215,39104:349&depth=3" > "$CACHE/illustrations.json"
-  python3 "$ROOT/scripts/_figma_sync_lib.py" illustrations "$CACHE" "$ROOT/design-system/components/illustrations.md"
-  echo "  ✓ design-system/components/illustrations.md"
+  python3 "$ROOT/scripts/_figma_sync_lib.py" illustrations "$CACHE" "$DESIGN_SYSTEM_DIR/components/illustrations.md"
+  echo "  ✓ $DESIGN_SYSTEM_DIR/components/illustrations.md"
 }
 
 case "$TARGET" in
@@ -80,12 +81,14 @@ case "$TARGET" in
   *) echo "Usage: $0 [colors|icons|illustrations|all]" >&2; exit 2 ;;
 esac
 
-echo ""
-echo "─── diff ──────────────────────────────────────────────"
-git --no-pager diff --stat -- design-system/ 2>/dev/null || true
-echo "───────────────────────────────────────────────────────"
+if [ -z "${FIGMA_SYNC_DESIGN_SYSTEM_DIR:-}" ]; then
+  echo ""
+  echo "─── diff ──────────────────────────────────────────────"
+  git --no-pager diff --stat -- design-system/ 2>/dev/null || true
+  echo "───────────────────────────────────────────────────────"
+fi
 
-if grep -q 'VARDEFS_FROM_MCP' "$ROOT/design-system/tokens/colors.md" 2>/dev/null; then
+if [ "${FIGMA_SYNC_DEFER_ALIASES:-false}" != true ] && grep -q 'VARDEFS_FROM_MCP' "$DESIGN_SYSTEM_DIR/tokens/colors.md" 2>/dev/null; then
   echo ""
   echo "⚠  В colors.md есть маркеры VARDEFS_FROM_MCP — resolved hex semantic-токенов нужно вписать через MCP get_variable_defs."
   echo "   Параметры: nodeId='32102:23149' (вся страница Color Tokens), fileKey='$FILE_KEY'."

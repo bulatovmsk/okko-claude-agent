@@ -1,0 +1,4 @@
+interface:
+  display_name: "Okko TV Platform"
+  short_description: "D-pad, фокус и правила TV-интерфейсов Okko"
+  default_prompt: "Используй $design-platform-tv, чтобы проверить навигацию и фокус TV-интерфейса Okko."
