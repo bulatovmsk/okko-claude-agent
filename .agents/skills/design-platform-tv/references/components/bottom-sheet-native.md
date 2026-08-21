@@ -29,6 +29,7 @@
 
 | Параметр | iPhone | iPad |
 |---|---|---|
+| Размер component frame | 375×633 | 1080×1080 |
 | Радиус листа | верхние углы 16 | все углы 16 |
 | Положение | прижат к низу, на всю ширину | плавающий по центру |
 | Header | 48pt, тип Primary | 48pt, тип Primary |
@@ -46,10 +47,11 @@
 |---|---|
 | Кастомные шторки с нестандартными detent/высотой/жестами | `BottomSheet` (кастомный, гайд `28934:239837`) |
 | Полноэкранный сценарий / отдельный шаг флоу | отдельный экран (push) |
-| Короткое уведомление | Toast / Snackbar |
+| Короткое уведомление | [Snackbar](snackbar.md) |
 
 ## Связанные компоненты
 
+- [Error - Sheet](error-sheet.md) — готовая сборка ошибки в слоте нативной шторки.
 - `BottomSheet` (кастомный) — когда нужен контроль над detent, максимальной высотой, областью свайпа
 - `Select` — раскрывает свой список опций именно в шите
 - Header — переиспользуемая шапка `_🛠️Sheet Native - Header` (тип Primary)
@@ -61,3 +63,40 @@
 ## Источник
 
 - Компонент: Figma `rMcDm5qGp4CXkXXddEbcMh` node `37371:7396` (`🟢Sheet Native` COMPONENT_SET)
+
+<!-- FIGMA_SYNC:START -->
+## Актуальные данные Figma
+
+> Последняя проверка: `2026-08-21T15:20:10Z` · структура `8aded8651a67` · статус `ready`.
+
+### Свойства из компонента
+
+| Свойство | Тип | Значение по умолчанию | Варианты |
+|---|---|---|---|
+| `Device` | `variant` | `—` | iPad / iPhone |
+| `Header Type` | `variant` | `—` | Primary |
+| `Scrim` | `boolean` | `—` | — |
+| `Slot Box` | `slot` | `—` | — |
+
+### Варианты и размеры
+
+| Ось | Значения |
+|---|---|
+| `Device` | iPad / iPhone |
+| `Header Type` | Primary |
+
+Комбинаций в COMPONENT_SET: **2**.
+
+| Размер | Количество вариантов | Примеры |
+|---|---:|---|
+| `375.0×633.0` | 1 | Device=iPhone, Header Type=Primary |
+| `1080.0×1080.0` | 1 | Device=iPad, Header Type=Primary |
+
+### Зависимости
+
+В Figma-ответе внешние component dependencies не найдены.
+
+### Источник
+
+- [🟢Sheet Native](https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=37371-7396&t=6NQra4uE9oLKkthr-4) — fileKey `rMcDm5qGp4CXkXXddEbcMh`, API key `rMcDm5qGp4CXkXXddEbcMh`, node `37371:7396`, type `COMPONENT_SET`.
+<!-- FIGMA_SYNC:END -->

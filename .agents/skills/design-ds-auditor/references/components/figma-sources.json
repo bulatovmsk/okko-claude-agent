@@ -1,0 +1,4693 @@
+{
+  "schemaVersion": 1,
+  "components": [
+    {
+      "slug": "ai-button",
+      "platform": "iOS",
+      "relatedSources": [],
+      "name": "AI Button",
+      "card": "ai-button.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=30946-883&t=6NQra4uE9oLKkthr-4",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "30946:883"
+      },
+      "lastCheckedAt": "2026-08-21T15:17:25Z",
+      "snapshotHash": "f35bec40e2bd9a50c068e978c51d4840504009726327babd71e58bd5649fc730",
+      "snapshot": {
+        "name": "AI Button",
+        "nodeType": "COMPONENT_SET",
+        "description": "Кнопка для вызова ИИ-ассистента.",
+        "status": "unknown",
+        "properties": [
+          {
+            "name": "Device",
+            "type": "variant",
+            "options": [
+              "iPad",
+              "iPhone"
+            ]
+          },
+          {
+            "name": "Show icon",
+            "type": "boolean",
+            "key": "Show icon#5:0"
+          },
+          {
+            "name": "Size",
+            "type": "variant",
+            "options": [
+              "Default",
+              "Small"
+            ]
+          },
+          {
+            "name": "State",
+            "type": "variant",
+            "options": [
+              "Rest",
+              "Touch"
+            ]
+          },
+          {
+            "name": "Text",
+            "type": "text",
+            "key": "Text#30947:0"
+          }
+        ],
+        "variants": {
+          "Device": [
+            "iPad",
+            "iPhone"
+          ],
+          "Size": [
+            "Default",
+            "Small"
+          ],
+          "State": [
+            "Rest",
+            "Touch"
+          ]
+        },
+        "variantCount": 8,
+        "dimensions": [
+          {
+            "width": 151.0,
+            "height": 36.0,
+            "count": 2,
+            "examples": [
+              "Device=iPhone, Size=Small, State=Rest",
+              "Device=iPhone, Size=Small, State=Touch"
+            ]
+          },
+          {
+            "width": 176.0,
+            "height": 40.0,
+            "count": 2,
+            "examples": [
+              "Device=iPad, Size=Small, State=Rest",
+              "Device=iPad, Size=Small, State=Touch"
+            ]
+          },
+          {
+            "width": 179.0,
+            "height": 48.0,
+            "count": 2,
+            "examples": [
+              "Device=iPhone, Size=Default, State=Rest",
+              "Device=iPhone, Size=Default, State=Touch"
+            ]
+          },
+          {
+            "width": 201.0,
+            "height": 52.0,
+            "count": 2,
+            "examples": [
+              "Device=iPad, Size=Default, State=Rest",
+              "Device=iPad, Size=Default, State=Touch"
+            ]
+          }
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "slug": "bet-button",
+      "platform": "iOS",
+      "relatedSources": [],
+      "name": "Bet Button",
+      "card": "bet-button.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=22908-9507&t=6NQra4uE9oLKkthr-4",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "22908:9507"
+      },
+      "lastCheckedAt": "2026-08-21T15:30:16Z",
+      "snapshotHash": "ad45c60e25cc395eea5611eb54d5cf165911e52f9eb552dab2722b16e4011ea6",
+      "snapshot": {
+        "name": "Bet Button",
+        "nodeType": "COMPONENT_SET",
+        "description": "",
+        "status": "unknown",
+        "properties": [
+          {
+            "name": "Device",
+            "type": "variant",
+            "options": [
+              "Pad",
+              "Phone"
+            ]
+          },
+          {
+            "name": "Size",
+            "type": "variant",
+            "options": [
+              "Default",
+              "Small"
+            ]
+          },
+          {
+            "name": "Type",
+            "type": "variant",
+            "options": [
+              "Icon+Text",
+              "Odds",
+              "Odds(Alt)"
+            ]
+          }
+        ],
+        "variants": {
+          "Device": [
+            "Pad",
+            "Phone"
+          ],
+          "Size": [
+            "Default",
+            "Small"
+          ],
+          "Type": [
+            "Icon+Text",
+            "Odds",
+            "Odds(Alt)"
+          ]
+        },
+        "variantCount": 12,
+        "dimensions": [
+          {
+            "width": 147.0,
+            "height": 36.0,
+            "count": 1,
+            "examples": [
+              "Device=Phone, Type=Odds(Alt), Size=Small"
+            ]
+          },
+          {
+            "width": 151.0,
+            "height": 40.0,
+            "count": 1,
+            "examples": [
+              "Device=Pad, Type=Odds(Alt), Size=Small"
+            ]
+          },
+          {
+            "width": 153.0,
+            "height": 36.0,
+            "count": 1,
+            "examples": [
+              "Device=Phone, Type=Icon+Text, Size=Small"
+            ]
+          },
+          {
+            "width": 174.0,
+            "height": 40.0,
+            "count": 1,
+            "examples": [
+              "Device=Pad, Type=Icon+Text, Size=Small"
+            ]
+          },
+          {
+            "width": 175.0,
+            "height": 48.0,
+            "count": 1,
+            "examples": [
+              "Device=Phone, Type=Odds(Alt), Size=Default"
+            ]
+          },
+          {
+            "width": 177.0,
+            "height": 52.0,
+            "count": 1,
+            "examples": [
+              "Device=Pad, Type=Odds(Alt), Size=Default"
+            ]
+          },
+          {
+            "width": 181.0,
+            "height": 48.0,
+            "count": 1,
+            "examples": [
+              "Device=Phone, Type=Icon+Text, Size=Default"
+            ]
+          },
+          {
+            "width": 193.0,
+            "height": 36.0,
+            "count": 1,
+            "examples": [
+              "Device=Phone, Type=Odds, Size=Small"
+            ]
+          },
+          {
+            "width": 201.0,
+            "height": 52.0,
+            "count": 1,
+            "examples": [
+              "Device=Pad, Type=Icon+Text, Size=Default"
+            ]
+          },
+          {
+            "width": 214.0,
+            "height": 40.0,
+            "count": 1,
+            "examples": [
+              "Device=Pad, Type=Odds, Size=Small"
+            ]
+          },
+          {
+            "width": 226.0,
+            "height": 48.0,
+            "count": 1,
+            "examples": [
+              "Device=Phone, Type=Odds, Size=Default"
+            ]
+          },
+          {
+            "width": 248.0,
+            "height": 52.0,
+            "count": 1,
+            "examples": [
+              "Device=Pad, Type=Odds, Size=Default"
+            ]
+          }
+        ],
+        "dependencies": [
+          {
+            "nodeId": "dependency:bet-arrow",
+            "name": ".BetArrow"
+          },
+          {
+            "nodeId": "dependency:bet-logo",
+            "name": "Bet Logo(Mini)"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "bottom-sheet-native",
+      "name": "🟢Sheet Native",
+      "platform": "iOS",
+      "card": "bottom-sheet-native.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=37371-7396&t=6NQra4uE9oLKkthr-4",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "37371:7396"
+      },
+      "relatedSources": [],
+      "lastCheckedAt": "2026-08-21T15:20:10Z",
+      "snapshotHash": "8aded8651a673cab300b9a2a1d29d69a1ca0bc961d385193d40e388f3b215bfd",
+      "snapshot": {
+        "name": "🟢Sheet Native",
+        "nodeType": "COMPONENT_SET",
+        "description": "Нативная модальная шторка для iPhone и iPad с заменяемым слотом контента.",
+        "status": "ready",
+        "properties": [
+          {
+            "name": "Device",
+            "type": "variant",
+            "options": [
+              "iPad",
+              "iPhone"
+            ]
+          },
+          {
+            "name": "Header Type",
+            "type": "variant",
+            "options": [
+              "Primary"
+            ]
+          },
+          {
+            "name": "Scrim",
+            "type": "boolean",
+            "key": "Scrim#37438:0"
+          },
+          {
+            "name": "Slot Box",
+            "type": "slot",
+            "key": "Slot Box#37388:0"
+          }
+        ],
+        "variants": {
+          "Device": [
+            "iPad",
+            "iPhone"
+          ],
+          "Header Type": [
+            "Primary"
+          ]
+        },
+        "variantCount": 2,
+        "dimensions": [
+          {
+            "width": 375.0,
+            "height": 633.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone, Header Type=Primary"
+            ]
+          },
+          {
+            "width": 1080.0,
+            "height": 1080.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad, Header Type=Primary"
+            ]
+          }
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "slug": "button",
+      "platform": "iOS",
+      "relatedSources": [
+        {
+          "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=31214-29705",
+          "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+          "branchKey": null,
+          "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+          "nodeId": "31214:29705",
+          "kind": "guide",
+          "lastCheckedAt": "2026-08-21T15:24:22Z",
+          "snapshotHash": "05ccd2d1a26ad06a11c4735d7d718bd1f62410c7dbf74451510cd2dfb2b76952",
+          "snapshot": {
+            "name": "Component guide_Button",
+            "nodeType": "FRAME",
+            "description": "Канонический гайд компонента Button в Lib-iOS.",
+            "status": "unknown",
+            "properties": [],
+            "variants": {},
+            "variantCount": 0,
+            "dimensions": [],
+            "dependencies": []
+          }
+        }
+      ],
+      "name": "Button",
+      "card": "button.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=31182-4417&t=6NQra4uE9oLKkthr-4",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "31182:4417"
+      },
+      "lastCheckedAt": "2026-08-21T15:22:52Z",
+      "snapshotHash": "6dd72c6fcadbd71b6e3f0a0ff7ca8314fba78214d9380f4c0c3d5a2b94b251a8",
+      "snapshot": {
+        "name": "Button",
+        "nodeType": "COMPONENT_SET",
+        "description": "Универсальная кнопка для основных, вторичных, опасных и брендированных действий на iPhone и iPad.",
+        "status": "unknown",
+        "properties": [
+          {
+            "name": "Device",
+            "type": "variant",
+            "options": [
+              "iPad",
+              "iPhone"
+            ]
+          },
+          {
+            "name": "Icon",
+            "type": "boolean",
+            "key": "Icon#17310:1"
+          },
+          {
+            "name": "Shape",
+            "type": "variant",
+            "options": [
+              "Circle →",
+              "Circle ↓",
+              "Rectangle"
+            ]
+          },
+          {
+            "name": "Size",
+            "type": "variant",
+            "options": [
+              "Default",
+              "ExtraSmall",
+              "Large",
+              "Small"
+            ]
+          },
+          {
+            "name": "State",
+            "type": "variant",
+            "options": [
+              "Disabled",
+              "Loading",
+              "Progress",
+              "Rest",
+              "Touch"
+            ]
+          },
+          {
+            "name": "String Text",
+            "type": "text",
+            "key": "String Text#360:22"
+          },
+          {
+            "name": "Style",
+            "type": "variant",
+            "options": [
+              "Danger",
+              "Ghost",
+              "Primary",
+              "Sber",
+              "SberPay",
+              "Secondary"
+            ]
+          },
+          {
+            "name": "Text",
+            "type": "variant",
+            "options": [
+              "False",
+              "True"
+            ]
+          },
+          {
+            "name": "↳ Icon Instance",
+            "type": "instance_swap",
+            "key": "↳ Icon Instance#17397:0"
+          }
+        ],
+        "variants": {
+          "Device": [
+            "iPad",
+            "iPhone"
+          ],
+          "Shape": [
+            "Circle →",
+            "Circle ↓",
+            "Rectangle"
+          ],
+          "Size": [
+            "Default",
+            "ExtraSmall",
+            "Large",
+            "Small"
+          ],
+          "State": [
+            "Disabled",
+            "Loading",
+            "Progress",
+            "Rest",
+            "Touch"
+          ],
+          "Style": [
+            "Danger",
+            "Ghost",
+            "Primary",
+            "Sber",
+            "SberPay",
+            "Secondary"
+          ],
+          "Text": [
+            "False",
+            "True"
+          ]
+        },
+        "variantCount": 412,
+        "dimensions": [
+          {
+            "width": 28.0,
+            "height": 28.0,
+            "count": 8,
+            "examples": [
+              "Device=iPhone, Shape=Circle ↓, Style=Secondary, Size=ExtraSmall, State=Rest, Text=False",
+              "Device=iPhone, Shape=Circle ↓, Style=Danger, Size=ExtraSmall, State=Rest, Text=False",
+              "Device=iPhone, Shape=Circle ↓, Style=Secondary, Size=ExtraSmall, State=Touch, Text=False"
+            ]
+          },
+          {
+            "width": 32.0,
+            "height": 32.0,
+            "count": 8,
+            "examples": [
+              "Device=iPad, Shape=Circle ↓, Style=Secondary, Size=ExtraSmall, State=Rest, Text=False",
+              "Device=iPad, Shape=Circle ↓, Style=Danger, Size=ExtraSmall, State=Rest, Text=False",
+              "Device=iPad, Shape=Circle ↓, Style=Secondary, Size=ExtraSmall, State=Touch, Text=False"
+            ]
+          },
+          {
+            "width": 36.0,
+            "height": 36.0,
+            "count": 35,
+            "examples": [
+              "Device=iPhone, Shape=Rectangle, Style=Secondary, Size=Small, State=Rest, Text=False",
+              "Device=iPhone, Shape=Rectangle, Style=Danger, Size=Small, State=Rest, Text=False",
+              "Device=iPhone, Shape=Rectangle, Style=Sber, Size=Small, State=Rest, Text=False"
+            ]
+          },
+          {
+            "width": 36.0,
+            "height": 38.0,
+            "count": 2,
+            "examples": [
+              "Device=iPhone, Shape=Circle ↓, Style=Ghost, Size=Small, State=Rest, Text=True",
+              "Device=iPhone, Shape=Circle ↓, Style=Ghost, Size=Small, State=Disabled, Text=True"
+            ]
+          },
+          {
+            "width": 40.0,
+            "height": 40.0,
+            "count": 34,
+            "examples": [
+              "Device=iPad, Shape=Rectangle, Style=Secondary, Size=Small, State=Rest, Text=False",
+              "Device=iPad, Shape=Rectangle, Style=Danger, Size=Small, State=Rest, Text=False",
+              "Device=iPad, Shape=Rectangle, Style=Sber, Size=Small, State=Rest, Text=False"
+            ]
+          },
+          {
+            "width": 40.0,
+            "height": 44.0,
+            "count": 3,
+            "examples": [
+              "Device=iPad, Shape=Circle ↓, Style=Ghost, Size=Small, State=Rest, Text=True",
+              "Device=iPad, Shape=Circle ↓, Style=Ghost, Size=Small, State=Disabled, Text=True",
+              "Device=iPad, Shape=Circle ↓, Style=Ghost, Size=Small, State=Touch, Text=True"
+            ]
+          },
+          {
+            "width": 48.0,
+            "height": 44.0,
+            "count": 3,
+            "examples": [
+              "Device=iPhone, Shape=Circle ↓, Style=Ghost, Size=Default, State=Rest, Text=True",
+              "Device=iPhone, Shape=Circle ↓, Style=Ghost, Size=Default, State=Disabled, Text=True",
+              "Device=iPhone, Shape=Circle ↓, Style=Ghost, Size=Default, State=Touch, Text=True"
+            ]
+          },
+          {
+            "width": 48.0,
+            "height": 48.0,
+            "count": 34,
+            "examples": [
+              "Device=iPhone, Shape=Rectangle, Style=Primary, Size=Default, State=Rest, Text=False",
+              "Device=iPhone, Shape=Rectangle, Style=Primary, Size=Default, State=Loading, Text=False",
+              "Device=iPhone, Shape=Rectangle, Style=Primary, Size=Default, State=Progress, Text=False"
+            ]
+          },
+          {
+            "width": 52.0,
+            "height": 50.0,
+            "count": 3,
+            "examples": [
+              "Device=iPad, Shape=Circle ↓, Style=Ghost, Size=Default, State=Rest, Text=True",
+              "Device=iPad, Shape=Circle ↓, Style=Ghost, Size=Default, State=Disabled, Text=True",
+              "Device=iPad, Shape=Circle ↓, Style=Ghost, Size=Default, State=Touch, Text=True"
+            ]
+          },
+          {
+            "width": 52.0,
+            "height": 52.0,
+            "count": 34,
+            "examples": [
+              "Device=iPad, Shape=Rectangle, Style=Secondary, Size=Default, State=Rest, Text=False",
+              "Device=iPad, Shape=Rectangle, Style=Danger, Size=Default, State=Rest, Text=False",
+              "Device=iPad, Shape=Rectangle, Style=Sber, Size=Default, State=Rest, Text=False"
+            ]
+          },
+          {
+            "width": 58.0,
+            "height": 58.0,
+            "count": 15,
+            "examples": [
+              "Device=iPhone, Shape=Circle ↓, Style=Secondary, Size=Large, State=Rest, Text=False",
+              "Device=iPhone, Shape=Circle ↓, Style=Danger, Size=Large, State=Rest, Text=False",
+              "Device=iPhone, Shape=Circle ↓, Style=Primary, Size=Large, State=Rest, Text=False"
+            ]
+          },
+          {
+            "width": 76.0,
+            "height": 76.0,
+            "count": 15,
+            "examples": [
+              "Device=iPad, Shape=Circle ↓, Style=Secondary, Size=Large, State=Rest, Text=False",
+              "Device=iPad, Shape=Circle ↓, Style=Danger, Size=Large, State=Rest, Text=False",
+              "Device=iPad, Shape=Circle ↓, Style=Primary, Size=Large, State=Rest, Text=False"
+            ]
+          },
+          {
+            "width": 90.0,
+            "height": 56.0,
+            "count": 12,
+            "examples": [
+              "Device=iPhone, Shape=Circle ↓, Style=Secondary, Size=Small, State=Rest, Text=True",
+              "Device=iPhone, Shape=Circle ↓, Style=Danger, Size=Small, State=Rest, Text=True",
+              "Device=iPhone, Shape=Circle ↓, Style=Primary, Size=Small, State=Rest, Text=True"
+            ]
+          },
+          {
+            "width": 90.0,
+            "height": 70.0,
+            "count": 12,
+            "examples": [
+              "Device=iPhone, Shape=Circle ↓, Style=Secondary, Size=Default, State=Rest, Text=True",
+              "Device=iPhone, Shape=Circle ↓, Style=Danger, Size=Default, State=Rest, Text=True",
+              "Device=iPhone, Shape=Circle ↓, Style=Primary, Size=Default, State=Rest, Text=True"
+            ]
+          },
+          {
+            "width": 102.0,
+            "height": 66.0,
+            "count": 12,
+            "examples": [
+              "Device=iPad, Shape=Circle ↓, Style=Secondary, Size=Small, State=Rest, Text=True",
+              "Device=iPad, Shape=Circle ↓, Style=Danger, Size=Small, State=Rest, Text=True",
+              "Device=iPad, Shape=Circle ↓, Style=Primary, Size=Small, State=Rest, Text=True"
+            ]
+          },
+          {
+            "width": 102.0,
+            "height": 80.0,
+            "count": 12,
+            "examples": [
+              "Device=iPad, Shape=Circle ↓, Style=Secondary, Size=Default, State=Rest, Text=True",
+              "Device=iPad, Shape=Circle ↓, Style=Danger, Size=Default, State=Rest, Text=True",
+              "Device=iPad, Shape=Circle ↓, Style=Primary, Size=Default, State=Rest, Text=True"
+            ]
+          },
+          {
+            "width": 120.0,
+            "height": 28.0,
+            "count": 5,
+            "examples": [
+              "Device=iPhone, Shape=Rectangle, Style=Secondary, Size=ExtraSmall, State=Rest, Text=True",
+              "Device=iPhone, Shape=Rectangle, Style=Secondary, Size=ExtraSmall, State=Loading, Text=True",
+              "Device=iPhone, Shape=Rectangle, Style=Secondary, Size=ExtraSmall, State=Progress, Text=True"
+            ]
+          },
+          {
+            "width": 141.0,
+            "height": 36.0,
+            "count": 12,
+            "examples": [
+              "Device=iPhone, Shape=Circle →, Style=Secondary, Size=Small, State=Rest, Text=True",
+              "Device=iPhone, Shape=Circle →, Style=Danger, Size=Small, State=Rest, Text=True",
+              "Device=iPhone, Shape=Circle →, Style=Primary, Size=Small, State=Rest, Text=True"
+            ]
+          },
+          {
+            "width": 145.0,
+            "height": 32.0,
+            "count": 5,
+            "examples": [
+              "Device=iPad, Shape=Rectangle, Style=Secondary, Size=ExtraSmall, State=Rest, Text=True",
+              "Device=iPad, Shape=Rectangle, Style=Secondary, Size=ExtraSmall, State=Loading, Text=True",
+              "Device=iPad, Shape=Rectangle, Style=Secondary, Size=ExtraSmall, State=Progress, Text=True"
+            ]
+          },
+          {
+            "width": 151.0,
+            "height": 36.0,
+            "count": 24,
+            "examples": [
+              "Device=iPhone, Shape=Rectangle, Style=Secondary, Size=Small, State=Rest, Text=True",
+              "Device=iPhone, Shape=Rectangle, Style=Danger, Size=Small, State=Rest, Text=True",
+              "Device=iPhone, Shape=Rectangle, Style=Secondary, Size=Small, State=Loading, Text=True"
+            ]
+          },
+          {
+            "width": 162.0,
+            "height": 40.0,
+            "count": 12,
+            "examples": [
+              "Device=iPad, Shape=Circle →, Style=Secondary, Size=Small, State=Rest, Text=True",
+              "Device=iPad, Shape=Circle →, Style=Danger, Size=Small, State=Rest, Text=True",
+              "Device=iPad, Shape=Circle →, Style=Primary, Size=Small, State=Rest, Text=True"
+            ]
+          },
+          {
+            "width": 169.0,
+            "height": 48.0,
+            "count": 12,
+            "examples": [
+              "Device=iPhone, Shape=Circle →, Style=Secondary, Size=Default, State=Rest, Text=True",
+              "Device=iPhone, Shape=Circle →, Style=Danger, Size=Default, State=Rest, Text=True",
+              "Device=iPhone, Shape=Circle →, Style=Primary, Size=Default, State=Rest, Text=True"
+            ]
+          },
+          {
+            "width": 176.0,
+            "height": 40.0,
+            "count": 24,
+            "examples": [
+              "Device=iPad, Shape=Rectangle, Style=Secondary, Size=Small, State=Rest, Text=True",
+              "Device=iPad, Shape=Rectangle, Style=Danger, Size=Small, State=Rest, Text=True",
+              "Device=iPad, Shape=Rectangle, Style=Secondary, Size=Small, State=Loading, Text=True"
+            ]
+          },
+          {
+            "width": 179.0,
+            "height": 48.0,
+            "count": 24,
+            "examples": [
+              "Device=iPhone, Shape=Rectangle, Style=Primary, Size=Default, State=Rest, Text=True",
+              "Device=iPhone, Shape=Rectangle, Style=Sber, Size=Default, State=Rest, Text=True",
+              "Device=iPhone, Shape=Rectangle, Style=Primary, Size=Default, State=Loading, Text=True"
+            ]
+          },
+          {
+            "width": 183.0,
+            "height": 36.0,
+            "count": 4,
+            "examples": [
+              "Device=iPhone, Shape=Rectangle, Style=SberPay, Size=Small, State=Rest, Text=True",
+              "Device=iPhone, Shape=Rectangle, Style=SberPay, Size=Small, State=Loading, Text=True",
+              "Device=iPhone, Shape=Rectangle, Style=SberPay, Size=Small, State=Disabled, Text=True"
+            ]
+          },
+          {
+            "width": 189.0,
+            "height": 52.0,
+            "count": 12,
+            "examples": [
+              "Device=iPad, Shape=Circle →, Style=Secondary, Size=Default, State=Rest, Text=True",
+              "Device=iPad, Shape=Circle →, Style=Danger, Size=Default, State=Rest, Text=True",
+              "Device=iPad, Shape=Circle →, Style=Primary, Size=Default, State=Rest, Text=True"
+            ]
+          },
+          {
+            "width": 201.0,
+            "height": 52.0,
+            "count": 24,
+            "examples": [
+              "Device=iPad, Shape=Rectangle, Style=Secondary, Size=Default, State=Rest, Text=True",
+              "Device=iPad, Shape=Rectangle, Style=Danger, Size=Default, State=Rest, Text=True",
+              "Device=iPad, Shape=Rectangle, Style=Secondary, Size=Default, State=Loading, Text=True"
+            ]
+          },
+          {
+            "width": 210.0,
+            "height": 40.0,
+            "count": 4,
+            "examples": [
+              "Device=iPad, Shape=Rectangle, Style=SberPay, Size=Small, State=Rest, Text=True",
+              "Device=iPad, Shape=Rectangle, Style=SberPay, Size=Small, State=Loading, Text=True",
+              "Device=iPad, Shape=Rectangle, Style=SberPay, Size=Small, State=Disabled, Text=True"
+            ]
+          },
+          {
+            "width": 218.0,
+            "height": 48.0,
+            "count": 4,
+            "examples": [
+              "Device=iPhone, Shape=Rectangle, Style=SberPay, Size=Default, State=Rest, Text=True",
+              "Device=iPhone, Shape=Rectangle, Style=SberPay, Size=Default, State=Loading, Text=True",
+              "Device=iPhone, Shape=Rectangle, Style=SberPay, Size=Default, State=Disabled, Text=True"
+            ]
+          },
+          {
+            "width": 243.0,
+            "height": 52.0,
+            "count": 4,
+            "examples": [
+              "Device=iPad, Shape=Rectangle, Style=SberPay, Size=Default, State=Rest, Text=True",
+              "Device=iPad, Shape=Rectangle, Style=SberPay, Size=Default, State=Loading, Text=True",
+              "Device=iPad, Shape=Rectangle, Style=SberPay, Size=Default, State=Disabled, Text=True"
+            ]
+          }
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "slug": "button-toggle",
+      "platform": "iOS",
+      "relatedSources": [],
+      "name": "Button - Toggle",
+      "card": "button-toggle.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=31182-4838&t=6NQra4uE9oLKkthr-4",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "31182:4838"
+      },
+      "lastCheckedAt": "2026-08-21T15:27:50Z",
+      "snapshotHash": "4614dd0d8d8f0b7f643834f66369565462be4c84a5cdb67dcc659d594943430f",
+      "snapshot": {
+        "name": "Button - Toggle",
+        "nodeType": "COMPONENT_SET",
+        "description": "",
+        "status": "unknown",
+        "properties": [
+          {
+            "name": "Device",
+            "type": "variant",
+            "options": [
+              "iPad",
+              "iPhone"
+            ]
+          },
+          {
+            "name": "Icon",
+            "type": "boolean",
+            "key": "Icon#17310:1"
+          },
+          {
+            "name": "Selected",
+            "type": "variant",
+            "options": [
+              "False",
+              "True"
+            ]
+          },
+          {
+            "name": "Shape",
+            "type": "variant",
+            "options": [
+              "Circle →",
+              "Circle ↓",
+              "Rectangle"
+            ]
+          },
+          {
+            "name": "Size",
+            "type": "variant",
+            "options": [
+              "Default",
+              "Small"
+            ]
+          },
+          {
+            "name": "State",
+            "type": "variant",
+            "options": [
+              "Disabled",
+              "Loading",
+              "Rest",
+              "Touch"
+            ]
+          },
+          {
+            "name": "String Text",
+            "type": "text",
+            "key": "String Text#29499:0"
+          },
+          {
+            "name": "Style",
+            "type": "variant",
+            "options": [
+              "Ghost",
+              "Primary"
+            ]
+          },
+          {
+            "name": "Text",
+            "type": "variant",
+            "options": [
+              "False",
+              "True"
+            ]
+          },
+          {
+            "name": "↳ Icon Instance",
+            "type": "instance_swap",
+            "key": "↳ Icon Instance#29506:350"
+          },
+          {
+            "name": "↳ Selected Icon Instance",
+            "type": "instance_swap",
+            "key": "↳ Selected Icon Instance#28567:3"
+          }
+        ],
+        "variants": {
+          "Device": [
+            "iPad",
+            "iPhone"
+          ],
+          "Selected": [
+            "False",
+            "True"
+          ],
+          "Shape": [
+            "Circle →",
+            "Circle ↓",
+            "Rectangle"
+          ],
+          "Size": [
+            "Default",
+            "Small"
+          ],
+          "State": [
+            "Disabled",
+            "Loading",
+            "Rest",
+            "Touch"
+          ],
+          "Style": [
+            "Ghost",
+            "Primary"
+          ],
+          "Text": [
+            "False",
+            "True"
+          ]
+        },
+        "variantCount": 208,
+        "dimensions": [
+          {
+            "width": 36.0,
+            "height": 36.0,
+            "count": 23,
+            "examples": [
+              "Device=iPhone, Shape=Rectangle, Style=Primary, Size=Small, Selected=False, State=Rest, Text=False",
+              "Device=iPhone, Shape=Rectangle, Style=Primary, Size=Small, Selected=False, State=Loading, Text=False",
+              "Device=iPhone, Shape=Rectangle, Style=Primary, Size=Small, Selected=False, State=Disabled, Text=False"
+            ]
+          },
+          {
+            "width": 36.0,
+            "height": 38.0,
+            "count": 5,
+            "examples": [
+              "Device=iPhone, Shape=Circle ↓, Style=Ghost, Size=Small, Selected=False, State=Rest, Text=True",
+              "Device=iPhone, Shape=Circle ↓, Style=Ghost, Size=Small, Selected=False, State=Disabled, Text=True",
+              "Device=iPhone, Shape=Circle ↓, Style=Ghost, Size=Small, Selected=True, State=Rest, Text=True"
+            ]
+          },
+          {
+            "width": 40.0,
+            "height": 40.0,
+            "count": 22,
+            "examples": [
+              "Device=iPad, Shape=Rectangle, Style=Primary, Size=Small, Selected=False, State=Rest, Text=False",
+              "Device=iPad, Shape=Rectangle, Style=Primary, Size=Small, Selected=False, State=Loading, Text=False",
+              "Device=iPad, Shape=Rectangle, Style=Primary, Size=Small, Selected=False, State=Disabled, Text=False"
+            ]
+          },
+          {
+            "width": 40.0,
+            "height": 44.0,
+            "count": 6,
+            "examples": [
+              "Device=iPad, Shape=Circle ↓, Style=Ghost, Size=Small, Selected=False, State=Rest, Text=True",
+              "Device=iPad, Shape=Circle ↓, Style=Ghost, Size=Small, Selected=False, State=Disabled, Text=True",
+              "Device=iPad, Shape=Circle ↓, Style=Ghost, Size=Small, Selected=False, State=Touch, Text=True"
+            ]
+          },
+          {
+            "width": 48.0,
+            "height": 44.0,
+            "count": 6,
+            "examples": [
+              "Device=iPhone, Shape=Circle ↓, Style=Ghost, Size=Default, Selected=False, State=Rest, Text=True",
+              "Device=iPhone, Shape=Circle ↓, Style=Ghost, Size=Default, Selected=False, State=Disabled, Text=True",
+              "Device=iPhone, Shape=Circle ↓, Style=Ghost, Size=Default, Selected=False, State=Touch, Text=True"
+            ]
+          },
+          {
+            "width": 48.0,
+            "height": 48.0,
+            "count": 22,
+            "examples": [
+              "Device=iPhone, Shape=Rectangle, Style=Primary, Size=Default, Selected=False, State=Rest, Text=False",
+              "Device=iPhone, Shape=Rectangle, Style=Primary, Size=Default, Selected=False, State=Loading, Text=False",
+              "Device=iPhone, Shape=Rectangle, Style=Primary, Size=Default, Selected=False, State=Disabled, Text=False"
+            ]
+          },
+          {
+            "width": 52.0,
+            "height": 50.0,
+            "count": 6,
+            "examples": [
+              "Device=iPad, Shape=Circle ↓, Style=Ghost, Size=Default, Selected=False, State=Rest, Text=True",
+              "Device=iPad, Shape=Circle ↓, Style=Ghost, Size=Default, Selected=False, State=Disabled, Text=True",
+              "Device=iPad, Shape=Circle ↓, Style=Ghost, Size=Default, Selected=False, State=Touch, Text=True"
+            ]
+          },
+          {
+            "width": 52.0,
+            "height": 52.0,
+            "count": 22,
+            "examples": [
+              "Device=iPad, Shape=Rectangle, Style=Primary, Size=Default, Selected=False, State=Rest, Text=False",
+              "Device=iPad, Shape=Rectangle, Style=Primary, Size=Default, Selected=False, State=Loading, Text=False",
+              "Device=iPad, Shape=Rectangle, Style=Primary, Size=Default, Selected=False, State=Disabled, Text=False"
+            ]
+          },
+          {
+            "width": 90.0,
+            "height": 56.0,
+            "count": 8,
+            "examples": [
+              "Device=iPhone, Shape=Circle ↓, Style=Primary, Size=Small, Selected=False, State=Rest, Text=True",
+              "Device=iPhone, Shape=Circle ↓, Style=Primary, Size=Small, Selected=False, State=Loading, Text=True",
+              "Device=iPhone, Shape=Circle ↓, Style=Primary, Size=Small, Selected=False, State=Disabled, Text=True"
+            ]
+          },
+          {
+            "width": 90.0,
+            "height": 70.0,
+            "count": 8,
+            "examples": [
+              "Device=iPhone, Shape=Circle ↓, Style=Primary, Size=Default, Selected=False, State=Rest, Text=True",
+              "Device=iPhone, Shape=Circle ↓, Style=Primary, Size=Default, Selected=False, State=Loading, Text=True",
+              "Device=iPhone, Shape=Circle ↓, Style=Primary, Size=Default, Selected=False, State=Disabled, Text=True"
+            ]
+          },
+          {
+            "width": 102.0,
+            "height": 66.0,
+            "count": 8,
+            "examples": [
+              "Device=iPad, Shape=Circle ↓, Style=Primary, Size=Small, Selected=False, State=Rest, Text=True",
+              "Device=iPad, Shape=Circle ↓, Style=Primary, Size=Small, Selected=False, State=Loading, Text=True",
+              "Device=iPad, Shape=Circle ↓, Style=Primary, Size=Small, Selected=False, State=Disabled, Text=True"
+            ]
+          },
+          {
+            "width": 102.0,
+            "height": 80.0,
+            "count": 8,
+            "examples": [
+              "Device=iPad, Shape=Circle ↓, Style=Primary, Size=Default, Selected=False, State=Rest, Text=True",
+              "Device=iPad, Shape=Circle ↓, Style=Primary, Size=Default, Selected=False, State=Loading, Text=True",
+              "Device=iPad, Shape=Circle ↓, Style=Primary, Size=Default, Selected=False, State=Disabled, Text=True"
+            ]
+          },
+          {
+            "width": 141.0,
+            "height": 36.0,
+            "count": 8,
+            "examples": [
+              "Device=iPhone, Shape=Circle →, Style=Primary, Size=Small, Selected=False, State=Rest, Text=True",
+              "Device=iPhone, Shape=Circle →, Style=Primary, Size=Small, Selected=False, State=Loading, Text=True",
+              "Device=iPhone, Shape=Circle →, Style=Primary, Size=Small, Selected=False, State=Disabled, Text=True"
+            ]
+          },
+          {
+            "width": 151.0,
+            "height": 36.0,
+            "count": 8,
+            "examples": [
+              "Device=iPhone, Shape=Rectangle, Style=Primary, Size=Small, Selected=False, State=Rest, Text=True",
+              "Device=iPhone, Shape=Rectangle, Style=Primary, Size=Small, Selected=False, State=Loading, Text=True",
+              "Device=iPhone, Shape=Rectangle, Style=Primary, Size=Small, Selected=False, State=Disabled, Text=True"
+            ]
+          },
+          {
+            "width": 162.0,
+            "height": 40.0,
+            "count": 8,
+            "examples": [
+              "Device=iPad, Shape=Circle →, Style=Primary, Size=Small, Selected=False, State=Rest, Text=True",
+              "Device=iPad, Shape=Circle →, Style=Primary, Size=Small, Selected=False, State=Loading, Text=True",
+              "Device=iPad, Shape=Circle →, Style=Primary, Size=Small, Selected=False, State=Disabled, Text=True"
+            ]
+          },
+          {
+            "width": 169.0,
+            "height": 48.0,
+            "count": 8,
+            "examples": [
+              "Device=iPhone, Shape=Circle →, Style=Primary, Size=Default, Selected=False, State=Rest, Text=True",
+              "Device=iPhone, Shape=Circle →, Style=Primary, Size=Default, Selected=False, State=Loading, Text=True",
+              "Device=iPhone, Shape=Circle →, Style=Primary, Size=Default, Selected=False, State=Disabled, Text=True"
+            ]
+          },
+          {
+            "width": 176.0,
+            "height": 40.0,
+            "count": 8,
+            "examples": [
+              "Device=iPad, Shape=Rectangle, Style=Primary, Size=Small, Selected=False, State=Rest, Text=True",
+              "Device=iPad, Shape=Rectangle, Style=Primary, Size=Small, Selected=False, State=Loading, Text=True",
+              "Device=iPad, Shape=Rectangle, Style=Primary, Size=Small, Selected=False, State=Disabled, Text=True"
+            ]
+          },
+          {
+            "width": 179.0,
+            "height": 48.0,
+            "count": 8,
+            "examples": [
+              "Device=iPhone, Shape=Rectangle, Style=Primary, Size=Default, Selected=False, State=Rest, Text=True",
+              "Device=iPhone, Shape=Rectangle, Style=Primary, Size=Default, Selected=False, State=Loading, Text=True",
+              "Device=iPhone, Shape=Rectangle, Style=Primary, Size=Default, Selected=False, State=Disabled, Text=True"
+            ]
+          },
+          {
+            "width": 189.0,
+            "height": 52.0,
+            "count": 8,
+            "examples": [
+              "Device=iPad, Shape=Circle →, Style=Primary, Size=Default, Selected=False, State=Rest, Text=True",
+              "Device=iPad, Shape=Circle →, Style=Primary, Size=Default, Selected=False, State=Loading, Text=True",
+              "Device=iPad, Shape=Circle →, Style=Primary, Size=Default, Selected=False, State=Disabled, Text=True"
+            ]
+          },
+          {
+            "width": 201.0,
+            "height": 52.0,
+            "count": 8,
+            "examples": [
+              "Device=iPad, Shape=Rectangle, Style=Primary, Size=Default, Selected=False, State=Rest, Text=True",
+              "Device=iPad, Shape=Rectangle, Style=Primary, Size=Default, Selected=False, State=Loading, Text=True",
+              "Device=iPad, Shape=Rectangle, Style=Primary, Size=Default, Selected=False, State=Disabled, Text=True"
+            ]
+          }
+        ],
+        "dependencies": [
+          {
+            "nodeId": "dependency:3",
+            "name": ".x / loading shape"
+          },
+          {
+            "nodeId": "dependency:2",
+            "name": "_compensation"
+          },
+          {
+            "nodeId": "dependency:1",
+            "name": "Mark / Star_Bold"
+          },
+          {
+            "nodeId": "dependency:4",
+            "name": "Mark / Star_Solid"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "checkbox",
+      "platform": "iOS",
+      "relatedSources": [],
+      "name": "Checkbox",
+      "card": "checkbox.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=14447-113935&t=6NQra4uE9oLKkthr-4",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "14447:113935"
+      },
+      "lastCheckedAt": "2026-08-21T15:32:19Z",
+      "snapshotHash": "e2f97ae0cee20fb83b0598f9cedde9cbca684e0b3a38fb230925a3c898ab1bc8",
+      "snapshot": {
+        "name": "Checkbox",
+        "nodeType": "COMPONENT_SET",
+        "description": "",
+        "status": "unknown",
+        "properties": [
+          {
+            "name": "Checked",
+            "type": "variant",
+            "options": [
+              "False",
+              "True"
+            ]
+          },
+          {
+            "name": "State",
+            "type": "variant",
+            "options": [
+              "default",
+              "disabled"
+            ]
+          }
+        ],
+        "variants": {
+          "Checked": [
+            "False",
+            "True"
+          ],
+          "State": [
+            "default",
+            "disabled"
+          ]
+        },
+        "variantCount": 4,
+        "dimensions": [
+          {
+            "width": 24.0,
+            "height": 24.0,
+            "count": 4,
+            "examples": [
+              "State=default, Checked=True",
+              "State=disabled, Checked=True",
+              "State=default, Checked=False"
+            ]
+          }
+        ],
+        "dependencies": [
+          {
+            "nodeId": "dependency:check-mark",
+            "name": "Notification / Check_Mark_Single_Bold"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "chips",
+      "name": "Chips",
+      "platform": "iOS",
+      "card": "chips.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=34254-8865&t=6NQra4uE9oLKkthr-4",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "34254:8865"
+      },
+      "relatedSources": [
+        {
+          "kind": "guide",
+          "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/branch/jdBqhypltqMzx0mXE7uw94/Lib-iOS?node-id=39348-13491",
+          "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+          "branchKey": "jdBqhypltqMzx0mXE7uw94",
+          "apiFileKey": "jdBqhypltqMzx0mXE7uw94",
+          "nodeId": "39348:13491"
+        }
+      ],
+      "lastCheckedAt": "2026-08-21T16:07:30Z",
+      "snapshotHash": "47a5d8a421dbbb1db2471f81114c792337b9fca589294a6e8e78fbcde5676fab",
+      "snapshot": {
+        "name": "Chips",
+        "nodeType": "COMPONENT_SET",
+        "description": "",
+        "status": "unknown",
+        "properties": [
+          {
+            "name": "Device",
+            "type": "variant",
+            "options": [
+              "iPad",
+              "iPhone"
+            ]
+          },
+          {
+            "name": "Icon",
+            "type": "boolean",
+            "key": "Icon#34229:16"
+          },
+          {
+            "name": "Icon Instance",
+            "type": "instance_swap",
+            "key": "Icon Instance#34229:21"
+          },
+          {
+            "name": "Selected",
+            "type": "variant",
+            "options": [
+              "False",
+              "True"
+            ]
+          },
+          {
+            "name": "State",
+            "type": "variant",
+            "options": [
+              "Disabled",
+              "Rest",
+              "Touch"
+            ]
+          },
+          {
+            "name": "String Text",
+            "type": "text",
+            "key": "String Text#34229:3"
+          },
+          {
+            "name": "Style",
+            "type": "variant",
+            "options": [
+              "Icon",
+              "Img"
+            ]
+          }
+        ],
+        "variants": {
+          "Device": [
+            "iPad",
+            "iPhone"
+          ],
+          "Selected": [
+            "False",
+            "True"
+          ],
+          "State": [
+            "Disabled",
+            "Rest",
+            "Touch"
+          ],
+          "Style": [
+            "Icon",
+            "Img"
+          ]
+        },
+        "variantCount": 24,
+        "dimensions": [
+          {
+            "width": 88.0,
+            "height": 36.0,
+            "count": 3,
+            "examples": [
+              "Device=iPhone, Style=Icon, State=Rest, Selected=False",
+              "Device=iPhone, Style=Icon, State=Touch, Selected=False",
+              "Device=iPhone, Style=Icon, State=Disabled, Selected=False"
+            ]
+          },
+          {
+            "width": 96.0,
+            "height": 36.0,
+            "count": 3,
+            "examples": [
+              "Device=iPhone, Style=Img, State=Rest, Selected=False",
+              "Device=iPhone, Style=Img, State=Touch, Selected=False",
+              "Device=iPhone, Style=Img, State=Disabled, Selected=False"
+            ]
+          },
+          {
+            "width": 104.0,
+            "height": 36.0,
+            "count": 3,
+            "examples": [
+              "Device=iPhone, Style=Icon, State=Rest, Selected=True",
+              "Device=iPhone, Style=Icon, State=Touch, Selected=True",
+              "Device=iPhone, Style=Icon, State=Disabled, Selected=True"
+            ]
+          },
+          {
+            "width": 104.0,
+            "height": 40.0,
+            "count": 3,
+            "examples": [
+              "Device=iPad, Style=Icon, State=Rest, Selected=False",
+              "Device=iPad, Style=Icon, State=Touch, Selected=False",
+              "Device=iPad, Style=Icon, State=Disabled, Selected=False"
+            ]
+          },
+          {
+            "width": 110.0,
+            "height": 40.0,
+            "count": 3,
+            "examples": [
+              "Device=iPad, Style=Img, State=Rest, Selected=False",
+              "Device=iPad, Style=Img, State=Touch, Selected=False",
+              "Device=iPad, Style=Img, State=Disabled, Selected=False"
+            ]
+          },
+          {
+            "width": 112.0,
+            "height": 36.0,
+            "count": 3,
+            "examples": [
+              "Device=iPhone, Style=Img, State=Rest, Selected=True",
+              "Device=iPhone, Style=Img, State=Touch, Selected=True",
+              "Device=iPhone, Style=Img, State=Disabled, Selected=True"
+            ]
+          },
+          {
+            "width": 125.0,
+            "height": 40.0,
+            "count": 3,
+            "examples": [
+              "Device=iPad, Style=Icon, State=Rest, Selected=True",
+              "Device=iPad, Style=Icon, State=Touch, Selected=True",
+              "Device=iPad, Style=Icon, State=Disabled, Selected=True"
+            ]
+          },
+          {
+            "width": 131.0,
+            "height": 40.0,
+            "count": 3,
+            "examples": [
+              "Device=iPad, Style=Img, State=Rest, Selected=True",
+              "Device=iPad, Style=Img, State=Touch, Selected=True",
+              "Device=iPad, Style=Img, State=Disabled, Selected=True"
+            ]
+          }
+        ],
+        "dependencies": [
+          {
+            "nodeId": "dependency:compensation",
+            "name": "_compensation"
+          },
+          {
+            "nodeId": "dependency:actions-calendar-bold",
+            "name": "Actions / Calendar_Bold"
+          },
+          {
+            "nodeId": "dependency:actions-cross-small-bold",
+            "name": "Actions / Cross_Small_Bold"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "error-fullscreen",
+      "platform": "iOS",
+      "relatedSources": [],
+      "name": "Error - Fulscreen",
+      "card": "error-fullscreen.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=40967-4323&t=6NQra4uE9oLKkthr-4",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "40967:4323"
+      },
+      "lastCheckedAt": "2026-08-21T15:44:33Z",
+      "snapshotHash": "82634fbfb4e0b73544b73a69a3a75519de0e2906d9e321cafd77327859fc9c2c",
+      "snapshot": {
+        "name": "Error - Fulscreen",
+        "nodeType": "COMPONENT_SET",
+        "description": "",
+        "status": "unknown",
+        "properties": [
+          {
+            "name": "Device",
+            "type": "variant",
+            "options": [
+              "iPad 10 Landscape",
+              "iPad 10 Portrait",
+              "iPad Pro 13 Landscape",
+              "iPad Pro 13 Portrait",
+              "iPhone 15",
+              "iPhone 17 Pro Max"
+            ]
+          }
+        ],
+        "variants": {
+          "Device": [
+            "iPad 10 Landscape",
+            "iPad 10 Portrait",
+            "iPad Pro 13 Landscape",
+            "iPad Pro 13 Portrait",
+            "iPhone 15",
+            "iPhone 17 Pro Max"
+          ]
+        },
+        "variantCount": 6,
+        "dimensions": [
+          {
+            "width": 393.0,
+            "height": 852.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone 15"
+            ]
+          },
+          {
+            "width": 440.0,
+            "height": 956.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone 17 Pro Max"
+            ]
+          },
+          {
+            "width": 820.0,
+            "height": 1180.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad 10 Portrait"
+            ]
+          },
+          {
+            "width": 1032.0,
+            "height": 1376.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad Pro 13 Portrait"
+            ]
+          },
+          {
+            "width": 1180.0,
+            "height": 820.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad 10 Landscape"
+            ]
+          },
+          {
+            "width": 1376.0,
+            "height": 1032.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad Pro 13 Landscape"
+            ]
+          }
+        ],
+        "dependencies": [
+          {
+            "nodeId": "dependency:avatar",
+            "name": "_Avatar"
+          },
+          {
+            "nodeId": "dependency:compensation",
+            "name": "_compensation"
+          },
+          {
+            "nodeId": "dependency:support-widget",
+            "name": "_Error - Support Widget"
+          },
+          {
+            "nodeId": "dependency:mode-options",
+            "name": "_Materials/Mode Options"
+          },
+          {
+            "nodeId": "dependency:tabbar-item",
+            "name": "_Tabbar Item"
+          },
+          {
+            "nodeId": "dependency:copy",
+            "name": "Actions / Copy_Bold"
+          },
+          {
+            "nodeId": "dependency:button",
+            "name": "Button"
+          },
+          {
+            "nodeId": "dependency:error-view",
+            "name": "Error - View"
+          },
+          {
+            "nodeId": "dependency:home-indicator",
+            "name": "Home Indicator"
+          },
+          {
+            "nodeId": "dependency:image-placeholder",
+            "name": "Image Placeholder"
+          },
+          {
+            "nodeId": "dependency:star",
+            "name": "Mark / Star_Bold"
+          },
+          {
+            "nodeId": "dependency:ball",
+            "name": "Menu / Ball"
+          },
+          {
+            "nodeId": "dependency:ball-solid",
+            "name": "Menu / Ball_Solid"
+          },
+          {
+            "nodeId": "dependency:bookmark",
+            "name": "Menu / Bookmark"
+          },
+          {
+            "nodeId": "dependency:bookmark-solid",
+            "name": "Menu / Bookmark_Solid"
+          },
+          {
+            "nodeId": "dependency:house-solid",
+            "name": "Menu / House_Solid"
+          },
+          {
+            "nodeId": "dependency:magnifier",
+            "name": "Menu / Magnifier"
+          },
+          {
+            "nodeId": "dependency:magnifier-solid",
+            "name": "Menu / Magnifier_Solid"
+          },
+          {
+            "nodeId": "dependency:tv",
+            "name": "Menu / TV_Old"
+          },
+          {
+            "nodeId": "dependency:tv-solid",
+            "name": "Menu / TV_Old_Solid"
+          },
+          {
+            "nodeId": "dependency:navbar",
+            "name": "Navbar"
+          },
+          {
+            "nodeId": "dependency:profile-logo",
+            "name": "Profile logo"
+          },
+          {
+            "nodeId": "dependency:sber-spasibo",
+            "name": "Sber / Mini Spasibo"
+          },
+          {
+            "nodeId": "dependency:status-bar",
+            "name": "Status Bar"
+          },
+          {
+            "nodeId": "dependency:tabbar",
+            "name": "Tabbar - Main"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "error-sheet",
+      "platform": "iOS",
+      "relatedSources": [],
+      "name": "Error - Sheet",
+      "card": "error-sheet.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=40954-1419&t=6NQra4uE9oLKkthr-4",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "40954:1419"
+      },
+      "lastCheckedAt": "2026-08-21T15:41:13Z",
+      "snapshotHash": "a693bb8051a06649b5ae0636709e18d8f7b34a48f7e30527e637e13a833b6255",
+      "snapshot": {
+        "name": "Error - Sheet",
+        "nodeType": "COMPONENT_SET",
+        "description": "",
+        "status": "unknown",
+        "properties": [
+          {
+            "name": "Device",
+            "type": "variant",
+            "options": [
+              "Phone",
+              "iPad"
+            ]
+          }
+        ],
+        "variants": {
+          "Device": [
+            "Phone",
+            "iPad"
+          ]
+        },
+        "variantCount": 2,
+        "dimensions": [
+          {
+            "width": 393.0,
+            "height": 852.0,
+            "count": 1,
+            "examples": [
+              "Device=Phone"
+            ]
+          },
+          {
+            "width": 820.0,
+            "height": 820.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad"
+            ]
+          }
+        ],
+        "dependencies": [
+          {
+            "nodeId": "dependency:deprecated-mini-button",
+            "name": ".🔴 [Deprecated] mini Button"
+          },
+          {
+            "nodeId": "dependency:scrim",
+            "name": "BottomSheet / Scrim"
+          },
+          {
+            "nodeId": "dependency:error-view",
+            "name": "Error - View"
+          },
+          {
+            "nodeId": "dependency:star",
+            "name": "Mark / Star_Bold"
+          },
+          {
+            "nodeId": "dependency:sheet-header",
+            "name": "Sheet Native - Header"
+          },
+          {
+            "nodeId": "dependency:sheet-native",
+            "name": "🟢Sheet Native"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "error-view",
+      "platform": "iOS",
+      "relatedSources": [],
+      "name": "Error - View",
+      "card": "error-view.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=22536-7360&t=6NQra4uE9oLKkthr-4",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "22536:7360"
+      },
+      "lastCheckedAt": "2026-08-21T15:38:37Z",
+      "snapshotHash": "6e094f021dc0011e0b704c4b63f0c91615b1565ed187941dbff98c4f8f45098e",
+      "snapshot": {
+        "name": "Error - View",
+        "nodeType": "COMPONENT_SET",
+        "description": "",
+        "status": "unknown",
+        "properties": [
+          {
+            "name": "Body text",
+            "type": "boolean",
+            "key": "Body text#22609:7"
+          },
+          {
+            "name": "Button Box",
+            "type": "boolean",
+            "key": "Button Box#22977:0"
+          },
+          {
+            "name": "Caption",
+            "type": "boolean",
+            "key": "Caption#22581:20"
+          },
+          {
+            "name": "Device",
+            "type": "variant",
+            "options": [
+              "iPad Landscape",
+              "iPad Portrait",
+              "iPhone"
+            ]
+          },
+          {
+            "name": "Heading",
+            "type": "boolean",
+            "key": "Heading#22581:16"
+          },
+          {
+            "name": "Image",
+            "type": "boolean",
+            "key": "Image#22579:4"
+          },
+          {
+            "name": "Orientation",
+            "type": "variant",
+            "options": [
+              "Vertical"
+            ]
+          },
+          {
+            "name": "Timer",
+            "type": "boolean",
+            "key": "Timer#22581:24"
+          },
+          {
+            "name": "↳ Body Content",
+            "type": "text",
+            "key": "↳ Body Content#22609:0"
+          },
+          {
+            "name": "↳ Caption Content",
+            "type": "text",
+            "key": "↳ Caption Content#22611:21"
+          },
+          {
+            "name": "↳ Heading Content",
+            "type": "text",
+            "key": "↳ Heading Content#22609:14"
+          },
+          {
+            "name": "↳ Secondary Btn",
+            "type": "boolean",
+            "key": "↳ Secondary Btn#22581:28"
+          },
+          {
+            "name": "↳ Timer Content",
+            "type": "text",
+            "key": "↳ Timer Content#22611:28"
+          }
+        ],
+        "variants": {
+          "Device": [
+            "iPad Landscape",
+            "iPad Portrait",
+            "iPhone"
+          ],
+          "Orientation": [
+            "Vertical"
+          ]
+        },
+        "variantCount": 3,
+        "dimensions": [
+          {
+            "width": 375.0,
+            "height": 543.5,
+            "count": 1,
+            "examples": [
+              "Device=iPhone, Orientation=Vertical"
+            ]
+          },
+          {
+            "width": 452.0,
+            "height": 616.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad Portrait, Orientation=Vertical"
+            ]
+          },
+          {
+            "width": 747.0,
+            "height": 380.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad Landscape, Orientation=Vertical"
+            ]
+          }
+        ],
+        "dependencies": [
+          {
+            "nodeId": "dependency:compensation",
+            "name": "_compensation"
+          },
+          {
+            "nodeId": "dependency:support-widget",
+            "name": "_Error - Support Widget"
+          },
+          {
+            "nodeId": "dependency:copy",
+            "name": "Actions / Copy_Bold"
+          },
+          {
+            "nodeId": "dependency:button",
+            "name": "Button"
+          },
+          {
+            "nodeId": "dependency:image-placeholder",
+            "name": "Image Placeholder"
+          },
+          {
+            "nodeId": "dependency:star",
+            "name": "Mark / Star_Bold"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "input",
+      "platform": "iOS",
+      "relatedSources": [],
+      "name": "Text input",
+      "card": "input.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=12510-97334&t=6NQra4uE9oLKkthr-4",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "12510:97334"
+      },
+      "lastCheckedAt": "2026-08-21T15:55:31Z",
+      "snapshotHash": "07c670f2d58965e0f96385b5869446f2ca0845f961103c261349f48ac54a9857",
+      "snapshot": {
+        "name": "Text input",
+        "nodeType": "COMPONENT_SET",
+        "description": "",
+        "status": "unknown",
+        "properties": [
+          {
+            "name": "Device",
+            "type": "variant",
+            "defaultValue": "iPhone",
+            "options": [
+              "iPad",
+              "iPhone"
+            ]
+          },
+          {
+            "name": "Icon",
+            "type": "boolean",
+            "key": "Icon#12547:22",
+            "defaultValue": true
+          },
+          {
+            "name": "State",
+            "type": "variant",
+            "defaultValue": "default",
+            "options": [
+              "complete",
+              "default",
+              "disabled",
+              "error",
+              "typing"
+            ]
+          },
+          {
+            "name": "Text content",
+            "type": "text",
+            "key": "Text content#13774:0",
+            "defaultValue": "Text string"
+          },
+          {
+            "name": "Undertitle",
+            "type": "boolean",
+            "key": "Undertitle#15043:16",
+            "defaultValue": false
+          },
+          {
+            "name": "Undertitle text",
+            "type": "text",
+            "key": "Undertitle text#13774:11",
+            "defaultValue": "Undertitle text"
+          },
+          {
+            "name": "↳ Icon instance",
+            "type": "instance_swap",
+            "key": "↳ Icon instance#12547:33",
+            "defaultValue": "39522:40505"
+          }
+        ],
+        "variants": {
+          "Device": [
+            "iPad",
+            "iPhone"
+          ],
+          "State": [
+            "complete",
+            "default",
+            "disabled",
+            "error",
+            "typing"
+          ]
+        },
+        "variantCount": 10,
+        "dimensions": [
+          {
+            "width": 345.0,
+            "height": 48.0,
+            "count": 5,
+            "examples": [
+              "Device=iPhone, State=typing",
+              "Device=iPhone, State=error",
+              "Device=iPhone, State=complete"
+            ]
+          },
+          {
+            "width": 560.0,
+            "height": 48.0,
+            "count": 5,
+            "examples": [
+              "Device=iPad, State=default",
+              "Device=iPad, State=typing",
+              "Device=iPad, State=error"
+            ]
+          }
+        ],
+        "dependencies": [
+          {
+            "nodeId": "39522:40505",
+            "name": "Actions / Eye_Crossed_Bold"
+          },
+          {
+            "nodeId": "18716:508",
+            "name": "Type=Typing In Progress"
+          },
+          {
+            "nodeId": "18716:515",
+            "name": "Type=Typing In Progress"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "label-large",
+      "platform": "iOS",
+      "relatedSources": [],
+      "name": "Label : Large",
+      "card": "label-large.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=12185-97166&t=6NQra4uE9oLKkthr-4",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "12185:97166"
+      },
+      "lastCheckedAt": "2026-08-21T16:01:51Z",
+      "snapshotHash": "de13e1902456424943be9f6005a42ea35be2ace0fd4360bf79d70a6302db32ec",
+      "snapshot": {
+        "name": "Label : Large",
+        "nodeType": "COMPONENT_SET",
+        "description": "",
+        "status": "unknown",
+        "properties": [
+          {
+            "name": "device",
+            "type": "variant",
+            "options": [
+              "phone",
+              "tablet"
+            ]
+          },
+          {
+            "name": "Icon",
+            "type": "boolean",
+            "key": "Icon#5:24"
+          },
+          {
+            "name": "Icon Instance",
+            "type": "instance_swap",
+            "key": "Icon Instance#29:0"
+          },
+          {
+            "name": "text -->",
+            "type": "text",
+            "key": "text -->#5:0"
+          },
+          {
+            "name": "theme",
+            "type": "variant",
+            "options": [
+              "Black",
+              "Continuum",
+              "Lemon",
+              "Lighthouse",
+              "Neutral",
+              "Offer",
+              "Outline",
+              "Positive",
+              "Red",
+              "SberSpasibo"
+            ]
+          }
+        ],
+        "variants": {
+          "device": [
+            "phone",
+            "tablet"
+          ],
+          "theme": [
+            "Black",
+            "Continuum",
+            "Lemon",
+            "Lighthouse",
+            "Neutral",
+            "Offer",
+            "Outline",
+            "Positive",
+            "Red",
+            "SberSpasibo"
+          ]
+        },
+        "variantCount": 20,
+        "dimensions": [
+          {
+            "width": 49.0,
+            "height": 20.0,
+            "count": 9,
+            "examples": [
+              "device=phone, theme=Lighthouse",
+              "device=phone, theme=Continuum",
+              "device=phone, theme=Red"
+            ]
+          },
+          {
+            "width": 59.0,
+            "height": 24.0,
+            "count": 9,
+            "examples": [
+              "device=tablet, theme=Lighthouse",
+              "device=tablet, theme=Continuum",
+              "device=tablet, theme=Red"
+            ]
+          },
+          {
+            "width": 66.0,
+            "height": 20.0,
+            "count": 1,
+            "examples": [
+              "device=phone, theme=SberSpasibo"
+            ]
+          },
+          {
+            "width": 80.0,
+            "height": 24.0,
+            "count": 1,
+            "examples": [
+              "device=tablet, theme=SberSpasibo"
+            ]
+          }
+        ],
+        "dependencies": [
+          {
+            "nodeId": "dependency:logotypes-live",
+            "name": "Logotypes / Live"
+          },
+          {
+            "nodeId": "dependency:logotypes-sber-spasibo",
+            "name": "Logotypes / Sber_Spasibo"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "label-small",
+      "platform": "iOS",
+      "relatedSources": [],
+      "name": "Label : Small",
+      "card": "label-small.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=12185-97090&t=6NQra4uE9oLKkthr-4",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "12185:97090"
+      },
+      "lastCheckedAt": "2026-08-21T16:01:52Z",
+      "snapshotHash": "8d78b6794c91ec7995d6ff2c82b5264d28472701feab1dcd06148646e7dc19b5",
+      "snapshot": {
+        "name": "Label : Small",
+        "nodeType": "COMPONENT_SET",
+        "description": "",
+        "status": "unknown",
+        "properties": [
+          {
+            "name": "device",
+            "type": "variant",
+            "options": [
+              "phone",
+              "tablet"
+            ]
+          },
+          {
+            "name": "Icon",
+            "type": "boolean",
+            "key": "Icon#5:24"
+          },
+          {
+            "name": "Icon Instance",
+            "type": "instance_swap",
+            "key": "Icon Instance#38:0"
+          },
+          {
+            "name": "text -->",
+            "type": "text",
+            "key": "text -->#5:0"
+          },
+          {
+            "name": "theme",
+            "type": "variant",
+            "options": [
+              "Black",
+              "Continuum",
+              "Lemon",
+              "Lighthouse",
+              "Neutral",
+              "Offer",
+              "Outline",
+              "Positive",
+              "Red",
+              "SberSpasibo"
+            ]
+          }
+        ],
+        "variants": {
+          "device": [
+            "phone",
+            "tablet"
+          ],
+          "theme": [
+            "Black",
+            "Continuum",
+            "Lemon",
+            "Lighthouse",
+            "Neutral",
+            "Offer",
+            "Outline",
+            "Positive",
+            "Red",
+            "SberSpasibo"
+          ]
+        },
+        "variantCount": 20,
+        "dimensions": [
+          {
+            "width": 37.0,
+            "height": 14.0,
+            "count": 9,
+            "examples": [
+              "device=phone, theme=Lighthouse",
+              "device=phone, theme=Continuum",
+              "device=phone, theme=Red"
+            ]
+          },
+          {
+            "width": 42.0,
+            "height": 16.0,
+            "count": 9,
+            "examples": [
+              "device=tablet, theme=Lighthouse",
+              "device=tablet, theme=Continuum",
+              "device=tablet, theme=Red"
+            ]
+          },
+          {
+            "width": 49.0,
+            "height": 14.0,
+            "count": 1,
+            "examples": [
+              "device=phone, theme=SberSpasibo"
+            ]
+          },
+          {
+            "width": 57.0,
+            "height": 16.0,
+            "count": 1,
+            "examples": [
+              "device=tablet, theme=SberSpasibo"
+            ]
+          }
+        ],
+        "dependencies": [
+          {
+            "nodeId": "dependency:logotypes-live",
+            "name": "Logotypes / Live"
+          },
+          {
+            "nodeId": "dependency:logotypes-sber-spasibo",
+            "name": "Logotypes / Sber_Spasibo"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "list-item-v2",
+      "platform": "iOS",
+      "relatedSources": [],
+      "name": "🟡 List Item V2",
+      "card": "list-item-v2.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=36507-21672&t=6NQra4uE9oLKkthr-4",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "36507:21672"
+      },
+      "lastCheckedAt": "2026-08-21T16:04:40Z",
+      "snapshotHash": "196efa8fa3009b2253c70b8a1be60f95422c2a12eae8e3363852696b58851c3e",
+      "snapshot": {
+        "name": "🟡 List Item V2",
+        "nodeType": "COMPONENT_SET",
+        "description": "",
+        "status": "work-in-progress",
+        "properties": [
+          {
+            "name": "Action Icon",
+            "type": "boolean",
+            "key": "Action Icon#34008:9"
+          },
+          {
+            "name": "Device",
+            "type": "variant",
+            "options": [
+              "iPad",
+              "iPhone"
+            ]
+          },
+          {
+            "name": "Icon",
+            "type": "boolean",
+            "key": "Icon#33676:33"
+          },
+          {
+            "name": "Image Right",
+            "type": "boolean",
+            "key": "Image Right#34008:0"
+          },
+          {
+            "name": "Sber Logo",
+            "type": "boolean",
+            "key": "Sber Logo#33769:0"
+          },
+          {
+            "name": "Select Icon",
+            "type": "boolean",
+            "key": "Select Icon#34008:26"
+          },
+          {
+            "name": "State",
+            "type": "variant",
+            "options": [
+              "Disabled",
+              "Loading",
+              "Rest",
+              "Skeleton",
+              "Touch"
+            ]
+          },
+          {
+            "name": "Style",
+            "type": "variant",
+            "options": [
+              "Filled",
+              "Ghost"
+            ]
+          },
+          {
+            "name": "Subtitle",
+            "type": "boolean",
+            "key": "Subtitle#33676:330"
+          },
+          {
+            "name": "Text Right",
+            "type": "boolean",
+            "key": "Text Right#33676:165"
+          },
+          {
+            "name": "Title",
+            "type": "text",
+            "key": "Title#33676:99"
+          },
+          {
+            "name": "Type",
+            "type": "variant",
+            "options": [
+              "Negative",
+              "Neutral"
+            ]
+          },
+          {
+            "name": "Variant",
+            "type": "variant",
+            "options": [
+              "🔴Action",
+              "🔴Pay Card",
+              "🔴Static",
+              "🔴Switch",
+              "🟢Select"
+            ]
+          },
+          {
+            "name": "↳ Action Icon",
+            "type": "instance_swap",
+            "key": "↳ Action Icon#33769:51"
+          },
+          {
+            "name": "↳ Card Number",
+            "type": "text",
+            "key": "↳ Card Number#33676:264"
+          },
+          {
+            "name": "↳ Icon",
+            "type": "instance_swap",
+            "key": "↳ Icon#33676:66"
+          },
+          {
+            "name": "↳ Pay System",
+            "type": "text",
+            "key": "↳ Pay System#33676:297"
+          },
+          {
+            "name": "↳ Sber Logo",
+            "type": "instance_swap",
+            "key": "↳ Sber Logo#33769:17"
+          },
+          {
+            "name": "↳ Subtitle",
+            "type": "text",
+            "key": "↳ Subtitle#33676:132"
+          },
+          {
+            "name": "↳ Text Right",
+            "type": "text",
+            "key": "↳ Text Right#33676:198"
+          }
+        ],
+        "variants": {
+          "Device": [
+            "iPad",
+            "iPhone"
+          ],
+          "State": [
+            "Disabled",
+            "Loading",
+            "Rest",
+            "Skeleton",
+            "Touch"
+          ],
+          "Style": [
+            "Filled",
+            "Ghost"
+          ],
+          "Type": [
+            "Negative",
+            "Neutral"
+          ],
+          "Variant": [
+            "🔴Action",
+            "🔴Pay Card",
+            "🔴Static",
+            "🔴Switch",
+            "🟢Select"
+          ]
+        },
+        "variantCount": 64,
+        "dimensions": [
+          {
+            "width": 344.0,
+            "height": 52.0,
+            "count": 32,
+            "examples": [
+              "Device=iPhone, Variant=🔴Action, Style=Ghost, Type=Neutral, State=Rest",
+              "Device=iPhone, Variant=🔴Action, Style=Ghost, Type=Neutral, State=Touch",
+              "Device=iPhone, Variant=🔴Action, Style=Ghost, Type=Neutral, State=Disabled"
+            ]
+          },
+          {
+            "width": 384.0,
+            "height": 58.0,
+            "count": 32,
+            "examples": [
+              "Device=iPad, Variant=🔴Action, Style=Ghost, Type=Neutral, State=Rest",
+              "Device=iPad, Variant=🔴Action, Style=Ghost, Type=Neutral, State=Touch",
+              "Device=iPad, Variant=🔴Action, Style=Ghost, Type=Neutral, State=Disabled"
+            ]
+          }
+        ],
+        "dependencies": [
+          {
+            "nodeId": "dependency:card",
+            "name": "_Card"
+          },
+          {
+            "nodeId": "dependency:list-loading-gradient",
+            "name": "_itemList / loading gradient"
+          },
+          {
+            "nodeId": "dependency:list-skeleton-loading",
+            "name": "_itemList / skeletonLoading"
+          },
+          {
+            "nodeId": "dependency:arrow-right-small-bold",
+            "name": "Arrows / Arrow_Right_Small_Bold"
+          },
+          {
+            "nodeId": "dependency:logo-sberpay",
+            "name": "Logo / SberPay"
+          },
+          {
+            "nodeId": "dependency:mark-star",
+            "name": "Mark / Star"
+          },
+          {
+            "nodeId": "dependency:check-mark-single-bold",
+            "name": "Notification / Check_Mark_Single_Bold"
+          },
+          {
+            "nodeId": "dependency:profile-logo",
+            "name": "Profile logo"
+          },
+          {
+            "nodeId": "dependency:sber-pay",
+            "name": "Sber / Sber Pay"
+          },
+          {
+            "nodeId": "dependency:switch",
+            "name": "Switch"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "navbar",
+      "platform": "iOS",
+      "relatedSources": [],
+      "name": "Navbar",
+      "card": "navbar.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=12978-100799&t=6NQra4uE9oLKkthr-4",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "12978:100799"
+      },
+      "lastCheckedAt": "2026-08-21T15:50:49Z",
+      "snapshotHash": "b6d954947a450cece0eb05d71f1f4c19bf50b45db578678217f25d82538cece1",
+      "snapshot": {
+        "name": "Navbar",
+        "nodeType": "COMPONENT_SET",
+        "description": "",
+        "status": "unknown",
+        "properties": [
+          {
+            "name": "Device",
+            "type": "variant",
+            "options": [
+              "iPad",
+              "iPhone"
+            ]
+          },
+          {
+            "name": "Scrolled",
+            "type": "variant",
+            "options": [
+              "False",
+              "True"
+            ]
+          },
+          {
+            "name": "Statusbar",
+            "type": "boolean",
+            "key": "Statusbar#33379:0"
+          },
+          {
+            "name": "Title",
+            "type": "text",
+            "key": "Title#19015:0"
+          },
+          {
+            "name": "Type",
+            "type": "variant",
+            "options": [
+              "Content Card",
+              "Logo",
+              "Logo Kids",
+              "Secondary screen",
+              "Title"
+            ]
+          },
+          {
+            "name": "Unauthorized",
+            "type": "variant",
+            "options": [
+              "False",
+              "True"
+            ]
+          }
+        ],
+        "variants": {
+          "Device": [
+            "iPad",
+            "iPhone"
+          ],
+          "Scrolled": [
+            "False",
+            "True"
+          ],
+          "Type": [
+            "Content Card",
+            "Logo",
+            "Logo Kids",
+            "Secondary screen",
+            "Title"
+          ],
+          "Unauthorized": [
+            "False",
+            "True"
+          ]
+        },
+        "variantCount": 24,
+        "dimensions": [
+          {
+            "width": 393.0,
+            "height": 98.0,
+            "count": 5,
+            "examples": [
+              "Device=iPhone, Type=Logo, Scrolled=True, Unauthorized=False",
+              "Device=iPhone, Type=Logo Kids, Scrolled=True, Unauthorized=False",
+              "Device=iPhone, Type=Title, Scrolled=True, Unauthorized=False"
+            ]
+          },
+          {
+            "width": 393.0,
+            "height": 114.0,
+            "count": 2,
+            "examples": [
+              "Device=iPhone, Type=Content Card, Scrolled=False, Unauthorized=False",
+              "Device=iPhone, Type=Content Card, Scrolled=True, Unauthorized=False"
+            ]
+          },
+          {
+            "width": 393.0,
+            "height": 150.0,
+            "count": 2,
+            "examples": [
+              "Device=iPhone, Type=Title, Scrolled=False, Unauthorized=False",
+              "Device=iPhone, Type=Title, Scrolled=False, Unauthorized=True"
+            ]
+          },
+          {
+            "width": 393.0,
+            "height": 160.0,
+            "count": 3,
+            "examples": [
+              "Device=iPhone, Type=Logo, Scrolled=False, Unauthorized=False",
+              "Device=iPhone, Type=Logo, Scrolled=False, Unauthorized=True",
+              "Device=iPhone, Type=Logo Kids, Scrolled=False, Unauthorized=False"
+            ]
+          },
+          {
+            "width": 1024.0,
+            "height": 68.0,
+            "count": 4,
+            "examples": [
+              "Device=iPad, Type=Logo Kids, Scrolled=True, Unauthorized=False",
+              "Device=iPad, Type=Title, Scrolled=True, Unauthorized=False",
+              "Device=iPad, Type=Secondary screen, Scrolled=False, Unauthorized=False"
+            ]
+          },
+          {
+            "width": 1024.0,
+            "height": 72.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad, Type=Logo, Scrolled=True, Unauthorized=False"
+            ]
+          },
+          {
+            "width": 1024.0,
+            "height": 88.0,
+            "count": 2,
+            "examples": [
+              "Device=iPad, Type=Content Card, Scrolled=False, Unauthorized=False",
+              "Device=iPad, Type=Content Card, Scrolled=True, Unauthorized=False"
+            ]
+          },
+          {
+            "width": 1024.0,
+            "height": 120.0,
+            "count": 5,
+            "examples": [
+              "Device=iPad, Type=Logo, Scrolled=False, Unauthorized=False",
+              "Device=iPad, Type=Logo, Scrolled=False, Unauthorized=True",
+              "Device=iPad, Type=Title, Scrolled=False, Unauthorized=False"
+            ]
+          }
+        ],
+        "dependencies": [
+          {
+            "nodeId": "dependency:avatar",
+            "name": "_Avatar"
+          },
+          {
+            "nodeId": "dependency:trash",
+            "name": "Actions / Trash"
+          },
+          {
+            "nodeId": "dependency:arrow-left",
+            "name": "Arrows / Arrow_Left"
+          },
+          {
+            "nodeId": "dependency:button",
+            "name": "Button"
+          },
+          {
+            "nodeId": "dependency:star",
+            "name": "Mark / Star_Bold"
+          },
+          {
+            "nodeId": "dependency:avatar-icon",
+            "name": "Menu / Avatar_Bold"
+          },
+          {
+            "nodeId": "dependency:profile-logo",
+            "name": "Profile logo"
+          },
+          {
+            "nodeId": "dependency:sber-spasibo",
+            "name": "Sber / Mini Spasibo"
+          },
+          {
+            "nodeId": "dependency:status-bar",
+            "name": "Status Bar"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "onboarding-bubble",
+      "platform": "iOS",
+      "relatedSources": [],
+      "name": "Onboarding Bubble",
+      "card": "onboarding-bubble.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=32634-7164&t=6NQra4uE9oLKkthr-4",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "32634:7164"
+      },
+      "lastCheckedAt": "2026-08-21T15:46:56Z",
+      "snapshotHash": "a0c02430ac128526c01aeceb3847304dca0f89191d4835d629b2111e8437c46b",
+      "snapshot": {
+        "name": "Onboarding Bubble",
+        "nodeType": "COMPONENT_SET",
+        "description": "",
+        "status": "unknown",
+        "properties": [
+          {
+            "name": "Beak",
+            "type": "variant",
+            "options": [
+              "Bottom",
+              "Left",
+              "Right",
+              "Top"
+            ]
+          },
+          {
+            "name": "Device",
+            "type": "variant",
+            "options": [
+              "iPad",
+              "iPhone"
+            ]
+          },
+          {
+            "name": "Secondary Text",
+            "type": "boolean",
+            "key": "Secondary Text#215:4"
+          },
+          {
+            "name": "String / Primary Text",
+            "type": "text",
+            "key": "String / Primary Text#28137:11"
+          },
+          {
+            "name": "String / Secondary Text",
+            "type": "text",
+            "key": "String / Secondary Text#28137:22"
+          },
+          {
+            "name": "Text Alignment",
+            "type": "variant",
+            "options": [
+              "Centre",
+              "Left"
+            ]
+          }
+        ],
+        "variants": {
+          "Beak": [
+            "Bottom",
+            "Left",
+            "Right",
+            "Top"
+          ],
+          "Device": [
+            "iPad",
+            "iPhone"
+          ],
+          "Text Alignment": [
+            "Centre",
+            "Left"
+          ]
+        },
+        "variantCount": 12,
+        "dimensions": [
+          {
+            "width": 158.0,
+            "height": 56.0,
+            "count": 6,
+            "examples": [
+              "Device=iPhone, Beak=Left, Text Alignment=Left",
+              "Device=iPhone, Beak=Bottom, Text Alignment=Left",
+              "Device=iPhone, Beak=Bottom, Text Alignment=Centre"
+            ]
+          },
+          {
+            "width": 185.0,
+            "height": 68.0,
+            "count": 6,
+            "examples": [
+              "Device=iPad, Beak=Left, Text Alignment=Left",
+              "Device=iPad, Beak=Bottom, Text Alignment=Left",
+              "Device=iPad, Beak=Bottom, Text Alignment=Centre"
+            ]
+          }
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "slug": "radio-button",
+      "platform": "iOS",
+      "relatedSources": [],
+      "name": "Radio button",
+      "card": "radio-button.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=14447-113928&t=6NQra4uE9oLKkthr-4",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "14447:113928"
+      },
+      "lastCheckedAt": "2026-08-21T15:34:05Z",
+      "snapshotHash": "39276d53b70c966ef4f392114e9854326fc64c851f53f044eb3c74127d871487",
+      "snapshot": {
+        "name": "Radio button",
+        "nodeType": "COMPONENT_SET",
+        "description": "",
+        "status": "unknown",
+        "properties": [
+          {
+            "name": "Checked",
+            "type": "variant",
+            "options": [
+              "False",
+              "True"
+            ]
+          },
+          {
+            "name": "State",
+            "type": "variant",
+            "options": [
+              "default",
+              "disabled"
+            ]
+          }
+        ],
+        "variants": {
+          "Checked": [
+            "False",
+            "True"
+          ],
+          "State": [
+            "default",
+            "disabled"
+          ]
+        },
+        "variantCount": 4,
+        "dimensions": [
+          {
+            "width": 24.0,
+            "height": 24.0,
+            "count": 4,
+            "examples": [
+              "State=default, Checked=True",
+              "State=disabled, Checked=True",
+              "State=default, Checked=False"
+            ]
+          }
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "slug": "select",
+      "name": "Select",
+      "platform": "iOS",
+      "card": "select.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=34884-24858&t=6NQra4uE9oLKkthr-4",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "34884:24858"
+      },
+      "relatedSources": [
+        {
+          "kind": "guide",
+          "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/branch/jdBqhypltqMzx0mXE7uw94/Lib-iOS?node-id=39484-30540",
+          "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+          "branchKey": "jdBqhypltqMzx0mXE7uw94",
+          "apiFileKey": "jdBqhypltqMzx0mXE7uw94",
+          "nodeId": "39484:30540"
+        }
+      ],
+      "lastCheckedAt": "2026-08-21T16:09:38Z",
+      "snapshotHash": "7c94a6985755f71ea9440fa6ef9dac962ebe4f11d461ad462af9c49bb708f89b",
+      "snapshot": {
+        "name": "Select",
+        "nodeType": "COMPONENT_SET",
+        "description": "",
+        "status": "unknown",
+        "properties": [
+          {
+            "name": "Counter",
+            "type": "boolean",
+            "key": "Counter#34884:0"
+          },
+          {
+            "name": "Device",
+            "type": "variant",
+            "options": [
+              "iPad",
+              "iPhone"
+            ]
+          },
+          {
+            "name": "Icon",
+            "type": "boolean",
+            "key": "Icon#34229:16"
+          },
+          {
+            "name": "Icon Instance",
+            "type": "instance_swap",
+            "key": "Icon Instance#34229:21"
+          },
+          {
+            "name": "Selected",
+            "type": "variant",
+            "options": [
+              "False",
+              "True"
+            ]
+          },
+          {
+            "name": "State",
+            "type": "variant",
+            "options": [
+              "Disabled",
+              "Rest",
+              "Touch"
+            ]
+          },
+          {
+            "name": "String Counter",
+            "type": "text",
+            "key": "String Counter#34953:0"
+          },
+          {
+            "name": "String Text",
+            "type": "text",
+            "key": "String Text#34229:3"
+          }
+        ],
+        "variants": {
+          "Device": [
+            "iPad",
+            "iPhone"
+          ],
+          "Selected": [
+            "False",
+            "True"
+          ],
+          "State": [
+            "Disabled",
+            "Rest",
+            "Touch"
+          ]
+        },
+        "variantCount": 12,
+        "dimensions": [
+          {
+            "width": 108.0,
+            "height": 36.0,
+            "count": 3,
+            "examples": [
+              "Device=iPhone, State=Rest, Selected=False",
+              "Device=iPhone, State=Touch, Selected=False",
+              "Device=iPhone, State=Disabled, Selected=False"
+            ]
+          },
+          {
+            "width": 129.0,
+            "height": 40.0,
+            "count": 3,
+            "examples": [
+              "Device=iPad, State=Rest, Selected=False",
+              "Device=iPad, State=Touch, Selected=False",
+              "Device=iPad, State=Disabled, Selected=False"
+            ]
+          },
+          {
+            "width": 134.0,
+            "height": 36.0,
+            "count": 3,
+            "examples": [
+              "Device=iPhone, State=Rest, Selected=True",
+              "Device=iPhone, State=Touch, Selected=True",
+              "Device=iPhone, State=Disabled, Selected=True"
+            ]
+          },
+          {
+            "width": 159.0,
+            "height": 40.0,
+            "count": 3,
+            "examples": [
+              "Device=iPad, State=Rest, Selected=True",
+              "Device=iPad, State=Touch, Selected=True",
+              "Device=iPad, State=Disabled, Selected=True"
+            ]
+          }
+        ],
+        "dependencies": [
+          {
+            "nodeId": "dependency:actions-calendar-bold",
+            "name": "Actions / Calendar_Bold"
+          },
+          {
+            "nodeId": "dependency:actions-cross-small-bold",
+            "name": "Actions / Cross_Small_Bold"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "sheet-template-filters",
+      "name": "Шаблоны шторки / Фильтры",
+      "platform": "iOS",
+      "card": "sheet-template-filters.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/branch/jdBqhypltqMzx0mXE7uw94/Lib-iOS?node-id=37390-49620",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": "jdBqhypltqMzx0mXE7uw94",
+        "apiFileKey": "jdBqhypltqMzx0mXE7uw94",
+        "nodeId": "37390:49620"
+      },
+      "relatedSources": []
+    },
+    {
+      "slug": "snackbar",
+      "platform": "iOS",
+      "relatedSources": [],
+      "name": "Snackbar",
+      "card": "snackbar.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=13712-111074&t=6NQra4uE9oLKkthr-4",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "13712:111074"
+      },
+      "lastCheckedAt": "2026-08-21T16:11:44Z",
+      "snapshotHash": "4714657853fcfd22ddefcaed44265404f5f691b506b0c612e33c7c04a964bac7",
+      "snapshot": {
+        "name": "Snackbar",
+        "nodeType": "COMPONENT_SET",
+        "description": "",
+        "status": "unknown",
+        "properties": [
+          {
+            "name": "Action button",
+            "type": "boolean",
+            "key": "Action button#13730:3"
+          },
+          {
+            "name": "Device",
+            "type": "variant",
+            "options": [
+              "iPad",
+              "iPhone"
+            ]
+          },
+          {
+            "name": "Icon",
+            "type": "boolean",
+            "key": "Icon#16854:0"
+          },
+          {
+            "name": "Text content",
+            "type": "text",
+            "key": "Text content#16861:246"
+          },
+          {
+            "name": "↳ Icon",
+            "type": "instance_swap",
+            "key": "↳ Icon#19624:0"
+          }
+        ],
+        "variants": {
+          "Device": [
+            "iPad",
+            "iPhone"
+          ]
+        },
+        "variantCount": 2,
+        "dimensions": [
+          {
+            "width": 300.0,
+            "height": 64.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone"
+            ]
+          },
+          {
+            "width": 348.0,
+            "height": 76.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad"
+            ]
+          }
+        ],
+        "dependencies": [
+          {
+            "nodeId": "dependency:mark-star",
+            "name": "Mark / Star"
+          },
+          {
+            "nodeId": "dependency:notification-check-mark-single-bold",
+            "name": "Notification / Check_Mark_Single_Bold"
+          },
+          {
+            "nodeId": "dependency:snackbar",
+            "name": "Snackbar / Универсальный успех"
+          },
+          {
+            "nodeId": "dependency:deprecated-button",
+            "name": "🔴 [Deprecated] Button"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "switch",
+      "platform": "iOS",
+      "relatedSources": [],
+      "name": "Switch",
+      "card": "switch.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=14447-113942&t=6NQra4uE9oLKkthr-4",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "14447:113942"
+      },
+      "lastCheckedAt": "2026-08-21T15:35:51Z",
+      "snapshotHash": "17aab33611da0e8a84de6447ca75138289cdbb4465d8ab78e5053f057ac9bdc1",
+      "snapshot": {
+        "name": "Switch",
+        "nodeType": "COMPONENT_SET",
+        "description": "",
+        "status": "unknown",
+        "properties": [
+          {
+            "name": "Checked",
+            "type": "variant",
+            "options": [
+              "False",
+              "True"
+            ]
+          },
+          {
+            "name": "State",
+            "type": "variant",
+            "options": [
+              "default",
+              "disabled"
+            ]
+          }
+        ],
+        "variants": {
+          "Checked": [
+            "False",
+            "True"
+          ],
+          "State": [
+            "default",
+            "disabled"
+          ]
+        },
+        "variantCount": 4,
+        "dimensions": [
+          {
+            "width": 52.0,
+            "height": 28.0,
+            "count": 4,
+            "examples": [
+              "State=default, Checked=True",
+              "State=default, Checked=False",
+              "State=disabled, Checked=False"
+            ]
+          }
+        ],
+        "dependencies": [
+          {
+            "nodeId": "dependency:check-mark",
+            "name": "Notification / Check_Mark_Single_Bold"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "symbol-input",
+      "platform": "iOS",
+      "relatedSources": [],
+      "name": "Symbol input",
+      "card": "symbol-input.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=12514-97868&t=6NQra4uE9oLKkthr-4",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "12514:97868"
+      },
+      "lastCheckedAt": "2026-08-21T15:58:31Z",
+      "snapshotHash": "31a3ce782868e9274657015568c78eb25460f36911658d4218f7e2a0e8df86a3",
+      "snapshot": {
+        "name": "Symbol input",
+        "nodeType": "COMPONENT_SET",
+        "description": "",
+        "status": "unknown",
+        "properties": [
+          {
+            "name": "Device",
+            "type": "variant",
+            "options": [
+              "iPad",
+              "iPhone"
+            ]
+          },
+          {
+            "name": "Error text",
+            "type": "text",
+            "key": "Error text#13774:33"
+          },
+          {
+            "name": "State",
+            "type": "variant",
+            "options": [
+              "complete",
+              "default",
+              "disabled",
+              "error",
+              "typing"
+            ]
+          }
+        ],
+        "variants": {
+          "Device": [
+            "iPad",
+            "iPhone"
+          ],
+          "State": [
+            "complete",
+            "default",
+            "disabled",
+            "error",
+            "typing"
+          ]
+        },
+        "variantCount": 10,
+        "dimensions": [
+          {
+            "width": 248.0,
+            "height": 48.0,
+            "count": 4,
+            "examples": [
+              "Device=iPhone, State=default",
+              "Device=iPhone, State=typing",
+              "Device=iPhone, State=complete"
+            ]
+          },
+          {
+            "width": 248.0,
+            "height": 80.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone, State=error"
+            ]
+          },
+          {
+            "width": 268.0,
+            "height": 52.0,
+            "count": 4,
+            "examples": [
+              "Device=iPad, State=default",
+              "Device=iPad, State=complete",
+              "Device=iPad, State=disabled"
+            ]
+          },
+          {
+            "width": 268.0,
+            "height": 86.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad, State=error"
+            ]
+          }
+        ],
+        "dependencies": [
+          {
+            "nodeId": "dependency:symbol-input-item",
+            "name": "_Symbol input / Item"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "tab-navigation",
+      "platform": "iOS",
+      "relatedSources": [
+        {
+          "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=24687-2253&t=oTcgMYHS9iBxqxgl-4",
+          "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+          "branchKey": null,
+          "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+          "nodeId": "24687:2253",
+          "kind": "guide",
+          "lastCheckedAt": "2026-08-21T16:25:10Z",
+          "snapshotHash": "eb929e55675dd521f94882d3cef5c9d02fb525be786f2ec9d7aa62e8758195e3",
+          "snapshot": {
+            "name": "Component guide",
+            "nodeType": "FRAME",
+            "description": "Гайд TabNavigation: примеры на iPhone/iPad, анатомия, размеры, состояния и сборки с фоновым Subject.",
+            "status": "unknown",
+            "properties": [],
+            "variants": {},
+            "variantCount": 0,
+            "dimensions": [],
+            "dependencies": []
+          }
+        }
+      ],
+      "name": "TabNavigation",
+      "card": "tab-navigation.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=24687-2182&t=6NQra4uE9oLKkthr-4",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "24687:2182"
+      },
+      "lastCheckedAt": "2026-08-21T16:25:10Z",
+      "snapshotHash": "57f33d776aaa56339893b7754a2cbc64a783fd1a44266924847602317af539fc",
+      "snapshot": {
+        "name": "TabNavigation",
+        "nodeType": "COMPONENT_SET",
+        "description": "Компонент предназначен для навигации по различным категориям контента в приложении.",
+        "status": "unknown",
+        "properties": [
+          {
+            "name": "Background",
+            "type": "boolean",
+            "defaultValue": false
+          },
+          {
+            "name": "Backgroung Slot",
+            "type": "instance_swap"
+          },
+          {
+            "name": "Device",
+            "type": "variant",
+            "options": [
+              "iPad",
+              "iPhone"
+            ]
+          },
+          {
+            "name": "Icon",
+            "type": "boolean",
+            "defaultValue": true,
+            "options": [
+              "False",
+              "True"
+            ]
+          },
+          {
+            "name": "Icon Slot",
+            "type": "instance_swap"
+          },
+          {
+            "name": "Right Padding",
+            "type": "boolean",
+            "defaultValue": true,
+            "options": [
+              "False",
+              "True"
+            ]
+          },
+          {
+            "name": "Size",
+            "type": "variant",
+            "options": [
+              "Default",
+              "Small"
+            ]
+          },
+          {
+            "name": "State",
+            "type": "variant",
+            "options": [
+              "Rest",
+              "Touch"
+            ]
+          },
+          {
+            "name": "Text",
+            "type": "text",
+            "defaultValue": "Text"
+          }
+        ],
+        "variants": {
+          "Device": [
+            "iPad",
+            "iPhone"
+          ],
+          "Icon": [
+            "False",
+            "True"
+          ],
+          "Right Padding": [
+            "False",
+            "True"
+          ],
+          "Size": [
+            "Default",
+            "Small"
+          ],
+          "State": [
+            "Rest",
+            "Touch"
+          ]
+        },
+        "variantCount": 32,
+        "dimensions": [
+          {
+            "width": 54.0,
+            "height": 36.0,
+            "count": 2,
+            "examples": [
+              "Device=iPhone, Size=Small, State=Rest, Icon=False, Right Padding=False",
+              "Device=iPhone, Size=Small, State=Touch, Icon=False, Right Padding=False"
+            ]
+          },
+          {
+            "width": 62.0,
+            "height": 40.0,
+            "count": 2,
+            "examples": [
+              "Device=iPad, Size=Small, State=Rest, Icon=False, Right Padding=False",
+              "Device=iPad, Size=Small, State=Touch, Icon=False, Right Padding=False"
+            ]
+          },
+          {
+            "width": 66.0,
+            "height": 48.0,
+            "count": 2,
+            "examples": [
+              "Device=iPhone, Size=Default, State=Rest, Icon=False, Right Padding=False",
+              "Device=iPhone, Size=Default, State=Touch, Icon=False, Right Padding=False"
+            ]
+          },
+          {
+            "width": 73.0,
+            "height": 52.0,
+            "count": 2,
+            "examples": [
+              "Device=iPad, Size=Default, State=Rest, Icon=False, Right Padding=False",
+              "Device=iPad, Size=Default, State=Touch, Icon=False, Right Padding=False"
+            ]
+          },
+          {
+            "width": 74.0,
+            "height": 36.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone, Size=Small, State=Touch, Icon=True, Right Padding=False"
+            ]
+          },
+          {
+            "width": 78.0,
+            "height": 36.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone, Size=Small, State=Rest, Icon=True, Right Padding=False"
+            ]
+          },
+          {
+            "width": 88.0,
+            "height": 40.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad, Size=Small, State=Touch, Icon=True, Right Padding=False"
+            ]
+          },
+          {
+            "width": 92.0,
+            "height": 40.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad, Size=Small, State=Rest, Icon=True, Right Padding=False"
+            ]
+          },
+          {
+            "width": 92.0,
+            "height": 48.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone, Size=Default, State=Touch, Icon=True, Right Padding=False"
+            ]
+          },
+          {
+            "width": 94.0,
+            "height": 36.0,
+            "count": 2,
+            "examples": [
+              "Device=iPhone, Size=Small, State=Rest, Icon=False, Right Padding=True",
+              "Device=iPhone, Size=Small, State=Touch, Icon=False, Right Padding=True"
+            ]
+          },
+          {
+            "width": 96.0,
+            "height": 48.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone, Size=Default, State=Rest, Icon=True, Right Padding=False"
+            ]
+          },
+          {
+            "width": 103.0,
+            "height": 52.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad, Size=Default, State=Touch, Icon=True, Right Padding=False"
+            ]
+          },
+          {
+            "width": 107.0,
+            "height": 52.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad, Size=Default, State=Rest, Icon=True, Right Padding=False"
+            ]
+          },
+          {
+            "width": 108.0,
+            "height": 40.0,
+            "count": 2,
+            "examples": [
+              "Device=iPad, Size=Small, State=Rest, Icon=False, Right Padding=True",
+              "Device=iPad, Size=Small, State=Touch, Icon=False, Right Padding=True"
+            ]
+          },
+          {
+            "width": 114.0,
+            "height": 36.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone, Size=Small, State=Touch, Icon=True, Right Padding=True"
+            ]
+          },
+          {
+            "width": 118.0,
+            "height": 36.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone, Size=Small, State=Rest, Icon=True, Right Padding=True"
+            ]
+          },
+          {
+            "width": 126.0,
+            "height": 48.0,
+            "count": 2,
+            "examples": [
+              "Device=iPhone, Size=Default, State=Rest, Icon=False, Right Padding=True",
+              "Device=iPhone, Size=Default, State=Touch, Icon=False, Right Padding=True"
+            ]
+          },
+          {
+            "width": 134.0,
+            "height": 40.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad, Size=Small, State=Touch, Icon=True, Right Padding=True"
+            ]
+          },
+          {
+            "width": 137.0,
+            "height": 52.0,
+            "count": 2,
+            "examples": [
+              "Device=iPad, Size=Default, State=Rest, Icon=False, Right Padding=True",
+              "Device=iPad, Size=Default, State=Touch, Icon=False, Right Padding=True"
+            ]
+          },
+          {
+            "width": 138.0,
+            "height": 40.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad, Size=Small, State=Rest, Icon=True, Right Padding=True"
+            ]
+          },
+          {
+            "width": 152.0,
+            "height": 48.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone, Size=Default, State=Touch, Icon=True, Right Padding=True"
+            ]
+          },
+          {
+            "width": 156.0,
+            "height": 48.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone, Size=Default, State=Rest, Icon=True, Right Padding=True"
+            ]
+          },
+          {
+            "width": 167.0,
+            "height": 52.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad, Size=Default, State=Touch, Icon=True, Right Padding=True"
+            ]
+          },
+          {
+            "width": 171.0,
+            "height": 52.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad, Size=Default, State=Rest, Icon=True, Right Padding=True"
+            ]
+          }
+        ],
+        "dependencies": [
+          {
+            "nodeId": "dependency:delete-candidate-slot",
+            "name": "_🔴[Delete Candidate]Slot"
+          },
+          {
+            "nodeId": "39522:41332",
+            "name": "Mark / Star_Bold"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "tabbar-meta",
+      "platform": "iOS",
+      "relatedSources": [],
+      "name": "Tabbar - Meta",
+      "card": "tabbar-meta.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=38937-15264&t=6NQra4uE9oLKkthr-4",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "38937:15264"
+      },
+      "lastCheckedAt": "2026-08-21T16:13:59Z",
+      "snapshotHash": "3b1b341e0e3443d1911a3d6e87cc0b77f3c1e2a8ae33c1056725e1079dcc22c5",
+      "snapshot": {
+        "name": "Tabbar - Meta",
+        "nodeType": "COMPONENT_SET",
+        "description": "",
+        "status": "unknown",
+        "properties": [
+          {
+            "name": "Authorized",
+            "type": "variant",
+            "options": [
+              "False",
+              "True"
+            ]
+          },
+          {
+            "name": "Device",
+            "type": "variant",
+            "options": [
+              "iPad",
+              "iPhone"
+            ]
+          }
+        ],
+        "variants": {
+          "Authorized": [
+            "False",
+            "True"
+          ],
+          "Device": [
+            "iPad",
+            "iPhone"
+          ]
+        },
+        "variantCount": 4,
+        "dimensions": [
+          {
+            "width": 393.0,
+            "height": 138.0,
+            "count": 2,
+            "examples": [
+              "Device=iPhone, Authorized=True",
+              "Device=iPhone, Authorized=False"
+            ]
+          },
+          {
+            "width": 820.0,
+            "height": 138.0,
+            "count": 2,
+            "examples": [
+              "Device=iPad, Authorized=True",
+              "Device=iPad, Authorized=False"
+            ]
+          }
+        ],
+        "dependencies": [
+          {
+            "nodeId": "dependency:tabbar-item",
+            "name": "_Tabbar Item"
+          },
+          {
+            "nodeId": "dependency:home-indicator",
+            "name": "Home Indicator"
+          },
+          {
+            "nodeId": "dependency:menu-house",
+            "name": "Menu / House"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "tabgroup",
+      "platform": "iOS",
+      "relatedSources": [],
+      "name": "TabGroup",
+      "card": "tabgroup.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=24233-1389&t=6NQra4uE9oLKkthr-4",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "24233:1389"
+      },
+      "lastCheckedAt": "2026-08-21T16:21:01Z",
+      "snapshotHash": "56ac48f4c335cbfd3cd164f537b320d244fe253298a779149e952b61f5b1baa0",
+      "snapshot": {
+        "name": "TabGroup",
+        "nodeType": "COMPONENT_SET",
+        "description": "",
+        "status": "unknown",
+        "properties": [
+          {
+            "name": "Device",
+            "type": "variant",
+            "options": [
+              "iPad",
+              "iPhone"
+            ]
+          },
+          {
+            "name": "Shape",
+            "type": "variant",
+            "options": [
+              "Rectangle",
+              "Square"
+            ]
+          },
+          {
+            "name": "Size",
+            "type": "variant",
+            "options": [
+              "Default",
+              "Large",
+              "Small"
+            ]
+          },
+          {
+            "name": "Tab width",
+            "type": "variant",
+            "options": [
+              "Scrollable",
+              "Stretch"
+            ]
+          }
+        ],
+        "variants": {
+          "Device": [
+            "iPad",
+            "iPhone"
+          ],
+          "Shape": [
+            "Rectangle",
+            "Square"
+          ],
+          "Size": [
+            "Default",
+            "Large",
+            "Small"
+          ],
+          "Tab width": [
+            "Scrollable",
+            "Stretch"
+          ]
+        },
+        "variantCount": 18,
+        "dimensions": [
+          {
+            "width": 248.0,
+            "height": 36.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone, Tab width=Stretch, Shape=Rectangle, Size=Small"
+            ]
+          },
+          {
+            "width": 316.0,
+            "height": 36.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone, Tab width=Scrollable, Shape=Square, Size=Small"
+            ]
+          },
+          {
+            "width": 362.0,
+            "height": 40.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad, Tab width=Scrollable, Shape=Square, Size=Small"
+            ]
+          },
+          {
+            "width": 369.0,
+            "height": 48.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone, Tab width=Stretch, Shape=Rectangle, Size=Default"
+            ]
+          },
+          {
+            "width": 369.0,
+            "height": 58.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone, Tab width=Stretch, Shape=Rectangle, Size=Large"
+            ]
+          },
+          {
+            "width": 412.0,
+            "height": 48.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone, Tab width=Scrollable, Shape=Square, Size=Default"
+            ]
+          },
+          {
+            "width": 458.0,
+            "height": 52.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad, Tab width=Scrollable, Shape=Square, Size=Default"
+            ]
+          },
+          {
+            "width": 480.0,
+            "height": 40.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad, Tab width=Stretch, Shape=Rectangle, Size=Small"
+            ]
+          },
+          {
+            "width": 492.0,
+            "height": 58.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone, Tab width=Scrollable, Shape=Square, Size=Large"
+            ]
+          },
+          {
+            "width": 620.0,
+            "height": 36.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone, Tab width=Scrollable, Shape=Rectangle, Size=Small"
+            ]
+          },
+          {
+            "width": 650.0,
+            "height": 76.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad, Tab width=Scrollable, Shape=Square, Size=Large"
+            ]
+          },
+          {
+            "width": 746.0,
+            "height": 40.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad, Tab width=Scrollable, Shape=Rectangle, Size=Small"
+            ]
+          },
+          {
+            "width": 764.0,
+            "height": 48.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone, Tab width=Scrollable, Shape=Rectangle, Size=Default"
+            ]
+          },
+          {
+            "width": 866.0,
+            "height": 52.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad, Tab width=Scrollable, Shape=Rectangle, Size=Default"
+            ]
+          },
+          {
+            "width": 868.0,
+            "height": 58.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone, Tab width=Scrollable, Shape=Rectangle, Size=Large"
+            ]
+          },
+          {
+            "width": 960.0,
+            "height": 52.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad, Tab width=Stretch, Shape=Rectangle, Size=Default"
+            ]
+          },
+          {
+            "width": 960.0,
+            "height": 76.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad, Tab width=Stretch, Shape=Rectangle, Size=Large"
+            ]
+          },
+          {
+            "width": 1106.0,
+            "height": 76.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad, Tab width=Scrollable, Shape=Rectangle, Size=Large"
+            ]
+          }
+        ],
+        "dependencies": [
+          {
+            "nodeId": "39522:41695",
+            "name": "Categories / Clapperboard"
+          },
+          {
+            "nodeId": "dependency:tabgroup-item",
+            "name": "Tabgroup - Item",
+            "componentSetId": "24233:1463"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "tabgroup-item",
+      "platform": "iOS",
+      "relatedSources": [],
+      "name": "Tabgroup - Item",
+      "card": "tabgroup-item.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=24233-1463&t=6NQra4uE9oLKkthr-4",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "24233:1463"
+      },
+      "lastCheckedAt": "2026-08-21T16:21:01Z",
+      "snapshotHash": "bff36717740ab7cdf0edb7da3c7e77bb45b5bf4c8fe5195c0b37557e1542170e",
+      "snapshot": {
+        "name": "Tabgroup - Item",
+        "nodeType": "COMPONENT_SET",
+        "description": "",
+        "status": "unknown",
+        "properties": [
+          {
+            "name": "Background",
+            "type": "boolean",
+            "defaultValue": true
+          },
+          {
+            "name": "Content",
+            "type": "variant",
+            "options": [
+              "Number",
+              "Text+Icon"
+            ]
+          },
+          {
+            "name": "Device",
+            "type": "variant",
+            "options": [
+              "iPad",
+              "iPhone"
+            ]
+          },
+          {
+            "name": "Icon",
+            "type": "boolean",
+            "defaultValue": true
+          },
+          {
+            "name": "Label",
+            "type": "boolean",
+            "defaultValue": false
+          },
+          {
+            "name": "Size",
+            "type": "variant",
+            "options": [
+              "Default",
+              "Large",
+              "Small"
+            ]
+          },
+          {
+            "name": "State",
+            "type": "variant",
+            "options": [
+              "Active",
+              "Active Pressed",
+              "Disabled",
+              "Pressed",
+              "Rest"
+            ]
+          },
+          {
+            "name": "Swap Icon",
+            "type": "instance_swap"
+          }
+        ],
+        "variants": {
+          "Content": [
+            "Number",
+            "Text+Icon"
+          ],
+          "Device": [
+            "iPad",
+            "iPhone"
+          ],
+          "Size": [
+            "Default",
+            "Large",
+            "Small"
+          ],
+          "State": [
+            "Active",
+            "Active Pressed",
+            "Disabled",
+            "Pressed",
+            "Rest"
+          ]
+        },
+        "variantCount": 60,
+        "dimensions": [
+          {
+            "width": 36.0,
+            "height": 36.0,
+            "count": 5,
+            "examples": [
+              "Device=iPhone, State=Rest, Size=Small, Content=Number",
+              "Device=iPhone, State=Disabled, Size=Small, Content=Number",
+              "Device=iPhone, State=Pressed, Size=Small, Content=Number"
+            ]
+          },
+          {
+            "width": 40.0,
+            "height": 40.0,
+            "count": 5,
+            "examples": [
+              "Device=iPad, State=Rest, Size=Small, Content=Number",
+              "Device=iPad, State=Disabled, Size=Small, Content=Number",
+              "Device=iPad, State=Pressed, Size=Small, Content=Number"
+            ]
+          },
+          {
+            "width": 48.0,
+            "height": 48.0,
+            "count": 5,
+            "examples": [
+              "Device=iPhone, State=Rest, Size=Default, Content=Number",
+              "Device=iPhone, State=Disabled, Size=Default, Content=Number",
+              "Device=iPhone, State=Pressed, Size=Default, Content=Number"
+            ]
+          },
+          {
+            "width": 52.0,
+            "height": 52.0,
+            "count": 5,
+            "examples": [
+              "Device=iPad, State=Rest, Size=Default, Content=Number",
+              "Device=iPad, State=Disabled, Size=Default, Content=Number",
+              "Device=iPad, State=Pressed, Size=Default, Content=Number"
+            ]
+          },
+          {
+            "width": 58.0,
+            "height": 58.0,
+            "count": 5,
+            "examples": [
+              "Device=iPhone, State=Rest, Size=Large, Content=Number",
+              "Device=iPhone, State=Disabled, Size=Large, Content=Number",
+              "Device=iPhone, State=Pressed, Size=Large, Content=Number"
+            ]
+          },
+          {
+            "width": 74.0,
+            "height": 36.0,
+            "count": 5,
+            "examples": [
+              "Device=iPhone, State=Rest, Size=Small, Content=Text+Icon",
+              "Device=iPhone, State=Disabled, Size=Small, Content=Text+Icon",
+              "Device=iPhone, State=Pressed, Size=Small, Content=Text+Icon"
+            ]
+          },
+          {
+            "width": 76.0,
+            "height": 76.0,
+            "count": 5,
+            "examples": [
+              "Device=iPad, State=Rest, Size=Large, Content=Number",
+              "Device=iPad, State=Disabled, Size=Large, Content=Number",
+              "Device=iPad, State=Pressed, Size=Large, Content=Number"
+            ]
+          },
+          {
+            "width": 88.0,
+            "height": 40.0,
+            "count": 5,
+            "examples": [
+              "Device=iPad, State=Rest, Size=Small, Content=Text+Icon",
+              "Device=iPad, State=Disabled, Size=Small, Content=Text+Icon",
+              "Device=iPad, State=Pressed, Size=Small, Content=Text+Icon"
+            ]
+          },
+          {
+            "width": 92.0,
+            "height": 48.0,
+            "count": 5,
+            "examples": [
+              "Device=iPhone, State=Rest, Size=Default, Content=Text+Icon",
+              "Device=iPhone, State=Disabled, Size=Default, Content=Text+Icon",
+              "Device=iPhone, State=Pressed, Size=Default, Content=Text+Icon"
+            ]
+          },
+          {
+            "width": 103.0,
+            "height": 52.0,
+            "count": 5,
+            "examples": [
+              "Device=iPad, State=Rest, Size=Default, Content=Text+Icon",
+              "Device=iPad, State=Disabled, Size=Default, Content=Text+Icon",
+              "Device=iPad, State=Pressed, Size=Default, Content=Text+Icon"
+            ]
+          },
+          {
+            "width": 105.0,
+            "height": 58.0,
+            "count": 5,
+            "examples": [
+              "Device=iPhone, State=Rest, Size=Large, Content=Text+Icon",
+              "Device=iPhone, State=Disabled, Size=Large, Content=Text+Icon",
+              "Device=iPhone, State=Pressed, Size=Large, Content=Text+Icon"
+            ]
+          },
+          {
+            "width": 133.0,
+            "height": 76.0,
+            "count": 5,
+            "examples": [
+              "Device=iPad, State=Rest, Size=Large, Content=Text+Icon",
+              "Device=iPad, State=Disabled, Size=Large, Content=Text+Icon",
+              "Device=iPad, State=Pressed, Size=Large, Content=Text+Icon"
+            ]
+          }
+        ],
+        "dependencies": [
+          {
+            "nodeId": "39522:41695",
+            "name": "Categories / Clapperboard"
+          },
+          {
+            "nodeId": "dependency:label-small",
+            "name": "Label : Small"
+          }
+        ]
+      }
+    }
+  ],
+  "collections": [
+    {
+      "kind": "collection",
+      "slug": "layouts-ios",
+      "platform": "iOS",
+      "relatedSources": [
+        {
+          "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=33005-119053",
+          "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+          "branchKey": null,
+          "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+          "nodeId": "33005:119053",
+          "kind": "guide",
+          "lastCheckedAt": "2026-08-21T15:13:34Z",
+          "snapshotHash": "4face325585d12702337b5b0461cabe821997004a7a25e1ddd48d4e43d051e2b",
+          "snapshot": {
+            "name": "Component guide_Layout",
+            "nodeType": "FRAME",
+            "description": "Гайд по использованию Layout как базового шаблона для новых экранов iOS.",
+            "status": "unknown",
+            "properties": [],
+            "variants": {},
+            "variantCount": 0,
+            "dimensions": [],
+            "dependencies": []
+          }
+        }
+      ],
+      "name": "Layouts",
+      "card": "layouts-ios.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=32942-50025",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "32942:50025"
+      },
+      "lastCheckedAt": "2026-08-21T15:14:53Z",
+      "snapshotHash": "336905246dd9844c03c628373aaae69886a32e12333c028d83f97e7d48494fa3",
+      "snapshot": {
+        "name": "Layouts",
+        "nodeType": "CANVAS",
+        "description": "",
+        "status": "collection",
+        "memberCount": 9,
+        "members": [
+          {
+            "nodeId": "32942:62171",
+            "name": "Layout - iPad 10 Landscape",
+            "nodeType": "COMPONENT",
+            "status": "unknown",
+            "width": 1180.0,
+            "height": 820.0,
+            "properties": [
+              {
+                "name": "Home Indicator",
+                "type": "boolean",
+                "key": "Home Indicator#33052:11"
+              },
+              {
+                "name": "Navigation Bar",
+                "type": "boolean",
+                "key": "Navigation Bar#33567:10"
+              },
+              {
+                "name": "Status Bar",
+                "type": "boolean",
+                "key": "Status Bar#33052:1"
+              },
+              {
+                "name": "Tabbar",
+                "type": "boolean",
+                "key": "Tabbar#33567:8"
+              }
+            ],
+            "dependencies": [
+              {
+                "nodeId": "layout-home",
+                "name": "Home Indicator"
+              },
+              {
+                "nodeId": "layout-nav",
+                "name": "Navbar"
+              },
+              {
+                "nodeId": "layout-status",
+                "name": "Status Bar"
+              },
+              {
+                "nodeId": "layout-tab",
+                "name": "Tabbar - Main"
+              }
+            ]
+          },
+          {
+            "nodeId": "32942:62169",
+            "name": "Layout - iPad 10 Portrait",
+            "nodeType": "COMPONENT",
+            "status": "unknown",
+            "width": 820.0,
+            "height": 1180.0,
+            "properties": [
+              {
+                "name": "Home Indicator",
+                "type": "boolean",
+                "key": "Home Indicator#33052:11"
+              },
+              {
+                "name": "Status Bar",
+                "type": "boolean",
+                "key": "Status Bar#33052:1"
+              },
+              {
+                "name": "Tabbar",
+                "type": "boolean",
+                "key": "Tabbar#33567:8"
+              }
+            ],
+            "dependencies": [
+              {
+                "nodeId": "layout-home",
+                "name": "Home Indicator"
+              },
+              {
+                "nodeId": "layout-nav",
+                "name": "Navbar"
+              },
+              {
+                "nodeId": "layout-status",
+                "name": "Status Bar"
+              },
+              {
+                "nodeId": "layout-tab",
+                "name": "Tabbar - Main"
+              }
+            ]
+          },
+          {
+            "nodeId": "32942:62172",
+            "name": "Layout - iPad Mini 6 Landscape (Optional)",
+            "nodeType": "COMPONENT",
+            "status": "unknown",
+            "width": 1133.0,
+            "height": 744.0,
+            "properties": [
+              {
+                "name": "Home Indicator",
+                "type": "boolean",
+                "key": "Home Indicator#33052:11"
+              },
+              {
+                "name": "Navigation Bar",
+                "type": "boolean",
+                "key": "Navigation Bar#33567:10"
+              },
+              {
+                "name": "Status Bar",
+                "type": "boolean",
+                "key": "Status Bar#33052:1"
+              },
+              {
+                "name": "Tabbar",
+                "type": "boolean",
+                "key": "Tabbar#33567:8"
+              }
+            ],
+            "dependencies": [
+              {
+                "nodeId": "layout-home",
+                "name": "Home Indicator"
+              },
+              {
+                "nodeId": "layout-nav",
+                "name": "Navbar"
+              },
+              {
+                "nodeId": "layout-status",
+                "name": "Status Bar"
+              },
+              {
+                "nodeId": "layout-tab",
+                "name": "Tabbar - Main"
+              }
+            ]
+          },
+          {
+            "nodeId": "32942:62168",
+            "name": "Layout - iPad Mini 6 Portrait (Optional)",
+            "nodeType": "COMPONENT",
+            "status": "unknown",
+            "width": 744.0,
+            "height": 1133.0,
+            "properties": [
+              {
+                "name": "Home Indicator",
+                "type": "boolean",
+                "key": "Home Indicator#33052:11"
+              },
+              {
+                "name": "Navigation Bar",
+                "type": "boolean",
+                "key": "Navigation Bar#33567:10"
+              },
+              {
+                "name": "Status Bar",
+                "type": "boolean",
+                "key": "Status Bar#33052:1"
+              },
+              {
+                "name": "Tabbar",
+                "type": "boolean",
+                "key": "Tabbar#33567:8"
+              }
+            ],
+            "dependencies": [
+              {
+                "nodeId": "layout-home",
+                "name": "Home Indicator"
+              },
+              {
+                "nodeId": "layout-nav",
+                "name": "Navbar"
+              },
+              {
+                "nodeId": "layout-status",
+                "name": "Status Bar"
+              },
+              {
+                "nodeId": "layout-tab",
+                "name": "Tabbar - Main"
+              }
+            ]
+          },
+          {
+            "nodeId": "32942:62170",
+            "name": "Layout - iPad Pro 13 Landscape",
+            "nodeType": "COMPONENT",
+            "status": "unknown",
+            "width": 1376.0,
+            "height": 1032.0,
+            "properties": [
+              {
+                "name": "Home Indicator",
+                "type": "boolean",
+                "key": "Home Indicator#33052:11"
+              },
+              {
+                "name": "Navigation Bar",
+                "type": "boolean",
+                "key": "Navigation Bar#33567:10"
+              },
+              {
+                "name": "Status Bar",
+                "type": "boolean",
+                "key": "Status Bar#33052:1"
+              },
+              {
+                "name": "Tabbar",
+                "type": "boolean",
+                "key": "Tabbar#33567:8"
+              }
+            ],
+            "dependencies": [
+              {
+                "nodeId": "layout-home",
+                "name": "Home Indicator"
+              },
+              {
+                "nodeId": "layout-nav",
+                "name": "Navbar"
+              },
+              {
+                "nodeId": "layout-status",
+                "name": "Status Bar"
+              },
+              {
+                "nodeId": "layout-tab",
+                "name": "Tabbar - Main"
+              }
+            ]
+          },
+          {
+            "nodeId": "32942:62167",
+            "name": "Layout - iPad Pro 13 Portrait",
+            "nodeType": "COMPONENT",
+            "status": "unknown",
+            "width": 1032.0,
+            "height": 1376.0,
+            "properties": [
+              {
+                "name": "Home Indicator",
+                "type": "boolean",
+                "key": "Home Indicator#33052:11"
+              },
+              {
+                "name": "Navigation Bar",
+                "type": "boolean",
+                "key": "Navigation Bar#33567:10"
+              },
+              {
+                "name": "Status Bar",
+                "type": "boolean",
+                "key": "Status Bar#33052:1"
+              },
+              {
+                "name": "Tabbar",
+                "type": "boolean",
+                "key": "Tabbar#33567:8"
+              }
+            ],
+            "dependencies": [
+              {
+                "nodeId": "layout-home",
+                "name": "Home Indicator"
+              },
+              {
+                "nodeId": "layout-nav",
+                "name": "Navbar"
+              },
+              {
+                "nodeId": "layout-status",
+                "name": "Status Bar"
+              },
+              {
+                "nodeId": "layout-tab",
+                "name": "Tabbar - Main"
+              }
+            ]
+          },
+          {
+            "nodeId": "32942:62173",
+            "name": "Layout - iPhone 13 mini (Optional)",
+            "nodeType": "COMPONENT",
+            "status": "unknown",
+            "width": 375.0,
+            "height": 812.0,
+            "properties": [
+              {
+                "name": "Home Indicator",
+                "type": "boolean",
+                "key": "Home Indicator#33052:11"
+              },
+              {
+                "name": "Navigation Bar",
+                "type": "boolean",
+                "key": "Navigation Bar#33567:10"
+              },
+              {
+                "name": "Status Bar",
+                "type": "boolean",
+                "key": "Status Bar#33052:1"
+              },
+              {
+                "name": "Tabbar",
+                "type": "boolean",
+                "key": "Tabbar#33567:8"
+              }
+            ],
+            "dependencies": [
+              {
+                "nodeId": "layout-home",
+                "name": "Home Indicator"
+              },
+              {
+                "nodeId": "layout-nav",
+                "name": "Navbar"
+              },
+              {
+                "nodeId": "layout-status",
+                "name": "Status Bar"
+              },
+              {
+                "nodeId": "layout-tab",
+                "name": "Tabbar - Main"
+              }
+            ]
+          },
+          {
+            "nodeId": "32942:62175",
+            "name": "Layout - iPhone 15",
+            "nodeType": "COMPONENT",
+            "status": "unknown",
+            "width": 393.0,
+            "height": 852.0,
+            "properties": [
+              {
+                "name": "Home Indicator",
+                "type": "boolean",
+                "key": "Home Indicator#33052:11"
+              },
+              {
+                "name": "Navigation Bar",
+                "type": "boolean",
+                "key": "Navigation Bar#33567:10"
+              },
+              {
+                "name": "Status Bar",
+                "type": "boolean",
+                "key": "Status Bar#33052:1"
+              },
+              {
+                "name": "Tabbar",
+                "type": "boolean",
+                "key": "Tabbar#33567:8"
+              }
+            ],
+            "dependencies": [
+              {
+                "nodeId": "layout-home",
+                "name": "Home Indicator"
+              },
+              {
+                "nodeId": "layout-nav",
+                "name": "Navbar"
+              },
+              {
+                "nodeId": "layout-status",
+                "name": "Status Bar"
+              },
+              {
+                "nodeId": "layout-tab",
+                "name": "Tabbar - Main"
+              }
+            ]
+          },
+          {
+            "nodeId": "32942:62174",
+            "name": "Layout - iPhone 17 Pro Max",
+            "nodeType": "COMPONENT",
+            "status": "unknown",
+            "width": 440.0,
+            "height": 956.0,
+            "properties": [
+              {
+                "name": "Home Indicator",
+                "type": "boolean",
+                "key": "Home Indicator#33052:11"
+              },
+              {
+                "name": "Navigation Bar",
+                "type": "boolean",
+                "key": "Navigation Bar#33567:10"
+              },
+              {
+                "name": "Status Bar",
+                "type": "boolean",
+                "key": "Status Bar#33052:1"
+              },
+              {
+                "name": "Tabbar",
+                "type": "boolean",
+                "key": "Tabbar#33567:8"
+              }
+            ],
+            "dependencies": [
+              {
+                "nodeId": "layout-home",
+                "name": "Home Indicator"
+              },
+              {
+                "nodeId": "layout-nav",
+                "name": "Navbar"
+              },
+              {
+                "nodeId": "layout-status",
+                "name": "Status Bar"
+              },
+              {
+                "nodeId": "layout-tab",
+                "name": "Tabbar - Main"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

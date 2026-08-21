@@ -17,7 +17,7 @@ Repo-scoped навыки Codex для работы с дизайн-систем�
 │   ├── design-platform-mobile/
 │   ├── design-platform-tv/
 │   └── ux-copy/
-├── design-system/          # source of truth для компонентов и правил
+├── design-system/          # source of truth для компонентов и платформенных правил
 ├── scripts/                # синхронизация, проверка и упаковка
 └── dist/                   # собранные zip-пакеты
 ```
@@ -60,7 +60,20 @@ $ux-copy Проверь текст кнопки: «Нажмите для про�
 
 ## Обновление данных
 
-`design-system/` остаётся единственным редактируемым источником для компонентов, токенов, платформенных правил и шаблонов гайдлайнов. После изменений обнови бандлованные references:
+`design-system/` остаётся редактируемым источником для компонентов, платформенных правил и шаблонов гайдлайнов. Канонический источник токенов — read-only репозиторий [`bulatovmsk/token-studio-repo`](https://github.com/bulatovmsk/token-studio-repo), ветка `main`.
+
+Навык `design-ds-librarian` проверяет актуальный commit перед каждым вопросом о токенах. Получить свежую snapshot-копию или выполнить поиск вручную можно из каталога навыка:
+
+```bash
+cd .agents/skills/design-ds-librarian
+python3 scripts/token_studio_read.py refresh
+python3 scripts/token_studio_read.py find 'color.text-icon'
+python3 scripts/token_studio_read.py get 'spacing.400' --set 'WebMobile/Main'
+```
+
+Скрипт использует только операции чтения, валидирует JSON и сохраняет локальный кэш в `.token-studio-cache/`. Push URL кэша намеренно отключён. Если GitHub недоступен, навык сообщает cached commit и не называет snapshot актуальной.
+
+После изменений локальной документации обнови бандлованные references:
 
 ```bash
 bash scripts/sync-skill-references.sh
@@ -93,6 +106,28 @@ bash scripts/sync-from-figma.sh tokens spacing \
 
 Доступны группы `head`, `tokens` и `all`. Для разовой выгрузки нод и рендеров используй REST-утилиты в `scripts/`.
 
+### Компоненты по Figma-ссылкам
+
+Постоянный реестр компонентов находится в
+`design-system/components/figma-sources.json`. Команда понимает обычные ссылки
+Figma, сохраняет отдельно `fileKey` и `branchKey`, нормализует `node-id`,
+обновляет только управляемый блок карточки и показывает структурные изменения:
+
+```bash
+python3 scripts/figma_components.py parse '<figma-url>'
+python3 scripts/figma_components.py register '<figma-url>'
+python3 scripts/figma_components.py refresh chips
+python3 scripts/figma_components.py validate
+```
+
+Гайды и продуктовые примеры добавляются как связанные источники, например
+`register '<url>' --kind guide --component chips`. Если REST недоступен, можно
+передать read-only JSON ноды через `--payload`. После записи команда по
+умолчанию пересобирает references и валидирует навыки.
+
+Страницу с семейством однотипных компонентов можно сохранить одной групповой
+карточкой через `--kind collection`: реестр запомнит nodeId каждого компонента.
+
 ## Сборка
 
 Команда ниже синхронизирует references, запускает валидацию и создаёт отдельный zip для каждого skill:
@@ -107,5 +142,5 @@ bash scripts/pack-skills.sh
 
 - Не редактируй сгенерированные копии дизайн-системы внутри `references/`; меняй `design-system/` и запускай синхронизацию.
 - Не добавляй в инструкции компоненты и токены, которых нет в source of truth.
-- Живая Figma имеет приоритет над локальной выжимкой, но расхождение нужно явно отмечать.
+- Для токенов GitHub `token-studio-repo/main` имеет приоритет над Figma и локальной выжимкой; для структуры Figma-библиотек приоритет остаётся у живой Figma.
 - Подключения Figma и Atlassian опциональны; без них skills работают по локальным данным и не обещают внешних изменений.

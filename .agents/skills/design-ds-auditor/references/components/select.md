@@ -1,10 +1,15 @@
 # Select
 
-> Reference-карточка компонента. Источник: эталонный гайд `Component guide_Select` в Figma — file `rMcDm5qGp4CXkXXddEbcMh` (Lib-iOS), node `39484:30540`. COMPONENT_SET `Select` — node `34884:24858`.
+> Рабочая карточка компонента. Основной источник — `Select` COMPONENT_SET в
+> main-файле Lib-iOS, node `34884:24858`. `Component guide_Select` на рабочей
+> ветке, node `39484:30540`, сохранён как дополнительный источник.
 
 ## Назначение
 
-Компактный фильтр-дропдаун: по тапу раскрывает список опций (BottomSheet), поддерживает множественный выбор и показывает счётчик выбранного (Counter). В отличие от Chips, прячет варианты за одним контролом — для длинных списков. Входит в группу `Filters` вместе с `Chips` — продуктовое поведение группы см. [filters-group.md](filters-group.md).
+Компактный фильтр, который по тапу открывает список опций в шторке, поддерживает
+одиночный или множественный выбор и может показывать счётчик выбранного. В
+отличие от [Chips](chips.md), прячет варианты за одним контролом — для длинных
+списков. Продуктовое поведение группы см. в [Filters](filters-group.md).
 
 ## Когда использовать
 
@@ -13,7 +18,8 @@
 - Единичный выбор
 - Экономия места — один контрол вместо россыпи тегов
 
-**Поведение:** при тапе мгновенно меняет `Selected` (False ↔ True) и открывает BottomSheet с элементами списка.
+**Поведение:** тап по основной зоне открывает шторку. `Selected` отражает уже
+применённый выбор и не должен переключаться только из-за открытия шторки.
 
 ## Когда НЕ использовать
 
@@ -48,10 +54,12 @@
 
 | Параметр | iPhone | iPad |
 |---|---|---|
-| Высота | 36pt | 40pt |
-| Corner radius | 8 | 10 |
+| `Selected=False` | 108×36 pt | 129×40 pt |
+| `Selected=True` | 134×36 pt | 159×40 pt |
 
-(Ширина — hug по контенту; в примерах закрытый Rest ≈ 110 / 132pt.)
+Размеры выше подтверждены на живой строке `Select`; ширина меняется вместе с
+текстом и видимостью счётчика. Значения corner radius и внутренних отступов не
+фиксируются здесь как токены — проверяйте их в Tokens Studio.
 
 ## Состояния
 
@@ -59,12 +67,20 @@
 
 ## Состояние выбора (Selected)
 
-При нажатии переключает выбранное / не выбранное. `Selected=True` — инвертированный стиль + Counter (число) + Cross Box (×) для сброса.
+`Selected=True` показывает применённый фильтр: инвертированный стиль,
+опциональный `Counter` со значением `String Counter` и
+`Actions / Cross_Small_Bold` для сброса. При одном выбранном значении контрол
+может показывать его имя; при нескольких — количество согласно гайду Filters.
 
 ## Область нажатия
 
 - `Selected=False` — реагирует по всей площади (открывает BottomSheet).
 - `Selected=True` — **две** зоны нажатия: левая часть → вызов BottomSheet, правая (с крестиком) → сброс выбора.
+
+Визуальная высота 36/40 pt меньше минимальной touch target iOS, поэтому обеим
+зонам нужна доступная область не меньше 44×44 pt без визуального увеличения.
+VoiceOver должен различать открытие списка и сброс, объявлять название фильтра,
+выбранность и счётчик.
 
 ## Компонентные токены
 
@@ -72,11 +88,66 @@ Select входит в группу **Control** и использует комп
 
 ## Связанные компоненты
 
-- `Chips` — та же группа `Filters`, для коротких списков (варианты помещаются на экран)
+- [Chips](chips.md) — та же группа `Filters`, для коротких списков
 - `BottomSheet` — раскрывающийся список опций Select
-- `Button` — для действий, а не выбора
+- [Button](button.md) — для действий, а не выбора
+- `Actions / Calendar_Bold` — ведущая иконка в живом примере.
+- `Actions / Cross_Small_Bold` — сброс применённого выбора.
 
 ## Источник
 
-- Гайд: Figma `rMcDm5qGp4CXkXXddEbcMh` node `39484:30540` (`Component guide_Select`)
-- Компонент: node `34884:24858` (`Select` COMPONENT_SET)
+- Основной компонент: main-файл Figma `rMcDm5qGp4CXkXXddEbcMh`, node
+  `34884:24858` (`Select` COMPONENT_SET).
+- Связанный гайд: рабочая ветка `jdBqhypltqMzx0mXE7uw94`, node
+  `39484:30540` (`Component guide_Select`).
+
+<!-- FIGMA_SYNC:START -->
+## Актуальные данные Figma
+
+> Последняя проверка: `2026-08-21T16:09:38Z` · структура `7c94a6985755` · статус `unknown`.
+
+### Свойства из компонента
+
+| Свойство | Тип | Значение по умолчанию | Варианты |
+|---|---|---|---|
+| `Counter` | `boolean` | `—` | — |
+| `Device` | `variant` | `—` | iPad / iPhone |
+| `Icon` | `boolean` | `—` | — |
+| `Icon Instance` | `instance_swap` | `—` | — |
+| `Selected` | `variant` | `—` | False / True |
+| `State` | `variant` | `—` | Disabled / Rest / Touch |
+| `String Counter` | `text` | `—` | — |
+| `String Text` | `text` | `—` | — |
+
+### Варианты и размеры
+
+| Ось | Значения |
+|---|---|
+| `Device` | iPad / iPhone |
+| `Selected` | False / True |
+| `State` | Disabled / Rest / Touch |
+
+Комбинаций в COMPONENT_SET: **12**.
+
+| Размер | Количество вариантов | Примеры |
+|---|---:|---|
+| `108.0×36.0` | 3 | Device=iPhone, State=Rest, Selected=False; Device=iPhone, State=Touch, Selected=False; Device=iPhone, State=Disabled, Selected=False |
+| `129.0×40.0` | 3 | Device=iPad, State=Rest, Selected=False; Device=iPad, State=Touch, Selected=False; Device=iPad, State=Disabled, Selected=False |
+| `134.0×36.0` | 3 | Device=iPhone, State=Rest, Selected=True; Device=iPhone, State=Touch, Selected=True; Device=iPhone, State=Disabled, Selected=True |
+| `159.0×40.0` | 3 | Device=iPad, State=Rest, Selected=True; Device=iPad, State=Touch, Selected=True; Device=iPad, State=Disabled, Selected=True |
+
+### Состояния
+
+- `Selected`: False / True
+- `State`: Disabled / Rest / Touch
+
+### Зависимости
+
+- `Actions / Calendar_Bold` — node `dependency:actions-calendar-bold`
+- `Actions / Cross_Small_Bold` — node `dependency:actions-cross-small-bold`
+
+### Источник
+
+- [Select](https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=34884-24858&t=6NQra4uE9oLKkthr-4) — fileKey `rMcDm5qGp4CXkXXddEbcMh`, API key `rMcDm5qGp4CXkXXddEbcMh`, node `34884:24858`, type `COMPONENT_SET`.
+- [guide](https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/branch/jdBqhypltqMzx0mXE7uw94/Lib-iOS?node-id=39484-30540) — `guide`, node `39484:30540`.
+<!-- FIGMA_SYNC:END -->

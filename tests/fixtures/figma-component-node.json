@@ -1,0 +1,71 @@
+{
+  "nodes": {
+    "42:7": {
+      "document": {
+        "id": "42:7",
+        "name": "🟢 Test Control",
+        "type": "COMPONENT_SET",
+        "description": "Контрол для проверки workflow.",
+        "componentPropertyDefinitions": {
+          "Device": {
+            "type": "VARIANT",
+            "defaultValue": "iPhone",
+            "variantOptions": ["iPhone", "iPad"]
+          },
+          "Enabled": {
+            "type": "BOOLEAN",
+            "defaultValue": true
+          }
+        },
+        "children": [
+          {
+            "id": "42:8",
+            "name": "Device=iPhone, State=Rest",
+            "type": "COMPONENT",
+            "variantProperties": {
+              "Device": "iPhone",
+              "State": "Rest"
+            },
+            "absoluteBoundingBox": {
+              "x": 0,
+              "y": 0,
+              "width": 120,
+              "height": 36
+            },
+            "children": [
+              {
+                "id": "42:9",
+                "name": "Icon",
+                "type": "INSTANCE",
+                "componentId": "90:1"
+              }
+            ]
+          },
+          {
+            "id": "42:10",
+            "name": "Device=iPad, State=Disabled",
+            "type": "COMPONENT",
+            "variantProperties": {
+              "Device": "iPad",
+              "State": "Disabled"
+            },
+            "absoluteBoundingBox": {
+              "x": 0,
+              "y": 60,
+              "width": 136,
+              "height": 40
+            }
+          }
+        ]
+      },
+      "components": {
+        "90:1": {
+          "key": "icon-key",
+          "name": "Icon / Close",
+          "component_set_id": "90:0"
+        }
+      },
+      "componentSets": {}
+    }
+  }
+}

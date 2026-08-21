@@ -164,6 +164,43 @@
 
 ---
 
+## Машиночитаемый реестр iOS-компонентов
+
+Блок генерируется из `design-system/components/figma-sources.json`. Значение
+`API fileKey` равно `branchKey` для ссылок на рабочую ветку.
+
+<!-- FIGMA_COMPONENT_REGISTRY:START -->
+| Компонент | API fileKey | nodeId | Статус | Карточка | Проверено |
+|---|---|---|---|---|---|
+| [AI Button](https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=30946-883&t=6NQra4uE9oLKkthr-4) | `rMcDm5qGp4CXkXXddEbcMh` | `30946:883` | `unknown` | [`ai-button.md`](../../../../design-system/components/ai-button.md) | `2026-08-21T15:17:25Z` |
+| [Bet Button](https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=22908-9507&t=6NQra4uE9oLKkthr-4) | `rMcDm5qGp4CXkXXddEbcMh` | `22908:9507` | `unknown` | [`bet-button.md`](../../../../design-system/components/bet-button.md) | `2026-08-21T15:30:16Z` |
+| [🟢Sheet Native](https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=37371-7396&t=6NQra4uE9oLKkthr-4) | `rMcDm5qGp4CXkXXddEbcMh` | `37371:7396` | `ready` | [`bottom-sheet-native.md`](../../../../design-system/components/bottom-sheet-native.md) | `2026-08-21T15:20:10Z` |
+| [Button](https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=31182-4417&t=6NQra4uE9oLKkthr-4) | `rMcDm5qGp4CXkXXddEbcMh` | `31182:4417` | `unknown` | [`button.md`](../../../../design-system/components/button.md) | `2026-08-21T15:22:52Z` |
+| [Button - Toggle](https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=31182-4838&t=6NQra4uE9oLKkthr-4) | `rMcDm5qGp4CXkXXddEbcMh` | `31182:4838` | `unknown` | [`button-toggle.md`](../../../../design-system/components/button-toggle.md) | `2026-08-21T15:27:50Z` |
+| [Checkbox](https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=14447-113935&t=6NQra4uE9oLKkthr-4) | `rMcDm5qGp4CXkXXddEbcMh` | `14447:113935` | `unknown` | [`checkbox.md`](../../../../design-system/components/checkbox.md) | `2026-08-21T15:32:19Z` |
+| [Chips](https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=34254-8865&t=6NQra4uE9oLKkthr-4) | `rMcDm5qGp4CXkXXddEbcMh` | `34254:8865` | `unknown` | [`chips.md`](../../../../design-system/components/chips.md) | `2026-08-21T16:07:30Z` |
+| [Error - Fulscreen](https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=40967-4323&t=6NQra4uE9oLKkthr-4) | `rMcDm5qGp4CXkXXddEbcMh` | `40967:4323` | `unknown` | [`error-fullscreen.md`](../../../../design-system/components/error-fullscreen.md) | `2026-08-21T15:44:33Z` |
+| [Error - Sheet](https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=40954-1419&t=6NQra4uE9oLKkthr-4) | `rMcDm5qGp4CXkXXddEbcMh` | `40954:1419` | `unknown` | [`error-sheet.md`](../../../../design-system/components/error-sheet.md) | `2026-08-21T15:41:13Z` |
+| [Error - View](https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=22536-7360&t=6NQra4uE9oLKkthr-4) | `rMcDm5qGp4CXkXXddEbcMh` | `22536:7360` | `unknown` | [`error-view.md`](../../../../design-system/components/error-view.md) | `2026-08-21T15:38:37Z` |
+| [Text input](https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=12510-97334&t=6NQra4uE9oLKkthr-4) | `rMcDm5qGp4CXkXXddEbcMh` | `12510:97334` | `unknown` | [`input.md`](../../../../design-system/components/input.md) | `2026-08-21T15:55:31Z` |
+| [Label : Large](https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=12185-97166&t=6NQra4uE9oLKkthr-4) | `rMcDm5qGp4CXkXXddEbcMh` | `12185:97166` | `unknown` | [`label-large.md`](../../../../design-system/components/label-large.md) | `2026-08-21T16:01:51Z` |
+| [Label : Small](https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=12185-97090&t=6NQra4uE9oLKkthr-4) | `rMcDm5qGp4CXkXXddEbcMh` | `12185:97090` | `unknown` | [`label-small.md`](../../../../design-system/components/label-small.md) | `2026-08-21T16:01:52Z` |
+| [🟡 List Item V2](https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=36507-21672&t=6NQra4uE9oLKkthr-4) | `rMcDm5qGp4CXkXXddEbcMh` | `36507:21672` | `work-in-progress` | [`list-item-v2.md`](../../../../design-system/components/list-item-v2.md) | `2026-08-21T16:04:40Z` |
+| [Navbar](https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=12978-100799&t=6NQra4uE9oLKkthr-4) | `rMcDm5qGp4CXkXXddEbcMh` | `12978:100799` | `unknown` | [`navbar.md`](../../../../design-system/components/navbar.md) | `2026-08-21T15:50:49Z` |
+| [Onboarding Bubble](https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=32634-7164&t=6NQra4uE9oLKkthr-4) | `rMcDm5qGp4CXkXXddEbcMh` | `32634:7164` | `unknown` | [`onboarding-bubble.md`](../../../../design-system/components/onboarding-bubble.md) | `2026-08-21T15:46:56Z` |
+| [Radio button](https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=14447-113928&t=6NQra4uE9oLKkthr-4) | `rMcDm5qGp4CXkXXddEbcMh` | `14447:113928` | `unknown` | [`radio-button.md`](../../../../design-system/components/radio-button.md) | `2026-08-21T15:34:05Z` |
+| [Select](https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=34884-24858&t=6NQra4uE9oLKkthr-4) | `rMcDm5qGp4CXkXXddEbcMh` | `34884:24858` | `unknown` | [`select.md`](../../../../design-system/components/select.md) | `2026-08-21T16:09:38Z` |
+| [Шаблоны шторки / Фильтры](https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/branch/jdBqhypltqMzx0mXE7uw94/Lib-iOS?node-id=37390-49620) | `jdBqhypltqMzx0mXE7uw94` | `37390:49620` | `unknown` | [`sheet-template-filters.md`](../../../../design-system/components/sheet-template-filters.md) | `not checked` |
+| [Snackbar](https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=13712-111074&t=6NQra4uE9oLKkthr-4) | `rMcDm5qGp4CXkXXddEbcMh` | `13712:111074` | `unknown` | [`snackbar.md`](../../../../design-system/components/snackbar.md) | `2026-08-21T16:11:44Z` |
+| [Switch](https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=14447-113942&t=6NQra4uE9oLKkthr-4) | `rMcDm5qGp4CXkXXddEbcMh` | `14447:113942` | `unknown` | [`switch.md`](../../../../design-system/components/switch.md) | `2026-08-21T15:35:51Z` |
+| [Symbol input](https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=12514-97868&t=6NQra4uE9oLKkthr-4) | `rMcDm5qGp4CXkXXddEbcMh` | `12514:97868` | `unknown` | [`symbol-input.md`](../../../../design-system/components/symbol-input.md) | `2026-08-21T15:58:31Z` |
+| [TabNavigation](https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=24687-2182&t=6NQra4uE9oLKkthr-4) | `rMcDm5qGp4CXkXXddEbcMh` | `24687:2182` | `unknown` | [`tab-navigation.md`](../../../../design-system/components/tab-navigation.md) | `2026-08-21T16:25:10Z` |
+| [Tabbar - Meta](https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=38937-15264&t=6NQra4uE9oLKkthr-4) | `rMcDm5qGp4CXkXXddEbcMh` | `38937:15264` | `unknown` | [`tabbar-meta.md`](../../../../design-system/components/tabbar-meta.md) | `2026-08-21T16:13:59Z` |
+| [TabGroup](https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=24233-1389&t=6NQra4uE9oLKkthr-4) | `rMcDm5qGp4CXkXXddEbcMh` | `24233:1389` | `unknown` | [`tabgroup.md`](../../../../design-system/components/tabgroup.md) | `2026-08-21T16:21:01Z` |
+| [Tabgroup - Item](https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=24233-1463&t=6NQra4uE9oLKkthr-4) | `rMcDm5qGp4CXkXXddEbcMh` | `24233:1463` | `unknown` | [`tabgroup-item.md`](../../../../design-system/components/tabgroup-item.md) | `2026-08-21T16:21:01Z` |
+| [Layouts](https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=32942-50025) | `rMcDm5qGp4CXkXXddEbcMh` | `32942:50025` | `collection (9)` | [`layouts-ios.md`](../../../../design-system/components/layouts-ios.md) | `2026-08-21T15:14:53Z` |
+<!-- FIGMA_COMPONENT_REGISTRY:END -->
+
 ## Продуктовые файлы (consumers, не библиотеки)
 
 Файлы продукта, которые потребляют библиотеки. Из них берутся **продуктовые кейсы** для гайдов.
