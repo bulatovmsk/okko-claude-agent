@@ -44,6 +44,15 @@ class FigmaComponentsTests(unittest.TestCase):
         self.assertEqual(source["apiFileKey"], "baseKey")
         self.assertEqual(source["nodeId"], "10:20")
 
+    def test_lifecycle_markers_and_default_ready(self):
+        self.assertEqual(MODULE.status_from_name("Button"), "ready")
+        self.assertEqual(MODULE.status_from_name("🟢 Button"), "ready")
+        self.assertEqual(MODULE.status_from_name("🔵 Button"), "design-only")
+        self.assertEqual(MODULE.status_from_name("🟡 Button"), "work-in-progress")
+        self.assertEqual(MODULE.status_from_name("⚪ Button"), "planned")
+        self.assertEqual(MODULE.status_from_name("🔴 Button"), "deprecated")
+        self.assertEqual(MODULE.status_from_name("Button [Deprecated]"), "deprecated")
+
     def test_extracts_properties_variants_sizes_and_dependencies(self):
         snapshot = MODULE.snapshot_from_payload(self.payload, "42:7")
 
@@ -55,6 +64,20 @@ class FigmaComponentsTests(unittest.TestCase):
         self.assertEqual(snapshot["dimensions"][0]["height"], 36.0)
         self.assertEqual(snapshot["dependencies"][0]["name"], "Icon / Close")
         self.assertEqual(snapshot["dependencies"][0]["componentSetId"], "90:0")
+
+    def test_registers_component_for_explicit_platform_library(self):
+        registry = MODULE.empty_registry()
+        record, _ = MODULE.upsert_component(
+            registry,
+            MODULE.parse_figma_url(self.url),
+            MODULE.snapshot_from_payload(self.payload, "42:7"),
+            slug="android-control",
+            platform="android",
+            library_id="lib-android",
+        )
+
+        self.assertEqual(record["platform"], "android")
+        self.assertEqual(record["libraryId"], "lib-android")
 
     def test_strips_figma_internal_suffix_from_property_name(self):
         payload = json.loads(json.dumps(self.payload))

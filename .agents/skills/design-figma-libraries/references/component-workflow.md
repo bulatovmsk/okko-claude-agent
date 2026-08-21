@@ -19,6 +19,14 @@
    python3 scripts/figma_components.py register '<figma-url>'
    ```
 
+   Для Android, Web или TV обязательно укажи платформу и ID библиотеки из
+   `references/registry/libraries.json`:
+
+   ```bash
+   python3 scripts/figma_components.py register '<figma-url>' \
+     --platform android --library-id lib-android
+   ```
+
    Имя берётся из живой ноды. `--slug` и `--name` нужны только для осознанного
    переопределения. Команда создаёт или обновляет карточку, реестр и
    сгенерированный блок карты библиотек, затем пересобирает references и
@@ -27,6 +35,11 @@
    Если тот же slug уже зарегистрирован на ветке, явный `--slug` позволяет
    перевести источник на присланную main-ссылку без создания дубликата. Делай
    это только когда пользователь дал актуальную ссылку на тот же компонент.
+
+   Lifecycle читается из имени: обычное имя/🟢 — `ready`, 🔵 — `design-only`,
+   🟡 — `work-in-progress`, ⚪ — `planned`, 🔴/`[Deprecated]` — `deprecated`.
+   `planned` требует `lifecycle.targetQuarter` формата `YYYY-QN`, а deprecated —
+   `replacementComponent` или `gapId` в записи реестра.
 
    После автоматической регистрации изучи ноду и доступный контекст применения:
    заполни ручные разделы «Назначение», «Когда использовать», платформенные

@@ -1,0 +1,795 @@
+{
+  "schemaVersion": 1,
+  "sources": {
+    "components": "design-system/components/figma-sources.json",
+    "libraries": "design-system/registry/libraries.json",
+    "lifecycle": "design-system/registry/lifecycle.json",
+    "mappings": "design-system/mappings/platform-mappings.json",
+    "cases": "design-system/knowledge/cases.json",
+    "gaps": "design-system/knowledge/gaps.json",
+    "platformRules": "design-system/platforms",
+    "tokenSnapshots": "design-system/tokens"
+  },
+  "lifecycle": {
+    "schemaVersion": 1,
+    "defaultStatus": "ready",
+    "statuses": [
+      {
+        "id": "planned",
+        "marker": "⚪",
+        "requires": [
+          "targetQuarter"
+        ],
+        "automaticUse": false,
+        "description": "Запланирован на ближайшие кварталы, но ещё не находится в работе."
+      },
+      {
+        "id": "work-in-progress",
+        "marker": "🟡",
+        "requires": [],
+        "automaticUse": false,
+        "description": "Находится в активной работе и доступен только для явно запрошенных тестов."
+      },
+      {
+        "id": "design-only",
+        "marker": "🔵",
+        "requires": [],
+        "automaticUse": false,
+        "description": "Готов для макетов в Figma, но ещё не реализован в продукте."
+      },
+      {
+        "id": "ready",
+        "marker": "🟢",
+        "requires": [],
+        "automaticUse": true,
+        "description": "Готов в дизайне и доступен в продуктовой реализации."
+      },
+      {
+        "id": "deprecated",
+        "marker": "🔴",
+        "requiresAny": [
+          "replacementComponent",
+          "gapId"
+        ],
+        "automaticUse": false,
+        "description": "Выведен из использования; нужна замена или зафиксированный gap."
+      }
+    ]
+  },
+  "libraries": [
+    {
+      "id": "okko-head",
+      "name": "Okko Head Library",
+      "kind": "assets",
+      "status": "active",
+      "platforms": [
+        "android",
+        "ios",
+        "tv",
+        "web"
+      ],
+      "deviceClasses": [
+        "phone",
+        "tablet",
+        "tv",
+        "web-desktop"
+      ],
+      "source": {
+        "fileKey": "HYB1u9ysALVWtVWKoagiDH",
+        "url": "https://www.figma.com/design/HYB1u9ysALVWtVWKoagiDH"
+      },
+      "dependencies": []
+    },
+    {
+      "id": "tokens-mobile-web",
+      "name": "Tokens [mobile & web]",
+      "kind": "tokens",
+      "status": "active",
+      "platforms": [
+        "android",
+        "ios",
+        "web"
+      ],
+      "deviceClasses": [
+        "phone",
+        "tablet",
+        "web-desktop"
+      ],
+      "source": {
+        "fileKey": "vztN8doGwBZOCbpDf2PhKR",
+        "url": "https://www.figma.com/design/vztN8doGwBZOCbpDf2PhKR"
+      },
+      "dependencies": []
+    },
+    {
+      "id": "tokens-tv",
+      "name": "Tokens [tv]",
+      "kind": "tokens",
+      "status": "active",
+      "platforms": [
+        "tv"
+      ],
+      "deviceClasses": [
+        "tv"
+      ],
+      "source": {
+        "fileKey": "Zn2JrOHhSURjCuUEp6JcI8",
+        "url": "https://www.figma.com/design/Zn2JrOHhSURjCuUEp6JcI8"
+      },
+      "dependencies": []
+    },
+    {
+      "id": "lib-android",
+      "name": "Lib-Android",
+      "kind": "components",
+      "status": "pending-source",
+      "platforms": [
+        "android"
+      ],
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "source": null,
+      "dependencies": [
+        "okko-head",
+        "tokens-mobile-web"
+      ]
+    },
+    {
+      "id": "lib-ios",
+      "name": "Lib-iOS",
+      "kind": "components",
+      "status": "active",
+      "platforms": [
+        "ios"
+      ],
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "source": {
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS"
+      },
+      "dependencies": [
+        "okko-head",
+        "tokens-mobile-web"
+      ]
+    },
+    {
+      "id": "lib-tv",
+      "name": "Lib-TV",
+      "kind": "components",
+      "status": "active",
+      "platforms": [
+        "tv"
+      ],
+      "deviceClasses": [
+        "tv"
+      ],
+      "source": {
+        "fileKey": "Q3DVcDJnhMCtpdQAUoDPrp",
+        "url": "https://www.figma.com/design/Q3DVcDJnhMCtpdQAUoDPrp/Lib-TV"
+      },
+      "dependencies": [
+        "okko-head",
+        "tokens-tv"
+      ]
+    },
+    {
+      "id": "lib-web",
+      "name": "Lib-Web",
+      "kind": "components",
+      "status": "pending-source",
+      "platforms": [
+        "web"
+      ],
+      "deviceClasses": [
+        "phone",
+        "tablet",
+        "web-desktop"
+      ],
+      "source": null,
+      "dependencies": [
+        "okko-head",
+        "tokens-mobile-web"
+      ]
+    }
+  ],
+  "components": [
+    {
+      "id": "ai-button",
+      "name": "AI Button",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/ai-button.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=30946-883&t=6NQra4uE9oLKkthr-4",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "30946:883"
+      },
+      "lastCheckedAt": "2026-08-21T15:17:25Z"
+    },
+    {
+      "id": "bet-button",
+      "name": "Bet Button",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/bet-button.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=22908-9507&t=6NQra4uE9oLKkthr-4",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "22908:9507"
+      },
+      "lastCheckedAt": "2026-08-21T15:30:16Z"
+    },
+    {
+      "id": "bottom-sheet-native",
+      "name": "🟢Sheet Native",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/bottom-sheet-native.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=37371-7396&t=6NQra4uE9oLKkthr-4",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "37371:7396"
+      },
+      "lastCheckedAt": "2026-08-21T15:20:10Z"
+    },
+    {
+      "id": "button",
+      "name": "Button",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/button.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=31182-4417&t=6NQra4uE9oLKkthr-4",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "31182:4417"
+      },
+      "lastCheckedAt": "2026-08-21T15:22:52Z"
+    },
+    {
+      "id": "button-toggle",
+      "name": "Button - Toggle",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/button-toggle.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=31182-4838&t=6NQra4uE9oLKkthr-4",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "31182:4838"
+      },
+      "lastCheckedAt": "2026-08-21T15:27:50Z"
+    },
+    {
+      "id": "checkbox",
+      "name": "Checkbox",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/checkbox.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=14447-113935&t=6NQra4uE9oLKkthr-4",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "14447:113935"
+      },
+      "lastCheckedAt": "2026-08-21T15:32:19Z"
+    },
+    {
+      "id": "chips",
+      "name": "Chips",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/chips.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=34254-8865&t=6NQra4uE9oLKkthr-4",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "34254:8865"
+      },
+      "lastCheckedAt": "2026-08-21T16:07:30Z"
+    },
+    {
+      "id": "error-fullscreen",
+      "name": "Error - Fulscreen",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/error-fullscreen.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=40967-4323&t=6NQra4uE9oLKkthr-4",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "40967:4323"
+      },
+      "lastCheckedAt": "2026-08-21T15:44:33Z"
+    },
+    {
+      "id": "error-sheet",
+      "name": "Error - Sheet",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/error-sheet.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=40954-1419&t=6NQra4uE9oLKkthr-4",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "40954:1419"
+      },
+      "lastCheckedAt": "2026-08-21T15:41:13Z"
+    },
+    {
+      "id": "error-view",
+      "name": "Error - View",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/error-view.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=22536-7360&t=6NQra4uE9oLKkthr-4",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "22536:7360"
+      },
+      "lastCheckedAt": "2026-08-21T15:38:37Z"
+    },
+    {
+      "id": "input",
+      "name": "Text input",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/input.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=12510-97334&t=6NQra4uE9oLKkthr-4",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "12510:97334"
+      },
+      "lastCheckedAt": "2026-08-21T15:55:31Z"
+    },
+    {
+      "id": "label-large",
+      "name": "Label : Large",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/label-large.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=12185-97166&t=6NQra4uE9oLKkthr-4",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "12185:97166"
+      },
+      "lastCheckedAt": "2026-08-21T16:01:51Z"
+    },
+    {
+      "id": "label-small",
+      "name": "Label : Small",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/label-small.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=12185-97090&t=6NQra4uE9oLKkthr-4",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "12185:97090"
+      },
+      "lastCheckedAt": "2026-08-21T16:01:52Z"
+    },
+    {
+      "id": "layouts-ios",
+      "name": "Layouts",
+      "kind": "collection",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/layouts-ios.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=32942-50025",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "32942:50025"
+      },
+      "lastCheckedAt": "2026-08-21T15:14:53Z"
+    },
+    {
+      "id": "list-item-v2",
+      "name": "🟡 List Item V2",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "work-in-progress",
+      "automaticUse": false,
+      "card": "design-system/components/list-item-v2.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=36507-21672&t=6NQra4uE9oLKkthr-4",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "36507:21672"
+      },
+      "lastCheckedAt": "2026-08-21T16:04:40Z"
+    },
+    {
+      "id": "navbar",
+      "name": "Navbar",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/navbar.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=12978-100799&t=6NQra4uE9oLKkthr-4",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "12978:100799"
+      },
+      "lastCheckedAt": "2026-08-21T15:50:49Z"
+    },
+    {
+      "id": "onboarding-bubble",
+      "name": "Onboarding Bubble",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/onboarding-bubble.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=32634-7164&t=6NQra4uE9oLKkthr-4",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "32634:7164"
+      },
+      "lastCheckedAt": "2026-08-21T15:46:56Z"
+    },
+    {
+      "id": "radio-button",
+      "name": "Radio button",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/radio-button.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=14447-113928&t=6NQra4uE9oLKkthr-4",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "14447:113928"
+      },
+      "lastCheckedAt": "2026-08-21T15:34:05Z"
+    },
+    {
+      "id": "select",
+      "name": "Select",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/select.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=34884-24858&t=6NQra4uE9oLKkthr-4",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "34884:24858"
+      },
+      "lastCheckedAt": "2026-08-21T16:09:38Z"
+    },
+    {
+      "id": "sheet-template-filters",
+      "name": "Шаблоны шторки / Фильтры",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/sheet-template-filters.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/branch/jdBqhypltqMzx0mXE7uw94/Lib-iOS?node-id=37390-49620",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "37390:49620"
+      },
+      "lastCheckedAt": null
+    },
+    {
+      "id": "snackbar",
+      "name": "Snackbar",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/snackbar.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=13712-111074&t=6NQra4uE9oLKkthr-4",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "13712:111074"
+      },
+      "lastCheckedAt": "2026-08-21T16:11:44Z"
+    },
+    {
+      "id": "switch",
+      "name": "Switch",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/switch.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=14447-113942&t=6NQra4uE9oLKkthr-4",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "14447:113942"
+      },
+      "lastCheckedAt": "2026-08-21T15:35:51Z"
+    },
+    {
+      "id": "symbol-input",
+      "name": "Symbol input",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/symbol-input.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=12514-97868&t=6NQra4uE9oLKkthr-4",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "12514:97868"
+      },
+      "lastCheckedAt": "2026-08-21T15:58:31Z"
+    },
+    {
+      "id": "tab-navigation",
+      "name": "TabNavigation",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/tab-navigation.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=24687-2182&t=6NQra4uE9oLKkthr-4",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "24687:2182"
+      },
+      "lastCheckedAt": "2026-08-21T16:25:10Z"
+    },
+    {
+      "id": "tabbar-meta",
+      "name": "Tabbar - Meta",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/tabbar-meta.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=38937-15264&t=6NQra4uE9oLKkthr-4",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "38937:15264"
+      },
+      "lastCheckedAt": "2026-08-21T16:13:59Z"
+    },
+    {
+      "id": "tabgroup",
+      "name": "TabGroup",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/tabgroup.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=24233-1389&t=6NQra4uE9oLKkthr-4",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "24233:1389"
+      },
+      "lastCheckedAt": "2026-08-21T16:21:01Z"
+    },
+    {
+      "id": "tabgroup-item",
+      "name": "Tabgroup - Item",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/tabgroup-item.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=24233-1463&t=6NQra4uE9oLKkthr-4",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "24233:1463"
+      },
+      "lastCheckedAt": "2026-08-21T16:21:01Z"
+    }
+  ],
+  "supportedRoutes": [
+    {
+      "sourcePlatform": "android",
+      "targetPlatform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ]
+    },
+    {
+      "sourcePlatform": "android",
+      "targetPlatform": "web",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ]
+    },
+    {
+      "sourcePlatform": "ios",
+      "targetPlatform": "android",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ]
+    },
+    {
+      "sourcePlatform": "ios",
+      "targetPlatform": "web",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ]
+    },
+    {
+      "sourcePlatform": "web",
+      "targetPlatform": "android",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ]
+    },
+    {
+      "sourcePlatform": "web",
+      "targetPlatform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ]
+    }
+  ],
+  "confirmedMappings": [],
+  "confirmedCases": [],
+  "openGaps": []
+}

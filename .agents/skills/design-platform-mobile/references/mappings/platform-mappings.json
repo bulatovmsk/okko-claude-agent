@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "platforms": ["android", "ios", "web"],
+  "deviceClasses": ["phone", "tablet"],
+  "supportedRoutes": [
+    {"sourcePlatform": "android", "targetPlatform": "ios", "deviceClasses": ["phone", "tablet"]},
+    {"sourcePlatform": "android", "targetPlatform": "web", "deviceClasses": ["phone", "tablet"]},
+    {"sourcePlatform": "ios", "targetPlatform": "android", "deviceClasses": ["phone", "tablet"]},
+    {"sourcePlatform": "ios", "targetPlatform": "web", "deviceClasses": ["phone", "tablet"]},
+    {"sourcePlatform": "web", "targetPlatform": "android", "deviceClasses": ["phone", "tablet"]},
+    {"sourcePlatform": "web", "targetPlatform": "ios", "deviceClasses": ["phone", "tablet"]}
+  ],
+  "mappings": []
+}

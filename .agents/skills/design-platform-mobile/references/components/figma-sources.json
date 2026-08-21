@@ -4,6 +4,7 @@
     {
       "slug": "ai-button",
       "platform": "iOS",
+      "libraryId": "lib-ios",
       "relatedSources": [],
       "name": "AI Button",
       "card": "ai-button.md",
@@ -20,7 +21,7 @@
         "name": "AI Button",
         "nodeType": "COMPONENT_SET",
         "description": "Кнопка для вызова ИИ-ассистента.",
-        "status": "unknown",
+        "status": "ready",
         "properties": [
           {
             "name": "Device",
@@ -116,6 +117,7 @@
     {
       "slug": "bet-button",
       "platform": "iOS",
+      "libraryId": "lib-ios",
       "relatedSources": [],
       "name": "Bet Button",
       "card": "bet-button.md",
@@ -132,7 +134,7 @@
         "name": "Bet Button",
         "nodeType": "COMPONENT_SET",
         "description": "",
-        "status": "unknown",
+        "status": "ready",
         "properties": [
           {
             "name": "Device",
@@ -290,6 +292,7 @@
       "slug": "bottom-sheet-native",
       "name": "🟢Sheet Native",
       "platform": "iOS",
+      "libraryId": "lib-ios",
       "card": "bottom-sheet-native.md",
       "source": {
         "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=37371-7396&t=6NQra4uE9oLKkthr-4",
@@ -367,6 +370,7 @@
     {
       "slug": "button",
       "platform": "iOS",
+      "libraryId": "lib-ios",
       "relatedSources": [
         {
           "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=31214-29705",
@@ -381,7 +385,7 @@
             "name": "Component guide_Button",
             "nodeType": "FRAME",
             "description": "Канонический гайд компонента Button в Lib-iOS.",
-            "status": "unknown",
+            "status": "ready",
             "properties": [],
             "variants": {},
             "variantCount": 0,
@@ -405,7 +409,7 @@
         "name": "Button",
         "nodeType": "COMPONENT_SET",
         "description": "Универсальная кнопка для основных, вторичных, опасных и брендированных действий на iPhone и iPad.",
-        "status": "unknown",
+        "status": "ready",
         "properties": [
           {
             "name": "Device",
@@ -825,6 +829,7 @@
     {
       "slug": "button-toggle",
       "platform": "iOS",
+      "libraryId": "lib-ios",
       "relatedSources": [],
       "name": "Button - Toggle",
       "card": "button-toggle.md",
@@ -841,7 +846,7 @@
         "name": "Button - Toggle",
         "nodeType": "COMPONENT_SET",
         "description": "",
-        "status": "unknown",
+        "status": "ready",
         "properties": [
           {
             "name": "Device",
@@ -1182,6 +1187,7 @@
     {
       "slug": "checkbox",
       "platform": "iOS",
+      "libraryId": "lib-ios",
       "relatedSources": [],
       "name": "Checkbox",
       "card": "checkbox.md",
@@ -1198,7 +1204,7 @@
         "name": "Checkbox",
         "nodeType": "COMPONENT_SET",
         "description": "",
-        "status": "unknown",
+        "status": "ready",
         "properties": [
           {
             "name": "Checked",
@@ -1252,6 +1258,7 @@
       "slug": "chips",
       "name": "Chips",
       "platform": "iOS",
+      "libraryId": "lib-ios",
       "card": "chips.md",
       "source": {
         "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=34254-8865&t=6NQra4uE9oLKkthr-4",
@@ -1276,7 +1283,7 @@
         "name": "Chips",
         "nodeType": "COMPONENT_SET",
         "description": "",
-        "status": "unknown",
+        "status": "ready",
         "properties": [
           {
             "name": "Device",
@@ -1448,6 +1455,7 @@
     {
       "slug": "error-fullscreen",
       "platform": "iOS",
+      "libraryId": "lib-ios",
       "relatedSources": [],
       "name": "Error - Fulscreen",
       "card": "error-fullscreen.md",
@@ -1464,7 +1472,7 @@
         "name": "Error - Fulscreen",
         "nodeType": "COMPONENT_SET",
         "description": "",
-        "status": "unknown",
+        "status": "ready",
         "properties": [
           {
             "name": "Device",
@@ -1647,6 +1655,7 @@
     {
       "slug": "error-sheet",
       "platform": "iOS",
+      "libraryId": "lib-ios",
       "relatedSources": [],
       "name": "Error - Sheet",
       "card": "error-sheet.md",
@@ -1663,7 +1672,7 @@
         "name": "Error - Sheet",
         "nodeType": "COMPONENT_SET",
         "description": "",
-        "status": "unknown",
+        "status": "ready",
         "properties": [
           {
             "name": "Device",
@@ -1730,6 +1739,7 @@
     {
       "slug": "error-view",
       "platform": "iOS",
+      "libraryId": "lib-ios",
       "relatedSources": [],
       "name": "Error - View",
       "card": "error-view.md",
@@ -1746,7 +1756,7 @@
         "name": "Error - View",
         "nodeType": "COMPONENT_SET",
         "description": "",
-        "status": "unknown",
+        "status": "ready",
         "properties": [
           {
             "name": "Body text",
@@ -1888,6 +1898,7 @@
     {
       "slug": "input",
       "platform": "iOS",
+      "libraryId": "lib-ios",
       "relatedSources": [],
       "name": "Text input",
       "card": "input.md",
@@ -1904,7 +1915,7 @@
         "name": "Text input",
         "nodeType": "COMPONENT_SET",
         "description": "",
-        "status": "unknown",
+        "status": "ready",
         "properties": [
           {
             "name": "Device",
@@ -2013,6 +2024,7 @@
     {
       "slug": "label-large",
       "platform": "iOS",
+      "libraryId": "lib-ios",
       "relatedSources": [],
       "name": "Label : Large",
       "card": "label-large.md",
@@ -2029,7 +2041,7 @@
         "name": "Label : Large",
         "nodeType": "COMPONENT_SET",
         "description": "",
-        "status": "unknown",
+        "status": "ready",
         "properties": [
           {
             "name": "device",
@@ -2143,6 +2155,7 @@
     {
       "slug": "label-small",
       "platform": "iOS",
+      "libraryId": "lib-ios",
       "relatedSources": [],
       "name": "Label : Small",
       "card": "label-small.md",
@@ -2159,7 +2172,7 @@
         "name": "Label : Small",
         "nodeType": "COMPONENT_SET",
         "description": "",
-        "status": "unknown",
+        "status": "ready",
         "properties": [
           {
             "name": "device",
@@ -2273,6 +2286,7 @@
     {
       "slug": "list-item-v2",
       "platform": "iOS",
+      "libraryId": "lib-ios",
       "relatedSources": [],
       "name": "🟡 List Item V2",
       "card": "list-item-v2.md",
@@ -2511,6 +2525,7 @@
     {
       "slug": "navbar",
       "platform": "iOS",
+      "libraryId": "lib-ios",
       "relatedSources": [],
       "name": "Navbar",
       "card": "navbar.md",
@@ -2527,7 +2542,7 @@
         "name": "Navbar",
         "nodeType": "COMPONENT_SET",
         "description": "",
-        "status": "unknown",
+        "status": "ready",
         "properties": [
           {
             "name": "Device",
@@ -2717,6 +2732,7 @@
     {
       "slug": "onboarding-bubble",
       "platform": "iOS",
+      "libraryId": "lib-ios",
       "relatedSources": [],
       "name": "Onboarding Bubble",
       "card": "onboarding-bubble.md",
@@ -2733,7 +2749,7 @@
         "name": "Onboarding Bubble",
         "nodeType": "COMPONENT_SET",
         "description": "",
-        "status": "unknown",
+        "status": "ready",
         "properties": [
           {
             "name": "Beak",
@@ -2822,6 +2838,7 @@
     {
       "slug": "radio-button",
       "platform": "iOS",
+      "libraryId": "lib-ios",
       "relatedSources": [],
       "name": "Radio button",
       "card": "radio-button.md",
@@ -2838,7 +2855,7 @@
         "name": "Radio button",
         "nodeType": "COMPONENT_SET",
         "description": "",
-        "status": "unknown",
+        "status": "ready",
         "properties": [
           {
             "name": "Checked",
@@ -2887,6 +2904,7 @@
       "slug": "select",
       "name": "Select",
       "platform": "iOS",
+      "libraryId": "lib-ios",
       "card": "select.md",
       "source": {
         "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=34884-24858&t=6NQra4uE9oLKkthr-4",
@@ -2911,7 +2929,7 @@
         "name": "Select",
         "nodeType": "COMPONENT_SET",
         "description": "",
-        "status": "unknown",
+        "status": "ready",
         "properties": [
           {
             "name": "Counter",
@@ -3038,6 +3056,7 @@
       "slug": "sheet-template-filters",
       "name": "Шаблоны шторки / Фильтры",
       "platform": "iOS",
+      "libraryId": "lib-ios",
       "card": "sheet-template-filters.md",
       "source": {
         "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/branch/jdBqhypltqMzx0mXE7uw94/Lib-iOS?node-id=37390-49620",
@@ -3051,6 +3070,7 @@
     {
       "slug": "snackbar",
       "platform": "iOS",
+      "libraryId": "lib-ios",
       "relatedSources": [],
       "name": "Snackbar",
       "card": "snackbar.md",
@@ -3067,7 +3087,7 @@
         "name": "Snackbar",
         "nodeType": "COMPONENT_SET",
         "description": "",
-        "status": "unknown",
+        "status": "ready",
         "properties": [
           {
             "name": "Action button",
@@ -3146,6 +3166,7 @@
     {
       "slug": "switch",
       "platform": "iOS",
+      "libraryId": "lib-ios",
       "relatedSources": [],
       "name": "Switch",
       "card": "switch.md",
@@ -3162,7 +3183,7 @@
         "name": "Switch",
         "nodeType": "COMPONENT_SET",
         "description": "",
-        "status": "unknown",
+        "status": "ready",
         "properties": [
           {
             "name": "Checked",
@@ -3215,6 +3236,7 @@
     {
       "slug": "symbol-input",
       "platform": "iOS",
+      "libraryId": "lib-ios",
       "relatedSources": [],
       "name": "Symbol input",
       "card": "symbol-input.md",
@@ -3231,7 +3253,7 @@
         "name": "Symbol input",
         "nodeType": "COMPONENT_SET",
         "description": "",
-        "status": "unknown",
+        "status": "ready",
         "properties": [
           {
             "name": "Device",
@@ -3321,6 +3343,7 @@
     {
       "slug": "tab-navigation",
       "platform": "iOS",
+      "libraryId": "lib-ios",
       "relatedSources": [
         {
           "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=24687-2253&t=oTcgMYHS9iBxqxgl-4",
@@ -3335,7 +3358,7 @@
             "name": "Component guide",
             "nodeType": "FRAME",
             "description": "Гайд TabNavigation: примеры на iPhone/iPad, анатомия, размеры, состояния и сборки с фоновым Subject.",
-            "status": "unknown",
+            "status": "ready",
             "properties": [],
             "variants": {},
             "variantCount": 0,
@@ -3359,7 +3382,7 @@
         "name": "TabNavigation",
         "nodeType": "COMPONENT_SET",
         "description": "Компонент предназначен для навигации по различным категориям контента в приложении.",
-        "status": "unknown",
+        "status": "ready",
         "properties": [
           {
             "name": "Background",
@@ -3662,6 +3685,7 @@
     {
       "slug": "tabbar-meta",
       "platform": "iOS",
+      "libraryId": "lib-ios",
       "relatedSources": [],
       "name": "Tabbar - Meta",
       "card": "tabbar-meta.md",
@@ -3678,7 +3702,7 @@
         "name": "Tabbar - Meta",
         "nodeType": "COMPONENT_SET",
         "description": "",
-        "status": "unknown",
+        "status": "ready",
         "properties": [
           {
             "name": "Authorized",
@@ -3747,6 +3771,7 @@
     {
       "slug": "tabgroup",
       "platform": "iOS",
+      "libraryId": "lib-ios",
       "relatedSources": [],
       "name": "TabGroup",
       "card": "tabgroup.md",
@@ -3763,7 +3788,7 @@
         "name": "TabGroup",
         "nodeType": "COMPONENT_SET",
         "description": "",
-        "status": "unknown",
+        "status": "ready",
         "properties": [
           {
             "name": "Device",
@@ -3981,6 +4006,7 @@
     {
       "slug": "tabgroup-item",
       "platform": "iOS",
+      "libraryId": "lib-ios",
       "relatedSources": [],
       "name": "Tabgroup - Item",
       "card": "tabgroup-item.md",
@@ -3997,7 +4023,7 @@
         "name": "Tabgroup - Item",
         "nodeType": "COMPONENT_SET",
         "description": "",
-        "status": "unknown",
+        "status": "ready",
         "properties": [
           {
             "name": "Background",
@@ -4218,6 +4244,7 @@
       "kind": "collection",
       "slug": "layouts-ios",
       "platform": "iOS",
+      "libraryId": "lib-ios",
       "relatedSources": [
         {
           "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=33005-119053",
@@ -4232,7 +4259,7 @@
             "name": "Component guide_Layout",
             "nodeType": "FRAME",
             "description": "Гайд по использованию Layout как базового шаблона для новых экранов iOS.",
-            "status": "unknown",
+            "status": "ready",
             "properties": [],
             "variants": {},
             "variantCount": 0,
@@ -4263,7 +4290,7 @@
             "nodeId": "32942:62171",
             "name": "Layout - iPad 10 Landscape",
             "nodeType": "COMPONENT",
-            "status": "unknown",
+            "status": "ready",
             "width": 1180.0,
             "height": 820.0,
             "properties": [
@@ -4311,7 +4338,7 @@
             "nodeId": "32942:62169",
             "name": "Layout - iPad 10 Portrait",
             "nodeType": "COMPONENT",
-            "status": "unknown",
+            "status": "ready",
             "width": 820.0,
             "height": 1180.0,
             "properties": [
@@ -4354,7 +4381,7 @@
             "nodeId": "32942:62172",
             "name": "Layout - iPad Mini 6 Landscape (Optional)",
             "nodeType": "COMPONENT",
-            "status": "unknown",
+            "status": "ready",
             "width": 1133.0,
             "height": 744.0,
             "properties": [
@@ -4402,7 +4429,7 @@
             "nodeId": "32942:62168",
             "name": "Layout - iPad Mini 6 Portrait (Optional)",
             "nodeType": "COMPONENT",
-            "status": "unknown",
+            "status": "ready",
             "width": 744.0,
             "height": 1133.0,
             "properties": [
@@ -4450,7 +4477,7 @@
             "nodeId": "32942:62170",
             "name": "Layout - iPad Pro 13 Landscape",
             "nodeType": "COMPONENT",
-            "status": "unknown",
+            "status": "ready",
             "width": 1376.0,
             "height": 1032.0,
             "properties": [
@@ -4498,7 +4525,7 @@
             "nodeId": "32942:62167",
             "name": "Layout - iPad Pro 13 Portrait",
             "nodeType": "COMPONENT",
-            "status": "unknown",
+            "status": "ready",
             "width": 1032.0,
             "height": 1376.0,
             "properties": [
@@ -4546,7 +4573,7 @@
             "nodeId": "32942:62173",
             "name": "Layout - iPhone 13 mini (Optional)",
             "nodeType": "COMPONENT",
-            "status": "unknown",
+            "status": "ready",
             "width": 375.0,
             "height": 812.0,
             "properties": [
@@ -4594,7 +4621,7 @@
             "nodeId": "32942:62175",
             "name": "Layout - iPhone 15",
             "nodeType": "COMPONENT",
-            "status": "unknown",
+            "status": "ready",
             "width": 393.0,
             "height": 852.0,
             "properties": [
@@ -4642,7 +4669,7 @@
             "nodeId": "32942:62174",
             "name": "Layout - iPhone 17 Pro Max",
             "nodeType": "COMPONENT",
-            "status": "unknown",
+            "status": "ready",
             "width": 440.0,
             "height": 956.0,
             "properties": [

@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "libraries": [
+    {
+      "id": "okko-head",
+      "name": "Okko Head Library",
+      "kind": "assets",
+      "status": "active",
+      "platforms": ["android", "ios", "tv", "web"],
+      "deviceClasses": ["phone", "tablet", "tv", "web-desktop"],
+      "source": {
+        "fileKey": "HYB1u9ysALVWtVWKoagiDH",
+        "url": "https://www.figma.com/design/HYB1u9ysALVWtVWKoagiDH"
+      },
+      "dependencies": []
+    },
+    {
+      "id": "tokens-mobile-web",
+      "name": "Tokens [mobile & web]",
+      "kind": "tokens",
+      "status": "active",
+      "platforms": ["android", "ios", "web"],
+      "deviceClasses": ["phone", "tablet", "web-desktop"],
+      "source": {
+        "fileKey": "vztN8doGwBZOCbpDf2PhKR",
+        "url": "https://www.figma.com/design/vztN8doGwBZOCbpDf2PhKR"
+      },
+      "dependencies": []
+    },
+    {
+      "id": "tokens-tv",
+      "name": "Tokens [tv]",
+      "kind": "tokens",
+      "status": "active",
+      "platforms": ["tv"],
+      "deviceClasses": ["tv"],
+      "source": {
+        "fileKey": "Zn2JrOHhSURjCuUEp6JcI8",
+        "url": "https://www.figma.com/design/Zn2JrOHhSURjCuUEp6JcI8"
+      },
+      "dependencies": []
+    },
+    {
+      "id": "lib-android",
+      "name": "Lib-Android",
+      "kind": "components",
+      "status": "pending-source",
+      "platforms": ["android"],
+      "deviceClasses": ["phone", "tablet"],
+      "source": null,
+      "dependencies": ["okko-head", "tokens-mobile-web"]
+    },
+    {
+      "id": "lib-ios",
+      "name": "Lib-iOS",
+      "kind": "components",
+      "status": "active",
+      "platforms": ["ios"],
+      "deviceClasses": ["phone", "tablet"],
+      "source": {
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS"
+      },
+      "dependencies": ["okko-head", "tokens-mobile-web"]
+    },
+    {
+      "id": "lib-tv",
+      "name": "Lib-TV",
+      "kind": "components",
+      "status": "active",
+      "platforms": ["tv"],
+      "deviceClasses": ["tv"],
+      "source": {
+        "fileKey": "Q3DVcDJnhMCtpdQAUoDPrp",
+        "url": "https://www.figma.com/design/Q3DVcDJnhMCtpdQAUoDPrp/Lib-TV"
+      },
+      "dependencies": ["okko-head", "tokens-tv"]
+    },
+    {
+      "id": "lib-web",
+      "name": "Lib-Web",
+      "kind": "components",
+      "status": "pending-source",
+      "platforms": ["web"],
+      "deviceClasses": ["phone", "tablet", "web-desktop"],
+      "source": null,
+      "dependencies": ["okko-head", "tokens-mobile-web"]
+    }
+  ]
+}

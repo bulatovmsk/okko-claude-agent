@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://okko.design/schemas/platform-mappings.schema.json",
+  "type": "object",
+  "required": ["schemaVersion", "platforms", "deviceClasses", "supportedRoutes", "mappings"],
+  "additionalProperties": false,
+  "$defs": {
+    "platform": {"enum": ["android", "ios", "web"]},
+    "deviceClass": {"enum": ["phone", "tablet"]},
+    "route": {
+      "type": "object",
+      "required": ["sourcePlatform", "targetPlatform", "deviceClasses"],
+      "additionalProperties": false,
+      "properties": {
+        "sourcePlatform": {"$ref": "#/$defs/platform"},
+        "targetPlatform": {"$ref": "#/$defs/platform"},
+        "deviceClasses": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"$ref": "#/$defs/deviceClass"}}
+      }
+    },
+    "mapping": {
+      "type": "object",
+      "required": ["id", "status", "sourceComponent", "targetComponent", "sourcePlatform", "targetPlatform", "deviceClass", "propertyMappings", "variantMappings", "layoutRules", "navigationRules", "evidenceLinks"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+        "status": {"enum": ["candidate", "confirmed"]},
+        "sourceComponent": {"type": "string", "minLength": 1},
+        "targetComponent": {"type": "string", "minLength": 1},
+        "sourcePlatform": {"$ref": "#/$defs/platform"},
+        "targetPlatform": {"$ref": "#/$defs/platform"},
+        "deviceClass": {"$ref": "#/$defs/deviceClass"},
+        "propertyMappings": {"type": "array", "items": {"type": "object"}},
+        "variantMappings": {"type": "array", "items": {"type": "object"}},
+        "layoutRules": {"type": "array", "items": {"type": "string"}},
+        "navigationRules": {"type": "array", "items": {"type": "string"}},
+        "evidenceLinks": {"type": "array", "items": {"type": "string", "format": "uri"}},
+        "confirmedBy": {"type": "string", "minLength": 1}
+      },
+      "allOf": [
+        {
+          "if": {"properties": {"status": {"const": "confirmed"}}},
+          "then": {"required": ["confirmedBy"]}
+        }
+      ]
+    }
+  },
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "platforms": {"type": "array", "uniqueItems": true, "items": {"$ref": "#/$defs/platform"}},
+    "deviceClasses": {"type": "array", "uniqueItems": true, "items": {"$ref": "#/$defs/deviceClass"}},
+    "supportedRoutes": {"type": "array", "items": {"$ref": "#/$defs/route"}},
+    "mappings": {"type": "array", "items": {"$ref": "#/$defs/mapping"}}
+  }
+}

@@ -22,6 +22,7 @@ from urllib.parse import parse_qs, unquote, urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 REGISTRY_PATH = Path("design-system/components/figma-sources.json")
+LIBRARIES_REGISTRY_PATH = Path("design-system/registry/libraries.json")
 LIBRARIES_MAP_PATH = Path(
     ".agents/skills/design-figma-libraries/references/libraries-map.md"
 )
@@ -88,11 +89,13 @@ def status_from_name(name: str) -> str:
     lowered = name.lower()
     if name.startswith("🔴") or "[deprecated]" in lowered:
         return "deprecated"
+    if name.startswith("⚪") or "[planned]" in lowered:
+        return "planned"
     if name.startswith("🟡"):
         return "work-in-progress"
-    if name.startswith("🟢"):
-        return "ready"
-    return "unknown"
+    if name.startswith("🔵") or "[design-only]" in lowered or "[design only]" in lowered:
+        return "design-only"
+    return "ready"
 
 
 def slugify(name: str, node_id: str) -> str:
@@ -619,6 +622,8 @@ def upsert_component(
     snapshot: Dict[str, Any],
     slug: Optional[str] = None,
     name: Optional[str] = None,
+    platform: Optional[str] = None,
+    library_id: Optional[str] = None,
 ) -> Tuple[Dict[str, Any], List[str]]:
     if snapshot["nodeType"] not in ALLOWED_NODE_TYPES:
         raise ComponentError(
@@ -654,7 +659,16 @@ def upsert_component(
 
     changes = snapshot_changes((existing or {}).get("snapshot"), snapshot)
     checked_at = now_iso()
-    record = existing or {"slug": selected_slug, "platform": "iOS", "relatedSources": []}
+    record = existing or {
+        "slug": selected_slug,
+        "platform": platform or "iOS",
+        "libraryId": library_id or "lib-ios",
+        "relatedSources": [],
+    }
+    if platform:
+        record["platform"] = platform
+    if library_id:
+        record["libraryId"] = library_id
     record.update(
         {
             "slug": selected_slug,
@@ -680,6 +694,8 @@ def upsert_collection(
     snapshot: Dict[str, Any],
     slug: Optional[str] = None,
     name: Optional[str] = None,
+    platform: Optional[str] = None,
+    library_id: Optional[str] = None,
 ) -> Tuple[Dict[str, Any], List[str]]:
     identity = source_identity(source)
     existing = next(
@@ -702,9 +718,14 @@ def upsert_collection(
     record = existing or {
         "kind": "collection",
         "slug": selected_slug,
-        "platform": "iOS",
+        "platform": platform or "iOS",
+        "libraryId": library_id or "lib-ios",
         "relatedSources": [],
     }
+    if platform:
+        record["platform"] = platform
+    if library_id:
+        record["libraryId"] = library_id
     record.update(
         {
             "kind": "collection",
@@ -821,8 +842,14 @@ def validate_registry_data(registry: Dict[str, Any], root: Optional[Path] = None
         raise ComponentError("Неподдерживаемая schemaVersion реестра компонентов")
     slugs = set()
     identities = set()
+    libraries: Dict[str, Dict[str, Any]] = {}
+    if root is not None and (root / LIBRARIES_REGISTRY_PATH).exists():
+        library_data = load_json(root / LIBRARIES_REGISTRY_PATH)
+        libraries = {
+            item["id"]: item for item in library_data.get("libraries") or []
+        }
     for record in all_records(registry):
-        required = {"slug", "name", "platform", "card", "source"}
+        required = {"slug", "name", "platform", "libraryId", "card", "source"}
         missing = required - set(record)
         if missing:
             raise ComponentError(f"В записи компонента отсутствуют поля: {sorted(missing)}")
@@ -835,6 +862,33 @@ def validate_registry_data(registry: Dict[str, Any], root: Optional[Path] = None
         identities.add(identity)
         if normalize_node_id(record["source"]["nodeId"]) != record["source"]["nodeId"]:
             raise ComponentError(f"nodeId не нормализован: {record['source']['nodeId']}")
+        status = (record.get("snapshot") or {}).get("status") or status_from_name(record["name"])
+        allowed_statuses = {
+            "planned", "work-in-progress", "design-only", "ready", "deprecated", "collection"
+        }
+        if status not in allowed_statuses:
+            raise ComponentError(f"Неизвестный lifecycle `{status}`: {record['slug']}")
+        if status == "planned":
+            target_quarter = (record.get("lifecycle") or {}).get("targetQuarter")
+            if not isinstance(target_quarter, str) or not re.fullmatch(r"20\d{2}-Q[1-4]", target_quarter):
+                raise ComponentError(
+                    f"planned требует lifecycle.targetQuarter YYYY-QN: {record['slug']}"
+                )
+        if status == "deprecated":
+            lifecycle = record.get("lifecycle") or {}
+            if not lifecycle.get("replacementComponent") and not lifecycle.get("gapId"):
+                raise ComponentError(
+                    f"deprecated требует replacementComponent или gapId: {record['slug']}"
+                )
+        if libraries:
+            library_id = record["libraryId"]
+            if library_id not in libraries:
+                raise ComponentError(f"Неизвестная библиотека `{library_id}`: {record['slug']}")
+            platform = str(record["platform"]).lower()
+            if platform not in libraries[library_id].get("platforms", []):
+                raise ComponentError(
+                    f"Платформа `{platform}` не входит в `{library_id}`: {record['slug']}"
+                )
         if root is not None and not (root / "design-system/components" / record["card"]).exists():
             raise ComponentError(f"Не найдена карточка: {record['card']}")
         for related in record.get("relatedSources") or []:
@@ -912,11 +966,23 @@ def cmd_register(args: argparse.Namespace) -> int:
         )
         if args.kind == "component":
             record, changes = upsert_component(
-                registry, source, snapshot, slug=args.slug, name=args.name
+                registry,
+                source,
+                snapshot,
+                slug=args.slug,
+                name=args.name,
+                platform=args.platform,
+                library_id=args.library_id,
             )
         elif args.kind == "collection":
             record, changes = upsert_collection(
-                registry, source, snapshot, slug=args.slug, name=args.name
+                registry,
+                source,
+                snapshot,
+                slug=args.slug,
+                name=args.name,
+                platform=args.platform,
+                library_id=args.library_id,
             )
         else:
             record = find_component(registry, args.component)
@@ -1017,6 +1083,8 @@ def parser() -> argparse.ArgumentParser:
     register.add_argument("--component", help="Slug основной карточки для связанного источника")
     register.add_argument("--slug")
     register.add_argument("--name")
+    register.add_argument("--platform", choices=["android", "ios", "tv", "web"])
+    register.add_argument("--library-id", help="ID из design-system/registry/libraries.json")
     register.add_argument("--payload", help="Локальный JSON вместо REST-запроса")
     register.add_argument("--dry-run", action="store_true")
     register.add_argument("--no-sync", action="store_true", help="Не пересобирать references и не валидировать skills")

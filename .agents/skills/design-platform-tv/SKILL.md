@@ -10,6 +10,7 @@ description: Даёт платформенные рекомендации для
 ## Источники
 
 - основное руководство: `references/platforms/tv.md`;
+- lifecycle и библиотечная принадлежность: `references/generated/agent-index.json`;
 - карточки компонентов: `references/components/`;
 - доступные токены: `references/tokens/`.
 

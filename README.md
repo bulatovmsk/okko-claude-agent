@@ -18,6 +18,11 @@ Repo-scoped навыки Codex для работы с дизайн-систем�
 │   ├── design-platform-tv/
 │   └── ux-copy/
 ├── design-system/          # source of truth для компонентов и платформенных правил
+│   ├── registry/           # lifecycle и полный реестр Figma-библиотек
+│   ├── mappings/           # подтверждаемые межплатформенные соответствия
+│   ├── knowledge/          # кейсы и gaps
+│   ├── schemas/            # публичные JSON-контракты каркаса
+│   └── generated/          # общий контекст для агентов, не редактировать вручную
 ├── scripts/                # синхронизация, проверка и упаковка
 └── dist/                   # собранные zip-пакеты
 ```
@@ -79,6 +84,18 @@ python3 scripts/token_studio_read.py get 'spacing.400' --set 'WebMobile/Main'
 bash scripts/sync-skill-references.sh
 ```
 
+Проверить машинные реестры и пересобрать общий agent-контекст:
+
+```bash
+python3 scripts/design_system_knowledge.py validate
+python3 scripts/design_system_knowledge.py generate
+python3 scripts/design_system_knowledge.py generate --check
+```
+
+`agent-index.json` и `agent-context.md` включают только подтверждённые mappings
+и кейсы. Кандидаты остаются в исходных реестрах, а открытые gaps всегда
+помечаются как вопросы, а не правила.
+
 Проверить все навыки:
 
 ```bash
@@ -116,6 +133,8 @@ Figma, сохраняет отдельно `fileKey` и `branchKey`, норма�
 ```bash
 python3 scripts/figma_components.py parse '<figma-url>'
 python3 scripts/figma_components.py register '<figma-url>'
+python3 scripts/figma_components.py register '<figma-url>' \
+  --platform android --library-id lib-android
 python3 scripts/figma_components.py refresh chips
 python3 scripts/figma_components.py validate
 ```
@@ -127,6 +146,12 @@ python3 scripts/figma_components.py validate
 
 Страницу с семейством однотипных компонентов можно сохранить одной групповой
 карточкой через `--kind collection`: реестр запомнит nodeId каждого компонента.
+
+Lifecycle читается из имени компонента в Figma: обычное имя или 🟢 — `ready`,
+🔵 — `design-only`, 🟡 — `work-in-progress`, ⚪ — `planned`, 🔴 или
+`[Deprecated]` — `deprecated`. Для `planned` добавь `targetQuarter` в объект
+`lifecycle` записи компонента; для `deprecated` — `replacementComponent` или
+`gapId`.
 
 ## Сборка
 

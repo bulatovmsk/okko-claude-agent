@@ -12,12 +12,14 @@ if [ ! -d "$SKILLS_DIR" ] || [ ! -d "$DS_DIR" ]; then
   exit 1
 fi
 
+python3 "$ROOT/scripts/design_system_knowledge.py" generate
+
 sync_design_system() {
   local skill_name="$1"
   local refs="$SKILLS_DIR/$skill_name/references"
 
   mkdir -p "$refs"
-  for section in components tokens platforms brand; do
+  for section in components tokens platforms brand registry mappings knowledge generated; do
     rm -rf "$refs/$section"
     if [ -d "$DS_DIR/$section" ]; then
       cp -R "$DS_DIR/$section" "$refs/$section"
@@ -36,6 +38,12 @@ for skill_name in \
   design-platform-tv; do
   sync_design_system "$skill_name"
 done
+
+FIGMA_REFS="$SKILLS_DIR/design-figma-libraries/references"
+mkdir -p "$FIGMA_REFS/registry" "$FIGMA_REFS/generated"
+cp "$DS_DIR/registry/libraries.json" "$FIGMA_REFS/registry/libraries.json"
+cp "$DS_DIR/registry/lifecycle.json" "$FIGMA_REFS/registry/lifecycle.json"
+cp "$DS_DIR/generated/agent-index.json" "$FIGMA_REFS/generated/agent-index.json"
 
 DOC_REFS="$SKILLS_DIR/design-doc-writer/references"
 mkdir -p "$DOC_REFS"

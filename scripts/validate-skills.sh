@@ -12,6 +12,9 @@ if [ ! -d "$SKILLS_DIR" ]; then
   exit 1
 fi
 
+python3 "$ROOT/scripts/design_system_knowledge.py" validate
+python3 "$ROOT/scripts/design_system_knowledge.py" generate --check
+
 for skill_dir in "$SKILLS_DIR"/*; do
   [ -d "$skill_dir" ] || continue
 

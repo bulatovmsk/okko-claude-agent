@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://okko.design/schemas/libraries.schema.json",
+  "type": "object",
+  "required": ["schemaVersion", "libraries"],
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "libraries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "kind", "status", "platforms", "deviceClasses", "source", "dependencies"],
+        "additionalProperties": false,
+        "properties": {
+          "id": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+          "name": {"type": "string", "minLength": 1},
+          "kind": {"enum": ["assets", "components", "tokens"]},
+          "status": {"enum": ["active", "pending-source"]},
+          "platforms": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"enum": ["android", "ios", "tv", "web"]}},
+          "deviceClasses": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"enum": ["phone", "tablet", "tv", "web-desktop"]}},
+          "source": {
+            "oneOf": [
+              {"type": "null"},
+              {
+                "type": "object",
+                "required": ["fileKey", "url"],
+                "additionalProperties": false,
+                "properties": {
+                  "fileKey": {"type": "string", "minLength": 1},
+                  "branchKey": {"type": ["string", "null"]},
+                  "url": {"type": "string", "format": "uri"}
+                }
+              }
+            ]
+          },
+          "dependencies": {"type": "array", "uniqueItems": true, "items": {"type": "string"}}
+        }
+      }
+    }
+  }
+}

@@ -12,7 +12,10 @@ description: Отвечает на вопросы о компонентах, а�
 1. Определи, относится вопрос к компоненту, токену или платформенному правилу.
 2. Читай только нужные источники:
    - общий контекст — `references/DESIGN_SYSTEM.md`;
+   - краткий lifecycle, библиотека и Figma-ссылка компонента — `references/generated/agent-index.json`;
    - компоненты — карточки в `references/components/`, а их постоянные Figma IDs и связанные источники — `references/components/figma-sources.json`;
+   - подтверждённые платформенные соответствия — `references/mappings/platform-mappings.json`; записи `candidate` не выдавай за правило;
+   - подтверждённые кейсы и открытые вопросы — `references/knowledge/cases.json` и `references/knowledge/gaps.json`;
    - актуальные токены — read-only репозиторий Tokens Studio через `scripts/token_studio_read.py`;
    - `references/tokens/` — только резервная snapshot-копия, если пользователь явно согласился на неактуальные данные;
    - Web, iOS, Android и TV — `references/platforms/`.
@@ -41,6 +44,7 @@ python3 .agents/skills/design-ds-librarian/scripts/token_studio_read.py get '<т
 - Кратко объясни выбор и укажи относительный путь к подтверждающему файлу.
 - Платформенную оговорку добавляй только когда она влияет на решение.
 - Если есть несколько допустимых вариантов, сравни условия их применения.
+- Автоматически рекомендуй только lifecycle `ready`. Для `design-only` обязательно сообщи, что реализации в продукте нет; `planned`, `work-in-progress` и `deprecated` не предлагай для текущего production-макета.
 
 ## Границы достоверности
 

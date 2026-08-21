@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "defaultStatus": "ready",
+  "statuses": [
+    {
+      "id": "planned",
+      "marker": "⚪",
+      "requires": ["targetQuarter"],
+      "automaticUse": false,
+      "description": "Запланирован на ближайшие кварталы, но ещё не находится в работе."
+    },
+    {
+      "id": "work-in-progress",
+      "marker": "🟡",
+      "requires": [],
+      "automaticUse": false,
+      "description": "Находится в активной работе и доступен только для явно запрошенных тестов."
+    },
+    {
+      "id": "design-only",
+      "marker": "🔵",
+      "requires": [],
+      "automaticUse": false,
+      "description": "Готов для макетов в Figma, но ещё не реализован в продукте."
+    },
+    {
+      "id": "ready",
+      "marker": "🟢",
+      "requires": [],
+      "automaticUse": true,
+      "description": "Готов в дизайне и доступен в продуктовой реализации."
+    },
+    {
+      "id": "deprecated",
+      "marker": "🔴",
+      "requiresAny": ["replacementComponent", "gapId"],
+      "automaticUse": false,
+      "description": "Выведен из использования; нужна замена или зафиксированный gap."
+    }
+  ]
+}

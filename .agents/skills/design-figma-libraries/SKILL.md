@@ -9,7 +9,7 @@ description: Навигирует по Figma-библиотекам дизайн
 
 ## Навигация
 
-Для вопросов о библиотеках, ключах, нодах и зависимостях прочитай [libraries-map.md](references/libraries-map.md). Отвечай конкретным fileKey/nodeId и назначением источника.
+Для состава библиотек, их статуса и графа зависимостей сначала прочитай машинный реестр [`libraries.json`](references/registry/libraries.json). Для ключевых нод и подробной навигации затем используй [libraries-map.md](references/libraries-map.md). `pending-source` означает, что fileKey ещё не подтверждён: не пытайся угадать его. Отвечай конкретным fileKey/nodeId и назначением источника.
 
 Приоритет источников для Figma-структуры, fileKey, nodeId и библиотечных зависимостей:
 
@@ -34,6 +34,8 @@ description: Навигирует по Figma-библиотекам дизайн
 [`component-workflow.md`](references/component-workflow.md) и используй
 `scripts/figma_components.py`. Постоянные идентификаторы хранятся в
 `design-system/components/figma-sources.json`, а не только в контексте диалога.
+При регистрации основной ноды указывай `--platform` и `--library-id`, если это
+не iOS/`lib-ios`. Допустимые library ID бери только из машинного реестра.
 
 Основную карточку связывай с `COMPONENT` или `COMPONENT_SET`. Если ссылка ведёт
 на страницу или секцию с семейством однотипных компонентов, регистрируй её как

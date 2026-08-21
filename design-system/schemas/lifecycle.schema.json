@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://okko.design/schemas/lifecycle.schema.json",
+  "type": "object",
+  "required": ["schemaVersion", "defaultStatus", "statuses"],
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "defaultStatus": {"const": "ready"},
+    "statuses": {
+      "type": "array",
+      "minItems": 5,
+      "items": {
+        "type": "object",
+        "required": ["id", "marker", "automaticUse", "description"],
+        "additionalProperties": false,
+        "properties": {
+          "id": {"enum": ["planned", "work-in-progress", "design-only", "ready", "deprecated"]},
+          "marker": {"type": "string", "minLength": 1},
+          "requires": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+          "requiresAny": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+          "automaticUse": {"type": "boolean"},
+          "description": {"type": "string", "minLength": 1}
+        }
+      }
+    }
+  }
+}
