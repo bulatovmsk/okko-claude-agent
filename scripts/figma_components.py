@@ -37,6 +37,12 @@ class ComponentError(RuntimeError):
     """A user-facing component workflow error."""
 
 
+def is_internal_component(name: str) -> bool:
+    """Return whether a component is an unpublished internal building block."""
+
+    return name.lstrip().startswith("_")
+
+
 def normalize_node_id(value: str) -> str:
     decoded = unquote(value).strip()
     match = re.fullmatch(r"(\d+)(?:-|:)(\d+)", decoded)
@@ -91,7 +97,7 @@ def status_from_name(name: str) -> str:
         return "deprecated"
     if name.startswith("⚪") or "[planned]" in lowered:
         return "planned"
-    if name.startswith("🟡"):
+    if "🟡" in name or "[нет в проде]" in lowered:
         return "work-in-progress"
     if name.startswith("🔵") or "[design-only]" in lowered or "[design only]" in lowered:
         return "design-only"
@@ -206,7 +212,7 @@ def snapshot_from_payload(payload: Dict[str, Any], node_id: str) -> Dict[str, An
     bundle = extract_bundle(payload, node_id)
     document = bundle.get("document") or {}
     variants = variant_values(document)
-    return {
+    snapshot = {
         "name": str(document.get("name") or ""),
         "nodeType": str(document.get("type") or ""),
         "description": str(document.get("description") or ""),
@@ -219,6 +225,9 @@ def snapshot_from_payload(payload: Dict[str, Any], node_id: str) -> Dict[str, An
         "dimensions": dimension_records(document),
         "dependencies": dependency_records(bundle, document),
     }
+    if document.get("publishStatus"):
+        snapshot["publishStatus"] = str(document["publishStatus"])
+    return snapshot
 
 
 def collection_snapshot_from_payload(payload: Dict[str, Any], node_id: str) -> Dict[str, Any]:
@@ -227,6 +236,8 @@ def collection_snapshot_from_payload(payload: Dict[str, Any], node_id: str) -> D
     members = []
     for node in walk_nodes(document):
         if node.get("type") not in ALLOWED_NODE_TYPES:
+            continue
+        if is_internal_component(str(node.get("name") or "")):
             continue
         variants = variant_values(node)
         bounds = node.get("absoluteBoundingBox") or {}
@@ -338,7 +349,13 @@ def format_managed_block(record: Dict[str, Any]) -> str:
     lines = [MANAGED_START, "## Актуальные данные Figma", ""]
     lines.append(
         f"> Последняя проверка: `{record['lastCheckedAt']}` · "
-        f"структура `{record['snapshotHash'][:12]}` · статус `{snapshot['status']}`."
+        f"структура `{record['snapshotHash'][:12]}` · статус `{snapshot['status']}`"
+        + (
+            f" · публикация Figma `{snapshot['publishStatus']}`"
+            if snapshot.get("publishStatus")
+            else ""
+        )
+        + "."
     )
     lines.extend(["", "### Свойства из компонента", ""])
     properties = snapshot.get("properties") or []
@@ -630,6 +647,11 @@ def upsert_component(
             f"Нода `{snapshot['name']}` имеет type `{snapshot['nodeType']}`. "
             "Для основной карточки нужна COMPONENT или COMPONENT_SET; "
             "гайд/продуктовый пример регистрируй как связанный источник."
+        )
+    if is_internal_component(str(snapshot.get("name") or "")):
+        raise ComponentError(
+            "Компоненты с именем, начинающимся на '_', считаются внутренними "
+            "запчастями и не регистрируются как самостоятельные карточки."
         )
     identity = source_identity(source)
     existing = next(

@@ -20,11 +20,17 @@ SPEC.loader.exec_module(MODULE)
 
 
 class DesignSystemKnowledgeTests(unittest.TestCase):
+    def test_wip_marker_is_detected_inside_component_name(self):
+        self.assertEqual(
+            MODULE.component_status({"name": "Rail - 🟡Catalog [Нет в проде]"}),
+            "work-in-progress",
+        )
+
     def test_current_knowledge_tree_is_valid(self):
         validated = MODULE.validate_all(ROOT)
 
         self.assertEqual(len(validated["libraries"]), 7)
-        self.assertEqual(len(validated["components"]), 27)
+        self.assertEqual(len(validated["components"]), 61)
         self.assertEqual(len(validated["data"]["mappings"]["supportedRoutes"]), 6)
 
     def test_generated_outputs_are_current(self):

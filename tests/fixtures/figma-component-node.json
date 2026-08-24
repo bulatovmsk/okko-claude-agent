@@ -6,6 +6,7 @@
         "name": "🟢 Test Control",
         "type": "COMPONENT_SET",
         "description": "Контрол для проверки workflow.",
+        "publishStatus": "CHANGED",
         "componentPropertyDefinitions": {
           "Device": {
             "type": "VARIANT",

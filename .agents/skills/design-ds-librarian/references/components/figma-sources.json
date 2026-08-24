@@ -1896,6 +1896,1355 @@
       }
     },
     {
+      "slug": "featured-main",
+      "platform": "iOS",
+      "libraryId": "lib-ios",
+      "relatedSources": [],
+      "name": "Featured - Main",
+      "card": "featured-main.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=13093-106907&t=6NQra4uE9oLKkthr-4",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "13093:106907"
+      },
+      "lastCheckedAt": "2026-08-24T08:32:29Z",
+      "snapshotHash": "d44b32664bef13b6a69f57b7276e47cd33724b5112a97857a42935a185929461",
+      "snapshot": {
+        "name": "Featured - Main",
+        "nodeType": "COMPONENT_SET",
+        "description": "",
+        "status": "ready",
+        "properties": [
+          {
+            "name": "device",
+            "type": "variant",
+            "defaultValue": "iPad Pro 13",
+            "options": [
+              "iPad 10",
+              "iPad Mini 6",
+              "iPad Pro 13",
+              "iPhone 15",
+              "iPhone 17 Pro Max"
+            ]
+          },
+          {
+            "name": "Разделы",
+            "type": "variant",
+            "defaultValue": "Кино",
+            "options": [
+              "Дети",
+              "Кино",
+              "Спорт"
+            ]
+          }
+        ],
+        "variants": {
+          "device": [
+            "iPad 10",
+            "iPad Mini 6",
+            "iPad Pro 13",
+            "iPhone 15",
+            "iPhone 17 Pro Max"
+          ],
+          "Разделы": [
+            "Дети",
+            "Кино",
+            "Спорт"
+          ]
+        },
+        "variantCount": 15,
+        "dimensions": [
+          {
+            "width": 345.0,
+            "height": 302.0,
+            "count": 3,
+            "examples": [
+              "device=iPhone 15, Разделы=Кино",
+              "device=iPhone 15, Разделы=Дети",
+              "device=iPhone 15, Разделы=Спорт"
+            ]
+          },
+          {
+            "width": 398.0,
+            "height": 346.0,
+            "count": 3,
+            "examples": [
+              "device=iPhone 17 Pro Max, Разделы=Кино",
+              "device=iPhone 17 Pro Max, Разделы=Дети",
+              "device=iPhone 17 Pro Max, Разделы=Спорт"
+            ]
+          },
+          {
+            "width": 714.0,
+            "height": 281.0,
+            "count": 3,
+            "examples": [
+              "device=iPad Mini 6, Разделы=Кино",
+              "device=iPad Mini 6, Разделы=Дети",
+              "device=iPad Mini 6, Разделы=Спорт"
+            ]
+          },
+          {
+            "width": 738.0,
+            "height": 291.0,
+            "count": 3,
+            "examples": [
+              "device=iPad 10, Разделы=Кино",
+              "device=iPad 10, Разделы=Дети",
+              "device=iPad 10, Разделы=Спорт"
+            ]
+          },
+          {
+            "width": 994.0,
+            "height": 384.0,
+            "count": 3,
+            "examples": [
+              "device=iPad Pro 13, Разделы=Кино",
+              "device=iPad Pro 13, Разделы=Дети",
+              "device=iPad Pro 13, Разделы=Спорт"
+            ]
+          }
+        ],
+        "dependencies": [
+          {
+            "nodeId": "29595:53875",
+            "name": "Rail - Base"
+          }
+        ],
+        "publishStatus": "CURRENT"
+      }
+    },
+    {
+      "slug": "featured-meta",
+      "platform": "iOS",
+      "libraryId": "lib-ios",
+      "relatedSources": [],
+      "name": "Featured - Meta",
+      "card": "featured-meta.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=40306-47681&t=6NQra4uE9oLKkthr-4",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "40306:47681"
+      },
+      "lastCheckedAt": "2026-08-24T08:27:22Z",
+      "snapshotHash": "3b22c42553215e5ce2d97c129c86aab40f901a378e2a20ed2efbabbbdd9b2a6c",
+      "snapshot": {
+        "name": "Featured - Meta",
+        "nodeType": "COMPONENT_SET",
+        "description": "",
+        "status": "ready",
+        "properties": [
+          {
+            "name": "Content",
+            "type": "variant",
+            "defaultValue": "Movie",
+            "options": [
+              "Event",
+              "Media",
+              "Movie",
+              "Music",
+              "Sport Program",
+              "Sport Teams"
+            ]
+          },
+          {
+            "name": "Device",
+            "type": "variant",
+            "defaultValue": "iPhone",
+            "options": [
+              "iPad Landscape",
+              "iPad Portrait",
+              "iPhone"
+            ]
+          },
+          {
+            "name": "Offer Button",
+            "type": "boolean",
+            "key": "Offer Button#42559:0",
+            "defaultValue": false
+          },
+          {
+            "name": "Trailer",
+            "type": "variant",
+            "defaultValue": "True",
+            "options": [
+              "False",
+              "True"
+            ]
+          }
+        ],
+        "variants": {
+          "Content": [
+            "Event",
+            "Media",
+            "Movie",
+            "Music",
+            "Sport Program",
+            "Sport Teams"
+          ],
+          "Device": [
+            "iPad Landscape",
+            "iPad Portrait",
+            "iPhone"
+          ],
+          "Trailer": [
+            "False",
+            "True"
+          ]
+        },
+        "variantCount": 27,
+        "dimensions": [
+          {
+            "width": 440.0,
+            "height": 478.0,
+            "count": 9,
+            "examples": [
+              "Device=iPhone, Content=Movie, Trailer=True",
+              "Device=iPhone, Content=Movie, Trailer=False",
+              "Device=iPhone, Content=Media, Trailer=False"
+            ]
+          },
+          {
+            "width": 1031.0,
+            "height": 585.0,
+            "count": 9,
+            "examples": [
+              "Device=iPad Portrait, Content=Movie, Trailer=True",
+              "Device=iPad Portrait, Content=Movie, Trailer=False",
+              "Device=iPad Portrait, Content=Media, Trailer=False"
+            ]
+          },
+          {
+            "width": 1130.0,
+            "height": 400.0,
+            "count": 9,
+            "examples": [
+              "Device=iPad Landscape, Content=Movie, Trailer=True",
+              "Device=iPad Landscape, Content=Movie, Trailer=False",
+              "Device=iPad Landscape, Content=Media, Trailer=False"
+            ]
+          }
+        ],
+        "dependencies": [
+          {
+            "nodeId": "40337:52769",
+            "name": "_Fade"
+          },
+          {
+            "nodeId": "30525:4",
+            "name": "_PageIndicator Item"
+          },
+          {
+            "nodeId": "31182:4417",
+            "name": "Button"
+          },
+          {
+            "nodeId": "12185:97166",
+            "name": "Label : Large"
+          },
+          {
+            "nodeId": "19510:17417",
+            "name": "Label Rich"
+          },
+          {
+            "nodeId": "39522:39358",
+            "name": "Labels / Broadcast_Bold"
+          },
+          {
+            "nodeId": "40306:75165",
+            "name": "Meta"
+          },
+          {
+            "nodeId": "30525:8",
+            "name": "PageIndicator"
+          },
+          {
+            "nodeId": "39215:62603",
+            "name": "Sound off"
+          },
+          {
+            "nodeId": "39215:69835",
+            "name": "Spasibo Badge"
+          }
+        ],
+        "publishStatus": "CURRENT"
+      }
+    },
+    {
+      "slug": "grid-circle-zvuk",
+      "platform": "ios",
+      "libraryId": "lib-ios",
+      "relatedSources": [],
+      "name": "Grid / Circle Zvuk",
+      "card": "grid-circle-zvuk.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=38370-38407",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "38370:38407"
+      },
+      "lastCheckedAt": "2026-08-24T14:23:13Z",
+      "snapshotHash": "cb5d311bd268d57b5644b875980db048cd8be32edc045b44b37ca4f8fb5699d0",
+      "snapshot": {
+        "name": "Grid / Circle Zvuk",
+        "nodeType": "COMPONENT_SET",
+        "description": "",
+        "status": "ready",
+        "properties": [
+          {
+            "name": "Device",
+            "type": "variant",
+            "defaultValue": "iPhone",
+            "options": [
+              "iPad  6/10",
+              "iPad Pro 13",
+              "iPhone"
+            ]
+          },
+          {
+            "name": "Heading",
+            "type": "boolean",
+            "key": "Heading#38769:0",
+            "defaultValue": true
+          },
+          {
+            "name": "Landscape",
+            "type": "variant",
+            "defaultValue": "False",
+            "options": [
+              "False",
+              "True"
+            ]
+          },
+          {
+            "name": "↳ Heading",
+            "type": "text",
+            "key": "↳ Heading#38859:25",
+            "defaultValue": "Заголовок"
+          }
+        ],
+        "variants": {
+          "Device": [
+            "iPad  6/10",
+            "iPad Pro 13",
+            "iPhone"
+          ],
+          "Landscape": [
+            "False",
+            "True"
+          ]
+        },
+        "variantCount": 5,
+        "dimensions": [
+          {
+            "width": 363.0,
+            "height": 730.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone, Landscape=False"
+            ]
+          },
+          {
+            "width": 750.0,
+            "height": 929.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad  6/10, Landscape=False"
+            ]
+          },
+          {
+            "width": 962.0,
+            "height": 988.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad Pro 13, Landscape=False"
+            ]
+          },
+          {
+            "width": 1110.0,
+            "height": 877.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad  6/10, Landscape=True"
+            ]
+          },
+          {
+            "width": 1306.0,
+            "height": 1115.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad Pro 13, Landscape=True"
+            ]
+          }
+        ],
+        "dependencies": [
+          {
+            "nodeId": "38370:38122",
+            "name": "_Circle Grid Item"
+          },
+          {
+            "nodeId": "38370:38129",
+            "name": "_Cover"
+          },
+          {
+            "nodeId": "1305:27",
+            "name": "Навигационные / Переход в коллекцию"
+          }
+        ],
+        "publishStatus": "CHANGED"
+      }
+    },
+    {
+      "slug": "grid-content",
+      "platform": "ios",
+      "libraryId": "lib-ios",
+      "relatedSources": [],
+      "name": "Grid / Content",
+      "card": "grid-content.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=38566-83080",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "38566:83080"
+      },
+      "lastCheckedAt": "2026-08-24T14:23:14Z",
+      "snapshotHash": "2e8c3f2773b5fe02709cbb04a690cbac465702effe026ecb909c1331af0008a6",
+      "snapshot": {
+        "name": "Grid / Content",
+        "nodeType": "COMPONENT_SET",
+        "description": "",
+        "status": "ready",
+        "properties": [
+          {
+            "name": "Device",
+            "type": "variant",
+            "defaultValue": "iPhone",
+            "options": [
+              "iPad  6/10",
+              "iPad Pro 13",
+              "iPhone"
+            ]
+          },
+          {
+            "name": "Heading",
+            "type": "boolean",
+            "key": "Heading#38764:12",
+            "defaultValue": true
+          },
+          {
+            "name": "Landscape",
+            "type": "variant",
+            "defaultValue": "False",
+            "options": [
+              "False",
+              "True"
+            ]
+          },
+          {
+            "name": "↳ Heading",
+            "type": "text",
+            "key": "↳ Heading#38859:0",
+            "defaultValue": "Заголовок"
+          }
+        ],
+        "variants": {
+          "Device": [
+            "iPad  6/10",
+            "iPad Pro 13",
+            "iPhone"
+          ],
+          "Landscape": [
+            "False",
+            "True"
+          ]
+        },
+        "variantCount": 5,
+        "dimensions": [
+          {
+            "width": 363.0,
+            "height": 708.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone, Landscape=False"
+            ]
+          },
+          {
+            "width": 750.0,
+            "height": 768.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad  6/10, Landscape=False"
+            ]
+          },
+          {
+            "width": 962.0,
+            "height": 756.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad Pro 13, Landscape=False"
+            ]
+          },
+          {
+            "width": 1110.0,
+            "height": 756.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad  6/10, Landscape=True"
+            ]
+          },
+          {
+            "width": 1306.0,
+            "height": 786.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad Pro 13, Landscape=True"
+            ]
+          }
+        ],
+        "dependencies": [
+          {
+            "nodeId": "38566:83016",
+            "name": "_Grid Main / Card"
+          },
+          {
+            "nodeId": "25931:69628",
+            "name": "_itemContent / Title box"
+          },
+          {
+            "nodeId": "38566:83063",
+            "name": "_Watch Progress"
+          },
+          {
+            "nodeId": "39522:41583",
+            "name": "Arrows / Arrow_Down_Tail_Bold"
+          },
+          {
+            "nodeId": "12185:97090",
+            "name": "Label : Small"
+          },
+          {
+            "nodeId": "1305:27",
+            "name": "Навигационные / Переход в коллекцию"
+          },
+          {
+            "nodeId": "37497:16040",
+            "name": "🟡Button - Download 3.0"
+          }
+        ],
+        "publishStatus": "CHANGED"
+      }
+    },
+    {
+      "slug": "grid-large",
+      "platform": "ios",
+      "libraryId": "lib-ios",
+      "relatedSources": [],
+      "name": "Grid / Large",
+      "card": "grid-large.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=38573-88598",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "38573:88598"
+      },
+      "lastCheckedAt": "2026-08-24T14:23:14Z",
+      "snapshotHash": "799be68939bb5dc8399405f7fc2561241c315726eff6e404283bcc93eb7a9ab9",
+      "snapshot": {
+        "name": "Grid / Large",
+        "nodeType": "COMPONENT_SET",
+        "description": "",
+        "status": "ready",
+        "properties": [
+          {
+            "name": "Device",
+            "type": "variant",
+            "defaultValue": "iPhone",
+            "options": [
+              "iPad  6/10",
+              "iPad Pro 13",
+              "iPhone"
+            ]
+          },
+          {
+            "name": "Heading",
+            "type": "boolean",
+            "key": "Heading#34162:3",
+            "defaultValue": true
+          },
+          {
+            "name": "Landscape",
+            "type": "variant",
+            "defaultValue": "False",
+            "options": [
+              "False",
+              "True"
+            ]
+          },
+          {
+            "name": "↳ Heading",
+            "type": "text",
+            "key": "↳ Heading#38859:6",
+            "defaultValue": "Заголовок"
+          }
+        ],
+        "variants": {
+          "Device": [
+            "iPad  6/10",
+            "iPad Pro 13",
+            "iPhone"
+          ],
+          "Landscape": [
+            "False",
+            "True"
+          ]
+        },
+        "variantCount": 5,
+        "dimensions": [
+          {
+            "width": 363.0,
+            "height": 865.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone, Landscape=False"
+            ]
+          },
+          {
+            "width": 750.0,
+            "height": 1148.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad  6/10, Landscape=False"
+            ]
+          },
+          {
+            "width": 962.0,
+            "height": 1265.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad Pro 13, Landscape=False"
+            ]
+          },
+          {
+            "width": 1110.0,
+            "height": 1265.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad  6/10, Landscape=True"
+            ]
+          },
+          {
+            "width": 1306.0,
+            "height": 1199.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad Pro 13, Landscape=True"
+            ]
+          }
+        ],
+        "dependencies": [
+          {
+            "nodeId": "38573:88707",
+            "name": "_Large Grid Item"
+          },
+          {
+            "nodeId": "1305:27",
+            "name": "Навигационные / Переход в коллекцию"
+          }
+        ],
+        "publishStatus": "CHANGED"
+      }
+    },
+    {
+      "slug": "grid-main",
+      "platform": "ios",
+      "libraryId": "lib-ios",
+      "relatedSources": [],
+      "name": "Grid / Main",
+      "card": "grid-main.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=38564-73131",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "38564:73131"
+      },
+      "lastCheckedAt": "2026-08-24T14:23:13Z",
+      "snapshotHash": "524afcd04e1db8481ab7f2fe0c24a8ff7f786e8750eb753bc1db87a078b2bbbc",
+      "snapshot": {
+        "name": "Grid / Main",
+        "nodeType": "COMPONENT_SET",
+        "description": "",
+        "status": "ready",
+        "properties": [
+          {
+            "name": "Device",
+            "type": "variant",
+            "defaultValue": "iPhone",
+            "options": [
+              "iPad 6/10",
+              "iPad Pro 13",
+              "iPhone"
+            ]
+          },
+          {
+            "name": "Heading",
+            "type": "boolean",
+            "key": "Heading#34162:3",
+            "defaultValue": true
+          },
+          {
+            "name": "Landscape",
+            "type": "variant",
+            "defaultValue": "False",
+            "options": [
+              "False",
+              "True"
+            ]
+          },
+          {
+            "name": "↳ Heading",
+            "type": "text",
+            "key": "↳ Heading#38728:0",
+            "defaultValue": "Заголовок"
+          }
+        ],
+        "variants": {
+          "Device": [
+            "iPad 6/10",
+            "iPad Pro 13",
+            "iPhone"
+          ],
+          "Landscape": [
+            "False",
+            "True"
+          ]
+        },
+        "variantCount": 5,
+        "dimensions": [
+          {
+            "width": 363.0,
+            "height": 750.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone, Landscape=False"
+            ]
+          },
+          {
+            "width": 750.0,
+            "height": 768.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad 6/10, Landscape=False"
+            ]
+          },
+          {
+            "width": 962.0,
+            "height": 756.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad Pro 13, Landscape=False"
+            ]
+          },
+          {
+            "width": 1110.0,
+            "height": 756.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad 6/10, Landscape=True"
+            ]
+          },
+          {
+            "width": 1306.0,
+            "height": 786.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad Pro 13, Landscape=True"
+            ]
+          }
+        ],
+        "dependencies": [
+          {
+            "nodeId": "38564:73075",
+            "name": "_Grid Main / Card"
+          },
+          {
+            "nodeId": "38564:73094",
+            "name": "_Grid Main / Cover"
+          },
+          {
+            "nodeId": "1305:27",
+            "name": "Навигационные / Переход в коллекцию"
+          }
+        ],
+        "publishStatus": "CHANGED"
+      }
+    },
+    {
+      "slug": "grid-person",
+      "platform": "ios",
+      "libraryId": "lib-ios",
+      "relatedSources": [],
+      "name": "Grid / Person",
+      "card": "grid-person.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=23272-59082",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "23272:59082"
+      },
+      "lastCheckedAt": "2026-08-24T14:23:13Z",
+      "snapshotHash": "cff16c27a0bf2c950c4db0e2da06dd0a6a53cfa8ccf6b8a500190cf4d213698d",
+      "snapshot": {
+        "name": "Grid / Person",
+        "nodeType": "COMPONENT_SET",
+        "description": "",
+        "status": "ready",
+        "properties": [
+          {
+            "name": "Breakpoint",
+            "type": "variant",
+            "defaultValue": "iPad Pro",
+            "options": [
+              "iPad",
+              "iPad Pro",
+              "iPhone",
+              "iPhone SE"
+            ]
+          },
+          {
+            "name": "Heading",
+            "type": "boolean",
+            "key": "Heading#23272:0",
+            "defaultValue": true
+          },
+          {
+            "name": "Theme",
+            "type": "variant",
+            "defaultValue": "Dark",
+            "options": [
+              "Dark"
+            ]
+          }
+        ],
+        "variants": {
+          "Breakpoint": [
+            "iPad",
+            "iPad Pro",
+            "iPhone",
+            "iPhone SE"
+          ],
+          "Theme": [
+            "Dark"
+          ]
+        },
+        "variantCount": 4,
+        "dimensions": [
+          {
+            "width": 288.0,
+            "height": 622.0,
+            "count": 1,
+            "examples": [
+              "Breakpoint=iPhone SE, Theme=Dark"
+            ]
+          },
+          {
+            "width": 358.0,
+            "height": 702.0,
+            "count": 1,
+            "examples": [
+              "Breakpoint=iPhone, Theme=Dark"
+            ]
+          },
+          {
+            "width": 704.0,
+            "height": 336.0,
+            "count": 1,
+            "examples": [
+              "Breakpoint=iPad, Theme=Dark"
+            ]
+          },
+          {
+            "width": 960.0,
+            "height": 400.0,
+            "count": 1,
+            "examples": [
+              "Breakpoint=iPad Pro, Theme=Dark"
+            ]
+          }
+        ],
+        "dependencies": [
+          {
+            "nodeId": "23197:42868",
+            "name": "_Person / Card"
+          },
+          {
+            "nodeId": "23197:55666",
+            "name": "_Person / Card/iPhone SE"
+          },
+          {
+            "nodeId": "23197:42858",
+            "name": "_Person / Cover"
+          },
+          {
+            "nodeId": "23197:55662",
+            "name": "_Person / Cover/iPhone 320"
+          },
+          {
+            "nodeId": "32890:399177",
+            "name": "Europe / Russia"
+          },
+          {
+            "nodeId": "1305:27",
+            "name": "Навигационные / Переход в коллекцию"
+          }
+        ],
+        "publishStatus": "CHANGED"
+      }
+    },
+    {
+      "slug": "grid-square",
+      "platform": "ios",
+      "libraryId": "lib-ios",
+      "relatedSources": [],
+      "name": "Grid / Square",
+      "card": "grid-square.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=21878-59446",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "21878:59446"
+      },
+      "lastCheckedAt": "2026-08-24T14:23:14Z",
+      "snapshotHash": "dcfce4e4d50f6afb8ba6ceab17cd43194892981fe6150819094b347e90827184",
+      "snapshot": {
+        "name": "Grid / Square",
+        "nodeType": "COMPONENT_SET",
+        "description": "",
+        "status": "ready",
+        "properties": [
+          {
+            "name": "Device",
+            "type": "variant",
+            "defaultValue": "iPhone",
+            "options": [
+              "iPad  6/10",
+              "iPad Pro 13",
+              "iPhone"
+            ]
+          },
+          {
+            "name": "Expanded",
+            "type": "variant",
+            "defaultValue": "False",
+            "options": [
+              "False",
+              "True"
+            ]
+          },
+          {
+            "name": "Heading",
+            "type": "boolean",
+            "key": "Heading#38764:17",
+            "defaultValue": true
+          },
+          {
+            "name": "Landscape",
+            "type": "variant",
+            "defaultValue": "False",
+            "options": [
+              "False",
+              "True"
+            ]
+          },
+          {
+            "name": "↳ Heading",
+            "type": "text",
+            "key": "↳ Heading#38859:11",
+            "defaultValue": "Заголовок"
+          }
+        ],
+        "variants": {
+          "Device": [
+            "iPad  6/10",
+            "iPad Pro 13",
+            "iPhone"
+          ],
+          "Expanded": [
+            "False",
+            "True"
+          ],
+          "Landscape": [
+            "False",
+            "True"
+          ]
+        },
+        "variantCount": 10,
+        "dimensions": [
+          {
+            "width": 363.0,
+            "height": 459.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone, Landscape=False, Expanded=False"
+            ]
+          },
+          {
+            "width": 363.0,
+            "height": 768.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone, Landscape=False, Expanded=True"
+            ]
+          },
+          {
+            "width": 750.0,
+            "height": 598.67,
+            "count": 1,
+            "examples": [
+              "Device=iPad  6/10, Landscape=False, Expanded=False"
+            ]
+          },
+          {
+            "width": 750.0,
+            "height": 1041.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad  6/10, Landscape=False, Expanded=True"
+            ]
+          },
+          {
+            "width": 962.0,
+            "height": 578.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad Pro 13, Landscape=False, Expanded=False"
+            ]
+          },
+          {
+            "width": 962.0,
+            "height": 1000.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad Pro 13, Landscape=False, Expanded=True"
+            ]
+          },
+          {
+            "width": 1110.0,
+            "height": 652.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad  6/10, Landscape=True, Expanded=False"
+            ]
+          },
+          {
+            "width": 1110.0,
+            "height": 1038.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad  6/10, Landscape=True, Expanded=True"
+            ]
+          },
+          {
+            "width": 1306.0,
+            "height": 618.4,
+            "count": 1,
+            "examples": [
+              "Device=iPad Pro 13, Landscape=True, Expanded=False"
+            ]
+          },
+          {
+            "width": 1306.0,
+            "height": 1081.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad Pro 13, Landscape=True, Expanded=True"
+            ]
+          }
+        ],
+        "dependencies": [
+          {
+            "nodeId": "38317:16351",
+            "name": "_Square Grid Item"
+          },
+          {
+            "nodeId": "40158:69092",
+            "name": "Button"
+          },
+          {
+            "nodeId": "1305:27",
+            "name": "Навигационные / Переход в коллекцию"
+          }
+        ],
+        "publishStatus": "CHANGED"
+      }
+    },
+    {
+      "slug": "grid-ticket",
+      "platform": "ios",
+      "libraryId": "lib-ios",
+      "relatedSources": [],
+      "name": "Grid / Ticket",
+      "card": "grid-ticket.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=28139-209869",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "28139:209869"
+      },
+      "lastCheckedAt": "2026-08-24T14:23:13Z",
+      "snapshotHash": "2588c568839969f10007ebc9a80e5ae59e9004bb991488320d199440ee78dcce",
+      "snapshot": {
+        "name": "Grid / Ticket",
+        "nodeType": "COMPONENT_SET",
+        "description": "",
+        "status": "ready",
+        "properties": [
+          {
+            "name": "device",
+            "type": "variant",
+            "defaultValue": "iPhone SE",
+            "options": [
+              "iPad 1024",
+              "iPad 768",
+              "iPad Pro",
+              "iPhone 390",
+              "iPhone 8",
+              "iPhone SE"
+            ]
+          },
+          {
+            "name": "Heading",
+            "type": "boolean",
+            "key": "Heading#38764:0",
+            "defaultValue": true
+          }
+        ],
+        "variants": {
+          "device": [
+            "iPad 1024",
+            "iPad 768",
+            "iPad Pro",
+            "iPhone 390",
+            "iPhone 8",
+            "iPhone SE"
+          ]
+        },
+        "variantCount": 6,
+        "dimensions": [
+          {
+            "width": 320.0,
+            "height": 489.0,
+            "count": 1,
+            "examples": [
+              "device=iPhone SE"
+            ]
+          },
+          {
+            "width": 375.0,
+            "height": 566.0,
+            "count": 1,
+            "examples": [
+              "device=iPhone 8"
+            ]
+          },
+          {
+            "width": 390.0,
+            "height": 566.0,
+            "count": 1,
+            "examples": [
+              "device=iPhone 390"
+            ]
+          },
+          {
+            "width": 768.0,
+            "height": 740.0,
+            "count": 1,
+            "examples": [
+              "device=iPad 768"
+            ]
+          },
+          {
+            "width": 1024.0,
+            "height": 594.0,
+            "count": 1,
+            "examples": [
+              "device=iPad 1024"
+            ]
+          },
+          {
+            "width": 1366.0,
+            "height": 672.0,
+            "count": 1,
+            "examples": [
+              "device=iPad Pro"
+            ]
+          }
+        ],
+        "dependencies": [
+          {
+            "nodeId": "28139:129968",
+            "name": "_Cover"
+          },
+          {
+            "nodeId": "28139:130030",
+            "name": "_itemGrid"
+          },
+          {
+            "nodeId": "40158:70627",
+            "name": "Label - Small"
+          },
+          {
+            "nodeId": "39522:39676",
+            "name": "Logotypes / Live"
+          },
+          {
+            "nodeId": "1305:27",
+            "name": "Навигационные / Переход в коллекцию"
+          }
+        ],
+        "publishStatus": "CHANGED"
+      }
+    },
+    {
+      "slug": "grid-vertical",
+      "platform": "ios",
+      "libraryId": "lib-ios",
+      "relatedSources": [],
+      "name": "Grid / Vertical",
+      "card": "grid-vertical.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=38575-90604",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "38575:90604"
+      },
+      "lastCheckedAt": "2026-08-24T14:23:13Z",
+      "snapshotHash": "32cba264d1b1acd1afeaebee5105c9f6c4a63258842b644c1b01f73a30c6b0f1",
+      "snapshot": {
+        "name": "Grid / Vertical",
+        "nodeType": "COMPONENT_SET",
+        "description": "",
+        "status": "ready",
+        "properties": [
+          {
+            "name": "Device",
+            "type": "variant",
+            "defaultValue": "iPhone",
+            "options": [
+              "iPad  6/10",
+              "iPad Pro 13",
+              "iPhone"
+            ]
+          },
+          {
+            "name": "Heading",
+            "type": "boolean",
+            "key": "Heading#38764:7",
+            "defaultValue": true
+          },
+          {
+            "name": "Landscape",
+            "type": "variant",
+            "defaultValue": "False",
+            "options": [
+              "False",
+              "True"
+            ]
+          },
+          {
+            "name": "↳ Heading",
+            "type": "text",
+            "key": "↳ Heading#38859:20",
+            "defaultValue": "Заголовок"
+          }
+        ],
+        "variants": {
+          "Device": [
+            "iPad  6/10",
+            "iPad Pro 13",
+            "iPhone"
+          ],
+          "Landscape": [
+            "False",
+            "True"
+          ]
+        },
+        "variantCount": 5,
+        "dimensions": [
+          {
+            "width": 363.0,
+            "height": 852.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone, Landscape=False"
+            ]
+          },
+          {
+            "width": 750.0,
+            "height": 1150.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad  6/10, Landscape=False"
+            ]
+          },
+          {
+            "width": 962.0,
+            "height": 1098.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad Pro 13, Landscape=False"
+            ]
+          },
+          {
+            "width": 1110.0,
+            "height": 1265.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad  6/10, Landscape=True"
+            ]
+          },
+          {
+            "width": 1306.0,
+            "height": 1201.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad Pro 13, Landscape=True"
+            ]
+          }
+        ],
+        "dependencies": [
+          {
+            "nodeId": "39976:32660",
+            "name": "Label : Large"
+          },
+          {
+            "nodeId": "12185:97090",
+            "name": "Label : Small"
+          },
+          {
+            "nodeId": "38575:90719",
+            "name": "Vertical Grid Item"
+          },
+          {
+            "nodeId": "1305:27",
+            "name": "Навигационные / Переход в коллекцию"
+          }
+        ],
+        "publishStatus": "CHANGED"
+      }
+    },
+    {
       "slug": "input",
       "platform": "iOS",
       "libraryId": "lib-ios",
@@ -2898,6 +4247,2429 @@
           }
         ],
         "dependencies": []
+      }
+    },
+    {
+      "slug": "rail-announces",
+      "platform": "iOS",
+      "libraryId": "lib-ios",
+      "relatedSources": [],
+      "name": " Rail - Announces",
+      "card": "rail-announces.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=30646-111294",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "30646:111294"
+      },
+      "lastCheckedAt": "2026-08-24T08:12:19Z",
+      "snapshotHash": "714b00c66c2c50510ab82b180b4392087f23f68dc5d18002b846b9a0373191bc",
+      "snapshot": {
+        "name": " Rail - Announces",
+        "nodeType": "COMPONENT_SET",
+        "description": "",
+        "status": "ready",
+        "properties": [
+          {
+            "name": "Device",
+            "type": "variant",
+            "defaultValue": "iPhone 15",
+            "options": [
+              "iPad 10",
+              "iPad Mini 6",
+              "iPad Pro 13",
+              "iPhone 15",
+              "iPhone 17 Pro Max"
+            ]
+          }
+        ],
+        "variants": {
+          "Device": [
+            "iPad 10",
+            "iPad Mini 6",
+            "iPad Pro 13",
+            "iPhone 15",
+            "iPhone 17 Pro Max"
+          ]
+        },
+        "variantCount": 5,
+        "dimensions": [
+          {
+            "width": 363.0,
+            "height": 241.3,
+            "count": 1,
+            "examples": [
+              "Device=iPhone 15"
+            ]
+          },
+          {
+            "width": 410.0,
+            "height": 223.46,
+            "count": 1,
+            "examples": [
+              "Device=iPhone 17 Pro Max"
+            ]
+          },
+          {
+            "width": 1063.0,
+            "height": 269.81,
+            "count": 1,
+            "examples": [
+              "Device=iPad Mini 6"
+            ]
+          },
+          {
+            "width": 1110.0,
+            "height": 287.85,
+            "count": 1,
+            "examples": [
+              "Device=iPad 10"
+            ]
+          },
+          {
+            "width": 1306.0,
+            "height": 264.92,
+            "count": 1,
+            "examples": [
+              "Device=iPad Pro 13"
+            ]
+          }
+        ],
+        "dependencies": [
+          {
+            "nodeId": "29595:53876",
+            "name": "Rail - Base",
+            "componentSetId": "29595:53875"
+          }
+        ],
+        "publishStatus": "CHANGED"
+      }
+    },
+    {
+      "slug": "rail-background",
+      "platform": "iOS",
+      "libraryId": "lib-ios",
+      "relatedSources": [],
+      "name": "Rail - Background",
+      "card": "rail-background.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=6721-53275",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "6721:53275"
+      },
+      "lastCheckedAt": "2026-08-24T08:12:19Z",
+      "snapshotHash": "652684281b5a965cfd114316d8942a4ae9d26eb2dac9480e4ad624c5678105c7",
+      "snapshot": {
+        "name": "Rail - Background",
+        "nodeType": "COMPONENT_SET",
+        "description": "",
+        "status": "ready",
+        "properties": [
+          {
+            "name": "device",
+            "type": "variant",
+            "defaultValue": "iPhone 15",
+            "options": [
+              "iPad 10",
+              "iPad Mini 6",
+              "iPad Pro 13",
+              "iPhone 15",
+              "iPhone 17 Pro Max"
+            ]
+          }
+        ],
+        "variants": {
+          "device": [
+            "iPad 10",
+            "iPad Mini 6",
+            "iPad Pro 13",
+            "iPhone 15",
+            "iPhone 17 Pro Max"
+          ]
+        },
+        "variantCount": 5,
+        "dimensions": [
+          {
+            "width": 363.0,
+            "height": 484.0,
+            "count": 1,
+            "examples": [
+              "device=iPhone 15"
+            ]
+          },
+          {
+            "width": 410.0,
+            "height": 484.0,
+            "count": 1,
+            "examples": [
+              "device=iPhone 17 Pro Max"
+            ]
+          },
+          {
+            "width": 1063.0,
+            "height": 364.0,
+            "count": 1,
+            "examples": [
+              "device=iPad Mini 6"
+            ]
+          },
+          {
+            "width": 1110.0,
+            "height": 415.0,
+            "count": 1,
+            "examples": [
+              "device=iPad 10"
+            ]
+          },
+          {
+            "width": 1306.0,
+            "height": 458.0,
+            "count": 1,
+            "examples": [
+              "device=iPad Pro 13"
+            ]
+          }
+        ],
+        "dependencies": [
+          {
+            "nodeId": "29595:53876",
+            "name": "Rail - Base",
+            "componentSetId": "29595:53875"
+          },
+          {
+            "nodeId": "29997:144863",
+            "name": "Rail - Main",
+            "componentSetId": "5988:42272"
+          }
+        ],
+        "publishStatus": "CHANGED"
+      }
+    },
+    {
+      "slug": "rail-base",
+      "platform": "iOS",
+      "libraryId": "lib-ios",
+      "relatedSources": [],
+      "name": "Rail - Base",
+      "card": "rail-base.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=29595-53875",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "29595:53875"
+      },
+      "lastCheckedAt": "2026-08-24T08:12:20Z",
+      "snapshotHash": "8c7bea1b51e48c70b7b12cdacecbbfa45dcb1ab8894ec051a4ca6e1fe0bcb38c",
+      "snapshot": {
+        "name": "Rail - Base",
+        "nodeType": "COMPONENT_SET",
+        "description": "",
+        "status": "ready",
+        "properties": [
+          {
+            "name": "Device",
+            "type": "variant",
+            "defaultValue": "iPhone",
+            "options": [
+              "iPad",
+              "iPhone"
+            ]
+          },
+          {
+            "name": "Heading",
+            "type": "boolean",
+            "key": "Heading#12164:5",
+            "defaultValue": true
+          },
+          {
+            "name": "Left Slot",
+            "type": "boolean",
+            "key": "Left Slot#38842:3",
+            "defaultValue": false
+          },
+          {
+            "name": "↳ Heading",
+            "type": "text",
+            "key": "↳ Heading#29712:0",
+            "defaultValue": "Заголовок"
+          },
+          {
+            "name": "↳ Left Slot",
+            "type": "instance_swap",
+            "key": "↳ Left Slot#38842:0",
+            "defaultValue": "38842:137634"
+          }
+        ],
+        "variants": {
+          "Device": [
+            "iPad",
+            "iPhone"
+          ]
+        },
+        "variantCount": 2,
+        "dimensions": [
+          {
+            "width": 375.0,
+            "height": 132.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone"
+            ]
+          },
+          {
+            "width": 1024.0,
+            "height": 136.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad"
+            ]
+          }
+        ],
+        "dependencies": [],
+        "publishStatus": "CHANGED"
+      }
+    },
+    {
+      "slug": "rail-catalog",
+      "platform": "iOS",
+      "libraryId": "lib-ios",
+      "relatedSources": [],
+      "name": "Rail  - 🟡Catalog [Нет в проде]",
+      "card": "rail-catalog.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=15586-192048",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "15586:192048"
+      },
+      "lastCheckedAt": "2026-08-24T08:12:19Z",
+      "snapshotHash": "31016c9c7b8d20f87cd0f61939788848cb3dd0be29b7e4d5e6c3f495ef9d64b8",
+      "snapshot": {
+        "name": "Rail  - 🟡Catalog [Нет в проде]",
+        "nodeType": "COMPONENT_SET",
+        "description": "",
+        "status": "work-in-progress",
+        "properties": [
+          {
+            "name": "Device",
+            "type": "variant",
+            "defaultValue": "iPhone 15",
+            "options": [
+              "iPad 10",
+              "iPad Mini 6",
+              "iPad Pro 13",
+              "iPhone 15",
+              "iPhone 17 Pro Max"
+            ]
+          }
+        ],
+        "variants": {
+          "Device": [
+            "iPad 10",
+            "iPad Mini 6",
+            "iPad Pro 13",
+            "iPhone 15",
+            "iPhone 17 Pro Max"
+          ]
+        },
+        "variantCount": 5,
+        "dimensions": [
+          {
+            "width": 363.0,
+            "height": 298.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone 15"
+            ]
+          },
+          {
+            "width": 410.0,
+            "height": 334.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone 17 Pro Max"
+            ]
+          },
+          {
+            "width": 1063.0,
+            "height": 288.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad Mini 6"
+            ]
+          },
+          {
+            "width": 1110.0,
+            "height": 298.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad 10"
+            ]
+          },
+          {
+            "width": 1306.0,
+            "height": 328.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad Pro 13"
+            ]
+          }
+        ],
+        "dependencies": [
+          {
+            "nodeId": "29595:53876",
+            "name": "Rail - Base",
+            "componentSetId": "29595:53875"
+          }
+        ],
+        "publishStatus": "CHANGED"
+      }
+    },
+    {
+      "slug": "rail-circle",
+      "platform": "iOS",
+      "libraryId": "lib-ios",
+      "relatedSources": [],
+      "name": "Rail - Circle",
+      "card": "rail-circle.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=32668-60746",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "32668:60746"
+      },
+      "lastCheckedAt": "2026-08-24T08:12:20Z",
+      "snapshotHash": "e8f1793b54b18d748a3c88d4af4049e01938c531cd275d84ed95862d1fbb8901",
+      "snapshot": {
+        "name": "Rail - Circle",
+        "nodeType": "COMPONENT_SET",
+        "description": "",
+        "status": "ready",
+        "properties": [
+          {
+            "name": "Device",
+            "type": "variant",
+            "defaultValue": "iPhone 15",
+            "options": [
+              "iPad 10",
+              "iPad Mini 6",
+              "iPad Pro 13",
+              "iPhone 15",
+              "iPhone 17 Pro Max"
+            ]
+          }
+        ],
+        "variants": {
+          "Device": [
+            "iPad 10",
+            "iPad Mini 6",
+            "iPad Pro 13",
+            "iPhone 15",
+            "iPhone 17 Pro Max"
+          ]
+        },
+        "variantCount": 5,
+        "dimensions": [
+          {
+            "width": 363.0,
+            "height": 384.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone 15"
+            ]
+          },
+          {
+            "width": 410.0,
+            "height": 418.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone 17 Pro Max"
+            ]
+          },
+          {
+            "width": 1063.0,
+            "height": 390.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad Mini 6"
+            ]
+          },
+          {
+            "width": 1110.0,
+            "height": 398.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad 10"
+            ]
+          },
+          {
+            "width": 1306.0,
+            "height": 454.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad Pro 13"
+            ]
+          }
+        ],
+        "dependencies": [
+          {
+            "nodeId": "29595:53876",
+            "name": "Rail - Base",
+            "componentSetId": "29595:53875"
+          }
+        ],
+        "publishStatus": "CURRENT"
+      }
+    },
+    {
+      "slug": "rail-content",
+      "platform": "iOS",
+      "libraryId": "lib-ios",
+      "relatedSources": [],
+      "name": "Rail - 🟡Content [Нет в проде]",
+      "card": "rail-content.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=25931-80240",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "25931:80240"
+      },
+      "lastCheckedAt": "2026-08-24T08:12:21Z",
+      "snapshotHash": "63d1765d67fbdca16cc6e683a865f68a78596b746ecb41e7ca87590ee7aff69c",
+      "snapshot": {
+        "name": "Rail - 🟡Content [Нет в проде]",
+        "nodeType": "COMPONENT_SET",
+        "description": "",
+        "status": "work-in-progress",
+        "properties": [
+          {
+            "name": "Device",
+            "type": "variant",
+            "defaultValue": "iPhone 15",
+            "options": [
+              "iPad 10",
+              "iPad 6",
+              "iPad Pro 13",
+              "iPhone 15"
+            ]
+          }
+        ],
+        "variants": {
+          "Device": [
+            "iPad 10",
+            "iPad 6",
+            "iPad Pro 13",
+            "iPhone 15"
+          ]
+        },
+        "variantCount": 4,
+        "dimensions": [
+          {
+            "width": 363.0,
+            "height": 199.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone 15"
+            ]
+          },
+          {
+            "width": 1063.0,
+            "height": 206.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad 6"
+            ]
+          },
+          {
+            "width": 1110.0,
+            "height": 206.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad 10"
+            ]
+          },
+          {
+            "width": 1306.0,
+            "height": 221.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad Pro 13"
+            ]
+          }
+        ],
+        "dependencies": [],
+        "publishStatus": "CHANGED"
+      }
+    },
+    {
+      "slug": "rail-continue",
+      "platform": "iOS",
+      "libraryId": "lib-ios",
+      "relatedSources": [],
+      "name": "Rail - Continue",
+      "card": "rail-continue.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=15462-313281",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "15462:313281"
+      },
+      "lastCheckedAt": "2026-08-24T08:12:20Z",
+      "snapshotHash": "71731d2330e8e397461dd036136b9ba7aabb0e29555af77fdff057976a1a1a33",
+      "snapshot": {
+        "name": "Rail - Continue",
+        "nodeType": "COMPONENT_SET",
+        "description": "",
+        "status": "ready",
+        "properties": [
+          {
+            "name": "Device",
+            "type": "variant",
+            "defaultValue": "iPhone 15",
+            "options": [
+              "iPad 10",
+              "iPad Mini 6",
+              "iPad Pro 13",
+              "iPhone 15",
+              "iPhone 17 Pro Max"
+            ]
+          }
+        ],
+        "variants": {
+          "Device": [
+            "iPad 10",
+            "iPad Mini 6",
+            "iPad Pro 13",
+            "iPhone 15",
+            "iPhone 17 Pro Max"
+          ]
+        },
+        "variantCount": 5,
+        "dimensions": [
+          {
+            "width": 363.0,
+            "height": 206.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone 15"
+            ]
+          },
+          {
+            "width": 410.0,
+            "height": 224.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone 17 Pro Max"
+            ]
+          },
+          {
+            "width": 1063.0,
+            "height": 209.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad Mini 6"
+            ]
+          },
+          {
+            "width": 1110.0,
+            "height": 216.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad 10"
+            ]
+          },
+          {
+            "width": 1306.0,
+            "height": 229.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad Pro 13"
+            ]
+          }
+        ],
+        "dependencies": [
+          {
+            "nodeId": "29595:53876",
+            "name": "Rail - Base",
+            "componentSetId": "29595:53875"
+          }
+        ],
+        "publishStatus": "CURRENT"
+      }
+    },
+    {
+      "slug": "rail-highlights",
+      "platform": "iOS",
+      "libraryId": "lib-ios",
+      "relatedSources": [],
+      "name": "Rail - Highlights",
+      "card": "rail-highlights.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=30477-83196",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "30477:83196"
+      },
+      "lastCheckedAt": "2026-08-24T08:12:20Z",
+      "snapshotHash": "036aeb51639b09597b918678b3c14db45e0568ac70c3e67b6be11dfd0df9588d",
+      "snapshot": {
+        "name": "Rail - Highlights",
+        "nodeType": "COMPONENT_SET",
+        "description": "",
+        "status": "ready",
+        "properties": [
+          {
+            "name": "Device",
+            "type": "variant",
+            "defaultValue": "iPhone 15",
+            "options": [
+              "iPad 10",
+              "iPad Mini 6",
+              "iPad Pro 13",
+              "iPhone 15",
+              "iPhone 17 Pro Max"
+            ]
+          }
+        ],
+        "variants": {
+          "Device": [
+            "iPad 10",
+            "iPad Mini 6",
+            "iPad Pro 13",
+            "iPhone 15",
+            "iPhone 17 Pro Max"
+          ]
+        },
+        "variantCount": 5,
+        "dimensions": [
+          {
+            "width": 363.0,
+            "height": 433.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone 15"
+            ]
+          },
+          {
+            "width": 410.0,
+            "height": 490.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone 17 Pro Max"
+            ]
+          },
+          {
+            "width": 1063.0,
+            "height": 329.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad Mini 6"
+            ]
+          },
+          {
+            "width": 1110.0,
+            "height": 344.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad 10"
+            ]
+          },
+          {
+            "width": 1306.0,
+            "height": 514.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad Pro 13"
+            ]
+          }
+        ],
+        "dependencies": [
+          {
+            "nodeId": "29595:53876",
+            "name": "Rail - Base",
+            "componentSetId": "29595:53875"
+          }
+        ],
+        "publishStatus": "CHANGED"
+      }
+    },
+    {
+      "slug": "rail-large",
+      "platform": "iOS",
+      "libraryId": "lib-ios",
+      "relatedSources": [],
+      "name": "Rail - Large",
+      "card": "rail-large.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=15462-375550",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "15462:375550"
+      },
+      "lastCheckedAt": "2026-08-24T08:12:20Z",
+      "snapshotHash": "b09df9f3b40cd3d1859afe760fcdded369d01c1f3331a5812d2a4ac56d614aca",
+      "snapshot": {
+        "name": "Rail - Large",
+        "nodeType": "COMPONENT_SET",
+        "description": "",
+        "status": "ready",
+        "properties": [
+          {
+            "name": "device",
+            "type": "variant",
+            "defaultValue": "iPhone 15",
+            "options": [
+              "iPad 10",
+              "iPad Mini 6",
+              "iPad Pro 13",
+              "iPhone 15",
+              "iPhone 17 Pro Max"
+            ]
+          }
+        ],
+        "variants": {
+          "device": [
+            "iPad 10",
+            "iPad Mini 6",
+            "iPad Pro 13",
+            "iPhone 15",
+            "iPhone 17 Pro Max"
+          ]
+        },
+        "variantCount": 5,
+        "dimensions": [
+          {
+            "width": 363.0,
+            "height": 227.0,
+            "count": 1,
+            "examples": [
+              "device=iPhone 15"
+            ]
+          },
+          {
+            "width": 410.0,
+            "height": 255.0,
+            "count": 1,
+            "examples": [
+              "device=iPhone 17 Pro Max"
+            ]
+          },
+          {
+            "width": 1063.0,
+            "height": 281.0,
+            "count": 1,
+            "examples": [
+              "device=iPad Mini 6"
+            ]
+          },
+          {
+            "width": 1110.0,
+            "height": 290.0,
+            "count": 1,
+            "examples": [
+              "device=iPad 10"
+            ]
+          },
+          {
+            "width": 1306.0,
+            "height": 274.0,
+            "count": 1,
+            "examples": [
+              "device=iPad Pro 13"
+            ]
+          }
+        ],
+        "dependencies": [
+          {
+            "nodeId": "29595:53876",
+            "name": "Rail - Base",
+            "componentSetId": "29595:53875"
+          }
+        ],
+        "publishStatus": "CHANGED"
+      }
+    },
+    {
+      "slug": "rail-main",
+      "platform": "iOS",
+      "libraryId": "lib-ios",
+      "relatedSources": [],
+      "name": "Rail - Main",
+      "card": "rail-main.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=5988-42272",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "5988:42272"
+      },
+      "lastCheckedAt": "2026-08-24T08:12:20Z",
+      "snapshotHash": "cbcc56ee27d149719654238767e7fc949270f5a11923f8643bde3a780340b69f",
+      "snapshot": {
+        "name": "Rail - Main",
+        "nodeType": "COMPONENT_SET",
+        "description": "",
+        "status": "ready",
+        "properties": [
+          {
+            "name": "Device",
+            "type": "variant",
+            "defaultValue": "iPhone 15",
+            "options": [
+              "iPad 10",
+              "iPad Mini 6",
+              "iPad Pro 13",
+              "iPhone 15",
+              "iPhone 17 Pro Max"
+            ]
+          }
+        ],
+        "variants": {
+          "Device": [
+            "iPad 10",
+            "iPad Mini 6",
+            "iPad Pro 13",
+            "iPhone 15",
+            "iPhone 17 Pro Max"
+          ]
+        },
+        "variantCount": 5,
+        "dimensions": [
+          {
+            "width": 363.0,
+            "height": 160.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone 15"
+            ]
+          },
+          {
+            "width": 410.0,
+            "height": 178.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone 17 Pro Max"
+            ]
+          },
+          {
+            "width": 1063.0,
+            "height": 157.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad Mini 6"
+            ]
+          },
+          {
+            "width": 1110.0,
+            "height": 162.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad 10"
+            ]
+          },
+          {
+            "width": 1306.0,
+            "height": 177.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad Pro 13"
+            ]
+          }
+        ],
+        "dependencies": [
+          {
+            "nodeId": "29595:53876",
+            "name": "Rail - Base",
+            "componentSetId": "29595:53875"
+          }
+        ],
+        "publishStatus": "CHANGED"
+      }
+    },
+    {
+      "slug": "rail-marketing",
+      "platform": "iOS",
+      "libraryId": "lib-ios",
+      "relatedSources": [],
+      "name": "Rail - Marketing",
+      "card": "rail-marketing.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=23009-43824",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "23009:43824"
+      },
+      "lastCheckedAt": "2026-08-24T08:12:20Z",
+      "snapshotHash": "5c98670e68a0cf8027fb968063c35b12dc2f9d5514fcbfbd8b4b028cc9a67115",
+      "snapshot": {
+        "name": "Rail - Marketing",
+        "nodeType": "COMPONENT_SET",
+        "description": "",
+        "status": "ready",
+        "properties": [
+          {
+            "name": "Device",
+            "type": "variant",
+            "defaultValue": "iPhone 15",
+            "options": [
+              "iPad 10",
+              "iPad Mini 6",
+              "iPad Pro 13",
+              "iPhone 15",
+              "iPhone 17 Pro Max"
+            ]
+          }
+        ],
+        "variants": {
+          "Device": [
+            "iPad 10",
+            "iPad Mini 6",
+            "iPad Pro 13",
+            "iPhone 15",
+            "iPhone 17 Pro Max"
+          ]
+        },
+        "variantCount": 5,
+        "dimensions": [
+          {
+            "width": 363.0,
+            "height": 377.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone 15"
+            ]
+          },
+          {
+            "width": 410.0,
+            "height": 427.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone 17 Pro Max"
+            ]
+          },
+          {
+            "width": 1063.0,
+            "height": 470.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad Mini 6"
+            ]
+          },
+          {
+            "width": 1110.0,
+            "height": 486.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad 10"
+            ]
+          },
+          {
+            "width": 1306.0,
+            "height": 458.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad Pro 13"
+            ]
+          }
+        ],
+        "dependencies": [
+          {
+            "nodeId": "29595:53876",
+            "name": "Rail - Base",
+            "componentSetId": "29595:53875"
+          }
+        ],
+        "publishStatus": "CHANGED"
+      }
+    },
+    {
+      "slug": "rail-medium",
+      "platform": "iOS",
+      "libraryId": "lib-ios",
+      "relatedSources": [],
+      "name": "Rail - Medium",
+      "card": "rail-medium.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=24049-48738",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "24049:48738"
+      },
+      "lastCheckedAt": "2026-08-24T08:12:20Z",
+      "snapshotHash": "6e71c62789917ba154f5d8590791d41ca7f2cc4313de205c7b30c46e55262ba7",
+      "snapshot": {
+        "name": "Rail - Medium",
+        "nodeType": "COMPONENT_SET",
+        "description": "",
+        "status": "ready",
+        "properties": [
+          {
+            "name": "Device",
+            "type": "variant",
+            "defaultValue": "iPhone 15",
+            "options": [
+              "iPad 10",
+              "iPad Mini 6",
+              "iPad Pro 13",
+              "iPhone 15",
+              "iPhone 17 Pro Max"
+            ]
+          }
+        ],
+        "variants": {
+          "Device": [
+            "iPad 10",
+            "iPad Mini 6",
+            "iPad Pro 13",
+            "iPhone 15",
+            "iPhone 17 Pro Max"
+          ]
+        },
+        "variantCount": 5,
+        "dimensions": [
+          {
+            "width": 363.0,
+            "height": 234.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone 15"
+            ]
+          },
+          {
+            "width": 410.0,
+            "height": 258.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone 17 Pro Max"
+            ]
+          },
+          {
+            "width": 1063.0,
+            "height": 268.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad Mini 6"
+            ]
+          },
+          {
+            "width": 1110.0,
+            "height": 274.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad 10"
+            ]
+          },
+          {
+            "width": 1306.0,
+            "height": 261.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad Pro 13"
+            ]
+          }
+        ],
+        "dependencies": [
+          {
+            "nodeId": "29595:53876",
+            "name": "Rail - Base",
+            "componentSetId": "29595:53875"
+          }
+        ],
+        "publishStatus": "CHANGED"
+      }
+    },
+    {
+      "slug": "rail-mixed-top",
+      "platform": "iOS",
+      "libraryId": "lib-ios",
+      "relatedSources": [
+        {
+          "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=26610-76569",
+          "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+          "branchKey": null,
+          "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+          "nodeId": "26610:76569",
+          "kind": "guide",
+          "lastCheckedAt": "2026-08-24T07:56:42Z",
+          "snapshotHash": "1569c2f6a5cd014f3d73e46432a684b391dd22f504a8eeae3f0478bdb901a041",
+          "snapshot": {
+            "name": "Use case — Rail / Mixed Top",
+            "nodeType": "SECTION",
+            "description": "",
+            "status": "ready",
+            "properties": [],
+            "variants": {},
+            "variantCount": 0,
+            "dimensions": [],
+            "dependencies": []
+          }
+        }
+      ],
+      "name": "Rail / Mixed Top",
+      "card": "rail-mixed-top.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=26610-73027",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "26610:73027"
+      },
+      "lastCheckedAt": "2026-08-24T07:55:33Z",
+      "snapshotHash": "c8ec52cd163d89515eb0600d5b0a46057e1a452f10b3051a86f87d2d7463e858",
+      "snapshot": {
+        "name": "Rail / Mixed Top",
+        "nodeType": "COMPONENT_SET",
+        "description": "",
+        "status": "ready",
+        "properties": [
+          {
+            "name": "Resolution",
+            "type": "variant",
+            "defaultValue": "1366",
+            "options": [
+              "1024",
+              "1366",
+              "768",
+              "iPhone 8",
+              "iPhone SE"
+            ]
+          }
+        ],
+        "variants": {
+          "Resolution": [
+            "1024",
+            "1366",
+            "768",
+            "iPhone 8",
+            "iPhone SE"
+          ]
+        },
+        "variantCount": 5,
+        "dimensions": [
+          {
+            "width": 320.0,
+            "height": 343.0,
+            "count": 1,
+            "examples": [
+              "Resolution=iPhone SE"
+            ]
+          },
+          {
+            "width": 375.0,
+            "height": 397.0,
+            "count": 1,
+            "examples": [
+              "Resolution=iPhone 8"
+            ]
+          },
+          {
+            "width": 768.0,
+            "height": 220.0,
+            "count": 1,
+            "examples": [
+              "Resolution=768"
+            ]
+          },
+          {
+            "width": 1024.0,
+            "height": 241.0,
+            "count": 1,
+            "examples": [
+              "Resolution=1024"
+            ]
+          },
+          {
+            "width": 1366.0,
+            "height": 297.0,
+            "count": 1,
+            "examples": [
+              "Resolution=1366"
+            ]
+          }
+        ],
+        "dependencies": [
+          {
+            "nodeId": "39976:32660",
+            "name": "Label : Large"
+          },
+          {
+            "nodeId": "12185:97090",
+            "name": "Label : Small"
+          }
+        ],
+        "publishStatus": "CHANGED"
+      }
+    },
+    {
+      "slug": "rail-person-horizontal",
+      "platform": "iOS",
+      "libraryId": "lib-ios",
+      "relatedSources": [],
+      "name": "Rail - Person Horizontal",
+      "card": "rail-person-horizontal.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=23197-42884",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "23197:42884"
+      },
+      "lastCheckedAt": "2026-08-24T08:12:21Z",
+      "snapshotHash": "bb3c67d1d5a6b55d136aebc22cdd2ecf524d03fcdc0e941fc5dffdf922ae95fa",
+      "snapshot": {
+        "name": "Rail - Person Horizontal",
+        "nodeType": "COMPONENT_SET",
+        "description": "",
+        "status": "ready",
+        "properties": [
+          {
+            "name": "device",
+            "type": "variant",
+            "defaultValue": "iPad Pro 13",
+            "options": [
+              "iPad 10",
+              "iPad Pro 13",
+              "iPhone"
+            ]
+          }
+        ],
+        "variants": {
+          "device": [
+            "iPad 10",
+            "iPad Pro 13",
+            "iPhone"
+          ]
+        },
+        "variantCount": 3,
+        "dimensions": [
+          {
+            "width": 363.0,
+            "height": 154.0,
+            "count": 1,
+            "examples": [
+              "device=iPhone"
+            ]
+          },
+          {
+            "width": 1110.0,
+            "height": 174.0,
+            "count": 1,
+            "examples": [
+              "device=iPad 10"
+            ]
+          },
+          {
+            "width": 1306.0,
+            "height": 206.0,
+            "count": 1,
+            "examples": [
+              "device=iPad Pro 13"
+            ]
+          }
+        ],
+        "dependencies": [
+          {
+            "nodeId": "29595:53876",
+            "name": "Rail - Base",
+            "componentSetId": "29595:53875"
+          }
+        ],
+        "publishStatus": "CHANGED"
+      }
+    },
+    {
+      "slug": "rail-personal-widget",
+      "platform": "iOS",
+      "libraryId": "lib-ios",
+      "relatedSources": [],
+      "name": "Rail - Personal Widget",
+      "card": "rail-personal-widget.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=31185-161182",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "31185:161182"
+      },
+      "lastCheckedAt": "2026-08-24T08:12:21Z",
+      "snapshotHash": "f9b88dc7ae3e8fa25bcb320876340ae5f696cf2256d1461d4e00ecedc55c8ee8",
+      "snapshot": {
+        "name": "Rail - Personal Widget",
+        "nodeType": "COMPONENT_SET",
+        "description": "",
+        "status": "ready",
+        "properties": [
+          {
+            "name": "Device",
+            "type": "variant",
+            "defaultValue": "iPhone 15",
+            "options": [
+              "iPad 10",
+              "iPad Mini 6",
+              "iPad Pro 13",
+              "iPhone 15",
+              "iPhone 17 Pro Max"
+            ]
+          }
+        ],
+        "variants": {
+          "Device": [
+            "iPad 10",
+            "iPad Mini 6",
+            "iPad Pro 13",
+            "iPhone 15",
+            "iPhone 17 Pro Max"
+          ]
+        },
+        "variantCount": 5,
+        "dimensions": [
+          {
+            "width": 363.0,
+            "height": 430.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone 15"
+            ]
+          },
+          {
+            "width": 410.0,
+            "height": 493.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone 17 Pro Max"
+            ]
+          },
+          {
+            "width": 1063.0,
+            "height": 376.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad Mini 6"
+            ]
+          },
+          {
+            "width": 1110.0,
+            "height": 388.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad 10"
+            ]
+          },
+          {
+            "width": 1306.0,
+            "height": 362.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad Pro 13"
+            ]
+          }
+        ],
+        "dependencies": [
+          {
+            "nodeId": "29595:53876",
+            "name": "Rail - Base",
+            "componentSetId": "29595:53875"
+          }
+        ],
+        "publishStatus": "CHANGED"
+      }
+    },
+    {
+      "slug": "rail-square",
+      "platform": "iOS",
+      "libraryId": "lib-ios",
+      "relatedSources": [],
+      "name": "Rail - Square",
+      "card": "rail-square.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=7768-73596",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "7768:73596"
+      },
+      "lastCheckedAt": "2026-08-24T08:12:21Z",
+      "snapshotHash": "ae82828af707fee6818c5562284e5cb1f6f23aad9853c9127abc0eea0580e5a8",
+      "snapshot": {
+        "name": "Rail - Square",
+        "nodeType": "COMPONENT_SET",
+        "description": "",
+        "status": "ready",
+        "properties": [
+          {
+            "name": "Device",
+            "type": "variant",
+            "defaultValue": "iPhone 15",
+            "options": [
+              "iPad 10",
+              "iPad Mini 6",
+              "iPad Pro 13",
+              "iPhone 15",
+              "iPhone 17 Pro Max"
+            ]
+          }
+        ],
+        "variants": {
+          "Device": [
+            "iPad 10",
+            "iPad Mini 6",
+            "iPad Pro 13",
+            "iPhone 15",
+            "iPhone 17 Pro Max"
+          ]
+        },
+        "variantCount": 5,
+        "dimensions": [
+          {
+            "width": 363.0,
+            "height": 202.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone 15"
+            ]
+          },
+          {
+            "width": 410.0,
+            "height": 227.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone 17 Pro Max"
+            ]
+          },
+          {
+            "width": 1063.0,
+            "height": 251.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad Mini 6"
+            ]
+          },
+          {
+            "width": 1110.0,
+            "height": 259.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad 10"
+            ]
+          },
+          {
+            "width": 1306.0,
+            "height": 286.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad Pro 13"
+            ]
+          }
+        ],
+        "dependencies": [
+          {
+            "nodeId": "29595:53876",
+            "name": "Rail - Base",
+            "componentSetId": "29595:53875"
+          }
+        ],
+        "publishStatus": "CHANGED"
+      }
+    },
+    {
+      "slug": "rail-square-medium",
+      "platform": "iOS",
+      "libraryId": "lib-ios",
+      "relatedSources": [],
+      "name": "Rail - 🟡Square Medium",
+      "card": "rail-square-medium.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=35893-32643",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "35893:32643"
+      },
+      "lastCheckedAt": "2026-08-24T08:12:22Z",
+      "snapshotHash": "fed7747167c76e3a50c11a51079b89a27824ab04232f82846e85f7584800c2f9",
+      "snapshot": {
+        "name": "Rail - 🟡Square Medium",
+        "nodeType": "COMPONENT_SET",
+        "description": "",
+        "status": "work-in-progress",
+        "properties": [
+          {
+            "name": "Device",
+            "type": "variant",
+            "defaultValue": "iPhone 15",
+            "options": [
+              "iPad 10",
+              "iPad Mini 6",
+              "iPad Pro 13",
+              "iPhone 15",
+              "iPhone 17 Pro Max"
+            ]
+          }
+        ],
+        "variants": {
+          "Device": [
+            "iPad 10",
+            "iPad Mini 6",
+            "iPad Pro 13",
+            "iPhone 15",
+            "iPhone 17 Pro Max"
+          ]
+        },
+        "variantCount": 5,
+        "dimensions": [
+          {
+            "width": 363.0,
+            "height": 202.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone 15"
+            ]
+          },
+          {
+            "width": 410.0,
+            "height": 196.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone 17 Pro Max"
+            ]
+          },
+          {
+            "width": 1063.0,
+            "height": 295.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad Mini 6"
+            ]
+          },
+          {
+            "width": 1110.0,
+            "height": 303.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad 10"
+            ]
+          },
+          {
+            "width": 1306.0,
+            "height": 330.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad Pro 13"
+            ]
+          }
+        ],
+        "dependencies": [
+          {
+            "nodeId": "29595:53876",
+            "name": "Rail - Base",
+            "componentSetId": "29595:53875"
+          }
+        ],
+        "publishStatus": "CHANGED"
+      }
+    },
+    {
+      "slug": "rail-square-small-1-story",
+      "platform": "iOS",
+      "libraryId": "lib-ios",
+      "relatedSources": [],
+      "name": "Rail - SquareSmall1Story",
+      "card": "rail-square-small-1-story.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=16941-129762",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "16941:129762"
+      },
+      "lastCheckedAt": "2026-08-24T08:12:21Z",
+      "snapshotHash": "c54f17b170e646532c075bdea394d195364949f726fcc0828d78f63330d4faf2",
+      "snapshot": {
+        "name": "Rail - SquareSmall1Story",
+        "nodeType": "COMPONENT_SET",
+        "description": "",
+        "status": "ready",
+        "properties": [
+          {
+            "name": "Device",
+            "type": "variant",
+            "defaultValue": "iPhone 15",
+            "options": [
+              "iPad 10",
+              "iPad Mini 6",
+              "iPad Pro 13",
+              "iPhone 15",
+              "iPhone 17 Pro Max"
+            ]
+          }
+        ],
+        "variants": {
+          "Device": [
+            "iPad 10",
+            "iPad Mini 6",
+            "iPad Pro 13",
+            "iPhone 15",
+            "iPhone 17 Pro Max"
+          ]
+        },
+        "variantCount": 5,
+        "dimensions": [
+          {
+            "width": 363.0,
+            "height": 143.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone 15"
+            ]
+          },
+          {
+            "width": 410.0,
+            "height": 158.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone 17 Pro Max"
+            ]
+          },
+          {
+            "width": 1063.0,
+            "height": 140.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad Mini 6"
+            ]
+          },
+          {
+            "width": 1110.0,
+            "height": 144.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad 10"
+            ]
+          },
+          {
+            "width": 1306.0,
+            "height": 172.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad Pro 13"
+            ]
+          }
+        ],
+        "dependencies": [
+          {
+            "nodeId": "29595:53876",
+            "name": "Rail - Base",
+            "componentSetId": "29595:53875"
+          }
+        ],
+        "publishStatus": "CHANGED"
+      }
+    },
+    {
+      "slug": "rail-square-small-2-story",
+      "platform": "iOS",
+      "libraryId": "lib-ios",
+      "relatedSources": [
+        {
+          "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=7616-73662",
+          "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+          "branchKey": null,
+          "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+          "nodeId": "7616:73662",
+          "kind": "example",
+          "lastCheckedAt": "2026-08-24T08:12:22Z",
+          "snapshotHash": "437b3a751299181d18eaa28f86e6d6366e208bbb631046a55290876f3e670ca5",
+          "snapshot": {
+            "name": "Rail / 🟡SquareSmall2Story [Нет в проде]/[Deprecated] Phone 320",
+            "nodeType": "COMPONENT",
+            "description": "",
+            "status": "deprecated",
+            "properties": [],
+            "variants": {},
+            "variantCount": 0,
+            "dimensions": [],
+            "dependencies": [],
+            "publishStatus": "CHANGED"
+          }
+        }
+      ],
+      "name": "Rail - SquareSmall2Story",
+      "card": "rail-square-small-2-story.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=7616-73598",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "7616:73598"
+      },
+      "lastCheckedAt": "2026-08-24T08:12:21Z",
+      "snapshotHash": "4f355bf01c881ed3b2640b975cdff94292da56aed8037a414ea69b31748a645d",
+      "snapshot": {
+        "name": "Rail - SquareSmall2Story",
+        "nodeType": "COMPONENT_SET",
+        "description": "",
+        "status": "ready",
+        "properties": [
+          {
+            "name": "device",
+            "type": "variant",
+            "defaultValue": "iPhone 15",
+            "options": [
+              "iPad 10",
+              "iPad Mini 6",
+              "iPad Pro 13",
+              "iPhone 15",
+              "iPhone 17 Pro Max"
+            ]
+          }
+        ],
+        "variants": {
+          "device": [
+            "iPad 10",
+            "iPad Mini 6",
+            "iPad Pro 13",
+            "iPhone 15",
+            "iPhone 17 Pro Max"
+          ]
+        },
+        "variantCount": 5,
+        "dimensions": [
+          {
+            "width": 363.0,
+            "height": 264.0,
+            "count": 1,
+            "examples": [
+              "device=iPhone 15"
+            ]
+          },
+          {
+            "width": 410.0,
+            "height": 298.0,
+            "count": 1,
+            "examples": [
+              "device=iPhone 17 Pro Max"
+            ]
+          },
+          {
+            "width": 1063.0,
+            "height": 254.0,
+            "count": 1,
+            "examples": [
+              "device=iPad Mini 6"
+            ]
+          },
+          {
+            "width": 1110.0,
+            "height": 262.0,
+            "count": 1,
+            "examples": [
+              "device=iPad 10"
+            ]
+          },
+          {
+            "width": 1306.0,
+            "height": 318.0,
+            "count": 1,
+            "examples": [
+              "device=iPad Pro 13"
+            ]
+          }
+        ],
+        "dependencies": [
+          {
+            "nodeId": "29595:53876",
+            "name": "Rail - Base",
+            "componentSetId": "29595:53875"
+          }
+        ],
+        "publishStatus": "CHANGED"
+      }
+    },
+    {
+      "slug": "rail-ticket",
+      "platform": "iOS",
+      "libraryId": "lib-ios",
+      "relatedSources": [],
+      "name": "Rail - Ticket",
+      "card": "rail-ticket.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=28139-194880",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "28139:194880"
+      },
+      "lastCheckedAt": "2026-08-24T08:12:21Z",
+      "snapshotHash": "871400c3b04eab9fad60fc3c572a65d662a5faeab8c2fc73d9b3023d8c9ff8e5",
+      "snapshot": {
+        "name": "Rail - Ticket",
+        "nodeType": "COMPONENT_SET",
+        "description": "",
+        "status": "ready",
+        "properties": [
+          {
+            "name": "Device",
+            "type": "variant",
+            "defaultValue": "[Deprecated] iPhone 320",
+            "options": [
+              "[Deprecated] iPhone 320",
+              "iPad 10",
+              "iPad Mini 6",
+              "iPad Pro 13",
+              "iPhone 15"
+            ]
+          }
+        ],
+        "variants": {
+          "Device": [
+            "[Deprecated] iPhone 320",
+            "iPad 10",
+            "iPad Mini 6",
+            "iPad Pro 13",
+            "iPhone 15"
+          ]
+        },
+        "variantCount": 5,
+        "dimensions": [
+          {
+            "width": 290.0,
+            "height": 221.0,
+            "count": 1,
+            "examples": [
+              "Device=[Deprecated] iPhone 320"
+            ]
+          },
+          {
+            "width": 363.0,
+            "height": 219.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone 15"
+            ]
+          },
+          {
+            "width": 1063.0,
+            "height": 362.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad Mini 6"
+            ]
+          },
+          {
+            "width": 1110.0,
+            "height": 368.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad 10"
+            ]
+          },
+          {
+            "width": 1306.0,
+            "height": 399.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad Pro 13"
+            ]
+          }
+        ],
+        "dependencies": [],
+        "publishStatus": "CURRENT"
+      }
+    },
+    {
+      "slug": "rail-top-collections",
+      "platform": "iOS",
+      "libraryId": "lib-ios",
+      "relatedSources": [
+        {
+          "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=26610-72785",
+          "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+          "branchKey": null,
+          "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+          "nodeId": "26610:72785",
+          "kind": "guide",
+          "lastCheckedAt": "2026-08-24T07:56:39Z",
+          "snapshotHash": "1a9e78fe8b7750f798272fbfbbe0a5a975641af216174a9839c36e74f373b066",
+          "snapshot": {
+            "name": "Use case — Rail / Top Collections",
+            "nodeType": "SECTION",
+            "description": "",
+            "status": "ready",
+            "properties": [],
+            "variants": {},
+            "variantCount": 0,
+            "dimensions": [],
+            "dependencies": []
+          }
+        }
+      ],
+      "name": "Rail / Top Collections",
+      "card": "rail-top-collections.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=26610-66862",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "26610:66862"
+      },
+      "lastCheckedAt": "2026-08-24T07:55:30Z",
+      "snapshotHash": "a27d28b8432edf4ef964cea5e2758a569ff0e88927e6d637098f59bec7ddd194",
+      "snapshot": {
+        "name": "Rail / Top Collections",
+        "nodeType": "COMPONENT_SET",
+        "description": "",
+        "status": "ready",
+        "properties": [
+          {
+            "name": "Resolution",
+            "type": "variant",
+            "defaultValue": "1366",
+            "options": [
+              "1024",
+              "1366",
+              "320",
+              "320_simple",
+              "375",
+              "375_simple",
+              "414_simple",
+              "768"
+            ]
+          }
+        ],
+        "variants": {
+          "Resolution": [
+            "1024",
+            "1366",
+            "320",
+            "320_simple",
+            "375",
+            "375_simple",
+            "414_simple",
+            "768"
+          ]
+        },
+        "variantCount": 8,
+        "dimensions": [
+          {
+            "width": 320.0,
+            "height": 236.0,
+            "count": 1,
+            "examples": [
+              "Resolution=320_simple"
+            ]
+          },
+          {
+            "width": 320.0,
+            "height": 270.0,
+            "count": 1,
+            "examples": [
+              "Resolution=320"
+            ]
+          },
+          {
+            "width": 375.0,
+            "height": 283.0,
+            "count": 1,
+            "examples": [
+              "Resolution=375_simple"
+            ]
+          },
+          {
+            "width": 375.0,
+            "height": 311.0,
+            "count": 1,
+            "examples": [
+              "Resolution=375"
+            ]
+          },
+          {
+            "width": 414.0,
+            "height": 283.0,
+            "count": 1,
+            "examples": [
+              "Resolution=414_simple"
+            ]
+          },
+          {
+            "width": 768.0,
+            "height": 260.0,
+            "count": 1,
+            "examples": [
+              "Resolution=768"
+            ]
+          },
+          {
+            "width": 1024.0,
+            "height": 285.0,
+            "count": 1,
+            "examples": [
+              "Resolution=1024"
+            ]
+          },
+          {
+            "width": 1366.0,
+            "height": 361.0,
+            "count": 1,
+            "examples": [
+              "Resolution=1366"
+            ]
+          }
+        ],
+        "dependencies": [
+          {
+            "nodeId": "26610:60470",
+            "name": "element/false/320"
+          },
+          {
+            "nodeId": "26610:60466",
+            "name": "element/true/320"
+          },
+          {
+            "nodeId": "26610:60455",
+            "name": "element/true/375"
+          },
+          {
+            "nodeId": "26610:60414",
+            "name": "logo-TOP-COLLECTIONS"
+          }
+        ],
+        "publishStatus": "CHANGED"
+      }
+    },
+    {
+      "slug": "rail-top-titles",
+      "platform": "iOS",
+      "libraryId": "lib-ios",
+      "relatedSources": [
+        {
+          "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=26610-60413",
+          "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+          "branchKey": null,
+          "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+          "nodeId": "26610:60413",
+          "kind": "guide",
+          "lastCheckedAt": "2026-08-24T07:56:35Z",
+          "snapshotHash": "4a601d96af043eeb40c1c4120ff582240f013f44d389d77bd3de6f087a82d1c3",
+          "snapshot": {
+            "name": "Use case — Rail / Top Titles",
+            "nodeType": "SECTION",
+            "description": "",
+            "status": "ready",
+            "properties": [],
+            "variants": {},
+            "variantCount": 0,
+            "dimensions": [],
+            "dependencies": []
+          }
+        }
+      ],
+      "name": "Rail / Top Titles",
+      "card": "rail-top-titles.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=26610-28243",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "26610:28243"
+      },
+      "lastCheckedAt": "2026-08-24T07:55:27Z",
+      "snapshotHash": "1b28c597332e88e14574f7d3b64c055bfb6e9720c429a15d531b657d3c9cf172",
+      "snapshot": {
+        "name": "Rail / Top Titles",
+        "nodeType": "COMPONENT_SET",
+        "description": "",
+        "status": "ready",
+        "properties": [
+          {
+            "name": "Resolution",
+            "type": "variant",
+            "defaultValue": "iPad Pro",
+            "options": [
+              "iPad 1024",
+              "iPad 768",
+              "iPad Pro",
+              "iPhone",
+              "iPhone SE"
+            ]
+          }
+        ],
+        "variants": {
+          "Resolution": [
+            "iPad 1024",
+            "iPad 768",
+            "iPad Pro",
+            "iPhone",
+            "iPhone SE"
+          ]
+        },
+        "variantCount": 5,
+        "dimensions": [
+          {
+            "width": 320.0,
+            "height": 191.0,
+            "count": 1,
+            "examples": [
+              "Resolution=iPhone SE"
+            ]
+          },
+          {
+            "width": 375.0,
+            "height": 220.0,
+            "count": 1,
+            "examples": [
+              "Resolution=iPhone"
+            ]
+          },
+          {
+            "width": 768.0,
+            "height": 246.0,
+            "count": 1,
+            "examples": [
+              "Resolution=iPad 768"
+            ]
+          },
+          {
+            "width": 1024.0,
+            "height": 265.0,
+            "count": 1,
+            "examples": [
+              "Resolution=iPad 1024"
+            ]
+          },
+          {
+            "width": 1366.0,
+            "height": 336.0,
+            "count": 1,
+            "examples": [
+              "Resolution=iPad Pro"
+            ]
+          }
+        ],
+        "dependencies": [
+          {
+            "nodeId": "40158:70736",
+            "name": "x / Кавер"
+          },
+          {
+            "nodeId": "40158:70934",
+            "name": "Ячейка / 1024"
+          },
+          {
+            "nodeId": "40158:71384",
+            "name": "Ячейка / 320 New"
+          },
+          {
+            "nodeId": "40158:79658",
+            "name": "Ячейка / 375 New"
+          }
+        ],
+        "publishStatus": "CHANGED"
+      }
+    },
+    {
+      "slug": "rail-tracks",
+      "platform": "iOS",
+      "libraryId": "lib-ios",
+      "relatedSources": [],
+      "name": "Rail / Tracks",
+      "card": "rail-tracks.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=41694-34904",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "41694:34904"
+      },
+      "lastCheckedAt": "2026-08-24T08:12:22Z",
+      "snapshotHash": "f1aa6bfb8ed8d7374f6d2fb082baf971a006d1f4a7659e0e676fc09c290633a7",
+      "snapshot": {
+        "name": "Rail / Tracks",
+        "nodeType": "COMPONENT_SET",
+        "description": "",
+        "status": "ready",
+        "properties": [
+          {
+            "name": "Device",
+            "type": "variant",
+            "defaultValue": "iPhone 15",
+            "options": [
+              "iPad 10",
+              "iPad Mini 6",
+              "iPad Pro 13",
+              "iPhone 15",
+              "iPhone 17 Pro Max"
+            ]
+          }
+        ],
+        "variants": {
+          "Device": [
+            "iPad 10",
+            "iPad Mini 6",
+            "iPad Pro 13",
+            "iPhone 15",
+            "iPhone 17 Pro Max"
+          ]
+        },
+        "variantCount": 5,
+        "dimensions": [
+          {
+            "width": 363.0,
+            "height": 236.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone 15"
+            ]
+          },
+          {
+            "width": 410.0,
+            "height": 236.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone 17 Pro Max"
+            ]
+          },
+          {
+            "width": 1063.0,
+            "height": 188.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad Mini 6"
+            ]
+          },
+          {
+            "width": 1110.0,
+            "height": 188.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad 10"
+            ]
+          },
+          {
+            "width": 1306.0,
+            "height": 188.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad Pro 13"
+            ]
+          }
+        ],
+        "dependencies": [
+          {
+            "nodeId": "29595:53876",
+            "name": "Rail - Base",
+            "componentSetId": "29595:53875"
+          }
+        ],
+        "publishStatus": "CHANGED"
+      }
+    },
+    {
+      "slug": "rail-vertical",
+      "platform": "iOS",
+      "libraryId": "lib-ios",
+      "relatedSources": [],
+      "name": "Rail - Vertical",
+      "card": "rail-vertical.md",
+      "source": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=15462-365012",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "branchKey": null,
+        "apiFileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "15462:365012"
+      },
+      "lastCheckedAt": "2026-08-24T08:12:21Z",
+      "snapshotHash": "4cfabaaba6304456ed4c779a94aa7707cd7f9f7fc3ada877fa3118e0b8952e59",
+      "snapshot": {
+        "name": "Rail - Vertical",
+        "nodeType": "COMPONENT_SET",
+        "description": "",
+        "status": "ready",
+        "properties": [
+          {
+            "name": "Device",
+            "type": "variant",
+            "defaultValue": "iPhone 15",
+            "options": [
+              "iPad 10",
+              "iPad Mini 6",
+              "iPad Pro 13",
+              "iPhone 15",
+              "iPhone 17 Pro Max"
+            ]
+          }
+        ],
+        "variants": {
+          "Device": [
+            "iPad 10",
+            "iPad Mini 6",
+            "iPad Pro 13",
+            "iPhone 15",
+            "iPhone 17 Pro Max"
+          ]
+        },
+        "variantCount": 5,
+        "dimensions": [
+          {
+            "width": 390.0,
+            "height": 232.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone 15"
+            ]
+          },
+          {
+            "width": 410.0,
+            "height": 224.0,
+            "count": 1,
+            "examples": [
+              "Device=iPhone 17 Pro Max"
+            ]
+          },
+          {
+            "width": 1063.0,
+            "height": 358.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad Mini 6"
+            ]
+          },
+          {
+            "width": 1110.0,
+            "height": 370.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad 10"
+            ]
+          },
+          {
+            "width": 1306.0,
+            "height": 411.0,
+            "count": 1,
+            "examples": [
+              "Device=iPad Pro 13"
+            ]
+          }
+        ],
+        "dependencies": [
+          {
+            "nodeId": "29595:53876",
+            "name": "Rail - Base",
+            "componentSetId": "29595:53875"
+          }
+        ],
+        "publishStatus": "CHANGED"
       }
     },
     {

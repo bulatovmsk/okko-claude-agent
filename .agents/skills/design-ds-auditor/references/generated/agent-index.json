@@ -399,6 +399,206 @@
       "lastCheckedAt": "2026-08-21T15:38:37Z"
     },
     {
+      "id": "featured-main",
+      "name": "Featured - Main",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/featured-main.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=13093-106907&t=6NQra4uE9oLKkthr-4",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "13093:106907"
+      },
+      "lastCheckedAt": "2026-08-24T08:32:29Z"
+    },
+    {
+      "id": "featured-meta",
+      "name": "Featured - Meta",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/featured-meta.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=40306-47681&t=6NQra4uE9oLKkthr-4",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "40306:47681"
+      },
+      "lastCheckedAt": "2026-08-24T08:27:22Z"
+    },
+    {
+      "id": "grid-circle-zvuk",
+      "name": "Grid / Circle Zvuk",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/grid-circle-zvuk.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=38370-38407",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "38370:38407"
+      },
+      "lastCheckedAt": "2026-08-24T14:23:13Z"
+    },
+    {
+      "id": "grid-content",
+      "name": "Grid / Content",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/grid-content.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=38566-83080",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "38566:83080"
+      },
+      "lastCheckedAt": "2026-08-24T14:23:14Z"
+    },
+    {
+      "id": "grid-large",
+      "name": "Grid / Large",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/grid-large.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=38573-88598",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "38573:88598"
+      },
+      "lastCheckedAt": "2026-08-24T14:23:14Z"
+    },
+    {
+      "id": "grid-main",
+      "name": "Grid / Main",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/grid-main.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=38564-73131",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "38564:73131"
+      },
+      "lastCheckedAt": "2026-08-24T14:23:13Z"
+    },
+    {
+      "id": "grid-person",
+      "name": "Grid / Person",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/grid-person.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=23272-59082",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "23272:59082"
+      },
+      "lastCheckedAt": "2026-08-24T14:23:13Z"
+    },
+    {
+      "id": "grid-square",
+      "name": "Grid / Square",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/grid-square.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=21878-59446",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "21878:59446"
+      },
+      "lastCheckedAt": "2026-08-24T14:23:14Z"
+    },
+    {
+      "id": "grid-ticket",
+      "name": "Grid / Ticket",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/grid-ticket.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=28139-209869",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "28139:209869"
+      },
+      "lastCheckedAt": "2026-08-24T14:23:13Z"
+    },
+    {
+      "id": "grid-vertical",
+      "name": "Grid / Vertical",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/grid-vertical.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=38575-90604",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "38575:90604"
+      },
+      "lastCheckedAt": "2026-08-24T14:23:13Z"
+    },
+    {
       "id": "input",
       "name": "Text input",
       "kind": "component",
@@ -557,6 +757,486 @@
         "nodeId": "14447:113928"
       },
       "lastCheckedAt": "2026-08-21T15:34:05Z"
+    },
+    {
+      "id": "rail-announces",
+      "name": " Rail - Announces",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/rail-announces.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=30646-111294",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "30646:111294"
+      },
+      "lastCheckedAt": "2026-08-24T08:12:19Z"
+    },
+    {
+      "id": "rail-background",
+      "name": "Rail - Background",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/rail-background.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=6721-53275",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "6721:53275"
+      },
+      "lastCheckedAt": "2026-08-24T08:12:19Z"
+    },
+    {
+      "id": "rail-base",
+      "name": "Rail - Base",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/rail-base.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=29595-53875",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "29595:53875"
+      },
+      "lastCheckedAt": "2026-08-24T08:12:20Z"
+    },
+    {
+      "id": "rail-catalog",
+      "name": "Rail  - 🟡Catalog [Нет в проде]",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "work-in-progress",
+      "automaticUse": false,
+      "card": "design-system/components/rail-catalog.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=15586-192048",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "15586:192048"
+      },
+      "lastCheckedAt": "2026-08-24T08:12:19Z"
+    },
+    {
+      "id": "rail-circle",
+      "name": "Rail - Circle",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/rail-circle.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=32668-60746",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "32668:60746"
+      },
+      "lastCheckedAt": "2026-08-24T08:12:20Z"
+    },
+    {
+      "id": "rail-content",
+      "name": "Rail - 🟡Content [Нет в проде]",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "work-in-progress",
+      "automaticUse": false,
+      "card": "design-system/components/rail-content.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=25931-80240",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "25931:80240"
+      },
+      "lastCheckedAt": "2026-08-24T08:12:21Z"
+    },
+    {
+      "id": "rail-continue",
+      "name": "Rail - Continue",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/rail-continue.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=15462-313281",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "15462:313281"
+      },
+      "lastCheckedAt": "2026-08-24T08:12:20Z"
+    },
+    {
+      "id": "rail-highlights",
+      "name": "Rail - Highlights",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/rail-highlights.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=30477-83196",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "30477:83196"
+      },
+      "lastCheckedAt": "2026-08-24T08:12:20Z"
+    },
+    {
+      "id": "rail-large",
+      "name": "Rail - Large",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/rail-large.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=15462-375550",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "15462:375550"
+      },
+      "lastCheckedAt": "2026-08-24T08:12:20Z"
+    },
+    {
+      "id": "rail-main",
+      "name": "Rail - Main",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/rail-main.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=5988-42272",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "5988:42272"
+      },
+      "lastCheckedAt": "2026-08-24T08:12:20Z"
+    },
+    {
+      "id": "rail-marketing",
+      "name": "Rail - Marketing",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/rail-marketing.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=23009-43824",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "23009:43824"
+      },
+      "lastCheckedAt": "2026-08-24T08:12:20Z"
+    },
+    {
+      "id": "rail-medium",
+      "name": "Rail - Medium",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/rail-medium.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=24049-48738",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "24049:48738"
+      },
+      "lastCheckedAt": "2026-08-24T08:12:20Z"
+    },
+    {
+      "id": "rail-mixed-top",
+      "name": "Rail / Mixed Top",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/rail-mixed-top.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=26610-73027",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "26610:73027"
+      },
+      "lastCheckedAt": "2026-08-24T07:55:33Z"
+    },
+    {
+      "id": "rail-person-horizontal",
+      "name": "Rail - Person Horizontal",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/rail-person-horizontal.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=23197-42884",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "23197:42884"
+      },
+      "lastCheckedAt": "2026-08-24T08:12:21Z"
+    },
+    {
+      "id": "rail-personal-widget",
+      "name": "Rail - Personal Widget",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/rail-personal-widget.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=31185-161182",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "31185:161182"
+      },
+      "lastCheckedAt": "2026-08-24T08:12:21Z"
+    },
+    {
+      "id": "rail-square",
+      "name": "Rail - Square",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/rail-square.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=7768-73596",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "7768:73596"
+      },
+      "lastCheckedAt": "2026-08-24T08:12:21Z"
+    },
+    {
+      "id": "rail-square-medium",
+      "name": "Rail - 🟡Square Medium",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "work-in-progress",
+      "automaticUse": false,
+      "card": "design-system/components/rail-square-medium.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=35893-32643",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "35893:32643"
+      },
+      "lastCheckedAt": "2026-08-24T08:12:22Z"
+    },
+    {
+      "id": "rail-square-small-1-story",
+      "name": "Rail - SquareSmall1Story",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/rail-square-small-1-story.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=16941-129762",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "16941:129762"
+      },
+      "lastCheckedAt": "2026-08-24T08:12:21Z"
+    },
+    {
+      "id": "rail-square-small-2-story",
+      "name": "Rail - SquareSmall2Story",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/rail-square-small-2-story.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=7616-73598",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "7616:73598"
+      },
+      "lastCheckedAt": "2026-08-24T08:12:21Z"
+    },
+    {
+      "id": "rail-ticket",
+      "name": "Rail - Ticket",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/rail-ticket.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=28139-194880",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "28139:194880"
+      },
+      "lastCheckedAt": "2026-08-24T08:12:21Z"
+    },
+    {
+      "id": "rail-top-collections",
+      "name": "Rail / Top Collections",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/rail-top-collections.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=26610-66862",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "26610:66862"
+      },
+      "lastCheckedAt": "2026-08-24T07:55:30Z"
+    },
+    {
+      "id": "rail-top-titles",
+      "name": "Rail / Top Titles",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/rail-top-titles.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=26610-28243",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "26610:28243"
+      },
+      "lastCheckedAt": "2026-08-24T07:55:27Z"
+    },
+    {
+      "id": "rail-tracks",
+      "name": "Rail / Tracks",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/rail-tracks.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=41694-34904",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "41694:34904"
+      },
+      "lastCheckedAt": "2026-08-24T08:12:22Z"
+    },
+    {
+      "id": "rail-vertical",
+      "name": "Rail - Vertical",
+      "kind": "component",
+      "platform": "ios",
+      "deviceClasses": [
+        "phone",
+        "tablet"
+      ],
+      "libraryId": "lib-ios",
+      "lifecycle": "ready",
+      "automaticUse": true,
+      "card": "design-system/components/rail-vertical.md",
+      "figma": {
+        "url": "https://www.figma.com/design/rMcDm5qGp4CXkXXddEbcMh/Lib-iOS?node-id=15462-365012",
+        "fileKey": "rMcDm5qGp4CXkXXddEbcMh",
+        "nodeId": "15462:365012"
+      },
+      "lastCheckedAt": "2026-08-24T08:12:21Z"
     },
     {
       "id": "select",

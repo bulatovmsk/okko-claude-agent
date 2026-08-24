@@ -139,7 +139,7 @@ def component_status(record: Dict[str, Any]) -> str:
         return "deprecated"
     if name.startswith("⚪") or "[planned]" in lowered:
         return "planned"
-    if name.startswith("🟡"):
+    if "🟡" in name or "[нет в проде]" in lowered:
         return "work-in-progress"
     if name.startswith("🔵") or "[design-only]" in lowered or "[design only]" in lowered:
         return "design-only"

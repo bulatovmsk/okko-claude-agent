@@ -456,6 +456,95 @@
 ### Связь со semantic-токенами
 Большинство FILL-стилей продублированы как semantic-переменные с тем же путём (стиль `color/fill/fade/top/primary` ↔ переменная `color.fill.fade.top.primary`). Это сделано, чтобы один и тот же градиент можно было применить и как «стиль» в Figma, и через bound variable в коде.
 
+
+---
+
+## C. Переход со старых цветов на semantic-токены
+
+Источник соответствий — описания semantic-токенов на странице Figma `Color Tokens` (`32102:23149`), фрейм `Semantic` (`32102:23561`). Таблица фиксирует **соответствие имён**, но не замораживает HEX: актуальные значения и aliases всегда проверяются в read-only Tokens Studio source of truth `bulatovmsk/token-studio-repo/main`.
+
+### Платформенное правило
+
+- Для новых макетов и новых реализаций используй semantic-токены `color.*` из правой колонки.
+- **Web временно может сохранять старые имена и старые значения** из левой колонки из-за ограничения платформы. Это допустимое платформенное исключение для существующей реализации, а не правило для новых макетов.
+- При аудите Web старый цвет из таблицы отмечается как **допустимое legacy-исключение / долг миграции**, а не как самостоятельное нарушение ДС.
+- За пределами Web это исключение не применяется: старый цвет нужно заменить новым semantic-токеном по назначению.
+- Старый цвет, которого нет в таблице, и прямой HEX без подтверждённого исключения требуют отдельной проверки.
+- Написание legacy-имён сохранено ровно как в Figma, включая исторические `Forth`, `Negaive`, `Horisontal` и `Solid/Negative`.
+
+### Таблица перехода
+
+| Старое имя | Новый semantic-токен | Назначение |
+|---|---|---|
+| `Text & icon/on Dark/Primary` | `color.text-icon.primary` | Заголовки и основные иконки |
+| `Text & icon/on Dark/Secondary` | `color.text-icon.secondary` | Основной текст |
+| `Text & icon/on Dark/Third` | `color.text-icon.third` | Второстепенный текст |
+| `Text & icon/on Dark/Forth` | `color.text-icon.fourth` | Хинты, подсказки |
+| `Text & icon/on Dark/Accent` | `color.text-icon.accent` | Ссылки |
+| `Text & icon/on Dark/Offer` | `color.text-icon.offer` | Ссылки |
+| `Text & icon/on Dark/Positive` | `color.text-icon.positive` | Положительные события |
+| `Text & icon/on Dark/Negaive` | `color.text-icon.negative` | Ошибки, критичные предупреждения |
+| `Text & icon/on Dark/Warning` | `color.text-icon.warning` | Некритичные предупреждения |
+| `Text & icon/on Light/Primary` | `color.text-icon.inverse.primary` | — |
+| `Text & icon/on Light/Forth` | `color.text-icon.inverse.fourth` | — |
+| `Text & icon/on Light/Third` | `color.text-icon.inverse.third` | — |
+| `Border/Solid` | `color.border.solid` | Обводки и разделители |
+| `Border/Glassy` | `color.border.glassy` | Обводки и разделители |
+| `Border/Focus` | `color.border.focus` | Фокус ТВ |
+| `Border/Active` | `color.border.active` | Обводка активных элементов, например, выбранный сезон |
+| `Border/Contour` | `color.border.contour` | Контур контента, чтобы не сливался с черным |
+| `Border/Decorative/on Dark/Focus` | `color.border.decorative.focus` | Рамка фокуса |
+| `Border/Decorative/on Dark/Active Horisontal` | `color.border.decorative.active-horizontal` | Офферы, спецпредложения |
+| `Border/Decorative/on Dark/Active Vertical` | `color.border.decorative.active-vertical` | Офферы, спецпредложения |
+| `Fill/Solid/Accent` | `color.fill.solid.accent` | Офферы, спецпредложения |
+| `Fill/Solid/Primary` | `color.fill.solid.primary` | Крупные кликабельные элементы, баннеры |
+| `Fill/Solid/Secondary` | `color.fill.solid.secondary` | Для всех кликабельных компонентов: табы, ценники, способы оплаты или реги, другие плашки |
+| `Fill/Solid/Third` | `color.fill.solid.third` | Мелкие кликабельные элементы: чекбоксы, радиобаттоны |
+| `Fill/Solid/Forth` | `color.fill.solid.fourth` | — |
+| `Fill/Solid/Inverse` | `color.fill.solid.inverse` | Альтернативный цвет для акцентов, кнопок, снекбара в темной теме |
+| `Fill/Solid/Positive` | `color.fill.solid.positive` | Положительные события |
+| `Solid/Negative` | `color.fill.solid.negative` | Ошибки, критичные предупреждения |
+| `Fill/Solid/Warning` | `color.fill.solid.warning` | Некритичные предупреждения |
+| `Fill/Solid/Live` | `color.fill.solid.live` | Live трансляции |
+| `Fill/Solid: hover & focus/Primary` | `color.fill.solid.hover-focus.primary` | Для состояния ховера или фокуса компонентов залитых solid-primary |
+| `Fill/Solid: hover & focus/Secondary` | `color.fill.solid.hover-focus.secondary` | Для состояния ховера или фокуса компонентов залитых solid-secondary |
+| `Fill/Solid: hover & focus/Third` | `color.fill.solid.hover-focus.third` | Для состояния ховера или фокуса компонентов залитых Solid-third |
+| `Fill/Solid/Accent` | `color.fill.decorative.promo` | Офферы, спецпредложения |
+| `Fill/Glassy/Primary` | `color.fill.glassy.primary` | Использовать, только если нужна прозрачность. Например, плашка на неоднородном фоне |
+| `Fill/Glassy/Secondary` | `color.fill.glassy.secondary` | Использовать, только если нужна прозрачность. Например, плашка на неоднородном фоне. Аналог Solid |
+| `Fill/Glassy/Negative` | `color.fill.glassy.negative` | Например, для подсветки ошибки в поле ввода |
+| `Fill/Glassy/Third` | `color.fill.glassy.third` | Использовать, только если нужна прозрачность. Например, элемент на неоднородном фоне. Аналог Solid. + Второстепенные кнопки |
+| `Fill/Glassy: hover & focus/Secondary` | `color.fill.glassy.hover-focus.secondary` | Для состояния ховера или фокуса компонентов залитых Glassy-secondary |
+| `Fill/Glassy: hover & focus/Third` | `color.fill.glassy.hover-focus.third` | Для состояния ховера или фокуса компонентов залитых Glassy-third |
+| `Fill/Fade/Top/Primary` | `color.fill.fade.top.primary` | Градиент для фейда изображений или видео |
+| `Fill/Fade/Top/Secondary` | `color.fill.fade.top.secondary` | Градиент для фейда изображений или видео |
+| `Fill/Fade/Top/Third` | `color.fill.fade.top.third` | Градиент для фейда изображений или видео |
+| `Fill/Fade/Top/Fourth` | `color.fill.fade.top.fourth` | Градиент для фейда изображений или видео |
+| `Fill/Fade/Right/Primary` | `color.fill.fade.right.primary` | Градиент для фейда изображений или видео |
+| `Fill/Fade/Right/Secondary` | `color.fill.fade.right.secondary` | Градиент для фейда изображений или видео |
+| `Fill/Fade/Right/Fourth` | `color.fill.fade.right.fourth` | Градиент для фейда изображений или видео |
+| `Fill/Fade/Bottom/Primary` | `color.fill.fade.bottom.primary` | Градиент для фейда изображений или видео |
+| `Fill/Fade/Bottom/Secondary` | `color.fill.fade.bottom.secondary` | Градиент для фейда изображений или видео |
+| `Fill/Fade/Bottom/Third` | `color.fill.fade.bottom.third` | Градиент для фейда изображений или видео |
+| `Fill/Fade/Bottom/Fourth` | `color.fill.fade.bottom.fourth` | Градиент для фейда изображений или видео |
+| `Fill/Fade/Left/Primary` | `color.fill.fade.left.primary` | Градиент для фейда изображений или видео |
+| `Fill/Fade/Left/Secondary` | `color.fill.fade.left.secondary` | Градиент для фейда изображений или видео |
+| `Fill/Fade/Left/Third` | `color.fill.fade.left.third` | Градиент для фейда изображений или видео |
+| `Fill/Fade/Left/Fourth` | `color.fill.fade.left.fourth` | Градиент для фейда изображений или видео |
+| `Fill/Technical/on Dark/Placeholder` | `color.fill.technical.placeholder` | Фон для отображения состояния, когда ответ от сервера получен и загружается контент |
+| `Background/Solid/Primary` | `color.background.solid.primary` | Основной фон |
+| `Background/Solid/Secondary` | `color.background.solid.secondary` | Для окон |
+| `Background/Solid/Inverse` | `color.background.solid.inverse` | — |
+| `Background/Glassy/Primary` | `color.background.glassy.primary` | Фон поверх изображения |
+| `Background/Glassy/Secondary` | `color.background.glassy.secondary` | Фон поверх изображения |
+| `Background/Glassy/Third` | `color.background.glassy.third` | Фон поверх изображения, видео (плеер) |
+| `Background/Glassy/Forth` | `color.background.glassy.fourth` | Фон поверх изображения |
+
+> **Неоднозначный переход:** `Fill/Solid/Accent` указан и для `color.fill.solid.accent`, и для `color.fill.decorative.promo`. Не заменяй его массово только по имени — сначала определи назначение конкретного слоя или компонента.
+>
+> **Пробел в исходной таблице:** новый `color.fill.fade.right.third` существует в source of truth, но для него в Figma не заполнено явное legacy-соответствие. Автоматическую замену старого имени для этой строки не выполнять без подтверждения.
+
+
 ---
 
 ## Правила: что когда брать

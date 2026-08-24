@@ -49,6 +49,10 @@ class FigmaComponentsTests(unittest.TestCase):
         self.assertEqual(MODULE.status_from_name("🟢 Button"), "ready")
         self.assertEqual(MODULE.status_from_name("🔵 Button"), "design-only")
         self.assertEqual(MODULE.status_from_name("🟡 Button"), "work-in-progress")
+        self.assertEqual(
+            MODULE.status_from_name("Rail - 🟡Catalog [Нет в проде]"),
+            "work-in-progress",
+        )
         self.assertEqual(MODULE.status_from_name("⚪ Button"), "planned")
         self.assertEqual(MODULE.status_from_name("🔴 Button"), "deprecated")
         self.assertEqual(MODULE.status_from_name("Button [Deprecated]"), "deprecated")
@@ -57,6 +61,7 @@ class FigmaComponentsTests(unittest.TestCase):
         snapshot = MODULE.snapshot_from_payload(self.payload, "42:7")
 
         self.assertEqual(snapshot["nodeType"], "COMPONENT_SET")
+        self.assertEqual(snapshot["publishStatus"], "CHANGED")
         self.assertEqual(snapshot["status"], "ready")
         self.assertEqual(snapshot["variantCount"], 2)
         self.assertEqual(snapshot["variants"]["Device"], ["iPad", "iPhone"])
@@ -175,6 +180,12 @@ class FigmaComponentsTests(unittest.TestCase):
                         "componentPropertyDefinitions": {
                             "Status Bar#1:2": {"type": "BOOLEAN"}
                         },
+                    },
+                    {
+                        "id": "42:9",
+                        "name": "_Layout - Internal Part",
+                        "type": "COMPONENT",
+                        "absoluteBoundingBox": {"width": 24, "height": 24},
                     }
                 ],
             }
@@ -193,6 +204,15 @@ class FigmaComponentsTests(unittest.TestCase):
         self.assertEqual(snapshot["members"][0]["properties"][0]["name"], "Status Bar")
         self.assertEqual(record["kind"], "collection")
         self.assertEqual(registry["collections"][0]["slug"], "layouts")
+
+    def test_rejects_internal_component_as_primary_card(self):
+        snapshot = MODULE.snapshot_from_payload(self.payload, "42:7")
+        snapshot["name"] = "_Button / Icon"
+
+        with self.assertRaisesRegex(MODULE.ComponentError, "внутренними запчастями"):
+            MODULE.upsert_component(
+                MODULE.empty_registry(), MODULE.parse_figma_url(self.url), snapshot
+            )
 
     def test_explicit_slug_migrates_source_without_duplicate_component(self):
         registry = MODULE.empty_registry()
