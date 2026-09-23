@@ -1,0 +1,4 @@
+interface:
+  display_name: "Okko Figma Library Optimizer"
+  short_description: "Оптимизация структуры библиотек Okko"
+  default_prompt: "Используй $design-figma-library-optimizer, чтобы проверить и оптимизировать структуру Figma-библиотеки Okko."

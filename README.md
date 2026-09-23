@@ -13,7 +13,9 @@ Repo-scoped навыки Codex для работы с дизайн-систем�
 │   ├── design-ds-auditor/
 │   ├── design-layout-helper/
 │   ├── design-doc-writer/
+│   ├── design-component-overview-generator/
 │   ├── design-figma-libraries/
+│   ├── design-figma-library-optimizer/
 │   ├── design-platform-mobile/
 │   ├── design-platform-tv/
 │   └── ux-copy/
@@ -58,7 +60,9 @@ $ux-copy Проверь текст кнопки: «Нажмите для про�
 | `design-ds-auditor` | Аудит макетов, скриншотов и Figma-фреймов |
 | `design-layout-helper` | Структура экранов и платформенная компоновка |
 | `design-doc-writer` | Гайдлайны компонентов в Figma |
+| `design-component-overview-generator` | Тестовые матрицы всех допустимых вариантов компонента в Figma |
 | `design-figma-libraries` | Карта библиотек и синхронизация данных Figma |
+| `design-figma-library-optimizer` | Аудит и безопасная оптимизация структуры Figma-библиотек |
 | `design-platform-mobile` | Правила iOS и Android |
 | `design-platform-tv` | D-pad, focus и ограничения TV |
 | `ux-copy` | Редактура интерфейсных текстов по Редполитике |

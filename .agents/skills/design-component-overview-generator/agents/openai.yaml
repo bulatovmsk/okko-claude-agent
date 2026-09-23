@@ -1,0 +1,4 @@
+interface:
+  display_name: "Okko Component Overview"
+  short_description: "Матрицы вариантов компонентов в Figma"
+  default_prompt: "Используй $design-component-overview-generator, чтобы создать тестовый Overview всех валидных вариантов компонента в Figma."
