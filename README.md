@@ -11,6 +11,7 @@ Repo-scoped навыки Codex для работы с дизайн-систем�
 ├── .agents/skills/          # навыки, которые Codex обнаруживает из проекта
 │   ├── design-ds-librarian/
 │   ├── design-ds-auditor/
+│   ├── design-ux-reviewer/
 │   ├── design-layout-helper/
 │   ├── design-doc-writer/
 │   ├── design-component-overview-generator/
@@ -58,6 +59,7 @@ $ux-copy Проверь текст кнопки: «Нажмите для про�
 |---|---|
 | `design-ds-librarian` | Поиск компонентов, токенов и правил ДС |
 | `design-ds-auditor` | Аудит макетов, скриншотов и Figma-фреймов |
+| `design-ux-reviewer` | Критическое UX/UI-ревью макетов с проверкой сценариев и внешних практик |
 | `design-layout-helper` | Структура экранов и платформенная компоновка |
 | `design-doc-writer` | Гайдлайны компонентов в Figma |
 | `design-component-overview-generator` | Тестовые матрицы всех допустимых вариантов компонента в Figma |

@@ -7,6 +7,7 @@
 - Найти библиотеку, файл или nodeId → `library-navigator.md`.
 - Подобрать компонент или проверить lifecycle → `ds-librarian.md`.
 - Проверить макет по дизайн-системе → `ds-auditor.md`.
+- Критически оценить сценарии, UX/UI и внешние практики → `ux-reviewer.md`.
 - Собрать или адаптировать экран → `layout-helper.md`.
 - Создать матрицу вариантов компонента → `component-overview.md`.
 - Создать гайдлайн компонента → `component-doc-writer.md`.
