@@ -24,6 +24,10 @@ description: Отвечает на вопросы о компонентах, а�
    Для Dropdown Web и прежнего Context Menu Web дополнительно читай [решение о модификации Dropdown](../design-doc-writer/references/dropdown-web.md): там актуальный в рамках этой задачи Figma-источник, область Desktop Web и границы подтверждённости. Это не свидетельство публикации или готовности реализации.
 4. Для токенов GitHub-репозиторий `bulatovmsk/token-studio-repo`, ветка `main`, является источником правды (source of truth). Figma и локальные Markdown-файлы не переопределяют значения из него.
 
+Для вопросов о Chips Web читай [контекст Web](../design-figma-libraries/references/chips-web.md); карточка `references/components/chips.md` описывает iOS и не задаёт Web API.
+
+Для Select Web читай [контекст Select Web](../design-figma-libraries/references/select-web.md); карточка `references/components/select.md` относится к iOS. Не смешивай матрицы состояний Select и Chips.
+
 ## Актуальные токены
 
 Периодически обращайся к репозиторию и актуализируй локальные данные. Перед каждым ответом, где важны актуальные название, наличие или значение токена, выполни минимальный read-only запрос:
