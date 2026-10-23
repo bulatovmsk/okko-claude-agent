@@ -19,6 +19,8 @@ description: Создаёт или обновляет Figma-гайдлайны �
 
 Для Select Web читай [контекст Select](../design-figma-libraries/references/select-web.md): продолжай существующие гайд и паспорт, показывай общую группу Chips + Select в каталоге и связь с Dropdown.
 
+При описании состояний web-контролов читай [правило hover](../design-figma-libraries/references/control-hover.md): документируй соответствие основной заливке и отдельный слой эффекта.
+
 ## Исследование компонента
 
 - Используй Figma-ссылку пользователя как основной источник структуры, variants, component properties, размеров и состояний.

@@ -32,6 +32,8 @@ description: Навигирует по Figma-библиотекам дизайн
 
 При создании или обновлении оформления комплекта читай [общий эталон](../design-doc-writer/references/component-presentation.md): компонент слева, гайд по центру, паспорт справа, общая секция без имени. При переносе сохраняй эту компоновку и пустое имя секции. Запрос на обучение оформлению не требует регистрации эталонной секции как компонента или массовой синхронизации.
 
+Для hover web-контролов читай [соответствие эффекта основной заливке](references/control-hover.md): Glassy требует Glassy Hover, Solid — Solid Hover; Selected использует Solid Inverse.
+
 ## Получение данных
 
 - Для массовых read-only запросов используй REST-скрипты проекта: `scripts/figma-api.sh`, `scripts/figma-fetch-node.sh`, `scripts/figma-render.sh`.
