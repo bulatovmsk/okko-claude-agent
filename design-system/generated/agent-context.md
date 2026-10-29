@@ -19,7 +19,7 @@
 | `okko-head` | Okko Head Library | android, ios, tv, web | `active` | — |
 | `tokens-mobile-web` | Tokens [mobile & web] | android, ios, web | `active` | — |
 | `tokens-tv` | Tokens [tv] | tv | `active` | — |
-| `lib-android` | Lib-Android | android | `pending-source` | okko-head, tokens-mobile-web |
+| `lib-android` | Lib-Android | android | `active` | okko-head, tokens-mobile-web |
 | `lib-ios` | Lib-iOS | ios | `active` | okko-head, tokens-mobile-web |
 | `lib-tv` | Lib-TV | tv | `active` | okko-head, tokens-tv |
 | `lib-web` | Lib-Web | web | `pending-source` | okko-head, tokens-mobile-web |

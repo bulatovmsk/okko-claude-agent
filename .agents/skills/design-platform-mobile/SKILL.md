@@ -14,6 +14,7 @@ description: Даёт платформенные рекомендации для
 - компоненты Okko при необходимости: `references/components/`
 - lifecycle и библиотечная принадлежность: `references/generated/agent-index.json`
 - подтверждённые iOS/Android/Web соответствия: `references/mappings/platform-mappings.json`
+- исходники и свойства Android Mobile в мастере: [Android Mobile](../design-figma-libraries/references/android-mobile.md); снимок не заменяет живую Figma и не подтверждает межплатформенный mapping
 
 Читай только файлы выбранной платформы. Если пользователь просит сравнение, прочитай оба.
 

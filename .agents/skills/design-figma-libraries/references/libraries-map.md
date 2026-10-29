@@ -4,6 +4,12 @@
 
 ## Библиотеки
 
+### Lib-Android Mobile
+
+Основной файл: `VCkyAgp18B3cs0RwzcwHrI`. Ветка оптимизации `1MDpmSso5t3cKiFWhrtTd2` слита в мастер, библиотека опубликована по сообщению пользователя. [Источники, состав и снимок свойств Android](android-mobile.md) сверены с мастером 29 октября 2026 года.
+
+Страница `Structure` в мастере — `38199:31977`. Правила оформления для всех платформ — [эталон Structure](../../design-figma-library-optimizer/references/structure-page.md).
+
 ### Lib-iOS (основная iOS-библиотека компонентов)
 
 | Параметр | Значение |
@@ -253,7 +259,7 @@ Okko Head Library          ── цвета, иконки, иллюстраци
 🦖 Tokens [mobile & web]   ── spacing/corner/typography ────┤
 🦍 Tokens [tv]             ── spacing/corner/typography ────┤
                                                             ├─→ Lib-iOS ──компоненты──┐
-                                                            ├─→ Lib-Android (TBD) ────┤─→ Продуктовые файлы
+                                                            ├─→ Lib-Android ──────────┤─→ Продуктовые файлы
                                                             ├─→ Lib-TV ───────────────┤   (Афиша, ios-коллекции…)
                                                             └─→ Lib-Web (TBD)     ────┘
 ```

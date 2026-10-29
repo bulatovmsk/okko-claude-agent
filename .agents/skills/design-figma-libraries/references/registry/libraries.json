@@ -44,10 +44,13 @@
       "id": "lib-android",
       "name": "Lib-Android",
       "kind": "components",
-      "status": "pending-source",
+      "status": "active",
       "platforms": ["android"],
       "deviceClasses": ["phone", "tablet"],
-      "source": null,
+      "source": {
+        "fileKey": "VCkyAgp18B3cs0RwzcwHrI",
+        "url": "https://www.figma.com/design/VCkyAgp18B3cs0RwzcwHrI/Lib-Android-Mobile"
+      },
       "dependencies": ["okko-head", "tokens-mobile-web"]
     },
     {

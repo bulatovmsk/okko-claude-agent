@@ -1,0 +1,6916 @@
+{
+  "schemaVersion": 1,
+  "description": "Снимок компонентов, представленных на странице Structure Android Mobile; определения свойств не подтверждают привязки слоёв и не устанавливают статус публикации.",
+  "capturedAt": "2026-10-28",
+  "verifiedAgainstMasterAt": "2026-10-29",
+  "source": {
+    "fileKey": "VCkyAgp18B3cs0RwzcwHrI",
+    "originalBranchKey": "1MDpmSso5t3cKiFWhrtTd2",
+    "apiFileKey": "VCkyAgp18B3cs0RwzcwHrI",
+    "structurePageId": "38199:31977"
+  },
+  "components": [
+    {
+      "group": "Platform guidelines",
+      "page": "01 · System UI",
+      "pageId": "36389:14695",
+      "catalogLabel": "Status Bar",
+      "nodeId": "36389:14810",
+      "name": "Building Blocks/status-bar",
+      "type": "COMPONENT",
+      "properties": {
+        "Camera Cutout#53106:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        }
+      }
+    },
+    {
+      "group": "Platform guidelines",
+      "page": "01 · System UI",
+      "pageId": "36389:14695",
+      "catalogLabel": "Navigation Bar",
+      "nodeId": "36389:14825",
+      "name": "Building Blocks/navigation",
+      "type": "COMPONENT",
+      "properties": {}
+    },
+    {
+      "group": "Platform guidelines",
+      "page": "01 · System UI",
+      "pageId": "36389:14695",
+      "catalogLabel": "Keyboard",
+      "nodeId": "36389:14827",
+      "name": "Keyboard",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Configuration": {
+          "type": "VARIANT",
+          "defaultValue": "Base keyboard",
+          "variantOptions": [
+            "Base keyboard",
+            "Alphanumeric",
+            "Keypad",
+            "Numeric only"
+          ]
+        },
+        "Style": {
+          "type": "VARIANT",
+          "defaultValue": "Portrait",
+          "variantOptions": [
+            "Portrait",
+            "Landscape",
+            "Floating"
+          ]
+        }
+      },
+      "variantCount": 12
+    },
+    {
+      "group": "Controls",
+      "page": "02 · Buttons",
+      "pageId": "13674:74249",
+      "catalogLabel": "Button",
+      "nodeId": "13738:75115",
+      "name": "🟢 Button",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "String Text#360:22": {
+          "type": "TEXT",
+          "defaultValue": "Нажать кнопку"
+        },
+        "Icon#17310:1": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "↳ Icon Instance#17397:0": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "32672:2855",
+          "preferredValues": []
+        },
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet"
+          ]
+        },
+        "Shape": {
+          "type": "VARIANT",
+          "defaultValue": "Rectangle",
+          "variantOptions": [
+            "Rectangle",
+            "Circle →",
+            "Circle ↓"
+          ]
+        },
+        "Style": {
+          "type": "VARIANT",
+          "defaultValue": "Primary",
+          "variantOptions": [
+            "Primary",
+            "Secondary",
+            "Ghost"
+          ]
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "Large",
+          "variantOptions": [
+            "ExtraSmall",
+            "Default",
+            "Large",
+            "Small"
+          ]
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "Rest",
+          "variantOptions": [
+            "Rest",
+            "Touch",
+            "Disabled",
+            "Loading",
+            "Progress"
+          ]
+        },
+        "Text": {
+          "type": "VARIANT",
+          "defaultValue": "True",
+          "variantOptions": [
+            "True",
+            "False"
+          ]
+        }
+      },
+      "variantCount": 400
+    },
+    {
+      "group": "Controls",
+      "page": "02 · Buttons",
+      "pageId": "13674:74249",
+      "catalogLabel": "Button Sber",
+      "nodeId": "16025:932",
+      "name": "🟢 Button - Sber",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "String Text#360:22": {
+          "type": "TEXT",
+          "defaultValue": "Нажать кнопку"
+        },
+        "Icon#17310:1": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet"
+          ]
+        },
+        "Partner": {
+          "type": "VARIANT",
+          "defaultValue": "SBER",
+          "variantOptions": [
+            "SBER"
+          ]
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "Default",
+          "variantOptions": [
+            "Default",
+            "Small"
+          ]
+        },
+        "Text": {
+          "type": "VARIANT",
+          "defaultValue": "True",
+          "variantOptions": [
+            "True",
+            "False"
+          ]
+        }
+      },
+      "variantCount": 8
+    },
+    {
+      "group": "Controls",
+      "page": "02 · Buttons",
+      "pageId": "13674:74249",
+      "catalogLabel": "Bet Button",
+      "nodeId": "20325:6908",
+      "name": "🟢 Bet Button",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet"
+          ]
+        },
+        "Type": {
+          "type": "VARIANT",
+          "defaultValue": "Icon+Text",
+          "variantOptions": [
+            "Odds",
+            "Icon+Text"
+          ]
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "Default",
+          "variantOptions": [
+            "Default",
+            "Small"
+          ]
+        }
+      },
+      "variantCount": 8
+    },
+    {
+      "group": "Controls",
+      "page": "02 · Buttons",
+      "pageId": "13674:74249",
+      "catalogLabel": "SberPay",
+      "nodeId": "19910:1158",
+      "name": "🟢 Button - SberPay",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "String Text#360:22": {
+          "type": "TEXT",
+          "defaultValue": "Оплатить"
+        },
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet"
+          ]
+        },
+        "Partner": {
+          "type": "VARIANT",
+          "defaultValue": "SBER",
+          "variantOptions": [
+            "SBER"
+          ]
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "Default",
+          "variantOptions": [
+            "Default",
+            "Small"
+          ]
+        }
+      },
+      "variantCount": 4
+    },
+    {
+      "group": "Controls",
+      "page": "02 · Buttons",
+      "pageId": "13674:74249",
+      "catalogLabel": "Button Mini",
+      "nodeId": "17217:106249",
+      "name": "🟡 Button - Mini",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "↳ Icon Instance#17229:0": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "32672:5191",
+          "preferredValues": []
+        },
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet"
+          ]
+        }
+      },
+      "variantCount": 2
+    },
+    {
+      "group": "Controls",
+      "page": "02 · Buttons",
+      "pageId": "13674:74249",
+      "catalogLabel": "Button Group",
+      "nodeId": "17217:106254",
+      "name": "Button - Group",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Shape": {
+          "type": "VARIANT",
+          "defaultValue": "Circle",
+          "variantOptions": [
+            "Circle",
+            "Rectangle"
+          ]
+        }
+      },
+      "variantCount": 2
+    },
+    {
+      "group": "Controls",
+      "page": "02 · Buttons",
+      "pageId": "13674:74249",
+      "catalogLabel": "Button Download 3.0",
+      "nodeId": "25135:874",
+      "name": "🔵 Button - Download 3.0",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "Загрузить",
+          "variantOptions": [
+            "Загрузить",
+            "В очереди",
+            "Загружается",
+            "На паузе",
+            "Ошибка",
+            "Сбой",
+            "Загружен",
+            "Лицензии",
+            "Недоступно",
+            "Лицензии loading"
+          ]
+        },
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Tablet",
+          "variantOptions": [
+            "Tablet",
+            "Phone"
+          ]
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "Default",
+          "variantOptions": [
+            "Default",
+            "Small"
+          ]
+        }
+      },
+      "variantCount": 40
+    },
+    {
+      "group": "Controls",
+      "page": "02 · Buttons",
+      "pageId": "13674:74249",
+      "catalogLabel": "Button Toggle",
+      "nodeId": "37449:2312",
+      "name": "🟢 Button - Toggle",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Icon#17310:1": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "↳ Selected Icon Instance#28567:3": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "32672:2849",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "0a744867f1b7a455c86b86afefd2629aefec0f14"
+            }
+          ]
+        },
+        "String Text#29499:0": {
+          "type": "TEXT",
+          "defaultValue": "Нажать кнопку"
+        },
+        "↳ Icon Instance#29506:350": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "32672:5191",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "11e03e5549b3b37d6bc19eed7958e8021f96761e"
+            }
+          ]
+        },
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet"
+          ]
+        },
+        "Shape": {
+          "type": "VARIANT",
+          "defaultValue": "Rectangle",
+          "variantOptions": [
+            "Rectangle",
+            "Circle →",
+            "Circle ↓"
+          ]
+        },
+        "Style": {
+          "type": "VARIANT",
+          "defaultValue": "Primary",
+          "variantOptions": [
+            "Primary",
+            "Secondary",
+            "Ghost"
+          ]
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "Default",
+          "variantOptions": [
+            "Default",
+            "Small"
+          ]
+        },
+        "Selected": {
+          "type": "VARIANT",
+          "defaultValue": "False",
+          "variantOptions": [
+            "True",
+            "False"
+          ]
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "Rest",
+          "variantOptions": [
+            "Rest",
+            "Touch",
+            "Disabled",
+            "Loading"
+          ]
+        },
+        "Text": {
+          "type": "VARIANT",
+          "defaultValue": "True",
+          "variantOptions": [
+            "True",
+            "False"
+          ]
+        }
+      },
+      "variantCount": 368
+    },
+    {
+      "group": "Controls",
+      "page": "02 · Buttons",
+      "pageId": "13674:74249",
+      "catalogLabel": "Bet Button Odds",
+      "nodeId": "38015:18836",
+      "name": "🔵 Bet Button - Odds",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet"
+          ]
+        },
+        "Type": {
+          "type": "VARIANT",
+          "defaultValue": "Odds(Alt)",
+          "variantOptions": [
+            "Odds(Alt)"
+          ]
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "Default",
+          "variantOptions": [
+            "Default",
+            "Small"
+          ]
+        }
+      },
+      "variantCount": 4
+    },
+    {
+      "group": "Controls",
+      "page": "02 · Buttons",
+      "pageId": "13674:74249",
+      "catalogLabel": "Button AI Assistant",
+      "nodeId": "30324:5258",
+      "name": "🟢 Button - AI Assistant",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Text#30947:0": {
+          "type": "TEXT",
+          "defaultValue": "Нажать кнопку"
+        },
+        "Show icon#34352:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet"
+          ]
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "Default",
+          "variantOptions": [
+            "Default",
+            "Small"
+          ]
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "Rest",
+          "variantOptions": [
+            "Rest",
+            "Touch"
+          ]
+        }
+      },
+      "variantCount": 8
+    },
+    {
+      "group": "Controls",
+      "page": "03 · Filters",
+      "pageId": "15426:1143",
+      "catalogLabel": "Chips",
+      "nodeId": "29548:315",
+      "name": "🟢 Chips",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Text#34229:3": {
+          "type": "TEXT",
+          "defaultValue": "Chips"
+        },
+        "Show Icon#34229:16": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Icon#34229:21": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "32672:3890",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "11e03e5549b3b37d6bc19eed7958e8021f96761e"
+            }
+          ]
+        },
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet"
+          ]
+        },
+        "Style": {
+          "type": "VARIANT",
+          "defaultValue": "Icon",
+          "variantOptions": [
+            "Icon",
+            "Img"
+          ]
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "Rest",
+          "variantOptions": [
+            "Rest",
+            "Disabled",
+            "Touch"
+          ]
+        },
+        "Selected": {
+          "type": "VARIANT",
+          "defaultValue": "False",
+          "variantOptions": [
+            "True",
+            "False"
+          ]
+        }
+      },
+      "variantCount": 24
+    },
+    {
+      "group": "Controls",
+      "page": "03 · Filters",
+      "pageId": "15426:1143",
+      "catalogLabel": "Select",
+      "nodeId": "29548:508",
+      "name": "🟢 Select",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Text#34229:3": {
+          "type": "TEXT",
+          "defaultValue": "Select"
+        },
+        "Show Icon#34229:16": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Icon#34229:21": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "32672:3890",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "11e03e5549b3b37d6bc19eed7958e8021f96761e"
+            }
+          ]
+        },
+        "Show Counter#34884:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Count#34953:0": {
+          "type": "TEXT",
+          "defaultValue": "99"
+        },
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet"
+          ]
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "Rest",
+          "variantOptions": [
+            "Rest",
+            "Touch",
+            "Disabled"
+          ]
+        },
+        "Selected": {
+          "type": "VARIANT",
+          "defaultValue": "False",
+          "variantOptions": [
+            "True",
+            "False"
+          ]
+        }
+      },
+      "variantCount": 12
+    },
+    {
+      "group": "Controls",
+      "page": "04 · Switch, Radio, Checkbox",
+      "pageId": "11034:59541",
+      "catalogLabel": "Checkbox",
+      "nodeId": "11241:60268",
+      "name": "🟢 Checkbox",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "disabled"
+          ]
+        },
+        "Checked": {
+          "type": "VARIANT",
+          "defaultValue": "True",
+          "variantOptions": [
+            "True",
+            "False"
+          ]
+        }
+      },
+      "variantCount": 4
+    },
+    {
+      "group": "Controls",
+      "page": "04 · Switch, Radio, Checkbox",
+      "pageId": "11034:59541",
+      "catalogLabel": "Radio Button",
+      "nodeId": "11241:60273",
+      "name": "🟢 Radio",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "disabled",
+            "default"
+          ]
+        },
+        "Checked": {
+          "type": "VARIANT",
+          "defaultValue": "True",
+          "variantOptions": [
+            "True",
+            "False"
+          ]
+        }
+      },
+      "variantCount": 4
+    },
+    {
+      "group": "Controls",
+      "page": "04 · Switch, Radio, Checkbox",
+      "pageId": "11034:59541",
+      "catalogLabel": "Switch",
+      "nodeId": "11241:60284",
+      "name": "🟢 Switch",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "disabled"
+          ]
+        },
+        "Checked": {
+          "type": "VARIANT",
+          "defaultValue": "True",
+          "variantOptions": [
+            "True",
+            "False"
+          ]
+        }
+      },
+      "variantCount": 4
+    },
+    {
+      "group": "Controls",
+      "page": "05 · TabNavigation",
+      "pageId": "23293:22381",
+      "catalogLabel": "TabNavigation",
+      "nodeId": "24909:10241",
+      "name": "🟢 TabNavigation",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Background#26203:0": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "29957:52873",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "0b59cfc3117ca1e0171b5aa46de6384571e8e80d"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "071ae7dea13cd81d5c36f60a429e090ce4685a1c"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "b04a57487598d71643a70ba01c0d35fa796ba405"
+            }
+          ]
+        },
+        "Show Background#32603:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Icon#32603:8": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "32672:5191",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "11e03e5549b3b37d6bc19eed7958e8021f96761e"
+            }
+          ]
+        },
+        "Text#32633:7": {
+          "type": "TEXT",
+          "defaultValue": "Text"
+        },
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Tablet",
+          "variantOptions": [
+            "Tablet",
+            "Phone"
+          ]
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "Default",
+          "variantOptions": [
+            "Small",
+            "Default"
+          ]
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "Rest",
+          "variantOptions": [
+            "Rest",
+            "Touch"
+          ]
+        },
+        "Show Icon": {
+          "type": "VARIANT",
+          "defaultValue": "True",
+          "variantOptions": [
+            "False",
+            "True"
+          ]
+        },
+        "Show Right Padding": {
+          "type": "VARIANT",
+          "defaultValue": "True",
+          "variantOptions": [
+            "True",
+            "False"
+          ]
+        }
+      },
+      "variantCount": 32
+    },
+    {
+      "group": "Controls",
+      "page": "05 · TabNavigation",
+      "pageId": "23293:22381",
+      "catalogLabel": "Rail Double Tab",
+      "nodeId": "24909:10266",
+      "name": "🟢 Rail - Double Tab",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Row 1#33627:0": {
+          "type": "SLOT",
+          "description": null,
+          "preferredValues": []
+        },
+        "Row 2#33627:3": {
+          "type": "SLOT",
+          "description": null,
+          "preferredValues": []
+        },
+        "Carousel#33627:6": {
+          "type": "SLOT",
+          "description": null,
+          "preferredValues": []
+        },
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Tablet",
+          "variantOptions": [
+            "Phone",
+            "Tablet"
+          ]
+        }
+      },
+      "variantCount": 2
+    },
+    {
+      "group": "Controls",
+      "page": "06 · TabGroup",
+      "pageId": "13168:62960",
+      "catalogLabel": "TabGroup",
+      "nodeId": "15426:1007",
+      "name": "🟢 TabGroup",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Top Padding#32410:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet"
+          ]
+        },
+        "Layout": {
+          "type": "VARIANT",
+          "defaultValue": "Scrollable",
+          "variantOptions": [
+            "Stretch",
+            "Scrollable"
+          ]
+        },
+        "Content": {
+          "type": "VARIANT",
+          "defaultValue": "Text & Icon",
+          "variantOptions": [
+            "Text & Icon",
+            "Season Number"
+          ]
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "Small",
+          "variantOptions": [
+            "Large",
+            "Default",
+            "Small"
+          ]
+        }
+      },
+      "variantCount": 18
+    },
+    {
+      "group": "Controls",
+      "page": "06 · TabGroup",
+      "pageId": "13168:62960",
+      "catalogLabel": "Tab",
+      "nodeId": "21808:840",
+      "name": "🟢 Tab",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Show Label#29026:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Show Icon#32006:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "↳ Swap icon#32006:61": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "32672:1969",
+          "preferredValues": []
+        },
+        "Background#32016:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Tablet",
+          "variantOptions": [
+            "Tablet",
+            "Phone"
+          ]
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "Rest",
+          "variantOptions": [
+            "Rest",
+            "Active",
+            "Pressed",
+            "Disabled",
+            "Active Pressed"
+          ]
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "Small",
+          "variantOptions": [
+            "Large",
+            "Default",
+            "Small"
+          ]
+        },
+        "Content": {
+          "type": "VARIANT",
+          "defaultValue": "Text & Icon",
+          "variantOptions": [
+            "Text & Icon",
+            "Season Number"
+          ]
+        },
+        "Theme": {
+          "type": "VARIANT",
+          "defaultValue": "Main",
+          "variantOptions": [
+            "Main"
+          ]
+        }
+      },
+      "variantCount": 60
+    },
+    {
+      "group": "Navigation",
+      "page": "07 · Navbar",
+      "pageId": "4321:14963",
+      "catalogLabel": "Navbar",
+      "nodeId": "26532:8273",
+      "name": "Navbar",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Subscription logo#26532:36": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Right Icons#26532:37": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Subtitle#26532:70": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Show Slots#37373:38": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Show Offer Button#37382:57": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Show Image#37382:72": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Show Spasibo#37388:87": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Statusbar#38178:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Title#38178:68": {
+          "type": "TEXT",
+          "defaultValue": "Каталог"
+        },
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet"
+          ]
+        },
+        "Type": {
+          "type": "VARIANT",
+          "defaultValue": "Logo",
+          "variantOptions": [
+            "Title",
+            "Dialog",
+            "Edit",
+            "Skeleton",
+            "Zvuk",
+            "Logo",
+            "Secondary screen",
+            "Logo Kids"
+          ]
+        },
+        "Unauthorized": {
+          "type": "VARIANT",
+          "defaultValue": "False",
+          "variantOptions": [
+            "False"
+          ]
+        }
+      },
+      "variantCount": 16
+    },
+    {
+      "group": "Navigation",
+      "page": "08 · Tabbar",
+      "pageId": "14682:55815",
+      "catalogLabel": "Tabbar",
+      "nodeId": "32369:12926",
+      "name": "Tabbar",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet"
+          ]
+        },
+        "Authorized": {
+          "type": "VARIANT",
+          "defaultValue": "True",
+          "variantOptions": [
+            "True",
+            "False"
+          ]
+        }
+      },
+      "variantCount": 4
+    },
+    {
+      "group": "Navigation",
+      "page": "08 · Tabbar",
+      "pageId": "14682:55815",
+      "catalogLabel": "Tabbar Main",
+      "nodeId": "19802:13816",
+      "name": "Tabbar - Main",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Tablet",
+            "Phone"
+          ]
+        },
+        "Детское меню": {
+          "type": "VARIANT",
+          "defaultValue": "False",
+          "variantOptions": [
+            "True",
+            "False"
+          ]
+        }
+      },
+      "variantCount": 4
+    },
+    {
+      "group": "Navigation",
+      "page": "09 · Big Tabs",
+      "pageId": "35336:56965",
+      "catalogLabel": "Big Tabs",
+      "nodeId": "35337:56976",
+      "name": "🟢 Big Tabs",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet"
+          ]
+        },
+        "Scrolled": {
+          "type": "VARIANT",
+          "defaultValue": "False",
+          "variantOptions": [
+            "False",
+            "True"
+          ]
+        }
+      },
+      "variantCount": 4
+    },
+    {
+      "group": "Text Fields",
+      "page": "10 · Input",
+      "pageId": "10726:58385",
+      "catalogLabel": "Text Input",
+      "nodeId": "10733:59088",
+      "name": "🟢 Input - Text",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Text content#10796:0": {
+          "type": "TEXT",
+          "defaultValue": "Text string"
+        },
+        "Undertitle text#10796:11": {
+          "type": "TEXT",
+          "defaultValue": "Undertitle text"
+        },
+        "Undertitle#11535:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "↳ Icon instance#11630:0": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "11630:60833",
+          "preferredValues": []
+        },
+        "Icon#12547:22": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet"
+          ]
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "typing",
+            "complete",
+            "error",
+            "disabled"
+          ]
+        }
+      },
+      "variantCount": 10
+    },
+    {
+      "group": "Text Fields",
+      "page": "10 · Input",
+      "pageId": "10726:58385",
+      "catalogLabel": "Symbol Input",
+      "nodeId": "10733:59190",
+      "name": "🟢 Input - Symbol",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Error text#38178:85": {
+          "type": "TEXT",
+          "defaultValue": "There is an error"
+        },
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet"
+          ]
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "error",
+            "typing",
+            "complete",
+            "disabled"
+          ]
+        }
+      },
+      "variantCount": 10
+    },
+    {
+      "group": "Text Fields",
+      "page": "11 · Search",
+      "pageId": "30148:3649",
+      "catalogLabel": "Search",
+      "nodeId": "26535:13993",
+      "name": "🟢 Search",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Show Close Button#30148:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Show AI Button#30148:9": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Placeholder#30148:18": {
+          "type": "TEXT",
+          "defaultValue": "Фильм, жанр, матч или персона"
+        },
+        "Query#30148:27": {
+          "type": "TEXT",
+          "defaultValue": "Текст"
+        },
+        "Show Voice#30148:36": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "Rest",
+          "variantOptions": [
+            "Rest",
+            "Focused",
+            "Typing",
+            "Completed"
+          ]
+        },
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet"
+          ]
+        }
+      },
+      "variantCount": 8
+    },
+    {
+      "group": "Overlays",
+      "page": "12 · Snackbar",
+      "pageId": "10756:58607",
+      "catalogLabel": "Snackbar",
+      "nodeId": "10756:59496",
+      "name": "🟢 Snackbar",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Show Action Button#13730:3": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Show Icon#16854:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Message#16861:246": {
+          "type": "TEXT",
+          "defaultValue": "Текст в одну или две строки. Длинный, а можно еще длиннее"
+        },
+        "↳ Swap Icon#19624:0": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "37778:48570",
+          "preferredValues": []
+        },
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet"
+          ]
+        }
+      },
+      "variantCount": 2
+    },
+    {
+      "group": "Overlays",
+      "page": "13 · Sheet",
+      "pageId": "18460:10732",
+      "catalogLabel": "Bottom Sheet",
+      "nodeId": "31209:5818",
+      "name": "🟢 BottomSheet",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Slot Content#26907:0": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "26904:7263",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "458f6c48742240044788d7a78d3b78b668091a87"
+            }
+          ]
+        },
+        "Slot box#31209:0": {
+          "type": "SLOT",
+          "description": null,
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "eb40a6ee0c5b9b793c0f592ebd84779477b7c9c3"
+            }
+          ]
+        },
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet"
+          ]
+        },
+        "Detent": {
+          "type": "VARIANT",
+          "defaultValue": "Large",
+          "variantOptions": [
+            "Large",
+            "Medium",
+            "Hug Height",
+            "Fill Width&Hug Height",
+            "Fullscreen"
+          ]
+        }
+      },
+      "variantCount": 10
+    },
+    {
+      "group": "Overlays",
+      "page": "13 · Sheet",
+      "pageId": "18460:10732",
+      "catalogLabel": "Sheet Item",
+      "nodeId": "18460:22798",
+      "name": "BottomSheetBuilder - SheetItem",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Content": {
+          "type": "VARIANT",
+          "defaultValue": "Placeholder",
+          "variantOptions": [
+            "Top Image 2:1",
+            "Header",
+            "Body Text",
+            "Meta Text",
+            "Buttons",
+            "List Item",
+            "Action List",
+            "Divider",
+            "Settings",
+            "Tabs",
+            "Main rail",
+            "Timeline Section",
+            "Content",
+            "Text input",
+            "Problem",
+            "Placeholder",
+            "Accent Text",
+            "Bet Raws",
+            "Review header",
+            "Content Card",
+            "List",
+            "Оценка",
+            "Status Text"
+          ]
+        },
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Tablet",
+            "Phone"
+          ]
+        }
+      },
+      "variantCount": 46
+    },
+    {
+      "group": "Overlays",
+      "page": "13 · Sheet",
+      "pageId": "18460:10732",
+      "catalogLabel": "Sheet Navigation",
+      "nodeId": "18524:7168",
+      "name": "BottomSheet - Navigation",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Title String#26907:11": {
+          "type": "TEXT",
+          "defaultValue": "Title"
+        },
+        "Type": {
+          "type": "VARIANT",
+          "defaultValue": "Primary",
+          "variantOptions": [
+            "Primary",
+            "Secondary",
+            "Ghost"
+          ]
+        },
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet"
+          ]
+        }
+      },
+      "variantCount": 6
+    },
+    {
+      "group": "Overlays",
+      "page": "13 · Sheet",
+      "pageId": "18460:10732",
+      "catalogLabel": "Sheet Trim",
+      "nodeId": "18870:9203",
+      "name": "BottomSheet - Trim",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet"
+          ]
+        },
+        "Position": {
+          "type": "VARIANT",
+          "defaultValue": "Top",
+          "variantOptions": [
+            "Bottom",
+            "Top"
+          ]
+        },
+        "Style": {
+          "type": "VARIANT",
+          "defaultValue": "Solid",
+          "variantOptions": [
+            "Glassy",
+            "Solid",
+            "GlassyАЛЬТ"
+          ]
+        }
+      },
+      "variantCount": 12
+    },
+    {
+      "group": "Overlays",
+      "page": "13 · Sheet",
+      "pageId": "18460:10732",
+      "catalogLabel": "Sheet Filters",
+      "nodeId": "31209:15486",
+      "name": "🟢 Шаблоны шторки / Фильтры",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Tablet",
+            "Phone"
+          ]
+        }
+      },
+      "variantCount": 2
+    },
+    {
+      "group": "Overlays",
+      "page": "14 · Onboarding Bubble",
+      "pageId": "28137:302",
+      "catalogLabel": "Onboarding Bubble",
+      "nodeId": "28138:52652",
+      "name": "🟢 Onboarding Bubble",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Secondary Text#215:4": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "String / Primary Text#28137:11": {
+          "type": "TEXT",
+          "defaultValue": "Основной текст"
+        },
+        "String / Secondary Text#28137:22": {
+          "type": "TEXT",
+          "defaultValue": "Дополнительный текст"
+        },
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet"
+          ]
+        },
+        "Beak": {
+          "type": "VARIANT",
+          "defaultValue": "Left",
+          "variantOptions": [
+            "Left",
+            "Right",
+            "Top",
+            "Bottom"
+          ]
+        },
+        "Text Alignment": {
+          "type": "VARIANT",
+          "defaultValue": "Left",
+          "variantOptions": [
+            "Left",
+            "Centre"
+          ]
+        }
+      },
+      "variantCount": 12
+    },
+    {
+      "group": "Overlays",
+      "page": "15 · Loader",
+      "pageId": "11195:59525",
+      "catalogLabel": "Loader Phone",
+      "nodeId": "6029:12869",
+      "name": "🟢 Loader - Full screen - Phone",
+      "type": "COMPONENT",
+      "properties": {}
+    },
+    {
+      "group": "Overlays",
+      "page": "15 · Loader",
+      "pageId": "11195:59525",
+      "catalogLabel": "Loader Tablet Landscape",
+      "nodeId": "6049:12907",
+      "name": "🟢 Loader - Full screen - Tablet Landscape",
+      "type": "COMPONENT",
+      "properties": {}
+    },
+    {
+      "group": "Overlays",
+      "page": "15 · Loader",
+      "pageId": "11195:59525",
+      "catalogLabel": "Loader Tablet Portrait",
+      "nodeId": "11195:59691",
+      "name": "🟢 Loader - Full screen - Tablet Portrait",
+      "type": "COMPONENT",
+      "properties": {}
+    },
+    {
+      "group": "Content",
+      "page": "16 · List",
+      "pageId": "11034:59068",
+      "catalogLabel": "List Item V1",
+      "nodeId": "11041:60225",
+      "name": "🟢 List Item",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Icon#11041:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "↳ Icon#11041:77": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "32672:2855",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "1ebc2c47b574367c6e90e4663a3af32810d33a82"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "0b73818df866a5c0473288686ad0121d1108f4d4"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "642919e8587d0e229ac56fbdcd25128f2454e7a5"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "8c58ae2090a5b074d0846b22138e41087ebd762b"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "6699f60bf072fe1ec25d088bd0cef7b25556e421"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "ac4923471b2ac4a278113de31089cbccc0dfb2cf"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "385e90e96ea2f9c34d93cd8420ae698d25cb4dde"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "7cd69f1e977489bbb71d312c85fc0e305bcd2368"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "54530dd052b5df9ada2739f00347de68b1322731"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "5f2833cee42fcd87b3a0ee46881bbc737445dd04"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "74154be82bf7f49182239e527eb8fdbccb7cc348"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "db3128d906a014be718919d5c79aea7423c52d36"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "55fcd26a8025b8bafc999f871bc43588b654ce27"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "a6bf1f0ee69e7a49a938e58cdb7d6bbd6469150d"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "7606bdd482c169dfeb54baf0ec61da876251d839"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "3d4eac57f8ab4c3583085bf9fa509dee49b9aca8"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "5ac14dcd15c50dd6c4f82e9ba91687c91fac4701"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "c1b377ff2a3b02be3ca6551e5f580660604cc3ac"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "9a3a96385fde7088c2d3908d069e250239b9fb2d"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "4bff6221592fe98a5103f520089ae4ccb762e425"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "48ce95d899756217d7a17fca04d145dfb1d8862b"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "263631d21811048ee06967b44cd37d8cd539fec1"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "6a7d445775c5f1e202b234a87eb77290e3f4386e"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "648a9b8865d0b91a5ea7ebeaea9dd81196e3e046"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "ddfdbc24d50af87c8bdf1d210633f99787057496"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "1b28e73956e1ae72c8964da141b763ee1c83de82"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "3757cfb6b50ac0dddd606475b6696eb6ed88ad2a"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "2d3ea30a3a2465aa843b8b0d8052d5099a0466a8"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "bdaf311e608893dca41ddc6d76ee28b3933d93b5"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "a4dc56ee000116735721fd309ab5eefbc4a968fc"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "3707f4b038320eeba81215511caf0b6062b15b91"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "c94480e1d9d80773626dd1dff40813719439aac0"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "2e193bd9dafce2a0708911084b33e632363a588c"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "9927aa4dfb6812140d217e70f15305fe37688600"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "f9724a70125fda62a19e5cdc00284771aba2ae79"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "adc11a65cc652a5de369ee0846966c1354ff33b0"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "773c446cfcbb138262d065d9ecbe0c48836b2f07"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "5d75f5a5187bf85f9d7398601333965d2b3754fa"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "929340566afb88856e8f698183e327d275ea65b3"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "57469ffa2368970f08a85c5509972f2685821042"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "3ce10aa407263e8bac12bb3188b3e1dafb2cd21e"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "4131e84516e7bf0c3fd99f3644593bdb2420dc74"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "1dfa126bbcb12be1b55571840a9cad1cce6c60e8"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "974b2f64742868e94642671c382f5df6b9a05cf7"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "57dbe70f0b5e5c3ccf178eb957a7a38969733229"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "adba578b2ee1007042c067aae8fad9ab21b1af74"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "9f1cf72cf0272d20598152dbaecf13021987b67a"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "0e1ba03688adbe4c2344b66441cf7679020bec01"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "794a24c368b24ccd48e314f572bb4b91deabc969"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "ce368fae33a2c9eb5a66e9e7c3293ddc5961b793"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "7600e3691026abd72053967a9feedc55c3b6903f"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "3e3732ba167e109389e0c2364c52267302a251d7"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "c319f1f809cdf3aa5deb9bb029414dfee45c44e9"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "401f3ab84ac8e93f4acf10e64b957e38bff16bc3"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "4e26f84a5e33db4d90d9f479f7c26f60955ec29f"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "b5a578b04235e77d9700289d9a44f11d30ca0a94"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "3f1cf19388dc80bc048f571b38e3d061012d0d73"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "8cc2c1a22cd6c9ad1fb7ee906cb6ea55d5545b9d"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "e798080b519fde29acfea6ecf645a001a52c81b0"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "def795cf90ebb6634d2c25eb12e4f01c0e6b4e4a"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "7a7b234b2c1e701f2880ccc879acafeb02e1337e"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "db920d6a085d4b6cba767d7edf235475fc3f3d1b"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "3d33e04c6c024cbb0fb61f5e28df48401ee1698e"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "9b43ae09f75aa536be4f04ecf37f5cde6fc21fdb"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "533c87283bb3faff3a7fe1ae9c02945faf9e1730"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "1f63438112fb55776169b01de29046bd455d59db"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "1144b4452eda0b21936eaa4d14c06329b0169c2f"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "9e1ca399587ffbcfc44718be7c8ac62b06ed36a4"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "4cbe980c025d3ce519ae73df3740846bf11affc2"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "01f2b10fe8bd758736a419a8ea5fe4c7361bc5c5"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "21a89e345ab9c2af3a31f798d76ec1eb6de26d19"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "3393635f79dcd9670f9118c4f3ef08e71a46f3df"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "9a55dcbc5531b864570edebd7cf27bf2ed7d29c4"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "cea3bb86a88cfe125105e82f6dcde320567ef076"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "ed9816cc3bc6818e928dbd82e091d4b9e73210df"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "64b6be7885f52d51ce0cd4a09f68a3dad4a700e8"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "b9d6634abecb9547166f702661fe2f5f78f3098b"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "d935b560bc9a60b788ce53f39a786362d015804d"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "c3e7670a9d57582fe47201f1e2a74ce2c646c465"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "de27ad579323f290f76b5e5e5da552fbe5eb7cf2"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "347c71296ed15e6c4fc4f1abab86c82c0d8e9e7a"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "06f6065ec8f6d1b7b807820b19566e899acf7125"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "e03d1ad919fd2ee9454e7b6a1f1abaaa08461446"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "a0bd84b0642b431a4af74cee6f52839c3c0864cd"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "2523ec1b043c08c532a6940e4cebbae07fec5cbc"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "334b52bb3cbe5f7db7775d235d31b612954d21c1"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "94975a9b23ae1dc55543bac72418e50db5f0603e"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "a3975ee72d7e7afdf011a3dd4ac9ecd30e257096"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "6ada83842c7d265b6d2e280b648b234711152439"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "05be4113c1185da8fa9d5c914dab8165a29654ea"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "7a84e97950ac91cd7c3430f75c9b29671183fbd9"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "d024ce9f7db3e14fcef230bc6fddf32d98ff9b34"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "a07910b92f36dd02b4a17adb1306bcdd6121fd72"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "a6e9863b4d701df48870a2d2ff06f12da5b9c23b"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "6c3ab715fb15071cf3b010889acb0ca79ce32041"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "f03b4d694cac196be9e9574271b4b101b1fca88a"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "3d6451b0065518dda5fb91bbe007e16b69539394"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "2ee3bad0a31340fa8e2eeace79840d5b700ac557"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "5092758593294270002c9198e252c2150fa16b92"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "7f60767afd577893eda5129ebe608c97944e5e4c"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "e41c726b807d5549ca22560f8c1dcc62c528cda9"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "0f4113f281219dec82bf6f0cc761bf647f2ff7d7"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "8c760687b5631fd88a7467e5a523868509d74f61"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "f42dc86878032edc7a647d08350e20fdfd51fd5a"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "555a898c6fb13e3ae5afe1590496ec3fe9cce8b8"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "c9f6667315a7eea1eb820bddf8bf4d4464d739f0"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "8a236c67fa0ec41a32a70fcff045112fb151c565"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "3f9ed528a257e2797b4391ea723da0dbc228bbe5"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "149d9d8e76a79ba1d17ec9d2018c73a03e5cbc14"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "cdc48567faa0d94c62be47c1fd1a691a9d36c3a3"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "bc771cd9c47669602589caeeecf13dbb438c0571"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "e4670bba419af527ecfd5d8a13b00f986eb1174f"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "c05c428f67695007f0e6d6566d91bbd993cc3632"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "45fcb2e06eb787af45df0871e0b909f9ee5cf803"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "857104bc71c4467a0ed4a20beef3ca2abc7a8486"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "470bb99a7e4b70327a47f45e71f4dee4c2ab7ac0"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "4b5057ec9d86fca81b2e67ef0a71eff57b7440c6"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "ae0c8ae5b3947ba36d1d6ef36f42592c33107cbb"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "a4a873d56af81501fc2229825ce73619b2b9d4a0"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "e75acae396804610b8d77a622aeb5e146fd93974"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "f79036263525761e1304c98fc281ac4a71a81c6a"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "c1473ec001debfb1803dac9d1479fbc24ab0acec"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "e11e2a6228a36b277100574fc61eeb29af06644d"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "2397890796f4e4416f6425f7e195307e75932e2f"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "7be96fecd93cde8138a2b574643c7429bf16ff66"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "7ca7026e74439326eeca957c2243bf9fe178856a"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "4896c1e5cee09e1a7181f2d1f2f48bbed9e683aa"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "7ef38f3e3523a289a747e05f931a01975e261184"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "c25daca51d46f86ce96a1dda65e91f3a6b9db032"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "3901ce2a99d6f42dc0e193d4bd084b4559f29c0c"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "6206fc3f671db788af9f681cd4b1c1fff702f684"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "0b2b1d5de197678f3e29cdcbcdf6169797c851a7"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "086dca6d0db2f6ac57697b92d522b4303d16b6b3"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "55836e4b9938044432ce67409d76029675a856b1"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "20adcb36d3e153541ab6e619c66c622d3f3fb2fc"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "9eb0958326a9e224983f43180f5b5d2042e2351b"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "0320185afbf558d3fe16875e59face43d0a2ef15"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "c9dc5151bde9ee128b4fa4d2bde0dba676077e56"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "f58cdf3dba0823f415c2cb1c7b92924fa038da3a"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "a7c9330b347514782176d9674ca7fc2272b19d5b"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "0ca35ead40eef03ecc8dfa6e90795de8a2b86074"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "495013971dbb9fd3d8f6e1e4fab9d06f4ae11093"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "d26ebbdf3fadb40357f7a27e464b97061c39a4e5"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "32d790dc25dd74fdc189d772dc09dfb0ea0c2ee9"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "ed3e29420873fce03ca0575f228bae1d26c8ae84"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "4af117fb76902ef6c47ec426fba6b351e3229717"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "a4ef1cd6be05f6c0daec6317948c652cc78cc3b7"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "e55f13aaf3bb133f6646f4cfd010751aacf01564"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "538070931ab1d8f723adfb28e44623869e11d8b4"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "6f8cfd68f0943bf90820a888d7b137e486ca652e"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "7746186c79a3a9b608305f51ac5ff45cb3c2c871"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "0487049c13d1226c7ae483b4c4281b3e6e7e2a64"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "c02cca59ae6c9e77855375a6a9adcff4078251f8"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "24429c79dd70d47330565301f25c8dfdf8fdf274"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "3d9ef32d98ce18c22f94e2415eb00b2c223eb7ad"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "e82e5b6edd60975f138649a8406f09545f43999e"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "69d60d632706afe7761643dd1761ce3f25677ec1"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "27043be9a774074a50072f69085dde8a42e176f1"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "65142ad1af96eb4231d06a0a2053530ad6bf0977"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "e9cb0742313e4b2255ead3e69daa49150d8e8fcb"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "d716da17b534fb904b71e3017e49f44ae850eba6"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "fb90ef10710360780772f872f5bc56c78868ae69"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "57c18e4bf2e921d16ede27b65498f05c5e32c222"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "af781664409b35847b9120eefc9aa88a84d56673"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "3ccc38177a62abc44c9bfe0787074db588c94fe9"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "67b1a7e140a9781fb9e21c2590ff51345f453029"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "c4b61088891512a0f510918940356e075634e2b7"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "dbac222b2763bfe791dce92385d477f841a51cda"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "fc9577d7a4fff08718c860ef13a07f5d1c99c810"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "4e386e3ad1590b5fcdf77530e2fe07dffa87763c"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "6fa0ccad9b02ccefacd8251bea63c13c9fca1eba"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "da80b7dfc62197b4dd09bb2c4d9e93fc69cf51d6"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "68092cb9e591e981cf0e53e345a629cdb7bacdf6"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "201d857fa25b0a86d46661bcec2f5b0a68b933d0"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "b5564f37e47c5b00bdac6f39e87a0d1a03843bc3"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "c44018d26f3df2af93170b7d644d43ed5eda9b20"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "b9b904fbac7279486014c6a24ded66442c7efedd"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "f88e6e544878b77f9064efb4966499d2f96193b5"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "61b3d1996a59d2e1d4929181df8cc02f93f2a25b"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "535a9c5118f4339d184800e454d27d015ec02147"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "4a5e09eab803cb3bcd9177b56cf66b5329b72e2f"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "fc3f906a4fceda525de3944444d2d6aa8681cb8c"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "4064319fa60ebd73802857874bcdfc22773dd337"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "40be27cf30d62b7998a8fb148138ae1b7516a035"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "bef3566c8e5dbbc59dc47f04461b42b50dfb242f"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "068288e83f9c8753a824203d6cd357f1fe756ebc"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "fe51a80fb7bba63a42da0d81cb7394ec2e36ef70"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "434f44d73cc567f3e4e3f4953cfe3f6220ef178c"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "04072d26ac6a577062ea2c5031d55194e5937e88"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "c7042e896af2ec4d0ae45c3bce97a98eb59fb351"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "8e52f729d25c16a77bd8c0d5f9abb1d4fbfad969"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "561da5c700fe5e1796f3a97d8c3e2e3fd9317377"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "e8ccd4d8d801a694f1dbe941f2dec5092b59b88c"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "d70308ae5c518b21ab6ac35f32d0036c04c5a177"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "db30de13455c1e3009d26cb956e4fa335155f56b"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "9888481ffbfe5bd263ec14d23f4a3e79206ab141"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "989c719aaadc89e536e711b868246766d9bb80fa"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "c3f04103e0587da76e253735d9c7c61224fc040b"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "cb83cc3b653bf9c1d70a51375054eeef2629cbe4"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "bba04e4923b9256cbc72b4c15d2bc879fc4bb5d8"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "cabbc5c5835a4d194ea73fb86eabc028c74df15b"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "056aaf21ba058fa985abba4e47f0f47a3e030def"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "3b1ef09031a9b29de87d285a67a73e81769077f3"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "07c7e16d0b51a020f5d9418d57af4b73ba2d6c7e"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "7de8276811b9db2e46f6e47127a78fbb135ad9f7"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "460962da6dd4a5f53743cc6281e414d16423bf5f"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "11ce64f824dfcd7ace3bf17ce10bab6a5b25b557"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "0b05154c5f0608bf6ba6496ddd961b7fe64b9247"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "79b9ec7784e8688154f047f7d65d4c996c8d464e"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "f24fa6f630c5d39f3fd187a1c44e3eb89770c5d6"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "bdb267f9014f2efd9cf1acb5793855db6564f595"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "5ae49e9eb5b332a81a64d396f4a9608aafdb72b9"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "2cbe17f03e2d830ea1d0ce0a1a9fdb0bab0eaafc"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "4f018ee626575d7c1f671d91f0b501e1178a818d"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "5aad66765ed42abed7e479c546060f1d23436c20"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "fdf8bba3f24d49551886e03e1bb7beeaedc9a1da"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "40d312b0b46a708ae4993f362ae0464b28d70f13"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "f8d3d802c85e637315bd1fcde287659cd44b8a9a"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "c27956a6911ceaa568085eed457f088cb9d80de7"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "3439600e1a452531d6f341371c2bb04fd82cc7d5"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "3a36a02f61e0c3004d26b24c1e7b13d69bbbf430"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "b9d1ac954c21d8e5fb37b0d00dfa57c5c667ef15"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "4c1cb89a1edd32b89796a94ccb11c8ab066496de"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "24376ff7e8e1f2158d17518a55c32782cbe7eda9"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "ba4d7ce3483122cb3b5d85ba8be674c298dff1a2"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "9c6973b454fb488c4c45215912d7c7cd699e0845"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "e817184f52ebecb8e34bb13502c629e55cf3a60d"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "1c8e697af6727916ee8bd413389a349d4115fcd9"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "2a9ec39d70f38aea1918d608444b0aaba6adf35d"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "bf4e9a77b46e32fe489f642a5e30d9acaad67d8f"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "7b146fe4469e2f4f96e294cff169c0ff24834a54"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "7371e4b823926b02f11b7f297892961be07c05ca"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "a793e79c91d273cfcdf6d3c06f3a5a6e979ceb27"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "85312f961d6a87846298333920e27fab9b4099bd"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "13aa100f21c5b8efb6e68e9aea0074d773ef89ef"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "03e16c7d3de7c1579157ce2984539e5baf6326b5"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "e20cd26802b405f0a0ff1b6b6eb7643acf60ed06"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "a47cb6935d51117601b21c79f15ea5003435be4a"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "2571e775450ec97c625b74752179f83d29d637f2"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "d3dba2f396414112ef07d1f716903fb749df63f0"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "f7f8364ee05f61dca79f7aa4a1743fc3062c5d4b"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "5e3ada096e633326cef1a965d75b07f57538ec11"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "b8d0797232bc7b2cbb1e5459f5e6e0fd54778ea9"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "96dea2181771c4394b190e8ea83c8b8dd676cb2b"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "bbba596e0099016c64b999d76961de6de1dce335"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "b72fb58bed38ea09cd229a197c30ffeba1f92dfd"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "dd72ae3841ba9de80e83532308fa2d1c7e576f2f"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "1111d481f805110404ac3eb5633db4c0970fb70c"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "72351293e2c36d3f02ad19aaf08001ac7569b151"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "9651aaf907fa2c009e88a67644cf4d93865373e4"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "abd8413154c876aac19aa5db8d2e5639356510bc"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "c6d007879a230f3b164f60c6f49ba03e83dbce37"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "ed4c3fbeaf288abeb561340e6f52bb6cac0d7b08"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "666e541475ab0924edde9c821b56e3010846c155"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "05d78d9993794e808cfcf559d82e2ebbd2aab531"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "b9d207f65b60e065a15d5cdf8e1198adf23bd47c"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "0a744867f1b7a455c86b86afefd2629aefec0f14"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "47a2b76fb8657a0e44e249836383ed948185e755"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "29218b868920cf1fdde9661b45027c6aae91f9cf"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "075333d4e87793352269b7fe786f454315ea94f4"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "9debda8e1c88e091a757715a9b0d5c25b388e44b"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "cc78d3c1c5c47f2791d507b15e7a0cf24991b80b"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "973fc3c0203deec0cc55af3cff1884c5ed35bfa6"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "2d54a99cafa3e75854bf11cf65a16a149dcf8382"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "a06750d53e721b1433ba18b51ea8050cecccaeeb"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "947e06dcbd19352d7d676177e54f0b1db1203ec5"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "080125eb31a5a3488da64961f889afd7c0286231"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "11e03e5549b3b37d6bc19eed7958e8021f96761e"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "8519b476afa628dfe6da07b2f1f7d79ccebe9846"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "a23ff1d7459137bf805e4322793d0664b5e42938"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "4c0fd60f5696b5f94e0a54c90bc49bff9e0d8337"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "8bd5b7a8ffa0765cee66d5c0dabb947129211e6f"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "bf7633e69e6056b6f3864c64a4b45259d919f80d"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "b6207d612bc34953376d6db5b2f98137eb97245a"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "02650d0a4547197d5be77e256a7d00e7c606ca27"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "8a66deb687790d76d22889e23d70322fe1b28e48"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "6f0a7c68a80466a191058835a1cf7cb5edc3b620"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "6c985abe13affe6df71644438bd5dac9470f8e4b"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "83a82fe0db09ae6720e94f7b39a004fdfcb4319f"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "2fc7dbcc3b44937605c78ae698f9c249cea67d74"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "014d25e57e9cabc67877e7934757decc0f016358"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "2c133c8e2519d7cce3a146f6610c07adf1dde495"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "bf223b4df7f1a46e4c3b37da14c9ff7b256b2b7a"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "d2c8c3a52b0fd3718d38b0a75589de361e012bbc"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "05b4f950248bf01fcc99c58e4c560367b58699f6"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "be5cd00cbc3ea0a439538dced8140946223b1e22"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "36fd432c0741be535dff7f97f3981888901905da"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "4bbf1596e881ae2ddea14d42df7d7ab4925830ba"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "e54cb17865f0bbfc92ae8fe83b988bae3fdc5fa3"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "7f83b83811e2e6f99e98dad3f43f610f81b976c5"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "5c901247c60acd6e8d164f8e4ed24911657efcba"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "7427043c9cbc6e3816bcc9e80796d63c4ab70674"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "d5ca1010e0ac7d16e41f28fb5429b2e248014a84"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "ec144ab5912956db9d39548bd819ca9bbaaa948e"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "35327f8b7d0bba616fddc0354fd872af07197d6d"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "736544da4a9ae01523b07673624e077761577d02"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "1e0d5915706a25767fe33b00bd15d9739cd31e0c"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "bbdcddf3ac471cfd7aa27f122fe762ec4b90a2cf"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "f789a9ecc3c8c850b93f2327669f63d5f3dcdefa"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "024a07186e0281b5a93b758a92fede70a76ca682"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "eeeec5c8ae7b871c69d860a0613ad869f240b0c3"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "fe57029593e6420a524b81f7ad5991e75a63fdb4"
+            }
+          ]
+        },
+        "Subtitle#11041:154": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Selected#11041:231": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Filter#11047:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "↳ Logo#11174:0": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "11576:60906",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "3dca5e3becec4d7e989b3a97a0d47164c0b03d16"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "de63a45bde2ee26a1297d433c2be33de9ce282c3"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "91e7a722a9dbccaffd4f80f51601cb609c2b639e"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "130c7014ff596bc1a2d5bbe75966e2797df8ab25"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "155aada97bdff8f9d552f64f41f6192a345bf584"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "bf16a5c49cafa1885428470220c6e069ec482254"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "af1ab6e47c0c4a29dbfe893be45ea9f465c45782"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "17493e5ada63cb31e57782509bbdc8919d51247d"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "436ef17c7b182384df8bacdc633e7874f83d562a"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "e7e335a67cb77d81e7c9ce0596cc7e4dd361dc4f"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "ddb1c125eedcd0b085e389cb0d16a850c959a60d"
+            }
+          ]
+        },
+        "Bottom border#18014:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Arrow#28634:6": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Sber ID#28634:7": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Text Right#28634:8": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Sber Pay#28634:9": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Card Number#28634:10": {
+          "type": "TEXT",
+          "defaultValue": "*0000"
+        },
+        "Pay System#28634:11": {
+          "type": "TEXT",
+          "defaultValue": "Pay System"
+        },
+        "↳ Text Right#28636:0": {
+          "type": "TEXT",
+          "defaultValue": "Right "
+        },
+        "↳ Title#28636:79": {
+          "type": "TEXT",
+          "defaultValue": "Title"
+        },
+        "↳ Subtitle#28636:158": {
+          "type": "TEXT",
+          "defaultValue": "Supporting line text lorem ipsum dolor sit amet"
+        },
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet"
+          ]
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "Rest",
+          "variantOptions": [
+            "Rest",
+            "Loading"
+          ]
+        },
+        "Type": {
+          "type": "VARIANT",
+          "defaultValue": "Action",
+          "variantOptions": [
+            "Action",
+            "Select",
+            "Static",
+            "Logo",
+            "Switch",
+            "Profile",
+            "Pay Card"
+          ]
+        },
+        "L&R Padding": {
+          "type": "VARIANT",
+          "defaultValue": "True",
+          "variantOptions": [
+            "True",
+            "False"
+          ]
+        },
+        "Background": {
+          "type": "VARIANT",
+          "defaultValue": "True",
+          "variantOptions": [
+            "True",
+            "False"
+          ]
+        }
+      },
+      "variantCount": 84
+    },
+    {
+      "group": "Content",
+      "page": "16 · List",
+      "pageId": "11034:59068",
+      "catalogLabel": "List Item",
+      "nodeId": "11136:60042",
+      "name": "List",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet"
+          ]
+        },
+        "Background": {
+          "type": "VARIANT",
+          "defaultValue": "True",
+          "variantOptions": [
+            "False",
+            "True"
+          ]
+        }
+      },
+      "variantCount": 4
+    },
+    {
+      "group": "Content",
+      "page": "16 · List",
+      "pageId": "11034:59068",
+      "catalogLabel": "List Item Team",
+      "nodeId": "33836:4966",
+      "name": "List Item Team",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Icon#40365:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "↳ Icon#40365:4": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "32672:3887",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "cba960706cbdeed84a62c420060f7b9e0f4f6b4d"
+            }
+          ]
+        },
+        "Title#40365:8": {
+          "type": "TEXT",
+          "defaultValue": "Барселона"
+        },
+        "Subtitle#40365:12": {
+          "type": "TEXT",
+          "defaultValue": "Футбол"
+        },
+        "Meta#40365:16": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet P",
+            "Tablet L"
+          ]
+        }
+      },
+      "variantCount": 3
+    },
+    {
+      "group": "Content",
+      "page": "17 · Label",
+      "pageId": "9491:58884",
+      "catalogLabel": "Label Small",
+      "nodeId": "9536:54185",
+      "name": "🟢 Label - Small",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "text -->#5:0": {
+          "type": "TEXT",
+          "defaultValue": "label"
+        },
+        "Icon#5:24": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Icon Instance#38:0": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "32672:3164",
+          "preferredValues": []
+        },
+        "device": {
+          "type": "VARIANT",
+          "defaultValue": "tablet",
+          "variantOptions": [
+            "tablet",
+            "phone"
+          ]
+        },
+        "theme": {
+          "type": "VARIANT",
+          "defaultValue": "Lighthouse",
+          "variantOptions": [
+            "Lighthouse",
+            "Continuum",
+            "Red",
+            "Neutral",
+            "Black",
+            "White",
+            "Positive",
+            "Lemon",
+            "Offer",
+            "Transparent",
+            "SberSpasibo"
+          ]
+        }
+      },
+      "variantCount": 22
+    },
+    {
+      "group": "Content",
+      "page": "17 · Label",
+      "pageId": "9491:58884",
+      "catalogLabel": "Label Large",
+      "nodeId": "9536:54237",
+      "name": "🟢 Label - Large",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "text -->#5:0": {
+          "type": "TEXT",
+          "defaultValue": "label"
+        },
+        "Icon#5:24": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Icon Instance#29:0": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "32672:3164",
+          "preferredValues": []
+        },
+        "device": {
+          "type": "VARIANT",
+          "defaultValue": "tablet",
+          "variantOptions": [
+            "tablet",
+            "phone"
+          ]
+        },
+        "theme": {
+          "type": "VARIANT",
+          "defaultValue": "Lighthouse",
+          "variantOptions": [
+            "Lighthouse",
+            "Continuum",
+            "Red",
+            "Neutral",
+            "Black",
+            "White",
+            "Positive",
+            "Lemon",
+            "Offer",
+            "Transparent",
+            "SberSpasibo"
+          ]
+        }
+      },
+      "variantCount": 22
+    },
+    {
+      "group": "Content",
+      "page": "17 · Label",
+      "pageId": "9491:58884",
+      "catalogLabel": "Label Rich",
+      "nodeId": "15889:23122",
+      "name": "🟢 Label - Rich",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "show accent#120:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "show live icon#120:7": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "show coeff#17536:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "device": {
+          "type": "VARIANT",
+          "defaultValue": "phone",
+          "variantOptions": [
+            "tablet",
+            "phone"
+          ]
+        },
+        "type": {
+          "type": "VARIANT",
+          "defaultValue": "Broadcast",
+          "variantOptions": [
+            "Broadcast"
+          ]
+        },
+        "state": {
+          "type": "VARIANT",
+          "defaultValue": "not started",
+          "variantOptions": [
+            "ended",
+            "live",
+            "not started"
+          ]
+        }
+      },
+      "variantCount": 6
+    },
+    {
+      "group": "Content",
+      "page": "17 · Label",
+      "pageId": "9491:58884",
+      "catalogLabel": "Label Betting",
+      "nodeId": "20363:113419",
+      "name": "🟢 Label - Betting",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Tablet",
+            "Phone"
+          ]
+        },
+        "Partner": {
+          "type": "VARIANT",
+          "defaultValue": "Placeholder",
+          "variantOptions": [
+            "Liga",
+            "Placeholder",
+            "Winline",
+            "Fonbet"
+          ]
+        }
+      },
+      "variantCount": 8
+    },
+    {
+      "group": "Content",
+      "page": "17 · Label",
+      "pageId": "9491:58884",
+      "catalogLabel": "Label Indicator",
+      "nodeId": "23288:612",
+      "name": "🟢 Label - Indicator",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Score": {
+          "type": "VARIANT",
+          "defaultValue": "3 — 90-100%",
+          "variantOptions": [
+            "3 — 90-100%",
+            "2 — 80-90%",
+            "1 — 70-80%"
+          ]
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "Large",
+          "variantOptions": [
+            "Small",
+            "Large"
+          ]
+        },
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Tablet",
+          "variantOptions": [
+            "Tablet",
+            "Phone"
+          ]
+        },
+        "Type": {
+          "type": "VARIANT",
+          "defaultValue": "Full",
+          "variantOptions": [
+            "Full",
+            "Short"
+          ]
+        }
+      },
+      "variantCount": 18
+    },
+    {
+      "group": "Content",
+      "page": "17 · Label",
+      "pageId": "9491:58884",
+      "catalogLabel": "Spasibo Widget",
+      "nodeId": "34343:727",
+      "name": "🟡 Spasibo Widget",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Value#34344:0": {
+          "type": "TEXT",
+          "defaultValue": "5 999"
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Tablet",
+            "Phone"
+          ]
+        },
+        "Type": {
+          "type": "VARIANT",
+          "defaultValue": "Bonuses",
+          "variantOptions": [
+            "Bonuses",
+            "Prime"
+          ]
+        }
+      },
+      "variantCount": 4
+    },
+    {
+      "group": "Content",
+      "page": "18 · Error",
+      "pageId": "19823:575",
+      "catalogLabel": "Error View",
+      "nodeId": "19823:2448",
+      "name": "🟢 Error - View",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Button Box#20588:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Image#22579:4": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Heading#22581:16": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Caption#22581:20": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Timer#22581:24": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "↳ Secondary Btn#22581:28": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "↳ Body Content#22609:0": {
+          "type": "TEXT",
+          "defaultValue": "Description text"
+        },
+        "Body text#22609:7": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "↳ Heading Content#22609:14": {
+          "type": "TEXT",
+          "defaultValue": "Heading text"
+        },
+        "↳ Caption Content#22611:21": {
+          "type": "TEXT",
+          "defaultValue": "Caption text"
+        },
+        "↳ Timer Content#22611:28": {
+          "type": "TEXT",
+          "defaultValue": "Timer text"
+        },
+        "Support Widget#26590:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Description 2#26645:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "↳ Description String 2#26645:4": {
+          "type": "TEXT",
+          "defaultValue": "Description 2 text"
+        },
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet P",
+            "Tablet L"
+          ]
+        }
+      },
+      "variantCount": 3
+    },
+    {
+      "group": "Content",
+      "page": "18 · Error",
+      "pageId": "19823:575",
+      "catalogLabel": "Ошибка: полноэкранная",
+      "nodeId": "28398:43118",
+      "name": "🟢 Error - Template - Полноэкранная",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet L",
+            "Tablet P"
+          ]
+        }
+      },
+      "variantCount": 3
+    },
+    {
+      "group": "Content",
+      "page": "18 · Error",
+      "pageId": "19823:575",
+      "catalogLabel": "Пустое состояние",
+      "nodeId": "28682:7779",
+      "name": "🟢 Error - Template - Пустое состояние полноэкранное",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet L",
+            "Tablet P"
+          ]
+        }
+      },
+      "variantCount": 3
+    },
+    {
+      "group": "Content",
+      "page": "18 · Error",
+      "pageId": "19823:575",
+      "catalogLabel": "Ошибка: фильтры",
+      "nodeId": "28682:13147",
+      "name": "🔵 Error - Template -  Фильтры",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet L",
+            "Tablet P"
+          ]
+        }
+      },
+      "variantCount": 3
+    },
+    {
+      "group": "Content",
+      "page": "18 · Error",
+      "pageId": "19823:575",
+      "catalogLabel": "Ошибка: ТВ-каналы",
+      "nodeId": "28689:14771",
+      "name": "🔵 Error - Template -  ТВ каналы",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet L",
+            "Tablet P"
+          ]
+        }
+      },
+      "variantCount": 3
+    },
+    {
+      "group": "Content",
+      "page": "18 · Error",
+      "pageId": "19823:575",
+      "catalogLabel": "Нет интернета",
+      "nodeId": "28398:47113",
+      "name": "🔵 Error - Template - Нет интернета",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet L",
+            "Tablet P"
+          ]
+        }
+      },
+      "variantCount": 3
+    },
+    {
+      "group": "Content",
+      "page": "18 · Error",
+      "pageId": "19823:575",
+      "catalogLabel": "Неизвестная ошибка",
+      "nodeId": "28427:6073",
+      "name": "🔵 Error - Template -  Неизвестная ошибка",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet L",
+            "Tablet P"
+          ]
+        }
+      },
+      "variantCount": 3
+    },
+    {
+      "group": "Content",
+      "page": "18 · Error",
+      "pageId": "19823:575",
+      "catalogLabel": "Сервис недоступен",
+      "nodeId": "28398:48023",
+      "name": "🔵 Error - Template -  Сервис не доступен",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet L",
+            "Tablet P"
+          ]
+        }
+      },
+      "variantCount": 3
+    },
+    {
+      "group": "Content",
+      "page": "18 · Error",
+      "pageId": "19823:575",
+      "catalogLabel": "Ошибка: шторка",
+      "nodeId": "28398:43138",
+      "name": "🟢 Error - Template - Шторка",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet L",
+            "Tablet P"
+          ]
+        }
+      },
+      "variantCount": 3
+    },
+    {
+      "group": "Content",
+      "page": "18 · Error",
+      "pageId": "19823:575",
+      "catalogLabel": "Ошибка: Snackbar",
+      "nodeId": "28398:43149",
+      "name": "🟢 Error - Template - Snackbar",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Tablet",
+            "Phone"
+          ]
+        }
+      },
+      "variantCount": 2
+    },
+    {
+      "group": "Content",
+      "page": "18 · Error",
+      "pageId": "19823:575",
+      "catalogLabel": "Нет данных",
+      "nodeId": "28682:13146",
+      "name": "🔵 Error - Template -  Нет данных",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Tablet L",
+            "Phone",
+            "Tablet P"
+          ]
+        }
+      },
+      "variantCount": 3
+    },
+    {
+      "group": "Content",
+      "page": "19 · Page Indicator",
+      "pageId": "14682:55894",
+      "catalogLabel": "Page Indicator",
+      "nodeId": "17371:657",
+      "name": "🟢 Page Indicator",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Type": {
+          "type": "VARIANT",
+          "defaultValue": "Short",
+          "variantOptions": [
+            "Long",
+            "Short"
+          ]
+        },
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet"
+          ]
+        }
+      },
+      "variantCount": 4
+    },
+    {
+      "group": "Content",
+      "page": "20 · Skeleton",
+      "pageId": "32769:11530",
+      "catalogLabel": "Skeleton View",
+      "nodeId": "32769:11531",
+      "name": "🟢 Skeleton View",
+      "type": "COMPONENT",
+      "properties": {}
+    },
+    {
+      "group": "UI Type",
+      "page": "21 · Featured",
+      "pageId": "27240:23338",
+      "catalogLabel": "Featured Main",
+      "nodeId": "10026:56448",
+      "name": "🟢 Featured - Main",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "device": {
+          "type": "VARIANT",
+          "defaultValue": "Tablet 1024",
+          "variantOptions": [
+            "Tablet 1024",
+            "Tablet 640",
+            "Phone"
+          ]
+        },
+        "Разделы": {
+          "type": "VARIANT",
+          "defaultValue": "Кино",
+          "variantOptions": [
+            "Дети",
+            "Кино",
+            "Спорт"
+          ]
+        }
+      },
+      "variantCount": 9
+    },
+    {
+      "group": "UI Type",
+      "page": "21 · Featured",
+      "pageId": "27240:23338",
+      "catalogLabel": "Featured Meta",
+      "nodeId": "33779:6834",
+      "name": "Featured - Meta",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Offer Button#35287:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet Portrait",
+            "Tablet Landscape"
+          ]
+        },
+        "Content": {
+          "type": "VARIANT",
+          "defaultValue": "Movie",
+          "variantOptions": [
+            "Movie",
+            "Media",
+            "Event",
+            "Music",
+            "Sport Program",
+            "Sport Teams"
+          ]
+        },
+        "Trailer": {
+          "type": "VARIANT",
+          "defaultValue": "False",
+          "variantOptions": [
+            "True",
+            "False"
+          ]
+        }
+      },
+      "variantCount": 27
+    },
+    {
+      "group": "UI Type",
+      "page": "22 · Rail",
+      "pageId": "14399:22904",
+      "catalogLabel": "Rail Main",
+      "nodeId": "14399:23969",
+      "name": "Rail - Main",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet L",
+            "Tablet P"
+          ]
+        }
+      },
+      "variantCount": 3
+    },
+    {
+      "group": "UI Type",
+      "page": "22 · Rail",
+      "pageId": "14399:22904",
+      "catalogLabel": "Rail Medium",
+      "nodeId": "22622:23036",
+      "name": "Rail - Medium",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet P",
+            "Tablet L"
+          ]
+        }
+      },
+      "variantCount": 3
+    },
+    {
+      "group": "UI Type",
+      "page": "22 · Rail",
+      "pageId": "14399:22904",
+      "catalogLabel": "Rail Marketing",
+      "nodeId": "20628:18736",
+      "name": "Rail - Marketing",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet P",
+            "Tablet L"
+          ]
+        }
+      },
+      "variantCount": 3
+    },
+    {
+      "group": "UI Type",
+      "page": "22 · Rail",
+      "pageId": "14399:22904",
+      "catalogLabel": "Rail Catalog",
+      "nodeId": "14399:24020",
+      "name": "🟡 Rail - Catalog",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet"
+          ]
+        }
+      },
+      "variantCount": 2
+    },
+    {
+      "group": "UI Type",
+      "page": "22 · Rail",
+      "pageId": "14399:22904",
+      "catalogLabel": "Rail Background",
+      "nodeId": "14399:24139",
+      "name": "Rail - Background",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet L",
+            "Tablet P"
+          ]
+        }
+      },
+      "variantCount": 3
+    },
+    {
+      "group": "UI Type",
+      "page": "22 · Rail",
+      "pageId": "14399:22904",
+      "catalogLabel": "Rail Vertical",
+      "nodeId": "14399:24191",
+      "name": "Rail - Vertical",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet P",
+            "Tablet L"
+          ]
+        }
+      },
+      "variantCount": 3
+    },
+    {
+      "group": "UI Type",
+      "page": "22 · Rail",
+      "pageId": "14399:22904",
+      "catalogLabel": "Rail Square Small 2 Story",
+      "nodeId": "14399:24256",
+      "name": "Rail - Square Small 2 Story",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet L",
+            "Tablet P"
+          ]
+        }
+      },
+      "variantCount": 3
+    },
+    {
+      "group": "UI Type",
+      "page": "22 · Rail",
+      "pageId": "14399:22904",
+      "catalogLabel": "Rail Square Small 1 Story",
+      "nodeId": "14399:24362",
+      "name": "Rail - Square Small 1 Story",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet L",
+            "Tablet P"
+          ]
+        }
+      },
+      "variantCount": 3
+    },
+    {
+      "group": "UI Type",
+      "page": "22 · Rail",
+      "pageId": "14399:22904",
+      "catalogLabel": "Rail Square",
+      "nodeId": "14399:24454",
+      "name": "Rail - Square",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet L",
+            "Tablet P"
+          ]
+        }
+      },
+      "variantCount": 3
+    },
+    {
+      "group": "UI Type",
+      "page": "22 · Rail",
+      "pageId": "14399:22904",
+      "catalogLabel": "Rail Large",
+      "nodeId": "14399:24513",
+      "name": "Rail - Large",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet L",
+            "Tablet P"
+          ]
+        }
+      },
+      "variantCount": 3
+    },
+    {
+      "group": "UI Type",
+      "page": "22 · Rail",
+      "pageId": "14399:22904",
+      "catalogLabel": "Rail Continue",
+      "nodeId": "14399:24596",
+      "name": "Rail - Continue",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet P",
+            "Tablet L"
+          ]
+        }
+      },
+      "variantCount": 3
+    },
+    {
+      "group": "UI Type",
+      "page": "22 · Rail",
+      "pageId": "14399:22904",
+      "catalogLabel": "Rail Circle",
+      "nodeId": "16997:107683",
+      "name": "Rail - Circle",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet"
+          ]
+        }
+      },
+      "variantCount": 2
+    },
+    {
+      "group": "UI Type",
+      "page": "22 · Rail",
+      "pageId": "14399:22904",
+      "catalogLabel": "Rail Person",
+      "nodeId": "20812:23203",
+      "name": "Rail - Person",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "device": {
+          "type": "VARIANT",
+          "defaultValue": "Tablet L",
+          "variantOptions": [
+            "Phone",
+            "Tablet P",
+            "Tablet L"
+          ]
+        }
+      },
+      "variantCount": 3
+    },
+    {
+      "group": "UI Type",
+      "page": "22 · Rail",
+      "pageId": "14399:22904",
+      "catalogLabel": "Rail Ticket",
+      "nodeId": "26351:25851",
+      "name": "Rail - Ticket",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet P",
+            "Tablet L"
+          ]
+        }
+      },
+      "variantCount": 3
+    },
+    {
+      "group": "UI Type",
+      "page": "22 · Rail",
+      "pageId": "14399:22904",
+      "catalogLabel": "Rail Highlights",
+      "nodeId": "27172:35849",
+      "name": "Rail - Highlights",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Tablet L",
+          "variantOptions": [
+            "Tablet L",
+            "Tablet P",
+            "Phone"
+          ]
+        }
+      },
+      "variantCount": 3
+    },
+    {
+      "group": "UI Type",
+      "page": "22 · Rail",
+      "pageId": "14399:22904",
+      "catalogLabel": "Rail Personal Widget",
+      "nodeId": "28033:41342",
+      "name": "Rail - Personal Widget",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet P",
+            "Tablet L"
+          ]
+        }
+      },
+      "variantCount": 3
+    },
+    {
+      "group": "UI Type",
+      "page": "22 · Rail",
+      "pageId": "14399:22904",
+      "catalogLabel": "Rail Subscriptions",
+      "nodeId": "28557:26358",
+      "name": "Rail - Subscriptions",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet"
+          ]
+        }
+      },
+      "variantCount": 2
+    },
+    {
+      "group": "UI Type",
+      "page": "22 · Rail",
+      "pageId": "14399:22904",
+      "catalogLabel": "Rail Announces",
+      "nodeId": "29526:33290",
+      "name": "Rail - Announces",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet P",
+            "Tablet L"
+          ]
+        }
+      },
+      "variantCount": 3
+    },
+    {
+      "group": "UI Type",
+      "page": "22 · Rail",
+      "pageId": "14399:22904",
+      "catalogLabel": "Rail Tracks",
+      "nodeId": "34622:26065",
+      "name": "Rail - Tracks",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet"
+          ]
+        }
+      },
+      "variantCount": 2
+    },
+    {
+      "group": "UI Type",
+      "page": "22 · Rail",
+      "pageId": "14399:22904",
+      "catalogLabel": "Персоны / Рейл",
+      "nodeId": "27709:27632",
+      "name": "Персоны / Рейл",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Размер": {
+          "type": "VARIANT",
+          "defaultValue": "iPad",
+          "variantOptions": [
+            "iPhone SE",
+            "iPad",
+            "iPhone"
+          ]
+        }
+      },
+      "variantCount": 3
+    },
+    {
+      "group": "UI Type",
+      "page": "22 · Rail",
+      "pageId": "14399:22904",
+      "catalogLabel": "Выбор аватара / Рейл",
+      "nodeId": "27709:27661",
+      "name": "Выбор аватара / Рейл",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Разрешение": {
+          "type": "VARIANT",
+          "defaultValue": "iPhone SE",
+          "variantOptions": [
+            "iPhone SE",
+            "iPhone 8",
+            "iPad Pro",
+            "iPad"
+          ]
+        }
+      },
+      "variantCount": 4
+    },
+    {
+      "group": "UI Type",
+      "page": "23 · Grid",
+      "pageId": "18317:40520",
+      "catalogLabel": "Grid",
+      "nodeId": "8282:33229",
+      "name": "🟢 Grid",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Heading#27440:7": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet 640",
+            "Tablet 1024"
+          ]
+        }
+      },
+      "variantCount": 3
+    },
+    {
+      "group": "UI Type",
+      "page": "23 · Grid",
+      "pageId": "18317:40520",
+      "catalogLabel": "Grid Large",
+      "nodeId": "18328:23387",
+      "name": "🟢 Grid - Large",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet 1024",
+            "Tablet 640"
+          ]
+        }
+      },
+      "variantCount": 3
+    },
+    {
+      "group": "UI Type",
+      "page": "23 · Grid",
+      "pageId": "18317:40520",
+      "catalogLabel": "Grid Person",
+      "nodeId": "20987:28676",
+      "name": "🟢 Grid - Person",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Breakpoint": {
+          "type": "VARIANT",
+          "defaultValue": "Tablet 1024",
+          "variantOptions": [
+            "Tablet 1024",
+            "Tablet 640",
+            "Phone"
+          ]
+        },
+        "Theme": {
+          "type": "VARIANT",
+          "defaultValue": "Dark",
+          "variantOptions": [
+            "Dark"
+          ]
+        }
+      },
+      "variantCount": 3
+    },
+    {
+      "group": "UI Type",
+      "page": "23 · Grid",
+      "pageId": "18317:40520",
+      "catalogLabel": "Grid Ticket",
+      "nodeId": "26352:33256",
+      "name": "🟢 Grid - Ticket",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet 640",
+            "Tablet 1024"
+          ]
+        }
+      },
+      "variantCount": 3
+    },
+    {
+      "group": "UI Type",
+      "page": "23 · Grid",
+      "pageId": "18317:40520",
+      "catalogLabel": "Grid Vertical",
+      "nodeId": "29953:4560",
+      "name": "🟢 Grid - Vertical",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet 640",
+            "Tablet 1024"
+          ]
+        }
+      },
+      "variantCount": 3
+    },
+    {
+      "group": "UI Type",
+      "page": "23 · Grid",
+      "pageId": "18317:40520",
+      "catalogLabel": "Grid Square",
+      "nodeId": "27709:29717",
+      "name": "🟢 Grid - Square",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Heading#31790:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet P",
+            "Tablet L"
+          ]
+        },
+        "Expanded": {
+          "type": "VARIANT",
+          "defaultValue": "False",
+          "variantOptions": [
+            "False",
+            "True"
+          ]
+        }
+      },
+      "variantCount": 6
+    },
+    {
+      "group": "UI Type",
+      "page": "23 · Grid",
+      "pageId": "18317:40520",
+      "catalogLabel": "Grid Circle",
+      "nodeId": "32137:7030",
+      "name": "🟢 Grid - Circle",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet 6 Cards",
+            "Tablet 7 Cards"
+          ]
+        },
+        "Expanded": {
+          "type": "VARIANT",
+          "defaultValue": "True",
+          "variantOptions": [
+            "True"
+          ]
+        }
+      },
+      "variantCount": 3
+    },
+    {
+      "group": "UI Type",
+      "page": "23 · Grid",
+      "pageId": "18317:40520",
+      "catalogLabel": "Grid Main",
+      "nodeId": "32698:7922",
+      "name": "Grid - Main",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Heading#34162:3": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "↳ Heading#38728:0": {
+          "type": "TEXT",
+          "defaultValue": "Заголовок"
+        },
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet"
+          ]
+        },
+        "Landscape": {
+          "type": "VARIANT",
+          "defaultValue": "False",
+          "variantOptions": [
+            "True",
+            "False"
+          ]
+        }
+      },
+      "variantCount": 3
+    },
+    {
+      "group": "UI Type",
+      "page": "23 · Grid",
+      "pageId": "18317:40520",
+      "catalogLabel": "Grid Circle Zvuk",
+      "nodeId": "32769:8842",
+      "name": "Grid - Circle Zvuk",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Heading#38769:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "↳ Heading#38859:25": {
+          "type": "TEXT",
+          "defaultValue": "Заголовок"
+        },
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet"
+          ]
+        },
+        "Landscape": {
+          "type": "VARIANT",
+          "defaultValue": "False",
+          "variantOptions": [
+            "False",
+            "True"
+          ]
+        }
+      },
+      "variantCount": 3
+    },
+    {
+      "group": "UI Type",
+      "page": "23 · Grid",
+      "pageId": "18317:40520",
+      "catalogLabel": "Grid Large — alternate",
+      "nodeId": "32790:8009",
+      "name": "Grid / Large",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Heading#34162:3": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "↳ Heading#38859:6": {
+          "type": "TEXT",
+          "defaultValue": "Заголовок"
+        },
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet"
+          ]
+        },
+        "Landscape": {
+          "type": "VARIANT",
+          "defaultValue": "False",
+          "variantOptions": [
+            "False",
+            "True"
+          ]
+        }
+      },
+      "variantCount": 3
+    },
+    {
+      "group": "UI Type",
+      "page": "23 · Grid",
+      "pageId": "18317:40520",
+      "catalogLabel": "Grid Vertical — alternate",
+      "nodeId": "32790:10836",
+      "name": "Grid / Vertical",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Heading#38764:7": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "↳ Heading#38859:20": {
+          "type": "TEXT",
+          "defaultValue": "Заголовок"
+        },
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet"
+          ]
+        },
+        "Landscape": {
+          "type": "VARIANT",
+          "defaultValue": "False",
+          "variantOptions": [
+            "False",
+            "True"
+          ]
+        }
+      },
+      "variantCount": 3
+    },
+    {
+      "group": "UI Type",
+      "page": "23 · Grid",
+      "pageId": "18317:40520",
+      "catalogLabel": "Grid Content",
+      "nodeId": "32790:11080",
+      "name": "Grid - Content",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Heading#38764:12": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "↳ Heading#38859:0": {
+          "type": "TEXT",
+          "defaultValue": "Заголовок"
+        },
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet"
+          ]
+        },
+        "Landscape": {
+          "type": "VARIANT",
+          "defaultValue": "False",
+          "variantOptions": [
+            "False",
+            "True"
+          ]
+        }
+      },
+      "variantCount": 3
+    },
+    {
+      "group": "UI Type",
+      "page": "23 · Grid",
+      "pageId": "18317:40520",
+      "catalogLabel": "Grid Square — alternate",
+      "nodeId": "32790:11233",
+      "name": "Grid / Square",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Heading#38764:17": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "↳ Heading#38859:11": {
+          "type": "TEXT",
+          "defaultValue": "Заголовок"
+        },
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet"
+          ]
+        },
+        "Landscape": {
+          "type": "VARIANT",
+          "defaultValue": "False",
+          "variantOptions": [
+            "False",
+            "True"
+          ]
+        },
+        "Expanded": {
+          "type": "VARIANT",
+          "defaultValue": "False",
+          "variantOptions": [
+            "False",
+            "True"
+          ]
+        }
+      },
+      "variantCount": 6
+    },
+    {
+      "group": "UI Type",
+      "page": "24 · Top",
+      "pageId": "28512:302",
+      "catalogLabel": "Top Titles",
+      "nodeId": "28512:25552",
+      "name": "🟢 Rail - Top Titles",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Resolution": {
+          "type": "VARIANT",
+          "defaultValue": "1024",
+          "variantOptions": [
+            "1024",
+            "640",
+            "360"
+          ]
+        }
+      },
+      "variantCount": 3
+    },
+    {
+      "group": "UI Type",
+      "page": "24 · Top",
+      "pageId": "28512:302",
+      "catalogLabel": "Top Collections",
+      "nodeId": "28512:59730",
+      "name": "🟢 Rail - Top Collections",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Resolution": {
+          "type": "VARIANT",
+          "defaultValue": "1024",
+          "variantOptions": [
+            "1024",
+            "360",
+            "640"
+          ]
+        }
+      },
+      "variantCount": 3
+    },
+    {
+      "group": "UI Type",
+      "page": "24 · Top",
+      "pageId": "28512:302",
+      "catalogLabel": "Mixed Top",
+      "nodeId": "28512:59990",
+      "name": "🟢 Rail - Mixed Top",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Resolution": {
+          "type": "VARIANT",
+          "defaultValue": "1024",
+          "variantOptions": [
+            "1024",
+            "640",
+            "360"
+          ]
+        }
+      },
+      "variantCount": 3
+    },
+    {
+      "group": "UI Type",
+      "page": "25 · Content Banner",
+      "pageId": "35206:32201",
+      "catalogLabel": "Content Banner Meta",
+      "nodeId": "36968:67794",
+      "name": "🟡  Content Banner - Meta",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet Portrait",
+            "Tablet Landscape"
+          ]
+        },
+        "Content": {
+          "type": "VARIANT",
+          "defaultValue": "Movie",
+          "variantOptions": [
+            "Movie",
+            "Media",
+            "Event",
+            "Sport Program",
+            "Sport Teams"
+          ]
+        },
+        "Trailer": {
+          "type": "VARIANT",
+          "defaultValue": "False",
+          "variantOptions": [
+            "True",
+            "False"
+          ]
+        }
+      },
+      "variantCount": 27
+    },
+    {
+      "group": "Product Components",
+      "page": "Age badge 18+",
+      "pageId": "14682:61729",
+      "catalogLabel": "Age Badge",
+      "nodeId": "6651:16827",
+      "name": "Возрастной рейтинг",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet"
+          ]
+        }
+      },
+      "variantCount": 2
+    },
+    {
+      "group": "Product Components",
+      "page": "Age badge 18+",
+      "pageId": "14682:61729",
+      "catalogLabel": "Age Badge OSD",
+      "nodeId": "6651:16828",
+      "name": "🟢 Возрастной рейтинг в OSD",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Tablet",
+            "Phone"
+          ]
+        }
+      },
+      "variantCount": 2
+    },
+    {
+      "group": "Product Components",
+      "page": "Live event items",
+      "pageId": "14682:60574",
+      "catalogLabel": "live event item",
+      "nodeId": "7558:24436",
+      "name": "live event item",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Устройство": {
+          "type": "VARIANT",
+          "defaultValue": "Tab",
+          "variantOptions": [
+            "Phone",
+            "Tab"
+          ]
+        },
+        "Состояние": {
+          "type": "VARIANT",
+          "defaultValue": "Обычный",
+          "variantOptions": [
+            "Обычный",
+            "Анонс",
+            "Завершён"
+          ]
+        }
+      },
+      "variantCount": 6
+    },
+    {
+      "group": "Product Components",
+      "page": "Live event items",
+      "pageId": "14682:60574",
+      "catalogLabel": "Live event items group",
+      "nodeId": "7558:26150",
+      "name": "Live event items group",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Устройство": {
+          "type": "VARIANT",
+          "defaultValue": "Tablet",
+          "variantOptions": [
+            "Phone",
+            "Tablet"
+          ]
+        }
+      },
+      "variantCount": 2
+    },
+    {
+      "group": "Product Components",
+      "page": "Multiprofile",
+      "pageId": "7164:18913",
+      "catalogLabel": "🔴  Выбор возраста / Мобильный",
+      "nodeId": "8509:48464",
+      "name": "🔴  Выбор возраста / Мобильный",
+      "type": "COMPONENT",
+      "properties": {}
+    },
+    {
+      "group": "Product Components",
+      "page": "Multiprofile",
+      "pageId": "7164:18913",
+      "catalogLabel": "🔴 Выбор возраста / Горизонтальный планшет",
+      "nodeId": "8517:48041",
+      "name": "🔴 Выбор возраста / Горизонтальный планшет",
+      "type": "COMPONENT",
+      "properties": {}
+    },
+    {
+      "group": "Product Components",
+      "page": "Multiprofile",
+      "pageId": "7164:18913",
+      "catalogLabel": "Profiles section",
+      "nodeId": "7164:19209",
+      "name": "Profiles section",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet"
+          ]
+        },
+        "type": {
+          "type": "VARIANT",
+          "defaultValue": "choose",
+          "variantOptions": [
+            "choose",
+            "edit"
+          ]
+        }
+      },
+      "variantCount": 4
+    },
+    {
+      "group": "Product Components",
+      "page": "Multiprofile",
+      "pageId": "7164:18913",
+      "catalogLabel": "Menu profiles",
+      "nodeId": "7164:19190",
+      "name": "Menu profiles",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet"
+          ]
+        }
+      },
+      "variantCount": 2
+    },
+    {
+      "group": "Product Components",
+      "page": "Multiprofile",
+      "pageId": "7164:18913",
+      "catalogLabel": "Profiles grid",
+      "nodeId": "7164:19257",
+      "name": "Profiles grid",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet"
+          ]
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "choose",
+          "variantOptions": [
+            "choose",
+            "edit"
+          ]
+        }
+      },
+      "variantCount": 4
+    },
+    {
+      "group": "Product Components",
+      "page": "Multiprofile",
+      "pageId": "7164:18913",
+      "catalogLabel": "🟡 Avatar picker",
+      "nodeId": "18276:4794",
+      "name": "🟡 Avatar picker",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "device": {
+          "type": "VARIANT",
+          "defaultValue": "phone",
+          "variantOptions": [
+            "tablet",
+            "phone"
+          ]
+        }
+      },
+      "variantCount": 2
+    },
+    {
+      "group": "Product Components",
+      "page": "Выбор профиля",
+      "pageId": "24276:254",
+      "catalogLabel": "🟡 Profile select",
+      "nodeId": "24276:3816",
+      "name": "🟡 Profile select",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet"
+          ]
+        },
+        "Type": {
+          "type": "VARIANT",
+          "defaultValue": "Adult",
+          "variantOptions": [
+            "Adult",
+            "Kids"
+          ]
+        },
+        "Skeleton": {
+          "type": "VARIANT",
+          "defaultValue": "False",
+          "variantOptions": [
+            "False",
+            "True"
+          ]
+        }
+      },
+      "variantCount": 6
+    },
+    {
+      "group": "Product Components",
+      "page": "Выбор профиля",
+      "pageId": "24276:254",
+      "catalogLabel": "Profile select",
+      "nodeId": "24276:3927",
+      "name": "Profile select",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Adult": {
+          "type": "VARIANT",
+          "defaultValue": "True",
+          "variantOptions": [
+            "False",
+            "True"
+          ]
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet"
+          ]
+        },
+        "Skeleton": {
+          "type": "VARIANT",
+          "defaultValue": "False",
+          "variantOptions": [
+            "False",
+            "True"
+          ]
+        }
+      },
+      "variantCount": 6
+    },
+    {
+      "group": "Product Components",
+      "page": "Выбор возраста",
+      "pageId": "11749:61401",
+      "catalogLabel": "NumSlider",
+      "nodeId": "11749:61428",
+      "name": "NumSlider",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Resolution": {
+          "type": "VARIANT",
+          "defaultValue": "Tablet Landscape",
+          "variantOptions": [
+            "Tablet Landscape",
+            "Tablet Portrait",
+            "Phone"
+          ]
+        }
+      },
+      "variantCount": 3
+    },
+    {
+      "group": "Product Components",
+      "page": "Звёзды рейтинга",
+      "pageId": "14682:58705",
+      "catalogLabel": "wheel stars tablet",
+      "nodeId": "11115:59212",
+      "name": "wheel stars tablet",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Значение": {
+          "type": "VARIANT",
+          "defaultValue": "Оценка - 1",
+          "variantOptions": [
+            "Оценка - 1",
+            "Оценка - 2",
+            "Оценка - 3",
+            "Оценка - 4",
+            "Оценка - 5",
+            "Оценка - 6",
+            "Оценка - 7",
+            "Оценка - 8",
+            "Оценка - 9",
+            "Оценка - 10"
+          ]
+        }
+      },
+      "variantCount": 10
+    },
+    {
+      "group": "Product Components",
+      "page": "Звёзды рейтинга",
+      "pageId": "14682:58705",
+      "catalogLabel": "wheel stars phone",
+      "nodeId": "11115:59253",
+      "name": "wheel stars phone",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Значение": {
+          "type": "VARIANT",
+          "defaultValue": "Оценка - 1",
+          "variantOptions": [
+            "Оценка - 1",
+            "Оценка - 2",
+            "Оценка - 3",
+            "Оценка - 4",
+            "Оценка - 5",
+            "Оценка - 6",
+            "Оценка - 7",
+            "Оценка - 8",
+            "Оценка - 9",
+            "Оценка - 10"
+          ]
+        }
+      },
+      "variantCount": 10
+    },
+    {
+      "group": "Product Components",
+      "page": "Звёзды рейтинга",
+      "pageId": "14682:58705",
+      "catalogLabel": "wheel stars sheet",
+      "nodeId": "11116:60077",
+      "name": "wheel stars sheet",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Устройство": {
+          "type": "VARIANT",
+          "defaultValue": "Mob",
+          "variantOptions": [
+            "Mob",
+            "Tab"
+          ]
+        },
+        "Состояние": {
+          "type": "VARIANT",
+          "defaultValue": "Не оценивал",
+          "variantOptions": [
+            "Не оценивал",
+            "Оценивал"
+          ]
+        }
+      },
+      "variantCount": 4
+    },
+    {
+      "group": "Product Components",
+      "page": "Maxiplayer",
+      "pageId": "31519:202",
+      "catalogLabel": "Miniplayer",
+      "nodeId": "31538:230",
+      "name": "Miniplayer",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Таймлайн#36808:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Иноагент + 118+#36808:3": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Type": {
+          "type": "VARIANT",
+          "defaultValue": "Movie/Serial",
+          "variantOptions": [
+            "Movie/Serial",
+            "Music"
+          ]
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "Stopped",
+          "variantOptions": [
+            "Stopped",
+            "Playing"
+          ]
+        }
+      },
+      "variantCount": 4
+    },
+    {
+      "group": "Product Components",
+      "page": "Maxiplayer",
+      "pageId": "31519:202",
+      "catalogLabel": "Maxi Player",
+      "nodeId": "31631:2014",
+      "name": "Maxi Player",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Touranament#37359:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Type": {
+          "type": "VARIANT",
+          "defaultValue": "Music",
+          "variantOptions": [
+            "Music",
+            "Movie",
+            "Sport Opponents",
+            "Sport Cover"
+          ]
+        },
+        "MVP": {
+          "type": "VARIANT",
+          "defaultValue": "False",
+          "variantOptions": [
+            "False",
+            "True"
+          ]
+        }
+      },
+      "variantCount": 7
+    },
+    {
+      "group": "Product Components",
+      "page": "Maxiplayer",
+      "pageId": "31519:202",
+      "catalogLabel": "Мини-плеер + навигация",
+      "nodeId": "31856:5229",
+      "name": "Мини-плеер + навигация",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Второй мини-плеер#31856:3": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "Tabbar",
+          "variantOptions": [
+            "Tabbar",
+            "No tabbar"
+          ]
+        }
+      },
+      "variantCount": 2
+    },
+    {
+      "group": "Product Components",
+      "page": "OSD",
+      "pageId": "9431:56883",
+      "catalogLabel": "OSD Header",
+      "nodeId": "9434:56967",
+      "name": "OSD Header",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Subtitle#32638:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Mobile",
+          "variantOptions": [
+            "Tablet",
+            "Mobile"
+          ]
+        },
+        "Orientation": {
+          "type": "VARIANT",
+          "defaultValue": "Vertical",
+          "variantOptions": [
+            "Vertical",
+            "Horizontal"
+          ]
+        },
+        "Type": {
+          "type": "VARIANT",
+          "defaultValue": "Default",
+          "variantOptions": [
+            "Default",
+            "Sport",
+            "AVOD"
+          ]
+        }
+      },
+      "variantCount": 12
+    },
+    {
+      "group": "Product Components",
+      "page": "OSD",
+      "pageId": "9431:56883",
+      "catalogLabel": "OSD",
+      "nodeId": "9435:58270",
+      "name": "OSD",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Mobile",
+          "variantOptions": [
+            "Mobile",
+            "Tablet"
+          ]
+        },
+        "Orientation": {
+          "type": "VARIANT",
+          "defaultValue": "Vertical",
+          "variantOptions": [
+            "Horizontal",
+            "Vertical"
+          ]
+        },
+        "Type": {
+          "type": "VARIANT",
+          "defaultValue": "Movie",
+          "variantOptions": [
+            "Movie",
+            "Series",
+            "Live",
+            "AVOD",
+            "Реклама"
+          ]
+        }
+      },
+      "variantCount": 20
+    },
+    {
+      "group": "Product Components",
+      "page": "OSD",
+      "pageId": "9431:56883",
+      "catalogLabel": "Thumbnail",
+      "nodeId": "9462:58288",
+      "name": "Thumbnail",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Устройство": {
+          "type": "VARIANT",
+          "defaultValue": "mobile",
+          "variantOptions": [
+            "mobile",
+            "tablet"
+          ]
+        },
+        "Кадр": {
+          "type": "VARIANT",
+          "defaultValue": "true",
+          "variantOptions": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "variantCount": 4
+    },
+    {
+      "group": "Product Components",
+      "page": "OSD",
+      "pageId": "9431:56883",
+      "catalogLabel": "Subtitles",
+      "nodeId": "9466:58020",
+      "name": "Subtitles",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Forced#20544:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Устройство": {
+          "type": "VARIANT",
+          "defaultValue": "mobile",
+          "variantOptions": [
+            "tablet",
+            "mobile",
+            "mobile new text style",
+            "tablet new text style"
+          ]
+        }
+      },
+      "variantCount": 4
+    },
+    {
+      "group": "Product Components",
+      "page": "OSD",
+      "pageId": "9431:56883",
+      "catalogLabel": "Hint",
+      "nodeId": "9484:58282",
+      "name": "Hint",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Устройство": {
+          "type": "VARIANT",
+          "defaultValue": "mobile",
+          "variantOptions": [
+            "mobile",
+            "tablet"
+          ]
+        },
+        "Ориентация": {
+          "type": "VARIANT",
+          "defaultValue": "вертикальная",
+          "variantOptions": [
+            "вертикальная",
+            "горизонтальная"
+          ]
+        }
+      },
+      "variantCount": 4
+    },
+    {
+      "group": "Product Components",
+      "page": "OSD",
+      "pageId": "9431:56883",
+      "catalogLabel": "Хромкаст",
+      "nodeId": "9739:53856",
+      "name": "Хромкаст",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Устройство": {
+          "type": "VARIANT",
+          "defaultValue": "mobile",
+          "variantOptions": [
+            "tablet",
+            "mobile"
+          ]
+        }
+      },
+      "variantCount": 2
+    },
+    {
+      "group": "Product Components",
+      "page": "OSD",
+      "pageId": "9431:56883",
+      "catalogLabel": "Central Controls",
+      "nodeId": "9443:58378",
+      "name": "Central Controls",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Устройство": {
+          "type": "VARIANT",
+          "defaultValue": "mobile",
+          "variantOptions": [
+            "mobile",
+            "tablet"
+          ]
+        },
+        "Лайв": {
+          "type": "VARIANT",
+          "defaultValue": "false",
+          "variantOptions": [
+            "true",
+            "false"
+          ]
+        },
+        "Внешний плеер": {
+          "type": "VARIANT",
+          "defaultValue": "false",
+          "variantOptions": [
+            "false",
+            "true"
+          ]
+        },
+        "Restart": {
+          "type": "VARIANT",
+          "defaultValue": "false",
+          "variantOptions": [
+            "true",
+            "false"
+          ]
+        }
+      },
+      "variantCount": 8
+    },
+    {
+      "group": "Product Components",
+      "page": "OSD",
+      "pageId": "9431:56883",
+      "catalogLabel": "Settings Sheet",
+      "nodeId": "18218:4852",
+      "name": "Settings Sheet",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Tablet",
+            "Phone"
+          ]
+        },
+        "type": {
+          "type": "VARIANT",
+          "defaultValue": "settings",
+          "variantOptions": [
+            "list",
+            "settings"
+          ]
+        }
+      },
+      "variantCount": 4
+    },
+    {
+      "group": "Product Components",
+      "page": "OSD",
+      "pageId": "9431:56883",
+      "catalogLabel": "Player Notification",
+      "nodeId": "32443:1746",
+      "name": "Player Notification",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "icon#4173:4": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "↳ Icon instance#4173:5": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "32672:1912",
+          "preferredValues": []
+        },
+        "text#4173:6": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "subtitle#4173:7": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Tablet",
+          "variantOptions": [
+            "Phone",
+            "Tablet"
+          ]
+        }
+      },
+      "variantCount": 2
+    },
+    {
+      "group": "Product Components",
+      "page": "OSD",
+      "pageId": "9431:56883",
+      "catalogLabel": "Age Rating",
+      "nodeId": "32641:7634",
+      "name": "Age Rating",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Text#31:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Tablet",
+          "variantOptions": [
+            "Phone",
+            "Tablet"
+          ]
+        }
+      },
+      "variantCount": 2
+    },
+    {
+      "group": "Product Components",
+      "page": "OSD",
+      "pageId": "9431:56883",
+      "catalogLabel": "Next view",
+      "nodeId": "23886:3403",
+      "name": "Next view",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Second button#35320:2": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Autoplay loading#35320:3": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "labelGroup#35525:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Label Rich#35525:263": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Tablet",
+          "variantOptions": [
+            "Tablet",
+            "Mobile"
+          ]
+        },
+        "Type": {
+          "type": "VARIANT",
+          "defaultValue": "Content",
+          "variantOptions": [
+            "Content",
+            "Quiz"
+          ]
+        },
+        "Orientation": {
+          "type": "VARIANT",
+          "defaultValue": "Portrait",
+          "variantOptions": [
+            "Landscape",
+            "Portrait"
+          ]
+        }
+      },
+      "variantCount": 8
+    },
+    {
+      "group": "Product Components",
+      "page": "OSD",
+      "pageId": "9431:56883",
+      "catalogLabel": "Playback NEW",
+      "nodeId": "32638:3535",
+      "name": "Playback NEW",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Blackout#37200:24": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Type": {
+          "type": "VARIANT",
+          "defaultValue": "Horizontal",
+          "variantOptions": [
+            "Horizontal",
+            "Vertical"
+          ]
+        }
+      },
+      "variantCount": 2
+    },
+    {
+      "group": "Product Components",
+      "page": "itemContent",
+      "pageId": "13249:64818",
+      "catalogLabel": "🔵 itemContent",
+      "nodeId": "24370:12349",
+      "name": "🔵 itemContent",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Right Button#13498:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Meta#19925:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "↳ 1 value#19974:0": {
+          "type": "TEXT",
+          "defaultValue": "800 МБ"
+        },
+        "↳ 2 value#19974:4": {
+          "type": "TEXT",
+          "defaultValue": "Meta 2"
+        },
+        "↳ 3 value#19974:8": {
+          "type": "TEXT",
+          "defaultValue": "Аренда истекает"
+        },
+        "Meta 1#19976:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Meta 2#19976:4": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Meta 3#19976:8": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet P",
+            "Tablet L"
+          ]
+        },
+        "Type": {
+          "type": "VARIANT",
+          "defaultValue": "List (for phone)",
+          "variantOptions": [
+            "List (for phone)",
+            "Rail",
+            "Grid"
+          ]
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "Default",
+          "variantOptions": [
+            "Default",
+            "Edit",
+            "Skeleton"
+          ]
+        }
+      },
+      "variantCount": 12
+    },
+    {
+      "group": "Product Components",
+      "page": "ЕЛК",
+      "pageId": "22015:664",
+      "catalogLabel": "Widget payment",
+      "nodeId": "22015:763",
+      "name": "Widget payment",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Pay on": {
+          "type": "VARIANT",
+          "defaultValue": "True",
+          "variantOptions": [
+            "False",
+            "True"
+          ]
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "Mobile",
+          "variantOptions": [
+            "Mobile",
+            "Tablet"
+          ]
+        },
+        "Skeleton": {
+          "type": "VARIANT",
+          "defaultValue": "False",
+          "variantOptions": [
+            "False",
+            "True"
+          ]
+        },
+        "SberPay": {
+          "type": "VARIANT",
+          "defaultValue": "Off",
+          "variantOptions": [
+            "Off",
+            "On"
+          ]
+        }
+      },
+      "variantCount": 10
+    },
+    {
+      "group": "Product Components",
+      "page": "ЕЛК",
+      "pageId": "22015:664",
+      "catalogLabel": "Widget devices",
+      "nodeId": "22015:2760",
+      "name": "Widget devices",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Device on": {
+          "type": "VARIANT",
+          "defaultValue": "True",
+          "variantOptions": [
+            "False",
+            "True"
+          ]
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "Mobile",
+          "variantOptions": [
+            "Mobile",
+            "Tablet"
+          ]
+        },
+        "Skeleton": {
+          "type": "VARIANT",
+          "defaultValue": "False",
+          "variantOptions": [
+            "False",
+            "True"
+          ]
+        }
+      },
+      "variantCount": 8
+    },
+    {
+      "group": "Product Components",
+      "page": "Лояльность",
+      "pageId": "12861:60983",
+      "catalogLabel": "Tumbler Spasibo",
+      "nodeId": "12861:61674",
+      "name": "Tumbler Spasibo",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Balance Subtitle#1343:21": {
+          "type": "TEXT",
+          "defaultValue": "Уже применена максимальная скидка"
+        },
+        "∨ Tumbler SVOD#14092:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "∨ Tumbler TVOD#14092:5": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "O TVOD#14223:0": {
+          "type": "TEXT",
+          "defaultValue": "Копите бонусы и тратье их на покупки и оплату подписки"
+        },
+        "Tumbler#14284:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "phone",
+          "variantOptions": [
+            "phone",
+            "tablet"
+          ]
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "able",
+          "variantOptions": [
+            "able",
+            "max discount",
+            "0 TVOD",
+            "disable"
+          ]
+        }
+      },
+      "variantCount": 8
+    },
+    {
+      "group": "Product Components",
+      "page": "Лояльность",
+      "pageId": "12861:60983",
+      "catalogLabel": "Виджет СберСпасибо",
+      "nodeId": "9099:51763",
+      "name": "Виджет СберСпасибо",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Тип": {
+          "type": "VARIANT",
+          "defaultValue": "Бонусы есть",
+          "variantOptions": [
+            "Бонусов нет",
+            "Бонусы есть",
+            "Карта не привязана"
+          ]
+        },
+        "Размер": {
+          "type": "VARIANT",
+          "defaultValue": "Mob",
+          "variantOptions": [
+            "Mob",
+            "Tab"
+          ]
+        }
+      },
+      "variantCount": 6
+    },
+    {
+      "group": "Product Components",
+      "page": "Лояльность",
+      "pageId": "12861:60983",
+      "catalogLabel": "Widget Spasibo",
+      "nodeId": "12861:61698",
+      "name": "Widget Spasibo",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "↳ Text Diasable#1343:0": {
+          "type": "TEXT",
+          "defaultValue": "Бонусная программа недоступна. Чтобы разблокировать её, обратитесь в Сбер"
+        },
+        "↳ Text Entry#1343:7": {
+          "type": "TEXT",
+          "defaultValue": "Получайте бонусы за каждую покупку и обменивайте их на скидку до 99%. 1 бонус = 1 ₽"
+        },
+        "↳ Text Tumbler#1343:14": {
+          "type": "TEXT",
+          "defaultValue": "Обменивать СберСпасибо на подписку "
+        },
+        "↳ Text Error#1366:0": {
+          "type": "TEXT",
+          "defaultValue": "Мы не смогли загрузить баланс СберСпасибо, скоро всё исправим "
+        },
+        "↳ Text Entry by card#13460:0": {
+          "type": "TEXT",
+          "defaultValue": "1 бонус = 1 ₽. Нужна карта Сбера, чтобы участвовать"
+        },
+        "↳ Text Connection#15437:0": {
+          "type": "TEXT",
+          "defaultValue": "Мы подключаем СберСпасибо, а вы пока можете продолжить пользоваться приложением"
+        },
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "phone",
+          "variantOptions": [
+            "phone",
+            "tablet"
+          ]
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "able",
+          "variantOptions": [
+            "disable",
+            "able",
+            "entry",
+            "error",
+            "entry by card",
+            "connection"
+          ]
+        }
+      },
+      "variantCount": 12
+    },
+    {
+      "group": "Product Components",
+      "page": "Лояльность",
+      "pageId": "12861:60983",
+      "catalogLabel": "🟡 Widget Spasibo",
+      "nodeId": "22270:508",
+      "name": "🟡 Widget Spasibo",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Text Dissable#22273:0": {
+          "type": "TEXT",
+          "defaultValue": "Бонусная программа недоступна. Чтобы разблокировать её, обратитесь в Сбер"
+        },
+        "Text Connection#22273:11": {
+          "type": "TEXT",
+          "defaultValue": "Мы подключаем бонусы Спасибо, а вы пока можете продолжить пользоваться приложением"
+        },
+        "Text Error#22273:22": {
+          "type": "TEXT",
+          "defaultValue": "Мы не смогли загрузить баланс бонусов Спасибо, скоро всё исправим "
+        },
+        "Text Entry#22273:33": {
+          "type": "TEXT",
+          "defaultValue": "Получайте бонусы за покупку фильмов, сериалов и расширений подписки. Оплачивайте бонусами до 99% по курсу 1 бонус = 1 рублю"
+        },
+        "Text EntryAble#22691:0": {
+          "type": "TEXT",
+          "defaultValue": "У вас есть бонусы, подключите Спасибо и обменивайте их на скидку до 99% по курсу 1 бонус = 1 ₽"
+        },
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "phone",
+          "variantOptions": [
+            "phone",
+            "tablet"
+          ]
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "Able",
+          "variantOptions": [
+            "Able",
+            "Entry",
+            "Error",
+            "Connection",
+            "Dissable",
+            "EntryAble"
+          ]
+        }
+      },
+      "variantCount": 12
+    },
+    {
+      "group": "Product Components",
+      "page": "Подписки",
+      "pageId": "8837:61483",
+      "catalogLabel": "Subscription Item",
+      "nodeId": "8843:50864",
+      "name": "Subscription Item",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Subscription name#15293:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Subscription logo#15293:7": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Тип": {
+          "type": "VARIANT",
+          "defaultValue": "Unpurchased",
+          "variantOptions": [
+            "Unpurchased",
+            "My"
+          ]
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "Mob",
+          "variantOptions": [
+            "Mob",
+            "Tab-L",
+            "Tab-P"
+          ]
+        }
+      },
+      "variantCount": 6
+    },
+    {
+      "group": "Product Components",
+      "page": "Подписки",
+      "pageId": "8837:61483",
+      "catalogLabel": "Таймлайн",
+      "nodeId": "9058:49842",
+      "name": "Таймлайн",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Тип": {
+          "type": "VARIANT",
+          "defaultValue": "Триал",
+          "variantOptions": [
+            "Оффер",
+            "Регулярная цена",
+            "Сложный оффер",
+            "Триал",
+            "Оффер 1+1"
+          ]
+        },
+        "Размер": {
+          "type": "VARIANT",
+          "defaultValue": "Mob",
+          "variantOptions": [
+            "Mob",
+            "Tab"
+          ]
+        }
+      },
+      "variantCount": 10
+    },
+    {
+      "group": "Product Components",
+      "page": "Подписки",
+      "pageId": "8837:61483",
+      "catalogLabel": "Период подписки",
+      "nodeId": "9069:51507",
+      "name": "Период подписки",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Тип": {
+          "type": "VARIANT",
+          "defaultValue": "Новый",
+          "variantOptions": [
+            "Мой",
+            "Новый"
+          ]
+        },
+        "Размер": {
+          "type": "VARIANT",
+          "defaultValue": "Mob",
+          "variantOptions": [
+            "Mob",
+            "Tab-L"
+          ]
+        },
+        "Оффер": {
+          "type": "VARIANT",
+          "defaultValue": "False",
+          "variantOptions": [
+            "False",
+            "True"
+          ]
+        }
+      },
+      "variantCount": 6
+    },
+    {
+      "group": "Product Components",
+      "page": "Подписки",
+      "pageId": "8837:61483",
+      "catalogLabel": "Виджет Апсейла и Апгрейда",
+      "nodeId": "9096:52458",
+      "name": "Виджет Апсейла и Апгрейда",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Размер": {
+          "type": "VARIANT",
+          "defaultValue": "Mob",
+          "variantOptions": [
+            "Mob",
+            "Tab"
+          ]
+        }
+      },
+      "variantCount": 2
+    },
+    {
+      "group": "Product Components",
+      "page": "Подписки",
+      "pageId": "8837:61483",
+      "catalogLabel": "Subscription table",
+      "nodeId": "9104:52934",
+      "name": "Subscription table",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "1-3 cards#15293:14": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "3+ cards#15293:18": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Размер": {
+          "type": "VARIANT",
+          "defaultValue": "Mob",
+          "variantOptions": [
+            "Mob",
+            "Tab-L",
+            "Tab-P"
+          ]
+        },
+        "Type": {
+          "type": "VARIANT",
+          "defaultValue": "Compare",
+          "variantOptions": [
+            "Compare",
+            "Upgrade"
+          ]
+        }
+      },
+      "variantCount": 6
+    },
+    {
+      "group": "Product Components",
+      "page": "Подписки",
+      "pageId": "8837:61483",
+      "catalogLabel": "Subscription rail",
+      "nodeId": "9107:52707",
+      "name": "Subscription rail",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Subscription logo#15702:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Subscription name#15702:4": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Standart upgrade#15702:8": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Long upgrade#15702:12": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Mob",
+          "variantOptions": [
+            "Mob",
+            "Tab-L",
+            "Tab-P"
+          ]
+        }
+      },
+      "variantCount": 3
+    },
+    {
+      "group": "Product Components",
+      "page": "Подписки",
+      "pageId": "8837:61483",
+      "catalogLabel": "Виджет авторизации Сбер ID",
+      "nodeId": "9116:51563",
+      "name": "Виджет авторизации Сбер ID",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Размер": {
+          "type": "VARIANT",
+          "defaultValue": "Mob",
+          "variantOptions": [
+            "Mob",
+            "Tab"
+          ]
+        }
+      },
+      "variantCount": 2
+    },
+    {
+      "group": "Product Components",
+      "page": "Подписки",
+      "pageId": "8837:61483",
+      "catalogLabel": "Compare List",
+      "nodeId": "9957:55952",
+      "name": "Compare List",
+      "type": "COMPONENT",
+      "properties": {}
+    },
+    {
+      "group": "Product Components",
+      "page": "Подписки",
+      "pageId": "8837:61483",
+      "catalogLabel": "Banner upgrade",
+      "nodeId": "10550:58429",
+      "name": "Banner upgrade",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Subscription logo#15443:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Subscription name#15443:4": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tab-L",
+            "Tab-P"
+          ]
+        }
+      },
+      "variantCount": 3
+    },
+    {
+      "group": "Product Components",
+      "page": "Подписки",
+      "pageId": "8837:61483",
+      "catalogLabel": "Subscription footer",
+      "nodeId": "15523:6251",
+      "name": "Subscription footer",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Subscription logo#15523:1": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Mob",
+          "variantOptions": [
+            "Mob",
+            "Tab"
+          ]
+        }
+      },
+      "variantCount": 2
+    },
+    {
+      "group": "Product Components",
+      "page": "Подписки",
+      "pageId": "8837:61483",
+      "catalogLabel": "Баннер апсейла",
+      "nodeId": "9108:52075",
+      "name": "Баннер апсейла",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Размер": {
+          "type": "VARIANT",
+          "defaultValue": "Mob",
+          "variantOptions": [
+            "Mob",
+            "Tab-L",
+            "Tab-P"
+          ]
+        }
+      },
+      "variantCount": 3
+    },
+    {
+      "group": "Product Components",
+      "page": "Подписки",
+      "pageId": "8837:61483",
+      "catalogLabel": "Widget Subscription",
+      "nodeId": "9096:52446",
+      "name": "Widget Subscription",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "∨  Manage#14205:14": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Partner logo#15296:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Subscription name#15296:5": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Subscription logo#15296:10": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "phone",
+          "variantOptions": [
+            "phone",
+            "tablet"
+          ]
+        },
+        "Type": {
+          "type": "VARIANT",
+          "defaultValue": "On renewal",
+          "variantOptions": [
+            "External",
+            "On renewal",
+            "Off renewal",
+            "Error pay",
+            "Error pay Test"
+          ]
+        }
+      },
+      "variantCount": 10
+    },
+    {
+      "group": "Product Components",
+      "page": "Подписки",
+      "pageId": "8837:61483",
+      "catalogLabel": "Banner Subscription",
+      "nodeId": "9312:57428",
+      "name": "Banner Subscription",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Regular price#14802:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Offer#14802:4": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Header#14816:4": {
+          "type": "TEXT",
+          "defaultValue": "Кино, спорт, музыка и скидки у партнёров Сбера"
+        },
+        "Subscription logo#15297:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Subscription name#15297:4": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Sub Header#19639:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Secondary button#19639:4": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Subscription title#22587:0": {
+          "type": "TEXT",
+          "defaultValue": "N"
+        },
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet landscape",
+            "Tablet portrait"
+          ]
+        }
+      },
+      "variantCount": 3
+    },
+    {
+      "group": "Product Components",
+      "page": "Timeline subscription",
+      "pageId": "14682:61731",
+      "catalogLabel": "Timeline section",
+      "nodeId": "5105:0",
+      "name": "Timeline section",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Плафторма": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet"
+          ]
+        },
+        "Уведомления включены": {
+          "type": "VARIANT",
+          "defaultValue": "False",
+          "variantOptions": [
+            "False",
+            "True"
+          ]
+        }
+      },
+      "variantCount": 4
+    },
+    {
+      "group": "Product Components",
+      "page": "Timeline subscription",
+      "pageId": "14682:61731",
+      "catalogLabel": "Timeline",
+      "nodeId": "5181:36",
+      "name": "Timeline",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Источник": {
+          "type": "VARIANT",
+          "defaultValue": "Продление подписки",
+          "variantOptions": [
+            "Продление подписки"
+          ]
+        },
+        "Тип": {
+          "type": "VARIANT",
+          "defaultValue": "Таймлайн",
+          "variantOptions": [
+            "Таймлайн"
+          ]
+        },
+        "Платформа": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet"
+          ]
+        }
+      },
+      "variantCount": 2
+    },
+    {
+      "group": "Product Components",
+      "page": "Оплата",
+      "pageId": "6959:19340",
+      "catalogLabel": "Счет / Mob",
+      "nodeId": "2696:268",
+      "name": "Счет / Mob",
+      "type": "COMPONENT",
+      "properties": {}
+    },
+    {
+      "group": "Product Components",
+      "page": "Оплата",
+      "pageId": "6959:19340",
+      "catalogLabel": "Телефон",
+      "nodeId": "2701:239",
+      "name": "Телефон",
+      "type": "COMPONENT",
+      "properties": {}
+    },
+    {
+      "group": "Product Components",
+      "page": "Оплата",
+      "pageId": "6959:19340",
+      "catalogLabel": "Способ оплаты / Карта",
+      "nodeId": "9074:51158",
+      "name": "Способ оплаты / Карта",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Вид": {
+          "type": "VARIANT",
+          "defaultValue": "Обычная",
+          "variantOptions": [
+            "Обычная",
+            "Сбер"
+          ]
+        },
+        "Привязана": {
+          "type": "VARIANT",
+          "defaultValue": "True",
+          "variantOptions": [
+            "False",
+            "True"
+          ]
+        }
+      },
+      "variantCount": 4
+    },
+    {
+      "group": "Product Components",
+      "page": "Оплата",
+      "pageId": "6959:19340",
+      "catalogLabel": "Сводка покупки",
+      "nodeId": "9324:57913",
+      "name": "Сводка покупки",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Тип": {
+          "type": "VARIANT",
+          "defaultValue": "Подписка",
+          "variantOptions": [
+            "Подписка",
+            "Покупка"
+          ]
+        },
+        "Размер": {
+          "type": "VARIANT",
+          "defaultValue": "Mob",
+          "variantOptions": [
+            "Mob",
+            "Tab"
+          ]
+        }
+      },
+      "variantCount": 4
+    },
+    {
+      "group": "Product Components",
+      "page": "Оплата",
+      "pageId": "6959:19340",
+      "catalogLabel": "🟡   Purchase",
+      "nodeId": "12857:60983",
+      "name": "🟡   Purchase",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Offer#1220:5": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Regular Price#1220:10": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Unused#1220:20": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Outgo Spasibo#1229:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Income Spasibo#1229:5": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Free#12858:5": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Total#12858:10": {
+          "type": "TEXT",
+          "defaultValue": "399 ₽"
+        },
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet"
+          ]
+        },
+        "Type": {
+          "type": "VARIANT",
+          "defaultValue": "SVOD",
+          "variantOptions": [
+            "SVOD",
+            "TVOD"
+          ]
+        }
+      },
+      "variantCount": 4
+    },
+    {
+      "group": "Product Components",
+      "page": "Оплата",
+      "pageId": "6959:19340",
+      "catalogLabel": "🟡 Card S",
+      "nodeId": "13555:74065",
+      "name": "🟡 Card S",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Bank #2697:0": {
+          "type": "TEXT",
+          "defaultValue": "Text"
+        },
+        "Logo#2697:5": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "25673:62326",
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "98e66fd8e351e1f81e0f5faff20f581d03142838"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "c5b99d502463ae7b5419eef213510dde857c0b5c"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "d353d40803548960545f7196995d02373a48ea6a"
+            }
+          ]
+        },
+        "Number#2697:15": {
+          "type": "TEXT",
+          "defaultValue": "• 0000"
+        },
+        "SberID#2743:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Pay system#13780:3": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "13780:74876",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "96a4763ddf8c10e21ccd6468837ac214eb76fe67"
+            }
+          ]
+        },
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Tablet",
+            "Phone"
+          ]
+        }
+      },
+      "variantCount": 2
+    },
+    {
+      "group": "Product Components",
+      "page": "Оплата",
+      "pageId": "6959:19340",
+      "catalogLabel": "🟡 Tab",
+      "nodeId": "13555:74161",
+      "name": "🟡 Tab",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Text#2697:25": {
+          "type": "TEXT",
+          "defaultValue": "Text"
+        },
+        "Balance#25800:11": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Icon / Logo#25800:22": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Devices": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Tablet",
+            "Phone"
+          ]
+        }
+      },
+      "variantCount": 2
+    },
+    {
+      "group": "Product Components",
+      "page": "Оплата",
+      "pageId": "6959:19340",
+      "catalogLabel": "🟡 Card L",
+      "nodeId": "11640:60961",
+      "name": "🟡 Card L",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Logo#13558:0": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "25673:62326",
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "98e66fd8e351e1f81e0f5faff20f581d03142838"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "d353d40803548960545f7196995d02373a48ea6a"
+            },
+            {
+              "type": "COMPONENT_SET",
+              "key": "c5b99d502463ae7b5419eef213510dde857c0b5c"
+            }
+          ]
+        },
+        "Pay system#13780:0": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "13780:74879",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "3c57e9f1a5268f2ace422d394ca852a9958807e5"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "0c8b1a9fe406f34bcfabf096e2ac7c80f98ceb62"
+            },
+            {
+              "type": "COMPONENT",
+              "key": "27ee420b51950280e9a3120060b069509a3f683c"
+            }
+          ]
+        },
+        "BankName#20476:28": {
+          "type": "TEXT",
+          "defaultValue": "Text"
+        },
+        "CardNumber#20476:33": {
+          "type": "TEXT",
+          "defaultValue": "• 0000"
+        },
+        "SberID#20491:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet"
+          ]
+        }
+      },
+      "variantCount": 2
+    },
+    {
+      "group": "Product Components",
+      "page": "Оплата",
+      "pageId": "6959:19340",
+      "catalogLabel": "🟡 Wallet",
+      "nodeId": "13783:74840",
+      "name": "🟡 Wallet",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Device": {
+          "type": "VARIANT",
+          "defaultValue": "phone",
+          "variantOptions": [
+            "tablet",
+            "phone"
+          ]
+        }
+      },
+      "variantCount": 2
+    },
+    {
+      "group": "Product Components",
+      "page": "Таблицы",
+      "pageId": "6962:19913",
+      "catalogLabel": "Таблица / Tablet",
+      "nodeId": "5446:10767",
+      "name": "Таблица / Tablet",
+      "type": "COMPONENT",
+      "properties": {}
+    },
+    {
+      "group": "Product Components",
+      "page": "Промоблоки",
+      "pageId": "6962:19952",
+      "catalogLabel": "Апсейл + апгрейд / Phone / Кино",
+      "nodeId": "3861:10706",
+      "name": "Апсейл + апгрейд / Phone / Кино",
+      "type": "COMPONENT",
+      "properties": {}
+    },
+    {
+      "group": "Product Components",
+      "page": "Промоблоки",
+      "pageId": "6962:19952",
+      "catalogLabel": "Расширение / Phone / Спорт",
+      "nodeId": "3543:78",
+      "name": "Расширение / Phone / Спорт",
+      "type": "COMPONENT",
+      "properties": {}
+    },
+    {
+      "group": "Product Components",
+      "page": "Промоблоки",
+      "pageId": "6962:19952",
+      "catalogLabel": "Подключить устройство / Phone",
+      "nodeId": "3711:7",
+      "name": "Подключить устройство / Phone",
+      "type": "COMPONENT",
+      "properties": {}
+    },
+    {
+      "group": "Product Components",
+      "page": "Промоблоки",
+      "pageId": "6962:19952",
+      "catalogLabel": "Подключить устройство / Tablet",
+      "nodeId": "3832:0",
+      "name": "Подключить устройство / Tablet",
+      "type": "COMPONENT",
+      "properties": {}
+    },
+    {
+      "group": "Product Components",
+      "page": "Промоблоки",
+      "pageId": "6962:19952",
+      "catalogLabel": "Апсейл + апгрейд / Tablet / Landscape / Кино",
+      "nodeId": "3981:12033",
+      "name": "Апсейл + апгрейд / Tablet / Landscape / Кино",
+      "type": "COMPONENT",
+      "properties": {}
+    },
+    {
+      "group": "Product Components",
+      "page": "Промоблоки",
+      "pageId": "6962:19952",
+      "catalogLabel": "Апсейл + апгрейд / Tablet / Portrait / Кино",
+      "nodeId": "4084:10479",
+      "name": "Апсейл + апгрейд / Tablet / Portrait / Кино",
+      "type": "COMPONENT",
+      "properties": {}
+    },
+    {
+      "group": "Product Components",
+      "page": "Промоблоки",
+      "pageId": "6962:19952",
+      "catalogLabel": "Расширение в длинные / Tablet / Landscape / Кино",
+      "nodeId": "4177:10726",
+      "name": "Расширение в длинные / Tablet / Landscape / Кино",
+      "type": "COMPONENT",
+      "properties": {}
+    },
+    {
+      "group": "Product Components",
+      "page": "Промоблоки",
+      "pageId": "6962:19952",
+      "catalogLabel": "Расширение в длинные / Tablet / Portrait / Кино",
+      "nodeId": "4177:10727",
+      "name": "Расширение в длинные / Tablet / Portrait / Кино",
+      "type": "COMPONENT",
+      "properties": {}
+    },
+    {
+      "group": "Product Components",
+      "page": "Промоблоки",
+      "pageId": "6962:19952",
+      "catalogLabel": "Расширение / Tablet / Спорт",
+      "nodeId": "3544:38",
+      "name": "Расширение / Tablet / Спорт",
+      "type": "COMPONENT",
+      "properties": {}
+    },
+    {
+      "group": "Product Components",
+      "page": "Промоблоки",
+      "pageId": "6962:19952",
+      "catalogLabel": "Коэф аним / Phone",
+      "nodeId": "6855:18823",
+      "name": "Коэф аним / Phone",
+      "type": "COMPONENT",
+      "properties": {}
+    },
+    {
+      "group": "Product Components",
+      "page": "Промоблоки",
+      "pageId": "6962:19952",
+      "catalogLabel": "Коэф аним / Landscape Tab",
+      "nodeId": "6855:18824",
+      "name": "Коэф аним / Landscape Tab",
+      "type": "COMPONENT",
+      "properties": {}
+    },
+    {
+      "group": "Product Components",
+      "page": "Промоблоки",
+      "pageId": "6962:19952",
+      "catalogLabel": "Коэф аним / Portrait Tab",
+      "nodeId": "6855:18825",
+      "name": "Коэф аним / Portrait Tab",
+      "type": "COMPONENT",
+      "properties": {}
+    },
+    {
+      "group": "Product Components",
+      "page": "Промоблоки",
+      "pageId": "6962:19952",
+      "catalogLabel": "🟡 Action Banner",
+      "nodeId": "17181:1460",
+      "name": "🟡 Action Banner",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Show title#19090:0": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Show text#19090:4": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Partner Button#23117:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet-Landscape",
+            "Tablet-Portrait"
+          ]
+        },
+        "Skeleton": {
+          "type": "VARIANT",
+          "defaultValue": "False",
+          "variantOptions": [
+            "False",
+            "True"
+          ]
+        }
+      },
+      "variantCount": 6
+    },
+    {
+      "group": "Product Components",
+      "page": "Промоблоки",
+      "pageId": "6962:19952",
+      "catalogLabel": "Banner Image",
+      "nodeId": "18805:2295",
+      "name": "Banner Image",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Type": {
+          "type": "VARIANT",
+          "defaultValue": "Main Image",
+          "variantOptions": [
+            "Background",
+            "Main Image"
+          ]
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet-Landscape",
+            "Tablet-Portrait"
+          ]
+        }
+      },
+      "variantCount": 6
+    },
+    {
+      "group": "Product Components",
+      "page": "Промоблоки",
+      "pageId": "6962:19952",
+      "catalogLabel": "🟡 Pop-up banner",
+      "nodeId": "20188:1445",
+      "name": "🟡 Pop-up banner",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Navigation#20188:2": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Secondary button#20188:3": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "Phone",
+          "variantOptions": [
+            "Phone",
+            "Tablet"
+          ]
+        },
+        "Type": {
+          "type": "VARIANT",
+          "defaultValue": "Default",
+          "variantOptions": [
+            "Default",
+            "Offer"
+          ]
+        }
+      },
+      "variantCount": 4
+    },
+    {
+      "group": "Product Components",
+      "page": "Промоблоки",
+      "pageId": "6962:19952",
+      "catalogLabel": "Banner Image Phone",
+      "nodeId": "22137:753",
+      "name": "Banner Image Phone",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Safezone#22327:3": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Type": {
+          "type": "VARIANT",
+          "defaultValue": "Default",
+          "variantOptions": [
+            "Default",
+            "Offer"
+          ]
+        }
+      },
+      "variantCount": 2
+    },
+    {
+      "group": "Product Components",
+      "page": "Промоблоки",
+      "pageId": "6962:19952",
+      "catalogLabel": "Banner Image Tablet",
+      "nodeId": "22137:776",
+      "name": "Banner Image Tablet",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Safezone#22327:6": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Type": {
+          "type": "VARIANT",
+          "defaultValue": "Offer",
+          "variantOptions": [
+            "Default",
+            "Offer"
+          ]
+        }
+      },
+      "variantCount": 2
+    }
+  ]
+}
