@@ -1,0 +1,2320 @@
+{
+  "date": "2026-10-20",
+  "fileKey": "sb7SelAF2PBcYZsOxL092c",
+  "pageId": "16623:178658",
+  "before": {
+    "page": "Label",
+    "nodeCount": 1621,
+    "rootCount": 6,
+    "groups": [
+      {
+        "name": "[Deprecated]/Border/Contour",
+        "key": "dd9da9ff3fffa92fabfcf1cf141d191420fd7d27",
+        "styleType": "PAINT",
+        "count": 4,
+        "buckets": {
+          "outside": 4
+        },
+        "example": "35954:517"
+      },
+      {
+        "name": "[Deprecated]/Text & icon/on Dark/Primary",
+        "key": "8d1e4095c97d6f8de9740c869fae2aa91b41bd6d",
+        "styleType": "PAINT",
+        "count": 268,
+        "buckets": {
+          "outside": 187,
+          "own": 71,
+          "instance": 4,
+          "light": 6
+        },
+        "example": "28479:54471"
+      },
+      {
+        "name": "[Deprecated]/Fill/Glassy/Secondary",
+        "key": "5c78f242f595f0f73fe7c5b12f695071b35c3a2d",
+        "styleType": "PAINT",
+        "count": 54,
+        "buckets": {
+          "own": 19,
+          "outside": 35
+        },
+        "example": "28479:54490"
+      },
+      {
+        "name": "Blur(Web Only)/Primary",
+        "key": "46a5b7ce2458b9b9812984ebadd816459e681f17",
+        "styleType": "EFFECT",
+        "count": 71,
+        "buckets": {
+          "own": 19,
+          "outside": 52
+        },
+        "example": "28479:54490"
+      },
+      {
+        "name": "[Deprecated]/Text & icon/on Dark/Third",
+        "key": "7ba87ccc576cd2381aee43f11162db346a88bf6a",
+        "styleType": "PAINT",
+        "count": 127,
+        "buckets": {
+          "instance": 8,
+          "own": 47,
+          "outside": 72
+        },
+        "example": "I28479:54493;33124:6717"
+      },
+      {
+        "name": "[Deprecated]/Fill/Solid/Live",
+        "key": "642eca58a3b1bbfe1c29ddad58b933acbfad8df7",
+        "styleType": "PAINT",
+        "count": 26,
+        "buckets": {
+          "own": 7,
+          "outside": 19
+        },
+        "example": "28479:54495"
+      },
+      {
+        "name": "[Deprecated]/Background/Glassy/Forth",
+        "key": "8e17fe9c36b70f797da1cab086a142b0c02efe47",
+        "styleType": "PAINT",
+        "count": 27,
+        "buckets": {
+          "own": 4,
+          "outside": 16,
+          "instance": 7
+        },
+        "example": "28479:54500"
+      },
+      {
+        "name": "[Deprecated]/Text & icon/on Dark/Secondary",
+        "key": "eb0848c39cf58e48e9aae01f73f766c68f7bdde4",
+        "styleType": "PAINT",
+        "count": 17,
+        "buckets": {
+          "outside": 17
+        },
+        "example": "28479:54797"
+      },
+      {
+        "name": "[Deprecated]/Background/Solid/Secondary",
+        "key": "6b0d5a4adbf8961b9daa987c9db7b1f66a5a0472",
+        "styleType": "PAINT",
+        "count": 7,
+        "buckets": {
+          "outside": 7
+        },
+        "example": "28479:54798"
+      },
+      {
+        "name": "Fill/Glassy/Secondary",
+        "key": "5c78f242f595f0f73fe7c5b12f695071b35c3a2d",
+        "styleType": "PAINT",
+        "count": 2,
+        "buckets": {
+          "outside": 2
+        },
+        "example": "28479:54839"
+      },
+      {
+        "name": "Text & icon/on Dark/Primary",
+        "key": "8d1e4095c97d6f8de9740c869fae2aa91b41bd6d",
+        "styleType": "PAINT",
+        "count": 24,
+        "buckets": {
+          "outside": 24
+        },
+        "example": "I28479:54839;20252:303665"
+      },
+      {
+        "name": "[Deprecated]/Text & icon/on Dark/Accent",
+        "key": "c0564bc982150679520f79befc91330305fb313a",
+        "styleType": "PAINT",
+        "count": 1,
+        "buckets": {
+          "outside": 1
+        },
+        "example": "28479:54846"
+      },
+      {
+        "name": "[Deprecated]/Fill/Solid/Secondary",
+        "key": "cc9f8ed188fba9318e96d598d00738e0625fd414",
+        "styleType": "PAINT",
+        "count": 1,
+        "buckets": {
+          "outside": 1
+        },
+        "example": "16627:178671"
+      },
+      {
+        "name": "Border/Glassy",
+        "key": "1082d45b02cee1ebf04885f304cfa0cae2c2bbc3",
+        "styleType": "PAINT",
+        "count": 16,
+        "buckets": {
+          "outside": 16
+        },
+        "example": "16627:178678"
+      },
+      {
+        "name": "[Deprecated]/Brand/Okko/AdditionalB",
+        "key": "86ed5589a7317e9b68733fe56f0624abb2d72263",
+        "styleType": "PAINT",
+        "count": 7,
+        "buckets": {
+          "outside": 1,
+          "light": 6
+        },
+        "example": "16627:178683"
+      },
+      {
+        "name": "[Deprecated]/Brand/Okko/Accent",
+        "key": "9421d159338be9646958b6dc8c453b8beb82f273",
+        "styleType": "PAINT",
+        "count": 10,
+        "buckets": {
+          "outside": 7,
+          "own": 3
+        },
+        "example": "16627:178684"
+      },
+      {
+        "name": "[Deprecated]/Background/Glassy/Secondary",
+        "key": "652819774a1ef1f79fa807ae422bcdd4d03842f2",
+        "styleType": "PAINT",
+        "count": 37,
+        "buckets": {
+          "outside": 4,
+          "own": 33
+        },
+        "example": "16627:178687"
+      },
+      {
+        "name": "[Deprecated]/Fill/Solid/Inverse",
+        "key": "974f85fc28b4a77fb28ea56ae2aba7dbc10a9905",
+        "styleType": "PAINT",
+        "count": 8,
+        "buckets": {
+          "outside": 1,
+          "own": 7
+        },
+        "example": "16627:178688"
+      },
+      {
+        "name": "[Deprecated]/Text & icon/on Light/Primary",
+        "key": "4e8ca772b49d5b02391ce1d8bbac531eae429f25",
+        "styleType": "PAINT",
+        "count": 20,
+        "buckets": {
+          "outside": 3,
+          "instance": 7,
+          "own": 10
+        },
+        "example": "I16627:178688;9:13462"
+      },
+      {
+        "name": "[Deprecated]/Fill/Solid/Positive",
+        "key": "549095b548000afc744b26d6727f100cad79feac",
+        "styleType": "PAINT",
+        "count": 5,
+        "buckets": {
+          "outside": 2,
+          "own": 3
+        },
+        "example": "16627:178689"
+      },
+      {
+        "name": "[Deprecated]/Fill/Decorative/Lemon",
+        "key": "76412b92a68c12a7736403948fc98bb74ce88867",
+        "styleType": "PAINT",
+        "count": 5,
+        "buckets": {
+          "outside": 2,
+          "own": 3
+        },
+        "example": "16627:178690"
+      },
+      {
+        "name": "[Deprecated]/Border/Glassy",
+        "key": "1082d45b02cee1ebf04885f304cfa0cae2c2bbc3",
+        "styleType": "PAINT",
+        "count": 5,
+        "buckets": {
+          "outside": 2,
+          "own": 3
+        },
+        "example": "16627:178789"
+      },
+      {
+        "name": "[Deprecated]/Background/Solid/Primary",
+        "key": "a58b219ba53603c8b26af4e925d7c6fcc41005af",
+        "styleType": "PAINT",
+        "count": 2,
+        "buckets": {
+          "outside": 2
+        },
+        "example": "16627:178863"
+      },
+      {
+        "name": "[Deprecated]/Text & icon/on Dark/Warning",
+        "key": "cc9b20453a66c1b7a7bc72e5d01559574475a957",
+        "styleType": "PAINT",
+        "count": 1,
+        "buckets": {
+          "outside": 1
+        },
+        "example": "16627:178866"
+      },
+      {
+        "name": "Fill/Solid/Primary",
+        "key": "974f85fc28b4a77fb28ea56ae2aba7dbc10a9905",
+        "styleType": "PAINT",
+        "count": 3,
+        "buckets": {
+          "instance": 3
+        },
+        "example": "I30392:1753;24384:3936"
+      }
+    ],
+    "collections": [
+      {
+        "id": "VariableCollectionId:9bfe8dde6e700cc0754156917935eea46ac309ee/32016:4307",
+        "name": "Primitives",
+        "bindings": 28,
+        "variables": 5
+      },
+      {
+        "id": "VariableCollectionId:1c6e07816c9c7d8423d676736c66af0f797411bb/41700:0",
+        "name": "Color",
+        "bindings": 17,
+        "variables": 3
+      },
+      {
+        "id": "VariableCollectionId:1c6e07816c9c7d8423d676736c66af0f797411bb/41872:3468",
+        "name": "Color",
+        "bindings": 87,
+        "variables": 16
+      }
+    ],
+    "primitiveBindings": [
+      {
+        "name": "primitives/electric300",
+        "key": "55ef3bc5d7cb945bd9075c4bfe8e6b8b7e152404",
+        "count": 1,
+        "buckets": {
+          "outside": 1
+        },
+        "example": "28479:54846"
+      },
+      {
+        "name": "primitives/electric1100",
+        "key": "f726b5e6a18952670ca687b36d8d05bf2bd82bce",
+        "count": 7,
+        "buckets": {
+          "outside": 1,
+          "light": 6
+        },
+        "example": "16627:178683"
+      },
+      {
+        "name": "primitives/electric800",
+        "key": "7ccd0b1656c5f89fb3fda04fdcaf8a4f870556f6",
+        "count": 10,
+        "buckets": {
+          "outside": 7,
+          "own": 3
+        },
+        "example": "16627:178684"
+      },
+      {
+        "name": "primitives/yellow200",
+        "key": "bc3e6755a57716cf5c60c4d87d78899f1c878f9b",
+        "count": 5,
+        "buckets": {
+          "outside": 2,
+          "own": 3
+        },
+        "example": "16627:178690"
+      },
+      {
+        "name": "primitives/yellow300",
+        "key": "f6cb703f659c3f0bea2b4a2780f5b5febefe142c",
+        "count": 5,
+        "buckets": {
+          "outside": 2,
+          "own": 3
+        },
+        "example": "16627:178690"
+      }
+    ],
+    "mixed": [],
+    "errors": []
+  },
+  "after": {
+    "noncanonical": [
+      {
+        "name": "Color/fill/solid/hover-focus/Third",
+        "key": "7190d7e2c06681786a2e62457fbad4e50931c325",
+        "count": 6,
+        "buckets": {
+          "instance": 6
+        },
+        "examples": [
+          {
+            "id": "I30392:1753;24384:3936",
+            "name": "Vector",
+            "field": "region0",
+            "master": "30392:1742",
+            "masterName": "Breakpoint=320+, Partner=Placeholder",
+            "instance": "30392:1753"
+          },
+          {
+            "id": "I30392:1753;24384:3936",
+            "name": "Vector",
+            "field": "region1",
+            "master": "30392:1742",
+            "masterName": "Breakpoint=320+, Partner=Placeholder",
+            "instance": "30392:1753"
+          }
+        ]
+      }
+    ],
+    "page": "Label",
+    "nodeCount": 1621,
+    "rootCount": 6,
+    "groups": [
+      {
+        "name": "[Deprecated]/Border/Contour",
+        "key": "dd9da9ff3fffa92fabfcf1cf141d191420fd7d27",
+        "styleType": "PAINT",
+        "count": 4,
+        "buckets": {
+          "outside": 4
+        },
+        "example": "35954:517"
+      },
+      {
+        "name": "[Deprecated]/Text & icon/on Dark/Primary",
+        "key": "8d1e4095c97d6f8de9740c869fae2aa91b41bd6d",
+        "styleType": "PAINT",
+        "count": 73,
+        "buckets": {
+          "outside": 67,
+          "light": 6
+        },
+        "example": "28479:54471"
+      },
+      {
+        "name": "Blur(Web Only)/Primary",
+        "key": "46a5b7ce2458b9b9812984ebadd816459e681f17",
+        "styleType": "EFFECT",
+        "count": 71,
+        "buckets": {
+          "own": 19,
+          "outside": 52
+        },
+        "example": "28479:54490"
+      },
+      {
+        "name": "[Deprecated]/Text & icon/on Dark/Secondary",
+        "key": "eb0848c39cf58e48e9aae01f73f766c68f7bdde4",
+        "styleType": "PAINT",
+        "count": 17,
+        "buckets": {
+          "outside": 17
+        },
+        "example": "28479:54797"
+      },
+      {
+        "name": "[Deprecated]/Background/Solid/Secondary",
+        "key": "6b0d5a4adbf8961b9daa987c9db7b1f66a5a0472",
+        "styleType": "PAINT",
+        "count": 7,
+        "buckets": {
+          "outside": 7
+        },
+        "example": "28479:54798"
+      },
+      {
+        "name": "[Deprecated]/Fill/Glassy/Secondary",
+        "key": "5c78f242f595f0f73fe7c5b12f695071b35c3a2d",
+        "styleType": "PAINT",
+        "count": 11,
+        "buckets": {
+          "outside": 11
+        },
+        "example": "28479:54805"
+      },
+      {
+        "name": "Fill/Glassy/Secondary",
+        "key": "5c78f242f595f0f73fe7c5b12f695071b35c3a2d",
+        "styleType": "PAINT",
+        "count": 2,
+        "buckets": {
+          "outside": 2
+        },
+        "example": "28479:54839"
+      },
+      {
+        "name": "Text & icon/on Dark/Primary",
+        "key": "8d1e4095c97d6f8de9740c869fae2aa91b41bd6d",
+        "styleType": "PAINT",
+        "count": 24,
+        "buckets": {
+          "outside": 24
+        },
+        "example": "I28479:54839;20252:303665"
+      },
+      {
+        "name": "[Deprecated]/Text & icon/on Dark/Accent",
+        "key": "c0564bc982150679520f79befc91330305fb313a",
+        "styleType": "PAINT",
+        "count": 1,
+        "buckets": {
+          "outside": 1
+        },
+        "example": "28479:54846"
+      },
+      {
+        "name": "[Deprecated]/Fill/Solid/Secondary",
+        "key": "cc9f8ed188fba9318e96d598d00738e0625fd414",
+        "styleType": "PAINT",
+        "count": 1,
+        "buckets": {
+          "outside": 1
+        },
+        "example": "16627:178671"
+      },
+      {
+        "name": "Border/Glassy",
+        "key": "1082d45b02cee1ebf04885f304cfa0cae2c2bbc3",
+        "styleType": "PAINT",
+        "count": 16,
+        "buckets": {
+          "outside": 16
+        },
+        "example": "16627:178678"
+      },
+      {
+        "name": "[Deprecated]/Brand/Okko/AdditionalB",
+        "key": "86ed5589a7317e9b68733fe56f0624abb2d72263",
+        "styleType": "PAINT",
+        "count": 7,
+        "buckets": {
+          "outside": 1,
+          "light": 6
+        },
+        "example": "16627:178683"
+      },
+      {
+        "name": "[Deprecated]/Brand/Okko/Accent",
+        "key": "9421d159338be9646958b6dc8c453b8beb82f273",
+        "styleType": "PAINT",
+        "count": 1,
+        "buckets": {
+          "outside": 1
+        },
+        "example": "16627:178684"
+      },
+      {
+        "name": "[Deprecated]/Fill/Solid/Live",
+        "key": "642eca58a3b1bbfe1c29ddad58b933acbfad8df7",
+        "styleType": "PAINT",
+        "count": 1,
+        "buckets": {
+          "outside": 1
+        },
+        "example": "16627:178685"
+      },
+      {
+        "name": "[Deprecated]/Background/Glassy/Secondary",
+        "key": "652819774a1ef1f79fa807ae422bcdd4d03842f2",
+        "styleType": "PAINT",
+        "count": 1,
+        "buckets": {
+          "outside": 1
+        },
+        "example": "16627:178687"
+      },
+      {
+        "name": "[Deprecated]/Fill/Solid/Inverse",
+        "key": "974f85fc28b4a77fb28ea56ae2aba7dbc10a9905",
+        "styleType": "PAINT",
+        "count": 1,
+        "buckets": {
+          "outside": 1
+        },
+        "example": "16627:178688"
+      },
+      {
+        "name": "[Deprecated]/Text & icon/on Light/Primary",
+        "key": "4e8ca772b49d5b02391ce1d8bbac531eae429f25",
+        "styleType": "PAINT",
+        "count": 2,
+        "buckets": {
+          "outside": 2
+        },
+        "example": "I16627:178688;9:13462"
+      },
+      {
+        "name": "[Deprecated]/Fill/Solid/Positive",
+        "key": "549095b548000afc744b26d6727f100cad79feac",
+        "styleType": "PAINT",
+        "count": 1,
+        "buckets": {
+          "outside": 1
+        },
+        "example": "16627:178689"
+      },
+      {
+        "name": "[Deprecated]/Fill/Decorative/Lemon",
+        "key": "76412b92a68c12a7736403948fc98bb74ce88867",
+        "styleType": "PAINT",
+        "count": 1,
+        "buckets": {
+          "outside": 1
+        },
+        "example": "16627:178690"
+      },
+      {
+        "name": "[Deprecated]/Border/Glassy",
+        "key": "1082d45b02cee1ebf04885f304cfa0cae2c2bbc3",
+        "styleType": "PAINT",
+        "count": 2,
+        "buckets": {
+          "outside": 2
+        },
+        "example": "16627:178789"
+      },
+      {
+        "name": "[Deprecated]/Background/Solid/Primary",
+        "key": "a58b219ba53603c8b26af4e925d7c6fcc41005af",
+        "styleType": "PAINT",
+        "count": 2,
+        "buckets": {
+          "outside": 2
+        },
+        "example": "16627:178863"
+      },
+      {
+        "name": "[Deprecated]/Text & icon/on Dark/Warning",
+        "key": "cc9b20453a66c1b7a7bc72e5d01559574475a957",
+        "styleType": "PAINT",
+        "count": 1,
+        "buckets": {
+          "outside": 1
+        },
+        "example": "16627:178866"
+      },
+      {
+        "name": "Fill/Solid/Primary",
+        "key": "974f85fc28b4a77fb28ea56ae2aba7dbc10a9905",
+        "styleType": "PAINT",
+        "count": 3,
+        "buckets": {
+          "instance": 3
+        },
+        "example": "I30392:1753;24384:3936"
+      }
+    ],
+    "collections": [
+      {
+        "id": "VariableCollectionId:1c6e07816c9c7d8423d676736c66af0f797411bb/41872:3468",
+        "name": "Color",
+        "bindings": 606,
+        "variables": 21
+      },
+      {
+        "id": "VariableCollectionId:9bfe8dde6e700cc0754156917935eea46ac309ee/32016:4307",
+        "name": "Primitives",
+        "bindings": 11,
+        "variables": 5
+      },
+      {
+        "id": "VariableCollectionId:1c6e07816c9c7d8423d676736c66af0f797411bb/41700:0",
+        "name": "Color",
+        "bindings": 9,
+        "variables": 2
+      }
+    ],
+    "primitiveBindings": [
+      {
+        "name": "primitives/electric300",
+        "key": "55ef3bc5d7cb945bd9075c4bfe8e6b8b7e152404",
+        "count": 1,
+        "buckets": {
+          "outside": 1
+        },
+        "example": "28479:54846"
+      },
+      {
+        "name": "primitives/electric1100",
+        "key": "f726b5e6a18952670ca687b36d8d05bf2bd82bce",
+        "count": 7,
+        "buckets": {
+          "outside": 1,
+          "light": 6
+        },
+        "example": "16627:178683"
+      },
+      {
+        "name": "primitives/electric800",
+        "key": "7ccd0b1656c5f89fb3fda04fdcaf8a4f870556f6",
+        "count": 1,
+        "buckets": {
+          "outside": 1
+        },
+        "example": "16627:178684"
+      },
+      {
+        "name": "primitives/yellow200",
+        "key": "bc3e6755a57716cf5c60c4d87d78899f1c878f9b",
+        "count": 1,
+        "buckets": {
+          "outside": 1
+        },
+        "example": "16627:178690"
+      },
+      {
+        "name": "primitives/yellow300",
+        "key": "f6cb703f659c3f0bea2b4a2780f5b5febefe142c",
+        "count": 1,
+        "buckets": {
+          "outside": 1
+        },
+        "example": "16627:178690"
+      }
+    ],
+    "mixed": [],
+    "errors": []
+  },
+  "own": {
+    "mode": "own",
+    "found": 207,
+    "attempted": 207,
+    "mutatedNodeIds": [
+      "28479:54490",
+      "28479:54491",
+      "28479:54494",
+      "29239:482",
+      "28479:54495",
+      "28479:54496",
+      "28479:54499",
+      "28479:54500",
+      "28479:54504",
+      "28479:54503",
+      "28479:54505",
+      "28479:54506",
+      "28479:54509",
+      "29239:491",
+      "28479:54510",
+      "28479:54511",
+      "28479:54514",
+      "28479:54515",
+      "28479:54519",
+      "28479:54518",
+      "28479:54520",
+      "28479:54521",
+      "28479:54524",
+      "29239:500",
+      "28479:54525",
+      "28479:54526",
+      "28479:54529",
+      "28479:54530",
+      "28479:54534",
+      "28479:54533",
+      "28479:54535",
+      "28479:54536",
+      "28479:54539",
+      "29239:509",
+      "28479:54540",
+      "28479:54541",
+      "28479:54544",
+      "28479:54545",
+      "28479:54549",
+      "28479:54548",
+      "21066:306474",
+      "21066:306476",
+      "16627:178759",
+      "16627:178761",
+      "16627:178762",
+      "16627:178764",
+      "16627:178765",
+      "16627:178767",
+      "16627:178801",
+      "16627:178804",
+      "16627:178807",
+      "16627:178808",
+      "16627:178810",
+      "16627:178811",
+      "16627:178813",
+      "16627:178814",
+      "16627:178816",
+      "16627:178817",
+      "16627:178819",
+      "16627:178820",
+      "16627:178822",
+      "16627:178823",
+      "16627:178825",
+      "16627:178826",
+      "16627:178828",
+      "16627:178829",
+      "16627:178831",
+      "16627:178832",
+      "16627:178834",
+      "16627:178844",
+      "16627:178846",
+      "16627:178847",
+      "16627:178849",
+      "16627:178850",
+      "16627:178852",
+      "16627:178853",
+      "16627:178855",
+      "16627:178856",
+      "16627:178858",
+      "16627:178859",
+      "16627:178861",
+      "43697:74854",
+      "43697:74856",
+      "43697:74857",
+      "43697:74859",
+      "43697:74860",
+      "43697:74862",
+      "16627:178835",
+      "16627:178837",
+      "16627:178838",
+      "16627:178840",
+      "16627:178841",
+      "16627:178843",
+      "30392:1742",
+      "30392:1745",
+      "30392:1746",
+      "30392:1748",
+      "30392:1749",
+      "30392:1751",
+      "30392:1752",
+      "30392:1960",
+      "30392:1963",
+      "30392:1964",
+      "30392:1966",
+      "30392:1967",
+      "30392:1969",
+      "30392:1970",
+      "30392:2046",
+      "30392:2049",
+      "30392:2050",
+      "30392:2052",
+      "30392:2053",
+      "30392:2055",
+      "30392:2056",
+      "30392:1766",
+      "30392:1769",
+      "30392:1770",
+      "30392:1772",
+      "30392:1773",
+      "30392:1775",
+      "30392:1776",
+      "30392:1972",
+      "30392:1975",
+      "30392:1976",
+      "30392:1978",
+      "30392:1979",
+      "30392:1981",
+      "30392:1982",
+      "30392:2058",
+      "30392:2061",
+      "30392:2062",
+      "30392:2064",
+      "30392:2065",
+      "30392:2067",
+      "30392:2068",
+      "30392:1790",
+      "30392:1793",
+      "30392:1794",
+      "30392:1796",
+      "30392:1797",
+      "30392:1799",
+      "30392:1800",
+      "31310:547",
+      "31310:550",
+      "31310:551",
+      "31310:553",
+      "31310:554",
+      "31310:556",
+      "31310:557",
+      "30392:1984",
+      "30392:1987",
+      "30392:1988",
+      "30392:1990",
+      "30392:1991",
+      "30392:1993",
+      "30392:1994",
+      "31310:559",
+      "31310:562",
+      "31310:563",
+      "31310:565",
+      "31310:566",
+      "31310:568",
+      "31310:569",
+      "30392:2070",
+      "30392:2073",
+      "30392:2074",
+      "30392:2076",
+      "30392:2077",
+      "30392:2079",
+      "30392:2080",
+      "31310:571",
+      "31310:574",
+      "31310:575",
+      "31310:577",
+      "31310:578",
+      "31310:580",
+      "31310:581",
+      "33717:1965",
+      "33738:82343",
+      "33956:550",
+      "33717:1963",
+      "33738:82345",
+      "33956:552",
+      "33717:1962",
+      "33738:82347",
+      "33956:554",
+      "33717:1960",
+      "33738:82349",
+      "34810:552",
+      "33956:556",
+      "33717:1959",
+      "33738:82351",
+      "33956:558",
+      "33717:1961",
+      "33738:82353",
+      "34810:554",
+      "33956:560",
+      "33717:1957",
+      "33738:82355",
+      "33956:562",
+      "33717:1964",
+      "33738:82357",
+      "34810:556",
+      "33956:564",
+      "33717:1958",
+      "33738:82359",
+      "33956:566"
+    ],
+    "applied": 207,
+    "summary": {
+      "color/fill/glassy/secondary": 19,
+      "color/text-icon/primary": 71,
+      "color/text-icon/third": 47,
+      "color/fill/solid/live": 7,
+      "color/background/glassy/fourth": 4,
+      "color/fill/solid/inverse": 7,
+      "color/text-icon/inverse/primary": 10,
+      "color/background/glassy/secondary": 33,
+      "color/fill/solid/positive": 3,
+      "color/component/label/lemon": 3,
+      "color/border/glassy": 3
+    },
+    "errors": []
+  },
+  "nested": {
+    "mode": "instance",
+    "found": 26,
+    "attempted": 26,
+    "mutatedNodeIds": [
+      "I28479:54493;33124:6717",
+      "I28479:54498;33124:6717",
+      "I28479:54502;33124:6717",
+      "I28479:54508;33124:6717",
+      "I28479:54513;33124:6717",
+      "I28479:54517;33124:6717",
+      "I28479:54523;33124:6717",
+      "I28479:54528;33124:6717",
+      "I28479:54532;33124:6717",
+      "I28479:54538;33124:6717",
+      "I28479:54543;33124:6717",
+      "I28479:54547;33124:6717",
+      "I21066:306475;13083:5222",
+      "I21066:306475;13083:5223",
+      "I16627:178760;13083:5222",
+      "I16627:178760;13083:5223",
+      "I16627:178763;13083:5222",
+      "I16627:178763;13083:5223",
+      "I16627:178766;13083:5222",
+      "I16627:178766;13083:5223",
+      "I16627:178836;13083:5222",
+      "I16627:178836;13083:5223",
+      "I16627:178839;13083:5222",
+      "I16627:178839;13083:5223",
+      "I16627:178842;13083:5222",
+      "I16627:178842;13083:5223"
+    ],
+    "applied": 26,
+    "summary": {
+      "color/text-icon/third": 8,
+      "color/text-icon/primary": 4,
+      "color/background/glassy/fourth": 7,
+      "color/text-icon/inverse/primary": 7
+    },
+    "errors": []
+  },
+  "brand": {
+    "mutatedNodeIds": [
+      "16627:178799",
+      "16627:178802",
+      "16627:178805"
+    ],
+    "target": "color/component/label/continuum",
+    "key": "472d08c74d922405ef716f7d2c6dc02542dc5900"
+  },
+  "static": {
+    "found": 47,
+    "mutatedNodeIds": [
+      "28479:54496",
+      "I28479:54498;33124:6717",
+      "28479:54499",
+      "28479:54511",
+      "I28479:54513;33124:6717",
+      "28479:54514",
+      "28479:54526",
+      "I28479:54528;33124:6717",
+      "28479:54529",
+      "28479:54541",
+      "I28479:54543;33124:6717",
+      "28479:54544",
+      "21066:306464",
+      "16627:178725",
+      "16627:178728",
+      "16627:178731",
+      "21066:306467",
+      "16627:178734",
+      "16627:178737",
+      "16627:178740",
+      "21066:306479",
+      "16627:178770",
+      "16627:178773",
+      "16627:178776",
+      "21066:306482",
+      "16627:178779",
+      "16627:178782",
+      "16627:178785",
+      "43719:44185",
+      "43719:44188",
+      "43719:44191",
+      "43719:44194",
+      "16627:178801",
+      "16627:178804",
+      "16627:178807",
+      "16627:178810",
+      "16627:178813",
+      "16627:178816",
+      "16627:178846",
+      "16627:178849",
+      "16627:178852",
+      "16627:178855",
+      "16627:178858",
+      "16627:178861",
+      "43719:415",
+      "43719:412",
+      "43719:409"
+    ],
+    "records": [
+      [
+        "28479:54496",
+        "28479:54495",
+        "color/static/solid/white",
+        0.9599999785423279,
+        1,
+        "VariableID:4f21a856bdfc52444ea3e3f62c9f6af53b98e6e5/41978:2829",
+        0.9599999785423279
+      ],
+      [
+        "I28479:54498;33124:6717",
+        "28479:54495",
+        "color/static/solid/white",
+        0.9599999785423279,
+        1,
+        "VariableID:4f21a856bdfc52444ea3e3f62c9f6af53b98e6e5/41978:2829",
+        0.9599999785423279
+      ],
+      [
+        "28479:54499",
+        "28479:54495",
+        "color/static/solid/white",
+        0.9599999785423279,
+        1,
+        "VariableID:4f21a856bdfc52444ea3e3f62c9f6af53b98e6e5/41978:2829",
+        0.9599999785423279
+      ],
+      [
+        "28479:54511",
+        "28479:54510",
+        "color/static/solid/white",
+        0.9599999785423279,
+        1,
+        "VariableID:4f21a856bdfc52444ea3e3f62c9f6af53b98e6e5/41978:2829",
+        0.9599999785423279
+      ],
+      [
+        "I28479:54513;33124:6717",
+        "28479:54510",
+        "color/static/solid/white",
+        0.9599999785423279,
+        1,
+        "VariableID:4f21a856bdfc52444ea3e3f62c9f6af53b98e6e5/41978:2829",
+        0.9599999785423279
+      ],
+      [
+        "28479:54514",
+        "28479:54510",
+        "color/static/solid/white",
+        0.9599999785423279,
+        1,
+        "VariableID:4f21a856bdfc52444ea3e3f62c9f6af53b98e6e5/41978:2829",
+        0.9599999785423279
+      ],
+      [
+        "28479:54526",
+        "28479:54525",
+        "color/static/solid/white",
+        0.9599999785423279,
+        1,
+        "VariableID:4f21a856bdfc52444ea3e3f62c9f6af53b98e6e5/41978:2829",
+        0.9599999785423279
+      ],
+      [
+        "I28479:54528;33124:6717",
+        "28479:54525",
+        "color/static/solid/white",
+        0.9599999785423279,
+        1,
+        "VariableID:4f21a856bdfc52444ea3e3f62c9f6af53b98e6e5/41978:2829",
+        0.9599999785423279
+      ],
+      [
+        "28479:54529",
+        "28479:54525",
+        "color/static/solid/white",
+        0.9599999785423279,
+        1,
+        "VariableID:4f21a856bdfc52444ea3e3f62c9f6af53b98e6e5/41978:2829",
+        0.9599999785423279
+      ],
+      [
+        "28479:54541",
+        "28479:54540",
+        "color/static/solid/white",
+        0.9599999785423279,
+        1,
+        "VariableID:4f21a856bdfc52444ea3e3f62c9f6af53b98e6e5/41978:2829",
+        0.9599999785423279
+      ],
+      [
+        "I28479:54543;33124:6717",
+        "28479:54540",
+        "color/static/solid/white",
+        0.9599999785423279,
+        1,
+        "VariableID:4f21a856bdfc52444ea3e3f62c9f6af53b98e6e5/41978:2829",
+        0.9599999785423279
+      ],
+      [
+        "28479:54544",
+        "28479:54540",
+        "color/static/solid/white",
+        0.9599999785423279,
+        1,
+        "VariableID:4f21a856bdfc52444ea3e3f62c9f6af53b98e6e5/41978:2829",
+        0.9599999785423279
+      ],
+      [
+        "21066:306464",
+        "21066:306462",
+        "color/static/solid/white",
+        0.9599999785423279,
+        1,
+        "VariableID:4f21a856bdfc52444ea3e3f62c9f6af53b98e6e5/41978:2829",
+        0.9599999785423279
+      ],
+      [
+        "16627:178725",
+        "16627:178723",
+        "color/static/solid/white",
+        0.9599999785423279,
+        1,
+        "VariableID:4f21a856bdfc52444ea3e3f62c9f6af53b98e6e5/41978:2829",
+        0.9599999785423279
+      ],
+      [
+        "16627:178728",
+        "16627:178726",
+        "color/static/solid/white",
+        0.9599999785423279,
+        1,
+        "VariableID:4f21a856bdfc52444ea3e3f62c9f6af53b98e6e5/41978:2829",
+        0.9599999785423279
+      ],
+      [
+        "16627:178731",
+        "16627:178729",
+        "color/static/solid/white",
+        0.9599999785423279,
+        1,
+        "VariableID:4f21a856bdfc52444ea3e3f62c9f6af53b98e6e5/41978:2829",
+        0.9599999785423279
+      ],
+      [
+        "21066:306467",
+        "21066:306465",
+        "color/static/solid/white",
+        0.9599999785423279,
+        1,
+        "VariableID:4f21a856bdfc52444ea3e3f62c9f6af53b98e6e5/41978:2829",
+        0.9599999785423279
+      ],
+      [
+        "16627:178734",
+        "16627:178732",
+        "color/static/solid/white",
+        0.9599999785423279,
+        1,
+        "VariableID:4f21a856bdfc52444ea3e3f62c9f6af53b98e6e5/41978:2829",
+        0.9599999785423279
+      ],
+      [
+        "16627:178737",
+        "16627:178735",
+        "color/static/solid/white",
+        0.9599999785423279,
+        1,
+        "VariableID:4f21a856bdfc52444ea3e3f62c9f6af53b98e6e5/41978:2829",
+        0.9599999785423279
+      ],
+      [
+        "16627:178740",
+        "16627:178738",
+        "color/static/solid/white",
+        0.9599999785423279,
+        1,
+        "VariableID:4f21a856bdfc52444ea3e3f62c9f6af53b98e6e5/41978:2829",
+        0.9599999785423279
+      ],
+      [
+        "21066:306479",
+        "21066:306477",
+        "color/static/solid/white",
+        0.9599999785423279,
+        1,
+        "VariableID:4f21a856bdfc52444ea3e3f62c9f6af53b98e6e5/41978:2829",
+        0.9599999785423279
+      ],
+      [
+        "16627:178770",
+        "16627:178768",
+        "color/static/solid/white",
+        0.9599999785423279,
+        1,
+        "VariableID:4f21a856bdfc52444ea3e3f62c9f6af53b98e6e5/41978:2829",
+        0.9599999785423279
+      ],
+      [
+        "16627:178773",
+        "16627:178771",
+        "color/static/solid/white",
+        0.9599999785423279,
+        1,
+        "VariableID:4f21a856bdfc52444ea3e3f62c9f6af53b98e6e5/41978:2829",
+        0.9599999785423279
+      ],
+      [
+        "16627:178776",
+        "16627:178774",
+        "color/static/solid/white",
+        0.9599999785423279,
+        1,
+        "VariableID:4f21a856bdfc52444ea3e3f62c9f6af53b98e6e5/41978:2829",
+        0.9599999785423279
+      ],
+      [
+        "21066:306482",
+        "21066:306480",
+        "color/static/solid/black",
+        0.9599999785423279,
+        1,
+        "VariableID:6a2da19c0b5e6c45ffa29b1fe769bbe31d6db150/41700:10",
+        0.9599999785423279
+      ],
+      [
+        "16627:178779",
+        "16627:178777",
+        "color/static/solid/black",
+        0.9599999785423279,
+        1,
+        "VariableID:6a2da19c0b5e6c45ffa29b1fe769bbe31d6db150/41700:10",
+        0.9599999785423279
+      ],
+      [
+        "16627:178782",
+        "16627:178780",
+        "color/static/solid/black",
+        0.9599999785423279,
+        1,
+        "VariableID:6a2da19c0b5e6c45ffa29b1fe769bbe31d6db150/41700:10",
+        0.9599999785423279
+      ],
+      [
+        "16627:178785",
+        "16627:178783",
+        "color/static/solid/black",
+        0.9599999785423279,
+        1,
+        "VariableID:6a2da19c0b5e6c45ffa29b1fe769bbe31d6db150/41700:10",
+        0.9599999785423279
+      ],
+      [
+        "43719:44185",
+        "43719:44183",
+        "color/static/solid/black",
+        0.9599999785423279,
+        1,
+        "VariableID:6a2da19c0b5e6c45ffa29b1fe769bbe31d6db150/41700:10",
+        0.9599999785423279
+      ],
+      [
+        "43719:44188",
+        "43719:44186",
+        "color/static/solid/black",
+        0.9599999785423279,
+        1,
+        "VariableID:6a2da19c0b5e6c45ffa29b1fe769bbe31d6db150/41700:10",
+        0.9599999785423279
+      ],
+      [
+        "43719:44191",
+        "43719:44189",
+        "color/static/solid/black",
+        0.9599999785423279,
+        1,
+        "VariableID:6a2da19c0b5e6c45ffa29b1fe769bbe31d6db150/41700:10",
+        0.9599999785423279
+      ],
+      [
+        "43719:44194",
+        "43719:44192",
+        "color/static/solid/black",
+        0.9599999785423279,
+        1,
+        "VariableID:6a2da19c0b5e6c45ffa29b1fe769bbe31d6db150/41700:10",
+        0.9599999785423279
+      ],
+      [
+        "16627:178801",
+        "16627:178799",
+        "color/static/solid/white",
+        0.9599999785423279,
+        1,
+        "VariableID:4f21a856bdfc52444ea3e3f62c9f6af53b98e6e5/41978:2829",
+        0.9599999785423279
+      ],
+      [
+        "16627:178804",
+        "16627:178802",
+        "color/static/solid/white",
+        0.9599999785423279,
+        1,
+        "VariableID:4f21a856bdfc52444ea3e3f62c9f6af53b98e6e5/41978:2829",
+        0.9599999785423279
+      ],
+      [
+        "16627:178807",
+        "16627:178805",
+        "color/static/solid/white",
+        0.9599999785423279,
+        1,
+        "VariableID:4f21a856bdfc52444ea3e3f62c9f6af53b98e6e5/41978:2829",
+        0.9599999785423279
+      ],
+      [
+        "16627:178810",
+        "16627:178808",
+        "color/static/solid/white",
+        0.9599999785423279,
+        1,
+        "VariableID:4f21a856bdfc52444ea3e3f62c9f6af53b98e6e5/41978:2829",
+        0.9599999785423279
+      ],
+      [
+        "16627:178813",
+        "16627:178811",
+        "color/static/solid/white",
+        0.9599999785423279,
+        1,
+        "VariableID:4f21a856bdfc52444ea3e3f62c9f6af53b98e6e5/41978:2829",
+        0.9599999785423279
+      ],
+      [
+        "16627:178816",
+        "16627:178814",
+        "color/static/solid/white",
+        0.9599999785423279,
+        1,
+        "VariableID:4f21a856bdfc52444ea3e3f62c9f6af53b98e6e5/41978:2829",
+        0.9599999785423279
+      ],
+      [
+        "16627:178846",
+        "16627:178844",
+        "color/static/solid/white",
+        0.9599999785423279,
+        1,
+        "VariableID:4f21a856bdfc52444ea3e3f62c9f6af53b98e6e5/41978:2829",
+        0.9599999785423279
+      ],
+      [
+        "16627:178849",
+        "16627:178847",
+        "color/static/solid/white",
+        0.9599999785423279,
+        1,
+        "VariableID:4f21a856bdfc52444ea3e3f62c9f6af53b98e6e5/41978:2829",
+        0.9599999785423279
+      ],
+      [
+        "16627:178852",
+        "16627:178850",
+        "color/static/solid/white",
+        0.9599999785423279,
+        1,
+        "VariableID:4f21a856bdfc52444ea3e3f62c9f6af53b98e6e5/41978:2829",
+        0.9599999785423279
+      ],
+      [
+        "16627:178855",
+        "16627:178853",
+        "color/static/solid/black",
+        0.9599999785423279,
+        1,
+        "VariableID:6a2da19c0b5e6c45ffa29b1fe769bbe31d6db150/41978:2837",
+        0.9599999785423279
+      ],
+      [
+        "16627:178858",
+        "16627:178856",
+        "color/static/solid/black",
+        0.9599999785423279,
+        1,
+        "VariableID:6a2da19c0b5e6c45ffa29b1fe769bbe31d6db150/41978:2837",
+        0.9599999785423279
+      ],
+      [
+        "16627:178861",
+        "16627:178859",
+        "color/static/solid/black",
+        0.9599999785423279,
+        1,
+        "VariableID:6a2da19c0b5e6c45ffa29b1fe769bbe31d6db150/41978:2837",
+        0.9599999785423279
+      ],
+      [
+        "43719:415",
+        "43719:413",
+        "color/static/solid/black",
+        0.9599999785423279,
+        1,
+        "VariableID:6a2da19c0b5e6c45ffa29b1fe769bbe31d6db150/41978:2837",
+        0.9599999785423279
+      ],
+      [
+        "43719:412",
+        "43719:410",
+        "color/static/solid/black",
+        0.9599999785423279,
+        1,
+        "VariableID:6a2da19c0b5e6c45ffa29b1fe769bbe31d6db150/41978:2837",
+        0.9599999785423279
+      ],
+      [
+        "43719:409",
+        "43719:407",
+        "color/static/solid/black",
+        0.9599999785423279,
+        1,
+        "VariableID:6a2da19c0b5e6c45ffa29b1fe769bbe31d6db150/41978:2837",
+        0.9599999785423279
+      ]
+    ],
+    "errors": [],
+    "unsupportedCount": 0,
+    "skipped": []
+  },
+  "staticFinal": {
+    "stats": {
+      "scanned": 761,
+      "alreadyStatic": 56,
+      "overColored": 59
+    },
+    "found": 0,
+    "examples": [],
+    "raw": 3,
+    "rawIds": [
+      "I45683:10495;45683:10507",
+      "I45683:10497;45683:10507",
+      "I45683:10499;45683:10507"
+    ],
+    "unsupportedCount": 0,
+    "unsupported": [],
+    "skipped": []
+  },
+  "headSource": {
+    "master": {
+      "id": "24384:3935",
+      "name": "Partner=Placeholder"
+    },
+    "parent": {
+      "id": "24384:3931",
+      "name": "Bet Logo(Full)"
+    },
+    "vectors": [
+      {
+        "id": "24384:3936",
+        "name": "Vector",
+        "regions": [
+          {
+            "i": 0,
+            "style": "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.9607843160629272,
+                  "g": 0.95686274766922,
+                  "b": 0.9647058844566345
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "i": 1,
+            "style": "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.9607843160629272,
+                  "g": 0.95686274766922,
+                  "b": 0.9647058844566345
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "i": 2,
+            "style": "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.9607843160629272,
+                  "g": 0.95686274766922,
+                  "b": 0.9647058844566345
+                },
+                "boundVariables": {}
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "24384:3937",
+        "name": "Vector",
+        "regions": [
+          {
+            "i": 0,
+            "style": "",
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "i": 1,
+            "style": "",
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "i": 2,
+            "style": "",
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "i": 3,
+            "style": "",
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "boundVariables": {}
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "headWrite": {
+    "mutatedNodeIds": [
+      "24384:3936"
+    ],
+    "regionsChanged": 3,
+    "target": "color/fill/solid/inverse",
+    "valid": true,
+    "maxVertexDelta": 0,
+    "topologyPreserved": true
+  },
+  "regionCases": [
+    {
+      "master": "30392:1742",
+      "name": "Breakpoint=320+, Partner=Placeholder",
+      "rows": [
+        {
+          "id": "I30392:1753;24384:3936",
+          "name": "Vector",
+          "regions": [
+            {
+              "index": 0,
+              "style": "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+              "fills": [
+                {
+                  "type": "GRADIENT_RADIAL",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "gradientStops": [
+                    {
+                      "color": {
+                        "r": 0.23137255012989044,
+                        "g": 0.22745098173618317,
+                        "b": 0.24313725531101227,
+                        "a": 1
+                      },
+                      "position": 0,
+                      "boundVariables": {}
+                    },
+                    {
+                      "color": {
+                        "r": 0.1725490242242813,
+                        "g": 0.16862745583057404,
+                        "b": 0.18431372940540314,
+                        "a": 1
+                      },
+                      "position": 1,
+                      "boundVariables": {}
+                    }
+                  ],
+                  "gradientTransform": [
+                    [
+                      -7.450595695956963e-9,
+                      0.5,
+                      0.5
+                    ],
+                    [
+                      -0.5,
+                      -7.450590366886445e-9,
+                      1
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "index": 1,
+              "style": "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+              "fills": [
+                {
+                  "type": "GRADIENT_RADIAL",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "gradientStops": [
+                    {
+                      "color": {
+                        "r": 0.23137255012989044,
+                        "g": 0.22745098173618317,
+                        "b": 0.24313725531101227,
+                        "a": 1
+                      },
+                      "position": 0,
+                      "boundVariables": {}
+                    },
+                    {
+                      "color": {
+                        "r": 0.1725490242242813,
+                        "g": 0.16862745583057404,
+                        "b": 0.18431372940540314,
+                        "a": 1
+                      },
+                      "position": 1,
+                      "boundVariables": {}
+                    }
+                  ],
+                  "gradientTransform": [
+                    [
+                      -7.450595695956963e-9,
+                      0.5,
+                      0.5
+                    ],
+                    [
+                      -0.5,
+                      -7.450590366886445e-9,
+                      1
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "style": "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.9607843160629272,
+                    "g": 0.95686274766922,
+                    "b": 0.9647058844566345
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            }
+          ],
+          "parent": "30392:1753"
+        }
+      ],
+      "instances": [
+        {
+          "id": "30392:1743",
+          "name": "Logotypes / Live_Color",
+          "main": "45143:5007",
+          "key": "57c18e4bf2e921d16ede27b65498f05c5e32c222",
+          "remote": true
+        },
+        {
+          "id": "30392:1753",
+          "name": "Bet Logo(Full)",
+          "main": "46032:28497",
+          "key": "7c41799c64ce684f102ba44e53cbdf3435cbc0e4",
+          "remote": true
+        }
+      ]
+    },
+    {
+      "master": "30392:1960",
+      "name": "Breakpoint=600+, Partner=Placeholder",
+      "rows": [
+        {
+          "id": "I30392:1971;24384:3936",
+          "name": "Vector",
+          "regions": [
+            {
+              "index": 0,
+              "style": "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+              "fills": [
+                {
+                  "type": "GRADIENT_RADIAL",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "gradientStops": [
+                    {
+                      "color": {
+                        "r": 0.23137255012989044,
+                        "g": 0.22745098173618317,
+                        "b": 0.24313725531101227,
+                        "a": 1
+                      },
+                      "position": 0,
+                      "boundVariables": {}
+                    },
+                    {
+                      "color": {
+                        "r": 0.1725490242242813,
+                        "g": 0.16862745583057404,
+                        "b": 0.18431372940540314,
+                        "a": 1
+                      },
+                      "position": 1,
+                      "boundVariables": {}
+                    }
+                  ],
+                  "gradientTransform": [
+                    [
+                      -7.450595695956963e-9,
+                      0.5,
+                      0.5
+                    ],
+                    [
+                      -0.5,
+                      -7.450590366886445e-9,
+                      1
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "index": 1,
+              "style": "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+              "fills": [
+                {
+                  "type": "GRADIENT_RADIAL",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "gradientStops": [
+                    {
+                      "color": {
+                        "r": 0.23137255012989044,
+                        "g": 0.22745098173618317,
+                        "b": 0.24313725531101227,
+                        "a": 1
+                      },
+                      "position": 0,
+                      "boundVariables": {}
+                    },
+                    {
+                      "color": {
+                        "r": 0.1725490242242813,
+                        "g": 0.16862745583057404,
+                        "b": 0.18431372940540314,
+                        "a": 1
+                      },
+                      "position": 1,
+                      "boundVariables": {}
+                    }
+                  ],
+                  "gradientTransform": [
+                    [
+                      -7.450595695956963e-9,
+                      0.5,
+                      0.5
+                    ],
+                    [
+                      -0.5,
+                      -7.450590366886445e-9,
+                      1
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "style": "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.9607843160629272,
+                    "g": 0.95686274766922,
+                    "b": 0.9647058844566345
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            }
+          ],
+          "parent": "30392:1971"
+        }
+      ],
+      "instances": [
+        {
+          "id": "30392:1961",
+          "name": "Logotypes / Live",
+          "main": "45143:5007",
+          "key": "57c18e4bf2e921d16ede27b65498f05c5e32c222",
+          "remote": true
+        },
+        {
+          "id": "30392:1971",
+          "name": "Bet Logo(Full)",
+          "main": "46032:28497",
+          "key": "7c41799c64ce684f102ba44e53cbdf3435cbc0e4",
+          "remote": true
+        }
+      ]
+    },
+    {
+      "master": "30392:2046",
+      "name": "Breakpoint=1320+, Partner=Placeholder",
+      "rows": [
+        {
+          "id": "I30392:2057;24384:3936",
+          "name": "Vector",
+          "regions": [
+            {
+              "index": 0,
+              "style": "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+              "fills": [
+                {
+                  "type": "GRADIENT_RADIAL",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "gradientStops": [
+                    {
+                      "color": {
+                        "r": 0.23137255012989044,
+                        "g": 0.22745098173618317,
+                        "b": 0.24313725531101227,
+                        "a": 1
+                      },
+                      "position": 0,
+                      "boundVariables": {}
+                    },
+                    {
+                      "color": {
+                        "r": 0.1725490242242813,
+                        "g": 0.16862745583057404,
+                        "b": 0.18431372940540314,
+                        "a": 1
+                      },
+                      "position": 1,
+                      "boundVariables": {}
+                    }
+                  ],
+                  "gradientTransform": [
+                    [
+                      -7.450595695956963e-9,
+                      0.5,
+                      0.5
+                    ],
+                    [
+                      -0.5,
+                      -7.450590366886445e-9,
+                      1
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "index": 1,
+              "style": "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+              "fills": [
+                {
+                  "type": "GRADIENT_RADIAL",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "gradientStops": [
+                    {
+                      "color": {
+                        "r": 0.23137255012989044,
+                        "g": 0.22745098173618317,
+                        "b": 0.24313725531101227,
+                        "a": 1
+                      },
+                      "position": 0,
+                      "boundVariables": {}
+                    },
+                    {
+                      "color": {
+                        "r": 0.1725490242242813,
+                        "g": 0.16862745583057404,
+                        "b": 0.18431372940540314,
+                        "a": 1
+                      },
+                      "position": 1,
+                      "boundVariables": {}
+                    }
+                  ],
+                  "gradientTransform": [
+                    [
+                      -7.450595695956963e-9,
+                      0.5,
+                      0.5
+                    ],
+                    [
+                      -0.5,
+                      -7.450590366886445e-9,
+                      1
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "style": "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.9607843160629272,
+                    "g": 0.95686274766922,
+                    "b": 0.9647058844566345
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            }
+          ],
+          "parent": "30392:2057"
+        }
+      ],
+      "instances": [
+        {
+          "id": "30392:2047",
+          "name": "Logotypes / Live_Color",
+          "main": "45143:5007",
+          "key": "57c18e4bf2e921d16ede27b65498f05c5e32c222",
+          "remote": true
+        },
+        {
+          "id": "30392:2057",
+          "name": "Bet Logo(Full)",
+          "main": "46032:28497",
+          "key": "7c41799c64ce684f102ba44e53cbdf3435cbc0e4",
+          "remote": true
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "changedUniquePageLayers": 259,
+    "pageBindingChanges": 283,
+    "remainingLegacyPaints": {
+      "outside": 164,
+      "light": 12,
+      "instance": 3
+    },
+    "noncanonicalRegions": 6,
+    "sourceChangedLayers": 1
+  },
+  "mutatedPageNodeIds": [
+    "28479:54490",
+    "28479:54491",
+    "28479:54494",
+    "29239:482",
+    "28479:54495",
+    "28479:54496",
+    "28479:54499",
+    "28479:54500",
+    "28479:54504",
+    "28479:54503",
+    "28479:54505",
+    "28479:54506",
+    "28479:54509",
+    "29239:491",
+    "28479:54510",
+    "28479:54511",
+    "28479:54514",
+    "28479:54515",
+    "28479:54519",
+    "28479:54518",
+    "28479:54520",
+    "28479:54521",
+    "28479:54524",
+    "29239:500",
+    "28479:54525",
+    "28479:54526",
+    "28479:54529",
+    "28479:54530",
+    "28479:54534",
+    "28479:54533",
+    "28479:54535",
+    "28479:54536",
+    "28479:54539",
+    "29239:509",
+    "28479:54540",
+    "28479:54541",
+    "28479:54544",
+    "28479:54545",
+    "28479:54549",
+    "28479:54548",
+    "21066:306474",
+    "21066:306476",
+    "16627:178759",
+    "16627:178761",
+    "16627:178762",
+    "16627:178764",
+    "16627:178765",
+    "16627:178767",
+    "16627:178801",
+    "16627:178804",
+    "16627:178807",
+    "16627:178808",
+    "16627:178810",
+    "16627:178811",
+    "16627:178813",
+    "16627:178814",
+    "16627:178816",
+    "16627:178817",
+    "16627:178819",
+    "16627:178820",
+    "16627:178822",
+    "16627:178823",
+    "16627:178825",
+    "16627:178826",
+    "16627:178828",
+    "16627:178829",
+    "16627:178831",
+    "16627:178832",
+    "16627:178834",
+    "16627:178844",
+    "16627:178846",
+    "16627:178847",
+    "16627:178849",
+    "16627:178850",
+    "16627:178852",
+    "16627:178853",
+    "16627:178855",
+    "16627:178856",
+    "16627:178858",
+    "16627:178859",
+    "16627:178861",
+    "43697:74854",
+    "43697:74856",
+    "43697:74857",
+    "43697:74859",
+    "43697:74860",
+    "43697:74862",
+    "16627:178835",
+    "16627:178837",
+    "16627:178838",
+    "16627:178840",
+    "16627:178841",
+    "16627:178843",
+    "30392:1742",
+    "30392:1745",
+    "30392:1746",
+    "30392:1748",
+    "30392:1749",
+    "30392:1751",
+    "30392:1752",
+    "30392:1960",
+    "30392:1963",
+    "30392:1964",
+    "30392:1966",
+    "30392:1967",
+    "30392:1969",
+    "30392:1970",
+    "30392:2046",
+    "30392:2049",
+    "30392:2050",
+    "30392:2052",
+    "30392:2053",
+    "30392:2055",
+    "30392:2056",
+    "30392:1766",
+    "30392:1769",
+    "30392:1770",
+    "30392:1772",
+    "30392:1773",
+    "30392:1775",
+    "30392:1776",
+    "30392:1972",
+    "30392:1975",
+    "30392:1976",
+    "30392:1978",
+    "30392:1979",
+    "30392:1981",
+    "30392:1982",
+    "30392:2058",
+    "30392:2061",
+    "30392:2062",
+    "30392:2064",
+    "30392:2065",
+    "30392:2067",
+    "30392:2068",
+    "30392:1790",
+    "30392:1793",
+    "30392:1794",
+    "30392:1796",
+    "30392:1797",
+    "30392:1799",
+    "30392:1800",
+    "31310:547",
+    "31310:550",
+    "31310:551",
+    "31310:553",
+    "31310:554",
+    "31310:556",
+    "31310:557",
+    "30392:1984",
+    "30392:1987",
+    "30392:1988",
+    "30392:1990",
+    "30392:1991",
+    "30392:1993",
+    "30392:1994",
+    "31310:559",
+    "31310:562",
+    "31310:563",
+    "31310:565",
+    "31310:566",
+    "31310:568",
+    "31310:569",
+    "30392:2070",
+    "30392:2073",
+    "30392:2074",
+    "30392:2076",
+    "30392:2077",
+    "30392:2079",
+    "30392:2080",
+    "31310:571",
+    "31310:574",
+    "31310:575",
+    "31310:577",
+    "31310:578",
+    "31310:580",
+    "31310:581",
+    "33717:1965",
+    "33738:82343",
+    "33956:550",
+    "33717:1963",
+    "33738:82345",
+    "33956:552",
+    "33717:1962",
+    "33738:82347",
+    "33956:554",
+    "33717:1960",
+    "33738:82349",
+    "34810:552",
+    "33956:556",
+    "33717:1959",
+    "33738:82351",
+    "33956:558",
+    "33717:1961",
+    "33738:82353",
+    "34810:554",
+    "33956:560",
+    "33717:1957",
+    "33738:82355",
+    "33956:562",
+    "33717:1964",
+    "33738:82357",
+    "34810:556",
+    "33956:564",
+    "33717:1958",
+    "33738:82359",
+    "33956:566",
+    "I28479:54493;33124:6717",
+    "I28479:54498;33124:6717",
+    "I28479:54502;33124:6717",
+    "I28479:54508;33124:6717",
+    "I28479:54513;33124:6717",
+    "I28479:54517;33124:6717",
+    "I28479:54523;33124:6717",
+    "I28479:54528;33124:6717",
+    "I28479:54532;33124:6717",
+    "I28479:54538;33124:6717",
+    "I28479:54543;33124:6717",
+    "I28479:54547;33124:6717",
+    "I21066:306475;13083:5222",
+    "I21066:306475;13083:5223",
+    "I16627:178760;13083:5222",
+    "I16627:178760;13083:5223",
+    "I16627:178763;13083:5222",
+    "I16627:178763;13083:5223",
+    "I16627:178766;13083:5222",
+    "I16627:178766;13083:5223",
+    "I16627:178836;13083:5222",
+    "I16627:178836;13083:5223",
+    "I16627:178839;13083:5222",
+    "I16627:178839;13083:5223",
+    "I16627:178842;13083:5222",
+    "I16627:178842;13083:5223",
+    "16627:178799",
+    "16627:178802",
+    "16627:178805",
+    "21066:306464",
+    "16627:178725",
+    "16627:178728",
+    "16627:178731",
+    "21066:306467",
+    "16627:178734",
+    "16627:178737",
+    "16627:178740",
+    "21066:306479",
+    "16627:178770",
+    "16627:178773",
+    "16627:178776",
+    "21066:306482",
+    "16627:178779",
+    "16627:178782",
+    "16627:178785",
+    "43719:44185",
+    "43719:44188",
+    "43719:44191",
+    "43719:44194",
+    "43719:415",
+    "43719:412",
+    "43719:409"
+  ]
+}

@@ -1,0 +1,2599 @@
+{
+  "date": "2026-10-20",
+  "scope": {
+    "target": {
+      "id": "43918:168881",
+      "name": "SkeletonView",
+      "type": "PAGE"
+    },
+    "page": {
+      "id": "43918:168881",
+      "name": "SkeletonView"
+    },
+    "roots": 6,
+    "masters": [
+      {
+        "id": "43918:174601",
+        "name": "Position=Start, Theme=Light",
+        "parentId": "43918:174600",
+        "parentName": "SkeletonView"
+      },
+      {
+        "id": "43918:174603",
+        "name": "Position=End, Theme=Light",
+        "parentId": "43918:174600",
+        "parentName": "SkeletonView"
+      },
+      {
+        "id": "43918:174605",
+        "name": "Position=End, Theme=Dark",
+        "parentId": "43918:174600",
+        "parentName": "SkeletonView"
+      },
+      {
+        "id": "43918:174607",
+        "name": "Position=Start, Theme=Dark",
+        "parentId": "43918:174600",
+        "parentName": "SkeletonView"
+      }
+    ],
+    "sets": [
+      {
+        "id": "43918:174600",
+        "name": "SkeletonView",
+        "count": 4
+      }
+    ]
+  },
+  "mutatedNodeIds": [],
+  "initialAndFinalAudit": {
+    "allGroups": [
+      {
+        "kind": "style",
+        "id": "S:a58b219ba53603c8b26af4e925d7c6fcc41005af,32110:34",
+        "count": 2,
+        "buckets": {
+          "outside": 2
+        },
+        "examples": [
+          {
+            "id": "43918:173852",
+            "name": "Пример",
+            "field": "fills"
+          },
+          {
+            "id": "43918:173853",
+            "name": "Menu - Desktop - Верхнее меню",
+            "field": "fills",
+            "instance": "43918:173853"
+          }
+        ],
+        "styleType": "PAINT",
+        "name": "[Deprecated]/Background/Solid/Primary",
+        "key": "a58b219ba53603c8b26af4e925d7c6fcc41005af"
+      },
+      {
+        "kind": "style",
+        "id": "S:f89742b6887c24e9491e35659021bf8e090a258a,11494:59",
+        "count": 4,
+        "buckets": {
+          "outside": 3,
+          "light": 1
+        },
+        "examples": [
+          {
+            "id": "I43918:173853;13036:143882;57:14",
+            "name": "Okko.light",
+            "field": "region0",
+            "instance": "I43918:173853;13036:143882"
+          },
+          {
+            "id": "I43918:173896;2134:211515;6154:36161",
+            "name": "Seasons",
+            "field": "fills",
+            "instance": "I43918:173896;2134:211515"
+          }
+        ],
+        "styleType": "PAINT",
+        "name": "Text & icon/on Dark/Primary",
+        "key": "f89742b6887c24e9491e35659021bf8e090a258a"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:5226651ce5a4bdc8084370cb5e6f1fa43510e93a/41978:2474",
+        "count": 41,
+        "buckets": {
+          "outside": 41
+        },
+        "examples": [
+          {
+            "id": "I43918:173853;13036:143885;13035:139760",
+            "name": "Новинки",
+            "field": "fills",
+            "instance": "I43918:173853;13036:143885",
+            "i": 0
+          },
+          {
+            "id": "I43918:173896;2134:211521;16812:199338;30478:100773;28479:54517;33124:6717",
+            "name": "Union",
+            "field": "fills",
+            "instance": "I43918:173896;2134:211521;16812:199338;30478:100773;28479:54517",
+            "i": 0
+          }
+        ],
+        "name": "color/text-icon/third",
+        "key": "5226651ce5a4bdc8084370cb5e6f1fa43510e93a",
+        "collection": "VariableCollectionId:1c6e07816c9c7d8423d676736c66af0f797411bb/41872:3468"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:2bc6fe0fd7ed25572c4e5a64dd85ad773f977c39/41978:2840",
+        "count": 5,
+        "buckets": {
+          "outside": 4,
+          "light": 1
+        },
+        "examples": [
+          {
+            "id": "I43918:173853;13036:143885;13035:139762;28:19",
+            "name": "Ellipse 1",
+            "field": "fills",
+            "instance": "I43918:173853;13036:143885;13035:139762",
+            "i": 0
+          },
+          {
+            "id": "I43918:173853;13036:143885;13035:139762;28:21",
+            "name": "Ellipse 2",
+            "field": "fills",
+            "instance": "I43918:173853;13036:143885;13035:139762",
+            "i": 0
+          }
+        ],
+        "name": "color/fill/solid/live",
+        "key": "2bc6fe0fd7ed25572c4e5a64dd85ad773f977c39",
+        "collection": "VariableCollectionId:1c6e07816c9c7d8423d676736c66af0f797411bb/41872:3468"
+      },
+      {
+        "kind": "style",
+        "id": "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "count": 9,
+        "buckets": {
+          "outside": 9
+        },
+        "examples": [
+          {
+            "id": "I43918:173853;13036:143888;13035:139760",
+            "name": "Новинки",
+            "field": "fills",
+            "instance": "I43918:173853;13036:143888"
+          },
+          {
+            "id": "I43918:173853;14265:167753;13035:139760",
+            "name": "Новинки",
+            "field": "fills",
+            "instance": "I43918:173853;14265:167753"
+          }
+        ],
+        "styleType": "PAINT",
+        "name": "[Deprecated]/Text & icon/on Dark/Third",
+        "key": "7ba87ccc576cd2381aee43f11162db346a88bf6a"
+      },
+      {
+        "kind": "style",
+        "id": "S:3a049cae24e42ac171db4599bf09ddd80880c4fc,10968:18",
+        "count": 25,
+        "buckets": {
+          "outside": 16,
+          "light": 9
+        },
+        "examples": [
+          {
+            "id": "I43918:173853;13036:143888;13035:139762;28:19",
+            "name": "Ellipse 1",
+            "field": "fills",
+            "instance": "I43918:173853;13036:143888;13035:139762"
+          },
+          {
+            "id": "I43918:173853;13036:143888;13035:139762;28:21",
+            "name": "Ellipse 2",
+            "field": "fills",
+            "instance": "I43918:173853;13036:143888;13035:139762"
+          }
+        ],
+        "styleType": "PAINT",
+        "name": "Primitives/Red/Saturated",
+        "key": "3a049cae24e42ac171db4599bf09ddd80880c4fc"
+      },
+      {
+        "kind": "style",
+        "id": "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+        "count": 5,
+        "buckets": {
+          "outside": 4,
+          "light": 1
+        },
+        "examples": [
+          {
+            "id": "I43918:173853;15008:173986;13035:139760",
+            "name": "Новинки",
+            "field": "fills",
+            "instance": "I43918:173853;15008:173986"
+          },
+          {
+            "id": "I43918:173853;13036:143890;13035:139863;33124:6919",
+            "name": "Union",
+            "field": "fills",
+            "instance": "I43918:173853;13036:143890;13035:139863"
+          }
+        ],
+        "styleType": "PAINT",
+        "name": "[Deprecated]/Text & icon/on Dark/Forth",
+        "key": "0f7b602df21889b566056efb403ddb4aead4dede"
+      },
+      {
+        "kind": "style",
+        "id": "S:034ebd7ec8d8e4d45ba92d69b6f9b333aacb4133,11363:29",
+        "count": 2,
+        "buckets": {
+          "outside": 1,
+          "light": 1
+        },
+        "examples": [
+          {
+            "id": "I43918:173853;13036:143890;13035:139862;3644:1176",
+            "name": "close",
+            "field": "region0",
+            "instance": "I43918:173853;13036:143890;13035:139862"
+          },
+          {
+            "id": "I43918:174040;13036:144095;13036:144473;3644:1176",
+            "name": "close",
+            "field": "region0",
+            "instance": "I43918:174040;13036:144095;13036:144473",
+            "light": true
+          }
+        ],
+        "styleType": "PAINT",
+        "name": "Primitives/Grey/Primary",
+        "key": "034ebd7ec8d8e4d45ba92d69b6f9b333aacb4133"
+      },
+      {
+        "kind": "style",
+        "id": "S:5dd3e2881730037c87e351aba596de222174b78c,39850:15",
+        "count": 1,
+        "buckets": {
+          "outside": 1
+        },
+        "examples": [
+          {
+            "id": "I43918:173853;13036:143890;28279:22431",
+            "name": "Button",
+            "field": "fills",
+            "instance": "I43918:173853;13036:143890;28279:22431"
+          }
+        ],
+        "styleType": "PAINT",
+        "name": "[Deprecated]/Fill/Decorative/on Dark/Button",
+        "key": "5dd3e2881730037c87e351aba596de222174b78c"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:581f4b9f12c0461ca64bfda4e31661f9bba5f66e/39850:97",
+        "count": 2,
+        "buckets": {
+          "outside": 2
+        },
+        "examples": [
+          {
+            "id": "I43918:173853;13036:143890;28279:22431",
+            "name": "Button",
+            "field": "fills",
+            "instance": "I43918:173853;13036:143890;28279:22431",
+            "i": 0,
+            "j": 0
+          },
+          {
+            "id": "I43918:173853;13036:143890;28279:22431",
+            "name": "Button",
+            "field": "fills",
+            "instance": "I43918:173853;13036:143890;28279:22431",
+            "i": 0,
+            "j": 1
+          }
+        ],
+        "name": "primitives/electric1000",
+        "key": "581f4b9f12c0461ca64bfda4e31661f9bba5f66e",
+        "collection": "VariableCollectionId:9bfe8dde6e700cc0754156917935eea46ac309ee/32016:4307"
+      },
+      {
+        "kind": "style",
+        "id": "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3",
+        "count": 6,
+        "buckets": {
+          "outside": 5,
+          "light": 1
+        },
+        "examples": [
+          {
+            "id": "I43918:173853;13036:143890;28279:22431;26093:350782;32958:4324",
+            "name": "Union",
+            "field": "fills",
+            "instance": "I43918:173853;13036:143890;28279:22431;26093:350782"
+          },
+          {
+            "id": "I43918:173853;13036:143890;28279:22431;26093:350783",
+            "name": "Text",
+            "field": "fills",
+            "instance": "I43918:173853;13036:143890;28279:22431"
+          }
+        ],
+        "styleType": "PAINT",
+        "name": "[Deprecated]/Text & icon/on Dark/Primary",
+        "key": "8d1e4095c97d6f8de9740c869fae2aa91b41bd6d"
+      },
+      {
+        "kind": "style",
+        "id": "S:f5f2af76c60e44caba680c8ee934be466d36887b,17376:26",
+        "count": 1,
+        "buckets": {
+          "outside": 1
+        },
+        "examples": [
+          {
+            "id": "I43918:173853;13036:143890;16674:178903;23567:334964",
+            "name": "_Sticker Bonus",
+            "field": "fills",
+            "instance": "I43918:173853;13036:143890;16674:178903;23567:334964"
+          }
+        ],
+        "styleType": "PAINT",
+        "name": "Brand/Partners/Sber Gradient",
+        "key": "f5f2af76c60e44caba680c8ee934be466d36887b"
+      },
+      {
+        "kind": "style",
+        "id": "S:5ca386c61118d300759afe31084a2f30353218fe,24008:1",
+        "count": 1,
+        "buckets": {
+          "outside": 1
+        },
+        "examples": [
+          {
+            "id": "I43918:173853;13036:143890;16674:178903;23567:334964",
+            "name": "_Sticker Bonus",
+            "field": "effects",
+            "instance": "I43918:173853;13036:143890;16674:178903;23567:334964"
+          }
+        ],
+        "styleType": "EFFECT",
+        "name": "Тень/Мини",
+        "key": "5ca386c61118d300759afe31084a2f30353218fe"
+      },
+      {
+        "kind": "style",
+        "id": "S:6b0d5a4adbf8961b9daa987c9db7b1f66a5a0472,11509:0",
+        "count": 2,
+        "buckets": {
+          "outside": 2
+        },
+        "examples": [
+          {
+            "id": "43918:173854",
+            "name": "Head+search",
+            "field": "fills",
+            "instance": "43918:173854"
+          },
+          {
+            "id": "43918:174041",
+            "name": "Head+search",
+            "field": "fills",
+            "instance": "43918:174041"
+          }
+        ],
+        "styleType": "PAINT",
+        "name": "Background/Solid/Secondary",
+        "key": "6b0d5a4adbf8961b9daa987c9db7b1f66a5a0472"
+      },
+      {
+        "kind": "style",
+        "id": "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,11678:11",
+        "count": 174,
+        "buckets": {
+          "outside": 150,
+          "light": 24
+        },
+        "examples": [
+          {
+            "id": "I43918:173854;435:84492;11079:104280;57:14",
+            "name": "Okko.light",
+            "field": "region0",
+            "instance": "I43918:173854;435:84492;11079:104280"
+          },
+          {
+            "id": "I43918:173854;435:83836;9560:3639",
+            "name": "Union",
+            "field": "region0",
+            "instance": "I43918:173854;435:83836"
+          }
+        ],
+        "styleType": "PAINT",
+        "name": "Text & icon/on Dark/Primary",
+        "key": "8d1e4095c97d6f8de9740c869fae2aa91b41bd6d"
+      },
+      {
+        "kind": "style",
+        "id": "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,11494:60",
+        "count": 2,
+        "buckets": {
+          "outside": 2
+        },
+        "examples": [
+          {
+            "id": "I43918:173854;435:83840;11079:102242;8223:3560",
+            "name": "Union",
+            "field": "region0",
+            "instance": "I43918:173854;435:83840;11079:102242"
+          },
+          {
+            "id": "I43918:174041;435:83840;11079:102242;8223:3560",
+            "name": "Union",
+            "field": "region0",
+            "instance": "I43918:174041;435:83840;11079:102242"
+          }
+        ],
+        "styleType": "PAINT",
+        "name": "Text & icon/on Dark/Third",
+        "key": "7ba87ccc576cd2381aee43f11162db346a88bf6a"
+      },
+      {
+        "kind": "style",
+        "id": "S:0f7b602df21889b566056efb403ddb4aead4dede,11678:2",
+        "count": 186,
+        "buckets": {
+          "outside": 162,
+          "light": 24
+        },
+        "examples": [
+          {
+            "id": "I43918:173854;435:83840;11055:97127;9560:3639",
+            "name": "Union",
+            "field": "region0",
+            "instance": "I43918:173854;435:83840;11055:97127"
+          },
+          {
+            "id": "I43918:173854;435:83840;11055:97129;11052:97591;9560:3641",
+            "name": "Union",
+            "field": "region0",
+            "instance": "I43918:173854;435:83840;11055:97129;11052:97591"
+          }
+        ],
+        "styleType": "PAINT",
+        "name": "Text & icon/on Dark/Forth",
+        "key": "0f7b602df21889b566056efb403ddb4aead4dede"
+      },
+      {
+        "kind": "style",
+        "id": "S:1082d45b02cee1ebf04885f304cfa0cae2c2bbc3,11747:2",
+        "count": 4,
+        "buckets": {
+          "outside": 4
+        },
+        "examples": [
+          {
+            "id": "I43918:173854;435:83840;11055:97128",
+            "name": "Разделитель",
+            "field": "fills",
+            "instance": "I43918:173854;435:83840"
+          },
+          {
+            "id": "I43918:173854;435:83841",
+            "name": "Divider",
+            "field": "fills",
+            "instance": "43918:173854"
+          }
+        ],
+        "styleType": "PAINT",
+        "name": "Border/Glassy",
+        "key": "1082d45b02cee1ebf04885f304cfa0cae2c2bbc3"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:4f21a856bdfc52444ea3e3f62c9f6af53b98e6e5/41978:2829",
+        "count": 46,
+        "buckets": {
+          "outside": 46
+        },
+        "examples": [
+          {
+            "id": "I43918:173858;16812:199302;235:764",
+            "name": "Vector",
+            "field": "region0",
+            "instance": "I43918:173858;16812:199302",
+            "i": 0
+          },
+          {
+            "id": "I43918:173858;16812:199302;235:764",
+            "name": "Vector",
+            "field": "region1",
+            "instance": "I43918:173858;16812:199302",
+            "i": 0
+          }
+        ],
+        "name": "color/text-icon/primary",
+        "key": "4f21a856bdfc52444ea3e3f62c9f6af53b98e6e5",
+        "collection": "VariableCollectionId:1c6e07816c9c7d8423d676736c66af0f797411bb/41872:3468"
+      },
+      {
+        "kind": "style",
+        "id": "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "count": 2,
+        "buckets": {
+          "outside": 2
+        },
+        "examples": [
+          {
+            "id": "I43918:173858;30438:93116;24376:3562",
+            "name": "Vector",
+            "field": "region0",
+            "instance": "I43918:173858;30438:93116"
+          },
+          {
+            "id": "I43918:174045;30438:93116;24376:3562",
+            "name": "Vector",
+            "field": "region0",
+            "instance": "I43918:174045;30438:93116"
+          }
+        ],
+        "styleType": "PAINT",
+        "name": "Color/fill/solid/hover-focus/Third",
+        "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+      },
+      {
+        "kind": "style",
+        "id": "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+        "count": 6,
+        "buckets": {
+          "outside": 6
+        },
+        "examples": [
+          {
+            "id": "I43918:173858;30438:93116;24376:3562",
+            "name": "Vector",
+            "field": "region1",
+            "instance": "I43918:173858;30438:93116"
+          },
+          {
+            "id": "I43918:173896;2134:211515;6154:36143",
+            "name": "itemSeasons",
+            "field": "fills",
+            "instance": "I43918:173896;2134:211515;6154:36143"
+          }
+        ],
+        "styleType": "PAINT",
+        "name": "Fill/Solid/Primary",
+        "key": "974f85fc28b4a77fb28ea56ae2aba7dbc10a9905"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:3f0b86eaf4226df73a2d592badbb3ba74c530422/41978:2830",
+        "count": 2,
+        "buckets": {
+          "outside": 2
+        },
+        "examples": [
+          {
+            "id": "I43918:173858;16812:199305;33124:6916",
+            "name": "Union",
+            "field": "fills",
+            "instance": "I43918:173858;16812:199305",
+            "i": 0
+          },
+          {
+            "id": "I43918:174045;16812:199305;33124:6916",
+            "name": "Union",
+            "field": "fills",
+            "instance": "I43918:174045;16812:199305",
+            "i": 0
+          }
+        ],
+        "name": "color/text-icon/secondary",
+        "key": "3f0b86eaf4226df73a2d592badbb3ba74c530422",
+        "collection": "VariableCollectionId:1c6e07816c9c7d8423d676736c66af0f797411bb/41872:3468"
+      },
+      {
+        "kind": "style",
+        "id": "S:dd9da9ff3fffa92fabfcf1cf141d191420fd7d27,32110:74",
+        "count": 8,
+        "buckets": {
+          "outside": 8
+        },
+        "examples": [
+          {
+            "id": "43918:173860",
+            "name": "Cover",
+            "field": "strokes",
+            "instance": "43918:173860"
+          },
+          {
+            "id": "43918:173861",
+            "name": "Cover",
+            "field": "strokes",
+            "instance": "43918:173861"
+          }
+        ],
+        "styleType": "PAINT",
+        "name": "[Deprecated]/Border/Contour",
+        "key": "dd9da9ff3fffa92fabfcf1cf141d191420fd7d27"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:22b40d9806162a614c8e6016efdcbbb696e83436/41872:3503",
+        "count": 16,
+        "buckets": {
+          "outside": 16
+        },
+        "examples": [
+          {
+            "id": "I43918:173860;17580:311146",
+            "name": "skeletonLoading",
+            "field": "fills",
+            "instance": "I43918:173860;17580:311146",
+            "i": 0
+          },
+          {
+            "id": "I43918:173861;17580:311146",
+            "name": "skeletonLoading",
+            "field": "fills",
+            "instance": "I43918:173861;17580:311146",
+            "i": 0
+          }
+        ],
+        "name": "color/background/solid/primary",
+        "key": "22b40d9806162a614c8e6016efdcbbb696e83436",
+        "collection": "VariableCollectionId:1c6e07816c9c7d8423d676736c66af0f797411bb/41872:3468"
+      },
+      {
+        "kind": "style",
+        "id": "S:cc9f8ed188fba9318e96d598d00738e0625fd414,32110:36",
+        "count": 8,
+        "buckets": {
+          "outside": 8
+        },
+        "examples": [
+          {
+            "id": "43918:173864",
+            "name": "Cover",
+            "field": "fills",
+            "instance": "43918:173864"
+          },
+          {
+            "id": "43918:173865",
+            "name": "Cover",
+            "field": "fills",
+            "instance": "43918:173865"
+          }
+        ],
+        "styleType": "PAINT",
+        "name": "[Deprecated]/Fill/Solid/Secondary",
+        "key": "cc9f8ed188fba9318e96d598d00738e0625fd414"
+      },
+      {
+        "kind": "style",
+        "id": "S:a3a659f561be25a75b141bc7adee2a84609fa336,19430:10",
+        "count": 2,
+        "buckets": {
+          "outside": 2
+        },
+        "examples": [
+          {
+            "id": "I43918:173896;2134:211515;6154:36143;6151:36110",
+            "name": "Text",
+            "field": "fills",
+            "instance": "I43918:173896;2134:211515;6154:36143"
+          },
+          {
+            "id": "I43918:174083;2134:211515;6154:36143;6151:36110",
+            "name": "Text",
+            "field": "fills",
+            "instance": "I43918:174083;2134:211515;6154:36143"
+          }
+        ],
+        "styleType": "PAINT",
+        "name": "Text & icon/on Light/Secondary",
+        "key": "a3a659f561be25a75b141bc7adee2a84609fa336"
+      },
+      {
+        "kind": "style",
+        "id": "S:2d18b315097685552c2b414e160cfdb5b917f5e7,20737:2",
+        "count": 26,
+        "buckets": {
+          "outside": 26
+        },
+        "examples": [
+          {
+            "id": "I43918:173896;2134:211515;6161:36156",
+            "name": "itemSeasons",
+            "field": "fills",
+            "instance": "I43918:173896;2134:211515;6161:36156"
+          },
+          {
+            "id": "I43918:173896;2134:211515;6161:36157",
+            "name": "itemSeasons",
+            "field": "fills",
+            "instance": "I43918:173896;2134:211515;6161:36157"
+          }
+        ],
+        "styleType": "PAINT",
+        "name": "Fill/Glassy/Third",
+        "key": "2d18b315097685552c2b414e160cfdb5b917f5e7"
+      },
+      {
+        "kind": "style",
+        "id": "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,19430:0",
+        "count": 240,
+        "buckets": {
+          "outside": 216,
+          "light": 24
+        },
+        "examples": [
+          {
+            "id": "I43918:173896;2134:211515;6161:36156;6161:36147",
+            "name": "Text",
+            "field": "fills",
+            "instance": "I43918:173896;2134:211515;6161:36156"
+          },
+          {
+            "id": "I43918:173896;2134:211515;6161:36157;6161:36147",
+            "name": "Text",
+            "field": "fills",
+            "instance": "I43918:173896;2134:211515;6161:36157"
+          }
+        ],
+        "styleType": "PAINT",
+        "name": "Text & icon/on Dark/Primary",
+        "key": "8d1e4095c97d6f8de9740c869fae2aa91b41bd6d"
+      },
+      {
+        "kind": "style",
+        "id": "S:7190d7e2c06681786a2e62457fbad4e50931c325,20737:1",
+        "count": 2,
+        "buckets": {
+          "outside": 2
+        },
+        "examples": [
+          {
+            "id": "I43918:173896;2134:211516;30438:93116;24376:3562",
+            "name": "Vector",
+            "field": "region0",
+            "instance": "I43918:173896;2134:211516;30438:93116"
+          },
+          {
+            "id": "I43918:174083;2134:211516;30438:93116;24376:3562",
+            "name": "Vector",
+            "field": "region0",
+            "instance": "I43918:174083;2134:211516;30438:93116"
+          }
+        ],
+        "styleType": "PAINT",
+        "name": "Fill/Solid: hover & focus/Third",
+        "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+      },
+      {
+        "kind": "style",
+        "id": "S:dd9da9ff3fffa92fabfcf1cf141d191420fd7d27,19450:4",
+        "count": 24,
+        "buckets": {
+          "outside": 24
+        },
+        "examples": [
+          {
+            "id": "I43918:173896;2134:211519;16812:199338",
+            "name": "Cover",
+            "field": "strokes",
+            "instance": "I43918:173896;2134:211519;16812:199338"
+          },
+          {
+            "id": "I43918:173896;2134:211520;16812:199338",
+            "name": "Cover",
+            "field": "strokes",
+            "instance": "I43918:173896;2134:211520;16812:199338"
+          }
+        ],
+        "styleType": "PAINT",
+        "name": "Border/Contour",
+        "key": "dd9da9ff3fffa92fabfcf1cf141d191420fd7d27"
+      },
+      {
+        "kind": "style",
+        "id": "S:8e17fe9c36b70f797da1cab086a142b0c02efe47,19450:54",
+        "count": 24,
+        "buckets": {
+          "outside": 24
+        },
+        "examples": [
+          {
+            "id": "I43918:173896;2134:211519;16812:199338;16812:199146",
+            "name": "coldStart",
+            "field": "fills",
+            "instance": "I43918:173896;2134:211519;16812:199338;16812:199146"
+          },
+          {
+            "id": "I43918:173896;2134:211520;16812:199338;16812:199146",
+            "name": "coldStart",
+            "field": "fills",
+            "instance": "I43918:173896;2134:211520;16812:199338;16812:199146"
+          }
+        ],
+        "styleType": "PAINT",
+        "name": "Background/Glassy/Forth",
+        "key": "8e17fe9c36b70f797da1cab086a142b0c02efe47"
+      },
+      {
+        "kind": "style",
+        "id": "S:998680c64c9c1838add8356e03c0178eb6a65a50,19430:7",
+        "count": 24,
+        "buckets": {
+          "outside": 24
+        },
+        "examples": [
+          {
+            "id": "I43918:173896;2134:211519;16812:199338;16812:199150",
+            "name": "Детская - замок",
+            "field": "fills",
+            "instance": "I43918:173896;2134:211519;16812:199338;16812:199150"
+          },
+          {
+            "id": "I43918:173896;2134:211520;16812:199338;16812:199150",
+            "name": "Детская - замок",
+            "field": "fills",
+            "instance": "I43918:173896;2134:211520;16812:199338;16812:199150"
+          }
+        ],
+        "styleType": "PAINT",
+        "name": "Text & icon/on Dark/Negative",
+        "key": "998680c64c9c1838add8356e03c0178eb6a65a50"
+      },
+      {
+        "kind": "style",
+        "id": "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,16210:24",
+        "count": 48,
+        "buckets": {
+          "outside": 48
+        },
+        "examples": [
+          {
+            "id": "I43918:173896;2134:211519;16812:199338;16812:199150;9181:67734;17641:5489",
+            "name": "Union",
+            "field": "region0",
+            "instance": "I43918:173896;2134:211519;16812:199338;16812:199150;9181:67734"
+          },
+          {
+            "id": "I43918:173896;2134:211519;16812:199338;16812:199150;9181:67734;17641:5489",
+            "name": "Union",
+            "field": "region1",
+            "instance": "I43918:173896;2134:211519;16812:199338;16812:199150;9181:67734"
+          }
+        ],
+        "styleType": "PAINT",
+        "name": "Text & icon/on Dark/Primary",
+        "key": "8d1e4095c97d6f8de9740c869fae2aa91b41bd6d"
+      },
+      {
+        "kind": "style",
+        "id": "S:5c78f242f595f0f73fe7c5b12f695071b35c3a2d,20737:3",
+        "count": 50,
+        "buckets": {
+          "outside": 50
+        },
+        "examples": [
+          {
+            "id": "I43918:173896;2134:211519;16812:199338;17497:270956",
+            "name": "Label : Small",
+            "field": "fills",
+            "instance": "I43918:173896;2134:211519;16812:199338;17497:270956"
+          },
+          {
+            "id": "I43918:173896;2134:211519;16812:199338;16812:199156",
+            "name": "Label : Small",
+            "field": "fills",
+            "instance": "I43918:173896;2134:211519;16812:199338;16812:199156"
+          }
+        ],
+        "styleType": "PAINT",
+        "name": "Fill/Glassy/Secondary",
+        "key": "5c78f242f595f0f73fe7c5b12f695071b35c3a2d"
+      },
+      {
+        "kind": "style",
+        "id": "S:46a5b7ce2458b9b9812984ebadd816459e681f17,10256:0",
+        "count": 174,
+        "buckets": {
+          "outside": 150,
+          "light": 24
+        },
+        "examples": [
+          {
+            "id": "I43918:173896;2134:211519;16812:199338;17497:270956",
+            "name": "Label : Small",
+            "field": "effects",
+            "instance": "I43918:173896;2134:211519;16812:199338;17497:270956"
+          },
+          {
+            "id": "I43918:173896;2134:211519;16812:199338;16812:199152",
+            "name": "Label : Small",
+            "field": "effects",
+            "instance": "I43918:173896;2134:211519;16812:199338;16812:199152"
+          }
+        ],
+        "styleType": "EFFECT",
+        "name": "Blur/Button",
+        "key": "46a5b7ce2458b9b9812984ebadd816459e681f17"
+      },
+      {
+        "kind": "style",
+        "id": "S:46a5b7ce2458b9b9812984ebadd816459e681f17,36858:1",
+        "count": 24,
+        "buckets": {
+          "outside": 24
+        },
+        "examples": [
+          {
+            "id": "I43918:173896;2134:211519;16812:199338;30478:100773",
+            "name": "🟡 Label Rich",
+            "field": "effects",
+            "instance": "I43918:173896;2134:211519;16812:199338;30478:100773"
+          },
+          {
+            "id": "I43918:173896;2134:211521;16812:199338;30478:100773",
+            "name": "🟡 Label Rich",
+            "field": "effects",
+            "instance": "I43918:173896;2134:211521;16812:199338;30478:100773"
+          }
+        ],
+        "styleType": "EFFECT",
+        "name": "Blur(Web Only)/Primary",
+        "key": "46a5b7ce2458b9b9812984ebadd816459e681f17"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:50051225ccdd46cd88f61f1e1e7ae485a9062329/41872:3511",
+        "count": 6,
+        "buckets": {
+          "outside": 6
+        },
+        "examples": [
+          {
+            "id": "I43918:173896;2134:211519;16812:199338;30478:100773;28479:54511",
+            "name": "Accent",
+            "field": "fills",
+            "instance": "I43918:173896;2134:211519;16812:199338;30478:100773",
+            "i": 0
+          },
+          {
+            "id": "I43918:173896;2134:211519;16812:199338;30478:100773;28479:54513;33124:6717",
+            "name": "Union",
+            "field": "fills",
+            "instance": "I43918:173896;2134:211519;16812:199338;30478:100773;28479:54513",
+            "i": 0
+          }
+        ],
+        "name": "color/static/solid/white",
+        "key": "50051225ccdd46cd88f61f1e1e7ae485a9062329",
+        "collection": "VariableCollectionId:1c6e07816c9c7d8423d676736c66af0f797411bb/41872:3468"
+      },
+      {
+        "kind": "style",
+        "id": "S:549095b548000afc744b26d6727f100cad79feac,20547:2",
+        "count": 24,
+        "buckets": {
+          "outside": 24
+        },
+        "examples": [
+          {
+            "id": "I43918:173896;2134:211519;16812:199338;16812:199152",
+            "name": "Label : Small",
+            "field": "fills",
+            "instance": "I43918:173896;2134:211519;16812:199338;16812:199152"
+          },
+          {
+            "id": "I43918:173896;2134:211520;16812:199338;16812:199152",
+            "name": "Label : Small",
+            "field": "fills",
+            "instance": "I43918:173896;2134:211520;16812:199338;16812:199152"
+          }
+        ],
+        "styleType": "PAINT",
+        "name": "Fill/Solid/Positive",
+        "key": "549095b548000afc744b26d6727f100cad79feac"
+      },
+      {
+        "kind": "style",
+        "id": "S:642eca58a3b1bbfe1c29ddad58b933acbfad8df7,20547:0",
+        "count": 24,
+        "buckets": {
+          "outside": 24
+        },
+        "examples": [
+          {
+            "id": "I43918:173896;2134:211519;16812:199338;16812:199157",
+            "name": "Label : Small",
+            "field": "fills",
+            "instance": "I43918:173896;2134:211519;16812:199338;16812:199157"
+          },
+          {
+            "id": "I43918:173896;2134:211520;16812:199338;16812:199157",
+            "name": "Label : Small",
+            "field": "fills",
+            "instance": "I43918:173896;2134:211520;16812:199338;16812:199157"
+          }
+        ],
+        "styleType": "PAINT",
+        "name": "Fill/Solid/Live",
+        "key": "642eca58a3b1bbfe1c29ddad58b933acbfad8df7"
+      },
+      {
+        "kind": "style",
+        "id": "S:652819774a1ef1f79fa807ae422bcdd4d03842f2,19450:52",
+        "count": 24,
+        "buckets": {
+          "outside": 24
+        },
+        "examples": [
+          {
+            "id": "I43918:173896;2134:211519;16812:199338;16812:199153",
+            "name": "Label : Small",
+            "field": "fills",
+            "instance": "I43918:173896;2134:211519;16812:199338;16812:199153"
+          },
+          {
+            "id": "I43918:173896;2134:211520;16812:199338;16812:199153",
+            "name": "Label : Small",
+            "field": "fills",
+            "instance": "I43918:173896;2134:211520;16812:199338;16812:199153"
+          }
+        ],
+        "styleType": "PAINT",
+        "name": "Background/Glassy/Secondary",
+        "key": "652819774a1ef1f79fa807ae422bcdd4d03842f2"
+      },
+      {
+        "kind": "style",
+        "id": "S:9421d159338be9646958b6dc8c453b8beb82f273,19450:57",
+        "count": 24,
+        "buckets": {
+          "outside": 24
+        },
+        "examples": [
+          {
+            "id": "I43918:173896;2134:211519;16812:199338;16812:199154",
+            "name": "Label : Small",
+            "field": "fills",
+            "instance": "I43918:173896;2134:211519;16812:199338;16812:199154"
+          },
+          {
+            "id": "I43918:173896;2134:211520;16812:199338;16812:199154",
+            "name": "Label : Small",
+            "field": "fills",
+            "instance": "I43918:173896;2134:211520;16812:199338;16812:199154"
+          }
+        ],
+        "styleType": "PAINT",
+        "name": "Brand/Okko/Accent",
+        "key": "9421d159338be9646958b6dc8c453b8beb82f273"
+      },
+      {
+        "kind": "style",
+        "id": "S:86ed5589a7317e9b68733fe56f0624abb2d72263,19450:59",
+        "count": 24,
+        "buckets": {
+          "light": 24
+        },
+        "examples": [
+          {
+            "id": "I43918:173896;2134:211519;16812:199338;16812:199155",
+            "name": "Label : Small",
+            "field": "fills",
+            "instance": "I43918:173896;2134:211519;16812:199338;16812:199155",
+            "light": true
+          },
+          {
+            "id": "I43918:173896;2134:211520;16812:199338;16812:199155",
+            "name": "Label : Small",
+            "field": "fills",
+            "instance": "I43918:173896;2134:211520;16812:199338;16812:199155",
+            "light": true
+          }
+        ],
+        "styleType": "PAINT",
+        "name": "Brand/Okko/AdditionalB",
+        "key": "86ed5589a7317e9b68733fe56f0624abb2d72263"
+      },
+      {
+        "kind": "style",
+        "id": "S:a58b219ba53603c8b26af4e925d7c6fcc41005af,19450:47",
+        "count": 24,
+        "buckets": {
+          "outside": 24
+        },
+        "examples": [
+          {
+            "id": "I43918:173896;2134:211519;16812:199338;16812:199158",
+            "name": "skeletonLoading",
+            "field": "fills",
+            "instance": "I43918:173896;2134:211519;16812:199338;16812:199158"
+          },
+          {
+            "id": "I43918:173896;2134:211520;16812:199338;16812:199158",
+            "name": "skeletonLoading",
+            "field": "fills",
+            "instance": "I43918:173896;2134:211520;16812:199338;16812:199158"
+          }
+        ],
+        "styleType": "PAINT",
+        "name": "Background/Solid/Primary",
+        "key": "a58b219ba53603c8b26af4e925d7c6fcc41005af"
+      },
+      {
+        "kind": "style",
+        "id": "S:0f7b602df21889b566056efb403ddb4aead4dede,19430:3",
+        "count": 24,
+        "buckets": {
+          "outside": 24
+        },
+        "examples": [
+          {
+            "id": "I43918:173896;2134:211519;16812:199338;29062:128157",
+            "name": "progressBar",
+            "field": "fills",
+            "instance": "I43918:173896;2134:211519;16812:199338;29062:128157"
+          },
+          {
+            "id": "I43918:173896;2134:211520;16812:199338;29062:128157",
+            "name": "progressBar",
+            "field": "fills",
+            "instance": "I43918:173896;2134:211520;16812:199338;29062:128157"
+          }
+        ],
+        "styleType": "PAINT",
+        "name": "Text & icon/on Dark/Forth",
+        "key": "0f7b602df21889b566056efb403ddb4aead4dede"
+      },
+      {
+        "kind": "style",
+        "id": "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,19430:2",
+        "count": 4,
+        "buckets": {
+          "outside": 4
+        },
+        "examples": [
+          {
+            "id": "I43918:173896;2134:211520;16812:199338;30478:100773;28479:54509",
+            "name": "Additional",
+            "field": "fills",
+            "instance": "I43918:173896;2134:211520;16812:199338;30478:100773"
+          },
+          {
+            "id": "I43918:173896;2134:211534;16812:199493",
+            "name": "Label",
+            "field": "fills",
+            "instance": "I43918:173896;2134:211534"
+          }
+        ],
+        "styleType": "PAINT",
+        "name": "Text & icon/on Dark/Third",
+        "key": "7ba87ccc576cd2381aee43f11162db346a88bf6a"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:eb54110058e55fa529316435e2bf281072e232ab/41978:2890",
+        "count": 20,
+        "buckets": {
+          "outside": 20
+        },
+        "examples": [
+          {
+            "id": "I43918:173896;2134:211521;16812:199338;30478:100773",
+            "name": "🟡 Label Rich",
+            "field": "fills",
+            "instance": "I43918:173896;2134:211521;16812:199338;30478:100773",
+            "i": 0
+          },
+          {
+            "id": "I43918:173896;2134:211522;16812:199338;30478:100773",
+            "name": "🟡 Label Rich",
+            "field": "fills",
+            "instance": "I43918:173896;2134:211522;16812:199338;30478:100773",
+            "i": 0
+          }
+        ],
+        "name": "color/background/glassy/fourth",
+        "key": "eb54110058e55fa529316435e2bf281072e232ab",
+        "collection": "VariableCollectionId:1c6e07816c9c7d8423d676736c66af0f797411bb/41872:3468"
+      },
+      {
+        "kind": "style",
+        "id": "S:eb0848c39cf58e48e9aae01f73f766c68f7bdde4,19430:1",
+        "count": 4,
+        "buckets": {
+          "outside": 4
+        },
+        "examples": [
+          {
+            "id": "I43918:173896;2134:211532;16786:186978;8524:3430",
+            "name": "Union",
+            "field": "region0",
+            "instance": "I43918:173896;2134:211532;16786:186978"
+          },
+          {
+            "id": "I43918:173896;2134:211533;16786:186972;8524:3465",
+            "name": "Union",
+            "field": "region0",
+            "instance": "I43918:173896;2134:211533;16786:186972"
+          }
+        ],
+        "styleType": "PAINT",
+        "name": "Text & icon/on Dark/Secondary",
+        "key": "eb0848c39cf58e48e9aae01f73f766c68f7bdde4"
+      },
+      {
+        "kind": "style",
+        "id": "S:04ad1dac25827bcb6569d9657704ef06f52e2ee7,57:5",
+        "count": 2,
+        "buckets": {
+          "outside": 2
+        },
+        "examples": [
+          {
+            "id": "43918:174037",
+            "name": "Keyboard / iPhone ",
+            "field": "fills",
+            "instance": "43918:174037"
+          },
+          {
+            "id": "43918:174224",
+            "name": "Keyboard / iPhone ",
+            "field": "fills",
+            "instance": "43918:174224"
+          }
+        ],
+        "styleType": "PAINT",
+        "name": "Dark /2C2C2C",
+        "key": "04ad1dac25827bcb6569d9657704ef06f52e2ee7"
+      },
+      {
+        "kind": "style",
+        "id": "S:f65864ddebcb639082d90c0189cf09423a484ed9,57:1",
+        "count": 64,
+        "buckets": {
+          "outside": 64
+        },
+        "examples": [
+          {
+            "id": "I43918:174037;8387:104951;147:9560;66:170",
+            "name": "button /medium /letter",
+            "field": "fills",
+            "instance": "I43918:174037;8387:104951;147:9560;66:170"
+          },
+          {
+            "id": "I43918:174037;8387:104951;147:9560;66:172",
+            "name": "button /medium /letter",
+            "field": "fills",
+            "instance": "I43918:174037;8387:104951;147:9560;66:172"
+          }
+        ],
+        "styleType": "PAINT",
+        "name": "Dark /6B6B6B",
+        "key": "f65864ddebcb639082d90c0189cf09423a484ed9"
+      },
+      {
+        "kind": "style",
+        "id": "S:55a32fcaec15d5c11dbfbce150899f94ec7f4654,57:9",
+        "count": 74,
+        "buckets": {
+          "outside": 74
+        },
+        "examples": [
+          {
+            "id": "I43918:174037;8387:104951;147:9560;66:170",
+            "name": "button /medium /letter",
+            "field": "effects",
+            "instance": "I43918:174037;8387:104951;147:9560;66:170"
+          },
+          {
+            "id": "I43918:174037;8387:104951;147:9560;66:172",
+            "name": "button /medium /letter",
+            "field": "effects",
+            "instance": "I43918:174037;8387:104951;147:9560;66:172"
+          }
+        ],
+        "styleType": "EFFECT",
+        "name": "dark-shadow",
+        "key": "55a32fcaec15d5c11dbfbce150899f94ec7f4654"
+      },
+      {
+        "kind": "style",
+        "id": "S:68c963f3fead9b6e1b61b2ebda8b6530bd2a0118,8:1",
+        "count": 80,
+        "buckets": {
+          "outside": 80
+        },
+        "examples": [
+          {
+            "id": "I43918:174037;8387:104951;147:9560;66:170;66:112",
+            "name": "й",
+            "field": "fills",
+            "instance": "I43918:174037;8387:104951;147:9560;66:170"
+          },
+          {
+            "id": "I43918:174037;8387:104951;147:9560;66:172;66:112",
+            "name": "й",
+            "field": "fills",
+            "instance": "I43918:174037;8387:104951;147:9560;66:172"
+          }
+        ],
+        "styleType": "PAINT",
+        "name": "white",
+        "key": "68c963f3fead9b6e1b61b2ebda8b6530bd2a0118"
+      },
+      {
+        "kind": "style",
+        "id": "S:e9185b4345e9b12de0a4ba19de92ad4c2fef8bb6,57:3",
+        "count": 10,
+        "buckets": {
+          "outside": 10
+        },
+        "examples": [
+          {
+            "id": "I43918:174037;8387:104951;147:9583;138:8963",
+            "name": "button /medium /shift",
+            "field": "fills",
+            "instance": "I43918:174037;8387:104951;147:9583;138:8963"
+          },
+          {
+            "id": "I43918:174037;8387:104951;147:9583;138:8959",
+            "name": "button /medium /backspace",
+            "field": "fills",
+            "instance": "I43918:174037;8387:104951;147:9583;138:8959"
+          }
+        ],
+        "styleType": "PAINT",
+        "name": "Dark /474747",
+        "key": "e9185b4345e9b12de0a4ba19de92ad4c2fef8bb6"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:9ad3109750be6a714a2a1dd028605b0a23221f4b/41978:2855",
+        "count": 2,
+        "buckets": {
+          "outside": 2
+        },
+        "examples": [
+          {
+            "id": "43918:174038",
+            "name": "Button",
+            "field": "fills",
+            "instance": "43918:174038",
+            "i": 0
+          },
+          {
+            "id": "43918:174225",
+            "name": "Button",
+            "field": "fills",
+            "instance": "43918:174225",
+            "i": 0
+          }
+        ],
+        "name": "color/fill/glassy/third",
+        "key": "9ad3109750be6a714a2a1dd028605b0a23221f4b",
+        "collection": "VariableCollectionId:1c6e07816c9c7d8423d676736c66af0f797411bb/41872:3468"
+      },
+      {
+        "kind": "style",
+        "id": "S:ac16386563414ce63f5d1ca74524cba4951046df,32110:27",
+        "count": 1,
+        "buckets": {
+          "outside": 1
+        },
+        "examples": [
+          {
+            "id": "43918:174039",
+            "name": "Пример",
+            "field": "fills"
+          }
+        ],
+        "styleType": "PAINT",
+        "name": "[Deprecated]/Background/Solid/Kids",
+        "key": "ac16386563414ce63f5d1ca74524cba4951046df"
+      },
+      {
+        "kind": "style",
+        "id": "S:4e8ca772b49d5b02391ce1d8bbac531eae429f25,32110:52",
+        "count": 7,
+        "buckets": {
+          "light": 7
+        },
+        "examples": [
+          {
+            "id": "I43918:174040;13036:144089;11079:105359;11079:104280;14093:7426",
+            "name": "Vector",
+            "field": "region0",
+            "instance": "I43918:174040;13036:144089;11079:105359;11079:104280",
+            "light": true
+          },
+          {
+            "id": "I43918:174040;13036:144089;11079:105359;11079:104280;14093:7426",
+            "name": "Vector",
+            "field": "region1",
+            "instance": "I43918:174040;13036:144089;11079:105359;11079:104280",
+            "light": true
+          }
+        ],
+        "styleType": "PAINT",
+        "name": "[Deprecated]/Text & icon/on Light/Primary",
+        "key": "4e8ca772b49d5b02391ce1d8bbac531eae429f25"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:181cb53d171bbdcc3c457f9e7b17f0a0dc8035f7/41978:2846",
+        "count": 1,
+        "buckets": {
+          "light": 1
+        },
+        "examples": [
+          {
+            "id": "I43918:174040;13036:144091;11079:98302",
+            "name": "Новинки",
+            "field": "fills",
+            "instance": "I43918:174040;13036:144091",
+            "light": true,
+            "i": 0
+          }
+        ],
+        "name": "color/text-icon/inverse/third",
+        "key": "181cb53d171bbdcc3c457f9e7b17f0a0dc8035f7",
+        "collection": "VariableCollectionId:1c6e07816c9c7d8423d676736c66af0f797411bb/41872:3468"
+      },
+      {
+        "kind": "style",
+        "id": "S:13f1e41467f7c536b0c0f5e60463105cc260c9d4,32110:54",
+        "count": 8,
+        "buckets": {
+          "light": 8
+        },
+        "examples": [
+          {
+            "id": "I43918:174040;13036:144092;11079:98302",
+            "name": "Новинки",
+            "field": "fills",
+            "instance": "I43918:174040;13036:144092",
+            "light": true
+          },
+          {
+            "id": "I43918:174040;14265:167801;11079:98302",
+            "name": "Новинки",
+            "field": "fills",
+            "instance": "I43918:174040;14265:167801",
+            "light": true
+          }
+        ],
+        "styleType": "PAINT",
+        "name": "[Deprecated]/Text & icon/on Light/Third",
+        "key": "13f1e41467f7c536b0c0f5e60463105cc260c9d4"
+      }
+    ],
+    "staticResult": null,
+    "page": "SkeletonView",
+    "nodeCount": 2589,
+    "sources": [
+      {
+        "id": "S:a58b219ba53603c8b26af4e925d7c6fcc41005af,32110:34",
+        "name": "[Deprecated]/Background/Solid/Primary",
+        "key": "a58b219ba53603c8b26af4e925d7c6fcc41005af",
+        "count": 2,
+        "buckets": {
+          "outside": 2
+        },
+        "example": {
+          "id": "43918:173852",
+          "name": "Пример",
+          "field": "fills"
+        }
+      },
+      {
+        "id": "S:f89742b6887c24e9491e35659021bf8e090a258a,11494:59",
+        "name": "Text & icon/on Dark/Primary",
+        "key": "f89742b6887c24e9491e35659021bf8e090a258a",
+        "count": 4,
+        "buckets": {
+          "outside": 3,
+          "light": 1
+        },
+        "example": {
+          "id": "I43918:173853;13036:143882;57:14",
+          "name": "Okko.light",
+          "field": "region0",
+          "instance": "I43918:173853;13036:143882"
+        }
+      },
+      {
+        "id": "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "name": "[Deprecated]/Text & icon/on Dark/Third",
+        "key": "7ba87ccc576cd2381aee43f11162db346a88bf6a",
+        "count": 9,
+        "buckets": {
+          "outside": 9
+        },
+        "example": {
+          "id": "I43918:173853;13036:143888;13035:139760",
+          "name": "Новинки",
+          "field": "fills",
+          "instance": "I43918:173853;13036:143888"
+        }
+      },
+      {
+        "id": "S:3a049cae24e42ac171db4599bf09ddd80880c4fc,10968:18",
+        "name": "Primitives/Red/Saturated",
+        "key": "3a049cae24e42ac171db4599bf09ddd80880c4fc",
+        "count": 25,
+        "buckets": {
+          "outside": 16,
+          "light": 9
+        },
+        "example": {
+          "id": "I43918:173853;13036:143888;13035:139762;28:19",
+          "name": "Ellipse 1",
+          "field": "fills",
+          "instance": "I43918:173853;13036:143888;13035:139762"
+        }
+      },
+      {
+        "id": "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+        "name": "[Deprecated]/Text & icon/on Dark/Forth",
+        "key": "0f7b602df21889b566056efb403ddb4aead4dede",
+        "count": 5,
+        "buckets": {
+          "outside": 4,
+          "light": 1
+        },
+        "example": {
+          "id": "I43918:173853;15008:173986;13035:139760",
+          "name": "Новинки",
+          "field": "fills",
+          "instance": "I43918:173853;15008:173986"
+        }
+      },
+      {
+        "id": "S:034ebd7ec8d8e4d45ba92d69b6f9b333aacb4133,11363:29",
+        "name": "Primitives/Grey/Primary",
+        "key": "034ebd7ec8d8e4d45ba92d69b6f9b333aacb4133",
+        "count": 2,
+        "buckets": {
+          "outside": 1,
+          "light": 1
+        },
+        "example": {
+          "id": "I43918:173853;13036:143890;13035:139862;3644:1176",
+          "name": "close",
+          "field": "region0",
+          "instance": "I43918:173853;13036:143890;13035:139862"
+        }
+      },
+      {
+        "id": "S:5dd3e2881730037c87e351aba596de222174b78c,39850:15",
+        "name": "[Deprecated]/Fill/Decorative/on Dark/Button",
+        "key": "5dd3e2881730037c87e351aba596de222174b78c",
+        "count": 1,
+        "buckets": {
+          "outside": 1
+        },
+        "example": {
+          "id": "I43918:173853;13036:143890;28279:22431",
+          "name": "Button",
+          "field": "fills",
+          "instance": "I43918:173853;13036:143890;28279:22431"
+        }
+      },
+      {
+        "id": "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3",
+        "name": "[Deprecated]/Text & icon/on Dark/Primary",
+        "key": "8d1e4095c97d6f8de9740c869fae2aa91b41bd6d",
+        "count": 6,
+        "buckets": {
+          "outside": 5,
+          "light": 1
+        },
+        "example": {
+          "id": "I43918:173853;13036:143890;28279:22431;26093:350782;32958:4324",
+          "name": "Union",
+          "field": "fills",
+          "instance": "I43918:173853;13036:143890;28279:22431;26093:350782"
+        }
+      },
+      {
+        "id": "S:f5f2af76c60e44caba680c8ee934be466d36887b,17376:26",
+        "name": "Brand/Partners/Sber Gradient",
+        "key": "f5f2af76c60e44caba680c8ee934be466d36887b",
+        "count": 1,
+        "buckets": {
+          "outside": 1
+        },
+        "example": {
+          "id": "I43918:173853;13036:143890;16674:178903;23567:334964",
+          "name": "_Sticker Bonus",
+          "field": "fills",
+          "instance": "I43918:173853;13036:143890;16674:178903;23567:334964"
+        }
+      },
+      {
+        "id": "S:6b0d5a4adbf8961b9daa987c9db7b1f66a5a0472,11509:0",
+        "name": "Background/Solid/Secondary",
+        "key": "6b0d5a4adbf8961b9daa987c9db7b1f66a5a0472",
+        "count": 2,
+        "buckets": {
+          "outside": 2
+        },
+        "example": {
+          "id": "43918:173854",
+          "name": "Head+search",
+          "field": "fills",
+          "instance": "43918:173854"
+        }
+      },
+      {
+        "id": "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,11678:11",
+        "name": "Text & icon/on Dark/Primary",
+        "key": "8d1e4095c97d6f8de9740c869fae2aa91b41bd6d",
+        "count": 174,
+        "buckets": {
+          "outside": 150,
+          "light": 24
+        },
+        "example": {
+          "id": "I43918:173854;435:84492;11079:104280;57:14",
+          "name": "Okko.light",
+          "field": "region0",
+          "instance": "I43918:173854;435:84492;11079:104280"
+        }
+      },
+      {
+        "id": "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,11494:60",
+        "name": "Text & icon/on Dark/Third",
+        "key": "7ba87ccc576cd2381aee43f11162db346a88bf6a",
+        "count": 2,
+        "buckets": {
+          "outside": 2
+        },
+        "example": {
+          "id": "I43918:173854;435:83840;11079:102242;8223:3560",
+          "name": "Union",
+          "field": "region0",
+          "instance": "I43918:173854;435:83840;11079:102242"
+        }
+      },
+      {
+        "id": "S:0f7b602df21889b566056efb403ddb4aead4dede,11678:2",
+        "name": "Text & icon/on Dark/Forth",
+        "key": "0f7b602df21889b566056efb403ddb4aead4dede",
+        "count": 186,
+        "buckets": {
+          "outside": 162,
+          "light": 24
+        },
+        "example": {
+          "id": "I43918:173854;435:83840;11055:97127;9560:3639",
+          "name": "Union",
+          "field": "region0",
+          "instance": "I43918:173854;435:83840;11055:97127"
+        }
+      },
+      {
+        "id": "S:1082d45b02cee1ebf04885f304cfa0cae2c2bbc3,11747:2",
+        "name": "Border/Glassy",
+        "key": "1082d45b02cee1ebf04885f304cfa0cae2c2bbc3",
+        "count": 4,
+        "buckets": {
+          "outside": 4
+        },
+        "example": {
+          "id": "I43918:173854;435:83840;11055:97128",
+          "name": "Разделитель",
+          "field": "fills",
+          "instance": "I43918:173854;435:83840"
+        }
+      },
+      {
+        "id": "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "name": "Color/fill/solid/hover-focus/Third",
+        "key": "7190d7e2c06681786a2e62457fbad4e50931c325",
+        "count": 2,
+        "buckets": {
+          "outside": 2
+        },
+        "example": {
+          "id": "I43918:173858;30438:93116;24376:3562",
+          "name": "Vector",
+          "field": "region0",
+          "instance": "I43918:173858;30438:93116"
+        }
+      },
+      {
+        "id": "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+        "name": "Fill/Solid/Primary",
+        "key": "974f85fc28b4a77fb28ea56ae2aba7dbc10a9905",
+        "count": 6,
+        "buckets": {
+          "outside": 6
+        },
+        "example": {
+          "id": "I43918:173858;30438:93116;24376:3562",
+          "name": "Vector",
+          "field": "region1",
+          "instance": "I43918:173858;30438:93116"
+        }
+      },
+      {
+        "id": "S:dd9da9ff3fffa92fabfcf1cf141d191420fd7d27,32110:74",
+        "name": "[Deprecated]/Border/Contour",
+        "key": "dd9da9ff3fffa92fabfcf1cf141d191420fd7d27",
+        "count": 8,
+        "buckets": {
+          "outside": 8
+        },
+        "example": {
+          "id": "43918:173860",
+          "name": "Cover",
+          "field": "strokes",
+          "instance": "43918:173860"
+        }
+      },
+      {
+        "id": "S:cc9f8ed188fba9318e96d598d00738e0625fd414,32110:36",
+        "name": "[Deprecated]/Fill/Solid/Secondary",
+        "key": "cc9f8ed188fba9318e96d598d00738e0625fd414",
+        "count": 8,
+        "buckets": {
+          "outside": 8
+        },
+        "example": {
+          "id": "43918:173864",
+          "name": "Cover",
+          "field": "fills",
+          "instance": "43918:173864"
+        }
+      },
+      {
+        "id": "S:a3a659f561be25a75b141bc7adee2a84609fa336,19430:10",
+        "name": "Text & icon/on Light/Secondary",
+        "key": "a3a659f561be25a75b141bc7adee2a84609fa336",
+        "count": 2,
+        "buckets": {
+          "outside": 2
+        },
+        "example": {
+          "id": "I43918:173896;2134:211515;6154:36143;6151:36110",
+          "name": "Text",
+          "field": "fills",
+          "instance": "I43918:173896;2134:211515;6154:36143"
+        }
+      },
+      {
+        "id": "S:2d18b315097685552c2b414e160cfdb5b917f5e7,20737:2",
+        "name": "Fill/Glassy/Third",
+        "key": "2d18b315097685552c2b414e160cfdb5b917f5e7",
+        "count": 26,
+        "buckets": {
+          "outside": 26
+        },
+        "example": {
+          "id": "I43918:173896;2134:211515;6161:36156",
+          "name": "itemSeasons",
+          "field": "fills",
+          "instance": "I43918:173896;2134:211515;6161:36156"
+        }
+      },
+      {
+        "id": "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,19430:0",
+        "name": "Text & icon/on Dark/Primary",
+        "key": "8d1e4095c97d6f8de9740c869fae2aa91b41bd6d",
+        "count": 240,
+        "buckets": {
+          "outside": 216,
+          "light": 24
+        },
+        "example": {
+          "id": "I43918:173896;2134:211515;6161:36156;6161:36147",
+          "name": "Text",
+          "field": "fills",
+          "instance": "I43918:173896;2134:211515;6161:36156"
+        }
+      },
+      {
+        "id": "S:7190d7e2c06681786a2e62457fbad4e50931c325,20737:1",
+        "name": "Fill/Solid: hover & focus/Third",
+        "key": "7190d7e2c06681786a2e62457fbad4e50931c325",
+        "count": 2,
+        "buckets": {
+          "outside": 2
+        },
+        "example": {
+          "id": "I43918:173896;2134:211516;30438:93116;24376:3562",
+          "name": "Vector",
+          "field": "region0",
+          "instance": "I43918:173896;2134:211516;30438:93116"
+        }
+      },
+      {
+        "id": "S:dd9da9ff3fffa92fabfcf1cf141d191420fd7d27,19450:4",
+        "name": "Border/Contour",
+        "key": "dd9da9ff3fffa92fabfcf1cf141d191420fd7d27",
+        "count": 24,
+        "buckets": {
+          "outside": 24
+        },
+        "example": {
+          "id": "I43918:173896;2134:211519;16812:199338",
+          "name": "Cover",
+          "field": "strokes",
+          "instance": "I43918:173896;2134:211519;16812:199338"
+        }
+      },
+      {
+        "id": "S:8e17fe9c36b70f797da1cab086a142b0c02efe47,19450:54",
+        "name": "Background/Glassy/Forth",
+        "key": "8e17fe9c36b70f797da1cab086a142b0c02efe47",
+        "count": 24,
+        "buckets": {
+          "outside": 24
+        },
+        "example": {
+          "id": "I43918:173896;2134:211519;16812:199338;16812:199146",
+          "name": "coldStart",
+          "field": "fills",
+          "instance": "I43918:173896;2134:211519;16812:199338;16812:199146"
+        }
+      },
+      {
+        "id": "S:998680c64c9c1838add8356e03c0178eb6a65a50,19430:7",
+        "name": "Text & icon/on Dark/Negative",
+        "key": "998680c64c9c1838add8356e03c0178eb6a65a50",
+        "count": 24,
+        "buckets": {
+          "outside": 24
+        },
+        "example": {
+          "id": "I43918:173896;2134:211519;16812:199338;16812:199150",
+          "name": "Детская - замок",
+          "field": "fills",
+          "instance": "I43918:173896;2134:211519;16812:199338;16812:199150"
+        }
+      },
+      {
+        "id": "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,16210:24",
+        "name": "Text & icon/on Dark/Primary",
+        "key": "8d1e4095c97d6f8de9740c869fae2aa91b41bd6d",
+        "count": 48,
+        "buckets": {
+          "outside": 48
+        },
+        "example": {
+          "id": "I43918:173896;2134:211519;16812:199338;16812:199150;9181:67734;17641:5489",
+          "name": "Union",
+          "field": "region0",
+          "instance": "I43918:173896;2134:211519;16812:199338;16812:199150;9181:67734"
+        }
+      },
+      {
+        "id": "S:5c78f242f595f0f73fe7c5b12f695071b35c3a2d,20737:3",
+        "name": "Fill/Glassy/Secondary",
+        "key": "5c78f242f595f0f73fe7c5b12f695071b35c3a2d",
+        "count": 50,
+        "buckets": {
+          "outside": 50
+        },
+        "example": {
+          "id": "I43918:173896;2134:211519;16812:199338;17497:270956",
+          "name": "Label : Small",
+          "field": "fills",
+          "instance": "I43918:173896;2134:211519;16812:199338;17497:270956"
+        }
+      },
+      {
+        "id": "S:549095b548000afc744b26d6727f100cad79feac,20547:2",
+        "name": "Fill/Solid/Positive",
+        "key": "549095b548000afc744b26d6727f100cad79feac",
+        "count": 24,
+        "buckets": {
+          "outside": 24
+        },
+        "example": {
+          "id": "I43918:173896;2134:211519;16812:199338;16812:199152",
+          "name": "Label : Small",
+          "field": "fills",
+          "instance": "I43918:173896;2134:211519;16812:199338;16812:199152"
+        }
+      },
+      {
+        "id": "S:642eca58a3b1bbfe1c29ddad58b933acbfad8df7,20547:0",
+        "name": "Fill/Solid/Live",
+        "key": "642eca58a3b1bbfe1c29ddad58b933acbfad8df7",
+        "count": 24,
+        "buckets": {
+          "outside": 24
+        },
+        "example": {
+          "id": "I43918:173896;2134:211519;16812:199338;16812:199157",
+          "name": "Label : Small",
+          "field": "fills",
+          "instance": "I43918:173896;2134:211519;16812:199338;16812:199157"
+        }
+      },
+      {
+        "id": "S:652819774a1ef1f79fa807ae422bcdd4d03842f2,19450:52",
+        "name": "Background/Glassy/Secondary",
+        "key": "652819774a1ef1f79fa807ae422bcdd4d03842f2",
+        "count": 24,
+        "buckets": {
+          "outside": 24
+        },
+        "example": {
+          "id": "I43918:173896;2134:211519;16812:199338;16812:199153",
+          "name": "Label : Small",
+          "field": "fills",
+          "instance": "I43918:173896;2134:211519;16812:199338;16812:199153"
+        }
+      },
+      {
+        "id": "S:9421d159338be9646958b6dc8c453b8beb82f273,19450:57",
+        "name": "Brand/Okko/Accent",
+        "key": "9421d159338be9646958b6dc8c453b8beb82f273",
+        "count": 24,
+        "buckets": {
+          "outside": 24
+        },
+        "example": {
+          "id": "I43918:173896;2134:211519;16812:199338;16812:199154",
+          "name": "Label : Small",
+          "field": "fills",
+          "instance": "I43918:173896;2134:211519;16812:199338;16812:199154"
+        }
+      },
+      {
+        "id": "S:86ed5589a7317e9b68733fe56f0624abb2d72263,19450:59",
+        "name": "Brand/Okko/AdditionalB",
+        "key": "86ed5589a7317e9b68733fe56f0624abb2d72263",
+        "count": 24,
+        "buckets": {
+          "light": 24
+        },
+        "example": {
+          "id": "I43918:173896;2134:211519;16812:199338;16812:199155",
+          "name": "Label : Small",
+          "field": "fills",
+          "instance": "I43918:173896;2134:211519;16812:199338;16812:199155",
+          "light": true
+        }
+      },
+      {
+        "id": "S:a58b219ba53603c8b26af4e925d7c6fcc41005af,19450:47",
+        "name": "Background/Solid/Primary",
+        "key": "a58b219ba53603c8b26af4e925d7c6fcc41005af",
+        "count": 24,
+        "buckets": {
+          "outside": 24
+        },
+        "example": {
+          "id": "I43918:173896;2134:211519;16812:199338;16812:199158",
+          "name": "skeletonLoading",
+          "field": "fills",
+          "instance": "I43918:173896;2134:211519;16812:199338;16812:199158"
+        }
+      },
+      {
+        "id": "S:0f7b602df21889b566056efb403ddb4aead4dede,19430:3",
+        "name": "Text & icon/on Dark/Forth",
+        "key": "0f7b602df21889b566056efb403ddb4aead4dede",
+        "count": 24,
+        "buckets": {
+          "outside": 24
+        },
+        "example": {
+          "id": "I43918:173896;2134:211519;16812:199338;29062:128157",
+          "name": "progressBar",
+          "field": "fills",
+          "instance": "I43918:173896;2134:211519;16812:199338;29062:128157"
+        }
+      },
+      {
+        "id": "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,19430:2",
+        "name": "Text & icon/on Dark/Third",
+        "key": "7ba87ccc576cd2381aee43f11162db346a88bf6a",
+        "count": 4,
+        "buckets": {
+          "outside": 4
+        },
+        "example": {
+          "id": "I43918:173896;2134:211520;16812:199338;30478:100773;28479:54509",
+          "name": "Additional",
+          "field": "fills",
+          "instance": "I43918:173896;2134:211520;16812:199338;30478:100773"
+        }
+      },
+      {
+        "id": "S:eb0848c39cf58e48e9aae01f73f766c68f7bdde4,19430:1",
+        "name": "Text & icon/on Dark/Secondary",
+        "key": "eb0848c39cf58e48e9aae01f73f766c68f7bdde4",
+        "count": 4,
+        "buckets": {
+          "outside": 4
+        },
+        "example": {
+          "id": "I43918:173896;2134:211532;16786:186978;8524:3430",
+          "name": "Union",
+          "field": "region0",
+          "instance": "I43918:173896;2134:211532;16786:186978"
+        }
+      },
+      {
+        "id": "S:04ad1dac25827bcb6569d9657704ef06f52e2ee7,57:5",
+        "name": "Dark /2C2C2C",
+        "key": "04ad1dac25827bcb6569d9657704ef06f52e2ee7",
+        "count": 2,
+        "buckets": {
+          "outside": 2
+        },
+        "example": {
+          "id": "43918:174037",
+          "name": "Keyboard / iPhone ",
+          "field": "fills",
+          "instance": "43918:174037"
+        }
+      },
+      {
+        "id": "S:f65864ddebcb639082d90c0189cf09423a484ed9,57:1",
+        "name": "Dark /6B6B6B",
+        "key": "f65864ddebcb639082d90c0189cf09423a484ed9",
+        "count": 64,
+        "buckets": {
+          "outside": 64
+        },
+        "example": {
+          "id": "I43918:174037;8387:104951;147:9560;66:170",
+          "name": "button /medium /letter",
+          "field": "fills",
+          "instance": "I43918:174037;8387:104951;147:9560;66:170"
+        }
+      },
+      {
+        "id": "S:68c963f3fead9b6e1b61b2ebda8b6530bd2a0118,8:1",
+        "name": "white",
+        "key": "68c963f3fead9b6e1b61b2ebda8b6530bd2a0118",
+        "count": 80,
+        "buckets": {
+          "outside": 80
+        },
+        "example": {
+          "id": "I43918:174037;8387:104951;147:9560;66:170;66:112",
+          "name": "й",
+          "field": "fills",
+          "instance": "I43918:174037;8387:104951;147:9560;66:170"
+        }
+      },
+      {
+        "id": "S:e9185b4345e9b12de0a4ba19de92ad4c2fef8bb6,57:3",
+        "name": "Dark /474747",
+        "key": "e9185b4345e9b12de0a4ba19de92ad4c2fef8bb6",
+        "count": 10,
+        "buckets": {
+          "outside": 10
+        },
+        "example": {
+          "id": "I43918:174037;8387:104951;147:9583;138:8963",
+          "name": "button /medium /shift",
+          "field": "fills",
+          "instance": "I43918:174037;8387:104951;147:9583;138:8963"
+        }
+      },
+      {
+        "id": "S:ac16386563414ce63f5d1ca74524cba4951046df,32110:27",
+        "name": "[Deprecated]/Background/Solid/Kids",
+        "key": "ac16386563414ce63f5d1ca74524cba4951046df",
+        "count": 1,
+        "buckets": {
+          "outside": 1
+        },
+        "example": {
+          "id": "43918:174039",
+          "name": "Пример",
+          "field": "fills"
+        }
+      },
+      {
+        "id": "S:4e8ca772b49d5b02391ce1d8bbac531eae429f25,32110:52",
+        "name": "[Deprecated]/Text & icon/on Light/Primary",
+        "key": "4e8ca772b49d5b02391ce1d8bbac531eae429f25",
+        "count": 7,
+        "buckets": {
+          "light": 7
+        },
+        "example": {
+          "id": "I43918:174040;13036:144089;11079:105359;11079:104280;14093:7426",
+          "name": "Vector",
+          "field": "region0",
+          "instance": "I43918:174040;13036:144089;11079:105359;11079:104280",
+          "light": true
+        }
+      },
+      {
+        "id": "S:13f1e41467f7c536b0c0f5e60463105cc260c9d4,32110:54",
+        "name": "[Deprecated]/Text & icon/on Light/Third",
+        "key": "13f1e41467f7c536b0c0f5e60463105cc260c9d4",
+        "count": 8,
+        "buckets": {
+          "light": 8
+        },
+        "example": {
+          "id": "I43918:174040;13036:144092;11079:98302",
+          "name": "Новинки",
+          "field": "fills",
+          "instance": "I43918:174040;13036:144092",
+          "light": true
+        }
+      }
+    ],
+    "remainingRows": [],
+    "reasons": {
+      "kids": 0,
+      "light": 124,
+      "outside": 1111,
+      "eligible": 0
+    },
+    "remainingCount": 1235,
+    "unresolved": [],
+    "variableDetails": [
+      {
+        "kind": "variable",
+        "id": "VariableID:581f4b9f12c0461ca64bfda4e31661f9bba5f66e/39850:97",
+        "count": 2,
+        "buckets": {
+          "outside": 2
+        },
+        "examples": [
+          {
+            "id": "I43918:173853;13036:143890;28279:22431",
+            "name": "Button",
+            "field": "fills",
+            "instance": "I43918:173853;13036:143890;28279:22431",
+            "i": 0,
+            "j": 0
+          },
+          {
+            "id": "I43918:173853;13036:143890;28279:22431",
+            "name": "Button",
+            "field": "fills",
+            "instance": "I43918:173853;13036:143890;28279:22431",
+            "i": 0,
+            "j": 1
+          }
+        ],
+        "name": "primitives/electric1000",
+        "key": "581f4b9f12c0461ca64bfda4e31661f9bba5f66e",
+        "collection": "VariableCollectionId:9bfe8dde6e700cc0754156917935eea46ac309ee/32016:4307"
+      }
+    ],
+    "noncanonicalColorStyles": [
+      {
+        "name": "Color/fill/solid/hover-focus/Third",
+        "key": "7190d7e2c06681786a2e62457fbad4e50931c325",
+        "count": 2,
+        "buckets": {
+          "outside": 2
+        }
+      }
+    ],
+    "mixed": [],
+    "errors": []
+  },
+  "masterLayerDetails": [
+    {
+      "id": "43918:174601",
+      "type": "COMPONENT",
+      "name": "Position=Start, Theme=Light",
+      "master": "Position=Start, Theme=Light",
+      "paints": [
+        {
+          "field": "fills",
+          "style": "",
+          "paints": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.10000000149011612,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "field": "strokes",
+          "style": "",
+          "paints": []
+        }
+      ]
+    },
+    {
+      "id": "43918:174602",
+      "type": "RECTANGLE",
+      "name": "Wave",
+      "master": "Position=Start, Theme=Light",
+      "paints": [
+        {
+          "field": "fills",
+          "style": "",
+          "paints": [
+            {
+              "type": "GRADIENT_LINEAR",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "gradientStops": [
+                {
+                  "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 0
+                  },
+                  "position": 0,
+                  "boundVariables": {}
+                },
+                {
+                  "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 0.07999999821186066
+                  },
+                  "position": 0.5,
+                  "boundVariables": {}
+                },
+                {
+                  "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 0
+                  },
+                  "position": 1,
+                  "boundVariables": {}
+                }
+              ],
+              "gradientTransform": [
+                [
+                  -1,
+                  5.0916558080871255e-8,
+                  1
+                ],
+                [
+                  -9.500243258742103e-9,
+                  -14.72640609741211,
+                  7.887187480926514
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "field": "strokes",
+          "style": "",
+          "paints": []
+        }
+      ]
+    },
+    {
+      "id": "43918:174603",
+      "type": "COMPONENT",
+      "name": "Position=End, Theme=Light",
+      "master": "Position=End, Theme=Light",
+      "paints": [
+        {
+          "field": "fills",
+          "style": "",
+          "paints": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.10000000149011612,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "field": "strokes",
+          "style": "",
+          "paints": []
+        }
+      ]
+    },
+    {
+      "id": "43918:174604",
+      "type": "RECTANGLE",
+      "name": "Wave",
+      "master": "Position=End, Theme=Light",
+      "paints": [
+        {
+          "field": "fills",
+          "style": "",
+          "paints": [
+            {
+              "type": "GRADIENT_LINEAR",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "gradientStops": [
+                {
+                  "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 0
+                  },
+                  "position": 0,
+                  "boundVariables": {}
+                },
+                {
+                  "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 0.07999999821186066
+                  },
+                  "position": 0.5,
+                  "boundVariables": {}
+                },
+                {
+                  "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 0
+                  },
+                  "position": 1,
+                  "boundVariables": {}
+                }
+              ],
+              "gradientTransform": [
+                [
+                  -1,
+                  5.0916558080871255e-8,
+                  1
+                ],
+                [
+                  -9.500243258742103e-9,
+                  -14.72640609741211,
+                  7.887187480926514
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "field": "strokes",
+          "style": "",
+          "paints": []
+        }
+      ]
+    },
+    {
+      "id": "43918:174605",
+      "type": "COMPONENT",
+      "name": "Position=End, Theme=Dark",
+      "master": "Position=End, Theme=Dark",
+      "paints": [
+        {
+          "field": "fills",
+          "style": "",
+          "paints": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.10000000149011612,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "field": "strokes",
+          "style": "",
+          "paints": []
+        }
+      ]
+    },
+    {
+      "id": "43918:174606",
+      "type": "RECTANGLE",
+      "name": "Wave",
+      "master": "Position=End, Theme=Dark",
+      "paints": [
+        {
+          "field": "fills",
+          "style": "",
+          "paints": [
+            {
+              "type": "GRADIENT_LINEAR",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "gradientStops": [
+                {
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1,
+                    "a": 0
+                  },
+                  "position": 0,
+                  "boundVariables": {}
+                },
+                {
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1,
+                    "a": 0.07999999821186066
+                  },
+                  "position": 0.5,
+                  "boundVariables": {}
+                },
+                {
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1,
+                    "a": 0
+                  },
+                  "position": 1,
+                  "boundVariables": {}
+                }
+              ],
+              "gradientTransform": [
+                [
+                  -1,
+                  5.0916558080871255e-8,
+                  1
+                ],
+                [
+                  -9.500243258742103e-9,
+                  -14.72640609741211,
+                  7.887187480926514
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "field": "strokes",
+          "style": "",
+          "paints": []
+        }
+      ]
+    },
+    {
+      "id": "43918:174607",
+      "type": "COMPONENT",
+      "name": "Position=Start, Theme=Dark",
+      "master": "Position=Start, Theme=Dark",
+      "paints": [
+        {
+          "field": "fills",
+          "style": "",
+          "paints": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.10000000149011612,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "field": "strokes",
+          "style": "",
+          "paints": []
+        }
+      ]
+    },
+    {
+      "id": "43918:174608",
+      "type": "RECTANGLE",
+      "name": "Wave",
+      "master": "Position=Start, Theme=Dark",
+      "paints": [
+        {
+          "field": "fills",
+          "style": "",
+          "paints": [
+            {
+              "type": "GRADIENT_LINEAR",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "gradientStops": [
+                {
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1,
+                    "a": 0
+                  },
+                  "position": 0,
+                  "boundVariables": {}
+                },
+                {
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1,
+                    "a": 0.07999999821186066
+                  },
+                  "position": 0.5,
+                  "boundVariables": {}
+                },
+                {
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1,
+                    "a": 0
+                  },
+                  "position": 1,
+                  "boundVariables": {}
+                }
+              ],
+              "gradientTransform": [
+                [
+                  -1,
+                  5.0916558080871255e-8,
+                  1
+                ],
+                [
+                  -9.500243258742103e-9,
+                  -14.72640609741211,
+                  7.887187480926514
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "field": "strokes",
+          "style": "",
+          "paints": []
+        }
+      ]
+    }
+  ],
+  "conclusion": "No deprecated styles or variables in masters; all master paints are unbound raw colors. No edits permitted by current migration rules."
+}

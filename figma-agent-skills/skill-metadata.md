@@ -63,3 +63,12 @@
 **Description:** Проверяет структуру Figma-библиотеки Okko: порядок страниц и Assets, naming, lifecycle, descriptions и Sections. Использовать для аудита и согласованной оптимизации библиотеки; не менять внутреннее устройство компонентов без отдельного решения.
 
 **Instructions:** `library-optimizer.md`
+
+
+## Миграция цветов Web
+
+**Skill name:** `okko-web-color-migration`
+
+**Description:** Переводит мастера Web-библиотеки Okko с устаревших цветов на существующие color и проверяет все оставшиеся Deprecated. Сохраняет light, Kids, инстансы и цвета без токенов; согласовывает неоднозначные замены.
+
+**Instructions:** `web-color-migration.md`

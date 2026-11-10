@@ -1,0 +1,1836 @@
+{
+  "date": "2026-10-20",
+  "fileKey": "sb7SelAF2PBcYZsOxL092c",
+  "scope": {
+    "target": {
+      "id": "41900:80510",
+      "name": "UI Type -> TOP",
+      "type": "PAGE"
+    },
+    "page": {
+      "id": "41900:80510",
+      "name": "UI Type -> TOP"
+    },
+    "roots": [
+      {
+        "id": "41900:85623",
+        "type": "COMPONENT_SET",
+        "name": "_Mixed Top / element"
+      },
+      {
+        "id": "41900:85792",
+        "type": "COMPONENT_SET",
+        "name": "Rail / Mixed Top"
+      },
+      {
+        "id": "41900:85860",
+        "type": "COMPONENT_SET",
+        "name": "_Mixed Top / element mobile"
+      },
+      {
+        "id": "41900:85865",
+        "type": "COMPONENT_SET",
+        "name": "_Mixed Top / element desktop"
+      },
+      {
+        "id": "41900:86522",
+        "type": "COMPONENT_SET",
+        "name": "_Top Collections / element-new-logo"
+      },
+      {
+        "id": "41900:86636",
+        "type": "COMPONENT_SET",
+        "name": "Rail / Top Collections"
+      },
+      {
+        "id": "21999:327381",
+        "type": "COMPONENT_SET",
+        "name": "_Top Titles / Ячейки"
+      },
+      {
+        "id": "21999:327424",
+        "type": "COMPONENT_SET",
+        "name": "Rail / Top Titles"
+      },
+      {
+        "id": "43890:82464",
+        "type": "COMPONENT_SET",
+        "name": "_Top Titles / Цифры"
+      }
+    ],
+    "masters": [
+      {
+        "id": "41900:85624",
+        "name": "Hover=false, Resolution=1920",
+        "parentId": "41900:85623",
+        "parentName": "_Mixed Top / element"
+      },
+      {
+        "id": "41900:85636",
+        "name": "Hover=true, Resolution=1920",
+        "parentId": "41900:85623",
+        "parentName": "_Mixed Top / element"
+      },
+      {
+        "id": "41900:85648",
+        "name": "Hover=false, Resolution=1792",
+        "parentId": "41900:85623",
+        "parentName": "_Mixed Top / element"
+      },
+      {
+        "id": "41900:85660",
+        "name": "Hover=true, Resolution=1792",
+        "parentId": "41900:85623",
+        "parentName": "_Mixed Top / element"
+      },
+      {
+        "id": "41900:85672",
+        "name": "Hover=false, Resolution=1440",
+        "parentId": "41900:85623",
+        "parentName": "_Mixed Top / element"
+      },
+      {
+        "id": "41900:85684",
+        "name": "Hover=true, Resolution=1440",
+        "parentId": "41900:85623",
+        "parentName": "_Mixed Top / element"
+      },
+      {
+        "id": "41900:85696",
+        "name": "Hover=false, Resolution=1024",
+        "parentId": "41900:85623",
+        "parentName": "_Mixed Top / element"
+      },
+      {
+        "id": "41900:85708",
+        "name": "Hover=true, Resolution=1024",
+        "parentId": "41900:85623",
+        "parentName": "_Mixed Top / element"
+      },
+      {
+        "id": "41900:85720",
+        "name": "Hover=false, Resolution=768",
+        "parentId": "41900:85623",
+        "parentName": "_Mixed Top / element"
+      },
+      {
+        "id": "41900:85732",
+        "name": "Hover=true, Resolution=768",
+        "parentId": "41900:85623",
+        "parentName": "_Mixed Top / element"
+      },
+      {
+        "id": "41900:85744",
+        "name": "Hover=false, Resolution=375",
+        "parentId": "41900:85623",
+        "parentName": "_Mixed Top / element"
+      },
+      {
+        "id": "41900:85756",
+        "name": "Hover=true, Resolution=375",
+        "parentId": "41900:85623",
+        "parentName": "_Mixed Top / element"
+      },
+      {
+        "id": "41900:85768",
+        "name": "Hover=false, Resolution=320",
+        "parentId": "41900:85623",
+        "parentName": "_Mixed Top / element"
+      },
+      {
+        "id": "41900:85780",
+        "name": "Hover=true, Resolution=320",
+        "parentId": "41900:85623",
+        "parentName": "_Mixed Top / element"
+      },
+      {
+        "id": "41900:85793",
+        "name": "Resolution=1920",
+        "parentId": "41900:85792",
+        "parentName": "Rail / Mixed Top"
+      },
+      {
+        "id": "41900:85806",
+        "name": "Resolution=1792",
+        "parentId": "41900:85792",
+        "parentName": "Rail / Mixed Top"
+      },
+      {
+        "id": "41900:85815",
+        "name": "Resolution=1440",
+        "parentId": "41900:85792",
+        "parentName": "Rail / Mixed Top"
+      },
+      {
+        "id": "41900:85824",
+        "name": "Resolution=1024",
+        "parentId": "41900:85792",
+        "parentName": "Rail / Mixed Top"
+      },
+      {
+        "id": "41900:85833",
+        "name": "Resolution=768",
+        "parentId": "41900:85792",
+        "parentName": "Rail / Mixed Top"
+      },
+      {
+        "id": "41900:85843",
+        "name": "Resolution=375",
+        "parentId": "41900:85792",
+        "parentName": "Rail / Mixed Top"
+      },
+      {
+        "id": "41900:85852",
+        "name": "Resolution=320",
+        "parentId": "41900:85792",
+        "parentName": "Rail / Mixed Top"
+      },
+      {
+        "id": "41900:85861",
+        "name": "Active=true",
+        "parentId": "41900:85860",
+        "parentName": "_Mixed Top / element mobile"
+      },
+      {
+        "id": "41900:85863",
+        "name": "Active=false",
+        "parentId": "41900:85860",
+        "parentName": "_Mixed Top / element mobile"
+      },
+      {
+        "id": "41900:85866",
+        "name": "Active=false",
+        "parentId": "41900:85865",
+        "parentName": "_Mixed Top / element desktop"
+      },
+      {
+        "id": "41900:85868",
+        "name": "Active=true",
+        "parentId": "41900:85865",
+        "parentName": "_Mixed Top / element desktop"
+      },
+      {
+        "id": "41900:86523",
+        "name": "Разрешение=1920, hover=false",
+        "parentId": "41900:86522",
+        "parentName": "_Top Collections / element-new-logo"
+      },
+      {
+        "id": "41900:86531",
+        "name": "Разрешение=1920, hover=true",
+        "parentId": "41900:86522",
+        "parentName": "_Top Collections / element-new-logo"
+      },
+      {
+        "id": "41900:86539",
+        "name": "Разрешение=1792, hover=false",
+        "parentId": "41900:86522",
+        "parentName": "_Top Collections / element-new-logo"
+      },
+      {
+        "id": "41900:86547",
+        "name": "Разрешение=1792, hover=true",
+        "parentId": "41900:86522",
+        "parentName": "_Top Collections / element-new-logo"
+      },
+      {
+        "id": "41900:86555",
+        "name": "Разрешение=1440, hover=false",
+        "parentId": "41900:86522",
+        "parentName": "_Top Collections / element-new-logo"
+      },
+      {
+        "id": "41900:86563",
+        "name": "Разрешение=1440, hover=true",
+        "parentId": "41900:86522",
+        "parentName": "_Top Collections / element-new-logo"
+      },
+      {
+        "id": "41900:86571",
+        "name": "Разрешение=1024, hover=false",
+        "parentId": "41900:86522",
+        "parentName": "_Top Collections / element-new-logo"
+      },
+      {
+        "id": "41900:86579",
+        "name": "Разрешение=1024, hover=true",
+        "parentId": "41900:86522",
+        "parentName": "_Top Collections / element-new-logo"
+      },
+      {
+        "id": "41900:86587",
+        "name": "Разрешение=768, hover=false",
+        "parentId": "41900:86522",
+        "parentName": "_Top Collections / element-new-logo"
+      },
+      {
+        "id": "41900:86595",
+        "name": "Разрешение=768, hover=true",
+        "parentId": "41900:86522",
+        "parentName": "_Top Collections / element-new-logo"
+      },
+      {
+        "id": "41900:86603",
+        "name": "Разрешение=375, hover=false",
+        "parentId": "41900:86522",
+        "parentName": "_Top Collections / element-new-logo"
+      },
+      {
+        "id": "41900:86612",
+        "name": "Разрешение=375, hover=true",
+        "parentId": "41900:86522",
+        "parentName": "_Top Collections / element-new-logo"
+      },
+      {
+        "id": "41900:86620",
+        "name": "Разрешение=375, hover=false",
+        "parentId": "41900:86522",
+        "parentName": "_Top Collections / element-new-logo"
+      },
+      {
+        "id": "41900:86628",
+        "name": "Разрешение=320, hover=false",
+        "parentId": "41900:86522",
+        "parentName": "_Top Collections / element-new-logo"
+      },
+      {
+        "id": "41900:86637",
+        "name": "Resolution=1920",
+        "parentId": "41900:86636",
+        "parentName": "Rail / Top Collections"
+      },
+      {
+        "id": "41900:86647",
+        "name": "Resolution=1792",
+        "parentId": "41900:86636",
+        "parentName": "Rail / Top Collections"
+      },
+      {
+        "id": "41900:86654",
+        "name": "Resolution=1440",
+        "parentId": "41900:86636",
+        "parentName": "Rail / Top Collections"
+      },
+      {
+        "id": "41900:86660",
+        "name": "Resolution=1024",
+        "parentId": "41900:86636",
+        "parentName": "Rail / Top Collections"
+      },
+      {
+        "id": "41900:86666",
+        "name": "Resolution=768",
+        "parentId": "41900:86636",
+        "parentName": "Rail / Top Collections"
+      },
+      {
+        "id": "41900:86671",
+        "name": "Resolution=375",
+        "parentId": "41900:86636",
+        "parentName": "Rail / Top Collections"
+      },
+      {
+        "id": "41900:86677",
+        "name": "Resolution=320",
+        "parentId": "41900:86636",
+        "parentName": "Rail / Top Collections"
+      },
+      {
+        "id": "21999:327382",
+        "name": "Resolution=1920",
+        "parentId": "21999:327381",
+        "parentName": "_Top Titles / Ячейки"
+      },
+      {
+        "id": "21999:327385",
+        "name": "Resolution=1792",
+        "parentId": "21999:327381",
+        "parentName": "_Top Titles / Ячейки"
+      },
+      {
+        "id": "21999:327388",
+        "name": "Resolution=1440",
+        "parentId": "21999:327381",
+        "parentName": "_Top Titles / Ячейки"
+      },
+      {
+        "id": "21999:327391",
+        "name": "Resolution=1024",
+        "parentId": "21999:327381",
+        "parentName": "_Top Titles / Ячейки"
+      },
+      {
+        "id": "21999:327394",
+        "name": "Resolution=768",
+        "parentId": "21999:327381",
+        "parentName": "_Top Titles / Ячейки"
+      },
+      {
+        "id": "21999:327397",
+        "name": "Resolution=375",
+        "parentId": "21999:327381",
+        "parentName": "_Top Titles / Ячейки"
+      },
+      {
+        "id": "21999:327400",
+        "name": "Resolution=320",
+        "parentId": "21999:327381",
+        "parentName": "_Top Titles / Ячейки"
+      },
+      {
+        "id": "21999:327425",
+        "name": "Resolution=1920",
+        "parentId": "21999:327424",
+        "parentName": "Rail / Top Titles"
+      },
+      {
+        "id": "21999:327440",
+        "name": "Resolution=1792",
+        "parentId": "21999:327424",
+        "parentName": "Rail / Top Titles"
+      },
+      {
+        "id": "21999:327455",
+        "name": "Resolution=1440",
+        "parentId": "21999:327424",
+        "parentName": "Rail / Top Titles"
+      },
+      {
+        "id": "21999:327470",
+        "name": "Resolution=1024",
+        "parentId": "21999:327424",
+        "parentName": "Rail / Top Titles"
+      },
+      {
+        "id": "21999:327485",
+        "name": "Resolution=768",
+        "parentId": "21999:327424",
+        "parentName": "Rail / Top Titles"
+      },
+      {
+        "id": "21999:327500",
+        "name": "Resolution=375",
+        "parentId": "21999:327424",
+        "parentName": "Rail / Top Titles"
+      },
+      {
+        "id": "21999:327515",
+        "name": "Resolution=320",
+        "parentId": "21999:327424",
+        "parentName": "Rail / Top Titles"
+      },
+      {
+        "id": "43890:82465",
+        "name": "Property 1=1",
+        "parentId": "43890:82464",
+        "parentName": "_Top Titles / Цифры"
+      },
+      {
+        "id": "43890:82467",
+        "name": "Property 1=2",
+        "parentId": "43890:82464",
+        "parentName": "_Top Titles / Цифры"
+      },
+      {
+        "id": "43890:82469",
+        "name": "Property 1=3",
+        "parentId": "43890:82464",
+        "parentName": "_Top Titles / Цифры"
+      },
+      {
+        "id": "43890:82471",
+        "name": "Property 1=4",
+        "parentId": "43890:82464",
+        "parentName": "_Top Titles / Цифры"
+      },
+      {
+        "id": "43890:82473",
+        "name": "Property 1=5",
+        "parentId": "43890:82464",
+        "parentName": "_Top Titles / Цифры"
+      },
+      {
+        "id": "43890:82475",
+        "name": "Property 1=6",
+        "parentId": "43890:82464",
+        "parentName": "_Top Titles / Цифры"
+      },
+      {
+        "id": "43890:82477",
+        "name": "Property 1=7",
+        "parentId": "43890:82464",
+        "parentName": "_Top Titles / Цифры"
+      },
+      {
+        "id": "43890:82479",
+        "name": "Property 1=8",
+        "parentId": "43890:82464",
+        "parentName": "_Top Titles / Цифры"
+      },
+      {
+        "id": "43890:82481",
+        "name": "Property 1=9",
+        "parentId": "43890:82464",
+        "parentName": "_Top Titles / Цифры"
+      },
+      {
+        "id": "43890:82483",
+        "name": "Property 1=10",
+        "parentId": "43890:82464",
+        "parentName": "_Top Titles / Цифры"
+      }
+    ],
+    "sets": [
+      {
+        "id": "41900:85623",
+        "name": "_Mixed Top / element",
+        "count": 14
+      },
+      {
+        "id": "41900:85792",
+        "name": "Rail / Mixed Top",
+        "count": 7
+      },
+      {
+        "id": "41900:85860",
+        "name": "_Mixed Top / element mobile",
+        "count": 2
+      },
+      {
+        "id": "41900:85865",
+        "name": "_Mixed Top / element desktop",
+        "count": 2
+      },
+      {
+        "id": "41900:86522",
+        "name": "_Top Collections / element-new-logo",
+        "count": 14
+      },
+      {
+        "id": "41900:86636",
+        "name": "Rail / Top Collections",
+        "count": 7
+      },
+      {
+        "id": "21999:327381",
+        "name": "_Top Titles / Ячейки",
+        "count": 7
+      },
+      {
+        "id": "21999:327424",
+        "name": "Rail / Top Titles",
+        "count": 7
+      },
+      {
+        "id": "43890:82464",
+        "name": "_Top Titles / Цифры",
+        "count": 10
+      }
+    ]
+  },
+  "initialAudit": {
+    "staticResult": null,
+    "page": "UI Type -> TOP",
+    "nodeCount": 3711,
+    "sources": [
+      {
+        "id": "S:12624d72e826e045d96307f7fa75f5cad8fa66d4,39850:14",
+        "name": "[Deprecated]/Border/Focus",
+        "key": "12624d72e826e045d96307f7fa75f5cad8fa66d4",
+        "count": 3,
+        "buckets": {
+          "outside": 3
+        },
+        "example": {
+          "id": "41900:85623",
+          "name": "_Mixed Top / element",
+          "field": "strokes"
+        }
+      },
+      {
+        "id": "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "name": "[Deprecated]/Text & icon/on Dark/Third",
+        "key": "7ba87ccc576cd2381aee43f11162db346a88bf6a",
+        "count": 132,
+        "buckets": {
+          "own": 42,
+          "instance": 90
+        },
+        "example": {
+          "id": "41900:85628",
+          "name": "text",
+          "field": "fills",
+          "master": "41900:85624",
+          "masterName": "Hover=false, Resolution=1920"
+        }
+      },
+      {
+        "id": "S:1082d45b02cee1ebf04885f304cfa0cae2c2bbc3,32110:6",
+        "name": "[Deprecated]/Border/Glassy",
+        "key": "1082d45b02cee1ebf04885f304cfa0cae2c2bbc3",
+        "count": 612,
+        "buckets": {
+          "instance": 578,
+          "own": 34
+        },
+        "example": {
+          "id": "I41900:85631;41900:85867",
+          "name": "Vector",
+          "field": "region0",
+          "master": "41900:85624",
+          "masterName": "Hover=false, Resolution=1920",
+          "instance": "41900:85631"
+        }
+      },
+      {
+        "id": "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3",
+        "name": "[Deprecated]/Text & icon/on Dark/Primary",
+        "key": "8d1e4095c97d6f8de9740c869fae2aa91b41bd6d",
+        "count": 100,
+        "buckets": {
+          "own": 34,
+          "instance": 66
+        },
+        "example": {
+          "id": "41900:85633",
+          "name": "text",
+          "field": "fills",
+          "master": "41900:85624",
+          "masterName": "Hover=false, Resolution=1920"
+        }
+      },
+      {
+        "id": "S:60034a43dd4289725204e3607943a299d6be959b,40564:817",
+        "name": "[Deprecated]/Border/Decorative/on Dark/Focus",
+        "key": "60034a43dd4289725204e3607943a299d6be959b",
+        "count": 250,
+        "buckets": {
+          "own": 50,
+          "instance": 200
+        },
+        "example": {
+          "id": "41900:85634",
+          "name": "свечение",
+          "field": "fills",
+          "master": "41900:85624",
+          "masterName": "Hover=false, Resolution=1920"
+        }
+      },
+      {
+        "id": "S:dd9da9ff3fffa92fabfcf1cf141d191420fd7d27,32110:74",
+        "name": "[Deprecated]/Border/Contour",
+        "key": "dd9da9ff3fffa92fabfcf1cf141d191420fd7d27",
+        "count": 230,
+        "buckets": {
+          "own": 69,
+          "instance": 161
+        },
+        "example": {
+          "id": "41900:85634",
+          "name": "свечение",
+          "field": "strokes",
+          "master": "41900:85624",
+          "masterName": "Hover=false, Resolution=1920"
+        }
+      },
+      {
+        "id": "S:53c977b80e102c61daa829d68791064eb44e024c,14640:84",
+        "name": "Border/Decorative/on Dark/Active Vertical",
+        "key": "53c977b80e102c61daa829d68791064eb44e024c",
+        "count": 6,
+        "buckets": {
+          "own": 6
+        },
+        "example": {
+          "id": "41900:85796",
+          "name": "Title",
+          "field": "fillRange",
+          "master": "41900:85793",
+          "masterName": "Resolution=1920",
+          "start": 0,
+          "end": 6
+        }
+      },
+      {
+        "id": "S:eb0848c39cf58e48e9aae01f73f766c68f7bdde4,32110:4",
+        "name": "[Deprecated]/Text & icon/on Dark/Secondary",
+        "key": "eb0848c39cf58e48e9aae01f73f766c68f7bdde4",
+        "count": 5,
+        "buckets": {
+          "own": 1,
+          "instance": 4
+        },
+        "example": {
+          "id": "41900:85796",
+          "name": "Title",
+          "field": "fillRange",
+          "master": "41900:85793",
+          "masterName": "Resolution=1920",
+          "start": 6,
+          "end": 17
+        }
+      },
+      {
+        "id": "S:53c977b80e102c61daa829d68791064eb44e024c,16210:58",
+        "name": "Border/Decorative/on Dark/Active Vertical",
+        "key": "53c977b80e102c61daa829d68791064eb44e024c",
+        "count": 2,
+        "buckets": {
+          "own": 2
+        },
+        "example": {
+          "id": "41900:85818",
+          "name": "Title",
+          "field": "fillRange",
+          "master": "41900:85815",
+          "masterName": "Resolution=1440",
+          "start": 0,
+          "end": 5
+        }
+      },
+      {
+        "id": "S:0e8338bfcc86b46f57e0723564a1b98136e988cc,14640:57",
+        "name": "Border/Decorative/on Dark/Active Horisontal",
+        "key": "0e8338bfcc86b46f57e0723564a1b98136e988cc",
+        "count": 2,
+        "buckets": {
+          "own": 2
+        },
+        "example": {
+          "id": "41900:85851",
+          "name": "Title",
+          "field": "fills",
+          "master": "41900:85843",
+          "masterName": "Resolution=375"
+        }
+      },
+      {
+        "id": "S:2d18b315097685552c2b414e160cfdb5b917f5e7,32110:39",
+        "name": "[Deprecated]/Fill/Glassy/Third",
+        "key": "2d18b315097685552c2b414e160cfdb5b917f5e7",
+        "count": 2,
+        "buckets": {
+          "instance": 2
+        },
+        "example": {
+          "id": "41900:86644",
+          "name": "carouselButton",
+          "field": "fills",
+          "master": "41900:86637",
+          "masterName": "Resolution=1920",
+          "instance": "41900:86644"
+        }
+      },
+      {
+        "id": "S:dd9da9ff3fffa92fabfcf1cf141d191420fd7d27,14573:6",
+        "name": "Border/Contour",
+        "key": "dd9da9ff3fffa92fabfcf1cf141d191420fd7d27",
+        "count": 3,
+        "buckets": {
+          "instance": 3
+        },
+        "example": {
+          "id": "I41900:86646;1629:261353",
+          "name": "2",
+          "field": "strokes",
+          "master": "41900:86637",
+          "masterName": "Resolution=1920",
+          "instance": "41900:86646"
+        }
+      },
+      {
+        "id": "S:60034a43dd4289725204e3607943a299d6be959b,16210:46",
+        "name": "Border/Decorative/on Dark/Focus",
+        "key": "60034a43dd4289725204e3607943a299d6be959b",
+        "count": 1,
+        "buckets": {
+          "instance": 1
+        },
+        "example": {
+          "id": "I41900:86646;1629:261357",
+          "name": "Title",
+          "field": "fills",
+          "master": "41900:86637",
+          "masterName": "Resolution=1920",
+          "instance": "41900:86646"
+        }
+      },
+      {
+        "id": "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,11678:11",
+        "name": "Text & icon/on Dark/Primary",
+        "key": "8d1e4095c97d6f8de9740c869fae2aa91b41bd6d",
+        "count": 1,
+        "buckets": {
+          "instance": 1
+        },
+        "example": {
+          "id": "I41900:86646;1629:261358",
+          "name": "Title",
+          "field": "fills",
+          "master": "41900:86637",
+          "masterName": "Resolution=1920",
+          "instance": "41900:86646"
+        }
+      },
+      {
+        "id": "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,32110:48",
+        "name": "[Deprecated]/Fill/Solid/Inverse",
+        "key": "974f85fc28b4a77fb28ea56ae2aba7dbc10a9905",
+        "count": 77,
+        "buckets": {
+          "instance": 77
+        },
+        "example": {
+          "id": "I46934:135842;3248:679",
+          "name": "Стикер",
+          "field": "fills",
+          "master": "21999:327382",
+          "masterName": "Resolution=1920",
+          "instance": "I46934:135842;3248:679"
+        }
+      },
+      {
+        "id": "S:4e8ca772b49d5b02391ce1d8bbac531eae429f25,32110:52",
+        "name": "[Deprecated]/Text & icon/on Light/Primary",
+        "key": "4e8ca772b49d5b02391ce1d8bbac531eae429f25",
+        "count": 154,
+        "buckets": {
+          "instance": 154
+        },
+        "example": {
+          "id": "I46934:135842;3248:679;3950:1226;2774:5",
+          "name": "Shape",
+          "field": "region0",
+          "master": "21999:327382",
+          "masterName": "Resolution=1920",
+          "instance": "I46934:135842;3248:679;3950:1226"
+        }
+      },
+      {
+        "id": "S:f89742b6887c24e9491e35659021bf8e090a258a,11494:59",
+        "name": "Text & icon/on Dark/Primary",
+        "key": "f89742b6887c24e9491e35659021bf8e090a258a",
+        "count": 20,
+        "buckets": {
+          "instance": 20
+        },
+        "example": {
+          "id": "I21999:327428;14244:165161;235:764",
+          "name": "Vector",
+          "field": "region0",
+          "master": "21999:327425",
+          "masterName": "Resolution=1920",
+          "instance": "I21999:327428;14244:165161"
+        }
+      }
+    ],
+    "remainingRows": [
+      [
+        "41900:85628",
+        "fills",
+        "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "41900:85624",
+        null,
+        0,
+        0
+      ],
+      [
+        "41900:85629",
+        "fills",
+        "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "41900:85624",
+        null,
+        0,
+        0
+      ],
+      [
+        "41900:85630",
+        "fills",
+        "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "41900:85624",
+        null,
+        0,
+        0
+      ],
+      [
+        "I41900:85631;41900:85867",
+        "region0",
+        "S:1082d45b02cee1ebf04885f304cfa0cae2c2bbc3,32110:6",
+        "41900:85624",
+        "41900:85631",
+        0,
+        0
+      ],
+      [
+        "I41900:85631;41900:85867",
+        "region1",
+        "S:1082d45b02cee1ebf04885f304cfa0cae2c2bbc3,32110:6",
+        "41900:85624",
+        "41900:85631",
+        0,
+        0
+      ],
+      [
+        "I41900:85631;41900:85867",
+        "region2",
+        "S:1082d45b02cee1ebf04885f304cfa0cae2c2bbc3,32110:6",
+        "41900:85624",
+        "41900:85631",
+        0,
+        0
+      ],
+      [
+        "I41900:85631;41900:85867",
+        "region3",
+        "S:1082d45b02cee1ebf04885f304cfa0cae2c2bbc3,32110:6",
+        "41900:85624",
+        "41900:85631",
+        0,
+        0
+      ],
+      [
+        "I41900:85631;41900:85867",
+        "region4",
+        "S:1082d45b02cee1ebf04885f304cfa0cae2c2bbc3,32110:6",
+        "41900:85624",
+        "41900:85631",
+        0,
+        0
+      ],
+      [
+        "I41900:85631;41900:85867",
+        "region5",
+        "S:1082d45b02cee1ebf04885f304cfa0cae2c2bbc3,32110:6",
+        "41900:85624",
+        "41900:85631",
+        0,
+        0
+      ],
+      [
+        "I41900:85631;41900:85867",
+        "region6",
+        "S:1082d45b02cee1ebf04885f304cfa0cae2c2bbc3,32110:6",
+        "41900:85624",
+        "41900:85631",
+        0,
+        0
+      ],
+      [
+        "I41900:85631;41900:85867",
+        "region7",
+        "S:1082d45b02cee1ebf04885f304cfa0cae2c2bbc3,32110:6",
+        "41900:85624",
+        "41900:85631",
+        0,
+        0
+      ],
+      [
+        "I41900:85631;41900:85867",
+        "region8",
+        "S:1082d45b02cee1ebf04885f304cfa0cae2c2bbc3,32110:6",
+        "41900:85624",
+        "41900:85631",
+        0,
+        0
+      ],
+      [
+        "I41900:85631;41900:85867",
+        "region9",
+        "S:1082d45b02cee1ebf04885f304cfa0cae2c2bbc3,32110:6",
+        "41900:85624",
+        "41900:85631",
+        0,
+        0
+      ],
+      [
+        "I41900:85631;41900:85867",
+        "region10",
+        "S:1082d45b02cee1ebf04885f304cfa0cae2c2bbc3,32110:6",
+        "41900:85624",
+        "41900:85631",
+        0,
+        0
+      ],
+      [
+        "I41900:85631;41900:85867",
+        "region11",
+        "S:1082d45b02cee1ebf04885f304cfa0cae2c2bbc3,32110:6",
+        "41900:85624",
+        "41900:85631",
+        0,
+        0
+      ],
+      [
+        "I41900:85631;41900:85867",
+        "region12",
+        "S:1082d45b02cee1ebf04885f304cfa0cae2c2bbc3,32110:6",
+        "41900:85624",
+        "41900:85631",
+        0,
+        0
+      ],
+      [
+        "I41900:85631;41900:85867",
+        "region13",
+        "S:1082d45b02cee1ebf04885f304cfa0cae2c2bbc3,32110:6",
+        "41900:85624",
+        "41900:85631",
+        0,
+        0
+      ],
+      [
+        "I41900:85631;41900:85867",
+        "region14",
+        "S:1082d45b02cee1ebf04885f304cfa0cae2c2bbc3,32110:6",
+        "41900:85624",
+        "41900:85631",
+        0,
+        0
+      ],
+      [
+        "I41900:85631;41900:85867",
+        "region15",
+        "S:1082d45b02cee1ebf04885f304cfa0cae2c2bbc3,32110:6",
+        "41900:85624",
+        "41900:85631",
+        0,
+        0
+      ],
+      [
+        "I41900:85631;41900:85867",
+        "region16",
+        "S:1082d45b02cee1ebf04885f304cfa0cae2c2bbc3,32110:6",
+        "41900:85624",
+        "41900:85631",
+        0,
+        0
+      ],
+      [
+        "41900:85633",
+        "fills",
+        "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3",
+        "41900:85624",
+        null,
+        0,
+        0
+      ],
+      [
+        "41900:85634",
+        "fills",
+        "S:60034a43dd4289725204e3607943a299d6be959b,40564:817",
+        "41900:85624",
+        null,
+        0,
+        0
+      ],
+      [
+        "41900:85634",
+        "strokes",
+        "S:dd9da9ff3fffa92fabfcf1cf141d191420fd7d27,32110:74",
+        "41900:85624",
+        null,
+        0,
+        0
+      ],
+      [
+        "41900:85635",
+        "strokes",
+        "S:dd9da9ff3fffa92fabfcf1cf141d191420fd7d27,32110:74",
+        "41900:85624",
+        null,
+        0,
+        0
+      ],
+      [
+        "I41900:85637;41900:85869",
+        "region0",
+        "S:60034a43dd4289725204e3607943a299d6be959b,40564:817",
+        "41900:85636",
+        "41900:85637",
+        0,
+        0
+      ],
+      [
+        "I41900:85637;41900:85869",
+        "region1",
+        "S:60034a43dd4289725204e3607943a299d6be959b,40564:817",
+        "41900:85636",
+        "41900:85637",
+        0,
+        0
+      ],
+      [
+        "I41900:85637;41900:85869",
+        "region2",
+        "S:60034a43dd4289725204e3607943a299d6be959b,40564:817",
+        "41900:85636",
+        "41900:85637",
+        0,
+        0
+      ],
+      [
+        "I41900:85637;41900:85869",
+        "region3",
+        "S:60034a43dd4289725204e3607943a299d6be959b,40564:817",
+        "41900:85636",
+        "41900:85637",
+        0,
+        0
+      ],
+      [
+        "I41900:85637;41900:85869",
+        "region4",
+        "S:60034a43dd4289725204e3607943a299d6be959b,40564:817",
+        "41900:85636",
+        "41900:85637",
+        0,
+        0
+      ],
+      [
+        "I41900:85637;41900:85869",
+        "region5",
+        "S:60034a43dd4289725204e3607943a299d6be959b,40564:817",
+        "41900:85636",
+        "41900:85637",
+        0,
+        0
+      ]
+    ],
+    "reasons": {
+      "kids": 0,
+      "light": 0,
+      "outside": 3,
+      "eligible": 1597
+    },
+    "remainingCount": 1600,
+    "unresolved": [],
+    "variableDetails": [
+      {
+        "kind": "variable",
+        "id": "VariableID:581f4b9f12c0461ca64bfda4e31661f9bba5f66e/39850:97",
+        "count": 3,
+        "buckets": {
+          "outside": 3
+        },
+        "examples": [
+          {
+            "id": "41900:85623",
+            "name": "_Mixed Top / element",
+            "field": "strokes",
+            "i": 0
+          },
+          {
+            "id": "41900:85792",
+            "name": "Rail / Mixed Top",
+            "field": "strokes",
+            "i": 0
+          }
+        ],
+        "name": "primitives/electric1000",
+        "key": "581f4b9f12c0461ca64bfda4e31661f9bba5f66e",
+        "collection": "VariableCollectionId:9bfe8dde6e700cc0754156917935eea46ac309ee/32016:4307"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:00379a6b5a2bad57d3ca047b1ffab4ce9a1f5a75/41700:232",
+        "count": 154,
+        "buckets": {
+          "light": 154
+        },
+        "examples": [
+          {
+            "id": "46934:135844",
+            "name": "Label - Small",
+            "field": "fills",
+            "master": "21999:327382",
+            "masterName": "Resolution=1920",
+            "instance": "46934:135844",
+            "light": true,
+            "i": 0
+          },
+          {
+            "id": "46934:135845",
+            "name": "Label - Small",
+            "field": "fills",
+            "master": "21999:327382",
+            "masterName": "Resolution=1920",
+            "instance": "46934:135845",
+            "light": true,
+            "i": 0
+          }
+        ],
+        "name": "color/component/label/lighthouse",
+        "key": "00379a6b5a2bad57d3ca047b1ffab4ce9a1f5a75",
+        "collection": "VariableCollectionId:1c6e07816c9c7d8423d676736c66af0f797411bb/41700:0"
+      }
+    ],
+    "noncanonicalColorStyles": [],
+    "mixed": [],
+    "errors": []
+  },
+  "mutatedNodeCount": 198,
+  "mutatedNodeIds": [
+    "41900:85628",
+    "41900:85629",
+    "41900:85630",
+    "41900:85633",
+    "41900:85634",
+    "41900:85635",
+    "41900:85639",
+    "41900:85640",
+    "41900:85641",
+    "41900:85645",
+    "41900:85646",
+    "41900:85647",
+    "41900:85652",
+    "41900:85653",
+    "41900:85654",
+    "41900:85657",
+    "41900:85658",
+    "41900:85659",
+    "41900:85665",
+    "41900:85666",
+    "41900:85667",
+    "41900:85669",
+    "41900:85670",
+    "41900:85671",
+    "41900:85676",
+    "41900:85677",
+    "41900:85678",
+    "41900:85681",
+    "41900:85682",
+    "41900:85683",
+    "41900:85688",
+    "41900:85689",
+    "41900:85690",
+    "41900:85693",
+    "41900:85694",
+    "41900:85695",
+    "41900:85700",
+    "41900:85701",
+    "41900:85702",
+    "41900:85705",
+    "41900:85706",
+    "41900:85707",
+    "41900:85712",
+    "41900:85713",
+    "41900:85714",
+    "41900:85717",
+    "41900:85718",
+    "41900:85719",
+    "41900:85724",
+    "41900:85725",
+    "41900:85726",
+    "41900:85729",
+    "41900:85730",
+    "41900:85731",
+    "41900:85736",
+    "41900:85737",
+    "41900:85738",
+    "41900:85741",
+    "41900:85742",
+    "41900:85743",
+    "41900:85746",
+    "41900:85747",
+    "41900:85750",
+    "41900:85753",
+    "41900:85754",
+    "41900:85755",
+    "41900:85758",
+    "41900:85759",
+    "41900:85762",
+    "41900:85765",
+    "41900:85766",
+    "41900:85767",
+    "41900:85770",
+    "41900:85771",
+    "41900:85774",
+    "41900:85777",
+    "41900:85778",
+    "41900:85779",
+    "41900:85782",
+    "41900:85783",
+    "41900:85786",
+    "41900:85789",
+    "41900:85790",
+    "41900:85791",
+    "41900:85851",
+    "41900:85855",
+    "41900:85862",
+    "41900:85864",
+    "41900:85867",
+    "41900:85869",
+    "41900:86525",
+    "41900:86526",
+    "41900:86527",
+    "41900:86530",
+    "41900:86533",
+    "41900:86534",
+    "41900:86535",
+    "41900:86538",
+    "41900:86541",
+    "41900:86542",
+    "41900:86543",
+    "41900:86546",
+    "41900:86549",
+    "41900:86550",
+    "41900:86551",
+    "41900:86554",
+    "41900:86557",
+    "41900:86558",
+    "41900:86559",
+    "41900:86562",
+    "41900:86565",
+    "41900:86566",
+    "41900:86567",
+    "41900:86570",
+    "41900:86574",
+    "41900:86576",
+    "41900:86577",
+    "41900:86578",
+    "41900:86582",
+    "41900:86584",
+    "41900:86585",
+    "41900:86586",
+    "41900:86590",
+    "41900:86592",
+    "41900:86593",
+    "41900:86594",
+    "41900:86598",
+    "41900:86600",
+    "41900:86601",
+    "41900:86602",
+    "41900:86606",
+    "41900:86607",
+    "41900:86609",
+    "41900:86610",
+    "41900:86611",
+    "41900:86614",
+    "41900:86615",
+    "41900:86617",
+    "41900:86618",
+    "41900:86619",
+    "41900:86623",
+    "41900:86625",
+    "41900:86626",
+    "41900:86627",
+    "41900:86631",
+    "41900:86633",
+    "41900:86634",
+    "41900:86635",
+    "21999:327458",
+    "21999:327473",
+    "21999:327488",
+    "21999:327503",
+    "21999:327518",
+    "41900:85796",
+    "41900:85818",
+    "I41900:85847;41900:85750",
+    "I46934:135842;3248:679",
+    "I46934:135842;3248:679;3950:1226;2774:5",
+    "I46934:135842;3248:679;3950:1228",
+    "I46934:135825;3248:679",
+    "I46934:135825;3248:679;3950:1226;2774:5",
+    "I46934:135825;3248:679;3950:1228",
+    "I46934:135811;13715:155298;3248:679",
+    "I46934:135811;13715:155298;3248:679;3950:1226;2774:5",
+    "I46934:135811;13715:155298;3248:679;3950:1228",
+    "I46934:135807;10491:81880;1235:165",
+    "I46934:135807;10491:81880;1235:165;2789:1847;2774:5",
+    "I46934:135807;10491:81880;1235:165;2789:1824",
+    "I46934:135830;10491:81880;1235:165",
+    "I46934:135830;10491:81880;1235:165;2789:1847;2774:5",
+    "I46934:135830;10491:81880;1235:165;2789:1824",
+    "I46934:135809;14269:168122;1302:45;1302:26",
+    "I46934:135809;14269:168122;1302:45;1302:26;2839:121;2774:5",
+    "I46934:135809;14269:168122;1302:45;1302:26;2839:124",
+    "I46934:135805;14269:168162;1302:45;1302:26",
+    "I46934:135805;14269:168162;1302:45;1302:26;2839:121;2774:5",
+    "I46934:135805;14269:168162;1302:45;1302:26;2839:124",
+    "41900:85809",
+    "41900:85827",
+    "41900:85836",
+    "I41900:85848;41900:85750",
+    "I41900:85849;41900:85750",
+    "I41900:85859;41900:85774",
+    "41900:86644",
+    "I41900:86644;16786:186972;33124:6760",
+    "41900:86645",
+    "I41900:86645;16786:186978;33124:6811",
+    "I41900:86646;1629:261353",
+    "I41900:86646;1629:261354",
+    "I41900:86646;1629:261355",
+    "I41900:86646;1629:261357",
+    "I41900:86646;1629:261358",
+    "I21999:327428;14244:165161;235:764",
+    "I21999:327428;13915:158461",
+    "I21999:327428;13915:158470;33124:6916",
+    "I21999:327443;14244:165161;235:764",
+    "I21999:327443;13915:158461",
+    "I21999:327443;13915:158470;33124:6916"
+  ],
+  "phases": [
+    {
+      "key": "topOwn",
+      "mode": "own",
+      "found": 166,
+      "attempted": 166,
+      "mutatedNodeIds": [
+        "41900:85628",
+        "41900:85629",
+        "41900:85630",
+        "41900:85633",
+        "41900:85634",
+        "41900:85635",
+        "41900:85639",
+        "41900:85640",
+        "41900:85641",
+        "41900:85645",
+        "41900:85646",
+        "41900:85647",
+        "41900:85652",
+        "41900:85653",
+        "41900:85654",
+        "41900:85657",
+        "41900:85658",
+        "41900:85659",
+        "41900:85665",
+        "41900:85666",
+        "41900:85667",
+        "41900:85669",
+        "41900:85670",
+        "41900:85671",
+        "41900:85676",
+        "41900:85677",
+        "41900:85678",
+        "41900:85681",
+        "41900:85682",
+        "41900:85683",
+        "41900:85688",
+        "41900:85689",
+        "41900:85690",
+        "41900:85693",
+        "41900:85694",
+        "41900:85695",
+        "41900:85700",
+        "41900:85701",
+        "41900:85702",
+        "41900:85705",
+        "41900:85706",
+        "41900:85707",
+        "41900:85712",
+        "41900:85713",
+        "41900:85714",
+        "41900:85717",
+        "41900:85718",
+        "41900:85719",
+        "41900:85724",
+        "41900:85725",
+        "41900:85726",
+        "41900:85729",
+        "41900:85730",
+        "41900:85731",
+        "41900:85736",
+        "41900:85737",
+        "41900:85738",
+        "41900:85741",
+        "41900:85742",
+        "41900:85743",
+        "41900:85746",
+        "41900:85747",
+        "41900:85750",
+        "41900:85753",
+        "41900:85754",
+        "41900:85755",
+        "41900:85758",
+        "41900:85759",
+        "41900:85762",
+        "41900:85765",
+        "41900:85766",
+        "41900:85767",
+        "41900:85770",
+        "41900:85771",
+        "41900:85774",
+        "41900:85777",
+        "41900:85778",
+        "41900:85779",
+        "41900:85782",
+        "41900:85783",
+        "41900:85786",
+        "41900:85789",
+        "41900:85790",
+        "41900:85791",
+        "41900:85851",
+        "41900:85855",
+        "41900:85862",
+        "41900:85864",
+        "41900:85867",
+        "41900:85869",
+        "41900:86525",
+        "41900:86526",
+        "41900:86527",
+        "41900:86530",
+        "41900:86533",
+        "41900:86534",
+        "41900:86535",
+        "41900:86538",
+        "41900:86541",
+        "41900:86542",
+        "41900:86543",
+        "41900:86546",
+        "41900:86549",
+        "41900:86550",
+        "41900:86551",
+        "41900:86554",
+        "41900:86557",
+        "41900:86558",
+        "41900:86559",
+        "41900:86562",
+        "41900:86565",
+        "41900:86566",
+        "41900:86567",
+        "41900:86570",
+        "41900:86574",
+        "41900:86576",
+        "41900:86577",
+        "41900:86578",
+        "41900:86582",
+        "41900:86584",
+        "41900:86585",
+        "41900:86586",
+        "41900:86590",
+        "41900:86592",
+        "41900:86593",
+        "41900:86594",
+        "41900:86598",
+        "41900:86600",
+        "41900:86601",
+        "41900:86602",
+        "41900:86606",
+        "41900:86607",
+        "41900:86609",
+        "41900:86610",
+        "41900:86611",
+        "41900:86614",
+        "41900:86615",
+        "41900:86617",
+        "41900:86618",
+        "41900:86619",
+        "41900:86623",
+        "41900:86625",
+        "41900:86626",
+        "41900:86627",
+        "41900:86631",
+        "41900:86633",
+        "41900:86634",
+        "41900:86635",
+        "21999:327458",
+        "21999:327473",
+        "21999:327488",
+        "21999:327503",
+        "21999:327518"
+      ],
+      "applied": 166,
+      "summary": {
+        "color/text-icon/third": 42,
+        "color/text-icon/primary": 33,
+        "color/border/focus": 18,
+        "color/border/contour": 69,
+        "color/border/decorative/active-horizontal": 2,
+        "color/border/glassy": 2
+      },
+      "errors": []
+    },
+    {
+      "key": "topMixed",
+      "found": 3,
+      "mutatedNodeIds": [
+        "41900:85796",
+        "41900:85818",
+        "I41900:85847;41900:85750"
+      ],
+      "records": [
+        {
+          "id": "41900:85796",
+          "start": 6,
+          "end": 17,
+          "target": "color/text-icon/secondary"
+        },
+        {
+          "id": "41900:85818",
+          "start": 6,
+          "end": 17,
+          "target": "color/text-icon/primary"
+        },
+        {
+          "id": "I41900:85847;41900:85750",
+          "start": 14,
+          "end": 22,
+          "target": "color/text-icon/primary"
+        }
+      ],
+      "skipped": [
+        {
+          "id": "41900:85796",
+          "start": 0,
+          "end": 6,
+          "source": "S:53c977b80e102c61daa829d68791064eb44e024c,14640:84"
+        },
+        {
+          "id": "41900:85796",
+          "start": 17,
+          "end": 24,
+          "source": "S:53c977b80e102c61daa829d68791064eb44e024c,14640:84"
+        },
+        {
+          "id": "41900:85818",
+          "start": 0,
+          "end": 5,
+          "source": "S:53c977b80e102c61daa829d68791064eb44e024c,16210:58"
+        },
+        {
+          "id": "41900:85818",
+          "start": 5,
+          "end": 6,
+          "source": "S:53c977b80e102c61daa829d68791064eb44e024c,14640:84"
+        },
+        {
+          "id": "41900:85818",
+          "start": 17,
+          "end": 24,
+          "source": "S:53c977b80e102c61daa829d68791064eb44e024c,16210:58"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "key": "topAllStandard1",
+      "mode": "instance",
+      "found": 252,
+      "attempted": 252,
+      "mutatedNodeIds": [
+        "I46934:135842;3248:679",
+        "I46934:135842;3248:679;3950:1226;2774:5",
+        "I46934:135842;3248:679;3950:1228",
+        "I46934:135825;3248:679",
+        "I46934:135825;3248:679;3950:1226;2774:5",
+        "I46934:135825;3248:679;3950:1228",
+        "I46934:135811;13715:155298;3248:679",
+        "I46934:135811;13715:155298;3248:679;3950:1226;2774:5",
+        "I46934:135811;13715:155298;3248:679;3950:1228",
+        "I46934:135807;10491:81880;1235:165",
+        "I46934:135807;10491:81880;1235:165;2789:1847;2774:5",
+        "I46934:135807;10491:81880;1235:165;2789:1824",
+        "I46934:135830;10491:81880;1235:165",
+        "I46934:135830;10491:81880;1235:165;2789:1847;2774:5",
+        "I46934:135830;10491:81880;1235:165;2789:1824",
+        "I46934:135809;14269:168122;1302:45;1302:26",
+        "I46934:135809;14269:168122;1302:45;1302:26;2839:121;2774:5",
+        "I46934:135809;14269:168122;1302:45;1302:26;2839:124",
+        "I46934:135805;14269:168162;1302:45;1302:26",
+        "I46934:135805;14269:168162;1302:45;1302:26;2839:121;2774:5",
+        "I46934:135805;14269:168162;1302:45;1302:26;2839:124",
+        "41900:85809",
+        "41900:85827",
+        "41900:85836",
+        "I41900:85848;41900:85750",
+        "I41900:85849;41900:85750",
+        "I41900:85859;41900:85774",
+        "41900:86644",
+        "I41900:86644;16786:186972;33124:6760",
+        "41900:86645",
+        "I41900:86645;16786:186978;33124:6811",
+        "I41900:86646;1629:261353",
+        "I41900:86646;1629:261354",
+        "I41900:86646;1629:261355",
+        "I41900:86646;1629:261357",
+        "I41900:86646;1629:261358",
+        "I21999:327428;14244:165161;235:764",
+        "I21999:327428;13915:158461",
+        "I21999:327428;13915:158470;33124:6916",
+        "I21999:327443;14244:165161;235:764",
+        "I21999:327443;13915:158461",
+        "I21999:327443;13915:158470;33124:6916"
+      ],
+      "applied": 42,
+      "summary": {
+        "color/fill/solid/inverse": 7,
+        "color/text-icon/inverse/primary": 14,
+        "color/border/decorative/active-vertical": 3,
+        "color/text-icon/primary": 8,
+        "color/fill/glassy/third": 2,
+        "color/text-icon/secondary": 4,
+        "color/border/contour": 3,
+        "color/border/focus": 1
+      },
+      "errors": []
+    },
+    {
+      "key": "topMixedVertical",
+      "found": 5,
+      "mutatedNodeIds": [
+        "41900:85796",
+        "41900:85818"
+      ],
+      "records": [
+        {
+          "id": "41900:85796",
+          "start": 0,
+          "end": 6,
+          "target": "color/border/decorative/active-vertical"
+        },
+        {
+          "id": "41900:85796",
+          "start": 17,
+          "end": 24,
+          "target": "color/border/decorative/active-vertical"
+        },
+        {
+          "id": "41900:85818",
+          "start": 0,
+          "end": 5,
+          "target": "color/border/decorative/active-vertical"
+        },
+        {
+          "id": "41900:85818",
+          "start": 5,
+          "end": 6,
+          "target": "color/border/decorative/active-vertical"
+        },
+        {
+          "id": "41900:85818",
+          "start": 17,
+          "end": 24,
+          "target": "color/border/decorative/active-vertical"
+        }
+      ],
+      "skipped": [],
+      "errors": []
+    }
+  ],
+  "finalAudit": {
+    "staticResult": {
+      "found": 0,
+      "mutatedNodeIds": [],
+      "recordCount": 0,
+      "errors": [],
+      "unsupportedCount": 0,
+      "unsupported": [],
+      "skipped": [],
+      "rawCount": 0
+    },
+    "page": "UI Type -> TOP",
+    "nodeCount": 3711,
+    "sources": [
+      {
+        "id": "S:12624d72e826e045d96307f7fa75f5cad8fa66d4,39850:14",
+        "name": "[Deprecated]/Border/Focus",
+        "key": "12624d72e826e045d96307f7fa75f5cad8fa66d4",
+        "count": 3,
+        "buckets": {
+          "outside": 3
+        },
+        "example": {
+          "id": "41900:85623",
+          "name": "_Mixed Top / element",
+          "field": "strokes"
+        }
+      }
+    ],
+    "remainingRows": [],
+    "reasons": {
+      "kids": 0,
+      "light": 0,
+      "outside": 3,
+      "eligible": 0
+    },
+    "remainingCount": 3,
+    "unresolved": [],
+    "variableDetails": [
+      {
+        "kind": "variable",
+        "id": "VariableID:581f4b9f12c0461ca64bfda4e31661f9bba5f66e/39850:97",
+        "count": 3,
+        "buckets": {
+          "outside": 3
+        },
+        "examples": [
+          {
+            "id": "41900:85623",
+            "name": "_Mixed Top / element",
+            "field": "strokes",
+            "i": 0
+          },
+          {
+            "id": "41900:85792",
+            "name": "Rail / Mixed Top",
+            "field": "strokes",
+            "i": 0
+          }
+        ],
+        "name": "primitives/electric1000",
+        "key": "581f4b9f12c0461ca64bfda4e31661f9bba5f66e",
+        "collection": "VariableCollectionId:9bfe8dde6e700cc0754156917935eea46ac309ee/32016:4307"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:00379a6b5a2bad57d3ca047b1ffab4ce9a1f5a75/41700:232",
+        "count": 154,
+        "buckets": {
+          "light": 154
+        },
+        "examples": [
+          {
+            "id": "46934:135844",
+            "name": "Label - Small",
+            "field": "fills",
+            "master": "21999:327382",
+            "masterName": "Resolution=1920",
+            "instance": "46934:135844",
+            "light": true,
+            "i": 0
+          },
+          {
+            "id": "46934:135845",
+            "name": "Label - Small",
+            "field": "fills",
+            "master": "21999:327382",
+            "masterName": "Resolution=1920",
+            "instance": "46934:135845",
+            "light": true,
+            "i": 0
+          }
+        ],
+        "name": "color/component/label/lighthouse",
+        "key": "00379a6b5a2bad57d3ca047b1ffab4ce9a1f5a75",
+        "collection": "VariableCollectionId:1c6e07816c9c7d8423d676736c66af0f797411bb/41700:0"
+      }
+    ],
+    "noncanonicalColorStyles": [],
+    "mixed": [],
+    "errors": []
+  },
+  "remainingContainers": [
+    {
+      "id": "41900:85623",
+      "type": "COMPONENT_SET",
+      "name": "_Mixed Top / element",
+      "strokeStyleId": "S:12624d72e826e045d96307f7fa75f5cad8fa66d4,39850:14"
+    },
+    {
+      "id": "41900:85792",
+      "type": "COMPONENT_SET",
+      "name": "Rail / Mixed Top",
+      "strokeStyleId": "S:12624d72e826e045d96307f7fa75f5cad8fa66d4,39850:14"
+    },
+    {
+      "id": "21999:327381",
+      "type": "COMPONENT_SET",
+      "name": "_Top Titles / Ячейки",
+      "strokeStyleId": "S:12624d72e826e045d96307f7fa75f5cad8fa66d4,39850:14"
+    }
+  ],
+  "initialRowsTruncatedTo30": true,
+  "newVariablesOrStylesCreated": false,
+  "verification": "programmatic, full page; Selection colors UI not checked"
+}

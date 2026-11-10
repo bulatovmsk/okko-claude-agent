@@ -1,0 +1,1396 @@
+{
+  "date": "2026-10-20",
+  "fileKey": "sb7SelAF2PBcYZsOxL092c",
+  "scope": {
+    "target": {
+      "id": "31653:15968",
+      "name": "ЕЛК-в работе",
+      "type": "PAGE"
+    },
+    "page": {
+      "id": "31653:15968",
+      "name": "ЕЛК-в работе"
+    },
+    "roots": [
+      {
+        "id": "31653:16763",
+        "type": "COMPONENT_SET",
+        "name": "Widget Subscribe"
+      },
+      {
+        "id": "31653:16797",
+        "type": "COMPONENT_SET",
+        "name": "Widget Spasibo"
+      },
+      {
+        "id": "31653:16830",
+        "type": "COMPONENT_SET",
+        "name": "Widget Personal"
+      },
+      {
+        "id": "31653:16881",
+        "type": "COMPONENT_SET",
+        "name": "Widget Group"
+      },
+      {
+        "id": "31653:16961",
+        "type": "COMPONENT_SET",
+        "name": "Profile section"
+      },
+      {
+        "id": "32206:483",
+        "type": "COMPONENT_SET",
+        "name": "Widget Payment"
+      },
+      {
+        "id": "32206:591",
+        "type": "COMPONENT_SET",
+        "name": "Widget Device"
+      },
+      {
+        "id": "32474:712",
+        "type": "COMPONENT",
+        "name": "Pay system logo"
+      },
+      {
+        "id": "35229:1373",
+        "type": "COMPONENT_SET",
+        "name": "WidgetsError"
+      }
+    ],
+    "masters": [
+      {
+        "id": "32407:2194",
+        "name": "Size=Desktop, Type=Turn on, Skeleton=False",
+        "parentId": "31653:16763",
+        "parentName": "Widget Subscribe"
+      },
+      {
+        "id": "33012:690",
+        "name": "Size=Desktop, Type=Turn on, Skeleton=True",
+        "parentId": "31653:16763",
+        "parentName": "Widget Subscribe"
+      },
+      {
+        "id": "31653:16764",
+        "name": "Size=Desktop, Type=Active, Skeleton=False",
+        "parentId": "31653:16763",
+        "parentName": "Widget Subscribe"
+      },
+      {
+        "id": "32407:2252",
+        "name": "Size=Desktop, Type=Error pay, Skeleton=False",
+        "parentId": "31653:16763",
+        "parentName": "Widget Subscribe"
+      },
+      {
+        "id": "33012:736",
+        "name": "Size=Desktop, Type=Active, Skeleton=True",
+        "parentId": "31653:16763",
+        "parentName": "Widget Subscribe"
+      },
+      {
+        "id": "41164:870",
+        "name": "Size=Tablet, Type=Turn on, Skeleton=False",
+        "parentId": "31653:16763",
+        "parentName": "Widget Subscribe"
+      },
+      {
+        "id": "41164:878",
+        "name": "Size=Tablet, Type=Turn on, Skeleton=True",
+        "parentId": "31653:16763",
+        "parentName": "Widget Subscribe"
+      },
+      {
+        "id": "41164:886",
+        "name": "Size=Tablet, Type=Active, Skeleton=False",
+        "parentId": "31653:16763",
+        "parentName": "Widget Subscribe"
+      },
+      {
+        "id": "41164:897",
+        "name": "Size=Tablet, Type=Error pay, Skeleton=False",
+        "parentId": "31653:16763",
+        "parentName": "Widget Subscribe"
+      },
+      {
+        "id": "41164:907",
+        "name": "Size=Tablet, Type=Active, Skeleton=True",
+        "parentId": "31653:16763",
+        "parentName": "Widget Subscribe"
+      },
+      {
+        "id": "32407:2214",
+        "name": "Size=Mobile, Type=Turn on, Skeleton=False",
+        "parentId": "31653:16763",
+        "parentName": "Widget Subscribe"
+      },
+      {
+        "id": "33012:766",
+        "name": "Size=Mobile, Type=Turn on, Skeleton=True",
+        "parentId": "31653:16763",
+        "parentName": "Widget Subscribe"
+      },
+      {
+        "id": "31653:16776",
+        "name": "Size=Mobile, Type=Active, Skeleton=False",
+        "parentId": "31653:16763",
+        "parentName": "Widget Subscribe"
+      },
+      {
+        "id": "32407:2272",
+        "name": "Size=Mobile, Type=Error pay, Skeleton=False",
+        "parentId": "31653:16763",
+        "parentName": "Widget Subscribe"
+      },
+      {
+        "id": "33012:800",
+        "name": "Size=Mobile, Type=Active, Skeleton=True",
+        "parentId": "31653:16763",
+        "parentName": "Widget Subscribe"
+      },
+      {
+        "id": "31653:16798",
+        "name": "Size=Desktop, Loyality on=True, Skeleton=False",
+        "parentId": "31653:16797",
+        "parentName": "Widget Spasibo"
+      },
+      {
+        "id": "33012:846",
+        "name": "Size=Desktop, Loyality on=True, Skeleton=True",
+        "parentId": "31653:16797",
+        "parentName": "Widget Spasibo"
+      },
+      {
+        "id": "31653:16806",
+        "name": "Size=Desktop, Loyality on=False, Skeleton=False",
+        "parentId": "31653:16797",
+        "parentName": "Widget Spasibo"
+      },
+      {
+        "id": "41164:977",
+        "name": "Size=Tablet, Loyality on=True, Skeleton=False",
+        "parentId": "31653:16797",
+        "parentName": "Widget Spasibo"
+      },
+      {
+        "id": "41164:985",
+        "name": "Size=Tablet, Loyality on=False, Skeleton=False",
+        "parentId": "31653:16797",
+        "parentName": "Widget Spasibo"
+      },
+      {
+        "id": "41164:993",
+        "name": "Size=Tablet, Loyality on=True, Skeleton=True",
+        "parentId": "31653:16797",
+        "parentName": "Widget Spasibo"
+      },
+      {
+        "id": "31653:16814",
+        "name": "Size=Mobile, Loyality on=True, Skeleton=False",
+        "parentId": "31653:16797",
+        "parentName": "Widget Spasibo"
+      },
+      {
+        "id": "31653:16822",
+        "name": "Size=Mobile, Loyality on=False, Skeleton=False",
+        "parentId": "31653:16797",
+        "parentName": "Widget Spasibo"
+      },
+      {
+        "id": "33012:862",
+        "name": "Size=Mobile, Loyality on=True, Skeleton=True",
+        "parentId": "31653:16797",
+        "parentName": "Widget Spasibo"
+      },
+      {
+        "id": "31653:16831",
+        "name": "Size=Desktop, Sber ID=True, Hide data=False, Skeleton=False, Data loaded=True, Avatar=True",
+        "parentId": "31653:16830",
+        "parentName": "Widget Personal"
+      },
+      {
+        "id": "40399:1227",
+        "name": "Size=Desktop, Sber ID=True, Hide data=True, Skeleton=False, Data loaded=True, Avatar=True",
+        "parentId": "31653:16830",
+        "parentName": "Widget Personal"
+      },
+      {
+        "id": "35229:1422",
+        "name": "Size=Desktop, Sber ID=True, Hide data=False, Skeleton=False, Data loaded=False, Avatar=True",
+        "parentId": "31653:16830",
+        "parentName": "Widget Personal"
+      },
+      {
+        "id": "31653:16849",
+        "name": "Size=Desktop, Sber ID=False, Hide data=False, Skeleton=False, Data loaded=True, Avatar=True",
+        "parentId": "31653:16830",
+        "parentName": "Widget Personal"
+      },
+      {
+        "id": "33012:550",
+        "name": "Size=Desktop, Sber ID=True, Hide data=False, Skeleton=True, Data loaded=True, Avatar=True",
+        "parentId": "31653:16830",
+        "parentName": "Widget Personal"
+      },
+      {
+        "id": "41162:1246",
+        "name": "Size=Tablet, Sber ID=True, Hide data=False, Skeleton=False, Data loaded=True, Avatar=True",
+        "parentId": "31653:16830",
+        "parentName": "Widget Personal"
+      },
+      {
+        "id": "41162:1264",
+        "name": "Size=Tablet, Sber ID=True, Hide data=True, Skeleton=False, Data loaded=True, Avatar=True",
+        "parentId": "31653:16830",
+        "parentName": "Widget Personal"
+      },
+      {
+        "id": "41162:1258",
+        "name": "Size=Tablet, Sber ID=True, Hide data=False, Skeleton=False, Data loaded=False, Avatar=True",
+        "parentId": "31653:16830",
+        "parentName": "Widget Personal"
+      },
+      {
+        "id": "41162:1276",
+        "name": "Size=Tablet, Sber ID=False, Hide data=False, Skeleton=False, Data loaded=True, Avatar=True",
+        "parentId": "31653:16830",
+        "parentName": "Widget Personal"
+      },
+      {
+        "id": "41162:1286",
+        "name": "Size=Tablet, Sber ID=True, Hide data=False, Skeleton=True, Data loaded=True, Avatar=True",
+        "parentId": "31653:16830",
+        "parentName": "Widget Personal"
+      },
+      {
+        "id": "31653:16860",
+        "name": "Size=Mobile, Sber ID=True, Hide data=False, Skeleton=False, Data loaded=True, Avatar=True",
+        "parentId": "31653:16830",
+        "parentName": "Widget Personal"
+      },
+      {
+        "id": "32524:591",
+        "name": "Size=Mobile, Sber ID=True, Hide data=True, Skeleton=False, Data loaded=True, Avatar=True",
+        "parentId": "31653:16830",
+        "parentName": "Widget Personal"
+      },
+      {
+        "id": "35229:1449",
+        "name": "Size=Mobile, Sber ID=True, Hide data=False, Skeleton=False, Data loaded=False, Avatar=True",
+        "parentId": "31653:16830",
+        "parentName": "Widget Personal"
+      },
+      {
+        "id": "31653:16870",
+        "name": "Size=Mobile, Sber ID=False, Hide data=False, Skeleton=False, Data loaded=True, Avatar=True",
+        "parentId": "31653:16830",
+        "parentName": "Widget Personal"
+      },
+      {
+        "id": "33012:590",
+        "name": "Size=Mobile, Sber ID=True, Hide data=False, Skeleton=True, Data loaded=True, Avatar=True",
+        "parentId": "31653:16830",
+        "parentName": "Widget Personal"
+      },
+      {
+        "id": "31653:16882",
+        "name": "Size=Desktop, Skeleton=False",
+        "parentId": "31653:16881",
+        "parentName": "Widget Group"
+      },
+      {
+        "id": "33012:1052",
+        "name": "Size=Desktop, Skeleton=True",
+        "parentId": "31653:16881",
+        "parentName": "Widget Group"
+      },
+      {
+        "id": "41164:1012",
+        "name": "Size=Tablet, Skeleton=False",
+        "parentId": "31653:16881",
+        "parentName": "Widget Group"
+      },
+      {
+        "id": "41164:1005",
+        "name": "Size=Tablet, Skeleton=True",
+        "parentId": "31653:16881",
+        "parentName": "Widget Group"
+      },
+      {
+        "id": "31653:16894",
+        "name": "Size=Mobile, Skeleton=False",
+        "parentId": "31653:16881",
+        "parentName": "Widget Group"
+      },
+      {
+        "id": "33012:1106",
+        "name": "Size=Mobile, Skeleton=True",
+        "parentId": "31653:16881",
+        "parentName": "Widget Group"
+      },
+      {
+        "id": "31653:16962",
+        "name": "Size=Desktop, Sber ID=True, Authorised ID=True, Authorised=True",
+        "parentId": "31653:16961",
+        "parentName": "Profile section"
+      },
+      {
+        "id": "31653:17009",
+        "name": "Size=Desktop, Sber ID=False, Authorised ID=True, Authorised=True",
+        "parentId": "31653:16961",
+        "parentName": "Profile section"
+      },
+      {
+        "id": "41179:1057",
+        "name": "Size=Tablet, Sber ID=True, Authorised ID=True, Authorised=True",
+        "parentId": "31653:16961",
+        "parentName": "Profile section"
+      },
+      {
+        "id": "41179:1050",
+        "name": "Size=Tablet, Sber ID=False, Authorised ID=True, Authorised=True",
+        "parentId": "31653:16961",
+        "parentName": "Profile section"
+      },
+      {
+        "id": "31653:16982",
+        "name": "Size=Mobile, Sber ID=True, Authorised ID=True, Authorised=True",
+        "parentId": "31653:16961",
+        "parentName": "Profile section"
+      },
+      {
+        "id": "31653:17002",
+        "name": "Size=Mobile, Sber ID=False, Authorised ID=True, Authorised=True",
+        "parentId": "31653:16961",
+        "parentName": "Profile section"
+      },
+      {
+        "id": "31653:16972",
+        "name": "Size=Desktop, Sber ID=True, Authorised ID=False, Authorised=True",
+        "parentId": "31653:16961",
+        "parentName": "Profile section"
+      },
+      {
+        "id": "32490:486",
+        "name": "Size=Desktop, Sber ID=True, Authorised ID=False, Authorised=False",
+        "parentId": "31653:16961",
+        "parentName": "Profile section"
+      },
+      {
+        "id": "41179:1445",
+        "name": "Size=Tablet, Sber ID=True, Authorised ID=False, Authorised=True",
+        "parentId": "31653:16961",
+        "parentName": "Profile section"
+      },
+      {
+        "id": "41179:1455",
+        "name": "Size=Tablet, Sber ID=True, Authorised ID=False, Authorised=False",
+        "parentId": "31653:16961",
+        "parentName": "Profile section"
+      },
+      {
+        "id": "31653:16992",
+        "name": "Size=Mobile, Sber ID=True, Authorised ID=False, Authorised=True",
+        "parentId": "31653:16961",
+        "parentName": "Profile section"
+      },
+      {
+        "id": "32490:679",
+        "name": "Size=Mobile, Sber ID=True, Authorised ID=False, Authorised=False",
+        "parentId": "31653:16961",
+        "parentName": "Profile section"
+      },
+      {
+        "id": "32206:371",
+        "name": "Breakpoint=1720+, Pay on=True, Skeleton=False",
+        "parentId": "32206:483",
+        "parentName": "Widget Payment"
+      },
+      {
+        "id": "33019:540",
+        "name": "Breakpoint=1720+, Pay on=True, Skeleton=True",
+        "parentId": "32206:483",
+        "parentName": "Widget Payment"
+      },
+      {
+        "id": "32206:482",
+        "name": "Breakpoint=1720+, Pay on=False, Skeleton=False",
+        "parentId": "32206:483",
+        "parentName": "Widget Payment"
+      },
+      {
+        "id": "33019:563",
+        "name": "Breakpoint=1720+, Pay on=False, Skeleton=True",
+        "parentId": "32206:483",
+        "parentName": "Widget Payment"
+      },
+      {
+        "id": "38494:1656",
+        "name": "Breakpoint=960+, Pay on=True, Skeleton=False",
+        "parentId": "32206:483",
+        "parentName": "Widget Payment"
+      },
+      {
+        "id": "38494:1676",
+        "name": "Breakpoint=960+, Pay on=True, Skeleton=True",
+        "parentId": "32206:483",
+        "parentName": "Widget Payment"
+      },
+      {
+        "id": "38494:1684",
+        "name": "Breakpoint=960+, Pay on=False, Skeleton=False",
+        "parentId": "32206:483",
+        "parentName": "Widget Payment"
+      },
+      {
+        "id": "32211:426",
+        "name": "Breakpoint=600+, Pay on=True, Skeleton=False",
+        "parentId": "32206:483",
+        "parentName": "Widget Payment"
+      },
+      {
+        "id": "33019:575",
+        "name": "Breakpoint=600+, Pay on=True, Skeleton=True",
+        "parentId": "32206:483",
+        "parentName": "Widget Payment"
+      },
+      {
+        "id": "32211:435",
+        "name": "Breakpoint=600+, Pay on=False, Skeleton=False",
+        "parentId": "32206:483",
+        "parentName": "Widget Payment"
+      },
+      {
+        "id": "33019:598",
+        "name": "Breakpoint=600+, Pay on=False, Skeleton=True",
+        "parentId": "32206:483",
+        "parentName": "Widget Payment"
+      },
+      {
+        "id": "32208:370",
+        "name": "Breakpoint=320+, Pay on=True, Skeleton=False",
+        "parentId": "32206:483",
+        "parentName": "Widget Payment"
+      },
+      {
+        "id": "33019:610",
+        "name": "Breakpoint=320+, Pay on=True, Skeleton=True",
+        "parentId": "32206:483",
+        "parentName": "Widget Payment"
+      },
+      {
+        "id": "32209:379",
+        "name": "Breakpoint=320+, Pay on=False, Skeleton=False",
+        "parentId": "32206:483",
+        "parentName": "Widget Payment"
+      },
+      {
+        "id": "33019:633",
+        "name": "Breakpoint=320+, Pay on=False, Skeleton=True",
+        "parentId": "32206:483",
+        "parentName": "Widget Payment"
+      },
+      {
+        "id": "32206:588",
+        "name": "Breakpoint=1720+, Device on=True, Skeleton=False",
+        "parentId": "32206:591",
+        "parentName": "Widget Device"
+      },
+      {
+        "id": "33019:680",
+        "name": "Breakpoint=1720+, Device on=True, Skeleton=True",
+        "parentId": "32206:591",
+        "parentName": "Widget Device"
+      },
+      {
+        "id": "32206:590",
+        "name": "Breakpoint=1720+, Device on=False, Skeleton=False",
+        "parentId": "32206:591",
+        "parentName": "Widget Device"
+      },
+      {
+        "id": "38494:1727",
+        "name": "Breakpoint=1720+, Device on=False, Skeleton=True",
+        "parentId": "32206:591",
+        "parentName": "Widget Device"
+      },
+      {
+        "id": "38494:1693",
+        "name": "Breakpoint=960+, Device on=True, Skeleton=False",
+        "parentId": "32206:591",
+        "parentName": "Widget Device"
+      },
+      {
+        "id": "38494:1702",
+        "name": "Breakpoint=960+, Device on=True, Skeleton=True",
+        "parentId": "32206:591",
+        "parentName": "Widget Device"
+      },
+      {
+        "id": "38494:1718",
+        "name": "Breakpoint=960+, Device on=False, Skeleton=False",
+        "parentId": "32206:591",
+        "parentName": "Widget Device"
+      },
+      {
+        "id": "33019:692",
+        "name": "Breakpoint=960+, Device on=False, Skeleton=True",
+        "parentId": "32206:591",
+        "parentName": "Widget Device"
+      },
+      {
+        "id": "32211:446",
+        "name": "Breakpoint=600+, Device on=True, Skeleton=False",
+        "parentId": "32206:591",
+        "parentName": "Widget Device"
+      },
+      {
+        "id": "33019:704",
+        "name": "Breakpoint=600+, Device on=True, Skeleton=True",
+        "parentId": "32206:591",
+        "parentName": "Widget Device"
+      },
+      {
+        "id": "32211:455",
+        "name": "Breakpoint=600+, Device on=False, Skeleton=False",
+        "parentId": "32206:591",
+        "parentName": "Widget Device"
+      },
+      {
+        "id": "33019:716",
+        "name": "Breakpoint=600+, Device on=False, Skeleton=True",
+        "parentId": "32206:591",
+        "parentName": "Widget Device"
+      },
+      {
+        "id": "32209:390",
+        "name": "Breakpoint=320+, Device on=True, Skeleton=False",
+        "parentId": "32206:591",
+        "parentName": "Widget Device"
+      },
+      {
+        "id": "33019:728",
+        "name": "Breakpoint=320+, Device on=True, Skeleton=True",
+        "parentId": "32206:591",
+        "parentName": "Widget Device"
+      },
+      {
+        "id": "32209:408",
+        "name": "Breakpoint=320+, Device on=False, Skeleton=False",
+        "parentId": "32206:591",
+        "parentName": "Widget Device"
+      },
+      {
+        "id": "33019:740",
+        "name": "Breakpoint=320+, Device on=False, Skeleton=True",
+        "parentId": "32206:591",
+        "parentName": "Widget Device"
+      },
+      {
+        "id": "32474:712",
+        "name": "Pay system logo",
+        "parentId": "31653:15968",
+        "parentName": "ЕЛК-в работе"
+      },
+      {
+        "id": "35229:1352",
+        "name": "Size=Desktop",
+        "parentId": "35229:1373",
+        "parentName": "WidgetsError"
+      },
+      {
+        "id": "41164:1035",
+        "name": "Size=Tablet",
+        "parentId": "35229:1373",
+        "parentName": "WidgetsError"
+      },
+      {
+        "id": "35229:1371",
+        "name": "Size=Mobile",
+        "parentId": "35229:1373",
+        "parentName": "WidgetsError"
+      }
+    ],
+    "sets": [
+      {
+        "id": "31653:16763",
+        "name": "Widget Subscribe",
+        "count": 15
+      },
+      {
+        "id": "31653:16797",
+        "name": "Widget Spasibo",
+        "count": 9
+      },
+      {
+        "id": "31653:16830",
+        "name": "Widget Personal",
+        "count": 15
+      },
+      {
+        "id": "31653:16881",
+        "name": "Widget Group",
+        "count": 6
+      },
+      {
+        "id": "31653:16961",
+        "name": "Profile section",
+        "count": 12
+      },
+      {
+        "id": "32206:483",
+        "name": "Widget Payment",
+        "count": 15
+      },
+      {
+        "id": "32206:591",
+        "name": "Widget Device",
+        "count": 16
+      },
+      {
+        "id": "35229:1373",
+        "name": "WidgetsError",
+        "count": 3
+      }
+    ]
+  },
+  "mutatedNodeCount": 39,
+  "mutatedNodeIds": [
+    "35194:550",
+    "35194:551",
+    "38011:598",
+    "35194:627",
+    "41164:873",
+    "41164:889",
+    "41164:896",
+    "41164:900",
+    "35194:631",
+    "35194:633",
+    "38011:609",
+    "35194:709",
+    "31653:16805",
+    "33012:879",
+    "41164:984",
+    "41164:1000",
+    "31653:16821",
+    "33012:887",
+    "31653:16855",
+    "41162:1285",
+    "31653:16876",
+    "39299:707",
+    "41179:1065",
+    "39299:732",
+    "41477:1264",
+    "41477:1267",
+    "41477:1292",
+    "41477:1295",
+    "41477:1306",
+    "41477:1309",
+    "I32076:2436;28469:53194;33124:6565",
+    "I32076:2436;28469:53195",
+    "I32490:491;26093:350485",
+    "I41179:1450;28469:53174;33124:6565",
+    "I41179:1450;28469:53175",
+    "I41179:1458;26093:350773",
+    "I32076:2443;28469:53150;33124:6565",
+    "I32076:2443;28469:53151",
+    "I32490:710;26093:350412"
+  ],
+  "initialAudit": {
+    "staticResult": null,
+    "page": "ЕЛК-в работе",
+    "nodeCount": 1869,
+    "sources": [
+      {
+        "id": "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3",
+        "name": "[Deprecated]/Text & icon/on Dark/Primary",
+        "key": "8d1e4095c97d6f8de9740c869fae2aa91b41bd6d",
+        "count": 30,
+        "buckets": {
+          "own": 12,
+          "instance": 18
+        },
+        "example": {
+          "id": "35194:550",
+          "name": "Прайм+Amediateka",
+          "field": "fills",
+          "master": "32407:2194",
+          "masterName": "Size=Desktop, Type=Turn on, Skeleton=False"
+        }
+      },
+      {
+        "id": "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "name": "[Deprecated]/Text & icon/on Dark/Third",
+        "key": "7ba87ccc576cd2381aee43f11162db346a88bf6a",
+        "count": 42,
+        "buckets": {
+          "own": 15,
+          "instance": 27
+        },
+        "example": {
+          "id": "38011:598",
+          "name": "Действует до 21.08.2024",
+          "field": "fills",
+          "master": "31653:16764",
+          "masterName": "Size=Desktop, Type=Active, Skeleton=False"
+        }
+      },
+      {
+        "id": "S:e450a8d84aa515876e24e3b400577b4bfda4e6b1,20010856:25",
+        "name": "⭐️ Dark/🌚 Primary",
+        "key": "e450a8d84aa515876e24e3b400577b4bfda4e6b1",
+        "count": 3,
+        "buckets": {
+          "own": 3
+        },
+        "example": {
+          "id": "33012:1089",
+          "name": "СберПрайм+",
+          "field": "fills",
+          "master": "33012:1052",
+          "masterName": "Size=Desktop, Skeleton=True"
+        }
+      },
+      {
+        "id": "S:d7f7d444392bf827c9164932a969d3a371cbb04d,32110:170",
+        "name": "[Deprecated]/Fill/Solid/Primary",
+        "key": "d7f7d444392bf827c9164932a969d3a371cbb04d",
+        "count": 3,
+        "buckets": {
+          "instance": 3
+        },
+        "example": {
+          "id": "39299:707",
+          "name": "Widget Subscribe",
+          "field": "fills",
+          "master": "31653:16962",
+          "masterName": "Size=Desktop, Sber ID=True, Authorised ID=True, Authorised=True",
+          "instance": "39299:707"
+        }
+      }
+    ],
+    "remainingRows": [
+      [
+        "35194:550",
+        "fills",
+        "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3",
+        "32407:2194",
+        null,
+        0,
+        0
+      ],
+      [
+        "35194:551",
+        "fills",
+        "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3",
+        "31653:16764",
+        null,
+        0,
+        0
+      ],
+      [
+        "38011:598",
+        "fills",
+        "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "31653:16764",
+        null,
+        0,
+        0
+      ],
+      [
+        "35194:627",
+        "fills",
+        "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3",
+        "32407:2252",
+        null,
+        0,
+        0
+      ],
+      [
+        "41164:873",
+        "fills",
+        "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3",
+        "41164:870",
+        null,
+        0,
+        0
+      ],
+      [
+        "41164:889",
+        "fills",
+        "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3",
+        "41164:886",
+        null,
+        0,
+        0
+      ],
+      [
+        "41164:896",
+        "fills",
+        "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "41164:886",
+        null,
+        0,
+        0
+      ],
+      [
+        "41164:900",
+        "fills",
+        "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3",
+        "41164:897",
+        null,
+        0,
+        0
+      ],
+      [
+        "35194:631",
+        "fills",
+        "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3",
+        "32407:2214",
+        null,
+        0,
+        0
+      ],
+      [
+        "35194:633",
+        "fills",
+        "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3",
+        "31653:16776",
+        null,
+        0,
+        0
+      ],
+      [
+        "38011:609",
+        "fills",
+        "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "31653:16776",
+        null,
+        0,
+        0
+      ],
+      [
+        "35194:709",
+        "fills",
+        "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3",
+        "32407:2272",
+        null,
+        0,
+        0
+      ],
+      [
+        "31653:16805",
+        "region0",
+        "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "31653:16798",
+        null,
+        0,
+        0
+      ],
+      [
+        "33012:879",
+        "region0",
+        "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "33012:846",
+        null,
+        0,
+        0
+      ],
+      [
+        "41164:984",
+        "region0",
+        "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "41164:977",
+        null,
+        0,
+        0
+      ],
+      [
+        "41164:1000",
+        "region0",
+        "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "41164:993",
+        null,
+        0,
+        0
+      ],
+      [
+        "31653:16821",
+        "region0",
+        "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "31653:16814",
+        null,
+        0,
+        0
+      ],
+      [
+        "33012:887",
+        "region0",
+        "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "33012:862",
+        null,
+        0,
+        0
+      ],
+      [
+        "31653:16855",
+        "region0",
+        "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "31653:16849",
+        null,
+        0,
+        0
+      ],
+      [
+        "41162:1285",
+        "region0",
+        "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "41162:1276",
+        null,
+        0,
+        0
+      ],
+      [
+        "31653:16876",
+        "region0",
+        "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "31653:16870",
+        null,
+        0,
+        0
+      ],
+      [
+        "33012:1089",
+        "fills",
+        "S:e450a8d84aa515876e24e3b400577b4bfda4e6b1,20010856:25",
+        "33012:1052",
+        null,
+        0,
+        0
+      ],
+      [
+        "41164:1008",
+        "fills",
+        "S:e450a8d84aa515876e24e3b400577b4bfda4e6b1,20010856:25",
+        "41164:1005",
+        null,
+        0,
+        0
+      ],
+      [
+        "33012:1143",
+        "fills",
+        "S:e450a8d84aa515876e24e3b400577b4bfda4e6b1,20010856:25",
+        "33012:1106",
+        null,
+        0,
+        0
+      ],
+      [
+        "I31653:16967;35194:551",
+        "fills",
+        "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3",
+        "31653:16962",
+        "31653:16967",
+        0,
+        0
+      ],
+      [
+        "I31653:16967;38011:598",
+        "fills",
+        "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "31653:16962",
+        "31653:16967",
+        0,
+        0
+      ],
+      [
+        "I31653:16968;35194:551",
+        "fills",
+        "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3",
+        "31653:16962",
+        "31653:16968",
+        0,
+        0
+      ],
+      [
+        "I31653:16968;38011:598",
+        "fills",
+        "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "31653:16962",
+        "31653:16968",
+        0,
+        0
+      ],
+      [
+        "39299:707",
+        "fills",
+        "S:d7f7d444392bf827c9164932a969d3a371cbb04d,32110:170",
+        "31653:16962",
+        "39299:707",
+        0,
+        0
+      ],
+      [
+        "I39299:707;35194:551",
+        "fills",
+        "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3",
+        "31653:16962",
+        "39299:707",
+        0,
+        0
+      ]
+    ],
+    "reasons": {
+      "kids": 0,
+      "light": 0,
+      "outside": 0,
+      "eligible": 78
+    },
+    "remainingCount": 78,
+    "unresolved": [],
+    "variableDetails": [
+      {
+        "kind": "variable",
+        "id": "VariableID:83dd6e85e7f4b7f0ba52c8298c9d321af3cb2e24/40214:436",
+        "count": 109,
+        "buckets": {
+          "own": 76,
+          "instance": 33
+        },
+        "examples": [
+          {
+            "id": "32407:2194",
+            "name": "Size=Desktop, Type=Turn on, Skeleton=False",
+            "field": "fills",
+            "master": "32407:2194",
+            "masterName": "Size=Desktop, Type=Turn on, Skeleton=False",
+            "i": 0
+          },
+          {
+            "id": "33012:690",
+            "name": "Size=Desktop, Type=Turn on, Skeleton=True",
+            "field": "fills",
+            "master": "33012:690",
+            "masterName": "Size=Desktop, Type=Turn on, Skeleton=True",
+            "i": 0
+          }
+        ],
+        "name": "color/fill/solid/primary",
+        "key": "83dd6e85e7f4b7f0ba52c8298c9d321af3cb2e24",
+        "collection": "VariableCollectionId:1c6e07816c9c7d8423d676736c66af0f797411bb/40213:0"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:9e12bc25e3281b165355d673382a33f31f5a3fd8/32372:1384",
+        "count": 3,
+        "buckets": {
+          "instance": 3
+        },
+        "examples": [
+          {
+            "id": "32076:2436",
+            "name": "[Deprecated] Partner Button",
+            "field": "fills",
+            "master": "31653:16972",
+            "masterName": "Size=Desktop, Sber ID=True, Authorised ID=False, Authorised=True",
+            "instance": "32076:2436",
+            "i": 0
+          },
+          {
+            "id": "41179:1450",
+            "name": "[Deprecated] Partner Button",
+            "field": "fills",
+            "master": "41179:1445",
+            "masterName": "Size=Tablet, Sber ID=True, Authorised ID=False, Authorised=True",
+            "instance": "41179:1450",
+            "i": 0
+          }
+        ],
+        "name": "brand/partners/sber",
+        "key": "9e12bc25e3281b165355d673382a33f31f5a3fd8",
+        "collection": "VariableCollectionId:9bfe8dde6e700cc0754156917935eea46ac309ee/32016:4307"
+      }
+    ],
+    "noncanonicalColorStyles": [],
+    "mixed": [],
+    "errors": []
+  },
+  "standard": {
+    "mode": "instance",
+    "found": 75,
+    "attempted": 75,
+    "mutatedNodeIds": [
+      "35194:550",
+      "35194:551",
+      "38011:598",
+      "35194:627",
+      "41164:873",
+      "41164:889",
+      "41164:896",
+      "41164:900",
+      "35194:631",
+      "35194:633",
+      "38011:609",
+      "35194:709",
+      "31653:16805",
+      "33012:879",
+      "41164:984",
+      "41164:1000",
+      "31653:16821",
+      "33012:887",
+      "31653:16855",
+      "41162:1285",
+      "31653:16876",
+      "39299:707",
+      "41179:1065",
+      "39299:732",
+      "41477:1264",
+      "41477:1267",
+      "41477:1292",
+      "41477:1295",
+      "41477:1306",
+      "41477:1309"
+    ],
+    "applied": 30,
+    "summary": {
+      "color/text-icon/primary": 12,
+      "color/text-icon/third": 15,
+      "color/fill/solid/primary": 3
+    },
+    "errors": []
+  },
+  "finalAudit": {
+    "staticResult": {
+      "found": 9,
+      "mutatedNodeIds": [
+        "I32076:2436;28469:53194;33124:6565",
+        "I32076:2436;28469:53195",
+        "I32490:491;26093:350485",
+        "I41179:1450;28469:53174;33124:6565",
+        "I41179:1450;28469:53175",
+        "I41179:1458;26093:350773",
+        "I32076:2443;28469:53150;33124:6565",
+        "I32076:2443;28469:53151",
+        "I32490:710;26093:350412"
+      ],
+      "recordCount": 9,
+      "errors": [],
+      "unsupportedCount": 0,
+      "unsupported": [],
+      "skipped": [],
+      "rawCount": 0
+    },
+    "page": "ЕЛК-в работе",
+    "nodeCount": 1869,
+    "sources": [
+      {
+        "id": "S:e450a8d84aa515876e24e3b400577b4bfda4e6b1,20010856:25",
+        "name": "⭐️ Dark/🌚 Primary",
+        "key": "e450a8d84aa515876e24e3b400577b4bfda4e6b1",
+        "count": 3,
+        "buckets": {
+          "own": 3
+        },
+        "example": {
+          "id": "33012:1089",
+          "name": "СберПрайм+",
+          "field": "fills",
+          "master": "33012:1052",
+          "masterName": "Size=Desktop, Skeleton=True"
+        }
+      }
+    ],
+    "remainingRows": [
+      [
+        "33012:1089",
+        "fills",
+        "S:e450a8d84aa515876e24e3b400577b4bfda4e6b1,20010856:25",
+        "33012:1052",
+        null,
+        0,
+        0
+      ],
+      [
+        "41164:1008",
+        "fills",
+        "S:e450a8d84aa515876e24e3b400577b4bfda4e6b1,20010856:25",
+        "41164:1005",
+        null,
+        0,
+        0
+      ],
+      [
+        "33012:1143",
+        "fills",
+        "S:e450a8d84aa515876e24e3b400577b4bfda4e6b1,20010856:25",
+        "33012:1106",
+        null,
+        0,
+        0
+      ]
+    ],
+    "reasons": {
+      "kids": 0,
+      "light": 0,
+      "outside": 0,
+      "eligible": 3
+    },
+    "remainingCount": 3,
+    "unresolved": [],
+    "variableDetails": [
+      {
+        "kind": "variable",
+        "id": "VariableID:83dd6e85e7f4b7f0ba52c8298c9d321af3cb2e24/40214:436",
+        "count": 109,
+        "buckets": {
+          "own": 76,
+          "instance": 33
+        },
+        "examples": [
+          {
+            "id": "32407:2194",
+            "name": "Size=Desktop, Type=Turn on, Skeleton=False",
+            "field": "fills",
+            "master": "32407:2194",
+            "masterName": "Size=Desktop, Type=Turn on, Skeleton=False",
+            "i": 0
+          },
+          {
+            "id": "33012:690",
+            "name": "Size=Desktop, Type=Turn on, Skeleton=True",
+            "field": "fills",
+            "master": "33012:690",
+            "masterName": "Size=Desktop, Type=Turn on, Skeleton=True",
+            "i": 0
+          }
+        ],
+        "name": "color/fill/solid/primary",
+        "key": "83dd6e85e7f4b7f0ba52c8298c9d321af3cb2e24",
+        "collection": "VariableCollectionId:1c6e07816c9c7d8423d676736c66af0f797411bb/40213:0"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:9e12bc25e3281b165355d673382a33f31f5a3fd8/32372:1384",
+        "count": 3,
+        "buckets": {
+          "instance": 3
+        },
+        "examples": [
+          {
+            "id": "32076:2436",
+            "name": "[Deprecated] Partner Button",
+            "field": "fills",
+            "master": "31653:16972",
+            "masterName": "Size=Desktop, Sber ID=True, Authorised ID=False, Authorised=True",
+            "instance": "32076:2436",
+            "i": 0
+          },
+          {
+            "id": "41179:1450",
+            "name": "[Deprecated] Partner Button",
+            "field": "fills",
+            "master": "41179:1445",
+            "masterName": "Size=Tablet, Sber ID=True, Authorised ID=False, Authorised=True",
+            "instance": "41179:1450",
+            "i": 0
+          }
+        ],
+        "name": "brand/partners/sber",
+        "key": "9e12bc25e3281b165355d673382a33f31f5a3fd8",
+        "collection": "VariableCollectionId:9bfe8dde6e700cc0754156917935eea46ac309ee/32016:4307"
+      }
+    ],
+    "noncanonicalColorStyles": [],
+    "mixed": [],
+    "errors": []
+  },
+  "legacyPrimaryStateAfterFailedWrite": [
+    {
+      "id": "33012:1089",
+      "type": "TEXT",
+      "style": "S:e450a8d84aa515876e24e3b400577b4bfda4e6b1,20010856:25",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "fonts": [
+        {
+          "family": "SB Sans Text",
+          "style": "Medium"
+        }
+      ]
+    },
+    {
+      "id": "41164:1008",
+      "type": "TEXT",
+      "style": "S:e450a8d84aa515876e24e3b400577b4bfda4e6b1,20010856:25",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "fonts": [
+        {
+          "family": "SB Sans Text",
+          "style": "Medium"
+        }
+      ]
+    },
+    {
+      "id": "33012:1143",
+      "type": "TEXT",
+      "style": "S:e450a8d84aa515876e24e3b400577b4bfda4e6b1,20010856:25",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "fonts": [
+        {
+          "family": "SB Sans Text",
+          "style": "Medium"
+        }
+      ]
+    }
+  ],
+  "fontAvailability": {
+    "actual": {
+      "family": "SB Sans Text",
+      "style": "Medium"
+    },
+    "error": "Error: The font \"SB Sans Text Medium\" could not be loaded. The font family \"SB Sans Text\" does not exist.\n\nFonts with similar names:\n- Stack Sans Text (Bold, ExtraLight, Light, Medium, Regular, SemiBold)\n\nCall figma.listAvailableFontsAsync() for the full list.\n\nTo upload a local font, see: https://help.figma.com/hc/articles/360039956894-Add-a-font-to-Figma",
+    "available": []
+  },
+  "newDesignVariablesOrStylesCreated": false,
+  "verification": "programmatic full-page audit; Selection colors UI not checked"
+}

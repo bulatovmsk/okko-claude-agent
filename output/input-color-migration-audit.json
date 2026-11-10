@@ -1,0 +1,1308 @@
+{
+  "date": "2026-10-20",
+  "fileKey": "sb7SelAF2PBcYZsOxL092c",
+  "pageId": "19198:297441",
+  "before": {
+    "page": "Input",
+    "nodeCount": 2657,
+    "rootCount": 204,
+    "groups": [
+      {
+        "name": "[Deprecated]/Fill/Glassy/Third",
+        "key": "2d18b315097685552c2b414e160cfdb5b917f5e7",
+        "styleType": "PAINT",
+        "count": 338,
+        "buckets": {
+          "own": 90,
+          "instance": 150,
+          "outside": 98
+        },
+        "example": "22796:326525"
+      },
+      {
+        "name": "[Deprecated]/Text & icon/on Dark/Primary",
+        "key": "8d1e4095c97d6f8de9740c869fae2aa91b41bd6d",
+        "styleType": "PAINT",
+        "count": 395,
+        "buckets": {
+          "own": 78,
+          "outside": 209,
+          "instance": 108
+        },
+        "example": "22796:326527"
+      },
+      {
+        "name": "[Deprecated]/Fill/Solid/Inverse",
+        "key": "974f85fc28b4a77fb28ea56ae2aba7dbc10a9905",
+        "styleType": "PAINT",
+        "count": 30,
+        "buckets": {
+          "own": 18,
+          "instance": 6,
+          "outside": 6
+        },
+        "example": "22796:326530"
+      },
+      {
+        "name": "[Deprecated]/Text & icon/on Dark/Third",
+        "key": "7ba87ccc576cd2381aee43f11162db346a88bf6a",
+        "styleType": "PAINT",
+        "count": 129,
+        "buckets": {
+          "own": 24,
+          "light": 12,
+          "outside": 90,
+          "instance": 3
+        },
+        "example": "22796:326531"
+      },
+      {
+        "name": "[Deprecated]/Border/Glassy",
+        "key": "1082d45b02cee1ebf04885f304cfa0cae2c2bbc3",
+        "styleType": "PAINT",
+        "count": 240,
+        "buckets": {
+          "light": 240
+        },
+        "example": "22801:327751"
+      },
+      {
+        "name": "[Deprecated]/Text & icon/on Light/Primary",
+        "key": "4e8ca772b49d5b02391ce1d8bbac531eae429f25",
+        "styleType": "PAINT",
+        "count": 184,
+        "buckets": {
+          "light": 184
+        },
+        "example": "22801:327753"
+      },
+      {
+        "name": "[Deprecated]/Fill/Solid/Secondary",
+        "key": "cc9f8ed188fba9318e96d598d00738e0625fd414",
+        "styleType": "PAINT",
+        "count": 25,
+        "buckets": {
+          "light": 24,
+          "outside": 1
+        },
+        "example": "22801:327756"
+      },
+      {
+        "name": "[Deprecated]/Text & icon/on Light/Third",
+        "key": "13f1e41467f7c536b0c0f5e60463105cc260c9d4",
+        "styleType": "PAINT",
+        "count": 12,
+        "buckets": {
+          "light": 12
+        },
+        "example": "22801:327757"
+      },
+      {
+        "name": "[Deprecated]/Fill/Solid/Negative",
+        "key": "5cd53462aea8059c48019303237f34fb14ae333b",
+        "styleType": "PAINT",
+        "count": 103,
+        "buckets": {
+          "own": 18,
+          "light": 48,
+          "instance": 30,
+          "outside": 7
+        },
+        "example": "22796:326536"
+      },
+      {
+        "name": "[Deprecated]/Text & icon/on Dark/Negative",
+        "key": "998680c64c9c1838add8356e03c0178eb6a65a50",
+        "styleType": "PAINT",
+        "count": 43,
+        "buckets": {
+          "own": 18,
+          "light": 18,
+          "outside": 7
+        },
+        "example": "22796:326537"
+      },
+      {
+        "name": "[Deprecated]/Text & icon/on Dark/Secondary",
+        "key": "eb0848c39cf58e48e9aae01f73f766c68f7bdde4",
+        "styleType": "PAINT",
+        "count": 64,
+        "buckets": {
+          "own": 18,
+          "outside": 45,
+          "kids": 1
+        },
+        "example": "22796:326545"
+      },
+      {
+        "name": "[Deprecated]/Text & icon/on Light/Secondary",
+        "key": "a3a659f561be25a75b141bc7adee2a84609fa336",
+        "styleType": "PAINT",
+        "count": 20,
+        "buckets": {
+          "light": 20
+        },
+        "example": "22801:327787"
+      },
+      {
+        "name": "[Deprecated]/Background/Solid/Secondary",
+        "key": "6b0d5a4adbf8961b9daa987c9db7b1f66a5a0472",
+        "styleType": "PAINT",
+        "count": 25,
+        "buckets": {
+          "outside": 25
+        },
+        "example": "20583:307143"
+      },
+      {
+        "name": "Fill/Glassy/Secondary",
+        "key": "5c78f242f595f0f73fe7c5b12f695071b35c3a2d",
+        "styleType": "PAINT",
+        "count": 63,
+        "buckets": {
+          "outside": 63
+        },
+        "example": "20583:307149"
+      },
+      {
+        "name": "Text & icon/on Dark/Primary",
+        "key": "8d1e4095c97d6f8de9740c869fae2aa91b41bd6d",
+        "styleType": "PAINT",
+        "count": 63,
+        "buckets": {
+          "outside": 63
+        },
+        "example": "I20583:307149;20252:303665"
+      },
+      {
+        "name": "[Deprecated]/Fill/Glassy: hover & focus/Third",
+        "key": "1df3ad54fe8d3c841fbd67db5b3ad4764664347a",
+        "styleType": "PAINT",
+        "count": 3,
+        "buckets": {
+          "outside": 3
+        },
+        "example": "I20588:307517;21956:326177"
+      },
+      {
+        "name": "[Deprecated]/Fill/Solid/Accent",
+        "key": "e3ec3eec23dc45dab6e9ecf81f98639db564615b",
+        "styleType": "PAINT",
+        "count": 2,
+        "buckets": {
+          "outside": 2
+        },
+        "example": "20601:306360"
+      },
+      {
+        "name": "[Deprecated]/Background/Solid/Primary",
+        "key": "a58b219ba53603c8b26af4e925d7c6fcc41005af",
+        "styleType": "PAINT",
+        "count": 1,
+        "buckets": {
+          "outside": 1
+        },
+        "example": "20601:306370"
+      },
+      {
+        "name": "[Deprecated]/Border/Active",
+        "key": "075c49f40910d50af05873eda0928826475bf084",
+        "styleType": "PAINT",
+        "count": 2,
+        "buckets": {
+          "outside": 2
+        },
+        "example": "20601:306376"
+      },
+      {
+        "name": "[Deprecated]/Fill/Solid/Positive",
+        "key": "549095b548000afc744b26d6727f100cad79feac",
+        "styleType": "PAINT",
+        "count": 3,
+        "buckets": {
+          "outside": 3
+        },
+        "example": "22802:329541"
+      }
+    ],
+    "collections": [
+      {
+        "id": "VariableCollectionId:9bfe8dde6e700cc0754156917935eea46ac309ee/32016:4307",
+        "name": "Primitives",
+        "bindings": 45,
+        "variables": 2
+      },
+      {
+        "id": "VariableCollectionId:1c6e07816c9c7d8423d676736c66af0f797411bb/41872:3468",
+        "name": "Color",
+        "bindings": 36,
+        "variables": 5
+      }
+    ],
+    "primitiveBindings": [
+      {
+        "name": "primitives/red600",
+        "key": "6b57403c4ed80c0ad8e2eca29c2e74c565f6ab37",
+        "count": 43,
+        "buckets": {
+          "own": 18,
+          "light": 18,
+          "outside": 7
+        },
+        "example": "22796:326537"
+      },
+      {
+        "name": "primitives/electric900",
+        "key": "68b8fbbbc78be34af7815443b21ef244eee6b6b0",
+        "count": 2,
+        "buckets": {
+          "outside": 2
+        },
+        "example": "20601:306360"
+      }
+    ],
+    "mixed": [],
+    "errors": []
+  },
+  "after": {
+    "page": "Input",
+    "nodeCount": 2657,
+    "rootCount": 204,
+    "groups": [
+      {
+        "name": "[Deprecated]/Border/Glassy",
+        "key": "1082d45b02cee1ebf04885f304cfa0cae2c2bbc3",
+        "styleType": "PAINT",
+        "count": 240,
+        "buckets": {
+          "light": 240
+        },
+        "example": "22801:327751"
+      },
+      {
+        "name": "[Deprecated]/Fill/Solid/Secondary",
+        "key": "cc9f8ed188fba9318e96d598d00738e0625fd414",
+        "styleType": "PAINT",
+        "count": 25,
+        "buckets": {
+          "light": 24,
+          "outside": 1
+        },
+        "example": "22801:327756"
+      },
+      {
+        "name": "[Deprecated]/Fill/Solid/Negative",
+        "key": "5cd53462aea8059c48019303237f34fb14ae333b",
+        "styleType": "PAINT",
+        "count": 48,
+        "buckets": {
+          "light": 48
+        },
+        "example": "22801:327768"
+      },
+      {
+        "name": "[Deprecated]/Text & icon/on Dark/Negative",
+        "key": "998680c64c9c1838add8356e03c0178eb6a65a50",
+        "styleType": "PAINT",
+        "count": 18,
+        "buckets": {
+          "light": 18
+        },
+        "example": "22801:327769"
+      },
+      {
+        "name": "[Deprecated]/Text & icon/on Dark/Third",
+        "key": "7ba87ccc576cd2381aee43f11162db346a88bf6a",
+        "styleType": "PAINT",
+        "count": 38,
+        "buckets": {
+          "light": 12,
+          "outside": 26
+        },
+        "example": "22801:327804"
+      },
+      {
+        "name": "[Deprecated]/Text & icon/on Dark/Primary",
+        "key": "8d1e4095c97d6f8de9740c869fae2aa91b41bd6d",
+        "styleType": "PAINT",
+        "count": 177,
+        "buckets": {
+          "outside": 177
+        },
+        "example": "22796:326437"
+      },
+      {
+        "name": "[Deprecated]/Text & icon/on Dark/Secondary",
+        "key": "eb0848c39cf58e48e9aae01f73f766c68f7bdde4",
+        "styleType": "PAINT",
+        "count": 21,
+        "buckets": {
+          "outside": 20,
+          "kids": 1
+        },
+        "example": "19455:299217"
+      },
+      {
+        "name": "[Deprecated]/Background/Solid/Secondary",
+        "key": "6b0d5a4adbf8961b9daa987c9db7b1f66a5a0472",
+        "styleType": "PAINT",
+        "count": 25,
+        "buckets": {
+          "outside": 25
+        },
+        "example": "20583:307143"
+      },
+      {
+        "name": "Fill/Glassy/Secondary",
+        "key": "5c78f242f595f0f73fe7c5b12f695071b35c3a2d",
+        "styleType": "PAINT",
+        "count": 63,
+        "buckets": {
+          "outside": 63
+        },
+        "example": "20583:307149"
+      },
+      {
+        "name": "Text & icon/on Dark/Primary",
+        "key": "8d1e4095c97d6f8de9740c869fae2aa91b41bd6d",
+        "styleType": "PAINT",
+        "count": 63,
+        "buckets": {
+          "outside": 63
+        },
+        "example": "I20583:307149;20252:303665"
+      },
+      {
+        "name": "[Deprecated]/Fill/Glassy/Third",
+        "key": "2d18b315097685552c2b414e160cfdb5b917f5e7",
+        "styleType": "PAINT",
+        "count": 5,
+        "buckets": {
+          "outside": 5
+        },
+        "example": "20736:305403"
+      },
+      {
+        "name": "[Deprecated]/Fill/Solid/Inverse",
+        "key": "974f85fc28b4a77fb28ea56ae2aba7dbc10a9905",
+        "styleType": "PAINT",
+        "count": 1,
+        "buckets": {
+          "outside": 1
+        },
+        "example": "20736:305408"
+      },
+      {
+        "name": "[Deprecated]/Fill/Glassy: hover & focus/Third",
+        "key": "1df3ad54fe8d3c841fbd67db5b3ad4764664347a",
+        "styleType": "PAINT",
+        "count": 3,
+        "buckets": {
+          "outside": 3
+        },
+        "example": "I20588:307517;21956:326177"
+      },
+      {
+        "name": "[Deprecated]/Fill/Solid/Accent",
+        "key": "e3ec3eec23dc45dab6e9ecf81f98639db564615b",
+        "styleType": "PAINT",
+        "count": 2,
+        "buckets": {
+          "outside": 2
+        },
+        "example": "20601:306360"
+      },
+      {
+        "name": "[Deprecated]/Background/Solid/Primary",
+        "key": "a58b219ba53603c8b26af4e925d7c6fcc41005af",
+        "styleType": "PAINT",
+        "count": 1,
+        "buckets": {
+          "outside": 1
+        },
+        "example": "20601:306370"
+      },
+      {
+        "name": "[Deprecated]/Border/Active",
+        "key": "075c49f40910d50af05873eda0928826475bf084",
+        "styleType": "PAINT",
+        "count": 2,
+        "buckets": {
+          "outside": 2
+        },
+        "example": "20601:306376"
+      },
+      {
+        "name": "[Deprecated]/Fill/Solid/Positive",
+        "key": "549095b548000afc744b26d6727f100cad79feac",
+        "styleType": "PAINT",
+        "count": 3,
+        "buckets": {
+          "outside": 3
+        },
+        "example": "22802:329541"
+      }
+    ],
+    "collections": [
+      {
+        "id": "VariableCollectionId:1c6e07816c9c7d8423d676736c66af0f797411bb/41872:3468",
+        "name": "Color",
+        "bindings": 1046,
+        "variables": 15
+      },
+      {
+        "id": "VariableCollectionId:9bfe8dde6e700cc0754156917935eea46ac309ee/32016:4307",
+        "name": "Primitives",
+        "bindings": 20,
+        "variables": 2
+      }
+    ],
+    "primitiveBindings": [
+      {
+        "name": "primitives/red600",
+        "key": "6b57403c4ed80c0ad8e2eca29c2e74c565f6ab37",
+        "count": 18,
+        "buckets": {
+          "light": 18
+        },
+        "example": "22801:327769"
+      },
+      {
+        "name": "primitives/electric900",
+        "key": "68b8fbbbc78be34af7815443b21ef244eee6b6b0",
+        "count": 2,
+        "buckets": {
+          "outside": 2
+        },
+        "example": "20601:306360"
+      }
+    ],
+    "mixed": [],
+    "errors": []
+  },
+  "own": {
+    "mode": "own",
+    "found": 372,
+    "attempted": 372,
+    "mutatedNodeIds": [
+      "22796:326525",
+      "22796:326527",
+      "22796:326528",
+      "22796:326530",
+      "22796:326531",
+      "22801:327753",
+      "22801:327754",
+      "22801:327757",
+      "22796:326533",
+      "22796:326534",
+      "22796:326536",
+      "22796:326537",
+      "22801:327766",
+      "22796:326539",
+      "22796:326540",
+      "22796:326542",
+      "22801:327777",
+      "22801:327779",
+      "22796:326544",
+      "22796:326545",
+      "22796:326547",
+      "22801:327787",
+      "22801:327789",
+      "21956:326769",
+      "19727:300573",
+      "21956:327096",
+      "22801:327792",
+      "22801:327794",
+      "21956:327453",
+      "19727:300554",
+      "21956:327751",
+      "22801:327807",
+      "22801:327809",
+      "21957:328745",
+      "19727:300784",
+      "18259:297071",
+      "18259:297073",
+      "21957:328856",
+      "22801:327813",
+      "22801:327814",
+      "22801:327817",
+      "21957:329007",
+      "18278:297783",
+      "19727:300752",
+      "18278:297781",
+      "21957:329072",
+      "22801:327838",
+      "22801:327839",
+      "22801:327841",
+      "18259:297075",
+      "19727:300613",
+      "18259:297077",
+      "21895:326185",
+      "22801:327844",
+      "18278:297785",
+      "19727:300631",
+      "18278:297787",
+      "21895:326186",
+      "22801:327862",
+      "21957:328981",
+      "19727:300624",
+      "21957:328990",
+      "22801:327868",
+      "22801:327870",
+      "21957:329145",
+      "19727:300547",
+      "21957:329151",
+      "22801:327883",
+      "22801:327885",
+      "21957:329001",
+      "21957:329002",
+      "21957:329004",
+      "22801:327888",
+      "22801:327890",
+      "21957:329158",
+      "21957:329159",
+      "21957:329161",
+      "22801:327903",
+      "22801:327905",
+      "22796:326549",
+      "22796:326550",
+      "22796:326552",
+      "22801:327913",
+      "22801:327915",
+      "22796:326603",
+      "22796:326604",
+      "22796:326606",
+      "22801:327802",
+      "22796:326608",
+      "22796:326610",
+      "22796:326611",
+      "22796:326613",
+      "22796:326614",
+      "22801:327829",
+      "22801:327830",
+      "22796:326616",
+      "22796:326617",
+      "22796:326618",
+      "22796:326620",
+      "22801:327856",
+      "22796:326622",
+      "22796:326623",
+      "22796:326625",
+      "22801:327878",
+      "22796:326627",
+      "22796:326628",
+      "22796:326630",
+      "22801:327898",
+      "22796:326564",
+      "22796:326565",
+      "22796:326567",
+      "22801:327797",
+      "22796:326569",
+      "22796:326571",
+      "22796:326572",
+      "22796:326574",
+      "22796:326575",
+      "22801:327821",
+      "22801:327822",
+      "22796:326577",
+      "22796:326578",
+      "22796:326579",
+      "22796:326581",
+      "22801:327850",
+      "22796:326583",
+      "22796:326584",
+      "22796:326586",
+      "22801:327873",
+      "22796:326588",
+      "22796:326589",
+      "22796:326591",
+      "22801:327893",
+      "21956:328103",
+      "19727:300768",
+      "18259:297045",
+      "18259:297047",
+      "21956:328193",
+      "22801:327745",
+      "22801:327746",
+      "18259:297049",
+      "19727:300649",
+      "18259:297052",
+      "21895:326184",
+      "22801:327760",
+      "21956:328600",
+      "19727:300615",
+      "21956:328684",
+      "22801:327772",
+      "21956:328710",
+      "19727:300545",
+      "21956:328711",
+      "22801:327782",
+      "21956:326177",
+      "19727:300657",
+      "21956:326459",
+      "22801:327908",
+      "18296:297553",
+      "18296:297556",
+      "18296:297557",
+      "18296:297559",
+      "19628:301369",
+      "20130:303069",
+      "18296:297561",
+      "18296:297562",
+      "18296:297564",
+      "18296:297566",
+      "19628:301374",
+      "18296:297567",
+      "18296:297569",
+      "19628:301379",
+      "18296:297571",
+      "18296:297573",
+      "19628:301382",
+      "18296:297575",
+      "18296:297577",
+      "19628:301385",
+      "18296:297579",
+      "18296:297581",
+      "19628:301388",
+      "18296:297583",
+      "18296:297586",
+      "20130:303078",
+      "18296:297589",
+      "19628:301392",
+      "20130:303096",
+      "18296:297590",
+      "18296:297593",
+      "20130:303087",
+      "18296:297596",
+      "19628:301398",
+      "20130:303105",
+      "18296:297598",
+      "18296:297599",
+      "18296:297600",
+      "18296:297603",
+      "19628:301403",
+      "18296:297605",
+      "18296:297606",
+      "18296:297607",
+      "18296:297610",
+      "19628:301408",
+      "18296:297611",
+      "18296:297613",
+      "19628:301414",
+      "18296:297615",
+      "18296:297617",
+      "19628:301417",
+      "18296:297619",
+      "18296:297621",
+      "19628:301420",
+      "18296:297623",
+      "18296:297625",
+      "19628:301423",
+      "18296:297627",
+      "18296:297629",
+      "19628:301426",
+      "22802:328609",
+      "22802:328611",
+      "22802:328613",
+      "22802:328614",
+      "22802:328694",
+      "22802:328696",
+      "22802:328616",
+      "22802:328617",
+      "22802:328618",
+      "22802:328619",
+      "22802:328700",
+      "22802:328620",
+      "22802:328621",
+      "22802:328704",
+      "22802:328622",
+      "22802:328623",
+      "22802:328706",
+      "22802:328626",
+      "22802:328627",
+      "22802:328720",
+      "22802:328647",
+      "22802:328648",
+      "22802:328737",
+      "22802:328628",
+      "22802:328630",
+      "22802:328632",
+      "22802:328633",
+      "22802:328723",
+      "22802:328725",
+      "22802:328649",
+      "22802:328651",
+      "22802:328653",
+      "22802:328654",
+      "22802:328740",
+      "22802:328742",
+      "22802:328635",
+      "22802:328636",
+      "22802:328637",
+      "22802:328638",
+      "22802:328729",
+      "22802:328656",
+      "22802:328657",
+      "22802:328658",
+      "22802:328659",
+      "22802:328746",
+      "22802:328639",
+      "22802:328640",
+      "22802:328733",
+      "22802:328660",
+      "22802:328661",
+      "22802:328750",
+      "22802:328641",
+      "22802:328642",
+      "22802:328735",
+      "22802:328662",
+      "22802:328663",
+      "22802:328752",
+      "22802:328624",
+      "22802:328625",
+      "22802:328708",
+      "18313:297617",
+      "18313:297618",
+      "18359:298145",
+      "18313:297619",
+      "18313:297620",
+      "18313:297621",
+      "19628:299942",
+      "18313:297622",
+      "18313:297623",
+      "18313:297624",
+      "19628:299993",
+      "18359:298146",
+      "18359:298147",
+      "18359:298148",
+      "19628:300031",
+      "18313:297625",
+      "19727:299722",
+      "19727:299559",
+      "18313:297627",
+      "19727:299651",
+      "19727:299756",
+      "18359:298149",
+      "19727:299844",
+      "19727:299886",
+      "18313:297629",
+      "19727:299786",
+      "19727:299698",
+      "18313:297630",
+      "19727:299950",
+      "19727:299710",
+      "18359:298151",
+      "19727:299815",
+      "19727:299874",
+      "18313:297631",
+      "19727:299916",
+      "18313:297633",
+      "19727:299933",
+      "18313:297634",
+      "19727:299681",
+      "18313:297636",
+      "19727:299962",
+      "18359:298152",
+      "19727:299798",
+      "18359:298154",
+      "19727:299827",
+      "22802:328843",
+      "22802:328845",
+      "22802:328846",
+      "22802:328847",
+      "22802:328849",
+      "22802:328851",
+      "22802:328852",
+      "22802:328854",
+      "22802:328855",
+      "22802:328856",
+      "22802:328858",
+      "22802:328859",
+      "22802:328860",
+      "22802:328861",
+      "22802:328863",
+      "22802:328799",
+      "22802:328801",
+      "22802:328802",
+      "22802:328803",
+      "22802:328805",
+      "22802:328807",
+      "22802:328808",
+      "22802:328810",
+      "22802:328811",
+      "22802:328812",
+      "22802:328814",
+      "22802:328815",
+      "22802:328816",
+      "22802:328817",
+      "22802:328819",
+      "22802:328755",
+      "22802:328757",
+      "22802:328758",
+      "22802:328759",
+      "22802:328761",
+      "22802:328763",
+      "22802:328764",
+      "22802:328766",
+      "22802:328767",
+      "22802:328768",
+      "22802:328770",
+      "22802:328771",
+      "22802:328772",
+      "22802:328773",
+      "22802:328775",
+      "18313:297666",
+      "18313:297675",
+      "18359:298239",
+      "22802:328972",
+      "22802:329052",
+      "22802:329180"
+    ],
+    "applied": 372,
+    "summary": {
+      "color/fill/glassy/third": 90,
+      "color/text-icon/primary": 78,
+      "color/fill/solid/inverse": 18,
+      "color/text-icon/third": 24,
+      "color/text-icon/inverse/primary": 76,
+      "color/text-icon/inverse/third": 12,
+      "color/fill/solid/negative": 18,
+      "color/text-icon/negative": 18,
+      "color/text-icon/secondary": 18,
+      "color/text-icon/inverse/secondary": 20
+    },
+    "errors": []
+  },
+  "nested": {
+    "mode": "instance",
+    "found": 153,
+    "attempted": 153,
+    "mutatedNodeIds": [
+      "I18268:297026;15549:5216",
+      "I20442:311666;15759:5252",
+      "I20442:311666;15759:5253",
+      "18313:297647",
+      "18313:297648",
+      "18313:297649",
+      "18313:297650",
+      "18313:297651",
+      "19520:299925",
+      "19520:299926",
+      "19520:299927",
+      "19520:299928",
+      "19520:299929",
+      "19520:299968",
+      "19520:299969",
+      "19520:299970",
+      "19520:299971",
+      "19520:299972",
+      "19520:300024",
+      "19520:300025",
+      "19520:300026",
+      "19520:300027",
+      "19520:300028",
+      "18313:297653",
+      "18313:297654",
+      "18313:297655",
+      "18313:297656",
+      "18313:297657",
+      "19520:299931",
+      "19520:299932",
+      "19520:299933",
+      "19520:299934",
+      "19520:299935",
+      "19520:299980",
+      "19520:299981",
+      "19520:299982",
+      "19520:299983",
+      "19520:299984",
+      "19520:300040",
+      "19520:300041",
+      "19520:300042",
+      "19520:300043",
+      "19520:300044",
+      "18359:298226",
+      "18359:298227",
+      "18359:298228",
+      "18359:298229",
+      "18359:298230",
+      "19520:299937",
+      "19520:299938",
+      "19520:299939",
+      "19520:299940",
+      "19520:299941",
+      "19520:299992",
+      "19520:299993",
+      "19520:299994",
+      "19520:299995",
+      "19520:299996",
+      "19520:300056",
+      "19520:300057",
+      "19520:300058",
+      "19520:300059",
+      "19520:300060",
+      "18313:297660",
+      "18313:297661",
+      "18313:297662",
+      "18313:297663",
+      "18313:297664",
+      "18313:297669",
+      "18313:297670",
+      "18313:297671",
+      "18313:297672",
+      "18313:297673",
+      "18359:298233",
+      "18359:298234",
+      "18359:298235",
+      "18359:298236",
+      "18359:298237",
+      "22802:328942",
+      "22802:328943",
+      "22802:328944",
+      "22802:328945",
+      "22802:328946",
+      "22802:328948",
+      "22802:328949",
+      "22802:328950",
+      "22802:328951",
+      "22802:328952",
+      "22802:328954",
+      "22802:328955",
+      "22802:328956",
+      "22802:328957",
+      "22802:328958",
+      "22802:328960",
+      "22802:328961",
+      "22802:328962",
+      "22802:328963",
+      "22802:328964",
+      "22802:329022",
+      "22802:329023",
+      "22802:329024",
+      "22802:329025",
+      "22802:329026",
+      "22802:329028",
+      "22802:329029",
+      "22802:329030",
+      "22802:329031",
+      "22802:329032",
+      "22802:329034",
+      "22802:329035",
+      "22802:329036",
+      "22802:329037",
+      "22802:329038",
+      "22802:329040",
+      "22802:329041",
+      "22802:329042",
+      "22802:329043",
+      "22802:329044",
+      "22802:329150",
+      "22802:329151",
+      "22802:329152",
+      "22802:329153",
+      "22802:329154",
+      "22802:329156",
+      "22802:329157",
+      "22802:329158",
+      "22802:329159",
+      "22802:329160",
+      "22802:329162",
+      "22802:329163",
+      "22802:329164",
+      "22802:329165",
+      "22802:329166",
+      "22802:329168",
+      "22802:329169",
+      "22802:329170",
+      "22802:329171",
+      "22802:329172",
+      "22802:328967",
+      "22802:328968",
+      "22802:328969",
+      "22802:328970",
+      "22802:328971",
+      "22802:329047",
+      "22802:329048",
+      "22802:329049",
+      "22802:329050",
+      "22802:329051",
+      "22802:329175",
+      "22802:329176",
+      "22802:329177",
+      "22802:329178",
+      "22802:329179"
+    ],
+    "applied": 153,
+    "summary": {
+      "color/text-icon/third": 3,
+      "color/fill/glassy/third": 150
+    },
+    "errors": []
+  },
+  "staticAudit": {
+    "dependencies": [
+      {
+        "id": "18278:297448",
+        "name": "Text input / icon / Default icon",
+        "remote": false,
+        "page": "19198:297441",
+        "key": "9158fea9c1d9b0d3615ec9b83f3020527d46d0f2"
+      },
+      {
+        "id": "45143:5010",
+        "name": "Actions / Eye_Crossed_Bold",
+        "remote": true,
+        "key": "ae0c8ae5b3947ba36d1d6ef36f42592c33107cbb"
+      },
+      {
+        "id": "39347:204627",
+        "name": "Mono=Yes",
+        "remote": true,
+        "key": "4e35156b7308b524304a106b338fd05c88fd206b"
+      },
+      {
+        "id": "39347:204616",
+        "name": "Mono=Yes",
+        "remote": true,
+        "key": "6c4b40982120e7aeffe5c047b819c8ba52ef959a"
+      },
+      {
+        "id": "39347:202993",
+        "name": "Mono=Yes",
+        "remote": true,
+        "key": "d2eb496fdb1962c30e80ef91efd0fedb356d2e61"
+      },
+      {
+        "id": "18313:297617",
+        "name": "Resolution=320+, Theme=dark, State=default",
+        "remote": false,
+        "page": "19198:297441",
+        "key": "633fedfc04cf8d8e13ea19a758b470c60caf7645"
+      },
+      {
+        "id": "18313:297625",
+        "name": "Resolution=320+, Theme=dark, State=complete",
+        "remote": false,
+        "page": "19198:297441",
+        "key": "ea1a433f41c9a6a6759b7925d0f3d4d16bb1586c"
+      },
+      {
+        "id": "18313:297619",
+        "name": "Resolution=320+, Theme=dark, State=typing",
+        "remote": false,
+        "page": "19198:297441",
+        "key": "6690e7d7853d1e5579ea1e8a2e9cd6a7b1ec9dda"
+      },
+      {
+        "id": "18313:297629",
+        "name": "Resolution=320+, Theme=dark, State=disabled",
+        "remote": false,
+        "page": "19198:297441",
+        "key": "9919c3e590af47536f244437922dbcaf1078844d"
+      },
+      {
+        "id": "18313:297618",
+        "name": "Resolution=600+, Theme=dark, State=default",
+        "remote": false,
+        "page": "19198:297441",
+        "key": "3a33934497f33457d55709674e2081d0cd8c37b0"
+      },
+      {
+        "id": "18313:297627",
+        "name": "Resolution=600+, Theme=dark, State=complete",
+        "remote": false,
+        "page": "19198:297441",
+        "key": "6279687ddc84f5a0bbc3294b1c9bd9b185fab2f2"
+      },
+      {
+        "id": "18313:297622",
+        "name": "Resolution=600+, Theme=dark, State=typing",
+        "remote": false,
+        "page": "19198:297441",
+        "key": "9fa207c0c9b0c32e19a2603b08606d14b77ff97c"
+      },
+      {
+        "id": "18313:297630",
+        "name": "Resolution=600+, Theme=dark, State=disabled",
+        "remote": false,
+        "page": "19198:297441",
+        "key": "1eba506239094845236e1b53c02e8bef66eae23e"
+      },
+      {
+        "id": "18359:298145",
+        "name": "Resolution=1720+, Theme=dark, State=default",
+        "remote": false,
+        "page": "19198:297441",
+        "key": "a99860bde83e187dd067d1f2976a76372f223dc8"
+      },
+      {
+        "id": "18359:298149",
+        "name": "Resolution=1720+, Theme=dark, State=complete",
+        "remote": false,
+        "page": "19198:297441",
+        "key": "a18e2ebe63cc9c5e7ef6279888c57cc82cc0870b"
+      },
+      {
+        "id": "18359:298146",
+        "name": "Resolution=1720+, Theme=dark, State=typing",
+        "remote": false,
+        "page": "19198:297441",
+        "key": "53570ea876313d73ea8f9b17427ef77eb954afe7"
+      },
+      {
+        "id": "18359:298151",
+        "name": "Resolution=1720+, Theme=dark, State=disabled",
+        "remote": false,
+        "page": "19198:297441",
+        "key": "ac2229e0afc148e452456646408ba1e3994360bc"
+      },
+      {
+        "id": "18313:297631",
+        "name": "Resolution=320+, Theme=dark, State=error",
+        "remote": false,
+        "page": "19198:297441",
+        "key": "4893e432559c1b9ce39c739e2c22b30a560deda1"
+      },
+      {
+        "id": "18313:297634",
+        "name": "Resolution=600+, Theme=dark, State=error",
+        "remote": false,
+        "page": "19198:297441",
+        "key": "5cf78f879cf3123ce0acebfbf52901690524106f"
+      },
+      {
+        "id": "18359:298152",
+        "name": "Resolution=1720+, Theme=dark, State=error",
+        "remote": false,
+        "page": "19198:297441",
+        "key": "4dcdb20c8d3bed1523124e06ad7350ecb2d70df1"
+      },
+      {
+        "id": "22802:328755",
+        "name": "_[Deprecated].Symbol input / Item/375+/dark/default",
+        "remote": false,
+        "page": "19198:297441",
+        "key": "ddf72bbe8be688b9071dcee28196b03b2314d641"
+      },
+      {
+        "id": "22802:328763",
+        "name": "_[Deprecated].Symbol input / Item/375+/dark/complete",
+        "remote": false,
+        "page": "19198:297441",
+        "key": "cda284d7e366328b21685d150bd5068ff007eb9b"
+      },
+      {
+        "id": "22802:328757",
+        "name": "_[Deprecated].Symbol input / Item/375+/dark/typing",
+        "remote": false,
+        "page": "19198:297441",
+        "key": "044deb198efec00e52a1cae7ed4685cdfb23b833"
+      },
+      {
+        "id": "22802:328767",
+        "name": "_[Deprecated].Symbol input / Item/375+/dark/disabled",
+        "remote": false,
+        "page": "19198:297441",
+        "key": "1e1441478047b22295e6143bcc7947787a08fe4c"
+      },
+      {
+        "id": "22802:328799",
+        "name": "_[Deprecated].Symbol input / Item/.Symbol input/Item/960+/dark/default",
+        "remote": false,
+        "page": "19198:297441",
+        "key": "e5d82202867ef7cdc3aea7279069ceac82830eb7"
+      },
+      {
+        "id": "22802:328807",
+        "name": "_[Deprecated].Symbol input / Item/.Symbol input/Item/960+/dark/complete",
+        "remote": false,
+        "page": "19198:297441",
+        "key": "976ed7edb5fa32ff503ed7bc42321e421657c864"
+      },
+      {
+        "id": "22802:328801",
+        "name": "_[Deprecated].Symbol input / Item/.Symbol input/Item/960+/dark/typing",
+        "remote": false,
+        "page": "19198:297441",
+        "key": "a09186a9302b4d95bf734a634acf89585f6358a3"
+      },
+      {
+        "id": "22802:328811",
+        "name": "_[Deprecated].Symbol input / Item/.Symbol input/Item/960+/dark/disabled",
+        "remote": false,
+        "page": "19198:297441",
+        "key": "63a0d431c794603ee8c62dcc1052e876776d269b"
+      },
+      {
+        "id": "22802:328843",
+        "name": "_[Deprecated].Symbol input / Item/.Symbol input/Item/1320+/dark/default",
+        "remote": false,
+        "page": "19198:297441",
+        "key": "73b163c39fcd0d5574e44580b9f79e51e16f9592"
+      },
+      {
+        "id": "22802:328851",
+        "name": "_[Deprecated].Symbol input / Item/.Symbol input/Item/1320+/dark/complete",
+        "remote": false,
+        "page": "19198:297441",
+        "key": "ff55604941e56029ccd86a639119ae6cc602c2ad"
+      },
+      {
+        "id": "22802:328845",
+        "name": "_[Deprecated].Symbol input / Item/.Symbol input/Item/1320+/dark/typing",
+        "remote": false,
+        "page": "19198:297441",
+        "key": "de2a38c5ede1de636fd2a6148c735403ec39a900"
+      },
+      {
+        "id": "22802:328855",
+        "name": "_[Deprecated].Symbol input / Item/.Symbol input/Item/1320+/dark/disabled",
+        "remote": false,
+        "page": "19198:297441",
+        "key": "07f30f2f84fb9f95f054611014a00461ea004edb"
+      },
+      {
+        "id": "22802:328771",
+        "name": "_[Deprecated].Symbol input / Item/375+/dark/error",
+        "remote": false,
+        "page": "19198:297441",
+        "key": "9e75b209052c3bd8d8354fcbf14c7a8cc628d202"
+      },
+      {
+        "id": "22802:328815",
+        "name": "_[Deprecated].Symbol input / Item/.Symbol input/Item/960+/dark/error",
+        "remote": false,
+        "page": "19198:297441",
+        "key": "fc856f98845f77b38f36f2081939ae86e60712db"
+      },
+      {
+        "id": "22802:328859",
+        "name": "_[Deprecated].Symbol input / Item/.Symbol input/Item/1320+/dark/error",
+        "remote": false,
+        "page": "19198:297441",
+        "key": "a270d9d3ca5ca6a4a02d9af7fbfcc99824c25643"
+      }
+    ],
+    "stats": {
+      "scanned": 872,
+      "alreadyStatic": 0,
+      "overColored": 0
+    },
+    "found": 0,
+    "examples": [],
+    "raw": 0,
+    "unsupportedCount": 0,
+    "unsupported": [],
+    "skipped": []
+  },
+  "summary": {
+    "directlyEditedLayers": 525,
+    "appliedBindings": 525,
+    "remaining": {
+      "light": 342,
+      "outside": 392,
+      "kids": 1
+    },
+    "ambiguousEligible": 0
+  }
+}

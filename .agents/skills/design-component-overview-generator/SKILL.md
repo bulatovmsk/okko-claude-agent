@@ -13,6 +13,8 @@ description: "Создаёт в Figma тестовый Overview всех вал�
 
 Для Select Web используй [контекст Select](../design-figma-libraries/references/select-web.md): существующие Overview Default/Small/Large, 84 варианта в снимке и шесть отсутствующих Mobile Focus. Mobile Hover у Select есть — не переноси пропуски Chips.
 
+Для Button и Button Toggle Web читай [контекст кнопок](../design-figma-libraries/references/buttons-web.md): актуальные гайды и паспорта, ограничения вариантов, Selected и пересобранный Overview Button. Не переносить свойства iOS или обычного Button в Toggle автоматически.
+
 ## Источник комбинаций
 
 - Читай variants и component properties непосредственно из целевого `COMPONENT_SET` в живой Figma.

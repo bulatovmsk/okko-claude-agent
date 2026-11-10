@@ -1,0 +1,5204 @@
+{
+  "date": "2026-10-20",
+  "fileKey": "sb7SelAF2PBcYZsOxL092c",
+  "scope": {
+    "target": {
+      "id": "24837:340094",
+      "name": "Лояльность",
+      "type": "PAGE"
+    },
+    "page": {
+      "id": "24837:340094",
+      "name": "Лояльность"
+    },
+    "roots": [
+      {
+        "id": "24837:340304",
+        "type": "TEXT",
+        "name": "Title"
+      },
+      {
+        "id": "24061:333117",
+        "type": "COMPONENT_SET",
+        "name": "Widget Spasibo"
+      },
+      {
+        "id": "39841:2740",
+        "type": "COMPONENT_SET",
+        "name": "Widget Spasibo"
+      },
+      {
+        "id": "32350:667",
+        "type": "COMPONENT_SET",
+        "name": "🟡 Widget Spasibo"
+      },
+      {
+        "id": "24837:340317",
+        "type": "TEXT",
+        "name": "Title"
+      },
+      {
+        "id": "24077:332356",
+        "type": "COMPONENT_SET",
+        "name": "Spasibo / Label"
+      },
+      {
+        "id": "24077:332297",
+        "type": "COMPONENT_SET",
+        "name": "🟡  Tumbler Spasibo"
+      },
+      {
+        "id": "42076:685",
+        "type": "SECTION",
+        "name": "Deprecated"
+      },
+      {
+        "id": "43123:593",
+        "type": "INSTANCE",
+        "name": "Label Main"
+      },
+      {
+        "id": "43123:614",
+        "type": "FRAME",
+        "name": "Label Main"
+      }
+    ],
+    "masters": [
+      {
+        "id": "24061:333118",
+        "name": "Breakponts=1720+, State=able",
+        "parentId": "24061:333117",
+        "parentName": "Widget Spasibo"
+      },
+      {
+        "id": "24061:333134",
+        "name": "Breakponts=1720+, State=error",
+        "parentId": "24061:333117",
+        "parentName": "Widget Spasibo"
+      },
+      {
+        "id": "27977:747",
+        "name": "Breakponts=1720+, State=connection",
+        "parentId": "24061:333117",
+        "parentName": "Widget Spasibo"
+      },
+      {
+        "id": "24061:333125",
+        "name": "Breakponts=1720+, State=entry",
+        "parentId": "24061:333117",
+        "parentName": "Widget Spasibo"
+      },
+      {
+        "id": "24061:333130",
+        "name": "Breakponts=1720+, State=disable",
+        "parentId": "24061:333117",
+        "parentName": "Widget Spasibo"
+      },
+      {
+        "id": "25912:343365",
+        "name": "Breakponts=1720+, State=entry by card",
+        "parentId": "24061:333117",
+        "parentName": "Widget Spasibo"
+      },
+      {
+        "id": "24061:333138",
+        "name": "Breakponts=1320+, State=able",
+        "parentId": "24061:333117",
+        "parentName": "Widget Spasibo"
+      },
+      {
+        "id": "24061:333154",
+        "name": "Breakponts=1320+, State=error",
+        "parentId": "24061:333117",
+        "parentName": "Widget Spasibo"
+      },
+      {
+        "id": "27977:756",
+        "name": "Breakponts=1320+, State=connection",
+        "parentId": "24061:333117",
+        "parentName": "Widget Spasibo"
+      },
+      {
+        "id": "24061:333145",
+        "name": "Breakponts=1320+, State=entry",
+        "parentId": "24061:333117",
+        "parentName": "Widget Spasibo"
+      },
+      {
+        "id": "24061:333150",
+        "name": "Breakponts=1320+, State=disable",
+        "parentId": "24061:333117",
+        "parentName": "Widget Spasibo"
+      },
+      {
+        "id": "25934:343359",
+        "name": "Breakponts=1320+, State=entry by card",
+        "parentId": "24061:333117",
+        "parentName": "Widget Spasibo"
+      },
+      {
+        "id": "24061:333158",
+        "name": "Breakponts=600+, State=able",
+        "parentId": "24061:333117",
+        "parentName": "Widget Spasibo"
+      },
+      {
+        "id": "24061:333174",
+        "name": "Breakponts=600+, State=error",
+        "parentId": "24061:333117",
+        "parentName": "Widget Spasibo"
+      },
+      {
+        "id": "27977:765",
+        "name": "Breakponts=600+, State=connection",
+        "parentId": "24061:333117",
+        "parentName": "Widget Spasibo"
+      },
+      {
+        "id": "24061:333165",
+        "name": "Breakponts=600+, State=entry",
+        "parentId": "24061:333117",
+        "parentName": "Widget Spasibo"
+      },
+      {
+        "id": "24061:333170",
+        "name": "Breakponts=600+, State=disable",
+        "parentId": "24061:333117",
+        "parentName": "Widget Spasibo"
+      },
+      {
+        "id": "25934:343389",
+        "name": "Breakponts=600+, State=entry by card",
+        "parentId": "24061:333117",
+        "parentName": "Widget Spasibo"
+      },
+      {
+        "id": "24061:333178",
+        "name": "Breakponts=375+, State=able",
+        "parentId": "24061:333117",
+        "parentName": "Widget Spasibo"
+      },
+      {
+        "id": "24061:333196",
+        "name": "Breakponts=375+, State=error",
+        "parentId": "24061:333117",
+        "parentName": "Widget Spasibo"
+      },
+      {
+        "id": "27977:789",
+        "name": "Breakponts=375+, State=connection",
+        "parentId": "24061:333117",
+        "parentName": "Widget Spasibo"
+      },
+      {
+        "id": "24061:333185",
+        "name": "Breakponts=375+, State=entry",
+        "parentId": "24061:333117",
+        "parentName": "Widget Spasibo"
+      },
+      {
+        "id": "24061:333191",
+        "name": "Breakponts=375+, State=disable",
+        "parentId": "24061:333117",
+        "parentName": "Widget Spasibo"
+      },
+      {
+        "id": "25934:343419",
+        "name": "Breakponts=375+, State=entry by card",
+        "parentId": "24061:333117",
+        "parentName": "Widget Spasibo"
+      },
+      {
+        "id": "24061:333201",
+        "name": "Breakponts=320+, State=able",
+        "parentId": "24061:333117",
+        "parentName": "Widget Spasibo"
+      },
+      {
+        "id": "24061:333217",
+        "name": "Breakponts=320+, State=error",
+        "parentId": "24061:333117",
+        "parentName": "Widget Spasibo"
+      },
+      {
+        "id": "27977:799",
+        "name": "Breakponts=320+, State=connection",
+        "parentId": "24061:333117",
+        "parentName": "Widget Spasibo"
+      },
+      {
+        "id": "24061:333208",
+        "name": "Breakponts=320+, State=entry",
+        "parentId": "24061:333117",
+        "parentName": "Widget Spasibo"
+      },
+      {
+        "id": "24061:333213",
+        "name": "Breakponts=320+, State=disable",
+        "parentId": "24061:333117",
+        "parentName": "Widget Spasibo"
+      },
+      {
+        "id": "25934:343450",
+        "name": "Breakponts=320+, State=entry by card",
+        "parentId": "24061:333117",
+        "parentName": "Widget Spasibo"
+      },
+      {
+        "id": "39841:2741",
+        "name": "Size=Desktop, Loyality on=True, Skeleton=False",
+        "parentId": "39841:2740",
+        "parentName": "Widget Spasibo"
+      },
+      {
+        "id": "39841:2749",
+        "name": "Size=Desktop, Loyality on=True, Skeleton=True",
+        "parentId": "39841:2740",
+        "parentName": "Widget Spasibo"
+      },
+      {
+        "id": "39841:2756",
+        "name": "Size=Desktop, Loyality on=False, Skeleton=False",
+        "parentId": "39841:2740",
+        "parentName": "Widget Spasibo"
+      },
+      {
+        "id": "39841:2764",
+        "name": "Size=Mobile, Loyality on=True, Skeleton=False",
+        "parentId": "39841:2740",
+        "parentName": "Widget Spasibo"
+      },
+      {
+        "id": "39841:2772",
+        "name": "Size=Mobile, Loyality on=False, Skeleton=False",
+        "parentId": "39841:2740",
+        "parentName": "Widget Spasibo"
+      },
+      {
+        "id": "39841:2780",
+        "name": "Size=Mobile, Loyality on=True, Skeleton=True",
+        "parentId": "39841:2740",
+        "parentName": "Widget Spasibo"
+      },
+      {
+        "id": "34075:803",
+        "name": "Breakponts=1720+, State=able, Skeleton=True",
+        "parentId": "32350:667",
+        "parentName": "🟡 Widget Spasibo"
+      },
+      {
+        "id": "38495:1744",
+        "name": "Breakponts=960+, State=able, Skeleton=True",
+        "parentId": "32350:667",
+        "parentName": "🟡 Widget Spasibo"
+      },
+      {
+        "id": "32350:668",
+        "name": "Breakponts=1720+, State=able, Skeleton=False",
+        "parentId": "32350:667",
+        "parentName": "🟡 Widget Spasibo"
+      },
+      {
+        "id": "38495:1749",
+        "name": "Breakponts=960+, State=able, Skeleton=False",
+        "parentId": "32350:667",
+        "parentName": "🟡 Widget Spasibo"
+      },
+      {
+        "id": "32351:2073",
+        "name": "Breakponts=1720+, State=Entry, Skeleton=False",
+        "parentId": "32350:667",
+        "parentName": "🟡 Widget Spasibo"
+      },
+      {
+        "id": "38496:1765",
+        "name": "Breakponts=960+, State=Entry, Skeleton=False",
+        "parentId": "32350:667",
+        "parentName": "🟡 Widget Spasibo"
+      },
+      {
+        "id": "33214:837",
+        "name": "Breakponts=1720+, State=EntryAble, Skeleton=False",
+        "parentId": "32350:667",
+        "parentName": "🟡 Widget Spasibo"
+      },
+      {
+        "id": "38496:1777",
+        "name": "Breakponts=960+, State=EntryAble, Skeleton=False",
+        "parentId": "32350:667",
+        "parentName": "🟡 Widget Spasibo"
+      },
+      {
+        "id": "32352:977",
+        "name": "Breakponts=1720+, State=Dissable, Skeleton=False",
+        "parentId": "32350:667",
+        "parentName": "🟡 Widget Spasibo"
+      },
+      {
+        "id": "38496:1796",
+        "name": "Breakponts=960+, State=Dissable, Skeleton=False",
+        "parentId": "32350:667",
+        "parentName": "🟡 Widget Spasibo"
+      },
+      {
+        "id": "32352:828",
+        "name": "Breakponts=1720+, State=Error, Skeleton=False",
+        "parentId": "32350:667",
+        "parentName": "🟡 Widget Spasibo"
+      },
+      {
+        "id": "38496:1800",
+        "name": "Breakponts=960+, State=Error, Skeleton=False",
+        "parentId": "32350:667",
+        "parentName": "🟡 Widget Spasibo"
+      },
+      {
+        "id": "32352:920",
+        "name": "Breakponts=1720+, State=Connection, Skeleton=False",
+        "parentId": "32350:667",
+        "parentName": "🟡 Widget Spasibo"
+      },
+      {
+        "id": "38496:1810",
+        "name": "Breakponts=960+, State=Connection, Skeleton=False",
+        "parentId": "32350:667",
+        "parentName": "🟡 Widget Spasibo"
+      },
+      {
+        "id": "34076:824",
+        "name": "Breakponts=600+, State=able, Skeleton=True",
+        "parentId": "32350:667",
+        "parentName": "🟡 Widget Spasibo"
+      },
+      {
+        "id": "32350:1030",
+        "name": "Breakponts=600+, State=able, Skeleton=False",
+        "parentId": "32350:667",
+        "parentName": "🟡 Widget Spasibo"
+      },
+      {
+        "id": "32351:2082",
+        "name": "Breakponts=600+, State=Entry, Skeleton=False",
+        "parentId": "32350:667",
+        "parentName": "🟡 Widget Spasibo"
+      },
+      {
+        "id": "33214:857",
+        "name": "Breakponts=600+, State=EntryAble, Skeleton=False",
+        "parentId": "32350:667",
+        "parentName": "🟡 Widget Spasibo"
+      },
+      {
+        "id": "32352:982",
+        "name": "Breakponts=600+, State=Dissable, Skeleton=False",
+        "parentId": "32350:667",
+        "parentName": "🟡 Widget Spasibo"
+      },
+      {
+        "id": "32352:837",
+        "name": "Breakponts=600+, State=Error, Skeleton=False",
+        "parentId": "32350:667",
+        "parentName": "🟡 Widget Spasibo"
+      },
+      {
+        "id": "32352:927",
+        "name": "Breakponts=600+, State=Connection, Skeleton=False",
+        "parentId": "32350:667",
+        "parentName": "🟡 Widget Spasibo"
+      },
+      {
+        "id": "32351:2041",
+        "name": "Breakponts=320+, State=able, Skeleton=True",
+        "parentId": "32350:667",
+        "parentName": "🟡 Widget Spasibo"
+      },
+      {
+        "id": "34076:843",
+        "name": "Breakponts=320+, State=able, Skeleton=False",
+        "parentId": "32350:667",
+        "parentName": "🟡 Widget Spasibo"
+      },
+      {
+        "id": "32351:2091",
+        "name": "Breakponts=320+, State=Entry, Skeleton=False",
+        "parentId": "32350:667",
+        "parentName": "🟡 Widget Spasibo"
+      },
+      {
+        "id": "33214:877",
+        "name": "Breakponts=320+, State=EntryAble, Skeleton=False",
+        "parentId": "32350:667",
+        "parentName": "🟡 Widget Spasibo"
+      },
+      {
+        "id": "32352:987",
+        "name": "Breakponts=320+, State=Dissable, Skeleton=False",
+        "parentId": "32350:667",
+        "parentName": "🟡 Widget Spasibo"
+      },
+      {
+        "id": "32352:846",
+        "name": "Breakponts=320+, State=Error, Skeleton=False",
+        "parentId": "32350:667",
+        "parentName": "🟡 Widget Spasibo"
+      },
+      {
+        "id": "32352:934",
+        "name": "Breakponts=320+, State=Connection, Skeleton=False",
+        "parentId": "32350:667",
+        "parentName": "🟡 Widget Spasibo"
+      },
+      {
+        "id": "24077:332357",
+        "name": "Type=Primary, Breakpoint=Desktop 1720+, State=Rest",
+        "parentId": "24077:332356",
+        "parentName": "Spasibo / Label"
+      },
+      {
+        "id": "42076:658",
+        "name": "Type=Secondary, Breakpoint=Desktop 1720+, State=Rest",
+        "parentId": "24077:332356",
+        "parentName": "Spasibo / Label"
+      },
+      {
+        "id": "24077:332360",
+        "name": "Type=Primary, Breakpoint=Desktop 1720+, State=Disabled",
+        "parentId": "24077:332356",
+        "parentName": "Spasibo / Label"
+      },
+      {
+        "id": "42076:661",
+        "name": "Type=Secondary, Breakpoint=Desktop 1720+, State=Disabled",
+        "parentId": "24077:332356",
+        "parentName": "Spasibo / Label"
+      },
+      {
+        "id": "24077:332369",
+        "name": "Type=Primary, Breakpoint=Tablet 600+, State=Rest",
+        "parentId": "24077:332356",
+        "parentName": "Spasibo / Label"
+      },
+      {
+        "id": "42076:664",
+        "name": "Type=Secondary, Breakpoint=Tablet 600+, State=Rest",
+        "parentId": "24077:332356",
+        "parentName": "Spasibo / Label"
+      },
+      {
+        "id": "24077:332372",
+        "name": "Type=Primary, Breakpoint=Tablet 600+, State=Disabled",
+        "parentId": "24077:332356",
+        "parentName": "Spasibo / Label"
+      },
+      {
+        "id": "42076:667",
+        "name": "Type=Secondary, Breakpoint=Tablet 600+, State=Disabled",
+        "parentId": "24077:332356",
+        "parentName": "Spasibo / Label"
+      },
+      {
+        "id": "24077:332381",
+        "name": "Type=Primary, Breakpoint=Mobile 320+, State=Rest",
+        "parentId": "24077:332356",
+        "parentName": "Spasibo / Label"
+      },
+      {
+        "id": "42076:670",
+        "name": "Type=Secondary, Breakpoint=Mobile 320+, State=Rest",
+        "parentId": "24077:332356",
+        "parentName": "Spasibo / Label"
+      },
+      {
+        "id": "24077:332384",
+        "name": "Type=Primary, Breakpoint=Mobile 320+, State=Disabled",
+        "parentId": "24077:332356",
+        "parentName": "Spasibo / Label"
+      },
+      {
+        "id": "42076:673",
+        "name": "Type=Secondary, Breakpoint=Mobile 320+, State=Disabled",
+        "parentId": "24077:332356",
+        "parentName": "Spasibo / Label"
+      },
+      {
+        "id": "24077:332298",
+        "name": "Breakpoints=1720+, Type=able",
+        "parentId": "24077:332297",
+        "parentName": "🟡  Tumbler Spasibo"
+      },
+      {
+        "id": "26935:17689",
+        "name": "Breakpoints=1720+, Type=0 TVOD",
+        "parentId": "24077:332297",
+        "parentName": "🟡  Tumbler Spasibo"
+      },
+      {
+        "id": "26942:5301",
+        "name": "Breakpoints=1720+, Type=another method",
+        "parentId": "24077:332297",
+        "parentName": "🟡  Tumbler Spasibo"
+      },
+      {
+        "id": "24077:332303",
+        "name": "Breakpoints=1720+, Type=max discount",
+        "parentId": "24077:332297",
+        "parentName": "🟡  Tumbler Spasibo"
+      },
+      {
+        "id": "24077:332322",
+        "name": "Breakpoints=600+, Type=able",
+        "parentId": "24077:332297",
+        "parentName": "🟡  Tumbler Spasibo"
+      },
+      {
+        "id": "26935:17721",
+        "name": "Breakpoints=600+, Type=0 TVOD",
+        "parentId": "24077:332297",
+        "parentName": "🟡  Tumbler Spasibo"
+      },
+      {
+        "id": "26942:5346",
+        "name": "Breakpoints=600+, Type=another method",
+        "parentId": "24077:332297",
+        "parentName": "🟡  Tumbler Spasibo"
+      },
+      {
+        "id": "24077:332327",
+        "name": "Breakpoints=600+, Type=max discount",
+        "parentId": "24077:332297",
+        "parentName": "🟡  Tumbler Spasibo"
+      },
+      {
+        "id": "24077:332345",
+        "name": "Breakpoints=320+, Type=able",
+        "parentId": "24077:332297",
+        "parentName": "🟡  Tumbler Spasibo"
+      },
+      {
+        "id": "26935:17753",
+        "name": "Breakpoints=320+, Type=0 TVOD",
+        "parentId": "24077:332297",
+        "parentName": "🟡  Tumbler Spasibo"
+      },
+      {
+        "id": "26942:5374",
+        "name": "Breakpoints=320+, Type=another method",
+        "parentId": "24077:332297",
+        "parentName": "🟡  Tumbler Spasibo"
+      },
+      {
+        "id": "24077:332350",
+        "name": "Breakpoints=320+, Type=max discount",
+        "parentId": "24077:332297",
+        "parentName": "🟡  Tumbler Spasibo"
+      },
+      {
+        "id": "24077:332363",
+        "name": "_[Deprecated]Spasibo / Label/1320+/Rest/False",
+        "parentId": "42076:685",
+        "parentName": "Deprecated"
+      },
+      {
+        "id": "24077:332366",
+        "name": "_[Deprecated]Spasibo / Label/1320+/Disabled/False",
+        "parentId": "42076:685",
+        "parentName": "Deprecated"
+      },
+      {
+        "id": "24077:332375",
+        "name": "_[Deprecated]Spasibo / Label/375+/Rest/False",
+        "parentId": "42076:685",
+        "parentName": "Deprecated"
+      },
+      {
+        "id": "24077:332378",
+        "name": "_[Deprecated]Spasibo / Label/375+/Disabled/False",
+        "parentId": "42076:685",
+        "parentName": "Deprecated"
+      },
+      {
+        "id": "24077:332334",
+        "name": "_[Deprecated]🟡  Tumbler Spasibo/375+/able/False",
+        "parentId": "42076:685",
+        "parentName": "Deprecated"
+      },
+      {
+        "id": "26935:17737",
+        "name": "_[Deprecated]🟡  Tumbler Spasibo/375+/0 TVOD/False",
+        "parentId": "42076:685",
+        "parentName": "Deprecated"
+      },
+      {
+        "id": "26942:5360",
+        "name": "_[Deprecated]🟡  Tumbler Spasibo/375+/another method/False",
+        "parentId": "42076:685",
+        "parentName": "Deprecated"
+      },
+      {
+        "id": "24077:332339",
+        "name": "_[Deprecated]🟡  Tumbler Spasibo/375+/max discount/False",
+        "parentId": "42076:685",
+        "parentName": "Deprecated"
+      },
+      {
+        "id": "24077:332310",
+        "name": "_[Deprecated]🟡  Tumbler Spasibo/1320+/able/False",
+        "parentId": "42076:685",
+        "parentName": "Deprecated"
+      },
+      {
+        "id": "26935:17705",
+        "name": "_[Deprecated]🟡  Tumbler Spasibo/1320+/0 TVOD/False",
+        "parentId": "42076:685",
+        "parentName": "Deprecated"
+      },
+      {
+        "id": "26942:5332",
+        "name": "_[Deprecated]🟡  Tumbler Spasibo/1320+/another method/False",
+        "parentId": "42076:685",
+        "parentName": "Deprecated"
+      },
+      {
+        "id": "24077:332315",
+        "name": "_[Deprecated]🟡  Tumbler Spasibo/1320+/max discount/False",
+        "parentId": "42076:685",
+        "parentName": "Deprecated"
+      },
+      {
+        "id": "27269:28426",
+        "name": "_[Deprecated]🟡  Tumbler Spasibo/1720+/able/True",
+        "parentId": "42076:685",
+        "parentName": "Deprecated"
+      },
+      {
+        "id": "27269:28446",
+        "name": "_[Deprecated]🟡  Tumbler Spasibo/1720+/0 TVOD/True",
+        "parentId": "42076:685",
+        "parentName": "Deprecated"
+      },
+      {
+        "id": "27269:28463",
+        "name": "_[Deprecated]🟡  Tumbler Spasibo/1720+/another method/True",
+        "parentId": "42076:685",
+        "parentName": "Deprecated"
+      },
+      {
+        "id": "27269:28615",
+        "name": "_[Deprecated]🟡  Tumbler Spasibo/1720+/max discount/True",
+        "parentId": "42076:685",
+        "parentName": "Deprecated"
+      },
+      {
+        "id": "27269:28684",
+        "name": "_[Deprecated]🟡  Tumbler Spasibo/1320+/able/True",
+        "parentId": "42076:685",
+        "parentName": "Deprecated"
+      },
+      {
+        "id": "27269:28690",
+        "name": "_[Deprecated]🟡  Tumbler Spasibo/1320+/0 TVOD/True",
+        "parentId": "42076:685",
+        "parentName": "Deprecated"
+      },
+      {
+        "id": "27269:28693",
+        "name": "_[Deprecated]🟡  Tumbler Spasibo/1320+/another method/True",
+        "parentId": "42076:685",
+        "parentName": "Deprecated"
+      },
+      {
+        "id": "27269:28696",
+        "name": "_[Deprecated]🟡  Tumbler Spasibo/1320+/max discount/True",
+        "parentId": "42076:685",
+        "parentName": "Deprecated"
+      },
+      {
+        "id": "27269:28790",
+        "name": "_[Deprecated]🟡  Tumbler Spasibo/600+/able/True",
+        "parentId": "42076:685",
+        "parentName": "Deprecated"
+      },
+      {
+        "id": "27269:28796",
+        "name": "_[Deprecated]🟡  Tumbler Spasibo/600+/0 TVOD/True",
+        "parentId": "42076:685",
+        "parentName": "Deprecated"
+      },
+      {
+        "id": "27269:28799",
+        "name": "_[Deprecated]🟡  Tumbler Spasibo/600+/another method/True",
+        "parentId": "42076:685",
+        "parentName": "Deprecated"
+      },
+      {
+        "id": "27269:28802",
+        "name": "_[Deprecated]🟡  Tumbler Spasibo/600+/max discount/True",
+        "parentId": "42076:685",
+        "parentName": "Deprecated"
+      },
+      {
+        "id": "27269:28896",
+        "name": "_[Deprecated]🟡  Tumbler Spasibo/375+/able/True",
+        "parentId": "42076:685",
+        "parentName": "Deprecated"
+      },
+      {
+        "id": "27269:28902",
+        "name": "_[Deprecated]🟡  Tumbler Spasibo/375+/0 TVOD/True",
+        "parentId": "42076:685",
+        "parentName": "Deprecated"
+      },
+      {
+        "id": "27269:28905",
+        "name": "_[Deprecated]🟡  Tumbler Spasibo/375+/another method/True",
+        "parentId": "42076:685",
+        "parentName": "Deprecated"
+      },
+      {
+        "id": "27269:28908",
+        "name": "_[Deprecated]🟡  Tumbler Spasibo/375+/max discount/True",
+        "parentId": "42076:685",
+        "parentName": "Deprecated"
+      },
+      {
+        "id": "27269:29026",
+        "name": "_[Deprecated]🟡  Tumbler Spasibo/320+/able/True",
+        "parentId": "42076:685",
+        "parentName": "Deprecated"
+      },
+      {
+        "id": "27269:29032",
+        "name": "_[Deprecated]🟡  Tumbler Spasibo/320+/0 TVOD/True",
+        "parentId": "42076:685",
+        "parentName": "Deprecated"
+      },
+      {
+        "id": "27269:29035",
+        "name": "_[Deprecated]🟡  Tumbler Spasibo/320+/another method/True",
+        "parentId": "42076:685",
+        "parentName": "Deprecated"
+      },
+      {
+        "id": "27269:29038",
+        "name": "_[Deprecated]🟡  Tumbler Spasibo/320+/max discount/True",
+        "parentId": "42076:685",
+        "parentName": "Deprecated"
+      },
+      {
+        "id": "27269:28541",
+        "name": "_[Deprecated]🟡  Bubble Spasibo/1720+/Rest/True",
+        "parentId": "42076:685",
+        "parentName": "Deprecated"
+      },
+      {
+        "id": "27269:28545",
+        "name": "_[Deprecated]🟡  Bubble Spasibo/1720+/Disabled/True",
+        "parentId": "42076:685",
+        "parentName": "Deprecated"
+      },
+      {
+        "id": "27269:28548",
+        "name": "_[Deprecated]🟡  Bubble Spasibo/1320+/Rest/True",
+        "parentId": "42076:685",
+        "parentName": "Deprecated"
+      },
+      {
+        "id": "27269:28552",
+        "name": "_[Deprecated]🟡  Bubble Spasibo/1320+/Disabled/True",
+        "parentId": "42076:685",
+        "parentName": "Deprecated"
+      },
+      {
+        "id": "27269:28555",
+        "name": "_[Deprecated]🟡  Bubble Spasibo/600+/Rest/True",
+        "parentId": "42076:685",
+        "parentName": "Deprecated"
+      },
+      {
+        "id": "27269:28559",
+        "name": "_[Deprecated]🟡  Bubble Spasibo/600+/Disabled/True",
+        "parentId": "42076:685",
+        "parentName": "Deprecated"
+      },
+      {
+        "id": "27269:28562",
+        "name": "_[Deprecated]🟡  Bubble Spasibo/375+/Rest/True",
+        "parentId": "42076:685",
+        "parentName": "Deprecated"
+      },
+      {
+        "id": "27269:28566",
+        "name": "_[Deprecated]🟡  Bubble Spasibo/375+/Disabled/True",
+        "parentId": "42076:685",
+        "parentName": "Deprecated"
+      },
+      {
+        "id": "27269:28569",
+        "name": "_[Deprecated]🟡  Bubble Spasibo/320+/Rest/True",
+        "parentId": "42076:685",
+        "parentName": "Deprecated"
+      },
+      {
+        "id": "27269:28573",
+        "name": "_[Deprecated]🟡  Bubble Spasibo/320+/Disabled/True",
+        "parentId": "42076:685",
+        "parentName": "Deprecated"
+      }
+    ],
+    "sets": [
+      {
+        "id": "24061:333117",
+        "name": "Widget Spasibo",
+        "count": 30
+      },
+      {
+        "id": "39841:2740",
+        "name": "Widget Spasibo",
+        "count": 6
+      },
+      {
+        "id": "32350:667",
+        "name": "🟡 Widget Spasibo",
+        "count": 28
+      },
+      {
+        "id": "24077:332356",
+        "name": "Spasibo / Label",
+        "count": 12
+      },
+      {
+        "id": "24077:332297",
+        "name": "🟡  Tumbler Spasibo",
+        "count": 12
+      }
+    ]
+  },
+  "mutatedNodeCount": 295,
+  "mutatedNodeIds": [
+    "24061:333118",
+    "24061:333121",
+    "24061:333123",
+    "26001:343507",
+    "24061:333134",
+    "24061:333136",
+    "I24061:333136;1344:234898",
+    "24061:333137",
+    "27977:747",
+    "27977:749",
+    "I27977:749;1344:234898",
+    "27977:750",
+    "24061:333125",
+    "24061:333128",
+    "I28477:54413;28469:53130",
+    "24061:333130",
+    "I24061:333132;2977:3",
+    "I24061:333132;2977:4",
+    "I24061:333132;2977:7",
+    "I24061:333132;2977:8",
+    "I24061:333132;2977:9",
+    "I24061:333132;2977:10",
+    "I24061:333132;2977:11",
+    "I24061:333132;2977:12",
+    "I24061:333132;15543:5132;15918:5365",
+    "I24061:333132;15543:5132;15543:5189",
+    "24061:333133",
+    "25912:343365",
+    "25912:343368",
+    "24061:333138",
+    "24061:333141",
+    "24061:333143",
+    "26001:343539",
+    "24061:333154",
+    "24061:333156",
+    "I24061:333156;1362:203155",
+    "24061:333157",
+    "27977:756",
+    "27977:758",
+    "I27977:758;1362:203155",
+    "27977:759",
+    "24061:333145",
+    "24061:333148",
+    "I28477:54417;28469:53109",
+    "24061:333150",
+    "I24061:333152;2977:3",
+    "I24061:333152;2977:4",
+    "I24061:333152;2977:7",
+    "I24061:333152;2977:8",
+    "I24061:333152;2977:9",
+    "I24061:333152;2977:10",
+    "I24061:333152;2977:11",
+    "I24061:333152;2977:12",
+    "I24061:333152;15543:5132;15918:5365",
+    "I24061:333152;15543:5132;15543:5189",
+    "24061:333153",
+    "25934:343359",
+    "25934:343362",
+    "24061:333158",
+    "24061:333161",
+    "24061:333163",
+    "26001:343543",
+    "24061:333174",
+    "24061:333176",
+    "I24061:333176;1362:203202",
+    "24061:333177",
+    "27977:765",
+    "27977:767",
+    "I27977:767;1362:203202",
+    "27977:768",
+    "24061:333165",
+    "24061:333168",
+    "I28477:54424;28469:53109",
+    "24061:333170",
+    "I24061:333172;2977:3",
+    "I24061:333172;2977:4",
+    "I24061:333172;2977:7",
+    "I24061:333172;2977:8",
+    "I24061:333172;2977:9",
+    "I24061:333172;2977:10",
+    "I24061:333172;2977:11",
+    "I24061:333172;2977:12",
+    "I24061:333172;15543:5132;15918:5365",
+    "I24061:333172;15543:5132;15543:5189",
+    "24061:333173",
+    "25934:343389",
+    "25934:343392",
+    "24061:333178",
+    "24061:333181",
+    "24061:333183",
+    "26001:343547",
+    "24061:333196",
+    "24061:333198",
+    "I24061:333198;1344:234960",
+    "24061:333200",
+    "27977:789",
+    "27977:791",
+    "I27977:791;1344:234960",
+    "27977:793",
+    "24061:333185",
+    "24061:333189",
+    "I28477:54431;28469:467",
+    "24061:333191",
+    "I24061:333193;2977:3",
+    "I24061:333193;2977:4",
+    "I24061:333193;2977:7",
+    "I24061:333193;2977:8",
+    "I24061:333193;2977:9",
+    "I24061:333193;2977:10",
+    "I24061:333193;2977:11",
+    "I24061:333193;2977:12",
+    "I24061:333193;15543:5132;15918:5365",
+    "I24061:333193;15543:5132;15543:5189",
+    "24061:333195",
+    "25934:343419",
+    "25934:343423",
+    "24061:333201",
+    "24061:333204",
+    "24061:333206",
+    "26001:343551",
+    "24061:333217",
+    "24061:333219",
+    "I24061:333219;1362:203327",
+    "24061:333220",
+    "27977:799",
+    "27977:801",
+    "I27977:801;1362:203327",
+    "27977:802",
+    "24061:333208",
+    "24061:333211",
+    "I28477:54438;28469:467",
+    "24061:333213",
+    "I24061:333215;2977:3",
+    "I24061:333215;2977:4",
+    "I24061:333215;2977:7",
+    "I24061:333215;2977:8",
+    "I24061:333215;2977:9",
+    "I24061:333215;2977:10",
+    "I24061:333215;2977:11",
+    "I24061:333215;2977:12",
+    "I24061:333215;15543:5132;15918:5365",
+    "I24061:333215;15543:5132;15543:5189",
+    "24061:333216",
+    "25934:343450",
+    "25934:343453",
+    "39841:2741",
+    "39841:2744",
+    "39841:2746",
+    "39841:2748",
+    "39841:2749",
+    "39841:2751",
+    "39841:2752",
+    "39841:2755",
+    "39841:2756",
+    "39841:2759",
+    "39841:2761",
+    "39841:2763",
+    "39841:2764",
+    "39841:2767",
+    "39841:2769",
+    "39841:2771",
+    "39841:2772",
+    "39841:2775",
+    "39841:2777",
+    "39841:2779",
+    "39841:2780",
+    "39841:2783",
+    "39841:2784",
+    "39841:2787",
+    "34075:803",
+    "34075:819",
+    "34075:821",
+    "34075:823",
+    "38495:1744",
+    "38495:1746",
+    "38495:1747",
+    "38495:1748",
+    "32350:668",
+    "32350:1021",
+    "32350:1023",
+    "32350:673",
+    "32350:674",
+    "38495:1749",
+    "38495:1751",
+    "38495:1753",
+    "38495:1756",
+    "38495:1757",
+    "32351:2073",
+    "I32352:787;28469:53130",
+    "32351:2523",
+    "38496:1765",
+    "I38496:1768;28469:53109",
+    "38496:1769",
+    "33214:837",
+    "33214:848",
+    "33214:850",
+    "I33214:840;28469:53130",
+    "33214:841",
+    "38496:1777",
+    "38496:1780",
+    "38496:1782",
+    "I38496:1784;28469:53109",
+    "38496:1785",
+    "32352:977",
+    "32352:981",
+    "38496:1796",
+    "38496:1798",
+    "32352:828",
+    "32352:830",
+    "32352:832",
+    "32352:895",
+    "38496:1800",
+    "38496:1802",
+    "38496:1804",
+    "38496:1806",
+    "32352:920",
+    "32352:922",
+    "32352:924",
+    "32352:926",
+    "38496:1810",
+    "38496:1812",
+    "38496:1814",
+    "38496:1816",
+    "34076:824",
+    "34076:840",
+    "34076:841",
+    "34076:842",
+    "32350:1030",
+    "32350:1032",
+    "32350:1034",
+    "32350:1037",
+    "32350:1038",
+    "32351:2082",
+    "I32352:795;28469:53109",
+    "32352:811",
+    "33214:857",
+    "33214:868",
+    "33214:870",
+    "I33214:860;28469:53109",
+    "33214:861",
+    "32352:982",
+    "32352:986",
+    "32352:837",
+    "32352:839",
+    "32352:841",
+    "32352:899",
+    "32352:927",
+    "32352:929",
+    "32352:931",
+    "32352:933",
+    "32351:2041",
+    "34076:866",
+    "34076:867",
+    "34076:868",
+    "34076:843",
+    "34076:845",
+    "34076:847",
+    "32351:2091",
+    "32352:814",
+    "I32352:967;28469:467",
+    "33214:877",
+    "33214:887",
+    "33214:889",
+    "33214:879",
+    "I33214:880;28469:467",
+    "32352:987",
+    "32352:989",
+    "32352:846",
+    "32352:848",
+    "32352:850",
+    "32352:903",
+    "32352:934",
+    "32352:936",
+    "32352:938",
+    "32352:940",
+    "26838:475",
+    "26838:476",
+    "26838:479",
+    "26838:480",
+    "26838:491",
+    "26838:493",
+    "24077:332337",
+    "26838:481",
+    "26942:5361",
+    "24077:332340",
+    "26838:483",
+    "26838:489",
+    "24077:332313",
+    "26838:477",
+    "26942:5333",
+    "24077:332317",
+    "24077:332319",
+    "26838:478",
+    "I26450:335166;24077:332376",
+    "24077:332376"
+  ],
+  "initialAudit": {
+    "staticResult": null,
+    "page": "Лояльность",
+    "nodeCount": 1197,
+    "sources": [
+      {
+        "id": "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3",
+        "name": "[Deprecated]/Text & icon/on Dark/Primary",
+        "key": "8d1e4095c97d6f8de9740c869fae2aa91b41bd6d",
+        "count": 66,
+        "buckets": {
+          "outside": 2,
+          "own": 49,
+          "instance": 15
+        },
+        "example": {
+          "id": "24837:340304",
+          "name": "Title",
+          "field": "fills"
+        }
+      },
+      {
+        "id": "S:d7f7d444392bf827c9164932a969d3a371cbb04d,32110:170",
+        "name": "[Deprecated]/Fill/Solid/Primary",
+        "key": "d7f7d444392bf827c9164932a969d3a371cbb04d",
+        "count": 64,
+        "buckets": {
+          "own": 64
+        },
+        "example": {
+          "id": "24061:333118",
+          "name": "Breakponts=1720+, State=able",
+          "field": "fills",
+          "master": "24061:333118",
+          "masterName": "Breakponts=1720+, State=able"
+        }
+      },
+      {
+        "id": "S:eb0848c39cf58e48e9aae01f73f766c68f7bdde4,32110:4",
+        "name": "[Deprecated]/Text & icon/on Dark/Secondary",
+        "key": "eb0848c39cf58e48e9aae01f73f766c68f7bdde4",
+        "count": 65,
+        "buckets": {
+          "own": 65
+        },
+        "example": {
+          "id": "24061:333121",
+          "name": "1 бонус = 1 рубль",
+          "field": "fills",
+          "master": "24061:333118",
+          "masterName": "Breakponts=1720+, State=able"
+        }
+      },
+      {
+        "id": "S:e3ec3eec23dc45dab6e9ecf81f98639db564615b,39850:0",
+        "name": "[Deprecated]/Fill/Solid/Accent",
+        "key": "e3ec3eec23dc45dab6e9ecf81f98639db564615b",
+        "count": 18,
+        "buckets": {
+          "instance": 18
+        },
+        "example": {
+          "id": "26001:343507",
+          "name": "🟢 Switch",
+          "field": "fills",
+          "master": "24061:333118",
+          "masterName": "Breakponts=1720+, State=able",
+          "instance": "26001:343507"
+        }
+      },
+      {
+        "id": "S:3f22c2f6f68741f6009a395ea6e0be846163ac7c,17688:20",
+        "name": "Fill/Solid/On Dark/Third",
+        "key": "3f22c2f6f68741f6009a395ea6e0be846163ac7c",
+        "count": 10,
+        "buckets": {
+          "instance": 10
+        },
+        "example": {
+          "id": "24061:333136",
+          "name": "Spasibo Bubble",
+          "field": "fills",
+          "master": "24061:333134",
+          "masterName": "Breakponts=1720+, State=error",
+          "instance": "24061:333136"
+        }
+      },
+      {
+        "id": "S:0f7b602df21889b566056efb403ddb4aead4dede,16210:82",
+        "name": "Text & icon/on Dark/Forth",
+        "key": "0f7b602df21889b566056efb403ddb4aead4dede",
+        "count": 10,
+        "buckets": {
+          "instance": 10
+        },
+        "example": {
+          "id": "I24061:333136;1344:234898",
+          "name": "Используйте бонусы н",
+          "field": "fills",
+          "master": "24061:333134",
+          "masterName": "Breakponts=1720+, State=error",
+          "instance": "24061:333136"
+        }
+      },
+      {
+        "id": "S:93966f80a8f98edd0813922034755f73dbda0f49,32110:15",
+        "name": "[Deprecated]/Brand/Partners/Sber",
+        "key": "93966f80a8f98edd0813922034755f73dbda0f49",
+        "count": 13,
+        "buckets": {
+          "instance": 13
+        },
+        "example": {
+          "id": "28477:54413",
+          "name": "🔴 Partner Button",
+          "field": "fills",
+          "master": "24061:333125",
+          "masterName": "Breakponts=1720+, State=entry",
+          "instance": "28477:54413"
+        }
+      },
+      {
+        "id": "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+        "name": "[Deprecated]/Text & icon/on Dark/Forth",
+        "key": "0f7b602df21889b566056efb403ddb4aead4dede",
+        "count": 82,
+        "buckets": {
+          "instance": 74,
+          "own": 8
+        },
+        "example": {
+          "id": "I24061:333132;2977:3",
+          "name": "Vector",
+          "field": "region0",
+          "master": "24061:333130",
+          "masterName": "Breakponts=1720+, State=disable",
+          "instance": "24061:333132"
+        }
+      },
+      {
+        "id": "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "name": "[Deprecated]/Text & icon/on Dark/Third",
+        "key": "7ba87ccc576cd2381aee43f11162db346a88bf6a",
+        "count": 11,
+        "buckets": {
+          "own": 11
+        },
+        "example": {
+          "id": "24061:333204",
+          "name": "1 бонус = 1 рубль",
+          "field": "fills",
+          "master": "24061:333201",
+          "masterName": "Breakponts=320+, State=able"
+        }
+      },
+      {
+        "id": "S:81ef73114fabca69c765639a16166c28043d0b34,32110:65",
+        "name": "[Deprecated]/Fill/Technical/on Dark/Skeleton",
+        "key": "81ef73114fabca69c765639a16166c28043d0b34",
+        "count": 16,
+        "buckets": {
+          "own": 16
+        },
+        "example": {
+          "id": "39841:2751",
+          "name": "Frame 2",
+          "field": "fills",
+          "master": "39841:2749",
+          "masterName": "Size=Desktop, Loyality on=True, Skeleton=True"
+        }
+      },
+      {
+        "id": "S:3f22c2f6f68741f6009a395ea6e0be846163ac7c,32110:37",
+        "name": "[Deprecated]/Fill/Solid/Third",
+        "key": "3f22c2f6f68741f6009a395ea6e0be846163ac7c",
+        "count": 4,
+        "buckets": {
+          "instance": 4
+        },
+        "example": {
+          "id": "26942:5361",
+          "name": "_[Deprecated]Spasibo / Label/375+/Disabled/False",
+          "field": "fills",
+          "master": "26942:5360",
+          "masterName": "_[Deprecated]🟡  Tumbler Spasibo/375+/another method/False",
+          "instance": "26942:5361"
+        }
+      },
+      {
+        "id": "S:4e8ca772b49d5b02391ce1d8bbac531eae429f25,32110:52",
+        "name": "[Deprecated]/Text & icon/on Light/Primary",
+        "key": "4e8ca772b49d5b02391ce1d8bbac531eae429f25",
+        "count": 10,
+        "buckets": {
+          "own": 10
+        },
+        "example": {
+          "id": "27269:28429",
+          "name": "Обменять на скидку",
+          "field": "fills",
+          "master": "27269:28426",
+          "masterName": "_[Deprecated]🟡  Tumbler Spasibo/1720+/able/True"
+        }
+      },
+      {
+        "id": "S:13f1e41467f7c536b0c0f5e60463105cc260c9d4,32110:54",
+        "name": "[Deprecated]/Text & icon/on Light/Third",
+        "key": "13f1e41467f7c536b0c0f5e60463105cc260c9d4",
+        "count": 30,
+        "buckets": {
+          "own": 20,
+          "instance": 10
+        },
+        "example": {
+          "id": "27269:28448",
+          "name": "Копите бонусы и тратьте их на покупки и оплату подписки",
+          "field": "fills",
+          "master": "27269:28446",
+          "masterName": "_[Deprecated]🟡  Tumbler Spasibo/1720+/0 TVOD/True"
+        }
+      },
+      {
+        "id": "S:2d18b315097685552c2b414e160cfdb5b917f5e7,32110:39",
+        "name": "[Deprecated]/Fill/Glassy/Third",
+        "key": "2d18b315097685552c2b414e160cfdb5b917f5e7",
+        "count": 15,
+        "buckets": {
+          "instance": 10,
+          "own": 5
+        },
+        "example": {
+          "id": "27269:28464",
+          "name": "_[Deprecated]🟡  Bubble Spasibo/1720+/Disabled/True",
+          "field": "fills",
+          "master": "27269:28463",
+          "masterName": "_[Deprecated]🟡  Tumbler Spasibo/1720+/another method/True",
+          "instance": "27269:28464"
+        }
+      },
+      {
+        "id": "S:f5f2af76c60e44caba680c8ee934be466d36887b,17376:26",
+        "name": "Brand/Partners/Sber Gradient",
+        "key": "f5f2af76c60e44caba680c8ee934be466d36887b",
+        "count": 1,
+        "buckets": {
+          "own": 1
+        },
+        "example": {
+          "id": "27269:28562",
+          "name": "_[Deprecated]🟡  Bubble Spasibo/375+/Rest/True",
+          "field": "fills",
+          "master": "27269:28562",
+          "masterName": "_[Deprecated]🟡  Bubble Spasibo/375+/Rest/True"
+        }
+      },
+      {
+        "id": "S:226e1a8c1ee49501b31192cb7224c0f95117b1f8,7108:63",
+        "name": "NEW SB Gradient",
+        "key": "226e1a8c1ee49501b31192cb7224c0f95117b1f8",
+        "count": 2,
+        "buckets": {
+          "outside": 2
+        },
+        "example": {
+          "id": "43123:593",
+          "name": "Label Main",
+          "field": "fills",
+          "instance": "43123:593"
+        }
+      },
+      {
+        "id": "S:c6ead7a76115dc23db957ae638c9e1e2609c5521,1392:1",
+        "name": "Main / White",
+        "key": "c6ead7a76115dc23db957ae638c9e1e2609c5521",
+        "count": 2,
+        "buckets": {
+          "outside": 2
+        },
+        "example": {
+          "id": "I43123:593;1482:63306",
+          "name": "Label",
+          "field": "fills",
+          "instance": "43123:593"
+        }
+      }
+    ],
+    "remainingRows": [
+      [
+        "24061:333118",
+        "fills",
+        "S:d7f7d444392bf827c9164932a969d3a371cbb04d,32110:170",
+        "24061:333118",
+        null,
+        0,
+        0
+      ],
+      [
+        "24061:333121",
+        "fills",
+        "S:eb0848c39cf58e48e9aae01f73f766c68f7bdde4,32110:4",
+        "24061:333118",
+        null,
+        0,
+        0
+      ],
+      [
+        "24061:333123",
+        "fills",
+        "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3",
+        "24061:333118",
+        null,
+        0,
+        0
+      ],
+      [
+        "26001:343507",
+        "fills",
+        "S:e3ec3eec23dc45dab6e9ecf81f98639db564615b,39850:0",
+        "24061:333118",
+        "26001:343507",
+        0,
+        0
+      ],
+      [
+        "24061:333134",
+        "fills",
+        "S:d7f7d444392bf827c9164932a969d3a371cbb04d,32110:170",
+        "24061:333134",
+        null,
+        0,
+        0
+      ],
+      [
+        "24061:333136",
+        "fills",
+        "S:3f22c2f6f68741f6009a395ea6e0be846163ac7c,17688:20",
+        "24061:333134",
+        "24061:333136",
+        0,
+        0
+      ],
+      [
+        "I24061:333136;1344:234898",
+        "fills",
+        "S:0f7b602df21889b566056efb403ddb4aead4dede,16210:82",
+        "24061:333134",
+        "24061:333136",
+        0,
+        0
+      ],
+      [
+        "24061:333137",
+        "fills",
+        "S:eb0848c39cf58e48e9aae01f73f766c68f7bdde4,32110:4",
+        "24061:333134",
+        null,
+        0,
+        0
+      ],
+      [
+        "27977:747",
+        "fills",
+        "S:d7f7d444392bf827c9164932a969d3a371cbb04d,32110:170",
+        "27977:747",
+        null,
+        0,
+        0
+      ],
+      [
+        "27977:749",
+        "fills",
+        "S:3f22c2f6f68741f6009a395ea6e0be846163ac7c,17688:20",
+        "27977:747",
+        "27977:749",
+        0,
+        0
+      ],
+      [
+        "I27977:749;1344:234898",
+        "fills",
+        "S:0f7b602df21889b566056efb403ddb4aead4dede,16210:82",
+        "27977:747",
+        "27977:749",
+        0,
+        0
+      ],
+      [
+        "27977:750",
+        "fills",
+        "S:eb0848c39cf58e48e9aae01f73f766c68f7bdde4,32110:4",
+        "27977:747",
+        null,
+        0,
+        0
+      ],
+      [
+        "24061:333125",
+        "fills",
+        "S:d7f7d444392bf827c9164932a969d3a371cbb04d,32110:170",
+        "24061:333125",
+        null,
+        0,
+        0
+      ],
+      [
+        "24061:333128",
+        "fills",
+        "S:eb0848c39cf58e48e9aae01f73f766c68f7bdde4,32110:4",
+        "24061:333125",
+        null,
+        0,
+        0
+      ],
+      [
+        "28477:54413",
+        "fills",
+        "S:93966f80a8f98edd0813922034755f73dbda0f49,32110:15",
+        "24061:333125",
+        "28477:54413",
+        0,
+        0
+      ],
+      [
+        "I28477:54413;28469:53130",
+        "fills",
+        "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3",
+        "24061:333125",
+        "28477:54413",
+        0,
+        0
+      ],
+      [
+        "24061:333130",
+        "fills",
+        "S:d7f7d444392bf827c9164932a969d3a371cbb04d,32110:170",
+        "24061:333130",
+        null,
+        0,
+        0
+      ],
+      [
+        "I24061:333132;2977:3",
+        "region0",
+        "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+        "24061:333130",
+        "24061:333132",
+        0,
+        0
+      ],
+      [
+        "I24061:333132;2977:4",
+        "region0",
+        "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+        "24061:333130",
+        "24061:333132",
+        0,
+        0
+      ],
+      [
+        "I24061:333132;2977:7",
+        "region0",
+        "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+        "24061:333130",
+        "24061:333132",
+        0,
+        0
+      ],
+      [
+        "I24061:333132;2977:8",
+        "region0",
+        "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+        "24061:333130",
+        "24061:333132",
+        0,
+        0
+      ],
+      [
+        "I24061:333132;2977:9",
+        "region0",
+        "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+        "24061:333130",
+        "24061:333132",
+        0,
+        0
+      ],
+      [
+        "I24061:333132;2977:10",
+        "region0",
+        "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+        "24061:333130",
+        "24061:333132",
+        0,
+        0
+      ],
+      [
+        "I24061:333132;2977:11",
+        "region0",
+        "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+        "24061:333130",
+        "24061:333132",
+        0,
+        0
+      ],
+      [
+        "I24061:333132;2977:12",
+        "region0",
+        "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+        "24061:333130",
+        "24061:333132",
+        0,
+        0
+      ],
+      [
+        "I24061:333132;15543:5132;15918:5365",
+        "region0",
+        "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+        "24061:333130",
+        "I24061:333132;15543:5132",
+        0,
+        0
+      ],
+      [
+        "I24061:333132;15543:5132;15543:5189",
+        "region0",
+        "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+        "24061:333130",
+        "I24061:333132;15543:5132",
+        0,
+        0
+      ],
+      [
+        "24061:333133",
+        "fills",
+        "S:eb0848c39cf58e48e9aae01f73f766c68f7bdde4,32110:4",
+        "24061:333130",
+        null,
+        0,
+        0
+      ],
+      [
+        "25912:343365",
+        "fills",
+        "S:d7f7d444392bf827c9164932a969d3a371cbb04d,32110:170",
+        "25912:343365",
+        null,
+        0,
+        0
+      ],
+      [
+        "25912:343368",
+        "fills",
+        "S:eb0848c39cf58e48e9aae01f73f766c68f7bdde4,32110:4",
+        "25912:343365",
+        null,
+        0,
+        0
+      ]
+    ],
+    "reasons": {
+      "kids": 0,
+      "light": 0,
+      "outside": 6,
+      "eligible": 413
+    },
+    "remainingCount": 419,
+    "unresolved": [],
+    "variableDetails": [
+      {
+        "kind": "variable",
+        "id": "VariableID:68b8fbbbc78be34af7815443b21ef244eee6b6b0/39850:98",
+        "count": 18,
+        "buckets": {
+          "instance": 18
+        },
+        "examples": [
+          {
+            "id": "26001:343507",
+            "name": "🟢 Switch",
+            "field": "fills",
+            "master": "24061:333118",
+            "masterName": "Breakponts=1720+, State=able",
+            "instance": "26001:343507",
+            "i": 0
+          },
+          {
+            "id": "26001:343539",
+            "name": "🟢 Switch",
+            "field": "fills",
+            "master": "24061:333138",
+            "masterName": "Breakponts=1320+, State=able",
+            "instance": "26001:343539",
+            "i": 0
+          }
+        ],
+        "name": "primitives/electric900",
+        "key": "68b8fbbbc78be34af7815443b21ef244eee6b6b0",
+        "collection": "VariableCollectionId:9bfe8dde6e700cc0754156917935eea46ac309ee/32016:4307"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:d92b20d2fd97d8577428adfcf2584ae668bc2965/41700:29",
+        "count": 24,
+        "buckets": {
+          "instance": 24
+        },
+        "examples": [
+          {
+            "id": "I26001:343507;19870:304661",
+            "name": "Circle",
+            "field": "fills",
+            "master": "24061:333118",
+            "masterName": "Breakponts=1720+, State=able",
+            "instance": "26001:343507",
+            "i": 0
+          },
+          {
+            "id": "I26001:343539;19870:304661",
+            "name": "Circle",
+            "field": "fills",
+            "master": "24061:333138",
+            "masterName": "Breakponts=1320+, State=able",
+            "instance": "26001:343539",
+            "i": 0
+          }
+        ],
+        "name": "color/fill/solid/inverse",
+        "key": "d92b20d2fd97d8577428adfcf2584ae668bc2965",
+        "collection": "VariableCollectionId:1c6e07816c9c7d8423d676736c66af0f797411bb/41700:0"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:9e12bc25e3281b165355d673382a33f31f5a3fd8/41564:79",
+        "count": 32,
+        "buckets": {
+          "instance": 32
+        },
+        "examples": [
+          {
+            "id": "I32352:979;26255:216",
+            "name": "Union",
+            "field": "region5",
+            "master": "32352:977",
+            "masterName": "Breakponts=1720+, State=Dissable, Skeleton=False",
+            "instance": "32352:979",
+            "i": 0
+          },
+          {
+            "id": "I32352:979;26255:216",
+            "name": "Union",
+            "field": "region6",
+            "master": "32352:977",
+            "masterName": "Breakponts=1720+, State=Dissable, Skeleton=False",
+            "instance": "32352:979",
+            "i": 0
+          }
+        ],
+        "name": "brand/partners/sber",
+        "key": "9e12bc25e3281b165355d673382a33f31f5a3fd8",
+        "collection": "VariableCollectionId:9bfe8dde6e700cc0754156917935eea46ac309ee/32016:4307"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:bb9358cae6559d7a3001214747d015afcad82da0/41700:25",
+        "count": 5,
+        "buckets": {
+          "instance": 5
+        },
+        "examples": [
+          {
+            "id": "24077:332302",
+            "name": "🟢 Switch",
+            "field": "fills",
+            "master": "24077:332298",
+            "masterName": "Breakpoints=1720+, Type=able",
+            "instance": "24077:332302",
+            "i": 0
+          },
+          {
+            "id": "24077:332308",
+            "name": "🟢 Switch",
+            "field": "fills",
+            "master": "24077:332303",
+            "masterName": "Breakpoints=1720+, Type=max discount",
+            "instance": "24077:332308",
+            "i": 0
+          }
+        ],
+        "name": "color/fill/solid/accent",
+        "key": "bb9358cae6559d7a3001214747d015afcad82da0",
+        "collection": "VariableCollectionId:1c6e07816c9c7d8423d676736c66af0f797411bb/41700:0"
+      }
+    ],
+    "noncanonicalColorStyles": [],
+    "mixed": [],
+    "errors": []
+  },
+  "initialAuditThemeClassification": "before inferred /True light-context guard",
+  "standard": {
+    "mode": "instance",
+    "found": 297,
+    "attempted": 297,
+    "mutatedNodeIds": [
+      "24061:333118",
+      "24061:333121",
+      "24061:333123",
+      "26001:343507",
+      "24061:333134",
+      "24061:333136",
+      "I24061:333136;1344:234898",
+      "24061:333137",
+      "27977:747",
+      "27977:749",
+      "I27977:749;1344:234898",
+      "27977:750",
+      "24061:333125",
+      "24061:333128",
+      "I28477:54413;28469:53130",
+      "24061:333130",
+      "I24061:333132;2977:3",
+      "I24061:333132;2977:4",
+      "I24061:333132;2977:7",
+      "I24061:333132;2977:8",
+      "I24061:333132;2977:9",
+      "I24061:333132;2977:10",
+      "I24061:333132;2977:11",
+      "I24061:333132;2977:12",
+      "I24061:333132;15543:5132;15918:5365",
+      "I24061:333132;15543:5132;15543:5189",
+      "24061:333133",
+      "25912:343365",
+      "25912:343368",
+      "24061:333138",
+      "24061:333141",
+      "24061:333143",
+      "26001:343539",
+      "24061:333154",
+      "24061:333156",
+      "I24061:333156;1362:203155",
+      "24061:333157",
+      "27977:756",
+      "27977:758",
+      "I27977:758;1362:203155",
+      "27977:759",
+      "24061:333145",
+      "24061:333148",
+      "I28477:54417;28469:53109",
+      "24061:333150",
+      "I24061:333152;2977:3",
+      "I24061:333152;2977:4",
+      "I24061:333152;2977:7",
+      "I24061:333152;2977:8",
+      "I24061:333152;2977:9",
+      "I24061:333152;2977:10",
+      "I24061:333152;2977:11",
+      "I24061:333152;2977:12",
+      "I24061:333152;15543:5132;15918:5365",
+      "I24061:333152;15543:5132;15543:5189",
+      "24061:333153",
+      "25934:343359",
+      "25934:343362",
+      "24061:333158",
+      "24061:333161",
+      "24061:333163",
+      "26001:343543",
+      "24061:333174",
+      "24061:333176",
+      "I24061:333176;1362:203202",
+      "24061:333177",
+      "27977:765",
+      "27977:767",
+      "I27977:767;1362:203202",
+      "27977:768",
+      "24061:333165",
+      "24061:333168",
+      "I28477:54424;28469:53109",
+      "24061:333170",
+      "I24061:333172;2977:3",
+      "I24061:333172;2977:4",
+      "I24061:333172;2977:7",
+      "I24061:333172;2977:8",
+      "I24061:333172;2977:9",
+      "I24061:333172;2977:10",
+      "I24061:333172;2977:11",
+      "I24061:333172;2977:12",
+      "I24061:333172;15543:5132;15918:5365",
+      "I24061:333172;15543:5132;15543:5189",
+      "24061:333173",
+      "25934:343389",
+      "25934:343392",
+      "24061:333178",
+      "24061:333181",
+      "24061:333183",
+      "26001:343547",
+      "24061:333196",
+      "24061:333198",
+      "I24061:333198;1344:234960",
+      "24061:333200",
+      "27977:789",
+      "27977:791",
+      "I27977:791;1344:234960",
+      "27977:793",
+      "24061:333185",
+      "24061:333189",
+      "I28477:54431;28469:467",
+      "24061:333191",
+      "I24061:333193;2977:3",
+      "I24061:333193;2977:4",
+      "I24061:333193;2977:7",
+      "I24061:333193;2977:8",
+      "I24061:333193;2977:9",
+      "I24061:333193;2977:10",
+      "I24061:333193;2977:11",
+      "I24061:333193;2977:12",
+      "I24061:333193;15543:5132;15918:5365",
+      "I24061:333193;15543:5132;15543:5189",
+      "24061:333195",
+      "25934:343419",
+      "25934:343423",
+      "24061:333201",
+      "24061:333204",
+      "24061:333206",
+      "26001:343551",
+      "24061:333217",
+      "24061:333219",
+      "I24061:333219;1362:203327",
+      "24061:333220",
+      "27977:799",
+      "27977:801",
+      "I27977:801;1362:203327",
+      "27977:802",
+      "24061:333208",
+      "24061:333211",
+      "I28477:54438;28469:467",
+      "24061:333213",
+      "I24061:333215;2977:3",
+      "I24061:333215;2977:4",
+      "I24061:333215;2977:7",
+      "I24061:333215;2977:8",
+      "I24061:333215;2977:9",
+      "I24061:333215;2977:10",
+      "I24061:333215;2977:11",
+      "I24061:333215;2977:12",
+      "I24061:333215;15543:5132;15918:5365",
+      "I24061:333215;15543:5132;15543:5189",
+      "24061:333216",
+      "25934:343450",
+      "25934:343453",
+      "39841:2741",
+      "39841:2744",
+      "39841:2746",
+      "39841:2748",
+      "39841:2749",
+      "39841:2751",
+      "39841:2752",
+      "39841:2755",
+      "39841:2756",
+      "39841:2759",
+      "39841:2761",
+      "39841:2763",
+      "39841:2764",
+      "39841:2767",
+      "39841:2769",
+      "39841:2771",
+      "39841:2772",
+      "39841:2775",
+      "39841:2777",
+      "39841:2779",
+      "39841:2780",
+      "39841:2783",
+      "39841:2784",
+      "39841:2787",
+      "34075:803",
+      "34075:819",
+      "34075:821",
+      "34075:823",
+      "38495:1744",
+      "38495:1746",
+      "38495:1747",
+      "38495:1748",
+      "32350:668",
+      "32350:1021",
+      "32350:1023",
+      "32350:673",
+      "32350:674",
+      "38495:1749",
+      "38495:1751",
+      "38495:1753",
+      "38495:1756",
+      "38495:1757",
+      "32351:2073",
+      "I32352:787;28469:53130",
+      "32351:2523",
+      "38496:1765",
+      "I38496:1768;28469:53109",
+      "38496:1769",
+      "33214:837",
+      "33214:848",
+      "33214:850",
+      "I33214:840;28469:53130",
+      "33214:841",
+      "38496:1777",
+      "38496:1780",
+      "38496:1782",
+      "I38496:1784;28469:53109",
+      "38496:1785",
+      "32352:977",
+      "32352:981",
+      "38496:1796",
+      "38496:1798",
+      "32352:828",
+      "32352:830",
+      "32352:832",
+      "32352:895",
+      "38496:1800",
+      "38496:1802",
+      "38496:1804",
+      "38496:1806",
+      "32352:920",
+      "32352:922",
+      "32352:924",
+      "32352:926",
+      "38496:1810",
+      "38496:1812",
+      "38496:1814",
+      "38496:1816",
+      "34076:824",
+      "34076:840",
+      "34076:841",
+      "34076:842",
+      "32350:1030",
+      "32350:1032",
+      "32350:1034",
+      "32350:1037",
+      "32350:1038",
+      "32351:2082",
+      "I32352:795;28469:53109",
+      "32352:811",
+      "33214:857",
+      "33214:868",
+      "33214:870",
+      "I33214:860;28469:53109",
+      "33214:861",
+      "32352:982",
+      "32352:986",
+      "32352:837",
+      "32352:839",
+      "32352:841",
+      "32352:899",
+      "32352:927",
+      "32352:929",
+      "32352:931",
+      "32352:933",
+      "32351:2041",
+      "34076:866",
+      "34076:867",
+      "34076:868",
+      "34076:843",
+      "34076:845",
+      "34076:847",
+      "32351:2091",
+      "32352:814",
+      "I32352:967;28469:467",
+      "33214:877",
+      "33214:887",
+      "33214:889",
+      "33214:879",
+      "I33214:880;28469:467",
+      "32352:987",
+      "32352:989",
+      "32352:846",
+      "32352:848",
+      "32352:850",
+      "32352:903",
+      "32352:934",
+      "32352:936",
+      "32352:938",
+      "32352:940",
+      "26838:475",
+      "26838:476",
+      "26838:479",
+      "26838:480",
+      "26838:491",
+      "26838:493",
+      "24077:332337",
+      "26838:481",
+      "26942:5361",
+      "24077:332340",
+      "26838:483",
+      "26838:489",
+      "24077:332313",
+      "26838:477",
+      "26942:5333",
+      "24077:332317",
+      "24077:332319",
+      "26838:478"
+    ],
+    "applied": 293,
+    "summary": {
+      "color/fill/solid/primary": 64,
+      "color/text-icon/secondary": 65,
+      "color/text-icon/primary": 47,
+      "color/fill/solid/accent": 8,
+      "color/fill/solid/third": 14,
+      "color/text-icon/fourth": 68,
+      "color/text-icon/third": 11,
+      "color/fill/technical/skeleton": 16
+    },
+    "errors": [
+      {
+        "id": "I32352:979;26255:216",
+        "field": "fills",
+        "message": "Error: mixed paints"
+      },
+      {
+        "id": "I38496:1797;26255:216",
+        "field": "fills",
+        "message": "Error: mixed paints"
+      },
+      {
+        "id": "I32352:984;26255:216",
+        "field": "fills",
+        "message": "Error: mixed paints"
+      },
+      {
+        "id": "I32352:988;26255:216",
+        "field": "fills",
+        "message": "Error: mixed paints"
+      }
+    ]
+  },
+  "finalAudit": {
+    "staticResult": {
+      "found": 17,
+      "mutatedNodeIds": [
+        "I28477:54413;28469:53130",
+        "I28477:54417;28469:53109",
+        "I28477:54424;28469:53109",
+        "I26450:335166;24077:332376",
+        "I28477:54431;28469:467",
+        "I28477:54438;28469:467",
+        "I32352:787;28469:53130",
+        "I38496:1768;28469:53109",
+        "I33214:840;28469:53130",
+        "I38496:1784;28469:53109",
+        "I32352:795;28469:53109",
+        "I33214:860;28469:53109",
+        "I32352:967;28469:467",
+        "I33214:880;28469:467",
+        "24077:332376"
+      ],
+      "recordCount": 15,
+      "errors": [],
+      "unsupportedCount": 0,
+      "unsupported": [],
+      "skipped": [],
+      "rawCount": 29
+    },
+    "page": "Лояльность",
+    "nodeCount": 1197,
+    "sources": [
+      {
+        "id": "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3",
+        "name": "[Deprecated]/Text & icon/on Dark/Primary",
+        "key": "8d1e4095c97d6f8de9740c869fae2aa91b41bd6d",
+        "count": 19,
+        "buckets": {
+          "outside": 2,
+          "light": 17
+        },
+        "example": {
+          "id": "24837:340304",
+          "name": "Title",
+          "field": "fills"
+        }
+      },
+      {
+        "id": "S:93966f80a8f98edd0813922034755f73dbda0f49,32110:15",
+        "name": "[Deprecated]/Brand/Partners/Sber",
+        "key": "93966f80a8f98edd0813922034755f73dbda0f49",
+        "count": 13,
+        "buckets": {
+          "instance": 13
+        },
+        "example": {
+          "id": "28477:54413",
+          "name": "🔴 Partner Button",
+          "field": "fills",
+          "master": "24061:333125",
+          "masterName": "Breakponts=1720+, State=entry",
+          "instance": "28477:54413"
+        }
+      },
+      {
+        "id": "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+        "name": "[Deprecated]/Text & icon/on Dark/Forth",
+        "key": "0f7b602df21889b566056efb403ddb4aead4dede",
+        "count": 24,
+        "buckets": {
+          "instance": 24
+        },
+        "example": {
+          "id": "I32352:979;26255:216",
+          "name": "Union",
+          "field": "region0",
+          "master": "32352:977",
+          "masterName": "Breakponts=1720+, State=Dissable, Skeleton=False",
+          "instance": "32352:979"
+        }
+      },
+      {
+        "id": "S:4e8ca772b49d5b02391ce1d8bbac531eae429f25,32110:52",
+        "name": "[Deprecated]/Text & icon/on Light/Primary",
+        "key": "4e8ca772b49d5b02391ce1d8bbac531eae429f25",
+        "count": 10,
+        "buckets": {
+          "light": 10
+        },
+        "example": {
+          "id": "27269:28429",
+          "name": "Обменять на скидку",
+          "field": "fills",
+          "master": "27269:28426",
+          "masterName": "_[Deprecated]🟡  Tumbler Spasibo/1720+/able/True",
+          "light": true,
+          "loyaltyDeferred": true
+        }
+      },
+      {
+        "id": "S:e3ec3eec23dc45dab6e9ecf81f98639db564615b,39850:0",
+        "name": "[Deprecated]/Fill/Solid/Accent",
+        "key": "e3ec3eec23dc45dab6e9ecf81f98639db564615b",
+        "count": 10,
+        "buckets": {
+          "light": 10
+        },
+        "example": {
+          "id": "27269:28431",
+          "name": "🟢 Switch",
+          "field": "fills",
+          "master": "27269:28426",
+          "masterName": "_[Deprecated]🟡  Tumbler Spasibo/1720+/able/True",
+          "light": true,
+          "loyaltyDeferred": true,
+          "instance": "27269:28431"
+        }
+      },
+      {
+        "id": "S:13f1e41467f7c536b0c0f5e60463105cc260c9d4,32110:54",
+        "name": "[Deprecated]/Text & icon/on Light/Third",
+        "key": "13f1e41467f7c536b0c0f5e60463105cc260c9d4",
+        "count": 30,
+        "buckets": {
+          "light": 30
+        },
+        "example": {
+          "id": "27269:28448",
+          "name": "Копите бонусы и тратьте их на покупки и оплату подписки",
+          "field": "fills",
+          "master": "27269:28446",
+          "masterName": "_[Deprecated]🟡  Tumbler Spasibo/1720+/0 TVOD/True",
+          "light": true,
+          "loyaltyDeferred": true
+        }
+      },
+      {
+        "id": "S:2d18b315097685552c2b414e160cfdb5b917f5e7,32110:39",
+        "name": "[Deprecated]/Fill/Glassy/Third",
+        "key": "2d18b315097685552c2b414e160cfdb5b917f5e7",
+        "count": 15,
+        "buckets": {
+          "light": 15
+        },
+        "example": {
+          "id": "27269:28464",
+          "name": "_[Deprecated]🟡  Bubble Spasibo/1720+/Disabled/True",
+          "field": "fills",
+          "master": "27269:28463",
+          "masterName": "_[Deprecated]🟡  Tumbler Spasibo/1720+/another method/True",
+          "light": true,
+          "loyaltyDeferred": true,
+          "instance": "27269:28464"
+        }
+      },
+      {
+        "id": "S:f5f2af76c60e44caba680c8ee934be466d36887b,17376:26",
+        "name": "Brand/Partners/Sber Gradient",
+        "key": "f5f2af76c60e44caba680c8ee934be466d36887b",
+        "count": 1,
+        "buckets": {
+          "light": 1
+        },
+        "example": {
+          "id": "27269:28562",
+          "name": "_[Deprecated]🟡  Bubble Spasibo/375+/Rest/True",
+          "field": "fills",
+          "master": "27269:28562",
+          "masterName": "_[Deprecated]🟡  Bubble Spasibo/375+/Rest/True",
+          "light": true,
+          "loyaltyDeferred": true
+        }
+      },
+      {
+        "id": "S:226e1a8c1ee49501b31192cb7224c0f95117b1f8,7108:63",
+        "name": "NEW SB Gradient",
+        "key": "226e1a8c1ee49501b31192cb7224c0f95117b1f8",
+        "count": 2,
+        "buckets": {
+          "outside": 2
+        },
+        "example": {
+          "id": "43123:593",
+          "name": "Label Main",
+          "field": "fills",
+          "instance": "43123:593"
+        }
+      },
+      {
+        "id": "S:c6ead7a76115dc23db957ae638c9e1e2609c5521,1392:1",
+        "name": "Main / White",
+        "key": "c6ead7a76115dc23db957ae638c9e1e2609c5521",
+        "count": 2,
+        "buckets": {
+          "outside": 2
+        },
+        "example": {
+          "id": "I43123:593;1482:63306",
+          "name": "Label",
+          "field": "fills",
+          "instance": "43123:593"
+        }
+      }
+    ],
+    "remainingRows": [
+      [
+        "28477:54413",
+        "fills",
+        "S:93966f80a8f98edd0813922034755f73dbda0f49,32110:15",
+        "24061:333125",
+        "28477:54413",
+        0,
+        0
+      ],
+      [
+        "28477:54417",
+        "fills",
+        "S:93966f80a8f98edd0813922034755f73dbda0f49,32110:15",
+        "24061:333145",
+        "28477:54417",
+        0,
+        0
+      ],
+      [
+        "28477:54424",
+        "fills",
+        "S:93966f80a8f98edd0813922034755f73dbda0f49,32110:15",
+        "24061:333165",
+        "28477:54424",
+        0,
+        0
+      ],
+      [
+        "28477:54431",
+        "fills",
+        "S:93966f80a8f98edd0813922034755f73dbda0f49,32110:15",
+        "24061:333185",
+        "28477:54431",
+        0,
+        0
+      ],
+      [
+        "28477:54438",
+        "fills",
+        "S:93966f80a8f98edd0813922034755f73dbda0f49,32110:15",
+        "24061:333208",
+        "28477:54438",
+        0,
+        0
+      ],
+      [
+        "32352:787",
+        "fills",
+        "S:93966f80a8f98edd0813922034755f73dbda0f49,32110:15",
+        "32351:2073",
+        "32352:787",
+        0,
+        0
+      ],
+      [
+        "38496:1768",
+        "fills",
+        "S:93966f80a8f98edd0813922034755f73dbda0f49,32110:15",
+        "38496:1765",
+        "38496:1768",
+        0,
+        0
+      ],
+      [
+        "33214:840",
+        "fills",
+        "S:93966f80a8f98edd0813922034755f73dbda0f49,32110:15",
+        "33214:837",
+        "33214:840",
+        0,
+        0
+      ],
+      [
+        "38496:1784",
+        "fills",
+        "S:93966f80a8f98edd0813922034755f73dbda0f49,32110:15",
+        "38496:1777",
+        "38496:1784",
+        0,
+        0
+      ],
+      [
+        "I32352:979;26255:216",
+        "region0",
+        "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+        "32352:977",
+        "32352:979",
+        0,
+        0
+      ],
+      [
+        "I32352:979;26255:216",
+        "region1",
+        "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+        "32352:977",
+        "32352:979",
+        0,
+        0
+      ],
+      [
+        "I32352:979;26255:216",
+        "region2",
+        "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+        "32352:977",
+        "32352:979",
+        0,
+        0
+      ],
+      [
+        "I32352:979;26255:216",
+        "region3",
+        "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+        "32352:977",
+        "32352:979",
+        0,
+        0
+      ],
+      [
+        "I32352:979;26255:216",
+        "region4",
+        "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+        "32352:977",
+        "32352:979",
+        0,
+        0
+      ],
+      [
+        "I32352:979;26255:216",
+        "region8",
+        "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+        "32352:977",
+        "32352:979",
+        0,
+        0
+      ],
+      [
+        "I38496:1797;26255:216",
+        "region0",
+        "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+        "38496:1796",
+        "38496:1797",
+        0,
+        0
+      ],
+      [
+        "I38496:1797;26255:216",
+        "region1",
+        "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+        "38496:1796",
+        "38496:1797",
+        0,
+        0
+      ],
+      [
+        "I38496:1797;26255:216",
+        "region2",
+        "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+        "38496:1796",
+        "38496:1797",
+        0,
+        0
+      ],
+      [
+        "I38496:1797;26255:216",
+        "region3",
+        "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+        "38496:1796",
+        "38496:1797",
+        0,
+        0
+      ],
+      [
+        "I38496:1797;26255:216",
+        "region4",
+        "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+        "38496:1796",
+        "38496:1797",
+        0,
+        0
+      ],
+      [
+        "I38496:1797;26255:216",
+        "region8",
+        "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+        "38496:1796",
+        "38496:1797",
+        0,
+        0
+      ],
+      [
+        "32352:795",
+        "fills",
+        "S:93966f80a8f98edd0813922034755f73dbda0f49,32110:15",
+        "32351:2082",
+        "32352:795",
+        0,
+        0
+      ],
+      [
+        "33214:860",
+        "fills",
+        "S:93966f80a8f98edd0813922034755f73dbda0f49,32110:15",
+        "33214:857",
+        "33214:860",
+        0,
+        0
+      ],
+      [
+        "I32352:984;26255:216",
+        "region0",
+        "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+        "32352:982",
+        "32352:984",
+        0,
+        0
+      ],
+      [
+        "I32352:984;26255:216",
+        "region1",
+        "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+        "32352:982",
+        "32352:984",
+        0,
+        0
+      ],
+      [
+        "I32352:984;26255:216",
+        "region2",
+        "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+        "32352:982",
+        "32352:984",
+        0,
+        0
+      ],
+      [
+        "I32352:984;26255:216",
+        "region3",
+        "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+        "32352:982",
+        "32352:984",
+        0,
+        0
+      ],
+      [
+        "I32352:984;26255:216",
+        "region4",
+        "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+        "32352:982",
+        "32352:984",
+        0,
+        0
+      ],
+      [
+        "I32352:984;26255:216",
+        "region8",
+        "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+        "32352:982",
+        "32352:984",
+        0,
+        0
+      ],
+      [
+        "32352:967",
+        "fills",
+        "S:93966f80a8f98edd0813922034755f73dbda0f49,32110:15",
+        "32351:2091",
+        "32352:967",
+        0,
+        0
+      ],
+      [
+        "33214:880",
+        "fills",
+        "S:93966f80a8f98edd0813922034755f73dbda0f49,32110:15",
+        "33214:877",
+        "33214:880",
+        0,
+        0
+      ],
+      [
+        "I32352:988;26255:216",
+        "region0",
+        "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+        "32352:987",
+        "32352:988",
+        0,
+        0
+      ],
+      [
+        "I32352:988;26255:216",
+        "region1",
+        "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+        "32352:987",
+        "32352:988",
+        0,
+        0
+      ],
+      [
+        "I32352:988;26255:216",
+        "region2",
+        "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+        "32352:987",
+        "32352:988",
+        0,
+        0
+      ],
+      [
+        "I32352:988;26255:216",
+        "region3",
+        "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+        "32352:987",
+        "32352:988",
+        0,
+        0
+      ],
+      [
+        "I32352:988;26255:216",
+        "region4",
+        "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+        "32352:987",
+        "32352:988",
+        0,
+        0
+      ],
+      [
+        "I32352:988;26255:216",
+        "region8",
+        "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+        "32352:987",
+        "32352:988",
+        0,
+        0
+      ]
+    ],
+    "reasons": {
+      "kids": 0,
+      "light": 83,
+      "outside": 6,
+      "eligible": 37
+    },
+    "remainingCount": 126,
+    "unresolved": [],
+    "variableDetails": [
+      {
+        "kind": "variable",
+        "id": "VariableID:d92b20d2fd97d8577428adfcf2584ae668bc2965/41700:29",
+        "count": 24,
+        "buckets": {
+          "instance": 14,
+          "light": 10
+        },
+        "examples": [
+          {
+            "id": "I26001:343507;19870:304661",
+            "name": "Circle",
+            "field": "fills",
+            "master": "24061:333118",
+            "masterName": "Breakponts=1720+, State=able",
+            "instance": "26001:343507",
+            "i": 0
+          },
+          {
+            "id": "I26001:343539;19870:304661",
+            "name": "Circle",
+            "field": "fills",
+            "master": "24061:333138",
+            "masterName": "Breakponts=1320+, State=able",
+            "instance": "26001:343539",
+            "i": 0
+          }
+        ],
+        "name": "color/fill/solid/inverse",
+        "key": "d92b20d2fd97d8577428adfcf2584ae668bc2965",
+        "collection": "VariableCollectionId:1c6e07816c9c7d8423d676736c66af0f797411bb/41700:0"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:9e12bc25e3281b165355d673382a33f31f5a3fd8/41564:79",
+        "count": 32,
+        "buckets": {
+          "instance": 32
+        },
+        "examples": [
+          {
+            "id": "I32352:979;26255:216",
+            "name": "Union",
+            "field": "region5",
+            "master": "32352:977",
+            "masterName": "Breakponts=1720+, State=Dissable, Skeleton=False",
+            "instance": "32352:979",
+            "i": 0
+          },
+          {
+            "id": "I32352:979;26255:216",
+            "name": "Union",
+            "field": "region6",
+            "master": "32352:977",
+            "masterName": "Breakponts=1720+, State=Dissable, Skeleton=False",
+            "instance": "32352:979",
+            "i": 0
+          }
+        ],
+        "name": "brand/partners/sber",
+        "key": "9e12bc25e3281b165355d673382a33f31f5a3fd8",
+        "collection": "VariableCollectionId:9bfe8dde6e700cc0754156917935eea46ac309ee/32016:4307"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:bb9358cae6559d7a3001214747d015afcad82da0/41700:25",
+        "count": 5,
+        "buckets": {
+          "instance": 5
+        },
+        "examples": [
+          {
+            "id": "24077:332302",
+            "name": "🟢 Switch",
+            "field": "fills",
+            "master": "24077:332298",
+            "masterName": "Breakpoints=1720+, Type=able",
+            "instance": "24077:332302",
+            "i": 0
+          },
+          {
+            "id": "24077:332308",
+            "name": "🟢 Switch",
+            "field": "fills",
+            "master": "24077:332303",
+            "masterName": "Breakpoints=1720+, Type=max discount",
+            "instance": "24077:332308",
+            "i": 0
+          }
+        ],
+        "name": "color/fill/solid/accent",
+        "key": "bb9358cae6559d7a3001214747d015afcad82da0",
+        "collection": "VariableCollectionId:1c6e07816c9c7d8423d676736c66af0f797411bb/41700:0"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:68b8fbbbc78be34af7815443b21ef244eee6b6b0/39850:98",
+        "count": 10,
+        "buckets": {
+          "light": 10
+        },
+        "examples": [
+          {
+            "id": "27269:28431",
+            "name": "🟢 Switch",
+            "field": "fills",
+            "master": "27269:28426",
+            "masterName": "_[Deprecated]🟡  Tumbler Spasibo/1720+/able/True",
+            "light": true,
+            "loyaltyDeferred": true,
+            "instance": "27269:28431",
+            "i": 0
+          },
+          {
+            "id": "27269:28621",
+            "name": "🟢 Switch",
+            "field": "fills",
+            "master": "27269:28615",
+            "masterName": "_[Deprecated]🟡  Tumbler Spasibo/1720+/max discount/True",
+            "light": true,
+            "loyaltyDeferred": true,
+            "instance": "27269:28621",
+            "i": 0
+          }
+        ],
+        "name": "primitives/electric900",
+        "key": "68b8fbbbc78be34af7815443b21ef244eee6b6b0",
+        "collection": "VariableCollectionId:9bfe8dde6e700cc0754156917935eea46ac309ee/32016:4307"
+      }
+    ],
+    "noncanonicalColorStyles": [],
+    "mixed": [],
+    "errors": []
+  },
+  "deferredLegacyMasters": [
+    {
+      "id": "27269:28426",
+      "name": "_[Deprecated]🟡  Tumbler Spasibo/1720+/able/True",
+      "parentId": "42076:685",
+      "parentName": "Deprecated"
+    },
+    {
+      "id": "27269:28446",
+      "name": "_[Deprecated]🟡  Tumbler Spasibo/1720+/0 TVOD/True",
+      "parentId": "42076:685",
+      "parentName": "Deprecated"
+    },
+    {
+      "id": "27269:28463",
+      "name": "_[Deprecated]🟡  Tumbler Spasibo/1720+/another method/True",
+      "parentId": "42076:685",
+      "parentName": "Deprecated"
+    },
+    {
+      "id": "27269:28615",
+      "name": "_[Deprecated]🟡  Tumbler Spasibo/1720+/max discount/True",
+      "parentId": "42076:685",
+      "parentName": "Deprecated"
+    },
+    {
+      "id": "27269:28684",
+      "name": "_[Deprecated]🟡  Tumbler Spasibo/1320+/able/True",
+      "parentId": "42076:685",
+      "parentName": "Deprecated"
+    },
+    {
+      "id": "27269:28690",
+      "name": "_[Deprecated]🟡  Tumbler Spasibo/1320+/0 TVOD/True",
+      "parentId": "42076:685",
+      "parentName": "Deprecated"
+    },
+    {
+      "id": "27269:28693",
+      "name": "_[Deprecated]🟡  Tumbler Spasibo/1320+/another method/True",
+      "parentId": "42076:685",
+      "parentName": "Deprecated"
+    },
+    {
+      "id": "27269:28696",
+      "name": "_[Deprecated]🟡  Tumbler Spasibo/1320+/max discount/True",
+      "parentId": "42076:685",
+      "parentName": "Deprecated"
+    },
+    {
+      "id": "27269:28790",
+      "name": "_[Deprecated]🟡  Tumbler Spasibo/600+/able/True",
+      "parentId": "42076:685",
+      "parentName": "Deprecated"
+    },
+    {
+      "id": "27269:28796",
+      "name": "_[Deprecated]🟡  Tumbler Spasibo/600+/0 TVOD/True",
+      "parentId": "42076:685",
+      "parentName": "Deprecated"
+    },
+    {
+      "id": "27269:28799",
+      "name": "_[Deprecated]🟡  Tumbler Spasibo/600+/another method/True",
+      "parentId": "42076:685",
+      "parentName": "Deprecated"
+    },
+    {
+      "id": "27269:28802",
+      "name": "_[Deprecated]🟡  Tumbler Spasibo/600+/max discount/True",
+      "parentId": "42076:685",
+      "parentName": "Deprecated"
+    },
+    {
+      "id": "27269:28896",
+      "name": "_[Deprecated]🟡  Tumbler Spasibo/375+/able/True",
+      "parentId": "42076:685",
+      "parentName": "Deprecated"
+    },
+    {
+      "id": "27269:28902",
+      "name": "_[Deprecated]🟡  Tumbler Spasibo/375+/0 TVOD/True",
+      "parentId": "42076:685",
+      "parentName": "Deprecated"
+    },
+    {
+      "id": "27269:28905",
+      "name": "_[Deprecated]🟡  Tumbler Spasibo/375+/another method/True",
+      "parentId": "42076:685",
+      "parentName": "Deprecated"
+    },
+    {
+      "id": "27269:28908",
+      "name": "_[Deprecated]🟡  Tumbler Spasibo/375+/max discount/True",
+      "parentId": "42076:685",
+      "parentName": "Deprecated"
+    },
+    {
+      "id": "27269:29026",
+      "name": "_[Deprecated]🟡  Tumbler Spasibo/320+/able/True",
+      "parentId": "42076:685",
+      "parentName": "Deprecated"
+    },
+    {
+      "id": "27269:29032",
+      "name": "_[Deprecated]🟡  Tumbler Spasibo/320+/0 TVOD/True",
+      "parentId": "42076:685",
+      "parentName": "Deprecated"
+    },
+    {
+      "id": "27269:29035",
+      "name": "_[Deprecated]🟡  Tumbler Spasibo/320+/another method/True",
+      "parentId": "42076:685",
+      "parentName": "Deprecated"
+    },
+    {
+      "id": "27269:29038",
+      "name": "_[Deprecated]🟡  Tumbler Spasibo/320+/max discount/True",
+      "parentId": "42076:685",
+      "parentName": "Deprecated"
+    },
+    {
+      "id": "27269:28541",
+      "name": "_[Deprecated]🟡  Bubble Spasibo/1720+/Rest/True",
+      "parentId": "42076:685",
+      "parentName": "Deprecated"
+    },
+    {
+      "id": "27269:28545",
+      "name": "_[Deprecated]🟡  Bubble Spasibo/1720+/Disabled/True",
+      "parentId": "42076:685",
+      "parentName": "Deprecated"
+    },
+    {
+      "id": "27269:28548",
+      "name": "_[Deprecated]🟡  Bubble Spasibo/1320+/Rest/True",
+      "parentId": "42076:685",
+      "parentName": "Deprecated"
+    },
+    {
+      "id": "27269:28552",
+      "name": "_[Deprecated]🟡  Bubble Spasibo/1320+/Disabled/True",
+      "parentId": "42076:685",
+      "parentName": "Deprecated"
+    },
+    {
+      "id": "27269:28555",
+      "name": "_[Deprecated]🟡  Bubble Spasibo/600+/Rest/True",
+      "parentId": "42076:685",
+      "parentName": "Deprecated"
+    },
+    {
+      "id": "27269:28559",
+      "name": "_[Deprecated]🟡  Bubble Spasibo/600+/Disabled/True",
+      "parentId": "42076:685",
+      "parentName": "Deprecated"
+    },
+    {
+      "id": "27269:28562",
+      "name": "_[Deprecated]🟡  Bubble Spasibo/375+/Rest/True",
+      "parentId": "42076:685",
+      "parentName": "Deprecated"
+    },
+    {
+      "id": "27269:28566",
+      "name": "_[Deprecated]🟡  Bubble Spasibo/375+/Disabled/True",
+      "parentId": "42076:685",
+      "parentName": "Deprecated"
+    },
+    {
+      "id": "27269:28569",
+      "name": "_[Deprecated]🟡  Bubble Spasibo/320+/Rest/True",
+      "parentId": "42076:685",
+      "parentName": "Deprecated"
+    },
+    {
+      "id": "27269:28573",
+      "name": "_[Deprecated]🟡  Bubble Spasibo/320+/Disabled/True",
+      "parentId": "42076:685",
+      "parentName": "Deprecated"
+    }
+  ],
+  "legacyThemeEvidence": {
+    "variants": [
+      {
+        "id": "24077:332298",
+        "name": "Breakpoints=1720+, Type=able",
+        "description": "",
+        "variants": {
+          "Breakpoints": "1720+",
+          "Type": "able"
+        },
+        "ownLayers": [
+          {
+            "id": "24077:332298",
+            "name": "Breakpoints=1720+, Type=able",
+            "type": "COMPONENT",
+            "style": "",
+            "fills": []
+          },
+          {
+            "id": "24077:332299",
+            "name": "Spasibo / Label",
+            "type": "INSTANCE",
+            "style": "S:9def9282974d0670f4f134b5fa9d98ad1841691f,41872:3553",
+            "fills": [
+              {
+                "type": "GRADIENT_LINEAR",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "gradientStops": [
+                  {
+                    "color": {
+                      "r": 0.6313725709915161,
+                      "g": 0.8470588326454163,
+                      "b": 0.03529411926865578,
+                      "a": 1
+                    },
+                    "position": 0.019999999552965164,
+                    "boundVariables": {
+                      "color": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:db84ff74ac88b0b068958363bd4a058af580096d/41872:3690"
+                      }
+                    }
+                  },
+                  {
+                    "color": {
+                      "r": 0.1882352977991104,
+                      "g": 0.7254902124404907,
+                      "b": 0.08627451211214066,
+                      "a": 1
+                    },
+                    "position": 0.36000001430511475,
+                    "boundVariables": {
+                      "color": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:b823bf9eebd45a558bc2dad3356ed2c9644fb7a1/41872:3691"
+                      }
+                    }
+                  },
+                  {
+                    "color": {
+                      "r": 0.0470588244497776,
+                      "g": 0.6117647290229797,
+                      "b": 0.0470588244497776,
+                      "a": 1
+                    },
+                    "position": 0.6600000262260437,
+                    "boundVariables": {
+                      "color": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:0813eda105ea4c5961100a97dd99f26a242c6ee8/41872:3692"
+                      }
+                    }
+                  },
+                  {
+                    "color": {
+                      "r": 0.07058823853731155,
+                      "g": 0.6235294342041016,
+                      "b": 0.8901960849761963,
+                      "a": 1
+                    },
+                    "position": 1,
+                    "boundVariables": {
+                      "color": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:15600aa8c3b3345186ca2ec9fe19457e19fc3e90/41872:3693"
+                      }
+                    }
+                  }
+                ],
+                "gradientTransform": [
+                  [
+                    0.5522642135620117,
+                    0.4972609579563141,
+                    -0.0247625894844532
+                  ],
+                  [
+                    -0.4972609579563141,
+                    0.5522642135620117,
+                    0.47249835729599
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "id": "24077:332300",
+            "name": "Tumbler",
+            "type": "FRAME",
+            "style": "",
+            "fills": []
+          },
+          {
+            "id": "24077:332301",
+            "name": "Обменять на скидку",
+            "type": "TEXT",
+            "style": "",
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 0.9599999785423279,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:4f21a856bdfc52444ea3e3f62c9f6af53b98e6e5/41978:2829"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "26838:475",
+            "name": "Обменивать на подписку",
+            "type": "TEXT",
+            "style": "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3",
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 0.9599999785423279,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "id": "24077:332302",
+            "name": "🟢 Switch",
+            "type": "INSTANCE",
+            "style": "",
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.2549019753932953,
+                  "g": 0.21568627655506134,
+                  "b": 0.8745098114013672
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:bb9358cae6559d7a3001214747d015afcad82da0/41700:25"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "24077:332310",
+        "name": "_[Deprecated]🟡  Tumbler Spasibo/1320+/able/False",
+        "description": "",
+        "variants": null,
+        "ownLayers": [
+          {
+            "id": "24077:332310",
+            "name": "_[Deprecated]🟡  Tumbler Spasibo/1320+/able/False",
+            "type": "COMPONENT",
+            "style": "",
+            "fills": []
+          },
+          {
+            "id": "24077:332311",
+            "name": "_[Deprecated]Spasibo / Label/1320+/Rest/False",
+            "type": "INSTANCE",
+            "style": "",
+            "fills": []
+          },
+          {
+            "id": "24077:332312",
+            "name": "Tumbler",
+            "type": "FRAME",
+            "style": "",
+            "fills": []
+          },
+          {
+            "id": "24077:332313",
+            "name": "Обменять на скидку",
+            "type": "TEXT",
+            "style": "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3",
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 0.9599999785423279,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "id": "26838:477",
+            "name": "Обменивать на подписку",
+            "type": "TEXT",
+            "style": "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3",
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 0.9599999785423279,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "id": "24077:332314",
+            "name": "🟢 Switch",
+            "type": "INSTANCE",
+            "style": "",
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.2549019753932953,
+                  "g": 0.21568627655506134,
+                  "b": 0.8745098114013672
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:bb9358cae6559d7a3001214747d015afcad82da0/41978:2872"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "27269:28426",
+        "name": "_[Deprecated]🟡  Tumbler Spasibo/1720+/able/True",
+        "description": "",
+        "variants": null,
+        "ownLayers": [
+          {
+            "id": "27269:28426",
+            "name": "_[Deprecated]🟡  Tumbler Spasibo/1720+/able/True",
+            "type": "COMPONENT",
+            "style": "",
+            "fills": []
+          },
+          {
+            "id": "46095:505",
+            "name": "_[Deprecated]🟡  Bubble Spasibo/1720+/Rest/True",
+            "type": "INSTANCE",
+            "style": "",
+            "fills": []
+          },
+          {
+            "id": "27269:28428",
+            "name": "Tumbler",
+            "type": "FRAME",
+            "style": "",
+            "fills": []
+          },
+          {
+            "id": "27269:28429",
+            "name": "Обменять на скидку",
+            "type": "TEXT",
+            "style": "S:4e8ca772b49d5b02391ce1d8bbac531eae429f25,32110:52",
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 0.9599999785423279,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "id": "27269:28430",
+            "name": "Обменивать на подписку",
+            "type": "TEXT",
+            "style": "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3",
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 0.9599999785423279,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "id": "27269:28431",
+            "name": "🟢 Switch",
+            "type": "INSTANCE",
+            "style": "S:e3ec3eec23dc45dab6e9ecf81f98639db564615b,39850:0",
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.2549019753932953,
+                  "g": 0.21568627655506134,
+                  "b": 0.8745098114013672
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:68b8fbbbc78be34af7815443b21ef244eee6b6b0/39850:98"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "27269:28541",
+        "name": "_[Deprecated]🟡  Bubble Spasibo/1720+/Rest/True",
+        "description": "",
+        "variants": null,
+        "ownLayers": [
+          {
+            "id": "27269:28541",
+            "name": "_[Deprecated]🟡  Bubble Spasibo/1720+/Rest/True",
+            "type": "COMPONENT",
+            "style": "",
+            "fills": []
+          },
+          {
+            "id": "27269:28542",
+            "name": "Balance",
+            "type": "TEXT",
+            "style": "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3",
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 0.9599999785423279,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "id": "27269:28543",
+            "name": "Sber / Mini Spasibo",
+            "type": "INSTANCE",
+            "style": "",
+            "fills": []
+          },
+          {
+            "id": "27269:28544",
+            "name": "gradient png",
+            "type": "RECTANGLE",
+            "style": "",
+            "fills": [
+              {
+                "type": "IMAGE",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "scaleMode": "FILL",
+                "scalingFactor": 0.5,
+                "rotation": 0,
+                "filters": {
+                  "exposure": 0,
+                  "contrast": 0,
+                  "saturation": 0,
+                  "temperature": 0,
+                  "tint": 0,
+                  "highlights": 0,
+                  "shadows": 0
+                },
+                "imageTransform": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ]
+                ],
+                "imageHash": "87ad443216d76de8cc67cf72a9493d478e28ab1a"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "24077:332363",
+        "name": "_[Deprecated]Spasibo / Label/1320+/Rest/False",
+        "description": "",
+        "variants": null,
+        "ownLayers": [
+          {
+            "id": "24077:332363",
+            "name": "_[Deprecated]Spasibo / Label/1320+/Rest/False",
+            "type": "COMPONENT",
+            "style": "",
+            "fills": []
+          },
+          {
+            "id": "24077:332364",
+            "name": "Balance",
+            "type": "TEXT",
+            "style": "",
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 0.9599999785423279,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:4f21a856bdfc52444ea3e3f62c9f6af53b98e6e5/41978:2829"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "24077:332365",
+            "name": "Sber / Mini Spasibo",
+            "type": "INSTANCE",
+            "style": "",
+            "fills": []
+          },
+          {
+            "id": "24096:340550",
+            "name": "gradient png",
+            "type": "RECTANGLE",
+            "style": "",
+            "fills": [
+              {
+                "type": "IMAGE",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "scaleMode": "FILL",
+                "scalingFactor": 0.5,
+                "rotation": 0,
+                "filters": {
+                  "exposure": 0,
+                  "contrast": 0,
+                  "saturation": 0,
+                  "temperature": 0,
+                  "tint": 0,
+                  "highlights": 0,
+                  "shadows": 0
+                },
+                "imageTransform": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    0
+                  ]
+                ],
+                "imageHash": "87ad443216d76de8cc67cf72a9493d478e28ab1a"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "definition": {
+      "Balance Subtitle#1769:0": {
+        "type": "TEXT",
+        "defaultValue": "Уже применена максимальная скидка"
+      },
+      "Tumbler SVOD#26838:0": {
+        "type": "BOOLEAN",
+        "defaultValue": false
+      },
+      "Tumbler TVOD#26838:11": {
+        "type": "BOOLEAN",
+        "defaultValue": true
+      },
+      "O TVOD#26935:39": {
+        "type": "TEXT",
+        "defaultValue": "Копите бонусы и тратьте их на покупки и оплату подписки"
+      },
+      "Tumbler#26998:0": {
+        "type": "BOOLEAN",
+        "defaultValue": true
+      },
+      "Breakpoints": {
+        "type": "VARIANT",
+        "defaultValue": "1720+",
+        "variantOptions": [
+          "1720+",
+          "600+",
+          "320+"
+        ]
+      },
+      "Type": {
+        "type": "VARIANT",
+        "defaultValue": "able",
+        "variantOptions": [
+          "able",
+          "max discount",
+          "0 TVOD",
+          "another method"
+        ]
+      }
+    }
+  },
+  "sourceLogoEvidence": {
+    "id": "26255:216",
+    "name": "Union",
+    "parent": {
+      "id": "26255:211",
+      "name": "Color=White",
+      "type": "COMPONENT"
+    },
+    "regions": [
+      {
+        "i": 0,
+        "style": "",
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ]
+      },
+      {
+        "i": 1,
+        "style": "",
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ]
+      },
+      {
+        "i": 2,
+        "style": "",
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ]
+      },
+      {
+        "i": 3,
+        "style": "",
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ]
+      },
+      {
+        "i": 4,
+        "style": "",
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ]
+      },
+      {
+        "i": 5,
+        "style": "",
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.07839998602867126,
+              "g": 0.5600000023841858,
+              "b": 0.16669335961341858
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:32016:3911"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "i": 6,
+        "style": "",
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.07839998602867126,
+              "g": 0.5600000023841858,
+              "b": 0.16669335961341858
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:32016:3911"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "i": 7,
+        "style": "",
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.07839998602867126,
+              "g": 0.5600000023841858,
+              "b": 0.16669335961341858
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:32016:3911"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "i": 8,
+        "style": "",
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ]
+      },
+      {
+        "i": 9,
+        "style": "",
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.07839998602867126,
+              "g": 0.5600000023841858,
+              "b": 0.16669335961341858
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:32016:3911"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "i": 10,
+        "style": "",
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.07839998602867126,
+              "g": 0.5600000023841858,
+              "b": 0.16669335961341858
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:32016:3911"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "i": 11,
+        "style": "",
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.07839998602867126,
+              "g": 0.5600000023841858,
+              "b": 0.16669335961341858
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:32016:3911"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "i": 12,
+        "style": "",
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.07839998602867126,
+              "g": 0.5600000023841858,
+              "b": 0.16669335961341858
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:32016:3911"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "i": 13,
+        "style": "",
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.07839998602867126,
+              "g": 0.5600000023841858,
+              "b": 0.16669335961341858
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:32016:3911"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "sourceLogoKey": {
+    "source": {
+      "id": "26255:211",
+      "key": "10a528c0a31439d76901c206e34bd043a3d5f867",
+      "name": "Color=White"
+    },
+    "remoteIdInHead": null
+  },
+  "localLogoEvidence": [
+    {
+      "id": "32352:979",
+      "name": "Sber / Full Spasibo",
+      "main": {
+        "id": "47253:5437",
+        "name": "Color=White",
+        "key": "10a528c0a31439d76901c206e34bd043a3d5f867",
+        "remote": true
+      },
+      "vectors": [
+        {
+          "id": "I32352:979;26255:216",
+          "fillStyleId": "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+          "regions": [
+            {
+              "i": 0,
+              "style": "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 0.4000000059604645,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            },
+            {
+              "i": 1,
+              "style": "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 0.4000000059604645,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            },
+            {
+              "i": 2,
+              "style": "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 0.4000000059604645,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            },
+            {
+              "i": 3,
+              "style": "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 0.4000000059604645,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            },
+            {
+              "i": 4,
+              "style": "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 0.4000000059604645,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            },
+            {
+              "i": 5,
+              "style": "",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.07839998602867126,
+                    "g": 0.5600000023841858,
+                    "b": 0.16669335961341858
+                  },
+                  "boundVariables": {
+                    "color": {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:9e12bc25e3281b165355d673382a33f31f5a3fd8/41564:79"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "i": 6,
+              "style": "",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.07839998602867126,
+                    "g": 0.5600000023841858,
+                    "b": 0.16669335961341858
+                  },
+                  "boundVariables": {
+                    "color": {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:9e12bc25e3281b165355d673382a33f31f5a3fd8/41564:79"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "i": 7,
+              "style": "",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.07839998602867126,
+                    "g": 0.5600000023841858,
+                    "b": 0.16669335961341858
+                  },
+                  "boundVariables": {
+                    "color": {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:9e12bc25e3281b165355d673382a33f31f5a3fd8/41564:79"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "i": 8,
+              "style": "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 0.4000000059604645,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            },
+            {
+              "i": 9,
+              "style": "",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.07839998602867126,
+                    "g": 0.5600000023841858,
+                    "b": 0.16669335961341858
+                  },
+                  "boundVariables": {
+                    "color": {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:9e12bc25e3281b165355d673382a33f31f5a3fd8/41564:79"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "i": 10,
+              "style": "",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.07839998602867126,
+                    "g": 0.5600000023841858,
+                    "b": 0.16669335961341858
+                  },
+                  "boundVariables": {
+                    "color": {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:9e12bc25e3281b165355d673382a33f31f5a3fd8/41564:79"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "i": 11,
+              "style": "",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.07839998602867126,
+                    "g": 0.5600000023841858,
+                    "b": 0.16669335961341858
+                  },
+                  "boundVariables": {
+                    "color": {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:9e12bc25e3281b165355d673382a33f31f5a3fd8/41564:79"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "i": 12,
+              "style": "",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.07839998602867126,
+                    "g": 0.5600000023841858,
+                    "b": 0.16669335961341858
+                  },
+                  "boundVariables": {
+                    "color": {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:9e12bc25e3281b165355d673382a33f31f5a3fd8/41564:79"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "i": 13,
+              "style": "",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.07839998602867126,
+                    "g": 0.5600000023841858,
+                    "b": 0.16669335961341858
+                  },
+                  "boundVariables": {
+                    "color": {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:9e12bc25e3281b165355d673382a33f31f5a3fd8/41564:79"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "38496:1797",
+      "name": "Sber / Full Spasibo",
+      "main": {
+        "id": "47253:5437",
+        "name": "Color=White",
+        "key": "10a528c0a31439d76901c206e34bd043a3d5f867",
+        "remote": true
+      },
+      "vectors": [
+        {
+          "id": "I38496:1797;26255:216",
+          "fillStyleId": "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+          "regions": [
+            {
+              "i": 0,
+              "style": "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 0.4000000059604645,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            },
+            {
+              "i": 1,
+              "style": "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 0.4000000059604645,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            },
+            {
+              "i": 2,
+              "style": "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 0.4000000059604645,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            },
+            {
+              "i": 3,
+              "style": "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 0.4000000059604645,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            },
+            {
+              "i": 4,
+              "style": "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 0.4000000059604645,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            },
+            {
+              "i": 5,
+              "style": "",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.07839998602867126,
+                    "g": 0.5600000023841858,
+                    "b": 0.16669335961341858
+                  },
+                  "boundVariables": {
+                    "color": {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:9e12bc25e3281b165355d673382a33f31f5a3fd8/41564:79"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "i": 6,
+              "style": "",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.07839998602867126,
+                    "g": 0.5600000023841858,
+                    "b": 0.16669335961341858
+                  },
+                  "boundVariables": {
+                    "color": {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:9e12bc25e3281b165355d673382a33f31f5a3fd8/41564:79"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "i": 7,
+              "style": "",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.07839998602867126,
+                    "g": 0.5600000023841858,
+                    "b": 0.16669335961341858
+                  },
+                  "boundVariables": {
+                    "color": {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:9e12bc25e3281b165355d673382a33f31f5a3fd8/41564:79"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "i": 8,
+              "style": "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 0.4000000059604645,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            },
+            {
+              "i": 9,
+              "style": "",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.07839998602867126,
+                    "g": 0.5600000023841858,
+                    "b": 0.16669335961341858
+                  },
+                  "boundVariables": {
+                    "color": {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:9e12bc25e3281b165355d673382a33f31f5a3fd8/41564:79"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "i": 10,
+              "style": "",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.07839998602867126,
+                    "g": 0.5600000023841858,
+                    "b": 0.16669335961341858
+                  },
+                  "boundVariables": {
+                    "color": {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:9e12bc25e3281b165355d673382a33f31f5a3fd8/41564:79"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "i": 11,
+              "style": "",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.07839998602867126,
+                    "g": 0.5600000023841858,
+                    "b": 0.16669335961341858
+                  },
+                  "boundVariables": {
+                    "color": {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:9e12bc25e3281b165355d673382a33f31f5a3fd8/41564:79"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "i": 12,
+              "style": "",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.07839998602867126,
+                    "g": 0.5600000023841858,
+                    "b": 0.16669335961341858
+                  },
+                  "boundVariables": {
+                    "color": {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:9e12bc25e3281b165355d673382a33f31f5a3fd8/41564:79"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "i": 13,
+              "style": "",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.07839998602867126,
+                    "g": 0.5600000023841858,
+                    "b": 0.16669335961341858
+                  },
+                  "boundVariables": {
+                    "color": {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:9e12bc25e3281b165355d673382a33f31f5a3fd8/41564:79"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "32352:984",
+      "name": "Sber / Full Spasibo",
+      "main": {
+        "id": "47253:5437",
+        "name": "Color=White",
+        "key": "10a528c0a31439d76901c206e34bd043a3d5f867",
+        "remote": true
+      },
+      "vectors": [
+        {
+          "id": "I32352:984;26255:216",
+          "fillStyleId": "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+          "regions": [
+            {
+              "i": 0,
+              "style": "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 0.4000000059604645,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            },
+            {
+              "i": 1,
+              "style": "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 0.4000000059604645,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            },
+            {
+              "i": 2,
+              "style": "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 0.4000000059604645,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            },
+            {
+              "i": 3,
+              "style": "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 0.4000000059604645,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            },
+            {
+              "i": 4,
+              "style": "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 0.4000000059604645,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            },
+            {
+              "i": 5,
+              "style": "",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.07839998602867126,
+                    "g": 0.5600000023841858,
+                    "b": 0.16669335961341858
+                  },
+                  "boundVariables": {
+                    "color": {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:9e12bc25e3281b165355d673382a33f31f5a3fd8/41564:79"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "i": 6,
+              "style": "",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.07839998602867126,
+                    "g": 0.5600000023841858,
+                    "b": 0.16669335961341858
+                  },
+                  "boundVariables": {
+                    "color": {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:9e12bc25e3281b165355d673382a33f31f5a3fd8/41564:79"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "i": 7,
+              "style": "",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.07839998602867126,
+                    "g": 0.5600000023841858,
+                    "b": 0.16669335961341858
+                  },
+                  "boundVariables": {
+                    "color": {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:9e12bc25e3281b165355d673382a33f31f5a3fd8/41564:79"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "i": 8,
+              "style": "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 0.4000000059604645,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            },
+            {
+              "i": 9,
+              "style": "",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.07839998602867126,
+                    "g": 0.5600000023841858,
+                    "b": 0.16669335961341858
+                  },
+                  "boundVariables": {
+                    "color": {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:9e12bc25e3281b165355d673382a33f31f5a3fd8/41564:79"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "i": 10,
+              "style": "",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.07839998602867126,
+                    "g": 0.5600000023841858,
+                    "b": 0.16669335961341858
+                  },
+                  "boundVariables": {
+                    "color": {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:9e12bc25e3281b165355d673382a33f31f5a3fd8/41564:79"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "i": 11,
+              "style": "",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.07839998602867126,
+                    "g": 0.5600000023841858,
+                    "b": 0.16669335961341858
+                  },
+                  "boundVariables": {
+                    "color": {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:9e12bc25e3281b165355d673382a33f31f5a3fd8/41564:79"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "i": 12,
+              "style": "",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.07839998602867126,
+                    "g": 0.5600000023841858,
+                    "b": 0.16669335961341858
+                  },
+                  "boundVariables": {
+                    "color": {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:9e12bc25e3281b165355d673382a33f31f5a3fd8/41564:79"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "i": 13,
+              "style": "",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.07839998602867126,
+                    "g": 0.5600000023841858,
+                    "b": 0.16669335961341858
+                  },
+                  "boundVariables": {
+                    "color": {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:9e12bc25e3281b165355d673382a33f31f5a3fd8/41564:79"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "32352:988",
+      "name": "Sber / Full Spasibo",
+      "main": {
+        "id": "47253:5437",
+        "name": "Color=White",
+        "key": "10a528c0a31439d76901c206e34bd043a3d5f867",
+        "remote": true
+      },
+      "vectors": [
+        {
+          "id": "I32352:988;26255:216",
+          "fillStyleId": "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+          "regions": [
+            {
+              "i": 0,
+              "style": "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 0.4000000059604645,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            },
+            {
+              "i": 1,
+              "style": "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 0.4000000059604645,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            },
+            {
+              "i": 2,
+              "style": "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 0.4000000059604645,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            },
+            {
+              "i": 3,
+              "style": "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 0.4000000059604645,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            },
+            {
+              "i": 4,
+              "style": "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 0.4000000059604645,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            },
+            {
+              "i": 5,
+              "style": "",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.07839998602867126,
+                    "g": 0.5600000023841858,
+                    "b": 0.16669335961341858
+                  },
+                  "boundVariables": {
+                    "color": {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:9e12bc25e3281b165355d673382a33f31f5a3fd8/41564:79"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "i": 6,
+              "style": "",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.07839998602867126,
+                    "g": 0.5600000023841858,
+                    "b": 0.16669335961341858
+                  },
+                  "boundVariables": {
+                    "color": {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:9e12bc25e3281b165355d673382a33f31f5a3fd8/41564:79"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "i": 7,
+              "style": "",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.07839998602867126,
+                    "g": 0.5600000023841858,
+                    "b": 0.16669335961341858
+                  },
+                  "boundVariables": {
+                    "color": {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:9e12bc25e3281b165355d673382a33f31f5a3fd8/41564:79"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "i": 8,
+              "style": "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 0.4000000059604645,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            },
+            {
+              "i": 9,
+              "style": "",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.07839998602867126,
+                    "g": 0.5600000023841858,
+                    "b": 0.16669335961341858
+                  },
+                  "boundVariables": {
+                    "color": {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:9e12bc25e3281b165355d673382a33f31f5a3fd8/41564:79"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "i": 10,
+              "style": "",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.07839998602867126,
+                    "g": 0.5600000023841858,
+                    "b": 0.16669335961341858
+                  },
+                  "boundVariables": {
+                    "color": {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:9e12bc25e3281b165355d673382a33f31f5a3fd8/41564:79"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "i": 11,
+              "style": "",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.07839998602867126,
+                    "g": 0.5600000023841858,
+                    "b": 0.16669335961341858
+                  },
+                  "boundVariables": {
+                    "color": {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:9e12bc25e3281b165355d673382a33f31f5a3fd8/41564:79"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "i": 12,
+              "style": "",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.07839998602867126,
+                    "g": 0.5600000023841858,
+                    "b": 0.16669335961341858
+                  },
+                  "boundVariables": {
+                    "color": {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:9e12bc25e3281b165355d673382a33f31f5a3fd8/41564:79"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "i": 13,
+              "style": "",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.07839998602867126,
+                    "g": 0.5600000023841858,
+                    "b": 0.16669335961341858
+                  },
+                  "boundVariables": {
+                    "color": {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:9e12bc25e3281b165355d673382a33f31f5a3fd8/41564:79"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "newVariablesOrStylesCreated": false,
+  "verification": "programmatic full-page audit; Selection colors UI not checked"
+}

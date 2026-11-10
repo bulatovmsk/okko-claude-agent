@@ -1,0 +1,428 @@
+{
+  "initial": {
+    "staticResult": null,
+    "page": "Экшн блок",
+    "nodeCount": 99,
+    "sources": [
+      {
+        "id": "S:cc9f8ed188fba9318e96d598d00738e0625fd414,32110:36",
+        "name": "[Deprecated]/Fill/Solid/Secondary",
+        "key": "cc9f8ed188fba9318e96d598d00738e0625fd414",
+        "count": 4,
+        "buckets": {
+          "own": 1,
+          "instance": 3
+        },
+        "example": {
+          "id": "1095:194",
+          "name": "Назначение=Фильм или сериал (база), Фон=Тёмный",
+          "field": "fills",
+          "master": "1095:194",
+          "masterName": "Назначение=Фильм или сериал (база), Фон=Тёмный"
+        }
+      },
+      {
+        "id": "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3",
+        "name": "[Deprecated]/Text & icon/on Dark/Primary",
+        "key": "8d1e4095c97d6f8de9740c869fae2aa91b41bd6d",
+        "count": 4,
+        "buckets": {
+          "own": 1,
+          "instance": 3
+        },
+        "example": {
+          "id": "1095:23",
+          "name": "Джентельмены",
+          "field": "fills",
+          "master": "1095:194",
+          "masterName": "Назначение=Фильм или сериал (база), Фон=Тёмный"
+        }
+      },
+      {
+        "id": "S:eb0848c39cf58e48e9aae01f73f766c68f7bdde4,32110:4",
+        "name": "[Deprecated]/Text & icon/on Dark/Secondary",
+        "key": "eb0848c39cf58e48e9aae01f73f766c68f7bdde4",
+        "count": 6,
+        "buckets": {
+          "own": 1,
+          "light": 2,
+          "instance": 3
+        },
+        "example": {
+          "id": "1095:32",
+          "name": "Затем стоимость подписки составит 599 ₽ в месяц",
+          "field": "fills",
+          "master": "1095:194",
+          "masterName": "Назначение=Фильм или сериал (база), Фон=Тёмный"
+        }
+      },
+      {
+        "id": "S:9a5a52f852eb295e25acd6402b0ece77498e60d2,11494:58",
+        "name": "Text & icon/on Dark/Secondary",
+        "key": "9a5a52f852eb295e25acd6402b0ece77498e60d2",
+        "count": 3,
+        "buckets": {
+          "light": 3
+        },
+        "example": {
+          "id": "4481:0",
+          "name": "Component 1",
+          "field": "fills",
+          "master": "4481:15",
+          "masterName": "Назначение=Фильм или сериал, Фон=Светлый",
+          "light": true,
+          "instance": "4481:0"
+        }
+      },
+      {
+        "id": "S:f8d3b50812231db0b7f2767bc91aa2b0aaad09f2,10968:14",
+        "name": "Primitives/Blueberry/Primary",
+        "key": "f8d3b50812231db0b7f2767bc91aa2b0aaad09f2",
+        "count": 3,
+        "buckets": {
+          "light": 3
+        },
+        "example": {
+          "id": "I4481:0;1095:23",
+          "name": "Джентельмены",
+          "field": "fills",
+          "master": "4481:15",
+          "masterName": "Назначение=Фильм или сериал, Фон=Светлый",
+          "light": true,
+          "instance": "4481:0"
+        }
+      },
+      {
+        "id": "S:88532c0a3229f60d0cfd3c0cae8f3312582f2b7f,517:9",
+        "name": "Blueberry / 90",
+        "key": "88532c0a3229f60d0cfd3c0cae8f3312582f2b7f",
+        "count": 1,
+        "buckets": {
+          "light": 1
+        },
+        "example": {
+          "id": "I5170:29543;1095:32",
+          "name": "8 сезон 4 серия: «Последние из Старков»",
+          "field": "fills",
+          "master": "5170:29542",
+          "masterName": "Назначение=Продолжить просмотр, Фон=Светлый",
+          "light": true,
+          "instance": "5170:29543"
+        }
+      }
+    ],
+    "remainingRows": [
+      [
+        "1095:194",
+        "fills",
+        "S:cc9f8ed188fba9318e96d598d00738e0625fd414,32110:36",
+        "1095:194",
+        null,
+        0,
+        0
+      ],
+      [
+        "1095:23",
+        "fills",
+        "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3",
+        "1095:194",
+        null,
+        0,
+        0
+      ],
+      [
+        "1095:32",
+        "fills",
+        "S:eb0848c39cf58e48e9aae01f73f766c68f7bdde4,32110:4",
+        "1095:194",
+        null,
+        0,
+        0
+      ],
+      [
+        "1257:10113",
+        "fills",
+        "S:cc9f8ed188fba9318e96d598d00738e0625fd414,32110:36",
+        "1257:10127",
+        "1257:10113",
+        0,
+        0
+      ],
+      [
+        "I1257:10113;1095:23",
+        "fills",
+        "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3",
+        "1257:10127",
+        "1257:10113",
+        0,
+        0
+      ],
+      [
+        "I1257:10113;1095:32",
+        "fills",
+        "S:eb0848c39cf58e48e9aae01f73f766c68f7bdde4,32110:4",
+        "1257:10127",
+        "1257:10113",
+        0,
+        0
+      ],
+      [
+        "1095:438",
+        "fills",
+        "S:cc9f8ed188fba9318e96d598d00738e0625fd414,32110:36",
+        "1095:452",
+        "1095:438",
+        0,
+        0
+      ],
+      [
+        "I1095:438;1095:23",
+        "fills",
+        "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3",
+        "1095:452",
+        "1095:438",
+        0,
+        0
+      ],
+      [
+        "I1095:438;1095:32",
+        "fills",
+        "S:eb0848c39cf58e48e9aae01f73f766c68f7bdde4,32110:4",
+        "1095:452",
+        "1095:438",
+        0,
+        0
+      ],
+      [
+        "I2439:13707;1095:438",
+        "fills",
+        "S:cc9f8ed188fba9318e96d598d00738e0625fd414,32110:36",
+        "2439:13716",
+        "I2439:13707;1095:438",
+        0,
+        0
+      ],
+      [
+        "I2439:13707;1095:438;1095:23",
+        "fills",
+        "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3",
+        "2439:13716",
+        "I2439:13707;1095:438",
+        0,
+        0
+      ],
+      [
+        "I2439:13707;1095:438;1095:32",
+        "fills",
+        "S:eb0848c39cf58e48e9aae01f73f766c68f7bdde4,32110:4",
+        "2439:13716",
+        "I2439:13707;1095:438",
+        0,
+        0
+      ]
+    ],
+    "reasons": {
+      "kids": 0,
+      "light": 9,
+      "outside": 0,
+      "eligible": 12
+    },
+    "remainingCount": 21,
+    "unresolved": [],
+    "variableDetails": [],
+    "noncanonicalColorStyles": [],
+    "mixed": [],
+    "errors": []
+  },
+  "standard": {
+    "mode": "instance",
+    "found": 12,
+    "attempted": 12,
+    "mutatedNodeIds": [
+      "1095:194",
+      "1095:23",
+      "1095:32",
+      "1257:10113",
+      "1095:438",
+      "I4481:0;1095:32",
+      "I5170:29529;1095:438;1095:32"
+    ],
+    "darkChangedNodeIds": [
+      "1095:194",
+      "1095:23",
+      "1095:32",
+      "1257:10113",
+      "1095:438"
+    ],
+    "preservedExcludedIds": [
+      "I4481:0;1095:32",
+      "I5170:29529;1095:438;1095:32"
+    ],
+    "applied": 5,
+    "summary": {
+      "color/fill/solid/secondary": 3,
+      "color/text-icon/primary": 1,
+      "color/text-icon/secondary": 1
+    },
+    "errors": []
+  },
+  "final": {
+    "staticResult": {
+      "found": 0,
+      "mutatedNodeIds": [],
+      "recordCount": 0,
+      "errors": [],
+      "fontErrors": [],
+      "unsupportedCount": 0,
+      "unsupported": [],
+      "skipped": [],
+      "rawCount": 4
+    },
+    "page": "Экшн блок",
+    "nodeCount": 107,
+    "sources": [
+      {
+        "id": "S:a58b219ba53603c8b26af4e925d7c6fcc41005af,32110:34",
+        "name": "[Deprecated]/Background/Solid/Primary",
+        "key": "a58b219ba53603c8b26af4e925d7c6fcc41005af",
+        "count": 1,
+        "buckets": {
+          "outside": 1
+        },
+        "example": {
+          "id": "1095:0",
+          "name": "Экшен блок",
+          "field": "fills"
+        }
+      },
+      {
+        "id": "S:ac16386563414ce63f5d1ca74524cba4951046df,32110:27",
+        "name": "[Deprecated]/Background/Solid/Kids",
+        "key": "ac16386563414ce63f5d1ca74524cba4951046df",
+        "count": 1,
+        "buckets": {
+          "kids": 1
+        },
+        "example": {
+          "id": "4481:14",
+          "name": "Rectangle 289",
+          "field": "fills",
+          "kids": true
+        }
+      },
+      {
+        "id": "S:8ebf2db87112da608e8de4a90059f1abb5566d87,517:17",
+        "name": "Pink / Light",
+        "key": "8ebf2db87112da608e8de4a90059f1abb5566d87",
+        "count": 2,
+        "buckets": {
+          "outside": 2
+        },
+        "example": {
+          "id": "2755:0",
+          "name": "Базовый компонент",
+          "field": "fills"
+        }
+      },
+      {
+        "id": "S:f89742b6887c24e9491e35659021bf8e090a258a,11494:59",
+        "name": "Text & icon/on Dark/Primary",
+        "key": "f89742b6887c24e9491e35659021bf8e090a258a",
+        "count": 1,
+        "buckets": {
+          "outside": 1
+        },
+        "example": {
+          "id": "2763:14074",
+          "name": "Экшен блок",
+          "field": "fills"
+        }
+      },
+      {
+        "id": "S:9a5a52f852eb295e25acd6402b0ece77498e60d2,11494:58",
+        "name": "Text & icon/on Dark/Secondary",
+        "key": "9a5a52f852eb295e25acd6402b0ece77498e60d2",
+        "count": 3,
+        "buckets": {
+          "light": 3
+        },
+        "example": {
+          "id": "4481:0",
+          "name": "Component 1",
+          "field": "fills",
+          "master": "4481:15",
+          "masterName": "Назначение=Фильм или сериал, Фон=Светлый",
+          "light": true,
+          "instance": "4481:0"
+        }
+      },
+      {
+        "id": "S:f8d3b50812231db0b7f2767bc91aa2b0aaad09f2,10968:14",
+        "name": "Primitives/Blueberry/Primary",
+        "key": "f8d3b50812231db0b7f2767bc91aa2b0aaad09f2",
+        "count": 3,
+        "buckets": {
+          "light": 3
+        },
+        "example": {
+          "id": "I4481:0;1095:23",
+          "name": "Джентельмены",
+          "field": "fills",
+          "master": "4481:15",
+          "masterName": "Назначение=Фильм или сериал, Фон=Светлый",
+          "light": true,
+          "instance": "4481:0"
+        }
+      },
+      {
+        "id": "S:eb0848c39cf58e48e9aae01f73f766c68f7bdde4,32110:4",
+        "name": "[Deprecated]/Text & icon/on Dark/Secondary",
+        "key": "eb0848c39cf58e48e9aae01f73f766c68f7bdde4",
+        "count": 2,
+        "buckets": {
+          "light": 2
+        },
+        "example": {
+          "id": "I4481:0;1095:32",
+          "name": "Затем стоимость подписки составит 599 ₽ в месяц",
+          "field": "fills",
+          "master": "4481:15",
+          "masterName": "Назначение=Фильм или сериал, Фон=Светлый",
+          "light": true,
+          "instance": "4481:0"
+        }
+      },
+      {
+        "id": "S:88532c0a3229f60d0cfd3c0cae8f3312582f2b7f,517:9",
+        "name": "Blueberry / 90",
+        "key": "88532c0a3229f60d0cfd3c0cae8f3312582f2b7f",
+        "count": 1,
+        "buckets": {
+          "light": 1
+        },
+        "example": {
+          "id": "I5170:29543;1095:32",
+          "name": "8 сезон 4 серия: «Последние из Старков»",
+          "field": "fills",
+          "master": "5170:29542",
+          "masterName": "Назначение=Продолжить просмотр, Фон=Светлый",
+          "light": true,
+          "instance": "5170:29543"
+        }
+      }
+    ],
+    "remainingRows": [],
+    "reasons": {
+      "kids": 1,
+      "light": 9,
+      "outside": 4,
+      "eligible": 0
+    },
+    "remainingCount": 14,
+    "unresolved": [],
+    "variableDetails": [],
+    "noncanonicalColorStyles": [],
+    "mixed": [],
+    "errors": []
+  }
+}

@@ -1,0 +1,773 @@
+{
+  "date": "2026-10-20",
+  "pageId": "32590:4371",
+  "changedNodeIds": [],
+  "wholePageAudit": {
+    "page": "TabNavigation",
+    "nodeCount": 5988,
+    "rootCount": 4,
+    "groups": [
+      {
+        "name": "Blur(Web Only)/Primary",
+        "key": "46a5b7ce2458b9b9812984ebadd816459e681f17",
+        "styleType": "EFFECT",
+        "count": 72,
+        "buckets": {
+          "instance": 4,
+          "outside": 67,
+          "light": 1
+        },
+        "example": "40247:15407"
+      },
+      {
+        "name": "[Deprecated]/Background/Solid/Secondary",
+        "key": "6b0d5a4adbf8961b9daa987c9db7b1f66a5a0472",
+        "styleType": "PAINT",
+        "count": 1,
+        "buckets": {
+          "outside": 1
+        },
+        "example": "38600:424716"
+      },
+      {
+        "name": "Background/Solid/Inverse",
+        "key": "3623cbdd4d0e6053ade7cfb985b8927d9a6a7659",
+        "styleType": "PAINT",
+        "count": 12,
+        "buckets": {
+          "outside": 12
+        },
+        "example": "I38600:424718;2061:544"
+      },
+      {
+        "name": "Text & icon/on Light/Primary",
+        "key": "4e8ca772b49d5b02391ce1d8bbac531eae429f25",
+        "styleType": "PAINT",
+        "count": 12,
+        "buckets": {
+          "outside": 12
+        },
+        "example": "I38600:424718;2061:539;15861:5054"
+      },
+      {
+        "name": "Fill/Decorative/Lighthouse",
+        "key": "76cf36e03e9c51236166b99ebb619d41daaf2d0b",
+        "styleType": "PAINT",
+        "count": 12,
+        "buckets": {
+          "outside": 12
+        },
+        "example": "I38600:424718;2061:528"
+      },
+      {
+        "name": "Text & icon/on Dark/Primary",
+        "key": "8d1e4095c97d6f8de9740c869fae2aa91b41bd6d",
+        "styleType": "PAINT",
+        "count": 57,
+        "buckets": {
+          "outside": 57
+        },
+        "example": "I38600:424718;2061:528;1909:118"
+      },
+      {
+        "name": "Text & icon/on Dark/Secondary",
+        "key": "eb0848c39cf58e48e9aae01f73f766c68f7bdde4",
+        "styleType": "PAINT",
+        "count": 20,
+        "buckets": {
+          "outside": 20
+        },
+        "example": "I38600:424718;2061:530"
+      },
+      {
+        "name": "Fill/Solid/Primary",
+        "key": "d7f7d444392bf827c9164932a969d3a371cbb04d",
+        "styleType": "PAINT",
+        "count": 1,
+        "buckets": {
+          "outside": 1
+        },
+        "example": "38600:424719"
+      },
+      {
+        "name": "Fill/Glassy/Secondary",
+        "key": "5c78f242f595f0f73fe7c5b12f695071b35c3a2d",
+        "styleType": "PAINT",
+        "count": 8,
+        "buckets": {
+          "outside": 8
+        },
+        "example": "I38600:424719;2042:506"
+      },
+      {
+        "name": "Text & icon/on Dark/Positive",
+        "key": "727398ca6121b4d07a18bf02b0ae95870335e073",
+        "styleType": "PAINT",
+        "count": 4,
+        "buckets": {
+          "outside": 4
+        },
+        "example": "I38600:424719;2042:506;2042:475"
+      },
+      {
+        "name": "Text & icon/on Dark/Third",
+        "key": "7ba87ccc576cd2381aee43f11162db346a88bf6a",
+        "styleType": "PAINT",
+        "count": 16,
+        "buckets": {
+          "outside": 16
+        },
+        "example": "I38600:424719;2042:506;2042:475;2042:464"
+      },
+      {
+        "name": "Text & icon/on Dark/Forth",
+        "key": "0f7b602df21889b566056efb403ddb4aead4dede",
+        "styleType": "PAINT",
+        "count": 4,
+        "buckets": {
+          "outside": 4
+        },
+        "example": "I38600:424719;2042:521;2042:475"
+      },
+      {
+        "name": "[Deprecated]/Fill/Glassy/Secondary",
+        "key": "5c78f242f595f0f73fe7c5b12f695071b35c3a2d",
+        "styleType": "PAINT",
+        "count": 77,
+        "buckets": {
+          "outside": 77
+        },
+        "example": "38600:424724"
+      },
+      {
+        "name": "[Deprecated]/Border/Glassy",
+        "key": "1082d45b02cee1ebf04885f304cfa0cae2c2bbc3",
+        "styleType": "PAINT",
+        "count": 21,
+        "buckets": {
+          "outside": 21
+        },
+        "example": "38600:424724"
+      },
+      {
+        "name": "[Deprecated]/Background/Solid/Primary",
+        "key": "a58b219ba53603c8b26af4e925d7c6fcc41005af",
+        "styleType": "PAINT",
+        "count": 52,
+        "buckets": {
+          "outside": 52
+        },
+        "example": "38600:448407"
+      },
+      {
+        "name": "[Deprecated]/Text & icon/on Dark/Third",
+        "key": "7ba87ccc576cd2381aee43f11162db346a88bf6a",
+        "styleType": "PAINT",
+        "count": 66,
+        "buckets": {
+          "outside": 66
+        },
+        "example": "I38600:448408;15008:173908;13035:139738"
+      },
+      {
+        "name": "Primitives/Grey/Primary",
+        "key": "034ebd7ec8d8e4d45ba92d69b6f9b333aacb4133",
+        "styleType": "PAINT",
+        "count": 1,
+        "buckets": {
+          "outside": 1
+        },
+        "example": "I38600:448408;13036:143553;11079:99440;3644:1176"
+      },
+      {
+        "name": "Тень/Мини",
+        "key": "f10e03d3fd0867a89d5480eb78ccb32cf26b9079",
+        "styleType": "EFFECT",
+        "count": 3,
+        "buckets": {
+          "outside": 3
+        },
+        "example": "I38600:448408;13036:143553;16674:178353;23567:334964"
+      },
+      {
+        "name": "[Deprecated]/Fill/Solid/Positive",
+        "key": "549095b548000afc744b26d6727f100cad79feac",
+        "styleType": "PAINT",
+        "count": 14,
+        "buckets": {
+          "outside": 14
+        },
+        "example": "I38600:448409;17591:303134;17591:302961;17595:311336;17595:310159"
+      },
+      {
+        "name": "[Deprecated]/Fill/Solid/Live",
+        "key": "642eca58a3b1bbfe1c29ddad58b933acbfad8df7",
+        "styleType": "PAINT",
+        "count": 24,
+        "buckets": {
+          "outside": 24
+        },
+        "example": "I38600:448409;17591:303134;17591:302961;17595:311336;17595:310160"
+      },
+      {
+        "name": "[Deprecated]/Background/Glassy/Secondary",
+        "key": "652819774a1ef1f79fa807ae422bcdd4d03842f2",
+        "styleType": "PAINT",
+        "count": 42,
+        "buckets": {
+          "outside": 42
+        },
+        "example": "I38600:448409;17591:303134;17591:302961;17595:311336;17595:310161"
+      },
+      {
+        "name": "[Deprecated]/Brand/Okko/Accent",
+        "key": "9421d159338be9646958b6dc8c453b8beb82f273",
+        "styleType": "PAINT",
+        "count": 24,
+        "buckets": {
+          "outside": 24
+        },
+        "example": "I38600:448409;17591:303134;17591:302961;17595:311336;17595:310163"
+      },
+      {
+        "name": "[Deprecated]/Brand/Okko/AdditionalB",
+        "key": "86ed5589a7317e9b68733fe56f0624abb2d72263",
+        "styleType": "PAINT",
+        "count": 29,
+        "buckets": {
+          "light": 29
+        },
+        "example": "I38600:448409;17591:303134;17591:302961;17595:311336;17595:310164"
+      },
+      {
+        "name": "[Deprecated]/Text & icon/on Dark/Primary",
+        "key": "8d1e4095c97d6f8de9740c869fae2aa91b41bd6d",
+        "styleType": "PAINT",
+        "count": 244,
+        "buckets": {
+          "light": 14,
+          "outside": 230
+        },
+        "example": "I38600:448409;17591:303134;17591:302961;17595:311336;17595:310164;16627:178792"
+      },
+      {
+        "name": "тень текста",
+        "key": "9b7939ed85d19819909c8cd2f835ab29b87c1b5e",
+        "styleType": "EFFECT",
+        "count": 11,
+        "buckets": {
+          "outside": 11
+        },
+        "example": "I38600:448409;17591:303134;17591:302961;17595:311336;17595:310112"
+      },
+      {
+        "name": "[Deprecated]/Border/Contour",
+        "key": "dd9da9ff3fffa92fabfcf1cf141d191420fd7d27",
+        "styleType": "PAINT",
+        "count": 48,
+        "buckets": {
+          "outside": 48
+        },
+        "example": "I38600:448409;17591:303134;17591:302961;25922:350153"
+      },
+      {
+        "name": "[Deprecated]/Fill/Glassy/Third",
+        "key": "2d18b315097685552c2b414e160cfdb5b917f5e7",
+        "styleType": "PAINT",
+        "count": 4,
+        "buckets": {
+          "outside": 4
+        },
+        "example": "I38600:448409;34259:257675;34259:114961"
+      },
+      {
+        "name": "[Deprecated]/Text & icon/on Dark/Secondary",
+        "key": "eb0848c39cf58e48e9aae01f73f766c68f7bdde4",
+        "styleType": "PAINT",
+        "count": 41,
+        "buckets": {
+          "outside": 41
+        },
+        "example": "I38600:448409;34259:257675;34259:114961;16786:186978;33124:6811"
+      },
+      {
+        "name": "Fill/Solid/Primary",
+        "key": "974f85fc28b4a77fb28ea56ae2aba7dbc10a9905",
+        "styleType": "PAINT",
+        "count": 6,
+        "buckets": {
+          "outside": 6
+        },
+        "example": "I38600:448412;16814:208650;16812:199367;30438:93108;24376:3562"
+      },
+      {
+        "name": "[Deprecated]/Text & icon/on Dark/Negative",
+        "key": "998680c64c9c1838add8356e03c0178eb6a65a50",
+        "styleType": "PAINT",
+        "count": 21,
+        "buckets": {
+          "outside": 21
+        },
+        "example": "I38600:448412;16814:208650;16812:199369;16812:199277;16812:199108"
+      },
+      {
+        "name": "Fill/Fade/Bottom/Third",
+        "key": "cf5714af5a362e8893983c7327b832fb0d1b7939",
+        "styleType": "PAINT",
+        "count": 21,
+        "buckets": {
+          "outside": 21
+        },
+        "example": "I38600:448412;16814:208650;16812:199369;16812:199277;28624:108162"
+      },
+      {
+        "name": "[Deprecated]/Text & icon/on Dark/Forth",
+        "key": "0f7b602df21889b566056efb403ddb4aead4dede",
+        "styleType": "PAINT",
+        "count": 21,
+        "buckets": {
+          "outside": 21
+        },
+        "example": "I38600:448412;16814:208650;16812:199369;16812:199277;28624:108162;28624:102684"
+      },
+      {
+        "name": "Text & icon/on Dark/Secondary",
+        "key": "9a5a52f852eb295e25acd6402b0ece77498e60d2",
+        "styleType": "PAINT",
+        "count": 18,
+        "buckets": {
+          "outside": 18
+        },
+        "example": "I38600:448412;16814:208650;16812:199369;16812:199278;16812:199025;23:2335"
+      },
+      {
+        "name": "[Deprecated]/Background/Glassy/Forth",
+        "key": "8e17fe9c36b70f797da1cab086a142b0c02efe47",
+        "styleType": "PAINT",
+        "count": 3,
+        "buckets": {
+          "outside": 3
+        },
+        "example": "I38600:448412;16814:208650;34154:316882;16812:199280;16812:199104"
+      },
+      {
+        "name": "Text & icon/on Dark/Primary",
+        "key": "8d1e4095c97d6f8de9740c869fae2aa91b41bd6d",
+        "styleType": "PAINT",
+        "count": 8,
+        "buckets": {
+          "outside": 8
+        },
+        "example": "I38600:448426;2:1622;17591:336812"
+      },
+      {
+        "name": "Text & icon/on Dark/Primary",
+        "key": "8d1e4095c97d6f8de9740c869fae2aa91b41bd6d",
+        "styleType": "PAINT",
+        "count": 9,
+        "buckets": {
+          "outside": 9
+        },
+        "example": "I38600:448426;2:1623"
+      },
+      {
+        "name": "Fill / Decorative / on Dark / Button",
+        "key": "5dd3e2881730037c87e351aba596de222174b78c",
+        "styleType": "PAINT",
+        "count": 2,
+        "buckets": {
+          "outside": 2
+        },
+        "example": "I38600:448426;2:1625"
+      },
+      {
+        "name": "Text & icon/on Dark/Primary",
+        "key": "8d1e4095c97d6f8de9740c869fae2aa91b41bd6d",
+        "styleType": "PAINT",
+        "count": 12,
+        "buckets": {
+          "outside": 12
+        },
+        "example": "I38600:448426;2:1625;17232:235846;9801:3587"
+      },
+      {
+        "name": "Fill/Glassy/Third",
+        "key": "2d18b315097685552c2b414e160cfdb5b917f5e7",
+        "styleType": "PAINT",
+        "count": 6,
+        "buckets": {
+          "outside": 6
+        },
+        "example": "I38600:448426;2:1626;17337:235804"
+      },
+      {
+        "name": "Blur/Button",
+        "key": "46a5b7ce2458b9b9812984ebadd816459e681f17",
+        "styleType": "EFFECT",
+        "count": 10,
+        "buckets": {
+          "outside": 10
+        },
+        "example": "I38600:448426;2:1626;17337:235804"
+      },
+      {
+        "name": "Text & icon/on Dark/Secondary",
+        "key": "eb0848c39cf58e48e9aae01f73f766c68f7bdde4",
+        "styleType": "PAINT",
+        "count": 6,
+        "buckets": {
+          "outside": 6
+        },
+        "example": "I38600:448426;2:1626;17337:235806"
+      },
+      {
+        "name": "Text & icon/on Dark/Forth",
+        "key": "0f7b602df21889b566056efb403ddb4aead4dede",
+        "styleType": "PAINT",
+        "count": 2,
+        "buckets": {
+          "outside": 2
+        },
+        "example": "I38600:448426;863:77119;17337:235805;9892:3605"
+      },
+      {
+        "name": "Fill/Glassy/Third",
+        "key": "2d18b315097685552c2b414e160cfdb5b917f5e7",
+        "styleType": "PAINT",
+        "count": 6,
+        "buckets": {
+          "outside": 6
+        },
+        "example": "38600:448429"
+      },
+      {
+        "name": "Text & icon/on Dark/Third",
+        "key": "7ba87ccc576cd2381aee43f11162db346a88bf6a",
+        "styleType": "PAINT",
+        "count": 4,
+        "buckets": {
+          "outside": 4
+        },
+        "example": "I38600:448429;2:1573;8529:3435"
+      },
+      {
+        "name": "Text & icon/on Dark/Secondary",
+        "key": "eb0848c39cf58e48e9aae01f73f766c68f7bdde4",
+        "styleType": "PAINT",
+        "count": 1,
+        "buckets": {
+          "outside": 1
+        },
+        "example": "I38600:448431;668:57946;15861:5045"
+      },
+      {
+        "name": "[Deprecated]/Brand/Social/Odnoklassniki",
+        "key": "a4db04b104c6a39af80598275b91ea8ec40d3692",
+        "styleType": "PAINT",
+        "count": 2,
+        "buckets": {
+          "outside": 2
+        },
+        "example": "I38600:448433;12286:118038;8962:53740"
+      },
+      {
+        "name": "Primitives/Green/Light/48",
+        "key": "36bfa3a67b3313fc8559262ec13e3ea3d7602f45",
+        "styleType": "PAINT",
+        "count": 4,
+        "buckets": {
+          "outside": 4
+        },
+        "example": "I38600:448433;12286:118038;8962:53741"
+      },
+      {
+        "name": "Primitives/Red/48",
+        "key": "a4de0d9e0e9ac1314a5af5e0f64b345dd9934369",
+        "styleType": "PAINT",
+        "count": 2,
+        "buckets": {
+          "outside": 2
+        },
+        "example": "I38600:448433;12286:118038;8962:53743"
+      },
+      {
+        "name": "Text & icon/on Dark/Primary",
+        "key": "f89742b6887c24e9491e35659021bf8e090a258a",
+        "styleType": "PAINT",
+        "count": 7,
+        "buckets": {
+          "outside": 7
+        },
+        "example": "I38600:448433;12286:118040;16654:179173"
+      },
+      {
+        "name": "Text & icon/on Dark/Forth",
+        "key": "0f7b602df21889b566056efb403ddb4aead4dede",
+        "styleType": "PAINT",
+        "count": 2,
+        "buckets": {
+          "outside": 2
+        },
+        "example": "I38600:448433;12286:118040;16654:179366;15248:173306;5985:3867;5966:1802"
+      },
+      {
+        "name": "Text & icon/on Dark/Third",
+        "key": "7ba87ccc576cd2381aee43f11162db346a88bf6a",
+        "styleType": "PAINT",
+        "count": 2,
+        "buckets": {
+          "outside": 2
+        },
+        "example": "I38600:448433;12286:118040;16654:179366;15248:173306;5985:3867;5969:515"
+      },
+      {
+        "name": "Primitives/White/64",
+        "key": "37aa3eddd997c9b83cbd75564bfa9fbd56f4dc3a",
+        "styleType": "PAINT",
+        "count": 19,
+        "buckets": {
+          "outside": 19
+        },
+        "example": "I38600:448433;12286:118040;16654:179178;33124:6756"
+      },
+      {
+        "name": "Fill/Glassy/On Dark/Third",
+        "key": "2d18b315097685552c2b414e160cfdb5b917f5e7",
+        "styleType": "PAINT",
+        "count": 1,
+        "buckets": {
+          "outside": 1
+        },
+        "example": "I38600:448464;12286:118082;12286:117953;6022:33493"
+      },
+      {
+        "name": "[Deprecated]/Fill/Solid/Negative",
+        "key": "5cd53462aea8059c48019303237f34fb14ae333b",
+        "styleType": "PAINT",
+        "count": 1,
+        "buckets": {
+          "outside": 1
+        },
+        "example": "I38600:448464;12286:118082;12286:117953;6022:33493;6017:32950;6012:33467"
+      },
+      {
+        "name": "[Deprecated]/Fill/Solid/Secondary",
+        "key": "cc9f8ed188fba9318e96d598d00738e0625fd414",
+        "styleType": "PAINT",
+        "count": 15,
+        "buckets": {
+          "outside": 15
+        },
+        "example": "38600:448474"
+      },
+      {
+        "name": "Fill/Solid/Secondary",
+        "key": "cc9f8ed188fba9318e96d598d00738e0625fd414",
+        "styleType": "PAINT",
+        "count": 1,
+        "buckets": {
+          "outside": 1
+        },
+        "example": "38600:424824"
+      },
+      {
+        "name": "Text & icon/on Dark/Accent",
+        "key": "c0564bc982150679520f79befc91330305fb313a",
+        "styleType": "PAINT",
+        "count": 26,
+        "buckets": {
+          "outside": 26
+        },
+        "example": "I38600:424827;2283:393"
+      },
+      {
+        "name": "[Deprecated]/Fill/Solid: hover & focus/Secondary",
+        "key": "a02ac6372c58da259dc70bfc10c5553d6f663d87",
+        "styleType": "PAINT",
+        "count": 1,
+        "buckets": {
+          "outside": 1
+        },
+        "example": "38600:424881"
+      },
+      {
+        "name": "Safezones/Pink",
+        "key": "20936f06ef18064031f3e2e5fed8fc01901afbd7",
+        "styleType": "PAINT",
+        "count": 5,
+        "buckets": {
+          "outside": 5
+        },
+        "example": "I38909:11067;278:8583"
+      },
+      {
+        "name": "Safezones/Green",
+        "key": "2396b0f0c9d377a0ef624d0afd2e1cc218de719f",
+        "styleType": "PAINT",
+        "count": 3,
+        "buckets": {
+          "outside": 3
+        },
+        "example": "I38909:11067;278:8584"
+      }
+    ],
+    "collections": [
+      {
+        "id": "VariableCollectionId:1c6e07816c9c7d8423d676736c66af0f797411bb/41872:3468",
+        "name": "Color",
+        "bindings": 1415,
+        "variables": 33
+      },
+      {
+        "id": "VariableCollectionId:9bfe8dde6e700cc0754156917935eea46ac309ee/32016:4307",
+        "name": "Primitives",
+        "bindings": 74,
+        "variables": 3
+      },
+      {
+        "id": "VariableCollectionId:1c6e07816c9c7d8423d676736c66af0f797411bb/41700:0",
+        "name": "Color",
+        "bindings": 96,
+        "variables": 4
+      }
+    ],
+    "primitiveBindings": [
+      {
+        "name": "primitives/electric800",
+        "key": "7ccd0b1656c5f89fb3fda04fdcaf8a4f870556f6",
+        "count": 24,
+        "buckets": {
+          "outside": 24
+        },
+        "example": "I38600:448409;17591:303134;17591:302961;17595:311336;17595:310163"
+      },
+      {
+        "name": "primitives/electric1100",
+        "key": "f726b5e6a18952670ca687b36d8d05bf2bd82bce",
+        "count": 29,
+        "buckets": {
+          "light": 29
+        },
+        "example": "I38600:448409;17591:303134;17591:302961;17595:311336;17595:310164"
+      },
+      {
+        "name": "primitives/red600",
+        "key": "6b57403c4ed80c0ad8e2eca29c2e74c565f6ab37",
+        "count": 21,
+        "buckets": {
+          "outside": 21
+        },
+        "example": "I38600:448412;16814:208650;16812:199369;16812:199277;16812:199108"
+      }
+    ],
+    "mixed": [],
+    "errors": []
+  },
+  "masterAudit": {
+    "variableDetails": [],
+    "styleDetails": [
+      {
+        "kind": "style",
+        "id": "S:b39070e273edc7418ffc5c130b72d053f9147692,41972:6",
+        "count": 24,
+        "buckets": {
+          "own": 24
+        },
+        "examples": [
+          {
+            "id": "41002:20667",
+            "name": "Breakpoint=1720+, Size=Small, State=Hover, Right Padding=True, Icon=True",
+            "field": "fills",
+            "master": "41002:20667",
+            "masterName": "Breakpoint=1720+, Size=Small, State=Hover, Right Padding=True, Icon=True"
+          },
+          {
+            "id": "40832:11109",
+            "name": "Breakpoint=1720+, Size=Default, State=Hover, Right Padding=True, Icon=True",
+            "field": "fills",
+            "master": "40832:11109",
+            "masterName": "Breakpoint=1720+, Size=Default, State=Hover, Right Padding=True, Icon=True"
+          }
+        ],
+        "styleType": "PAINT",
+        "name": "color/fill/solid/hover-focus/secondary",
+        "key": "b39070e273edc7418ffc5c130b72d053f9147692"
+      },
+      {
+        "kind": "style",
+        "id": "S:46a5b7ce2458b9b9812984ebadd816459e681f17,36858:1",
+        "count": 4,
+        "buckets": {
+          "instance": 4
+        },
+        "examples": [
+          {
+            "id": "40247:15407",
+            "name": "Button",
+            "field": "effects",
+            "master": "38600:418537",
+            "masterName": "Breakpoint=1720+",
+            "instance": "40247:15407"
+          },
+          {
+            "id": "40247:15991",
+            "name": "Button",
+            "field": "effects",
+            "master": "38600:418537",
+            "masterName": "Breakpoint=1720+",
+            "instance": "40247:15991"
+          }
+        ],
+        "styleType": "EFFECT",
+        "name": "Blur(Web Only)/Primary",
+        "key": "46a5b7ce2458b9b9812984ebadd816459e681f17"
+      }
+    ],
+    "page": "TabNavigation",
+    "nodeCount": 621,
+    "rootCount": 4,
+    "groups": [
+      {
+        "name": "Blur(Web Only)/Primary",
+        "key": "46a5b7ce2458b9b9812984ebadd816459e681f17",
+        "styleType": "EFFECT",
+        "count": 4,
+        "buckets": {
+          "instance": 4
+        },
+        "example": "40247:15407"
+      }
+    ],
+    "collections": [
+      {
+        "id": "VariableCollectionId:1c6e07816c9c7d8423d676736c66af0f797411bb/41872:3468",
+        "name": "Color",
+        "bindings": 280,
+        "variables": 5
+      }
+    ],
+    "primitiveBindings": [],
+    "mixed": [],
+    "errors": []
+  },
+  "staticAudit": {
+    "stats": {
+      "scanned": 549,
+      "alreadyStatic": 0,
+      "overColored": 0
+    },
+    "found": 0,
+    "examples": [],
+    "raw": 0,
+    "unsupportedCount": 0,
+    "unsupported": [],
+    "skipped": []
+  },
+  "noncanonicalMasterPaintStyles": [],
+  "summary": {
+    "checkedPageNodes": 5988,
+    "checkedMasterSubtreeNodes": 621,
+    "masterVariants": 51,
+    "remainingOldPaintApplicationsOutsideMasters": 1071
+  }
+}

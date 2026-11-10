@@ -1,0 +1,798 @@
+{
+  "date": "2026-10-20",
+  "fileKey": "sb7SelAF2PBcYZsOxL092c",
+  "pageId": "118:540",
+  "pageName": "Изображения",
+  "masterCount": 32,
+  "masterNodeCount": 237,
+  "pageNodeCount": 250,
+  "uniqueChangedNodeCount": 7,
+  "mutatedNodeIds": [
+    "14900:174075",
+    "14900:174070",
+    "14900:174073",
+    "I3482:21564;218:777",
+    "I3482:21547;1943:4641",
+    "I3482:21577;1175:1202",
+    "I3482:21552;4233:0"
+  ],
+  "initial": {
+    "staticResult": null,
+    "page": "Изображения",
+    "nodeCount": 237,
+    "sources": [
+      {
+        "id": "S:a58b219ba53603c8b26af4e925d7c6fcc41005af,32110:34",
+        "name": "[Deprecated]/Background/Solid/Primary",
+        "key": "a58b219ba53603c8b26af4e925d7c6fcc41005af",
+        "count": 3,
+        "buckets": {
+          "own": 3
+        },
+        "example": {
+          "id": "14900:174075",
+          "name": "Цвет градиента",
+          "field": "fills",
+          "master": "8967:66935",
+          "masterName": "Карточка контента / Вертикальный кавер"
+        }
+      },
+      {
+        "id": "S:36bfa3a67b3313fc8559262ec13e3ea3d7602f45,11363:22",
+        "name": "Primitives/Green/Light/48",
+        "key": "36bfa3a67b3313fc8559262ec13e3ea3d7602f45",
+        "count": 3,
+        "buckets": {
+          "own": 3
+        },
+        "example": {
+          "id": "8971:66756",
+          "name": "Основная композиция",
+          "field": "fills",
+          "master": "8967:66935",
+          "masterName": "Карточка контента / Вертикальный кавер"
+        }
+      },
+      {
+        "id": "S:a4de0d9e0e9ac1314a5af5e0f64b345dd9934369,10968:16",
+        "name": "Primitives/Red/48",
+        "key": "a4de0d9e0e9ac1314a5af5e0f64b345dd9934369",
+        "count": 2,
+        "buckets": {
+          "own": 2
+        },
+        "example": {
+          "id": "8967:66840",
+          "name": "Safe Zone",
+          "field": "fills",
+          "master": "8967:66861",
+          "masterName": "Градиент слева=True"
+        }
+      },
+      {
+        "id": "S:f8d3b50812231db0b7f2767bc91aa2b0aaad09f2,10968:14",
+        "name": "Primitives/Blueberry/Primary",
+        "key": "f8d3b50812231db0b7f2767bc91aa2b0aaad09f2",
+        "count": 2,
+        "buckets": {
+          "own": 2
+        },
+        "example": {
+          "id": "196:951",
+          "name": "Десктоп",
+          "field": "fills",
+          "master": "196:951",
+          "masterName": "Десктоп"
+        }
+      },
+      {
+        "id": "S:8bdf49918db94d14995a8fa56da109512a09d02e,10968:25",
+        "name": "Primitives/Blueberry/Dark blueberry 100",
+        "key": "8bdf49918db94d14995a8fa56da109512a09d02e",
+        "count": 2,
+        "buckets": {
+          "instance": 1,
+          "light": 1
+        },
+        "example": {
+          "id": "6640:39629",
+          "name": "Градиент",
+          "field": "fills",
+          "master": "6640:39640",
+          "masterName": "СберЛояльность / на тёмном",
+          "instance": "6640:39629"
+        }
+      },
+      {
+        "id": "S:655485d65270b7a4539cb231eee29ea3adb8b181,11363:14",
+        "name": "Primitives/Violet/15",
+        "key": "655485d65270b7a4539cb231eee29ea3adb8b181",
+        "count": 1,
+        "buckets": {
+          "light": 1
+        },
+        "example": {
+          "id": "6953:43879",
+          "name": "СберЛояльность / на светлом",
+          "field": "fills",
+          "master": "6953:43879",
+          "masterName": "СберЛояльность / на светлом",
+          "light": true
+        }
+      },
+      {
+        "id": "S:52269fa7f68addbb91a4700be760446ff3ef6cdf,451:1",
+        "name": "Violet / 5",
+        "key": "52269fa7f68addbb91a4700be760446ff3ef6cdf",
+        "count": 1,
+        "buckets": {
+          "light": 1
+        },
+        "example": {
+          "id": "I6953:43809;6640:39629;2623:1921",
+          "name": "brand_gradient 1",
+          "field": "fills",
+          "master": "6953:43879",
+          "masterName": "СберЛояльность / на светлом",
+          "light": true,
+          "instance": "I6953:43809;6640:39629"
+        }
+      },
+      {
+        "id": "S:ff3be08bcfccaeec3fb5e3ec38e54759e7174f7b,39850:8",
+        "name": "[Deprecated]/Background/Decorative/Primary",
+        "key": "ff3be08bcfccaeec3fb5e3ec38e54759e7174f7b",
+        "count": 2,
+        "buckets": {
+          "own": 2
+        },
+        "example": {
+          "id": "5299:31337",
+          "name": "Сберпрайм",
+          "field": "fills",
+          "master": "5299:31337",
+          "masterName": "Сберпрайм"
+        }
+      },
+      {
+        "id": "S:f89742b6887c24e9491e35659021bf8e090a258a,517:28",
+        "name": "White / Primary",
+        "key": "f89742b6887c24e9491e35659021bf8e090a258a",
+        "count": 8,
+        "buckets": {
+          "instance": 8
+        },
+        "example": {
+          "id": "I3482:21564;218:777",
+          "name": "Combined Shape",
+          "field": "region0",
+          "master": "3482:21593",
+          "masterName": "Вы зарегистрировались",
+          "instance": "3482:21564"
+        }
+      }
+    ],
+    "remainingRows": [
+      [
+        "14900:174075",
+        "fills",
+        "S:a58b219ba53603c8b26af4e925d7c6fcc41005af,32110:34",
+        "8967:66935",
+        null,
+        0,
+        0
+      ],
+      [
+        "8971:66756",
+        "fills",
+        "S:36bfa3a67b3313fc8559262ec13e3ea3d7602f45,11363:22",
+        "8967:66935",
+        null,
+        0,
+        0
+      ],
+      [
+        "8967:66838",
+        "fills",
+        "S:36bfa3a67b3313fc8559262ec13e3ea3d7602f45,11363:22",
+        "8967:66861",
+        null,
+        0,
+        0
+      ],
+      [
+        "8967:66840",
+        "fills",
+        "S:a4de0d9e0e9ac1314a5af5e0f64b345dd9934369,10968:16",
+        "8967:66861",
+        null,
+        0,
+        0
+      ],
+      [
+        "14900:174070",
+        "fills",
+        "S:a58b219ba53603c8b26af4e925d7c6fcc41005af,32110:34",
+        "8967:66861",
+        null,
+        0,
+        0
+      ],
+      [
+        "8967:66902",
+        "fills",
+        "S:36bfa3a67b3313fc8559262ec13e3ea3d7602f45,11363:22",
+        "8967:66894",
+        null,
+        0,
+        0
+      ],
+      [
+        "8967:66904",
+        "fills",
+        "S:a4de0d9e0e9ac1314a5af5e0f64b345dd9934369,10968:16",
+        "8967:66894",
+        null,
+        0,
+        0
+      ],
+      [
+        "14900:174073",
+        "fills",
+        "S:a58b219ba53603c8b26af4e925d7c6fcc41005af,32110:34",
+        "8967:66894",
+        null,
+        0,
+        0
+      ],
+      [
+        "196:951",
+        "fills",
+        "S:f8d3b50812231db0b7f2767bc91aa2b0aaad09f2,10968:14",
+        "196:951",
+        null,
+        0,
+        0
+      ],
+      [
+        "196:996",
+        "fills",
+        "S:f8d3b50812231db0b7f2767bc91aa2b0aaad09f2,10968:14",
+        "196:996",
+        null,
+        0,
+        0
+      ],
+      [
+        "6640:39629",
+        "fills",
+        "S:8bdf49918db94d14995a8fa56da109512a09d02e,10968:25",
+        "6640:39640",
+        "6640:39629",
+        0,
+        0
+      ],
+      [
+        "5299:31337",
+        "fills",
+        "S:ff3be08bcfccaeec3fb5e3ec38e54759e7174f7b,39850:8",
+        "5299:31337",
+        null,
+        0,
+        0
+      ],
+      [
+        "3482:21525",
+        "fills",
+        "S:ff3be08bcfccaeec3fb5e3ec38e54759e7174f7b,39850:8",
+        "3482:21593",
+        null,
+        0,
+        0
+      ],
+      [
+        "I3482:21564;218:777",
+        "region0",
+        "S:f89742b6887c24e9491e35659021bf8e090a258a,517:28",
+        "3482:21593",
+        "3482:21564",
+        0,
+        0
+      ],
+      [
+        "I3482:21547;1943:4641",
+        "region0",
+        "S:f89742b6887c24e9491e35659021bf8e090a258a,517:28",
+        "3482:21593",
+        "3482:21547",
+        0,
+        0
+      ],
+      [
+        "I3482:21577;1175:1202",
+        "region0",
+        "S:f89742b6887c24e9491e35659021bf8e090a258a,517:28",
+        "3482:21593",
+        "3482:21577",
+        0,
+        0
+      ],
+      [
+        "I3482:21577;1175:1202",
+        "region1",
+        "S:f89742b6887c24e9491e35659021bf8e090a258a,517:28",
+        "3482:21593",
+        "3482:21577",
+        0,
+        0
+      ],
+      [
+        "I3482:21552;4233:0",
+        "region0",
+        "S:f89742b6887c24e9491e35659021bf8e090a258a,517:28",
+        "3482:21593",
+        "3482:21552",
+        0,
+        0
+      ],
+      [
+        "I3482:21552;4233:0",
+        "region1",
+        "S:f89742b6887c24e9491e35659021bf8e090a258a,517:28",
+        "3482:21593",
+        "3482:21552",
+        0,
+        0
+      ],
+      [
+        "I3482:21552;4233:0",
+        "region2",
+        "S:f89742b6887c24e9491e35659021bf8e090a258a,517:28",
+        "3482:21593",
+        "3482:21552",
+        0,
+        0
+      ],
+      [
+        "I3482:21552;4233:0",
+        "region3",
+        "S:f89742b6887c24e9491e35659021bf8e090a258a,517:28",
+        "3482:21593",
+        "3482:21552",
+        0,
+        0
+      ]
+    ],
+    "reasons": {
+      "kids": 0,
+      "light": 3,
+      "outside": 0,
+      "eligible": 21
+    },
+    "remainingCount": 24,
+    "unresolved": [],
+    "variableDetails": [
+      {
+        "kind": "variable",
+        "id": "VariableID:f726b5e6a18952670ca687b36d8d05bf2bd82bce/39850:96",
+        "count": 2,
+        "buckets": {
+          "own": 2
+        },
+        "examples": [
+          {
+            "id": "5299:31337",
+            "name": "Сберпрайм",
+            "field": "fills",
+            "master": "5299:31337",
+            "masterName": "Сберпрайм",
+            "i": 0
+          },
+          {
+            "id": "3482:21525",
+            "name": "Окно успеха подписки 1",
+            "field": "fills",
+            "master": "3482:21593",
+            "masterName": "Вы зарегистрировались",
+            "i": 0
+          }
+        ],
+        "name": "primitives/electric1100",
+        "key": "f726b5e6a18952670ca687b36d8d05bf2bd82bce",
+        "collection": "VariableCollectionId:9bfe8dde6e700cc0754156917935eea46ac309ee/32016:4307"
+      }
+    ],
+    "noncanonicalColorStyles": [],
+    "mixed": [],
+    "errors": []
+  },
+  "phases": {
+    "standard": {
+      "mode": "instance",
+      "found": 7,
+      "attempted": 7,
+      "mutatedNodeIds": [
+        "14900:174075",
+        "14900:174070",
+        "14900:174073",
+        "I3482:21564;218:777",
+        "I3482:21547;1943:4641",
+        "I3482:21577;1175:1202",
+        "I3482:21552;4233:0"
+      ],
+      "applied": 7,
+      "summary": {
+        "color/background/solid/primary": 3,
+        "color/text-icon/primary": 4
+      },
+      "errors": []
+    },
+    "static": {
+      "found": 0,
+      "mutatedNodeIds": [],
+      "recordCount": 0,
+      "errors": [],
+      "fontErrors": [],
+      "unsupportedCount": 0,
+      "unsupported": [],
+      "skipped": [],
+      "rawCount": 0
+    }
+  },
+  "final": {
+    "staticResult": {
+      "found": 0,
+      "mutatedNodeIds": [],
+      "recordCount": 0,
+      "errors": [],
+      "fontErrors": [],
+      "unsupportedCount": 0,
+      "unsupported": [],
+      "skipped": [],
+      "rawCount": 0
+    },
+    "page": "Изображения",
+    "nodeCount": 250,
+    "sources": [
+      {
+        "id": "S:36bfa3a67b3313fc8559262ec13e3ea3d7602f45,11363:22",
+        "name": "Primitives/Green/Light/48",
+        "key": "36bfa3a67b3313fc8559262ec13e3ea3d7602f45",
+        "count": 3,
+        "buckets": {
+          "own": 3
+        },
+        "example": {
+          "id": "8971:66756",
+          "name": "Основная композиция",
+          "field": "fills",
+          "master": "8967:66935",
+          "masterName": "Карточка контента / Вертикальный кавер"
+        }
+      },
+      {
+        "id": "S:a4de0d9e0e9ac1314a5af5e0f64b345dd9934369,10968:16",
+        "name": "Primitives/Red/48",
+        "key": "a4de0d9e0e9ac1314a5af5e0f64b345dd9934369",
+        "count": 2,
+        "buckets": {
+          "own": 2
+        },
+        "example": {
+          "id": "8967:66840",
+          "name": "Safe Zone",
+          "field": "fills",
+          "master": "8967:66861",
+          "masterName": "Градиент слева=True"
+        }
+      },
+      {
+        "id": "S:f8d3b50812231db0b7f2767bc91aa2b0aaad09f2,10968:14",
+        "name": "Primitives/Blueberry/Primary",
+        "key": "f8d3b50812231db0b7f2767bc91aa2b0aaad09f2",
+        "count": 2,
+        "buckets": {
+          "own": 2
+        },
+        "example": {
+          "id": "196:951",
+          "name": "Десктоп",
+          "field": "fills",
+          "master": "196:951",
+          "masterName": "Десктоп"
+        }
+      },
+      {
+        "id": "S:8bdf49918db94d14995a8fa56da109512a09d02e,10968:25",
+        "name": "Primitives/Blueberry/Dark blueberry 100",
+        "key": "8bdf49918db94d14995a8fa56da109512a09d02e",
+        "count": 5,
+        "buckets": {
+          "outside": 3,
+          "instance": 1,
+          "light": 1
+        },
+        "example": {
+          "id": "7978:48922",
+          "name": "Пустое состояние",
+          "field": "fills"
+        }
+      },
+      {
+        "id": "S:655485d65270b7a4539cb231eee29ea3adb8b181,11363:14",
+        "name": "Primitives/Violet/15",
+        "key": "655485d65270b7a4539cb231eee29ea3adb8b181",
+        "count": 1,
+        "buckets": {
+          "light": 1
+        },
+        "example": {
+          "id": "6953:43879",
+          "name": "СберЛояльность / на светлом",
+          "field": "fills",
+          "master": "6953:43879",
+          "masterName": "СберЛояльность / на светлом",
+          "light": true
+        }
+      },
+      {
+        "id": "S:52269fa7f68addbb91a4700be760446ff3ef6cdf,451:1",
+        "name": "Violet / 5",
+        "key": "52269fa7f68addbb91a4700be760446ff3ef6cdf",
+        "count": 1,
+        "buckets": {
+          "light": 1
+        },
+        "example": {
+          "id": "I6953:43809;6640:39629;2623:1921",
+          "name": "brand_gradient 1",
+          "field": "fills",
+          "master": "6953:43879",
+          "masterName": "СберЛояльность / на светлом",
+          "light": true,
+          "instance": "I6953:43809;6640:39629"
+        }
+      },
+      {
+        "id": "S:ff3be08bcfccaeec3fb5e3ec38e54759e7174f7b,39850:8",
+        "name": "[Deprecated]/Background/Decorative/Primary",
+        "key": "ff3be08bcfccaeec3fb5e3ec38e54759e7174f7b",
+        "count": 2,
+        "buckets": {
+          "own": 2
+        },
+        "example": {
+          "id": "5299:31337",
+          "name": "Сберпрайм",
+          "field": "fills",
+          "master": "5299:31337",
+          "masterName": "Сберпрайм"
+        }
+      },
+      {
+        "id": "S:1d31ab3c7413ab3205c6c3d689cbb1d2c1fabd10,11363:27",
+        "name": "Primitives/Grey/Light",
+        "key": "1d31ab3c7413ab3205c6c3d689cbb1d2c1fabd10",
+        "count": 1,
+        "buckets": {
+          "outside": 1
+        },
+        "example": {
+          "id": "8569:65395",
+          "name": "Rectangle 4",
+          "field": "fills"
+        }
+      }
+    ],
+    "remainingRows": [
+      [
+        "8971:66756",
+        "fills",
+        "S:36bfa3a67b3313fc8559262ec13e3ea3d7602f45,11363:22",
+        "8967:66935",
+        null,
+        0,
+        0
+      ],
+      [
+        "8967:66838",
+        "fills",
+        "S:36bfa3a67b3313fc8559262ec13e3ea3d7602f45,11363:22",
+        "8967:66861",
+        null,
+        0,
+        0
+      ],
+      [
+        "8967:66840",
+        "fills",
+        "S:a4de0d9e0e9ac1314a5af5e0f64b345dd9934369,10968:16",
+        "8967:66861",
+        null,
+        0,
+        0
+      ],
+      [
+        "8967:66902",
+        "fills",
+        "S:36bfa3a67b3313fc8559262ec13e3ea3d7602f45,11363:22",
+        "8967:66894",
+        null,
+        0,
+        0
+      ],
+      [
+        "8967:66904",
+        "fills",
+        "S:a4de0d9e0e9ac1314a5af5e0f64b345dd9934369,10968:16",
+        "8967:66894",
+        null,
+        0,
+        0
+      ],
+      [
+        "196:951",
+        "fills",
+        "S:f8d3b50812231db0b7f2767bc91aa2b0aaad09f2,10968:14",
+        "196:951",
+        null,
+        0,
+        0
+      ],
+      [
+        "196:996",
+        "fills",
+        "S:f8d3b50812231db0b7f2767bc91aa2b0aaad09f2,10968:14",
+        "196:996",
+        null,
+        0,
+        0
+      ],
+      [
+        "6640:39629",
+        "fills",
+        "S:8bdf49918db94d14995a8fa56da109512a09d02e,10968:25",
+        "6640:39640",
+        "6640:39629",
+        0,
+        0
+      ],
+      [
+        "5299:31337",
+        "fills",
+        "S:ff3be08bcfccaeec3fb5e3ec38e54759e7174f7b,39850:8",
+        "5299:31337",
+        null,
+        0,
+        0
+      ],
+      [
+        "3482:21525",
+        "fills",
+        "S:ff3be08bcfccaeec3fb5e3ec38e54759e7174f7b,39850:8",
+        "3482:21593",
+        null,
+        0,
+        0
+      ]
+    ],
+    "reasons": {
+      "kids": 0,
+      "light": 3,
+      "outside": 4,
+      "eligible": 10
+    },
+    "remainingCount": 17,
+    "unresolved": [],
+    "variableDetails": [
+      {
+        "kind": "variable",
+        "id": "VariableID:f726b5e6a18952670ca687b36d8d05bf2bd82bce/39850:96",
+        "count": 2,
+        "buckets": {
+          "own": 2
+        },
+        "examples": [
+          {
+            "id": "5299:31337",
+            "name": "Сберпрайм",
+            "field": "fills",
+            "master": "5299:31337",
+            "masterName": "Сберпрайм",
+            "i": 0
+          },
+          {
+            "id": "3482:21525",
+            "name": "Окно успеха подписки 1",
+            "field": "fills",
+            "master": "3482:21593",
+            "masterName": "Вы зарегистрировались",
+            "i": 0
+          }
+        ],
+        "name": "primitives/electric1100",
+        "key": "f726b5e6a18952670ca687b36d8d05bf2bd82bce",
+        "collection": "VariableCollectionId:9bfe8dde6e700cc0754156917935eea46ac309ee/32016:4307"
+      }
+    ],
+    "noncanonicalColorStyles": [],
+    "mixed": [],
+    "errors": []
+  },
+  "decisions": [
+    {
+      "source": "Primitives/Green/Light/48",
+      "count": 3,
+      "nodeIds": [
+        "8971:66756",
+        "8967:66838",
+        "8967:66902"
+      ],
+      "where": "Каверы / Основная композиция",
+      "candidates": [
+        "color/fill/solid/positive"
+      ],
+      "reason": "Скрытая техническая подсветка композиции, а не подтверждённое позитивное состояние. Замена изменит оттенок и прозрачность; подходящего технического токена не подтверждено."
+    },
+    {
+      "source": "Primitives/Red/48",
+      "count": 2,
+      "nodeIds": [
+        "8967:66840",
+        "8967:66904"
+      ],
+      "where": "Горизонтальные каверы / Safe Zone",
+      "candidates": [
+        "color/fill/solid/negative"
+      ],
+      "reason": "Красная техническая зона не обозначает ошибку. Семантика negative и сохранение прозрачности требуют решения."
+    },
+    {
+      "source": "Primitives/Blueberry/Primary",
+      "count": 2,
+      "nodeIds": [
+        "196:951",
+        "196:996"
+      ],
+      "where": "Фон / Десктоп, Мобильный",
+      "candidates": [
+        "color/background/solid/primary",
+        "color/background/solid/secondary"
+      ],
+      "reason": "Фон под растровой иллюстрацией: нужно решить, должен ли он стать основным или вторичным адаптивным фоном либо сохранять фиксированный оттенок."
+    },
+    {
+      "source": "Primitives/Blueberry/Dark blueberry 100",
+      "count": 1,
+      "nodeIds": [
+        "6640:39629"
+      ],
+      "where": "СберЛояльность / на тёмном / Градиент",
+      "candidates": [
+        "color/background/solid/primary",
+        "color/background/solid/secondary"
+      ],
+      "reason": "Подложка растрового брендового градиента. Автоматическая замена может изменить стык с изображением. Связанный мастер Градиент 6639:39833 требует того же решения."
+    },
+    {
+      "source": "[Deprecated]/Background/Decorative/Primary",
+      "count": 2,
+      "nodeIds": [
+        "5299:31337",
+        "3482:21525"
+      ],
+      "where": "Сберпрайм; Вы зарегистрировались / Окно успеха подписки 1",
+      "candidates": [
+        "color/fill/solid/accent"
+      ],
+      "reason": "Элементы иллюстраций используют primitives/electric1100. Не подтверждено, что иллюстрация должна использовать адаптивный accent вместо фиксированного брендового оттенка."
+    }
+  ],
+  "notes": [
+    "Считаются применения стилей, включая векторные области; это не количество уникальных слоёв.",
+    "Две привязки electric1100 входят в два применения Background/Decorative/Primary и не суммируются с ними.",
+    "Повторный аудит выполнен программно; ручная проверка панели Selection colors не заявляется.",
+    "Новые дизайн-переменные, стили, коллекции и aliases не создавались.",
+    "Light и детские иллюстрации не изменялись. Цвета без токенов не изменялись."
+  ]
+}

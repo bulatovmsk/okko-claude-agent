@@ -1,5 +1,13 @@
 # Button
 
+## Web · снимок задачи 12 октября 2026
+
+Web-набор: **917 вариантов**. Стили Primary / Secondary / Ghost / Negative / Sber; размеры Small / Default / Large / ExtraSmall. ExtraSmall — только Rectangle / Secondary. В Mobile нет Hover и Focus. Актуальные гайд, паспорт и Overview, ограничения сочетаний и геометрия сохранены в контексте ниже.
+
+[Контекст Web Button / Toggle](../../.agents/skills/design-figma-libraries/references/buttons-web.md) — ссылки на Figma, проверенное покрытие и ограничения достоверности. Перед изменениями перечитать живые узлы.
+
+Остальные разделы этой карточки и блок FIGMA_SYNC ниже описывают **iOS**, если явно не указана другая платформа.
+
 ## Назначение
 
 Универсальная кнопка для основных, вторичных, опасных и брендированных действий на iPhone и iPad.

@@ -1,0 +1,490 @@
+{
+  "date": "2026-10-20",
+  "pageId": "29217:15",
+  "before": {
+    "eligibleDetails": [
+      {
+        "id": "29217:6707",
+        "name": "Completed=False, Breakpoint=1720+",
+        "master": "29217:6707",
+        "path": "Task > Completed=False, Breakpoint=1720+",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:cc9f8ed188fba9318e96d598d00738e0625fd414,32110:36"
+          }
+        ]
+      },
+      {
+        "id": "29217:6712",
+        "name": "+",
+        "master": "29217:6707",
+        "path": "Task > Completed=False, Breakpoint=1720+ > +",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:c13f4ce61a491ddea92db3ee85d7a8a33abdb0f9,19450:41"
+          }
+        ]
+      },
+      {
+        "id": "29217:6715",
+        "name": "+10",
+        "master": "29217:6707",
+        "path": "Task > Completed=False, Breakpoint=1720+ > Frame 1462984508 > Bonuses > +10",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3"
+          }
+        ]
+      },
+      {
+        "id": "I29217:6716;25781:343",
+        "name": "Rectangle 13",
+        "master": "29217:6707",
+        "path": "Task > Completed=False, Breakpoint=1720+ > Frame 1462984508 > Bonuses > Sber / Mini Spasibo > MasterGradient > Rectangle 13",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:23327f9c793b0fb12cb2395957100c2a48880cc1,1421:191"
+          }
+        ]
+      },
+      {
+        "id": "29217:6717",
+        "name": "Включить оплату бонусами",
+        "master": "29217:6707",
+        "path": "Task > Completed=False, Breakpoint=1720+ > Frame 1462984508 > Включить оплату бонусами",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3"
+          }
+        ]
+      },
+      {
+        "id": "29217:6719",
+        "name": "Completed=True, Breakpoint=1720+",
+        "master": "29217:6719",
+        "path": "Task > Completed=True, Breakpoint=1720+",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:6b0d5a4adbf8961b9daa987c9db7b1f66a5a0472,32110:35"
+          }
+        ]
+      },
+      {
+        "id": "29217:6724",
+        "name": "+",
+        "master": "29217:6719",
+        "path": "Task > Completed=True, Breakpoint=1720+ > +",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:c13f4ce61a491ddea92db3ee85d7a8a33abdb0f9,19450:41"
+          }
+        ]
+      },
+      {
+        "id": "29217:6727",
+        "name": "+10",
+        "master": "29217:6719",
+        "path": "Task > Completed=True, Breakpoint=1720+ > Frame 1462984508 > Bonuses > +10",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5"
+          }
+        ]
+      },
+      {
+        "id": "29217:6729",
+        "name": "Включить оплату бонусами",
+        "master": "29217:6719",
+        "path": "Task > Completed=True, Breakpoint=1720+ > Frame 1462984508 > Включить оплату бонусами",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5"
+          }
+        ]
+      },
+      {
+        "id": "29217:6732",
+        "name": "Text",
+        "master": "29217:6719",
+        "path": "Task > Completed=True, Breakpoint=1720+ > Label > Text",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3"
+          }
+        ]
+      },
+      {
+        "id": "29219:14104",
+        "name": "Completed=False, Breakpoint=1320+",
+        "master": "29219:14104",
+        "path": "Task > Completed=False, Breakpoint=1320+",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:cc9f8ed188fba9318e96d598d00738e0625fd414,32110:36"
+          }
+        ]
+      },
+      {
+        "id": "29219:14109",
+        "name": "+",
+        "master": "29219:14104",
+        "path": "Task > Completed=False, Breakpoint=1320+ > +",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:c13f4ce61a491ddea92db3ee85d7a8a33abdb0f9,19450:41"
+          }
+        ]
+      },
+      {
+        "id": "29219:14112",
+        "name": "+10",
+        "master": "29219:14104",
+        "path": "Task > Completed=False, Breakpoint=1320+ > Frame 1462984508 > Bonuses > +10",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3"
+          }
+        ]
+      },
+      {
+        "id": "I29219:14113;25781:343",
+        "name": "Rectangle 13",
+        "master": "29219:14104",
+        "path": "Task > Completed=False, Breakpoint=1320+ > Frame 1462984508 > Bonuses > Sber / Mini Spasibo > MasterGradient > Rectangle 13",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:23327f9c793b0fb12cb2395957100c2a48880cc1,1421:191"
+          }
+        ]
+      },
+      {
+        "id": "29219:14114",
+        "name": "Включить оплату бонусами",
+        "master": "29219:14104",
+        "path": "Task > Completed=False, Breakpoint=1320+ > Frame 1462984508 > Включить оплату бонусами",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3"
+          }
+        ]
+      },
+      {
+        "id": "29219:14127",
+        "name": "Completed=True, Breakpoint=1320+",
+        "master": "29219:14127",
+        "path": "Task > Completed=True, Breakpoint=1320+",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:6b0d5a4adbf8961b9daa987c9db7b1f66a5a0472,32110:35"
+          }
+        ]
+      },
+      {
+        "id": "29219:14132",
+        "name": "+",
+        "master": "29219:14127",
+        "path": "Task > Completed=True, Breakpoint=1320+ > +",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:c13f4ce61a491ddea92db3ee85d7a8a33abdb0f9,19450:41"
+          }
+        ]
+      },
+      {
+        "id": "29219:14135",
+        "name": "+10",
+        "master": "29219:14127",
+        "path": "Task > Completed=True, Breakpoint=1320+ > Frame 1462984508 > Bonuses > +10",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5"
+          }
+        ]
+      },
+      {
+        "id": "29219:14137",
+        "name": "Включить оплату бонусами",
+        "master": "29219:14127",
+        "path": "Task > Completed=True, Breakpoint=1320+ > Frame 1462984508 > Включить оплату бонусами",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5"
+          }
+        ]
+      },
+      {
+        "id": "29219:14145",
+        "name": "Text",
+        "master": "29219:14127",
+        "path": "Task > Completed=True, Breakpoint=1320+ > Label > Text",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3"
+          }
+        ]
+      }
+    ],
+    "variableDetails": [],
+    "remainingCount": 20,
+    "reasons": {
+      "kids": 0,
+      "light": 0,
+      "outside": 0,
+      "eligible": 20
+    },
+    "noncanonicalColorStyles": [],
+    "oldTheme": [],
+    "page": "Gamification",
+    "nodeCount": 81,
+    "rootCount": 1,
+    "groups": [
+      {
+        "name": "[Deprecated]/Fill/Solid/Secondary",
+        "key": "cc9f8ed188fba9318e96d598d00738e0625fd414",
+        "styleType": "PAINT",
+        "count": 2,
+        "buckets": {
+          "own": 2
+        },
+        "example": "29217:6707"
+      },
+      {
+        "name": "Fill/Decorative/Sky",
+        "key": "c13f4ce61a491ddea92db3ee85d7a8a33abdb0f9",
+        "styleType": "PAINT",
+        "count": 4,
+        "buckets": {
+          "own": 4
+        },
+        "example": "29217:6712"
+      },
+      {
+        "name": "[Deprecated]/Text & icon/on Dark/Primary",
+        "key": "8d1e4095c97d6f8de9740c869fae2aa91b41bd6d",
+        "styleType": "PAINT",
+        "count": 6,
+        "buckets": {
+          "own": 6
+        },
+        "example": "29217:6715"
+      },
+      {
+        "name": "UNRESOLVED",
+        "count": 2,
+        "buckets": {
+          "instance": 2
+        },
+        "example": "I29217:6716;25781:341"
+      },
+      {
+        "name": "Мастер/Зелёный",
+        "key": "23327f9c793b0fb12cb2395957100c2a48880cc1",
+        "styleType": "PAINT",
+        "count": 2,
+        "buckets": {
+          "instance": 2
+        },
+        "example": "I29217:6716;25781:343"
+      },
+      {
+        "name": "[Deprecated]/Background/Solid/Secondary",
+        "key": "6b0d5a4adbf8961b9daa987c9db7b1f66a5a0472",
+        "styleType": "PAINT",
+        "count": 2,
+        "buckets": {
+          "own": 2
+        },
+        "example": "29217:6719"
+      },
+      {
+        "name": "[Deprecated]/Text & icon/on Dark/Third",
+        "key": "7ba87ccc576cd2381aee43f11162db346a88bf6a",
+        "styleType": "PAINT",
+        "count": 4,
+        "buckets": {
+          "own": 4
+        },
+        "example": "29217:6727"
+      }
+    ],
+    "collections": [
+      {
+        "id": "VariableCollectionId:1c6e07816c9c7d8423d676736c66af0f797411bb/41872:3468",
+        "name": "Color",
+        "bindings": 12,
+        "variables": 5
+      }
+    ],
+    "primitiveBindings": [],
+    "mixed": [],
+    "errors": []
+  },
+  "write": {
+    "mode": "all",
+    "found": 18,
+    "attempted": 18,
+    "mutatedNodeIds": [
+      "29217:6707",
+      "29217:6712",
+      "29217:6715",
+      "29217:6717",
+      "29217:6719",
+      "29217:6724",
+      "29217:6727",
+      "29217:6729",
+      "29217:6732",
+      "29219:14104",
+      "29219:14109",
+      "29219:14112",
+      "29219:14114",
+      "29219:14127",
+      "29219:14132",
+      "29219:14135",
+      "29219:14137",
+      "29219:14145"
+    ],
+    "applied": 18,
+    "summary": {
+      "color/fill/solid/secondary": 2,
+      "color/component/label/sky": 4,
+      "color/text-icon/primary": 6,
+      "color/background/solid/secondary": 2,
+      "color/text-icon/third": 4
+    },
+    "errors": []
+  },
+  "after": {
+    "unresolved": [
+      {
+        "kind": "style",
+        "id": "S:c38d96e2b589d88e9c68e120758d601ad2670f88,1421:194",
+        "count": 2,
+        "buckets": {
+          "instance": 2
+        },
+        "examples": [
+          {
+            "id": "I29217:6716;25781:341",
+            "name": "Vector",
+            "field": "region0",
+            "master": "29217:6707",
+            "masterName": "Completed=False, Breakpoint=1720+",
+            "instance": "29217:6716"
+          },
+          {
+            "id": "I29219:14113;25781:341",
+            "name": "Vector",
+            "field": "region0",
+            "master": "29219:14104",
+            "masterName": "Completed=False, Breakpoint=1320+",
+            "instance": "29219:14113"
+          }
+        ],
+        "name": "UNRESOLVED"
+      }
+    ],
+    "eligibleDetails": [
+      {
+        "id": "I29217:6716;25781:343",
+        "name": "Rectangle 13",
+        "master": "29217:6707",
+        "path": "Task > Completed=False, Breakpoint=1720+ > Frame 1462984508 > Bonuses > Sber / Mini Spasibo > MasterGradient > Rectangle 13",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:23327f9c793b0fb12cb2395957100c2a48880cc1,1421:191"
+          }
+        ]
+      },
+      {
+        "id": "I29219:14113;25781:343",
+        "name": "Rectangle 13",
+        "master": "29219:14104",
+        "path": "Task > Completed=False, Breakpoint=1320+ > Frame 1462984508 > Bonuses > Sber / Mini Spasibo > MasterGradient > Rectangle 13",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:23327f9c793b0fb12cb2395957100c2a48880cc1,1421:191"
+          }
+        ]
+      }
+    ],
+    "variableDetails": [],
+    "remainingCount": 2,
+    "reasons": {
+      "kids": 0,
+      "light": 0,
+      "outside": 0,
+      "eligible": 2
+    },
+    "noncanonicalColorStyles": [],
+    "oldTheme": [],
+    "page": "Gamification",
+    "nodeCount": 81,
+    "rootCount": 1,
+    "groups": [
+      {
+        "name": "UNRESOLVED",
+        "count": 2,
+        "buckets": {
+          "instance": 2
+        },
+        "example": "I29217:6716;25781:341"
+      },
+      {
+        "name": "Мастер/Зелёный",
+        "key": "23327f9c793b0fb12cb2395957100c2a48880cc1",
+        "styleType": "PAINT",
+        "count": 2,
+        "buckets": {
+          "instance": 2
+        },
+        "example": "I29217:6716;25781:343"
+      }
+    ],
+    "collections": [
+      {
+        "id": "VariableCollectionId:1c6e07816c9c7d8423d676736c66af0f797411bb/41872:3468",
+        "name": "Color",
+        "bindings": 34,
+        "variables": 11
+      }
+    ],
+    "primitiveBindings": [],
+    "mixed": [],
+    "errors": []
+  },
+  "staticAudit": {
+    "stats": {
+      "scanned": 76,
+      "alreadyStatic": 4,
+      "overColored": 4
+    },
+    "found": 0,
+    "examples": [],
+    "raw": 0,
+    "unsupportedCount": 0,
+    "unsupported": [],
+    "skipped": []
+  }
+}

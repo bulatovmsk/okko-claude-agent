@@ -1,5 +1,13 @@
 # Button - Toggle
 
+## Web · снимок задачи 12 октября 2026
+
+Web-набор: **832 варианта**. Стили Primary / Secondary; размеры Small / Default / Large. Selected=False/True отдельно от State; две swap-иконки для состояний выбора. Progress, ExtraSmall и Tooltip отсутствуют; в Mobile нет Hover и Focus. Это отличается от iOS-набора ниже.
+
+[Контекст Web Button / Toggle](../../.agents/skills/design-figma-libraries/references/buttons-web.md) — ссылки на Figma, проверенное покрытие и ограничения достоверности. Перед изменениями перечитать живые узлы.
+
+Остальные разделы этой карточки и блок FIGMA_SYNC ниже описывают **iOS**, если явно не указана другая платформа.
+
 ## Назначение
 
 Кнопка с сохраняемым выбранным и невыбранным состоянием. Подходит для действия,

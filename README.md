@@ -2,6 +2,8 @@
 
 Repo-scoped навыки Codex для работы с дизайн-системой и интерфейсными текстами Okko.
 
+Контекст прежних обсуждений и указатель чатов: [CONTEXT_FROM_CHATS.md](CONTEXT_FROM_CHATS.md).
+
 Исходный репозиторий: <https://github.com/bulatovmsk/okko-claude-agent>.
 
 ## Как устроено

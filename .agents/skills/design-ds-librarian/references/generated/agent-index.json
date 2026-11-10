@@ -1473,6 +1473,34 @@
     }
   ],
   "confirmedMappings": [],
-  "confirmedCases": [],
+  "confirmedCases": [
+    {
+      "id": "onboarding-bubble-web-overflow-and-properties",
+      "status": "confirmed",
+      "title": "Onboarding Bubble Web: картинка и свойства",
+      "platforms": [
+        "web"
+      ],
+      "deviceClasses": [
+        "phone",
+        "tablet",
+        "web-desktop"
+      ],
+      "componentIds": [],
+      "situation": "В рабочем Web-компоненте 13 октября 2026 согласована адаптация TV. После клонирования вариантов обнаружена потеря привязок свойств.",
+      "decision": "Картинка — обычный слой с image fill, привязанный к правому нижнему краю карточки и выступающий вверх. Нет отдельной запчасти, instance swap и крестика. Закрытие по действию на экране. Device: Mobile 0+, Tablet 600+, Desktop 1720+; четыре направления Beak. Пользовательская тень сохранена. Привязки componentPropertyReferences восстановлены.",
+      "constraints": [
+        "Рабочий файл my7cxe5qiUH38ycbccPUFG, набор 46898:178. Не переопределяет глобальный источник Lib-Web или iOS-карточку.",
+        "Публикация и реализация в продукте не подтверждены.",
+        "После клонирования проверять реальные characters и visible слоёв экземпляра, а не только instance.componentProperties.",
+        "Проверены тексты и оба переключателя во всех 12 вариантах, сохранение настроек при 12 переключениях Device/Beak. Временные экземпляры удалены."
+      ],
+      "sourceLinks": [
+        "https://www.figma.com/design/my7cxe5qiUH38ycbccPUFG/Onbording-Buble?node-id=46898-178",
+        "https://www.figma.com/design/Q3DVcDJnhMCtpdQAUoDPrp/Lib-TV?node-id=35689-4749",
+        "https://www.figma.com/design/Q3DVcDJnhMCtpdQAUoDPrp/Lib-TV?node-id=35678-109"
+      ]
+    }
+  ],
   "openGaps": []
 }

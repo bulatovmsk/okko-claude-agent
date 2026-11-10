@@ -1,0 +1,2893 @@
+{
+  "page": "Авторизация (В работе)🦖",
+  "initial": {
+    "staticResult": null,
+    "page": "Авторизация (В работе)🦖",
+    "nodeCount": 366,
+    "sources": [
+      {
+        "id": "S:cc9f8ed188fba9318e96d598d00738e0625fd414,32110:36",
+        "name": "[Deprecated]/Fill/Solid/Secondary",
+        "key": "cc9f8ed188fba9318e96d598d00738e0625fd414",
+        "count": 10,
+        "buckets": {
+          "own": 10
+        },
+        "example": {
+          "id": "27553:27715",
+          "name": "Breakpoints=1720+",
+          "field": "fills",
+          "master": "27553:27715",
+          "masterName": "Breakpoints=1720+"
+        }
+      },
+      {
+        "id": "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3",
+        "name": "[Deprecated]/Text & icon/on Dark/Primary",
+        "key": "8d1e4095c97d6f8de9740c869fae2aa91b41bd6d",
+        "count": 15,
+        "buckets": {
+          "own": 15
+        },
+        "example": {
+          "id": "27553:24205",
+          "name": "Вход или регистрация",
+          "field": "fills",
+          "master": "27553:27715",
+          "masterName": "Breakpoints=1720+"
+        }
+      },
+      {
+        "id": "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "name": "[Deprecated]/Text & icon/on Dark/Third",
+        "key": "7ba87ccc576cd2381aee43f11162db346a88bf6a",
+        "count": 70,
+        "buckets": {
+          "instance": 50,
+          "own": 20
+        },
+        "example": {
+          "id": "I27625:1359;20884:323;15918:5365",
+          "name": "Union",
+          "field": "region0",
+          "master": "27553:27715",
+          "masterName": "Breakpoints=1720+",
+          "instance": "I27625:1359;20884:323"
+        }
+      },
+      {
+        "id": "S:eb0848c39cf58e48e9aae01f73f766c68f7bdde4,32110:4",
+        "name": "[Deprecated]/Text & icon/on Dark/Secondary",
+        "key": "eb0848c39cf58e48e9aae01f73f766c68f7bdde4",
+        "count": 15,
+        "buckets": {
+          "own": 15
+        },
+        "example": {
+          "id": "27553:24209",
+          "name": "Войдите или зарегистрируйтесь, чтобы начать пользоваться  сервисом Okko",
+          "field": "fills",
+          "master": "27553:27715",
+          "masterName": "Breakpoints=1720+"
+        }
+      },
+      {
+        "id": "S:c0564bc982150679520f79befc91330305fb313a,39850:11",
+        "name": "[Deprecated]/Text & icon/on Dark/Accent",
+        "key": "c0564bc982150679520f79befc91330305fb313a",
+        "count": 20,
+        "buckets": {
+          "own": 20
+        },
+        "example": {
+          "id": "27553:24214",
+          "name": "Продолжая, я соглашаюсь с Пользовательским соглашением Сервиса «Окко», Политикой конфиденциальности Сервиса «Окко», офертой «Удобный доступ»",
+          "field": "fillRange",
+          "master": "27553:27715",
+          "masterName": "Breakpoints=1720+",
+          "start": 26,
+          "end": 69
+        }
+      },
+      {
+        "id": "S:e3ec3eec23dc45dab6e9ecf81f98639db564615b,39850:0",
+        "name": "[Deprecated]/Fill/Solid/Accent",
+        "key": "e3ec3eec23dc45dab6e9ecf81f98639db564615b",
+        "count": 5,
+        "buckets": {
+          "instance": 5
+        },
+        "example": {
+          "id": "27627:88705",
+          "name": "🟢 Checkbox",
+          "field": "fills",
+          "master": "27553:27715",
+          "masterName": "Breakpoints=1720+",
+          "instance": "27627:88705"
+        }
+      }
+    ],
+    "remainingRows": [
+      [
+        "27553:27715",
+        "fills",
+        "S:cc9f8ed188fba9318e96d598d00738e0625fd414,32110:36",
+        "27553:27715",
+        null,
+        0,
+        0
+      ],
+      [
+        "27553:24205",
+        "fills",
+        "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3",
+        "27553:27715",
+        null,
+        0,
+        0
+      ],
+      [
+        "I27625:1359;20884:323;15918:5365",
+        "region0",
+        "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "27553:27715",
+        "I27625:1359;20884:323",
+        0,
+        0
+      ],
+      [
+        "I27625:1359;20884:323;15543:5189",
+        "region0",
+        "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "27553:27715",
+        "I27625:1359;20884:323",
+        0,
+        0
+      ],
+      [
+        "I27625:1359;20884:324",
+        "fills",
+        "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "27553:27715",
+        "27625:1359",
+        0,
+        0
+      ],
+      [
+        "I27625:1359;20884:329",
+        "region0",
+        "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "27553:27715",
+        "27625:1359",
+        0,
+        0
+      ],
+      [
+        "I27625:1359;20884:329",
+        "region1",
+        "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "27553:27715",
+        "27625:1359",
+        0,
+        0
+      ],
+      [
+        "27553:24209",
+        "fills",
+        "S:eb0848c39cf58e48e9aae01f73f766c68f7bdde4,32110:4",
+        "27553:27715",
+        null,
+        0,
+        0
+      ],
+      [
+        "27553:24214",
+        "fillRange",
+        "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "27553:27715",
+        null,
+        0,
+        0
+      ],
+      [
+        "27553:24214",
+        "fillRange",
+        "S:c0564bc982150679520f79befc91330305fb313a,39850:11",
+        "27553:27715",
+        null,
+        0,
+        0
+      ],
+      [
+        "27553:24214",
+        "fillRange",
+        "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "27553:27715",
+        null,
+        0,
+        0
+      ],
+      [
+        "27553:24214",
+        "fillRange",
+        "S:c0564bc982150679520f79befc91330305fb313a,39850:11",
+        "27553:27715",
+        null,
+        0,
+        0
+      ],
+      [
+        "27553:24214",
+        "fillRange",
+        "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "27553:27715",
+        null,
+        0,
+        0
+      ],
+      [
+        "27553:24214",
+        "fillRange",
+        "S:c0564bc982150679520f79befc91330305fb313a,39850:11",
+        "27553:27715",
+        null,
+        0,
+        0
+      ],
+      [
+        "27627:88705",
+        "fills",
+        "S:e3ec3eec23dc45dab6e9ecf81f98639db564615b,39850:0",
+        "27553:27715",
+        "27627:88705",
+        0,
+        0
+      ],
+      [
+        "27553:24218",
+        "fillRange",
+        "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "27553:27715",
+        null,
+        0,
+        0
+      ],
+      [
+        "27553:24218",
+        "fillRange",
+        "S:c0564bc982150679520f79befc91330305fb313a,39850:11",
+        "27553:27715",
+        null,
+        0,
+        0
+      ],
+      [
+        "27625:86403",
+        "fills",
+        "S:cc9f8ed188fba9318e96d598d00738e0625fd414,32110:36",
+        "27625:86403",
+        null,
+        0,
+        0
+      ],
+      [
+        "27625:86369",
+        "fills",
+        "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3",
+        "27625:86403",
+        null,
+        0,
+        0
+      ],
+      [
+        "I27625:86370;20884:323;15918:5365",
+        "region0",
+        "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "27625:86403",
+        "I27625:86370;20884:323",
+        0,
+        0
+      ],
+      [
+        "I27625:86370;20884:323;15543:5189",
+        "region0",
+        "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "27625:86403",
+        "I27625:86370;20884:323",
+        0,
+        0
+      ],
+      [
+        "I27625:86370;20884:324",
+        "fills",
+        "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "27625:86403",
+        "27625:86370",
+        0,
+        0
+      ],
+      [
+        "I27625:86370;20884:329",
+        "region0",
+        "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "27625:86403",
+        "27625:86370",
+        0,
+        0
+      ],
+      [
+        "I27625:86370;20884:329",
+        "region1",
+        "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "27625:86403",
+        "27625:86370",
+        0,
+        0
+      ],
+      [
+        "27625:86371",
+        "fills",
+        "S:eb0848c39cf58e48e9aae01f73f766c68f7bdde4,32110:4",
+        "27625:86403",
+        null,
+        0,
+        0
+      ],
+      [
+        "27625:86376",
+        "fillRange",
+        "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "27625:86403",
+        null,
+        0,
+        0
+      ],
+      [
+        "27625:86376",
+        "fillRange",
+        "S:c0564bc982150679520f79befc91330305fb313a,39850:11",
+        "27625:86403",
+        null,
+        0,
+        0
+      ],
+      [
+        "27625:86376",
+        "fillRange",
+        "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "27625:86403",
+        null,
+        0,
+        0
+      ],
+      [
+        "27625:86376",
+        "fillRange",
+        "S:c0564bc982150679520f79befc91330305fb313a,39850:11",
+        "27625:86403",
+        null,
+        0,
+        0
+      ],
+      [
+        "27625:86376",
+        "fillRange",
+        "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "27625:86403",
+        null,
+        0,
+        0
+      ]
+    ],
+    "reasons": {
+      "kids": 0,
+      "light": 0,
+      "outside": 0,
+      "eligible": 135
+    },
+    "remainingCount": 135,
+    "unresolved": [
+      {
+        "kind": "variable",
+        "id": "VariableID:06848edfde485c1730cae5922b1faf29414d2b2b/41943:1614",
+        "count": 10,
+        "buckets": {
+          "instance": 10
+        },
+        "examples": [
+          {
+            "id": "27553:24212",
+            "name": "Button",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "instance": "27553:24212",
+            "i": 0,
+            "j": 0
+          },
+          {
+            "id": "27625:86374",
+            "name": "Button",
+            "field": "fills",
+            "master": "27625:86403",
+            "masterName": "Breakpoints=1320+",
+            "instance": "27625:86374",
+            "i": 0,
+            "j": 0
+          }
+        ],
+        "key": "06848edfde485c1730cae5922b1faf29414d2b2b",
+        "name": "UNRESOLVED"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:ea3767627de70204d9132d4a23bf503eaa965fec/41943:1463",
+        "count": 10,
+        "buckets": {
+          "instance": 10
+        },
+        "examples": [
+          {
+            "id": "27553:24212",
+            "name": "Button",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "instance": "27553:24212",
+            "i": 0,
+            "j": 1
+          },
+          {
+            "id": "27625:86374",
+            "name": "Button",
+            "field": "fills",
+            "master": "27625:86403",
+            "masterName": "Breakpoints=1320+",
+            "instance": "27625:86374",
+            "i": 0,
+            "j": 1
+          }
+        ],
+        "key": "ea3767627de70204d9132d4a23bf503eaa965fec",
+        "name": "UNRESOLVED"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:a165d9776004dd901eb353960d5c202b977650b4/41943:1465",
+        "count": 10,
+        "buckets": {
+          "instance": 10
+        },
+        "examples": [
+          {
+            "id": "27553:24212",
+            "name": "Button",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "instance": "27553:24212",
+            "i": 0,
+            "j": 2
+          },
+          {
+            "id": "27625:86374",
+            "name": "Button",
+            "field": "fills",
+            "master": "27625:86403",
+            "masterName": "Breakpoints=1320+",
+            "instance": "27625:86374",
+            "i": 0,
+            "j": 2
+          }
+        ],
+        "key": "a165d9776004dd901eb353960d5c202b977650b4",
+        "name": "UNRESOLVED"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:83d669f093eb58ab69e1c772dcffd96370ff296a/41943:1616",
+        "count": 10,
+        "buckets": {
+          "instance": 10
+        },
+        "examples": [
+          {
+            "id": "27553:24212",
+            "name": "Button",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "instance": "27553:24212",
+            "i": 0,
+            "j": 3
+          },
+          {
+            "id": "27625:86374",
+            "name": "Button",
+            "field": "fills",
+            "master": "27625:86403",
+            "masterName": "Breakpoints=1320+",
+            "instance": "27625:86374",
+            "i": 0,
+            "j": 3
+          }
+        ],
+        "key": "83d669f093eb58ab69e1c772dcffd96370ff296a",
+        "name": "UNRESOLVED"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:50051225ccdd46cd88f61f1e1e7ae485a9062329/41872:3511",
+        "count": 20,
+        "buckets": {
+          "instance": 20
+        },
+        "examples": [
+          {
+            "id": "I27553:24212;26093:350484;32958:4324",
+            "name": "Union",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "instance": "I27553:24212;26093:350484",
+            "i": 0
+          },
+          {
+            "id": "I27553:24212;26093:350485",
+            "name": "Text",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "instance": "27553:24212",
+            "i": 0
+          }
+        ],
+        "key": "50051225ccdd46cd88f61f1e1e7ae485a9062329",
+        "name": "UNRESOLVED"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:55ef3bc5d7cb945bd9075c4bfe8e6b8b7e152404/39850:104",
+        "count": 20,
+        "buckets": {
+          "own": 20
+        },
+        "examples": [
+          {
+            "id": "27553:24214",
+            "name": "Продолжая, я соглашаюсь с Пользовательским соглашением Сервиса «Окко», Политикой конфиденциальности Сервиса «Окко», офертой «Удобный доступ»",
+            "field": "fillRange",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "i": 0
+          },
+          {
+            "id": "27553:24214",
+            "name": "Продолжая, я соглашаюсь с Пользовательским соглашением Сервиса «Окко», Политикой конфиденциальности Сервиса «Окко», офертой «Удобный доступ»",
+            "field": "fillRange",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "i": 0
+          }
+        ],
+        "key": "55ef3bc5d7cb945bd9075c4bfe8e6b8b7e152404",
+        "name": "UNRESOLVED"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:68b8fbbbc78be34af7815443b21ef244eee6b6b0/39850:98",
+        "count": 5,
+        "buckets": {
+          "instance": 5
+        },
+        "examples": [
+          {
+            "id": "27627:88705",
+            "name": "🟢 Checkbox",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "instance": "27627:88705",
+            "i": 0
+          },
+          {
+            "id": "27627:88839",
+            "name": "🟢 Checkbox",
+            "field": "fills",
+            "master": "27625:86403",
+            "masterName": "Breakpoints=1320+",
+            "instance": "27627:88839",
+            "i": 0
+          }
+        ],
+        "key": "68b8fbbbc78be34af7815443b21ef244eee6b6b0",
+        "name": "UNRESOLVED"
+      }
+    ],
+    "variableDetails": [
+      {
+        "kind": "variable",
+        "id": "VariableID:9ad3109750be6a714a2a1dd028605b0a23221f4b/41978:2855",
+        "count": 30,
+        "buckets": {
+          "instance": 30
+        },
+        "examples": [
+          {
+            "id": "I27553:24211;21956:327453",
+            "name": "input",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "instance": "27553:24211",
+            "i": 0
+          },
+          {
+            "id": "I27625:86373;22796:326603",
+            "name": "input",
+            "field": "fills",
+            "master": "27625:86403",
+            "masterName": "Breakpoints=1320+",
+            "instance": "27625:86373",
+            "i": 0
+          }
+        ],
+        "key": "9ad3109750be6a714a2a1dd028605b0a23221f4b",
+        "name": "color/fill/glassy/third"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:3f0b86eaf4226df73a2d592badbb3ba74c530422/41978:2830",
+        "count": 5,
+        "buckets": {
+          "instance": 5
+        },
+        "examples": [
+          {
+            "id": "I27553:24211;19727:300554",
+            "name": "text",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "instance": "27553:24211",
+            "i": 0
+          },
+          {
+            "id": "I27625:86373;22796:326604",
+            "name": "text",
+            "field": "fills",
+            "master": "27625:86403",
+            "masterName": "Breakpoints=1320+",
+            "instance": "27625:86373",
+            "i": 0
+          }
+        ],
+        "key": "3f0b86eaf4226df73a2d592badbb3ba74c530422",
+        "name": "color/text-icon/secondary"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:5226651ce5a4bdc8084370cb5e6f1fa43510e93a/41978:2474",
+        "count": 5,
+        "buckets": {
+          "instance": 5
+        },
+        "examples": [
+          {
+            "id": "I27553:24211;21956:327751",
+            "name": "undertitle",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "instance": "27553:24211",
+            "i": 0
+          },
+          {
+            "id": "I27625:86373;22796:326606",
+            "name": "undertitle",
+            "field": "fills",
+            "master": "27625:86403",
+            "masterName": "Breakpoints=1320+",
+            "instance": "27625:86373",
+            "i": 0
+          }
+        ],
+        "key": "5226651ce5a4bdc8084370cb5e6f1fa43510e93a",
+        "name": "color/text-icon/third"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:06848edfde485c1730cae5922b1faf29414d2b2b/41943:1614",
+        "count": 10,
+        "buckets": {
+          "instance": 10
+        },
+        "examples": [
+          {
+            "id": "27553:24212",
+            "name": "Button",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "instance": "27553:24212",
+            "i": 0,
+            "j": 0
+          },
+          {
+            "id": "27625:86374",
+            "name": "Button",
+            "field": "fills",
+            "master": "27625:86403",
+            "masterName": "Breakpoints=1320+",
+            "instance": "27625:86374",
+            "i": 0,
+            "j": 0
+          }
+        ],
+        "key": "06848edfde485c1730cae5922b1faf29414d2b2b",
+        "name": "UNRESOLVED"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:ea3767627de70204d9132d4a23bf503eaa965fec/41943:1463",
+        "count": 10,
+        "buckets": {
+          "instance": 10
+        },
+        "examples": [
+          {
+            "id": "27553:24212",
+            "name": "Button",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "instance": "27553:24212",
+            "i": 0,
+            "j": 1
+          },
+          {
+            "id": "27625:86374",
+            "name": "Button",
+            "field": "fills",
+            "master": "27625:86403",
+            "masterName": "Breakpoints=1320+",
+            "instance": "27625:86374",
+            "i": 0,
+            "j": 1
+          }
+        ],
+        "key": "ea3767627de70204d9132d4a23bf503eaa965fec",
+        "name": "UNRESOLVED"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:a165d9776004dd901eb353960d5c202b977650b4/41943:1465",
+        "count": 10,
+        "buckets": {
+          "instance": 10
+        },
+        "examples": [
+          {
+            "id": "27553:24212",
+            "name": "Button",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "instance": "27553:24212",
+            "i": 0,
+            "j": 2
+          },
+          {
+            "id": "27625:86374",
+            "name": "Button",
+            "field": "fills",
+            "master": "27625:86403",
+            "masterName": "Breakpoints=1320+",
+            "instance": "27625:86374",
+            "i": 0,
+            "j": 2
+          }
+        ],
+        "key": "a165d9776004dd901eb353960d5c202b977650b4",
+        "name": "UNRESOLVED"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:83d669f093eb58ab69e1c772dcffd96370ff296a/41943:1616",
+        "count": 10,
+        "buckets": {
+          "instance": 10
+        },
+        "examples": [
+          {
+            "id": "27553:24212",
+            "name": "Button",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "instance": "27553:24212",
+            "i": 0,
+            "j": 3
+          },
+          {
+            "id": "27625:86374",
+            "name": "Button",
+            "field": "fills",
+            "master": "27625:86403",
+            "masterName": "Breakpoints=1320+",
+            "instance": "27625:86374",
+            "i": 0,
+            "j": 3
+          }
+        ],
+        "key": "83d669f093eb58ab69e1c772dcffd96370ff296a",
+        "name": "UNRESOLVED"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:50051225ccdd46cd88f61f1e1e7ae485a9062329/41872:3511",
+        "count": 20,
+        "buckets": {
+          "instance": 20
+        },
+        "examples": [
+          {
+            "id": "I27553:24212;26093:350484;32958:4324",
+            "name": "Union",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "instance": "I27553:24212;26093:350484",
+            "i": 0
+          },
+          {
+            "id": "I27553:24212;26093:350485",
+            "name": "Text",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "instance": "27553:24212",
+            "i": 0
+          }
+        ],
+        "key": "50051225ccdd46cd88f61f1e1e7ae485a9062329",
+        "name": "UNRESOLVED"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:55ef3bc5d7cb945bd9075c4bfe8e6b8b7e152404/39850:104",
+        "count": 20,
+        "buckets": {
+          "own": 20
+        },
+        "examples": [
+          {
+            "id": "27553:24214",
+            "name": "Продолжая, я соглашаюсь с Пользовательским соглашением Сервиса «Окко», Политикой конфиденциальности Сервиса «Окко», офертой «Удобный доступ»",
+            "field": "fillRange",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "i": 0
+          },
+          {
+            "id": "27553:24214",
+            "name": "Продолжая, я соглашаюсь с Пользовательским соглашением Сервиса «Окко», Политикой конфиденциальности Сервиса «Окко», офертой «Удобный доступ»",
+            "field": "fillRange",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "i": 0
+          }
+        ],
+        "key": "55ef3bc5d7cb945bd9075c4bfe8e6b8b7e152404",
+        "name": "UNRESOLVED"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:68b8fbbbc78be34af7815443b21ef244eee6b6b0/39850:98",
+        "count": 5,
+        "buckets": {
+          "instance": 5
+        },
+        "examples": [
+          {
+            "id": "27627:88705",
+            "name": "🟢 Checkbox",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "instance": "27627:88705",
+            "i": 0
+          },
+          {
+            "id": "27627:88839",
+            "name": "🟢 Checkbox",
+            "field": "fills",
+            "master": "27625:86403",
+            "masterName": "Breakpoints=1320+",
+            "instance": "27627:88839",
+            "i": 0
+          }
+        ],
+        "key": "68b8fbbbc78be34af7815443b21ef244eee6b6b0",
+        "name": "UNRESOLVED"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:4f21a856bdfc52444ea3e3f62c9f6af53b98e6e5/41978:2829",
+        "count": 5,
+        "buckets": {
+          "instance": 5
+        },
+        "examples": [
+          {
+            "id": "I27627:88705;6109:36123;33124:6709",
+            "name": "Union",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "instance": "I27627:88705;6109:36123",
+            "i": 0
+          },
+          {
+            "id": "I27627:88839;6109:36123;33124:6709",
+            "name": "Union",
+            "field": "fills",
+            "master": "27625:86403",
+            "masterName": "Breakpoints=1320+",
+            "instance": "I27627:88839;6109:36123",
+            "i": 0
+          }
+        ],
+        "key": "4f21a856bdfc52444ea3e3f62c9f6af53b98e6e5",
+        "name": "color/text-icon/primary"
+      }
+    ],
+    "noncanonicalColorStyles": [],
+    "mixed": [],
+    "errors": []
+  },
+  "standard": null,
+  "recovery": {
+    "staticResult": null,
+    "page": "Авторизация (В работе)🦖",
+    "nodeCount": 366,
+    "sources": [
+      {
+        "id": "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "name": "[Deprecated]/Text & icon/on Dark/Third",
+        "key": "7ba87ccc576cd2381aee43f11162db346a88bf6a",
+        "count": 20,
+        "buckets": {
+          "own": 20
+        },
+        "example": {
+          "id": "27553:24214",
+          "name": "Продолжая, я соглашаюсь с Пользовательским соглашением Сервиса «Окко», Политикой конфиденциальности Сервиса «Окко», офертой «Удобный доступ»",
+          "field": "fillRange",
+          "master": "27553:27715",
+          "masterName": "Breakpoints=1720+",
+          "start": 0,
+          "end": 26
+        }
+      },
+      {
+        "id": "S:c0564bc982150679520f79befc91330305fb313a,39850:11",
+        "name": "[Deprecated]/Text & icon/on Dark/Accent",
+        "key": "c0564bc982150679520f79befc91330305fb313a",
+        "count": 20,
+        "buckets": {
+          "own": 20
+        },
+        "example": {
+          "id": "27553:24214",
+          "name": "Продолжая, я соглашаюсь с Пользовательским соглашением Сервиса «Окко», Политикой конфиденциальности Сервиса «Окко», офертой «Удобный доступ»",
+          "field": "fillRange",
+          "master": "27553:27715",
+          "masterName": "Breakpoints=1720+",
+          "start": 26,
+          "end": 69
+        }
+      },
+      {
+        "id": "S:eb0848c39cf58e48e9aae01f73f766c68f7bdde4,32110:4",
+        "name": "[Deprecated]/Text & icon/on Dark/Secondary",
+        "key": "eb0848c39cf58e48e9aae01f73f766c68f7bdde4",
+        "count": 5,
+        "buckets": {
+          "own": 5
+        },
+        "example": {
+          "id": "27553:29660",
+          "name": "Мы отправили письмо с кодом на name@domain.com",
+          "field": "fillRange",
+          "master": "27553:29968",
+          "masterName": "Breakpoint=1720+",
+          "start": 0,
+          "end": 31
+        }
+      },
+      {
+        "id": "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3",
+        "name": "[Deprecated]/Text & icon/on Dark/Primary",
+        "key": "8d1e4095c97d6f8de9740c869fae2aa91b41bd6d",
+        "count": 5,
+        "buckets": {
+          "own": 5
+        },
+        "example": {
+          "id": "27553:29660",
+          "name": "Мы отправили письмо с кодом на name@domain.com",
+          "field": "fillRange",
+          "master": "27553:29968",
+          "masterName": "Breakpoint=1720+",
+          "start": 31,
+          "end": 46
+        }
+      }
+    ],
+    "remainingRows": [
+      [
+        "27553:24214",
+        "fillRange",
+        "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "27553:27715",
+        null,
+        0,
+        0
+      ],
+      [
+        "27553:24214",
+        "fillRange",
+        "S:c0564bc982150679520f79befc91330305fb313a,39850:11",
+        "27553:27715",
+        null,
+        0,
+        0
+      ],
+      [
+        "27553:24214",
+        "fillRange",
+        "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "27553:27715",
+        null,
+        0,
+        0
+      ],
+      [
+        "27553:24214",
+        "fillRange",
+        "S:c0564bc982150679520f79befc91330305fb313a,39850:11",
+        "27553:27715",
+        null,
+        0,
+        0
+      ],
+      [
+        "27553:24214",
+        "fillRange",
+        "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "27553:27715",
+        null,
+        0,
+        0
+      ],
+      [
+        "27553:24214",
+        "fillRange",
+        "S:c0564bc982150679520f79befc91330305fb313a,39850:11",
+        "27553:27715",
+        null,
+        0,
+        0
+      ],
+      [
+        "27553:24218",
+        "fillRange",
+        "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "27553:27715",
+        null,
+        0,
+        0
+      ],
+      [
+        "27553:24218",
+        "fillRange",
+        "S:c0564bc982150679520f79befc91330305fb313a,39850:11",
+        "27553:27715",
+        null,
+        0,
+        0
+      ],
+      [
+        "27625:86376",
+        "fillRange",
+        "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "27625:86403",
+        null,
+        0,
+        0
+      ],
+      [
+        "27625:86376",
+        "fillRange",
+        "S:c0564bc982150679520f79befc91330305fb313a,39850:11",
+        "27625:86403",
+        null,
+        0,
+        0
+      ],
+      [
+        "27625:86376",
+        "fillRange",
+        "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "27625:86403",
+        null,
+        0,
+        0
+      ],
+      [
+        "27625:86376",
+        "fillRange",
+        "S:c0564bc982150679520f79befc91330305fb313a,39850:11",
+        "27625:86403",
+        null,
+        0,
+        0
+      ],
+      [
+        "27625:86376",
+        "fillRange",
+        "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "27625:86403",
+        null,
+        0,
+        0
+      ],
+      [
+        "27625:86376",
+        "fillRange",
+        "S:c0564bc982150679520f79befc91330305fb313a,39850:11",
+        "27625:86403",
+        null,
+        0,
+        0
+      ],
+      [
+        "27625:86380",
+        "fillRange",
+        "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "27625:86403",
+        null,
+        0,
+        0
+      ],
+      [
+        "27625:86380",
+        "fillRange",
+        "S:c0564bc982150679520f79befc91330305fb313a,39850:11",
+        "27625:86403",
+        null,
+        0,
+        0
+      ],
+      [
+        "27626:88675",
+        "fillRange",
+        "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "27626:88664",
+        null,
+        0,
+        0
+      ],
+      [
+        "27626:88675",
+        "fillRange",
+        "S:c0564bc982150679520f79befc91330305fb313a,39850:11",
+        "27626:88664",
+        null,
+        0,
+        0
+      ],
+      [
+        "27626:88675",
+        "fillRange",
+        "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "27626:88664",
+        null,
+        0,
+        0
+      ],
+      [
+        "27626:88675",
+        "fillRange",
+        "S:c0564bc982150679520f79befc91330305fb313a,39850:11",
+        "27626:88664",
+        null,
+        0,
+        0
+      ],
+      [
+        "27626:88675",
+        "fillRange",
+        "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "27626:88664",
+        null,
+        0,
+        0
+      ],
+      [
+        "27626:88675",
+        "fillRange",
+        "S:c0564bc982150679520f79befc91330305fb313a,39850:11",
+        "27626:88664",
+        null,
+        0,
+        0
+      ],
+      [
+        "27626:88679",
+        "fillRange",
+        "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "27626:88664",
+        null,
+        0,
+        0
+      ],
+      [
+        "27626:88679",
+        "fillRange",
+        "S:c0564bc982150679520f79befc91330305fb313a,39850:11",
+        "27626:88664",
+        null,
+        0,
+        0
+      ],
+      [
+        "27631:91138",
+        "fillRange",
+        "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "27631:91127",
+        null,
+        0,
+        0
+      ],
+      [
+        "27631:91138",
+        "fillRange",
+        "S:c0564bc982150679520f79befc91330305fb313a,39850:11",
+        "27631:91127",
+        null,
+        0,
+        0
+      ],
+      [
+        "27631:91138",
+        "fillRange",
+        "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "27631:91127",
+        null,
+        0,
+        0
+      ],
+      [
+        "27631:91138",
+        "fillRange",
+        "S:c0564bc982150679520f79befc91330305fb313a,39850:11",
+        "27631:91127",
+        null,
+        0,
+        0
+      ],
+      [
+        "27631:91138",
+        "fillRange",
+        "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "27631:91127",
+        null,
+        0,
+        0
+      ],
+      [
+        "27631:91138",
+        "fillRange",
+        "S:c0564bc982150679520f79befc91330305fb313a,39850:11",
+        "27631:91127",
+        null,
+        0,
+        0
+      ]
+    ],
+    "reasons": {
+      "kids": 0,
+      "light": 0,
+      "outside": 0,
+      "eligible": 50
+    },
+    "remainingCount": 50,
+    "unresolved": [
+      {
+        "kind": "variable",
+        "id": "VariableID:06848edfde485c1730cae5922b1faf29414d2b2b/41943:1614",
+        "count": 10,
+        "buckets": {
+          "instance": 10
+        },
+        "examples": [
+          {
+            "id": "27553:24212",
+            "name": "Button",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "instance": "27553:24212",
+            "i": 0,
+            "j": 0
+          },
+          {
+            "id": "27625:86374",
+            "name": "Button",
+            "field": "fills",
+            "master": "27625:86403",
+            "masterName": "Breakpoints=1320+",
+            "instance": "27625:86374",
+            "i": 0,
+            "j": 0
+          }
+        ],
+        "key": "06848edfde485c1730cae5922b1faf29414d2b2b",
+        "name": "UNRESOLVED"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:ea3767627de70204d9132d4a23bf503eaa965fec/41943:1463",
+        "count": 10,
+        "buckets": {
+          "instance": 10
+        },
+        "examples": [
+          {
+            "id": "27553:24212",
+            "name": "Button",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "instance": "27553:24212",
+            "i": 0,
+            "j": 1
+          },
+          {
+            "id": "27625:86374",
+            "name": "Button",
+            "field": "fills",
+            "master": "27625:86403",
+            "masterName": "Breakpoints=1320+",
+            "instance": "27625:86374",
+            "i": 0,
+            "j": 1
+          }
+        ],
+        "key": "ea3767627de70204d9132d4a23bf503eaa965fec",
+        "name": "UNRESOLVED"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:a165d9776004dd901eb353960d5c202b977650b4/41943:1465",
+        "count": 10,
+        "buckets": {
+          "instance": 10
+        },
+        "examples": [
+          {
+            "id": "27553:24212",
+            "name": "Button",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "instance": "27553:24212",
+            "i": 0,
+            "j": 2
+          },
+          {
+            "id": "27625:86374",
+            "name": "Button",
+            "field": "fills",
+            "master": "27625:86403",
+            "masterName": "Breakpoints=1320+",
+            "instance": "27625:86374",
+            "i": 0,
+            "j": 2
+          }
+        ],
+        "key": "a165d9776004dd901eb353960d5c202b977650b4",
+        "name": "UNRESOLVED"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:83d669f093eb58ab69e1c772dcffd96370ff296a/41943:1616",
+        "count": 10,
+        "buckets": {
+          "instance": 10
+        },
+        "examples": [
+          {
+            "id": "27553:24212",
+            "name": "Button",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "instance": "27553:24212",
+            "i": 0,
+            "j": 3
+          },
+          {
+            "id": "27625:86374",
+            "name": "Button",
+            "field": "fills",
+            "master": "27625:86403",
+            "masterName": "Breakpoints=1320+",
+            "instance": "27625:86374",
+            "i": 0,
+            "j": 3
+          }
+        ],
+        "key": "83d669f093eb58ab69e1c772dcffd96370ff296a",
+        "name": "UNRESOLVED"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:50051225ccdd46cd88f61f1e1e7ae485a9062329/41872:3511",
+        "count": 20,
+        "buckets": {
+          "instance": 20
+        },
+        "examples": [
+          {
+            "id": "I27553:24212;26093:350484;32958:4324",
+            "name": "Union",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "instance": "I27553:24212;26093:350484",
+            "i": 0
+          },
+          {
+            "id": "I27553:24212;26093:350485",
+            "name": "Text",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "instance": "27553:24212",
+            "i": 0
+          }
+        ],
+        "key": "50051225ccdd46cd88f61f1e1e7ae485a9062329",
+        "name": "UNRESOLVED"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:55ef3bc5d7cb945bd9075c4bfe8e6b8b7e152404/39850:104",
+        "count": 20,
+        "buckets": {
+          "own": 20
+        },
+        "examples": [
+          {
+            "id": "27553:24214",
+            "name": "Продолжая, я соглашаюсь с Пользовательским соглашением Сервиса «Окко», Политикой конфиденциальности Сервиса «Окко», офертой «Удобный доступ»",
+            "field": "fillRange",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "i": 0
+          },
+          {
+            "id": "27553:24214",
+            "name": "Продолжая, я соглашаюсь с Пользовательским соглашением Сервиса «Окко», Политикой конфиденциальности Сервиса «Окко», офертой «Удобный доступ»",
+            "field": "fillRange",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "i": 0
+          }
+        ],
+        "key": "55ef3bc5d7cb945bd9075c4bfe8e6b8b7e152404",
+        "name": "UNRESOLVED"
+      }
+    ],
+    "variableDetails": [
+      {
+        "kind": "variable",
+        "id": "VariableID:75768c2c0155eae0d6ed4c7a2cf7d658d46a374f/42020:443",
+        "count": 10,
+        "buckets": {
+          "own": 10
+        },
+        "examples": [
+          {
+            "id": "27553:27715",
+            "name": "Breakpoints=1720+",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "i": 0
+          },
+          {
+            "id": "27625:86403",
+            "name": "Breakpoints=1320+",
+            "field": "fills",
+            "master": "27625:86403",
+            "masterName": "Breakpoints=1320+",
+            "i": 0
+          }
+        ],
+        "key": "75768c2c0155eae0d6ed4c7a2cf7d658d46a374f",
+        "name": "color/fill/solid/secondary"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:4f21a856bdfc52444ea3e3f62c9f6af53b98e6e5/42022:1211",
+        "count": 10,
+        "buckets": {
+          "own": 10
+        },
+        "examples": [
+          {
+            "id": "27553:24205",
+            "name": "Вход или регистрация",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "i": 0
+          },
+          {
+            "id": "27625:86369",
+            "name": "Вход или регистрация",
+            "field": "fills",
+            "master": "27625:86403",
+            "masterName": "Breakpoints=1320+",
+            "i": 0
+          }
+        ],
+        "key": "4f21a856bdfc52444ea3e3f62c9f6af53b98e6e5",
+        "name": "color/text-icon/primary"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:5226651ce5a4bdc8084370cb5e6f1fa43510e93a/42020:432",
+        "count": 50,
+        "buckets": {
+          "instance": 50
+        },
+        "examples": [
+          {
+            "id": "I27625:1359;20884:323;15918:5365",
+            "name": "Union",
+            "field": "region0",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "instance": "I27625:1359;20884:323",
+            "i": 0
+          },
+          {
+            "id": "I27625:1359;20884:323;15543:5189",
+            "name": "Vector",
+            "field": "region0",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "instance": "I27625:1359;20884:323",
+            "i": 0
+          }
+        ],
+        "key": "5226651ce5a4bdc8084370cb5e6f1fa43510e93a",
+        "name": "color/text-icon/third"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:3f0b86eaf4226df73a2d592badbb3ba74c530422/42022:1212",
+        "count": 10,
+        "buckets": {
+          "own": 10
+        },
+        "examples": [
+          {
+            "id": "27553:24209",
+            "name": "Войдите или зарегистрируйтесь, чтобы начать пользоваться  сервисом Okko",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "i": 0
+          },
+          {
+            "id": "27625:86371",
+            "name": "Войдите или зарегистрируйтесь, чтобы начать пользоваться сервисом Okko",
+            "field": "fills",
+            "master": "27625:86403",
+            "masterName": "Breakpoints=1320+",
+            "i": 0
+          }
+        ],
+        "key": "3f0b86eaf4226df73a2d592badbb3ba74c530422",
+        "name": "color/text-icon/secondary"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:9ad3109750be6a714a2a1dd028605b0a23221f4b/41978:2855",
+        "count": 30,
+        "buckets": {
+          "instance": 30
+        },
+        "examples": [
+          {
+            "id": "I27553:24211;21956:327453",
+            "name": "input",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "instance": "27553:24211",
+            "i": 0
+          },
+          {
+            "id": "I27625:86373;22796:326603",
+            "name": "input",
+            "field": "fills",
+            "master": "27625:86403",
+            "masterName": "Breakpoints=1320+",
+            "instance": "27625:86373",
+            "i": 0
+          }
+        ],
+        "key": "9ad3109750be6a714a2a1dd028605b0a23221f4b",
+        "name": "color/fill/glassy/third"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:3f0b86eaf4226df73a2d592badbb3ba74c530422/41978:2830",
+        "count": 5,
+        "buckets": {
+          "instance": 5
+        },
+        "examples": [
+          {
+            "id": "I27553:24211;19727:300554",
+            "name": "text",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "instance": "27553:24211",
+            "i": 0
+          },
+          {
+            "id": "I27625:86373;22796:326604",
+            "name": "text",
+            "field": "fills",
+            "master": "27625:86403",
+            "masterName": "Breakpoints=1320+",
+            "instance": "27625:86373",
+            "i": 0
+          }
+        ],
+        "key": "3f0b86eaf4226df73a2d592badbb3ba74c530422",
+        "name": "color/text-icon/secondary"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:5226651ce5a4bdc8084370cb5e6f1fa43510e93a/41978:2474",
+        "count": 5,
+        "buckets": {
+          "instance": 5
+        },
+        "examples": [
+          {
+            "id": "I27553:24211;21956:327751",
+            "name": "undertitle",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "instance": "27553:24211",
+            "i": 0
+          },
+          {
+            "id": "I27625:86373;22796:326606",
+            "name": "undertitle",
+            "field": "fills",
+            "master": "27625:86403",
+            "masterName": "Breakpoints=1320+",
+            "instance": "27625:86373",
+            "i": 0
+          }
+        ],
+        "key": "5226651ce5a4bdc8084370cb5e6f1fa43510e93a",
+        "name": "color/text-icon/third"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:06848edfde485c1730cae5922b1faf29414d2b2b/41943:1614",
+        "count": 10,
+        "buckets": {
+          "instance": 10
+        },
+        "examples": [
+          {
+            "id": "27553:24212",
+            "name": "Button",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "instance": "27553:24212",
+            "i": 0,
+            "j": 0
+          },
+          {
+            "id": "27625:86374",
+            "name": "Button",
+            "field": "fills",
+            "master": "27625:86403",
+            "masterName": "Breakpoints=1320+",
+            "instance": "27625:86374",
+            "i": 0,
+            "j": 0
+          }
+        ],
+        "key": "06848edfde485c1730cae5922b1faf29414d2b2b",
+        "name": "UNRESOLVED"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:ea3767627de70204d9132d4a23bf503eaa965fec/41943:1463",
+        "count": 10,
+        "buckets": {
+          "instance": 10
+        },
+        "examples": [
+          {
+            "id": "27553:24212",
+            "name": "Button",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "instance": "27553:24212",
+            "i": 0,
+            "j": 1
+          },
+          {
+            "id": "27625:86374",
+            "name": "Button",
+            "field": "fills",
+            "master": "27625:86403",
+            "masterName": "Breakpoints=1320+",
+            "instance": "27625:86374",
+            "i": 0,
+            "j": 1
+          }
+        ],
+        "key": "ea3767627de70204d9132d4a23bf503eaa965fec",
+        "name": "UNRESOLVED"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:a165d9776004dd901eb353960d5c202b977650b4/41943:1465",
+        "count": 10,
+        "buckets": {
+          "instance": 10
+        },
+        "examples": [
+          {
+            "id": "27553:24212",
+            "name": "Button",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "instance": "27553:24212",
+            "i": 0,
+            "j": 2
+          },
+          {
+            "id": "27625:86374",
+            "name": "Button",
+            "field": "fills",
+            "master": "27625:86403",
+            "masterName": "Breakpoints=1320+",
+            "instance": "27625:86374",
+            "i": 0,
+            "j": 2
+          }
+        ],
+        "key": "a165d9776004dd901eb353960d5c202b977650b4",
+        "name": "UNRESOLVED"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:83d669f093eb58ab69e1c772dcffd96370ff296a/41943:1616",
+        "count": 10,
+        "buckets": {
+          "instance": 10
+        },
+        "examples": [
+          {
+            "id": "27553:24212",
+            "name": "Button",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "instance": "27553:24212",
+            "i": 0,
+            "j": 3
+          },
+          {
+            "id": "27625:86374",
+            "name": "Button",
+            "field": "fills",
+            "master": "27625:86403",
+            "masterName": "Breakpoints=1320+",
+            "instance": "27625:86374",
+            "i": 0,
+            "j": 3
+          }
+        ],
+        "key": "83d669f093eb58ab69e1c772dcffd96370ff296a",
+        "name": "UNRESOLVED"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:50051225ccdd46cd88f61f1e1e7ae485a9062329/41872:3511",
+        "count": 20,
+        "buckets": {
+          "instance": 20
+        },
+        "examples": [
+          {
+            "id": "I27553:24212;26093:350484;32958:4324",
+            "name": "Union",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "instance": "I27553:24212;26093:350484",
+            "i": 0
+          },
+          {
+            "id": "I27553:24212;26093:350485",
+            "name": "Text",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "instance": "27553:24212",
+            "i": 0
+          }
+        ],
+        "key": "50051225ccdd46cd88f61f1e1e7ae485a9062329",
+        "name": "UNRESOLVED"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:55ef3bc5d7cb945bd9075c4bfe8e6b8b7e152404/39850:104",
+        "count": 20,
+        "buckets": {
+          "own": 20
+        },
+        "examples": [
+          {
+            "id": "27553:24214",
+            "name": "Продолжая, я соглашаюсь с Пользовательским соглашением Сервиса «Окко», Политикой конфиденциальности Сервиса «Окко», офертой «Удобный доступ»",
+            "field": "fillRange",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "i": 0
+          },
+          {
+            "id": "27553:24214",
+            "name": "Продолжая, я соглашаюсь с Пользовательским соглашением Сервиса «Окко», Политикой конфиденциальности Сервиса «Окко», офертой «Удобный доступ»",
+            "field": "fillRange",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "i": 0
+          }
+        ],
+        "key": "55ef3bc5d7cb945bd9075c4bfe8e6b8b7e152404",
+        "name": "UNRESOLVED"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:bb9358cae6559d7a3001214747d015afcad82da0/42020:441",
+        "count": 5,
+        "buckets": {
+          "instance": 5
+        },
+        "examples": [
+          {
+            "id": "27627:88705",
+            "name": "🟢 Checkbox",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "instance": "27627:88705",
+            "i": 0
+          },
+          {
+            "id": "27627:88839",
+            "name": "🟢 Checkbox",
+            "field": "fills",
+            "master": "27625:86403",
+            "masterName": "Breakpoints=1320+",
+            "instance": "27627:88839",
+            "i": 0
+          }
+        ],
+        "key": "bb9358cae6559d7a3001214747d015afcad82da0",
+        "name": "color/fill/solid/accent"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:4f21a856bdfc52444ea3e3f62c9f6af53b98e6e5/41978:2829",
+        "count": 5,
+        "buckets": {
+          "instance": 5
+        },
+        "examples": [
+          {
+            "id": "I27627:88705;6109:36123;33124:6709",
+            "name": "Union",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "instance": "I27627:88705;6109:36123",
+            "i": 0
+          },
+          {
+            "id": "I27627:88839;6109:36123;33124:6709",
+            "name": "Union",
+            "field": "fills",
+            "master": "27625:86403",
+            "masterName": "Breakpoints=1320+",
+            "instance": "I27627:88839;6109:36123",
+            "i": 0
+          }
+        ],
+        "key": "4f21a856bdfc52444ea3e3f62c9f6af53b98e6e5",
+        "name": "color/text-icon/primary"
+      }
+    ],
+    "noncanonicalColorStyles": [],
+    "mixed": [],
+    "errors": []
+  },
+  "mixed": {
+    "found": 50,
+    "mutatedNodeIds": [
+      "27553:24214",
+      "27553:24218",
+      "27625:86376",
+      "27625:86380",
+      "27626:88675",
+      "27626:88679",
+      "27631:91138",
+      "27631:91141",
+      "27631:92186",
+      "27631:92189",
+      "27553:29660",
+      "27625:87331",
+      "27627:89691",
+      "27631:92095",
+      "27633:93850"
+    ],
+    "records": [
+      {
+        "id": "27553:24214",
+        "start": 0,
+        "end": 26,
+        "target": "color/text-icon/third"
+      },
+      {
+        "id": "27553:24214",
+        "start": 26,
+        "end": 69,
+        "target": "color/text-icon/accent"
+      },
+      {
+        "id": "27553:24214",
+        "start": 69,
+        "end": 71,
+        "target": "color/text-icon/third"
+      },
+      {
+        "id": "27553:24214",
+        "start": 71,
+        "end": 114,
+        "target": "color/text-icon/accent"
+      },
+      {
+        "id": "27553:24214",
+        "start": 114,
+        "end": 116,
+        "target": "color/text-icon/third"
+      },
+      {
+        "id": "27553:24214",
+        "start": 116,
+        "end": 140,
+        "target": "color/text-icon/accent"
+      },
+      {
+        "id": "27553:24218",
+        "start": 0,
+        "end": 68,
+        "target": "color/text-icon/third"
+      },
+      {
+        "id": "27553:24218",
+        "start": 68,
+        "end": 86,
+        "target": "color/text-icon/accent"
+      },
+      {
+        "id": "27625:86376",
+        "start": 0,
+        "end": 26,
+        "target": "color/text-icon/third"
+      },
+      {
+        "id": "27625:86376",
+        "start": 26,
+        "end": 69,
+        "target": "color/text-icon/accent"
+      },
+      {
+        "id": "27625:86376",
+        "start": 69,
+        "end": 71,
+        "target": "color/text-icon/third"
+      },
+      {
+        "id": "27625:86376",
+        "start": 71,
+        "end": 114,
+        "target": "color/text-icon/accent"
+      },
+      {
+        "id": "27625:86376",
+        "start": 114,
+        "end": 116,
+        "target": "color/text-icon/third"
+      },
+      {
+        "id": "27625:86376",
+        "start": 116,
+        "end": 140,
+        "target": "color/text-icon/accent"
+      },
+      {
+        "id": "27625:86380",
+        "start": 0,
+        "end": 68,
+        "target": "color/text-icon/third"
+      },
+      {
+        "id": "27625:86380",
+        "start": 68,
+        "end": 86,
+        "target": "color/text-icon/accent"
+      },
+      {
+        "id": "27626:88675",
+        "start": 0,
+        "end": 26,
+        "target": "color/text-icon/third"
+      },
+      {
+        "id": "27626:88675",
+        "start": 26,
+        "end": 69,
+        "target": "color/text-icon/accent"
+      },
+      {
+        "id": "27626:88675",
+        "start": 69,
+        "end": 71,
+        "target": "color/text-icon/third"
+      },
+      {
+        "id": "27626:88675",
+        "start": 71,
+        "end": 114,
+        "target": "color/text-icon/accent"
+      },
+      {
+        "id": "27626:88675",
+        "start": 114,
+        "end": 116,
+        "target": "color/text-icon/third"
+      },
+      {
+        "id": "27626:88675",
+        "start": 116,
+        "end": 140,
+        "target": "color/text-icon/accent"
+      },
+      {
+        "id": "27626:88679",
+        "start": 0,
+        "end": 68,
+        "target": "color/text-icon/third"
+      },
+      {
+        "id": "27626:88679",
+        "start": 68,
+        "end": 86,
+        "target": "color/text-icon/accent"
+      },
+      {
+        "id": "27631:91138",
+        "start": 0,
+        "end": 26,
+        "target": "color/text-icon/third"
+      },
+      {
+        "id": "27631:91138",
+        "start": 26,
+        "end": 69,
+        "target": "color/text-icon/accent"
+      },
+      {
+        "id": "27631:91138",
+        "start": 69,
+        "end": 71,
+        "target": "color/text-icon/third"
+      },
+      {
+        "id": "27631:91138",
+        "start": 71,
+        "end": 114,
+        "target": "color/text-icon/accent"
+      },
+      {
+        "id": "27631:91138",
+        "start": 114,
+        "end": 116,
+        "target": "color/text-icon/third"
+      },
+      {
+        "id": "27631:91138",
+        "start": 116,
+        "end": 140,
+        "target": "color/text-icon/accent"
+      },
+      {
+        "id": "27631:91141",
+        "start": 0,
+        "end": 68,
+        "target": "color/text-icon/third"
+      },
+      {
+        "id": "27631:91141",
+        "start": 68,
+        "end": 86,
+        "target": "color/text-icon/accent"
+      },
+      {
+        "id": "27631:92186",
+        "start": 0,
+        "end": 26,
+        "target": "color/text-icon/third"
+      },
+      {
+        "id": "27631:92186",
+        "start": 26,
+        "end": 69,
+        "target": "color/text-icon/accent"
+      },
+      {
+        "id": "27631:92186",
+        "start": 69,
+        "end": 71,
+        "target": "color/text-icon/third"
+      },
+      {
+        "id": "27631:92186",
+        "start": 71,
+        "end": 114,
+        "target": "color/text-icon/accent"
+      },
+      {
+        "id": "27631:92186",
+        "start": 114,
+        "end": 116,
+        "target": "color/text-icon/third"
+      },
+      {
+        "id": "27631:92186",
+        "start": 116,
+        "end": 140,
+        "target": "color/text-icon/accent"
+      },
+      {
+        "id": "27631:92189",
+        "start": 0,
+        "end": 68,
+        "target": "color/text-icon/third"
+      },
+      {
+        "id": "27631:92189",
+        "start": 68,
+        "end": 86,
+        "target": "color/text-icon/accent"
+      },
+      {
+        "id": "27553:29660",
+        "start": 0,
+        "end": 31,
+        "target": "color/text-icon/secondary"
+      },
+      {
+        "id": "27553:29660",
+        "start": 31,
+        "end": 46,
+        "target": "color/text-icon/primary"
+      },
+      {
+        "id": "27625:87331",
+        "start": 0,
+        "end": 31,
+        "target": "color/text-icon/secondary"
+      },
+      {
+        "id": "27625:87331",
+        "start": 31,
+        "end": 46,
+        "target": "color/text-icon/primary"
+      },
+      {
+        "id": "27627:89691",
+        "start": 0,
+        "end": 31,
+        "target": "color/text-icon/secondary"
+      },
+      {
+        "id": "27627:89691",
+        "start": 31,
+        "end": 46,
+        "target": "color/text-icon/primary"
+      },
+      {
+        "id": "27631:92095",
+        "start": 0,
+        "end": 31,
+        "target": "color/text-icon/secondary"
+      },
+      {
+        "id": "27631:92095",
+        "start": 31,
+        "end": 46,
+        "target": "color/text-icon/primary"
+      },
+      {
+        "id": "27633:93850",
+        "start": 0,
+        "end": 31,
+        "target": "color/text-icon/secondary"
+      },
+      {
+        "id": "27633:93850",
+        "start": 31,
+        "end": 46,
+        "target": "color/text-icon/primary"
+      }
+    ],
+    "skippedCount": 0,
+    "skipped": [],
+    "errors": []
+  },
+  "final": {
+    "staticResult": {
+      "found": 5,
+      "mutatedNodeIds": [
+        "I27627:88705;6109:36123;33124:6709",
+        "I27627:88839;6109:36123;33124:6709",
+        "I27627:88842;6109:36123;33124:6709",
+        "I27631:91140;6109:36123;33124:6709",
+        "I27631:92188;6109:36123;33124:6709"
+      ],
+      "recordCount": 5,
+      "errors": [],
+      "fontErrors": [],
+      "unsupportedCount": 0,
+      "unsupported": [],
+      "skipped": [],
+      "rawCount": 0
+    },
+    "page": "Авторизация (В работе)🦖",
+    "nodeCount": 369,
+    "sources": [],
+    "remainingRows": [],
+    "reasons": {
+      "kids": 0,
+      "light": 0,
+      "outside": 0,
+      "eligible": 0
+    },
+    "remainingCount": 0,
+    "unresolved": [
+      {
+        "kind": "variable",
+        "id": "VariableID:06848edfde485c1730cae5922b1faf29414d2b2b/41943:1614",
+        "count": 10,
+        "buckets": {
+          "instance": 10
+        },
+        "examples": [
+          {
+            "id": "27553:24212",
+            "name": "Button",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "instance": "27553:24212",
+            "i": 0,
+            "j": 0
+          },
+          {
+            "id": "27625:86374",
+            "name": "Button",
+            "field": "fills",
+            "master": "27625:86403",
+            "masterName": "Breakpoints=1320+",
+            "instance": "27625:86374",
+            "i": 0,
+            "j": 0
+          }
+        ],
+        "key": "06848edfde485c1730cae5922b1faf29414d2b2b",
+        "name": "UNRESOLVED"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:ea3767627de70204d9132d4a23bf503eaa965fec/41943:1463",
+        "count": 10,
+        "buckets": {
+          "instance": 10
+        },
+        "examples": [
+          {
+            "id": "27553:24212",
+            "name": "Button",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "instance": "27553:24212",
+            "i": 0,
+            "j": 1
+          },
+          {
+            "id": "27625:86374",
+            "name": "Button",
+            "field": "fills",
+            "master": "27625:86403",
+            "masterName": "Breakpoints=1320+",
+            "instance": "27625:86374",
+            "i": 0,
+            "j": 1
+          }
+        ],
+        "key": "ea3767627de70204d9132d4a23bf503eaa965fec",
+        "name": "UNRESOLVED"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:a165d9776004dd901eb353960d5c202b977650b4/41943:1465",
+        "count": 10,
+        "buckets": {
+          "instance": 10
+        },
+        "examples": [
+          {
+            "id": "27553:24212",
+            "name": "Button",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "instance": "27553:24212",
+            "i": 0,
+            "j": 2
+          },
+          {
+            "id": "27625:86374",
+            "name": "Button",
+            "field": "fills",
+            "master": "27625:86403",
+            "masterName": "Breakpoints=1320+",
+            "instance": "27625:86374",
+            "i": 0,
+            "j": 2
+          }
+        ],
+        "key": "a165d9776004dd901eb353960d5c202b977650b4",
+        "name": "UNRESOLVED"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:83d669f093eb58ab69e1c772dcffd96370ff296a/41943:1616",
+        "count": 10,
+        "buckets": {
+          "instance": 10
+        },
+        "examples": [
+          {
+            "id": "27553:24212",
+            "name": "Button",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "instance": "27553:24212",
+            "i": 0,
+            "j": 3
+          },
+          {
+            "id": "27625:86374",
+            "name": "Button",
+            "field": "fills",
+            "master": "27625:86403",
+            "masterName": "Breakpoints=1320+",
+            "instance": "27625:86374",
+            "i": 0,
+            "j": 3
+          }
+        ],
+        "key": "83d669f093eb58ab69e1c772dcffd96370ff296a",
+        "name": "UNRESOLVED"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:50051225ccdd46cd88f61f1e1e7ae485a9062329/41872:3511",
+        "count": 25,
+        "buckets": {
+          "instance": 25
+        },
+        "examples": [
+          {
+            "id": "I27553:24212;26093:350484;32958:4324",
+            "name": "Union",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "instance": "I27553:24212;26093:350484",
+            "i": 0
+          },
+          {
+            "id": "I27553:24212;26093:350485",
+            "name": "Text",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "instance": "27553:24212",
+            "i": 0
+          }
+        ],
+        "key": "50051225ccdd46cd88f61f1e1e7ae485a9062329",
+        "name": "UNRESOLVED"
+      }
+    ],
+    "variableDetails": [
+      {
+        "kind": "variable",
+        "id": "VariableID:75768c2c0155eae0d6ed4c7a2cf7d658d46a374f/42020:443",
+        "count": 10,
+        "buckets": {
+          "own": 10
+        },
+        "examples": [
+          {
+            "id": "27553:27715",
+            "name": "Breakpoints=1720+",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "i": 0
+          },
+          {
+            "id": "27625:86403",
+            "name": "Breakpoints=1320+",
+            "field": "fills",
+            "master": "27625:86403",
+            "masterName": "Breakpoints=1320+",
+            "i": 0
+          }
+        ],
+        "key": "75768c2c0155eae0d6ed4c7a2cf7d658d46a374f",
+        "name": "color/fill/solid/secondary"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:4f21a856bdfc52444ea3e3f62c9f6af53b98e6e5/42022:1211",
+        "count": 15,
+        "buckets": {
+          "own": 15
+        },
+        "examples": [
+          {
+            "id": "27553:24205",
+            "name": "Вход или регистрация",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "i": 0
+          },
+          {
+            "id": "27625:86369",
+            "name": "Вход или регистрация",
+            "field": "fills",
+            "master": "27625:86403",
+            "masterName": "Breakpoints=1320+",
+            "i": 0
+          }
+        ],
+        "key": "4f21a856bdfc52444ea3e3f62c9f6af53b98e6e5",
+        "name": "color/text-icon/primary"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:5226651ce5a4bdc8084370cb5e6f1fa43510e93a/42020:432",
+        "count": 70,
+        "buckets": {
+          "instance": 50,
+          "own": 20
+        },
+        "examples": [
+          {
+            "id": "I27625:1359;20884:323;15918:5365",
+            "name": "Union",
+            "field": "region0",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "instance": "I27625:1359;20884:323",
+            "i": 0
+          },
+          {
+            "id": "I27625:1359;20884:323;15543:5189",
+            "name": "Vector",
+            "field": "region0",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "instance": "I27625:1359;20884:323",
+            "i": 0
+          }
+        ],
+        "key": "5226651ce5a4bdc8084370cb5e6f1fa43510e93a",
+        "name": "color/text-icon/third"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:3f0b86eaf4226df73a2d592badbb3ba74c530422/42022:1212",
+        "count": 15,
+        "buckets": {
+          "own": 15
+        },
+        "examples": [
+          {
+            "id": "27553:24209",
+            "name": "Войдите или зарегистрируйтесь, чтобы начать пользоваться  сервисом Okko",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "i": 0
+          },
+          {
+            "id": "27625:86371",
+            "name": "Войдите или зарегистрируйтесь, чтобы начать пользоваться сервисом Okko",
+            "field": "fills",
+            "master": "27625:86403",
+            "masterName": "Breakpoints=1320+",
+            "i": 0
+          }
+        ],
+        "key": "3f0b86eaf4226df73a2d592badbb3ba74c530422",
+        "name": "color/text-icon/secondary"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:9ad3109750be6a714a2a1dd028605b0a23221f4b/41978:2855",
+        "count": 30,
+        "buckets": {
+          "instance": 30
+        },
+        "examples": [
+          {
+            "id": "I27553:24211;21956:327453",
+            "name": "input",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "instance": "27553:24211",
+            "i": 0
+          },
+          {
+            "id": "I27625:86373;22796:326603",
+            "name": "input",
+            "field": "fills",
+            "master": "27625:86403",
+            "masterName": "Breakpoints=1320+",
+            "instance": "27625:86373",
+            "i": 0
+          }
+        ],
+        "key": "9ad3109750be6a714a2a1dd028605b0a23221f4b",
+        "name": "color/fill/glassy/third"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:3f0b86eaf4226df73a2d592badbb3ba74c530422/41978:2830",
+        "count": 5,
+        "buckets": {
+          "instance": 5
+        },
+        "examples": [
+          {
+            "id": "I27553:24211;19727:300554",
+            "name": "text",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "instance": "27553:24211",
+            "i": 0
+          },
+          {
+            "id": "I27625:86373;22796:326604",
+            "name": "text",
+            "field": "fills",
+            "master": "27625:86403",
+            "masterName": "Breakpoints=1320+",
+            "instance": "27625:86373",
+            "i": 0
+          }
+        ],
+        "key": "3f0b86eaf4226df73a2d592badbb3ba74c530422",
+        "name": "color/text-icon/secondary"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:5226651ce5a4bdc8084370cb5e6f1fa43510e93a/41978:2474",
+        "count": 5,
+        "buckets": {
+          "instance": 5
+        },
+        "examples": [
+          {
+            "id": "I27553:24211;21956:327751",
+            "name": "undertitle",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "instance": "27553:24211",
+            "i": 0
+          },
+          {
+            "id": "I27625:86373;22796:326606",
+            "name": "undertitle",
+            "field": "fills",
+            "master": "27625:86403",
+            "masterName": "Breakpoints=1320+",
+            "instance": "27625:86373",
+            "i": 0
+          }
+        ],
+        "key": "5226651ce5a4bdc8084370cb5e6f1fa43510e93a",
+        "name": "color/text-icon/third"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:06848edfde485c1730cae5922b1faf29414d2b2b/41943:1614",
+        "count": 10,
+        "buckets": {
+          "instance": 10
+        },
+        "examples": [
+          {
+            "id": "27553:24212",
+            "name": "Button",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "instance": "27553:24212",
+            "i": 0,
+            "j": 0
+          },
+          {
+            "id": "27625:86374",
+            "name": "Button",
+            "field": "fills",
+            "master": "27625:86403",
+            "masterName": "Breakpoints=1320+",
+            "instance": "27625:86374",
+            "i": 0,
+            "j": 0
+          }
+        ],
+        "key": "06848edfde485c1730cae5922b1faf29414d2b2b",
+        "name": "UNRESOLVED"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:ea3767627de70204d9132d4a23bf503eaa965fec/41943:1463",
+        "count": 10,
+        "buckets": {
+          "instance": 10
+        },
+        "examples": [
+          {
+            "id": "27553:24212",
+            "name": "Button",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "instance": "27553:24212",
+            "i": 0,
+            "j": 1
+          },
+          {
+            "id": "27625:86374",
+            "name": "Button",
+            "field": "fills",
+            "master": "27625:86403",
+            "masterName": "Breakpoints=1320+",
+            "instance": "27625:86374",
+            "i": 0,
+            "j": 1
+          }
+        ],
+        "key": "ea3767627de70204d9132d4a23bf503eaa965fec",
+        "name": "UNRESOLVED"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:a165d9776004dd901eb353960d5c202b977650b4/41943:1465",
+        "count": 10,
+        "buckets": {
+          "instance": 10
+        },
+        "examples": [
+          {
+            "id": "27553:24212",
+            "name": "Button",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "instance": "27553:24212",
+            "i": 0,
+            "j": 2
+          },
+          {
+            "id": "27625:86374",
+            "name": "Button",
+            "field": "fills",
+            "master": "27625:86403",
+            "masterName": "Breakpoints=1320+",
+            "instance": "27625:86374",
+            "i": 0,
+            "j": 2
+          }
+        ],
+        "key": "a165d9776004dd901eb353960d5c202b977650b4",
+        "name": "UNRESOLVED"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:83d669f093eb58ab69e1c772dcffd96370ff296a/41943:1616",
+        "count": 10,
+        "buckets": {
+          "instance": 10
+        },
+        "examples": [
+          {
+            "id": "27553:24212",
+            "name": "Button",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "instance": "27553:24212",
+            "i": 0,
+            "j": 3
+          },
+          {
+            "id": "27625:86374",
+            "name": "Button",
+            "field": "fills",
+            "master": "27625:86403",
+            "masterName": "Breakpoints=1320+",
+            "instance": "27625:86374",
+            "i": 0,
+            "j": 3
+          }
+        ],
+        "key": "83d669f093eb58ab69e1c772dcffd96370ff296a",
+        "name": "UNRESOLVED"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:50051225ccdd46cd88f61f1e1e7ae485a9062329/41872:3511",
+        "count": 25,
+        "buckets": {
+          "instance": 25
+        },
+        "examples": [
+          {
+            "id": "I27553:24212;26093:350484;32958:4324",
+            "name": "Union",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "instance": "I27553:24212;26093:350484",
+            "i": 0
+          },
+          {
+            "id": "I27553:24212;26093:350485",
+            "name": "Text",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "instance": "27553:24212",
+            "i": 0
+          }
+        ],
+        "key": "50051225ccdd46cd88f61f1e1e7ae485a9062329",
+        "name": "UNRESOLVED"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:940e864dec569a3d46eb52e568cb0f7f54b51ec0/42020:433",
+        "count": 20,
+        "buckets": {
+          "own": 20
+        },
+        "examples": [
+          {
+            "id": "27553:24214",
+            "name": "Продолжая, я соглашаюсь с Пользовательским соглашением Сервиса «Окко», Политикой конфиденциальности Сервиса «Окко», офертой «Удобный доступ»",
+            "field": "fillRange",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "i": 0
+          },
+          {
+            "id": "27553:24214",
+            "name": "Продолжая, я соглашаюсь с Пользовательским соглашением Сервиса «Окко», Политикой конфиденциальности Сервиса «Окко», офертой «Удобный доступ»",
+            "field": "fillRange",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "i": 0
+          }
+        ],
+        "key": "940e864dec569a3d46eb52e568cb0f7f54b51ec0",
+        "name": "color/text-icon/accent"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:bb9358cae6559d7a3001214747d015afcad82da0/42020:441",
+        "count": 5,
+        "buckets": {
+          "instance": 5
+        },
+        "examples": [
+          {
+            "id": "27627:88705",
+            "name": "🟢 Checkbox",
+            "field": "fills",
+            "master": "27553:27715",
+            "masterName": "Breakpoints=1720+",
+            "instance": "27627:88705",
+            "i": 0
+          },
+          {
+            "id": "27627:88839",
+            "name": "🟢 Checkbox",
+            "field": "fills",
+            "master": "27625:86403",
+            "masterName": "Breakpoints=1320+",
+            "instance": "27627:88839",
+            "i": 0
+          }
+        ],
+        "key": "bb9358cae6559d7a3001214747d015afcad82da0",
+        "name": "color/fill/solid/accent"
+      }
+    ],
+    "noncanonicalColorStyles": [],
+    "mixed": [],
+    "errors": []
+  },
+  "notes": "Первый запрос записи завершился тайм-аутом после частичного сохранения. Повторный аудит подтвердил уменьшение старых применений с 135 до 50; затем 50 диапазонов в 15 текстовых слоях заменены, 5 отметок чекбоксов переведены на static white. Итог: 0 старых стилей во всей странице. Журнал IDs первого запроса неполон из-за тайм-аута; число уникальных изменённых слоёв не заявляется.\n\nЧетыре привязки точек градиента (40 применений) сохранены внутри существующего актуального стиля color/component/button; их имена отсутствуют в локальном каталоге, отдельно через Figma коллекции не запрашивались. Static white распознан по утверждённому ключу. Сам градиент не изменялся."
+}

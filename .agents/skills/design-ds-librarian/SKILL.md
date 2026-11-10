@@ -28,6 +28,8 @@ description: Отвечает на вопросы о компонентах, а�
 
 Для Select Web читай [контекст Select Web](../design-figma-libraries/references/select-web.md); карточка `references/components/select.md` относится к iOS. Не смешивай матрицы состояний Select и Chips.
 
+Для Onboarding Bubble Web читай [контекст Web-онбординга](../design-figma-libraries/references/onboarding-bubble-web.md). Карточка `references/components/onboarding-bubble.md` относится к iOS и не задаёт Web API. Рабочий Web-компонент не имеет подтверждённой публикации или реализации в продукте.
+
 Для поиска Android Mobile и его свойств читай [источники и снимок, сверенный с мастером](../design-figma-libraries/references/android-mobile.md); iOS-карточка не задаёт Android API. Снимок не подтверждает текущий статус каждого компонента или привязку свойства к слоям; при вопросе об актуальном состоянии проверь живую Figma.
 
 При выборе hover для web-контролов используй [правило соответствия основной заливке](../design-figma-libraries/references/control-hover.md). Точные ресурсы проверяй в каноническом источнике токенов.

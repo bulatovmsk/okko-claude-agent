@@ -1,0 +1,4090 @@
+{
+  "date": "2026-10-20",
+  "scope": {
+    "target": {
+      "id": "17591:300408",
+      "name": "Featured",
+      "type": "PAGE"
+    },
+    "page": {
+      "id": "17591:300408",
+      "name": "Featured"
+    },
+    "roots": [
+      {
+        "id": "24097:333100",
+        "type": "RECTANGLE",
+        "name": "Rectangle 1"
+      },
+      {
+        "id": "17591:302666",
+        "type": "FRAME",
+        "name": "DevKit"
+      },
+      {
+        "id": "17591:303129",
+        "type": "COMPONENT_SET",
+        "name": "FeaturedMovie"
+      },
+      {
+        "id": "17613:326947",
+        "type": "COMPONENT_SET",
+        "name": "FeaturedSport"
+      },
+      {
+        "id": "17591:303488",
+        "type": "FRAME",
+        "name": "Cases"
+      },
+      {
+        "id": "21372:315303",
+        "type": "INSTANCE",
+        "name": "2"
+      },
+      {
+        "id": "46967:5863",
+        "type": "SECTION",
+        "name": ""
+      }
+    ],
+    "masters": [
+      {
+        "id": "17591:302927",
+        "name": "theme=Dark",
+        "parentId": "17591:302926",
+        "parentName": ".skeletonLoading"
+      },
+      {
+        "id": "17591:302929",
+        "name": "theme=Light",
+        "parentId": "17591:302926",
+        "parentName": ".skeletonLoading"
+      },
+      {
+        "id": "17591:336856",
+        "name": "breakpoint=320, size=default",
+        "parentId": "17591:336840",
+        "parentName": ".Logotype"
+      },
+      {
+        "id": "25925:344906",
+        "name": "breakpoint=320, size=trailer",
+        "parentId": "17591:336840",
+        "parentName": ".Logotype"
+      },
+      {
+        "id": "17591:336853",
+        "name": "breakpoint=375, size=default",
+        "parentId": "17591:336840",
+        "parentName": ".Logotype"
+      },
+      {
+        "id": "25925:344907",
+        "name": "breakpoint=375, size=trailer",
+        "parentId": "17591:336840",
+        "parentName": ".Logotype"
+      },
+      {
+        "id": "17591:336850",
+        "name": "breakpoint=768 [trailer], size=default",
+        "parentId": "17591:336840",
+        "parentName": ".Logotype"
+      },
+      {
+        "id": "25925:344908",
+        "name": "breakpoint=768 [trailer], size=trailer",
+        "parentId": "17591:336840",
+        "parentName": ".Logotype"
+      },
+      {
+        "id": "17591:336847",
+        "name": "breakpoint=768, size=default",
+        "parentId": "17591:336840",
+        "parentName": ".Logotype"
+      },
+      {
+        "id": "25925:344909",
+        "name": "breakpoint=768, size=trailer",
+        "parentId": "17591:336840",
+        "parentName": ".Logotype"
+      },
+      {
+        "id": "17591:336844",
+        "name": "breakpoint=1024, size=default",
+        "parentId": "17591:336840",
+        "parentName": ".Logotype"
+      },
+      {
+        "id": "25925:344910",
+        "name": "breakpoint=1024, size=trailer",
+        "parentId": "17591:336840",
+        "parentName": ".Logotype"
+      },
+      {
+        "id": "17591:336841",
+        "name": "breakpoint=1440, size=default",
+        "parentId": "17591:336840",
+        "parentName": ".Logotype"
+      },
+      {
+        "id": "25925:344911",
+        "name": "breakpoint=1440, size=trailer",
+        "parentId": "17591:336840",
+        "parentName": ".Logotype"
+      },
+      {
+        "id": "17591:336862",
+        "name": "breakpoint=1792, size=default",
+        "parentId": "17591:336840",
+        "parentName": ".Logotype"
+      },
+      {
+        "id": "25925:344912",
+        "name": "breakpoint=1792, size=trailer",
+        "parentId": "17591:336840",
+        "parentName": ".Logotype"
+      },
+      {
+        "id": "17591:336859",
+        "name": "breakpoint=1920, size=default",
+        "parentId": "17591:336840",
+        "parentName": ".Logotype"
+      },
+      {
+        "id": "25925:344913",
+        "name": "breakpoint=1920, size=trailer",
+        "parentId": "17591:336840",
+        "parentName": ".Logotype"
+      },
+      {
+        "id": "17591:336811",
+        "name": "type=Movie",
+        "parentId": "17591:336802",
+        "parentName": ".Meta"
+      },
+      {
+        "id": "17591:336824",
+        "name": "type=Serial",
+        "parentId": "17591:336802",
+        "parentName": ".Meta"
+      },
+      {
+        "id": "17591:336830",
+        "name": "breakpoint=320",
+        "parentId": "17591:336829",
+        "parentName": ".Team"
+      },
+      {
+        "id": "17591:336832",
+        "name": "breakpoint=375",
+        "parentId": "17591:336829",
+        "parentName": ".Team"
+      },
+      {
+        "id": "17591:336834",
+        "name": "breakpoint=768",
+        "parentId": "17591:336829",
+        "parentName": ".Team"
+      },
+      {
+        "id": "17591:336836",
+        "name": "breakpoint=1440",
+        "parentId": "17591:336829",
+        "parentName": ".Team"
+      },
+      {
+        "id": "17591:336838",
+        "name": "breakpoint=1720",
+        "parentId": "17591:336829",
+        "parentName": ".Team"
+      },
+      {
+        "id": "17591:336866",
+        "name": "breakpoint=1720",
+        "parentId": "17591:336865",
+        "parentName": ".Censorship"
+      },
+      {
+        "id": "17591:336869",
+        "name": "breakpoint=1440",
+        "parentId": "17591:336865",
+        "parentName": ".Censorship"
+      },
+      {
+        "id": "17591:336872",
+        "name": "breakpoint=768",
+        "parentId": "17591:336865",
+        "parentName": ".Censorship"
+      },
+      {
+        "id": "17591:302673",
+        "name": "breakpoint=1920",
+        "parentId": "17591:302672",
+        "parentName": ".Cover"
+      },
+      {
+        "id": "17591:302688",
+        "name": "breakpoint=1720",
+        "parentId": "17591:302672",
+        "parentName": ".Cover"
+      },
+      {
+        "id": "17591:302703",
+        "name": "breakpoint=1440",
+        "parentId": "17591:302672",
+        "parentName": ".Cover"
+      },
+      {
+        "id": "17591:302733",
+        "name": "breakpoint=1024",
+        "parentId": "17591:302672",
+        "parentName": ".Cover"
+      },
+      {
+        "id": "17591:302748",
+        "name": "breakpoint=768",
+        "parentId": "17591:302672",
+        "parentName": ".Cover"
+      },
+      {
+        "id": "17591:302763",
+        "name": "breakpoint=375",
+        "parentId": "17591:302672",
+        "parentName": ".Cover"
+      },
+      {
+        "id": "17591:302778",
+        "name": "breakpoint=320",
+        "parentId": "17591:302672",
+        "parentName": ".Cover"
+      },
+      {
+        "id": "17595:310193",
+        "name": "type=Movie, breakpoint=1920",
+        "parentId": "17595:310995",
+        "parentName": ".Overlay"
+      },
+      {
+        "id": "25925:345040",
+        "name": "type=Movie trailer, breakpoint=1920",
+        "parentId": "17595:310995",
+        "parentName": ".Overlay"
+      },
+      {
+        "id": "17595:314747",
+        "name": "type=Movie, breakpoint=1720",
+        "parentId": "17595:310995",
+        "parentName": ".Overlay"
+      },
+      {
+        "id": "25925:345051",
+        "name": "type=Movie trailer, breakpoint=1720",
+        "parentId": "17595:310995",
+        "parentName": ".Overlay"
+      },
+      {
+        "id": "17613:310416",
+        "name": "type=Movie, breakpoint=1440",
+        "parentId": "17595:310995",
+        "parentName": ".Overlay"
+      },
+      {
+        "id": "25925:345062",
+        "name": "type=Movie trailer, breakpoint=1440",
+        "parentId": "17595:310995",
+        "parentName": ".Overlay"
+      },
+      {
+        "id": "17613:310367",
+        "name": "type=Movie, breakpoint=1024",
+        "parentId": "17595:310995",
+        "parentName": ".Overlay"
+      },
+      {
+        "id": "25925:345073",
+        "name": "type=Movie trailer, breakpoint=1024",
+        "parentId": "17595:310995",
+        "parentName": ".Overlay"
+      },
+      {
+        "id": "17613:310465",
+        "name": "type=Movie, breakpoint=768",
+        "parentId": "17595:310995",
+        "parentName": ".Overlay"
+      },
+      {
+        "id": "25925:345084",
+        "name": "type=Movie trailer, breakpoint=768",
+        "parentId": "17595:310995",
+        "parentName": ".Overlay"
+      },
+      {
+        "id": "17613:310538",
+        "name": "type=Movie, breakpoint=375",
+        "parentId": "17595:310995",
+        "parentName": ".Overlay"
+      },
+      {
+        "id": "25925:345095",
+        "name": "type=Movie trailer, breakpoint=375",
+        "parentId": "17595:310995",
+        "parentName": ".Overlay"
+      },
+      {
+        "id": "17613:310587",
+        "name": "type=Movie, breakpoint=320",
+        "parentId": "17595:310995",
+        "parentName": ".Overlay"
+      },
+      {
+        "id": "25925:345106",
+        "name": "type=Movie trailer, breakpoint=320",
+        "parentId": "17595:310995",
+        "parentName": ".Overlay"
+      },
+      {
+        "id": "17613:312564",
+        "name": "type=Sport, breakpoint=1920",
+        "parentId": "17595:310995",
+        "parentName": ".Overlay"
+      },
+      {
+        "id": "17613:312575",
+        "name": "type=Sport, breakpoint=1720",
+        "parentId": "17595:310995",
+        "parentName": ".Overlay"
+      },
+      {
+        "id": "17613:312586",
+        "name": "type=Sport, breakpoint=1440",
+        "parentId": "17595:310995",
+        "parentName": ".Overlay"
+      },
+      {
+        "id": "17613:312597",
+        "name": "type=Sport, breakpoint=1024",
+        "parentId": "17595:310995",
+        "parentName": ".Overlay"
+      },
+      {
+        "id": "17613:312608",
+        "name": "type=Sport, breakpoint=768",
+        "parentId": "17595:310995",
+        "parentName": ".Overlay"
+      },
+      {
+        "id": "17613:312619",
+        "name": "type=Sport, breakpoint=375",
+        "parentId": "17595:310995",
+        "parentName": ".Overlay"
+      },
+      {
+        "id": "17613:312630",
+        "name": "type=Sport, breakpoint=320",
+        "parentId": "17595:310995",
+        "parentName": ".Overlay"
+      },
+      {
+        "id": "17591:302960",
+        "name": "breakpoint=1920, type=Movie",
+        "parentId": "17591:302959",
+        "parentName": ".itemRail"
+      },
+      {
+        "id": "17613:314535",
+        "name": "breakpoint=1792, type=Movie",
+        "parentId": "17591:302959",
+        "parentName": ".itemRail"
+      },
+      {
+        "id": "17613:314629",
+        "name": "breakpoint=1440, type=Movie",
+        "parentId": "17591:302959",
+        "parentName": ".itemRail"
+      },
+      {
+        "id": "17613:314723",
+        "name": "breakpoint=1024, type=Movie",
+        "parentId": "17591:302959",
+        "parentName": ".itemRail"
+      },
+      {
+        "id": "17613:314817",
+        "name": "breakpoint=768, type=Movie",
+        "parentId": "17591:302959",
+        "parentName": ".itemRail"
+      },
+      {
+        "id": "17613:314957",
+        "name": "breakpoint=375, type=Movie",
+        "parentId": "17591:302959",
+        "parentName": ".itemRail"
+      },
+      {
+        "id": "17613:315051",
+        "name": "breakpoint=320, type=Movie",
+        "parentId": "17591:302959",
+        "parentName": ".itemRail"
+      },
+      {
+        "id": "17613:323320",
+        "name": "breakpoint=1920, type=Sport",
+        "parentId": "17591:302959",
+        "parentName": ".itemRail"
+      },
+      {
+        "id": "17613:323322",
+        "name": "breakpoint=1792, type=Sport",
+        "parentId": "17591:302959",
+        "parentName": ".itemRail"
+      },
+      {
+        "id": "17613:323324",
+        "name": "breakpoint=1440, type=Sport",
+        "parentId": "17591:302959",
+        "parentName": ".itemRail"
+      },
+      {
+        "id": "17613:323326",
+        "name": "breakpoint=1024, type=Sport",
+        "parentId": "17591:302959",
+        "parentName": ".itemRail"
+      },
+      {
+        "id": "17613:323328",
+        "name": "breakpoint=768, type=Sport",
+        "parentId": "17591:302959",
+        "parentName": ".itemRail"
+      },
+      {
+        "id": "17613:323330",
+        "name": "breakpoint=375, type=Sport",
+        "parentId": "17591:302959",
+        "parentName": ".itemRail"
+      },
+      {
+        "id": "17613:323332",
+        "name": "breakpoint=320, type=Sport",
+        "parentId": "17591:302959",
+        "parentName": ".itemRail"
+      },
+      {
+        "id": "17591:303130",
+        "name": "breakpoint=1920, theme=Dark",
+        "parentId": "17591:303129",
+        "parentName": "FeaturedMovie"
+      },
+      {
+        "id": "17591:303143",
+        "name": "breakpoint=1792, theme=Dark",
+        "parentId": "17591:303129",
+        "parentName": "FeaturedMovie"
+      },
+      {
+        "id": "17591:303156",
+        "name": "breakpoint=1440, theme=Dark",
+        "parentId": "17591:303129",
+        "parentName": "FeaturedMovie"
+      },
+      {
+        "id": "17591:303182",
+        "name": "breakpoint=1024, theme=Dark",
+        "parentId": "17591:303129",
+        "parentName": "FeaturedMovie"
+      },
+      {
+        "id": "17591:303195",
+        "name": "breakpoint=768, theme=Dark",
+        "parentId": "17591:303129",
+        "parentName": "FeaturedMovie"
+      },
+      {
+        "id": "17591:303207",
+        "name": "breakpoint=375, theme=Dark",
+        "parentId": "17591:303129",
+        "parentName": "FeaturedMovie"
+      },
+      {
+        "id": "17591:303219",
+        "name": "breakpoint=320, theme=Dark",
+        "parentId": "17591:303129",
+        "parentName": "FeaturedMovie"
+      },
+      {
+        "id": "18906:300178",
+        "name": "breakpoint=1920, theme=Light",
+        "parentId": "17591:303129",
+        "parentName": "FeaturedMovie"
+      },
+      {
+        "id": "18906:300183",
+        "name": "breakpoint=1792, theme=Light",
+        "parentId": "17591:303129",
+        "parentName": "FeaturedMovie"
+      },
+      {
+        "id": "18906:300188",
+        "name": "breakpoint=1440, theme=Light",
+        "parentId": "17591:303129",
+        "parentName": "FeaturedMovie"
+      },
+      {
+        "id": "18906:300193",
+        "name": "breakpoint=1024, theme=Light",
+        "parentId": "17591:303129",
+        "parentName": "FeaturedMovie"
+      },
+      {
+        "id": "18906:300198",
+        "name": "breakpoint=768, theme=Light",
+        "parentId": "17591:303129",
+        "parentName": "FeaturedMovie"
+      },
+      {
+        "id": "18906:300203",
+        "name": "breakpoint=375, theme=Light",
+        "parentId": "17591:303129",
+        "parentName": "FeaturedMovie"
+      },
+      {
+        "id": "18906:300208",
+        "name": "breakpoint=320, theme=Light",
+        "parentId": "17591:303129",
+        "parentName": "FeaturedMovie"
+      },
+      {
+        "id": "17613:326948",
+        "name": "breakpoint=1920",
+        "parentId": "17613:326947",
+        "parentName": "FeaturedSport"
+      },
+      {
+        "id": "17613:326953",
+        "name": "breakpoint=1792",
+        "parentId": "17613:326947",
+        "parentName": "FeaturedSport"
+      },
+      {
+        "id": "17613:326958",
+        "name": "breakpoint=1440",
+        "parentId": "17613:326947",
+        "parentName": "FeaturedSport"
+      },
+      {
+        "id": "17613:326963",
+        "name": "breakpoint=1024",
+        "parentId": "17613:326947",
+        "parentName": "FeaturedSport"
+      },
+      {
+        "id": "17613:326968",
+        "name": "breakpoint=768",
+        "parentId": "17613:326947",
+        "parentName": "FeaturedSport"
+      },
+      {
+        "id": "17613:326973",
+        "name": "breakpoint=375",
+        "parentId": "17613:326947",
+        "parentName": "FeaturedSport"
+      },
+      {
+        "id": "17613:326978",
+        "name": "breakpoint=320",
+        "parentId": "17613:326947",
+        "parentName": "FeaturedSport"
+      },
+      {
+        "id": "46972:4311",
+        "name": "Breakpoint=Mobile 320+, Content=Movie, Trailer=False",
+        "parentId": "46972:4310",
+        "parentName": "Meta"
+      },
+      {
+        "id": "46972:4320",
+        "name": "Breakpoint=Tablet 600+, Content=Movie, Trailer=False",
+        "parentId": "46972:4310",
+        "parentName": "Meta"
+      },
+      {
+        "id": "46972:4329",
+        "name": "Breakpoint=Tablet 600+, Content=Movie, Trailer=True",
+        "parentId": "46972:4310",
+        "parentName": "Meta"
+      },
+      {
+        "id": "46972:4331",
+        "name": "Breakpoint=Mobile 320+, Content=Event, Trailer=False",
+        "parentId": "46972:4310",
+        "parentName": "Meta"
+      },
+      {
+        "id": "46972:4338",
+        "name": "Breakpoint=Tablet 600+, Content=Event, Trailer=False",
+        "parentId": "46972:4310",
+        "parentName": "Meta"
+      },
+      {
+        "id": "46972:4345",
+        "name": "Breakpoint=Mobile 320+, Content=Music, Trailer=False",
+        "parentId": "46972:4310",
+        "parentName": "Meta"
+      },
+      {
+        "id": "46972:4351",
+        "name": "Breakpoint=Tablet 600+, Content=Music, Trailer=False",
+        "parentId": "46972:4310",
+        "parentName": "Meta"
+      },
+      {
+        "id": "46972:4357",
+        "name": "Breakpoint=Mobile 320+, Content=Sport, Trailer=False",
+        "parentId": "46972:4310",
+        "parentName": "Meta"
+      },
+      {
+        "id": "46972:4368",
+        "name": "Breakpoint=Tablet 600+, Content=Sport, Trailer=False",
+        "parentId": "46972:4310",
+        "parentName": "Meta"
+      },
+      {
+        "id": "46972:4379",
+        "name": "Breakpoint=Tablet 600+, Content=Sport, Trailer=True",
+        "parentId": "46972:4310",
+        "parentName": "Meta"
+      },
+      {
+        "id": "46972:4381",
+        "name": "Breakpoint=Mobile 320+, Content=Media, Trailer=False",
+        "parentId": "46972:4310",
+        "parentName": "Meta"
+      },
+      {
+        "id": "46972:4397",
+        "name": "Breakpoint=Tablet 600+, Content=Media, Trailer=False",
+        "parentId": "46972:4310",
+        "parentName": "Meta"
+      },
+      {
+        "id": "46972:4413",
+        "name": "Breakpoint=Mobile 320+, Content=Sport, Trailer=True",
+        "parentId": "46972:4310",
+        "parentName": "Meta"
+      },
+      {
+        "id": "46972:4415",
+        "name": "Breakpoint=Mobile 320+, Content=Movie, Trailer=True",
+        "parentId": "46972:4310",
+        "parentName": "Meta"
+      },
+      {
+        "id": "46973:4339",
+        "name": "Breakpoint=Desktop 1720+, Content=Movie, Trailer=False",
+        "parentId": "46972:4310",
+        "parentName": "Meta"
+      },
+      {
+        "id": "46973:4350",
+        "name": "Breakpoint=Desktop 1720+, Content=Movie, Trailer=True",
+        "parentId": "46972:4310",
+        "parentName": "Meta"
+      },
+      {
+        "id": "46973:4352",
+        "name": "Breakpoint=Desktop 1720+, Content=Event, Trailer=False",
+        "parentId": "46972:4310",
+        "parentName": "Meta"
+      },
+      {
+        "id": "46973:4359",
+        "name": "Breakpoint=Desktop 1720+, Content=Music, Trailer=False",
+        "parentId": "46972:4310",
+        "parentName": "Meta"
+      },
+      {
+        "id": "46973:4365",
+        "name": "Breakpoint=Desktop 1720+, Content=Sport, Trailer=False",
+        "parentId": "46972:4310",
+        "parentName": "Meta"
+      },
+      {
+        "id": "46973:4376",
+        "name": "Breakpoint=Desktop 1720+, Content=Sport, Trailer=True",
+        "parentId": "46972:4310",
+        "parentName": "Meta"
+      },
+      {
+        "id": "46973:4378",
+        "name": "Breakpoint=Desktop 1720+, Content=Media, Trailer=False",
+        "parentId": "46972:4310",
+        "parentName": "Meta"
+      },
+      {
+        "id": "46973:4422",
+        "name": "Breakpoint=320+, Content=Movie, Trailer=False",
+        "parentId": "46973:4416",
+        "parentName": "Featured - Meta"
+      },
+      {
+        "id": "46973:4417",
+        "name": "Breakpoint=320+, Content=Movie, Trailer=True",
+        "parentId": "46973:4416",
+        "parentName": "Featured - Meta"
+      },
+      {
+        "id": "46973:4430",
+        "name": "Breakpoint=320+, Content=Media, Trailer=False",
+        "parentId": "46973:4416",
+        "parentName": "Featured - Meta"
+      },
+      {
+        "id": "46973:4435",
+        "name": "Breakpoint=320+, Content=🟡 Event, Trailer=False",
+        "parentId": "46973:4416",
+        "parentName": "Featured - Meta"
+      },
+      {
+        "id": "46973:4451",
+        "name": "Breakpoint=320+, Content=Sport Program, Trailer=False",
+        "parentId": "46973:4416",
+        "parentName": "Featured - Meta"
+      },
+      {
+        "id": "46973:4458",
+        "name": "Breakpoint=320+, Content=Sport Teams, Trailer=False",
+        "parentId": "46973:4416",
+        "parentName": "Featured - Meta"
+      },
+      {
+        "id": "46973:4465",
+        "name": "Breakpoint=320+, Content=Sport Program, Trailer=True",
+        "parentId": "46973:4416",
+        "parentName": "Featured - Meta"
+      },
+      {
+        "id": "46973:4472",
+        "name": "Breakpoint=320+, Content=Sport Teams, Trailer=True",
+        "parentId": "46973:4416",
+        "parentName": "Featured - Meta"
+      },
+      {
+        "id": "46973:4479",
+        "name": "Breakpoint=600+, Content=Movie, Trailer=True",
+        "parentId": "46973:4416",
+        "parentName": "Featured - Meta"
+      },
+      {
+        "id": "46973:4484",
+        "name": "Breakpoint=600+, Content=Movie, Trailer=False",
+        "parentId": "46973:4416",
+        "parentName": "Featured - Meta"
+      },
+      {
+        "id": "46973:4492",
+        "name": "Breakpoint=600+, Content=Media, Trailer=False",
+        "parentId": "46973:4416",
+        "parentName": "Featured - Meta"
+      },
+      {
+        "id": "46973:4497",
+        "name": "Breakpoint=600+, Content=🟡 Event, Trailer=False",
+        "parentId": "46973:4416",
+        "parentName": "Featured - Meta"
+      },
+      {
+        "id": "46973:4513",
+        "name": "Breakpoint=600+, Content=Sport Program, Trailer=False",
+        "parentId": "46973:4416",
+        "parentName": "Featured - Meta"
+      },
+      {
+        "id": "46973:4520",
+        "name": "Breakpoint=600+, Content=Sport Teams, Trailer=False",
+        "parentId": "46973:4416",
+        "parentName": "Featured - Meta"
+      },
+      {
+        "id": "46973:4527",
+        "name": "Breakpoint=600+, Content=Sport Program, Trailer=True",
+        "parentId": "46973:4416",
+        "parentName": "Featured - Meta"
+      },
+      {
+        "id": "46973:4534",
+        "name": "Breakpoint=600+, Content=Sport Teams, Trailer=True",
+        "parentId": "46973:4416",
+        "parentName": "Featured - Meta"
+      },
+      {
+        "id": "46973:4541",
+        "name": "Breakpoint=1320+, Content=Movie, Trailer=True",
+        "parentId": "46973:4416",
+        "parentName": "Featured - Meta"
+      },
+      {
+        "id": "46973:4546",
+        "name": "Breakpoint=1320+, Content=Movie, Trailer=False",
+        "parentId": "46973:4416",
+        "parentName": "Featured - Meta"
+      },
+      {
+        "id": "46973:4554",
+        "name": "Breakpoint=1320+, Content=Media, Trailer=False",
+        "parentId": "46973:4416",
+        "parentName": "Featured - Meta"
+      },
+      {
+        "id": "46973:4559",
+        "name": "Breakpoint=1320+, Content=🟡 Event, Trailer=False",
+        "parentId": "46973:4416",
+        "parentName": "Featured - Meta"
+      },
+      {
+        "id": "46973:4575",
+        "name": "Breakpoint=1320+, Content=Sport Program, Trailer=False",
+        "parentId": "46973:4416",
+        "parentName": "Featured - Meta"
+      },
+      {
+        "id": "46973:4582",
+        "name": "Breakpoint=1320+, Content=Sport Teams, Trailer=False",
+        "parentId": "46973:4416",
+        "parentName": "Featured - Meta"
+      },
+      {
+        "id": "46973:4589",
+        "name": "Breakpoint=1320+, Content=Sport Program, Trailer=True",
+        "parentId": "46973:4416",
+        "parentName": "Featured - Meta"
+      },
+      {
+        "id": "46973:4596",
+        "name": "Breakpoint=1320+, Content=Sport Teams, Trailer=True",
+        "parentId": "46973:4416",
+        "parentName": "Featured - Meta"
+      },
+      {
+        "id": "46975:4791",
+        "name": "Breakpoint=1720+, Content=Movie, Trailer=True",
+        "parentId": "46973:4416",
+        "parentName": "Featured - Meta"
+      },
+      {
+        "id": "46975:4809",
+        "name": "Breakpoint=1720+, Content=Movie, Trailer=False",
+        "parentId": "46973:4416",
+        "parentName": "Featured - Meta"
+      },
+      {
+        "id": "46975:4839",
+        "name": "Breakpoint=1720+, Content=Media, Trailer=False",
+        "parentId": "46973:4416",
+        "parentName": "Featured - Meta"
+      },
+      {
+        "id": "46975:4862",
+        "name": "Breakpoint=1720+, Content=🟡 Event, Trailer=False",
+        "parentId": "46973:4416",
+        "parentName": "Featured - Meta"
+      },
+      {
+        "id": "46975:4910",
+        "name": "Breakpoint=1720+, Content=Sport Program, Trailer=False",
+        "parentId": "46973:4416",
+        "parentName": "Featured - Meta"
+      },
+      {
+        "id": "46975:4939",
+        "name": "Breakpoint=1720+, Content=Sport Teams, Trailer=False",
+        "parentId": "46973:4416",
+        "parentName": "Featured - Meta"
+      },
+      {
+        "id": "46975:4968",
+        "name": "Breakpoint=1720+, Content=Sport Program, Trailer=True",
+        "parentId": "46973:4416",
+        "parentName": "Featured - Meta"
+      },
+      {
+        "id": "46975:4994",
+        "name": "Breakpoint=1720+, Content=Sport Teams, Trailer=True",
+        "parentId": "46973:4416",
+        "parentName": "Featured - Meta"
+      }
+    ],
+    "sets": [
+      {
+        "id": "17591:302926",
+        "name": ".skeletonLoading",
+        "count": 2
+      },
+      {
+        "id": "17591:336840",
+        "name": ".Logotype",
+        "count": 16
+      },
+      {
+        "id": "17591:336802",
+        "name": ".Meta",
+        "count": 2
+      },
+      {
+        "id": "17591:336829",
+        "name": ".Team",
+        "count": 5
+      },
+      {
+        "id": "17591:336865",
+        "name": ".Censorship",
+        "count": 3
+      },
+      {
+        "id": "17591:302672",
+        "name": ".Cover",
+        "count": 7
+      },
+      {
+        "id": "17595:310995",
+        "name": ".Overlay",
+        "count": 21
+      },
+      {
+        "id": "17591:302959",
+        "name": ".itemRail",
+        "count": 14
+      },
+      {
+        "id": "17591:303129",
+        "name": "FeaturedMovie",
+        "count": 14
+      },
+      {
+        "id": "17613:326947",
+        "name": "FeaturedSport",
+        "count": 7
+      },
+      {
+        "id": "46972:4310",
+        "name": "Meta",
+        "count": 21
+      },
+      {
+        "id": "46973:4416",
+        "name": "Featured - Meta",
+        "count": 32
+      }
+    ]
+  },
+  "fileKey": "sb7SelAF2PBcYZsOxL092c",
+  "mutatedNodeCount": 195,
+  "mutatedNodeIds": [
+    "17591:302927",
+    "17591:336812",
+    "17591:336813",
+    "17591:336814",
+    "17591:336815",
+    "17591:336825",
+    "17591:336826",
+    "17591:336827",
+    "17591:336828",
+    "17591:336867",
+    "17591:336868",
+    "17591:336870",
+    "17591:336871",
+    "17591:336873",
+    "17591:336874",
+    "25922:350153",
+    "25922:349408",
+    "25922:343557",
+    "25922:350898",
+    "25922:351643",
+    "25922:352388",
+    "25922:353426",
+    "17613:312877",
+    "17613:312878",
+    "17613:312881",
+    "17613:314076",
+    "17613:314077",
+    "17613:314080",
+    "17613:314001",
+    "17613:314002",
+    "17613:314005",
+    "17613:313957",
+    "17613:313958",
+    "17613:313961",
+    "17613:313877",
+    "17613:313878",
+    "17613:313881",
+    "17613:313791",
+    "17613:313792",
+    "17613:313795",
+    "17613:313742",
+    "17613:313743",
+    "17613:313746",
+    "46972:4393",
+    "46972:4409",
+    "46973:4390",
+    "18611:299382",
+    "17595:310159",
+    "17595:310160",
+    "17595:310161",
+    "17595:310163",
+    "17595:310162",
+    "17595:314749",
+    "17595:314750",
+    "17595:314751",
+    "17595:314753",
+    "17595:314752",
+    "17613:310418",
+    "17613:310419",
+    "17613:310420",
+    "17613:310422",
+    "17613:310421",
+    "17613:310369",
+    "17613:310370",
+    "17613:310371",
+    "17613:310373",
+    "17613:310372",
+    "17613:310467",
+    "17613:310468",
+    "17613:310469",
+    "17613:310471",
+    "17613:310470",
+    "17613:310540",
+    "17613:310541",
+    "17613:310542",
+    "17613:310544",
+    "17613:310543",
+    "17613:310589",
+    "17613:310590",
+    "17613:310591",
+    "17613:310593",
+    "17613:310592",
+    "30489:156845",
+    "17613:312566",
+    "17613:312567",
+    "17613:312568",
+    "17613:312570",
+    "17613:312569",
+    "I17613:312882;9845:75959",
+    "I17613:312882;9845:75959;9845:75863",
+    "I17613:312882;9845:75959;9845:75921",
+    "I17613:312882;9845:75959;9845:75923",
+    "I17613:312882;9845:75959;9845:75924",
+    "I17613:312882;9845:75959;9845:75926",
+    "I17613:312882;9845:75959;9845:75927",
+    "30489:155557",
+    "17613:312577",
+    "17613:312578",
+    "17613:312579",
+    "17613:312581",
+    "17613:312580",
+    "I17613:314081;9845:75959",
+    "I17613:314081;9845:75959;9845:75863",
+    "I17613:314081;9845:75959;9845:75921",
+    "I17613:314081;9845:75959;9845:75923",
+    "I17613:314081;9845:75959;9845:75924",
+    "I17613:314081;9845:75959;9845:75926",
+    "I17613:314081;9845:75959;9845:75927",
+    "30489:153948",
+    "17613:312588",
+    "17613:312589",
+    "17613:312590",
+    "17613:312592",
+    "17613:312591",
+    "I17613:314006;9845:76061",
+    "I17613:314006;9845:76061;9845:75846",
+    "I17613:314006;9845:76061;9845:75902",
+    "I17613:314006;9845:76061;9845:75904",
+    "I17613:314006;9845:76061;9845:75905",
+    "I17613:314006;9845:76061;9845:75907",
+    "I17613:314006;9845:76061;9845:75908",
+    "30489:158181",
+    "17613:312599",
+    "17613:312600",
+    "17613:312601",
+    "17613:312603",
+    "17613:312602",
+    "I17613:313962;9845:76098",
+    "I17613:313962;9845:76098;9845:75878",
+    "I17613:313962;9845:76098;9845:75879",
+    "I17613:313962;9845:76098;9845:75881",
+    "I17613:313962;9845:76098;9845:75882",
+    "I17613:313962;9845:76098;9845:75884",
+    "I17613:313962;9845:76098;9845:75885",
+    "30489:159552",
+    "17613:312610",
+    "17613:312611",
+    "17613:312612",
+    "17613:312614",
+    "17613:312613",
+    "I17613:313882;9845:76098",
+    "I17613:313882;9845:76098;9845:75878",
+    "I17613:313882;9845:76098;9845:75879",
+    "I17613:313882;9845:76098;9845:75881",
+    "I17613:313882;9845:76098;9845:75882",
+    "I17613:313882;9845:76098;9845:75884",
+    "I17613:313882;9845:76098;9845:75885",
+    "30489:160888",
+    "17613:312621",
+    "17613:312622",
+    "17613:312623",
+    "17613:312625",
+    "17613:312624",
+    "I17613:313796;9845:76140",
+    "I17613:313796;9845:76140;9845:75758",
+    "I17613:313796;9845:76140;9845:75759",
+    "I17613:313796;9845:76140;9845:75781",
+    "I17613:313796;9845:76140;9845:75782",
+    "I17613:313796;9845:76140;9845:75784",
+    "I17613:313796;9845:76140;9845:75785",
+    "30489:162631",
+    "17613:312632",
+    "17613:312633",
+    "17613:312634",
+    "17613:312636",
+    "17613:312635",
+    "I17613:313747;9845:76140",
+    "I17613:313747;9845:76140;9845:75758",
+    "I17613:313747;9845:76140;9845:75759",
+    "I17613:313747;9845:76140;9845:75781",
+    "I17613:313747;9845:76140;9845:75782",
+    "I17613:313747;9845:76140;9845:75784",
+    "I17613:313747;9845:76140;9845:75785",
+    "17591:302687",
+    "I18907:304829;26093:350854;33124:6608",
+    "17591:302702",
+    "I18907:305759;26093:350854;33124:6608",
+    "17591:302717",
+    "I18907:306500;26093:350854;33124:6608",
+    "17591:302747",
+    "I18907:312190;26093:350854;33124:6608",
+    "17591:302762",
+    "I45256:6411;26093:350854;33124:6608",
+    "17591:302777",
+    "I45256:6412;26093:350700;33124:6608",
+    "17591:302792",
+    "I45256:6413;26093:350700;33124:6608",
+    "I18906:300181;17591:302961;18907:304829;26093:350859;32958:4332",
+    "I18906:300181;17591:302961;18907:304829;26093:350860",
+    "I18906:300186;17613:314536;18907:305759;26093:350859;32958:4332",
+    "I18906:300186;17613:314536;18907:305759;26093:350860",
+    "I18906:300191;17613:314630;18907:306500;26093:350859;32958:4332",
+    "I18906:300191;17613:314630;18907:306500;26093:350860",
+    "I18906:300196;17613:314724;18907:312190;26093:350859;32958:4332",
+    "I18906:300196;17613:314724;18907:312190;26093:350860"
+  ],
+  "phases": [
+    {
+      "key": "featuredOwn",
+      "mode": "own",
+      "found": 46,
+      "attempted": 46,
+      "mutatedNodeIds": [
+        "17591:302927",
+        "17591:336812",
+        "17591:336813",
+        "17591:336814",
+        "17591:336815",
+        "17591:336825",
+        "17591:336826",
+        "17591:336827",
+        "17591:336828",
+        "17591:336867",
+        "17591:336868",
+        "17591:336870",
+        "17591:336871",
+        "17591:336873",
+        "17591:336874",
+        "25922:350153",
+        "25922:349408",
+        "25922:343557",
+        "25922:350898",
+        "25922:351643",
+        "25922:352388",
+        "25922:353426",
+        "17613:312877",
+        "17613:312878",
+        "17613:312881",
+        "17613:314076",
+        "17613:314077",
+        "17613:314080",
+        "17613:314001",
+        "17613:314002",
+        "17613:314005",
+        "17613:313957",
+        "17613:313958",
+        "17613:313961",
+        "17613:313877",
+        "17613:313878",
+        "17613:313881",
+        "17613:313791",
+        "17613:313792",
+        "17613:313795",
+        "17613:313742",
+        "17613:313743",
+        "17613:313746",
+        "46972:4393",
+        "46972:4409",
+        "46973:4390"
+      ],
+      "applied": 46,
+      "summary": {
+        "color/background/solid/primary": 1,
+        "color/text-icon/primary": 35,
+        "color/border/contour": 7,
+        "color/text-icon/third": 3
+      },
+      "errors": []
+    },
+    {
+      "key": "featuredNested1",
+      "mode": "instance",
+      "found": 618,
+      "attempted": 618,
+      "mutatedNodeIds": [
+        "18611:299382",
+        "17595:310159",
+        "17595:310160",
+        "17595:310161",
+        "17595:310163",
+        "17595:310162",
+        "17595:314749",
+        "17595:314750",
+        "17595:314751",
+        "17595:314753",
+        "17595:314752",
+        "17613:310418",
+        "17613:310419",
+        "17613:310420",
+        "17613:310422",
+        "17613:310421",
+        "17613:310369",
+        "17613:310370",
+        "17613:310371",
+        "17613:310373",
+        "17613:310372",
+        "17613:310467",
+        "17613:310468",
+        "17613:310469",
+        "17613:310471",
+        "17613:310470",
+        "17613:310540",
+        "17613:310541",
+        "17613:310542",
+        "17613:310544",
+        "17613:310543",
+        "17613:310589",
+        "17613:310590",
+        "17613:310591",
+        "17613:310593",
+        "17613:310592",
+        "30489:156845",
+        "17613:312566",
+        "17613:312567",
+        "17613:312568",
+        "17613:312570",
+        "17613:312569",
+        "I17613:312882;9845:75959",
+        "I17613:312882;9845:75959;9845:75863",
+        "I17613:312882;9845:75959;9845:75921",
+        "I17613:312882;9845:75959;9845:75923",
+        "I17613:312882;9845:75959;9845:75924",
+        "I17613:312882;9845:75959;9845:75926",
+        "I17613:312882;9845:75959;9845:75927",
+        "30489:155557",
+        "17613:312577",
+        "17613:312578",
+        "17613:312579",
+        "17613:312581",
+        "17613:312580",
+        "I17613:314081;9845:75959",
+        "I17613:314081;9845:75959;9845:75863",
+        "I17613:314081;9845:75959;9845:75921",
+        "I17613:314081;9845:75959;9845:75923",
+        "I17613:314081;9845:75959;9845:75924",
+        "I17613:314081;9845:75959;9845:75926",
+        "I17613:314081;9845:75959;9845:75927",
+        "30489:153948",
+        "17613:312588",
+        "17613:312589",
+        "17613:312590",
+        "17613:312592",
+        "17613:312591",
+        "I17613:314006;9845:76061",
+        "I17613:314006;9845:76061;9845:75846",
+        "I17613:314006;9845:76061;9845:75902",
+        "I17613:314006;9845:76061;9845:75904",
+        "I17613:314006;9845:76061;9845:75905",
+        "I17613:314006;9845:76061;9845:75907",
+        "I17613:314006;9845:76061;9845:75908",
+        "30489:158181",
+        "17613:312599",
+        "17613:312600",
+        "17613:312601",
+        "17613:312603",
+        "17613:312602",
+        "I17613:313962;9845:76098",
+        "I17613:313962;9845:76098;9845:75878",
+        "I17613:313962;9845:76098;9845:75879",
+        "I17613:313962;9845:76098;9845:75881",
+        "I17613:313962;9845:76098;9845:75882",
+        "I17613:313962;9845:76098;9845:75884",
+        "I17613:313962;9845:76098;9845:75885",
+        "30489:159552",
+        "17613:312610",
+        "17613:312611",
+        "17613:312612",
+        "17613:312614",
+        "17613:312613",
+        "I17613:313882;9845:76098",
+        "I17613:313882;9845:76098;9845:75878",
+        "I17613:313882;9845:76098;9845:75879",
+        "I17613:313882;9845:76098;9845:75881",
+        "I17613:313882;9845:76098;9845:75882",
+        "I17613:313882;9845:76098;9845:75884",
+        "I17613:313882;9845:76098;9845:75885",
+        "30489:160888",
+        "17613:312621",
+        "17613:312622",
+        "17613:312623",
+        "17613:312625",
+        "17613:312624",
+        "I17613:313796;9845:76140",
+        "I17613:313796;9845:76140;9845:75758",
+        "I17613:313796;9845:76140;9845:75759",
+        "I17613:313796;9845:76140;9845:75781",
+        "I17613:313796;9845:76140;9845:75782",
+        "I17613:313796;9845:76140;9845:75784",
+        "I17613:313796;9845:76140;9845:75785",
+        "30489:162631",
+        "17613:312632",
+        "17613:312633",
+        "17613:312634",
+        "17613:312636",
+        "17613:312635",
+        "I17613:313747;9845:76140",
+        "I17613:313747;9845:76140;9845:75758",
+        "I17613:313747;9845:76140;9845:75759",
+        "I17613:313747;9845:76140;9845:75781",
+        "I17613:313747;9845:76140;9845:75782",
+        "I17613:313747;9845:76140;9845:75784",
+        "I17613:313747;9845:76140;9845:75785",
+        "17591:302687",
+        "I18907:304829;26093:350854;33124:6608",
+        "17591:302702",
+        "I18907:305759;26093:350854;33124:6608",
+        "17591:302717",
+        "I18907:306500;26093:350854;33124:6608",
+        "17591:302747",
+        "I18907:312190;26093:350854;33124:6608",
+        "17591:302762",
+        "I45256:6411;26093:350854;33124:6608",
+        "17591:302777",
+        "I45256:6412;26093:350700;33124:6608",
+        "17591:302792",
+        "I45256:6413;26093:350700;33124:6608",
+        "I18906:300181;17591:302961;18907:304829;26093:350859;32958:4332",
+        "I18906:300181;17591:302961;18907:304829;26093:350860",
+        "I18906:300186;17613:314536;18907:305759;26093:350859;32958:4332",
+        "I18906:300186;17613:314536;18907:305759;26093:350860",
+        "I18906:300191;17613:314630;18907:306500;26093:350859;32958:4332",
+        "I18906:300191;17613:314630;18907:306500;26093:350860",
+        "I18906:300196;17613:314724;18907:312190;26093:350859;32958:4332",
+        "I18906:300196;17613:314724;18907:312190;26093:350860"
+      ],
+      "applied": 149,
+      "summary": {
+        "color/fill/solid/positive": 15,
+        "color/fill/solid/live": 14,
+        "color/background/glassy/secondary": 14,
+        "color/component/label/continuum": 14,
+        "color/fill/glassy/secondary": 21,
+        "color/fill/solid/third": 7,
+        "color/text-icon/third": 21,
+        "color/text-icon/primary": 28,
+        "color/background/solid/primary": 7,
+        "color/text-icon/inverse/primary": 4,
+        "color/text-icon/inverse/secondary": 4
+      },
+      "errors": []
+    }
+  ],
+  "finalAudits": [
+    {
+      "staticResult": {
+        "found": 0,
+        "mutatedNodeIds": [],
+        "recordCount": 0,
+        "errors": [],
+        "unsupportedCount": 0,
+        "unsupported": [],
+        "skipped": [],
+        "rawCount": 0
+      },
+      "page": "Featured",
+      "nodeCount": 486,
+      "sources": [
+        {
+          "id": "S:ac16386563414ce63f5d1ca74524cba4951046df,32110:27",
+          "name": "[Deprecated]/Background/Solid/Kids",
+          "key": "ac16386563414ce63f5d1ca74524cba4951046df",
+          "count": 1,
+          "buckets": {
+            "light": 1
+          },
+          "example": {
+            "id": "17591:302929",
+            "name": "theme=Light",
+            "field": "fills",
+            "master": "17591:302929",
+            "masterName": "theme=Light",
+            "light": true
+          }
+        },
+        {
+          "id": "S:86ed5589a7317e9b68733fe56f0624abb2d72263,39850:3",
+          "name": "[Deprecated]/Brand/Okko/AdditionalB",
+          "key": "86ed5589a7317e9b68733fe56f0624abb2d72263",
+          "count": 8,
+          "buckets": {
+            "light": 8
+          },
+          "example": {
+            "id": "I17595:311336;17595:310164",
+            "name": "Label - Large",
+            "field": "fills",
+            "master": "17591:302673",
+            "masterName": "breakpoint=1920",
+            "instance": "I17595:311336;17595:310164",
+            "light": true
+          }
+        },
+        {
+          "id": "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3",
+          "name": "[Deprecated]/Text & icon/on Dark/Primary",
+          "key": "8d1e4095c97d6f8de9740c869fae2aa91b41bd6d",
+          "count": 8,
+          "buckets": {
+            "light": 8
+          },
+          "example": {
+            "id": "I17595:311336;17595:310164;16627:178792",
+            "name": "text",
+            "field": "fills",
+            "master": "17591:302673",
+            "masterName": "breakpoint=1920",
+            "instance": "I17595:311336;17595:310164",
+            "light": true
+          }
+        }
+      ],
+      "remainingRows": [],
+      "reasons": {
+        "kids": 0,
+        "light": 17,
+        "outside": 0,
+        "eligible": 0
+      },
+      "remainingCount": 17,
+      "unresolved": [],
+      "variableDetails": [
+        {
+          "kind": "variable",
+          "id": "VariableID:f726b5e6a18952670ca687b36d8d05bf2bd82bce/39850:96",
+          "count": 8,
+          "buckets": {
+            "light": 8
+          },
+          "examples": [
+            {
+              "id": "I17595:311336;17595:310164",
+              "name": "Label - Large",
+              "field": "fills",
+              "master": "17591:302673",
+              "masterName": "breakpoint=1920",
+              "instance": "I17595:311336;17595:310164",
+              "light": true,
+              "i": 0
+            },
+            {
+              "id": "I17595:311337;17595:314754",
+              "name": "Label - Large",
+              "field": "fills",
+              "master": "17591:302688",
+              "masterName": "breakpoint=1720",
+              "instance": "I17595:311337;17595:314754",
+              "light": true,
+              "i": 0
+            }
+          ],
+          "name": "primitives/electric1100",
+          "key": "f726b5e6a18952670ca687b36d8d05bf2bd82bce",
+          "collection": "VariableCollectionId:9bfe8dde6e700cc0754156917935eea46ac309ee/32016:4307"
+        }
+      ],
+      "noncanonicalColorStyles": [],
+      "mixed": [],
+      "errors": []
+    },
+    {
+      "staticResult": {
+        "found": 0,
+        "mutatedNodeIds": [],
+        "recordCount": 0,
+        "errors": [],
+        "unsupportedCount": 0,
+        "unsupported": [],
+        "skipped": [],
+        "rawCount": 0
+      },
+      "page": "Featured",
+      "nodeCount": 2518,
+      "sources": [
+        {
+          "id": "S:86ed5589a7317e9b68733fe56f0624abb2d72263,39850:3",
+          "name": "[Deprecated]/Brand/Okko/AdditionalB",
+          "key": "86ed5589a7317e9b68733fe56f0624abb2d72263",
+          "count": 40,
+          "buckets": {
+            "light": 40
+          },
+          "example": {
+            "id": "25925:345047",
+            "name": "Label - Large",
+            "field": "fills",
+            "master": "25925:345040",
+            "masterName": "type=Movie trailer, breakpoint=1920",
+            "instance": "25925:345047",
+            "light": true
+          }
+        },
+        {
+          "id": "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3",
+          "name": "[Deprecated]/Text & icon/on Dark/Primary",
+          "key": "8d1e4095c97d6f8de9740c869fae2aa91b41bd6d",
+          "count": 40,
+          "buckets": {
+            "light": 40
+          },
+          "example": {
+            "id": "I25925:345047;16627:178792",
+            "name": "text",
+            "field": "fills",
+            "master": "25925:345040",
+            "masterName": "type=Movie trailer, breakpoint=1920",
+            "instance": "25925:345047",
+            "light": true
+          }
+        },
+        {
+          "id": "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "name": "Color/fill/solid/hover-focus/Third",
+          "key": "7190d7e2c06681786a2e62457fbad4e50931c325",
+          "count": 14,
+          "buckets": {
+            "instance": 14
+          },
+          "example": {
+            "id": "I17613:323321;17595:311336;17613:312882;30392:2057;24384:3936",
+            "name": "Vector",
+            "field": "region0",
+            "master": "17613:323320",
+            "masterName": "breakpoint=1920, type=Sport",
+            "instance": "I17613:323321;17595:311336;17613:312882;30392:2057"
+          }
+        },
+        {
+          "id": "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+          "name": "Fill/Solid/Primary",
+          "key": "974f85fc28b4a77fb28ea56ae2aba7dbc10a9905",
+          "count": 7,
+          "buckets": {
+            "instance": 7
+          },
+          "example": {
+            "id": "I17613:323321;17595:311336;17613:312882;30392:2057;24384:3936",
+            "name": "Vector",
+            "field": "region2",
+            "master": "17613:323320",
+            "masterName": "breakpoint=1920, type=Sport",
+            "instance": "I17613:323321;17595:311336;17613:312882;30392:2057"
+          }
+        }
+      ],
+      "remainingRows": [
+        [
+          "I17613:323321;17595:311336;17613:312882;30392:2057;24384:3936",
+          "region0",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:323320",
+          "I17613:323321;17595:311336;17613:312882;30392:2057",
+          0,
+          0
+        ],
+        [
+          "I17613:323321;17595:311336;17613:312882;30392:2057;24384:3936",
+          "region1",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:323320",
+          "I17613:323321;17595:311336;17613:312882;30392:2057",
+          0,
+          0
+        ],
+        [
+          "I17613:323321;17595:311336;17613:312882;30392:2057;24384:3936",
+          "region2",
+          "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+          "17613:323320",
+          "I17613:323321;17595:311336;17613:312882;30392:2057",
+          0,
+          0
+        ],
+        [
+          "I17613:323323;17595:311337;17613:314081;30392:2057;24384:3936",
+          "region0",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:323322",
+          "I17613:323323;17595:311337;17613:314081;30392:2057",
+          0,
+          0
+        ],
+        [
+          "I17613:323323;17595:311337;17613:314081;30392:2057;24384:3936",
+          "region1",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:323322",
+          "I17613:323323;17595:311337;17613:314081;30392:2057",
+          0,
+          0
+        ],
+        [
+          "I17613:323323;17595:311337;17613:314081;30392:2057;24384:3936",
+          "region2",
+          "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+          "17613:323322",
+          "I17613:323323;17595:311337;17613:314081;30392:2057",
+          0,
+          0
+        ],
+        [
+          "I17613:323325;17595:311338;17613:314006;30392:2057;24384:3936",
+          "region0",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:323324",
+          "I17613:323325;17595:311338;17613:314006;30392:2057",
+          0,
+          0
+        ],
+        [
+          "I17613:323325;17595:311338;17613:314006;30392:2057;24384:3936",
+          "region1",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:323324",
+          "I17613:323325;17595:311338;17613:314006;30392:2057",
+          0,
+          0
+        ],
+        [
+          "I17613:323325;17595:311338;17613:314006;30392:2057;24384:3936",
+          "region2",
+          "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+          "17613:323324",
+          "I17613:323325;17595:311338;17613:314006;30392:2057",
+          0,
+          0
+        ],
+        [
+          "I17613:323327;17595:311341;17613:313962;30392:1971;24384:3936",
+          "region0",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:323326",
+          "I17613:323327;17595:311341;17613:313962;30392:1971",
+          0,
+          0
+        ],
+        [
+          "I17613:323327;17595:311341;17613:313962;30392:1971;24384:3936",
+          "region1",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:323326",
+          "I17613:323327;17595:311341;17613:313962;30392:1971",
+          0,
+          0
+        ],
+        [
+          "I17613:323327;17595:311341;17613:313962;30392:1971;24384:3936",
+          "region2",
+          "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+          "17613:323326",
+          "I17613:323327;17595:311341;17613:313962;30392:1971",
+          0,
+          0
+        ],
+        [
+          "I17613:323329;17595:311342;17613:313882;30392:1971;24384:3936",
+          "region0",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:323328",
+          "I17613:323329;17595:311342;17613:313882;30392:1971",
+          0,
+          0
+        ],
+        [
+          "I17613:323329;17595:311342;17613:313882;30392:1971;24384:3936",
+          "region1",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:323328",
+          "I17613:323329;17595:311342;17613:313882;30392:1971",
+          0,
+          0
+        ],
+        [
+          "I17613:323329;17595:311342;17613:313882;30392:1971;24384:3936",
+          "region2",
+          "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+          "17613:323328",
+          "I17613:323329;17595:311342;17613:313882;30392:1971",
+          0,
+          0
+        ],
+        [
+          "I17613:323331;17595:311339;17613:313796;30392:1753;24384:3936",
+          "region0",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:323330",
+          "I17613:323331;17595:311339;17613:313796;30392:1753",
+          0,
+          0
+        ],
+        [
+          "I17613:323331;17595:311339;17613:313796;30392:1753;24384:3936",
+          "region1",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:323330",
+          "I17613:323331;17595:311339;17613:313796;30392:1753",
+          0,
+          0
+        ],
+        [
+          "I17613:323331;17595:311339;17613:313796;30392:1753;24384:3936",
+          "region2",
+          "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+          "17613:323330",
+          "I17613:323331;17595:311339;17613:313796;30392:1753",
+          0,
+          0
+        ],
+        [
+          "I17613:323333;17595:311343;17613:313747;30392:1753;24384:3936",
+          "region0",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:323332",
+          "I17613:323333;17595:311343;17613:313747;30392:1753",
+          0,
+          0
+        ],
+        [
+          "I17613:323333;17595:311343;17613:313747;30392:1753;24384:3936",
+          "region1",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:323332",
+          "I17613:323333;17595:311343;17613:313747;30392:1753",
+          0,
+          0
+        ],
+        [
+          "I17613:323333;17595:311343;17613:313747;30392:1753;24384:3936",
+          "region2",
+          "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+          "17613:323332",
+          "I17613:323333;17595:311343;17613:313747;30392:1753",
+          0,
+          0
+        ]
+      ],
+      "reasons": {
+        "kids": 0,
+        "light": 80,
+        "outside": 0,
+        "eligible": 21
+      },
+      "remainingCount": 101,
+      "unresolved": [],
+      "variableDetails": [
+        {
+          "kind": "variable",
+          "id": "VariableID:f726b5e6a18952670ca687b36d8d05bf2bd82bce/39850:96",
+          "count": 40,
+          "buckets": {
+            "light": 40
+          },
+          "examples": [
+            {
+              "id": "25925:345047",
+              "name": "Label - Large",
+              "field": "fills",
+              "master": "25925:345040",
+              "masterName": "type=Movie trailer, breakpoint=1920",
+              "instance": "25925:345047",
+              "light": true,
+              "i": 0
+            },
+            {
+              "id": "17595:314754",
+              "name": "Label - Large",
+              "field": "fills",
+              "master": "17595:314747",
+              "masterName": "type=Movie, breakpoint=1720",
+              "instance": "17595:314754",
+              "light": true,
+              "i": 0
+            }
+          ],
+          "name": "primitives/electric1100",
+          "key": "f726b5e6a18952670ca687b36d8d05bf2bd82bce",
+          "collection": "VariableCollectionId:9bfe8dde6e700cc0754156917935eea46ac309ee/32016:4307"
+        }
+      ],
+      "noncanonicalColorStyles": [
+        {
+          "name": "Color/fill/solid/hover-focus/Third",
+          "key": "7190d7e2c06681786a2e62457fbad4e50931c325",
+          "count": 14,
+          "buckets": {
+            "instance": 14
+          }
+        }
+      ],
+      "mixed": [],
+      "errors": []
+    },
+    {
+      "staticResult": {
+        "found": 0,
+        "mutatedNodeIds": [],
+        "recordCount": 0,
+        "errors": [],
+        "unsupportedCount": 0,
+        "unsupported": [],
+        "skipped": [],
+        "rawCount": 0
+      },
+      "page": "Featured",
+      "nodeCount": 3979,
+      "sources": [
+        {
+          "id": "S:86ed5589a7317e9b68733fe56f0624abb2d72263,39850:3",
+          "name": "[Deprecated]/Brand/Okko/AdditionalB",
+          "key": "86ed5589a7317e9b68733fe56f0624abb2d72263",
+          "count": 57,
+          "buckets": {
+            "light": 57
+          },
+          "example": {
+            "id": "I17591:303160;17613:314630;17595:311338;17613:310423",
+            "name": "Label - Large",
+            "field": "fills",
+            "master": "17591:303156",
+            "masterName": "breakpoint=1440, theme=Dark",
+            "instance": "I17591:303160;17613:314630;17595:311338;17613:310423",
+            "light": true
+          }
+        },
+        {
+          "id": "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3",
+          "name": "[Deprecated]/Text & icon/on Dark/Primary",
+          "key": "8d1e4095c97d6f8de9740c869fae2aa91b41bd6d",
+          "count": 57,
+          "buckets": {
+            "light": 57
+          },
+          "example": {
+            "id": "I17591:303160;17613:314630;17595:311338;17613:310423;16627:178795",
+            "name": "text",
+            "field": "fills",
+            "master": "17591:303156",
+            "masterName": "breakpoint=1440, theme=Dark",
+            "instance": "I17591:303160;17613:314630;17595:311338;17613:310423",
+            "light": true
+          }
+        },
+        {
+          "id": "S:231dd10ff9b5eb39c8b5a3bbd64439a1639af2ec,32110:132",
+          "name": "[Deprecated]/Fill/Solid/On Light/Third",
+          "key": "231dd10ff9b5eb39c8b5a3bbd64439a1639af2ec",
+          "count": 4,
+          "buckets": {
+            "light": 4
+          },
+          "example": {
+            "id": "I18906:300181;17591:302961;18907:304829;26093:350858",
+            "name": "circle",
+            "field": "fills",
+            "master": "18906:300178",
+            "masterName": "breakpoint=1920, theme=Light",
+            "light": true,
+            "instance": "I18906:300181;17591:302961;18907:304829"
+          }
+        },
+        {
+          "id": "S:1082d45b02cee1ebf04885f304cfa0cae2c2bbc3,32110:6",
+          "name": "[Deprecated]/Border/Glassy",
+          "key": "1082d45b02cee1ebf04885f304cfa0cae2c2bbc3",
+          "count": 4,
+          "buckets": {
+            "light": 4
+          },
+          "example": {
+            "id": "I18906:300181;17591:302961;18907:304829;26093:350858",
+            "name": "circle",
+            "field": "strokes",
+            "master": "18906:300178",
+            "masterName": "breakpoint=1920, theme=Light",
+            "light": true,
+            "instance": "I18906:300181;17591:302961;18907:304829"
+          }
+        },
+        {
+          "id": "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "name": "Color/fill/solid/hover-focus/Third",
+          "key": "7190d7e2c06681786a2e62457fbad4e50931c325",
+          "count": 42,
+          "buckets": {
+            "instance": 42
+          },
+          "example": {
+            "id": "I17613:326950;17613:323321;17595:311336;17613:312882;30392:2057;24384:3936",
+            "name": "Vector",
+            "field": "region0",
+            "master": "17613:326948",
+            "masterName": "breakpoint=1920",
+            "instance": "I17613:326950;17613:323321;17595:311336;17613:312882;30392:2057"
+          }
+        },
+        {
+          "id": "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+          "name": "Fill/Solid/Primary",
+          "key": "974f85fc28b4a77fb28ea56ae2aba7dbc10a9905",
+          "count": 21,
+          "buckets": {
+            "instance": 21
+          },
+          "example": {
+            "id": "I17613:326950;17613:323321;17595:311336;17613:312882;30392:2057;24384:3936",
+            "name": "Vector",
+            "field": "region2",
+            "master": "17613:326948",
+            "masterName": "breakpoint=1920",
+            "instance": "I17613:326950;17613:323321;17595:311336;17613:312882;30392:2057"
+          }
+        }
+      ],
+      "remainingRows": [
+        [
+          "I17613:326950;17613:323321;17595:311336;17613:312882;30392:2057;24384:3936",
+          "region0",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:326948",
+          "I17613:326950;17613:323321;17595:311336;17613:312882;30392:2057",
+          0,
+          0
+        ],
+        [
+          "I17613:326950;17613:323321;17595:311336;17613:312882;30392:2057;24384:3936",
+          "region1",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:326948",
+          "I17613:326950;17613:323321;17595:311336;17613:312882;30392:2057",
+          0,
+          0
+        ],
+        [
+          "I17613:326950;17613:323321;17595:311336;17613:312882;30392:2057;24384:3936",
+          "region2",
+          "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+          "17613:326948",
+          "I17613:326950;17613:323321;17595:311336;17613:312882;30392:2057",
+          0,
+          0
+        ],
+        [
+          "I17613:326951;17613:323321;17595:311336;17613:312882;30392:2057;24384:3936",
+          "region0",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:326948",
+          "I17613:326951;17613:323321;17595:311336;17613:312882;30392:2057",
+          0,
+          0
+        ],
+        [
+          "I17613:326951;17613:323321;17595:311336;17613:312882;30392:2057;24384:3936",
+          "region1",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:326948",
+          "I17613:326951;17613:323321;17595:311336;17613:312882;30392:2057",
+          0,
+          0
+        ],
+        [
+          "I17613:326951;17613:323321;17595:311336;17613:312882;30392:2057;24384:3936",
+          "region2",
+          "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+          "17613:326948",
+          "I17613:326951;17613:323321;17595:311336;17613:312882;30392:2057",
+          0,
+          0
+        ],
+        [
+          "I17613:326952;17613:323321;17595:311336;17613:312882;30392:2057;24384:3936",
+          "region0",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:326948",
+          "I17613:326952;17613:323321;17595:311336;17613:312882;30392:2057",
+          0,
+          0
+        ],
+        [
+          "I17613:326952;17613:323321;17595:311336;17613:312882;30392:2057;24384:3936",
+          "region1",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:326948",
+          "I17613:326952;17613:323321;17595:311336;17613:312882;30392:2057",
+          0,
+          0
+        ],
+        [
+          "I17613:326952;17613:323321;17595:311336;17613:312882;30392:2057;24384:3936",
+          "region2",
+          "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+          "17613:326948",
+          "I17613:326952;17613:323321;17595:311336;17613:312882;30392:2057",
+          0,
+          0
+        ],
+        [
+          "I17613:326955;17613:323323;17595:311337;17613:314081;30392:2057;24384:3936",
+          "region0",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:326953",
+          "I17613:326955;17613:323323;17595:311337;17613:314081;30392:2057",
+          0,
+          0
+        ],
+        [
+          "I17613:326955;17613:323323;17595:311337;17613:314081;30392:2057;24384:3936",
+          "region1",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:326953",
+          "I17613:326955;17613:323323;17595:311337;17613:314081;30392:2057",
+          0,
+          0
+        ],
+        [
+          "I17613:326955;17613:323323;17595:311337;17613:314081;30392:2057;24384:3936",
+          "region2",
+          "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+          "17613:326953",
+          "I17613:326955;17613:323323;17595:311337;17613:314081;30392:2057",
+          0,
+          0
+        ],
+        [
+          "I17613:326956;17613:323323;17595:311337;17613:314081;30392:2057;24384:3936",
+          "region0",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:326953",
+          "I17613:326956;17613:323323;17595:311337;17613:314081;30392:2057",
+          0,
+          0
+        ],
+        [
+          "I17613:326956;17613:323323;17595:311337;17613:314081;30392:2057;24384:3936",
+          "region1",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:326953",
+          "I17613:326956;17613:323323;17595:311337;17613:314081;30392:2057",
+          0,
+          0
+        ],
+        [
+          "I17613:326956;17613:323323;17595:311337;17613:314081;30392:2057;24384:3936",
+          "region2",
+          "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+          "17613:326953",
+          "I17613:326956;17613:323323;17595:311337;17613:314081;30392:2057",
+          0,
+          0
+        ],
+        [
+          "I17613:326957;17613:323323;17595:311337;17613:314081;30392:2057;24384:3936",
+          "region0",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:326953",
+          "I17613:326957;17613:323323;17595:311337;17613:314081;30392:2057",
+          0,
+          0
+        ],
+        [
+          "I17613:326957;17613:323323;17595:311337;17613:314081;30392:2057;24384:3936",
+          "region1",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:326953",
+          "I17613:326957;17613:323323;17595:311337;17613:314081;30392:2057",
+          0,
+          0
+        ],
+        [
+          "I17613:326957;17613:323323;17595:311337;17613:314081;30392:2057;24384:3936",
+          "region2",
+          "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+          "17613:326953",
+          "I17613:326957;17613:323323;17595:311337;17613:314081;30392:2057",
+          0,
+          0
+        ],
+        [
+          "I17613:326960;17613:323325;17595:311338;17613:314006;30392:2057;24384:3936",
+          "region0",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:326958",
+          "I17613:326960;17613:323325;17595:311338;17613:314006;30392:2057",
+          0,
+          0
+        ],
+        [
+          "I17613:326960;17613:323325;17595:311338;17613:314006;30392:2057;24384:3936",
+          "region1",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:326958",
+          "I17613:326960;17613:323325;17595:311338;17613:314006;30392:2057",
+          0,
+          0
+        ],
+        [
+          "I17613:326960;17613:323325;17595:311338;17613:314006;30392:2057;24384:3936",
+          "region2",
+          "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+          "17613:326958",
+          "I17613:326960;17613:323325;17595:311338;17613:314006;30392:2057",
+          0,
+          0
+        ],
+        [
+          "I17613:326961;17613:323325;17595:311338;17613:314006;30392:2057;24384:3936",
+          "region0",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:326958",
+          "I17613:326961;17613:323325;17595:311338;17613:314006;30392:2057",
+          0,
+          0
+        ],
+        [
+          "I17613:326961;17613:323325;17595:311338;17613:314006;30392:2057;24384:3936",
+          "region1",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:326958",
+          "I17613:326961;17613:323325;17595:311338;17613:314006;30392:2057",
+          0,
+          0
+        ],
+        [
+          "I17613:326961;17613:323325;17595:311338;17613:314006;30392:2057;24384:3936",
+          "region2",
+          "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+          "17613:326958",
+          "I17613:326961;17613:323325;17595:311338;17613:314006;30392:2057",
+          0,
+          0
+        ],
+        [
+          "I17613:326962;17613:323325;17595:311338;17613:314006;30392:2057;24384:3936",
+          "region0",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:326958",
+          "I17613:326962;17613:323325;17595:311338;17613:314006;30392:2057",
+          0,
+          0
+        ],
+        [
+          "I17613:326962;17613:323325;17595:311338;17613:314006;30392:2057;24384:3936",
+          "region1",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:326958",
+          "I17613:326962;17613:323325;17595:311338;17613:314006;30392:2057",
+          0,
+          0
+        ],
+        [
+          "I17613:326962;17613:323325;17595:311338;17613:314006;30392:2057;24384:3936",
+          "region2",
+          "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+          "17613:326958",
+          "I17613:326962;17613:323325;17595:311338;17613:314006;30392:2057",
+          0,
+          0
+        ],
+        [
+          "I17613:326965;17613:323327;17595:311341;17613:313962;30392:1971;24384:3936",
+          "region0",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:326963",
+          "I17613:326965;17613:323327;17595:311341;17613:313962;30392:1971",
+          0,
+          0
+        ],
+        [
+          "I17613:326965;17613:323327;17595:311341;17613:313962;30392:1971;24384:3936",
+          "region1",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:326963",
+          "I17613:326965;17613:323327;17595:311341;17613:313962;30392:1971",
+          0,
+          0
+        ],
+        [
+          "I17613:326965;17613:323327;17595:311341;17613:313962;30392:1971;24384:3936",
+          "region2",
+          "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+          "17613:326963",
+          "I17613:326965;17613:323327;17595:311341;17613:313962;30392:1971",
+          0,
+          0
+        ],
+        [
+          "I17613:326966;17613:323327;17595:311341;17613:313962;30392:1971;24384:3936",
+          "region0",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:326963",
+          "I17613:326966;17613:323327;17595:311341;17613:313962;30392:1971",
+          0,
+          0
+        ],
+        [
+          "I17613:326966;17613:323327;17595:311341;17613:313962;30392:1971;24384:3936",
+          "region1",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:326963",
+          "I17613:326966;17613:323327;17595:311341;17613:313962;30392:1971",
+          0,
+          0
+        ],
+        [
+          "I17613:326966;17613:323327;17595:311341;17613:313962;30392:1971;24384:3936",
+          "region2",
+          "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+          "17613:326963",
+          "I17613:326966;17613:323327;17595:311341;17613:313962;30392:1971",
+          0,
+          0
+        ],
+        [
+          "I17613:326967;17613:323327;17595:311341;17613:313962;30392:1971;24384:3936",
+          "region0",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:326963",
+          "I17613:326967;17613:323327;17595:311341;17613:313962;30392:1971",
+          0,
+          0
+        ],
+        [
+          "I17613:326967;17613:323327;17595:311341;17613:313962;30392:1971;24384:3936",
+          "region1",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:326963",
+          "I17613:326967;17613:323327;17595:311341;17613:313962;30392:1971",
+          0,
+          0
+        ],
+        [
+          "I17613:326967;17613:323327;17595:311341;17613:313962;30392:1971;24384:3936",
+          "region2",
+          "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+          "17613:326963",
+          "I17613:326967;17613:323327;17595:311341;17613:313962;30392:1971",
+          0,
+          0
+        ],
+        [
+          "I17613:326970;17613:323329;17595:311342;17613:313882;30392:1971;24384:3936",
+          "region0",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:326968",
+          "I17613:326970;17613:323329;17595:311342;17613:313882;30392:1971",
+          0,
+          0
+        ],
+        [
+          "I17613:326970;17613:323329;17595:311342;17613:313882;30392:1971;24384:3936",
+          "region1",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:326968",
+          "I17613:326970;17613:323329;17595:311342;17613:313882;30392:1971",
+          0,
+          0
+        ],
+        [
+          "I17613:326970;17613:323329;17595:311342;17613:313882;30392:1971;24384:3936",
+          "region2",
+          "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+          "17613:326968",
+          "I17613:326970;17613:323329;17595:311342;17613:313882;30392:1971",
+          0,
+          0
+        ],
+        [
+          "I17613:326971;17613:323329;17595:311342;17613:313882;30392:1971;24384:3936",
+          "region0",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:326968",
+          "I17613:326971;17613:323329;17595:311342;17613:313882;30392:1971",
+          0,
+          0
+        ],
+        [
+          "I17613:326971;17613:323329;17595:311342;17613:313882;30392:1971;24384:3936",
+          "region1",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:326968",
+          "I17613:326971;17613:323329;17595:311342;17613:313882;30392:1971",
+          0,
+          0
+        ],
+        [
+          "I17613:326971;17613:323329;17595:311342;17613:313882;30392:1971;24384:3936",
+          "region2",
+          "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+          "17613:326968",
+          "I17613:326971;17613:323329;17595:311342;17613:313882;30392:1971",
+          0,
+          0
+        ],
+        [
+          "I17613:326972;17613:323329;17595:311342;17613:313882;30392:1971;24384:3936",
+          "region0",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:326968",
+          "I17613:326972;17613:323329;17595:311342;17613:313882;30392:1971",
+          0,
+          0
+        ],
+        [
+          "I17613:326972;17613:323329;17595:311342;17613:313882;30392:1971;24384:3936",
+          "region1",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:326968",
+          "I17613:326972;17613:323329;17595:311342;17613:313882;30392:1971",
+          0,
+          0
+        ],
+        [
+          "I17613:326972;17613:323329;17595:311342;17613:313882;30392:1971;24384:3936",
+          "region2",
+          "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+          "17613:326968",
+          "I17613:326972;17613:323329;17595:311342;17613:313882;30392:1971",
+          0,
+          0
+        ],
+        [
+          "I17613:326975;17613:323331;17595:311339;17613:313796;30392:1753;24384:3936",
+          "region0",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:326973",
+          "I17613:326975;17613:323331;17595:311339;17613:313796;30392:1753",
+          0,
+          0
+        ],
+        [
+          "I17613:326975;17613:323331;17595:311339;17613:313796;30392:1753;24384:3936",
+          "region1",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:326973",
+          "I17613:326975;17613:323331;17595:311339;17613:313796;30392:1753",
+          0,
+          0
+        ],
+        [
+          "I17613:326975;17613:323331;17595:311339;17613:313796;30392:1753;24384:3936",
+          "region2",
+          "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+          "17613:326973",
+          "I17613:326975;17613:323331;17595:311339;17613:313796;30392:1753",
+          0,
+          0
+        ],
+        [
+          "I17613:326976;17613:323331;17595:311339;17613:313796;30392:1753;24384:3936",
+          "region0",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:326973",
+          "I17613:326976;17613:323331;17595:311339;17613:313796;30392:1753",
+          0,
+          0
+        ],
+        [
+          "I17613:326976;17613:323331;17595:311339;17613:313796;30392:1753;24384:3936",
+          "region1",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:326973",
+          "I17613:326976;17613:323331;17595:311339;17613:313796;30392:1753",
+          0,
+          0
+        ],
+        [
+          "I17613:326976;17613:323331;17595:311339;17613:313796;30392:1753;24384:3936",
+          "region2",
+          "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+          "17613:326973",
+          "I17613:326976;17613:323331;17595:311339;17613:313796;30392:1753",
+          0,
+          0
+        ],
+        [
+          "I17613:326977;17613:323331;17595:311339;17613:313796;30392:1753;24384:3936",
+          "region0",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:326973",
+          "I17613:326977;17613:323331;17595:311339;17613:313796;30392:1753",
+          0,
+          0
+        ],
+        [
+          "I17613:326977;17613:323331;17595:311339;17613:313796;30392:1753;24384:3936",
+          "region1",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:326973",
+          "I17613:326977;17613:323331;17595:311339;17613:313796;30392:1753",
+          0,
+          0
+        ],
+        [
+          "I17613:326977;17613:323331;17595:311339;17613:313796;30392:1753;24384:3936",
+          "region2",
+          "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+          "17613:326973",
+          "I17613:326977;17613:323331;17595:311339;17613:313796;30392:1753",
+          0,
+          0
+        ],
+        [
+          "I17613:326980;17613:323333;17595:311343;17613:313747;30392:1753;24384:3936",
+          "region0",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:326978",
+          "I17613:326980;17613:323333;17595:311343;17613:313747;30392:1753",
+          0,
+          0
+        ],
+        [
+          "I17613:326980;17613:323333;17595:311343;17613:313747;30392:1753;24384:3936",
+          "region1",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:326978",
+          "I17613:326980;17613:323333;17595:311343;17613:313747;30392:1753",
+          0,
+          0
+        ],
+        [
+          "I17613:326980;17613:323333;17595:311343;17613:313747;30392:1753;24384:3936",
+          "region2",
+          "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+          "17613:326978",
+          "I17613:326980;17613:323333;17595:311343;17613:313747;30392:1753",
+          0,
+          0
+        ],
+        [
+          "I17613:326981;17613:323333;17595:311343;17613:313747;30392:1753;24384:3936",
+          "region0",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:326978",
+          "I17613:326981;17613:323333;17595:311343;17613:313747;30392:1753",
+          0,
+          0
+        ],
+        [
+          "I17613:326981;17613:323333;17595:311343;17613:313747;30392:1753;24384:3936",
+          "region1",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:326978",
+          "I17613:326981;17613:323333;17595:311343;17613:313747;30392:1753",
+          0,
+          0
+        ],
+        [
+          "I17613:326981;17613:323333;17595:311343;17613:313747;30392:1753;24384:3936",
+          "region2",
+          "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+          "17613:326978",
+          "I17613:326981;17613:323333;17595:311343;17613:313747;30392:1753",
+          0,
+          0
+        ],
+        [
+          "I17613:326982;17613:323333;17595:311343;17613:313747;30392:1753;24384:3936",
+          "region0",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:326978",
+          "I17613:326982;17613:323333;17595:311343;17613:313747;30392:1753",
+          0,
+          0
+        ],
+        [
+          "I17613:326982;17613:323333;17595:311343;17613:313747;30392:1753;24384:3936",
+          "region1",
+          "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+          "17613:326978",
+          "I17613:326982;17613:323333;17595:311343;17613:313747;30392:1753",
+          0,
+          0
+        ],
+        [
+          "I17613:326982;17613:323333;17595:311343;17613:313747;30392:1753;24384:3936",
+          "region2",
+          "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+          "17613:326978",
+          "I17613:326982;17613:323333;17595:311343;17613:313747;30392:1753",
+          0,
+          0
+        ]
+      ],
+      "reasons": {
+        "kids": 0,
+        "light": 122,
+        "outside": 0,
+        "eligible": 63
+      },
+      "remainingCount": 185,
+      "unresolved": [],
+      "variableDetails": [
+        {
+          "kind": "variable",
+          "id": "VariableID:f726b5e6a18952670ca687b36d8d05bf2bd82bce/39850:96",
+          "count": 57,
+          "buckets": {
+            "light": 57
+          },
+          "examples": [
+            {
+              "id": "I17591:303160;17613:314630;17595:311338;17613:310423",
+              "name": "Label - Large",
+              "field": "fills",
+              "master": "17591:303156",
+              "masterName": "breakpoint=1440, theme=Dark",
+              "instance": "I17591:303160;17613:314630;17595:311338;17613:310423",
+              "light": true,
+              "i": 0
+            },
+            {
+              "id": "I17591:303161;17613:314630;17595:311338;17613:310423",
+              "name": "Label - Large",
+              "field": "fills",
+              "master": "17591:303156",
+              "masterName": "breakpoint=1440, theme=Dark",
+              "instance": "I17591:303161;17613:314630;17595:311338;17613:310423",
+              "light": true,
+              "i": 0
+            }
+          ],
+          "name": "primitives/electric1100",
+          "key": "f726b5e6a18952670ca687b36d8d05bf2bd82bce",
+          "collection": "VariableCollectionId:9bfe8dde6e700cc0754156917935eea46ac309ee/32016:4307"
+        }
+      ],
+      "noncanonicalColorStyles": [
+        {
+          "name": "Color/fill/solid/hover-focus/Third",
+          "key": "7190d7e2c06681786a2e62457fbad4e50931c325",
+          "count": 42,
+          "buckets": {
+            "instance": 42
+          }
+        }
+      ],
+      "mixed": [],
+      "errors": []
+    },
+    {
+      "staticResult": {
+        "found": 0,
+        "mutatedNodeIds": [],
+        "recordCount": 0,
+        "errors": [],
+        "unsupportedCount": 0,
+        "unsupported": [],
+        "skipped": [],
+        "rawCount": 0
+      },
+      "page": "Featured",
+      "nodeCount": 966,
+      "sources": [
+        {
+          "id": "S:86ed5589a7317e9b68733fe56f0624abb2d72263,39850:3",
+          "name": "[Deprecated]/Brand/Okko/AdditionalB",
+          "key": "86ed5589a7317e9b68733fe56f0624abb2d72263",
+          "count": 8,
+          "buckets": {
+            "light": 8
+          },
+          "example": {
+            "id": "46973:4429",
+            "name": "Label - Large",
+            "field": "fills",
+            "master": "46973:4422",
+            "masterName": "Breakpoint=320+, Content=Movie, Trailer=False",
+            "instance": "46973:4429",
+            "light": true
+          }
+        },
+        {
+          "id": "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3",
+          "name": "[Deprecated]/Text & icon/on Dark/Primary",
+          "key": "8d1e4095c97d6f8de9740c869fae2aa91b41bd6d",
+          "count": 8,
+          "buckets": {
+            "light": 8
+          },
+          "example": {
+            "id": "I46973:4429;16627:178798",
+            "name": "text",
+            "field": "fills",
+            "master": "46973:4422",
+            "masterName": "Breakpoint=320+, Content=Movie, Trailer=False",
+            "instance": "46973:4429",
+            "light": true
+          }
+        }
+      ],
+      "remainingRows": [],
+      "reasons": {
+        "kids": 0,
+        "light": 16,
+        "outside": 0,
+        "eligible": 0
+      },
+      "remainingCount": 16,
+      "unresolved": [],
+      "variableDetails": [
+        {
+          "kind": "variable",
+          "id": "VariableID:f726b5e6a18952670ca687b36d8d05bf2bd82bce/39850:96",
+          "count": 8,
+          "buckets": {
+            "light": 8
+          },
+          "examples": [
+            {
+              "id": "46973:4429",
+              "name": "Label - Large",
+              "field": "fills",
+              "master": "46973:4422",
+              "masterName": "Breakpoint=320+, Content=Movie, Trailer=False",
+              "instance": "46973:4429",
+              "light": true,
+              "i": 0
+            },
+            {
+              "id": "46973:4442",
+              "name": "Label - Large",
+              "field": "fills",
+              "master": "46973:4435",
+              "masterName": "Breakpoint=320+, Content=🟡 Event, Trailer=False",
+              "instance": "46973:4442",
+              "light": true,
+              "i": 0
+            }
+          ],
+          "name": "primitives/electric1100",
+          "key": "f726b5e6a18952670ca687b36d8d05bf2bd82bce",
+          "collection": "VariableCollectionId:9bfe8dde6e700cc0754156917935eea46ac309ee/32016:4307"
+        }
+      ],
+      "noncanonicalColorStyles": [],
+      "mixed": [],
+      "errors": []
+    }
+  ],
+  "outsideAudit": {
+    "staticResult": null,
+    "page": "Featured",
+    "nodeCount": 2161,
+    "sources": [
+      {
+        "id": "S:ac16386563414ce63f5d1ca74524cba4951046df,32110:27",
+        "name": "[Deprecated]/Background/Solid/Kids",
+        "key": "ac16386563414ce63f5d1ca74524cba4951046df",
+        "count": 3,
+        "buckets": {
+          "outside": 3
+        },
+        "example": {
+          "id": "24097:333100",
+          "name": "Rectangle 1",
+          "field": "fills"
+        }
+      },
+      {
+        "id": "S:a58b219ba53603c8b26af4e925d7c6fcc41005af,32110:34",
+        "name": "[Deprecated]/Background/Solid/Primary",
+        "key": "a58b219ba53603c8b26af4e925d7c6fcc41005af",
+        "count": 5,
+        "buckets": {
+          "outside": 5
+        },
+        "example": {
+          "id": "17591:302666",
+          "name": "DevKit",
+          "field": "fills"
+        }
+      },
+      {
+        "id": "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3",
+        "name": "[Deprecated]/Text & icon/on Dark/Primary",
+        "key": "8d1e4095c97d6f8de9740c869fae2aa91b41bd6d",
+        "count": 44,
+        "buckets": {
+          "outside": 8,
+          "light": 34,
+          "kids": 2
+        },
+        "example": {
+          "id": "17591:302667",
+          "name": "Dev",
+          "field": "fills"
+        }
+      },
+      {
+        "id": "S:fe5f45bae68a23f4f8a7fd4e31cd4d3677b48c06,39850:1",
+        "name": "[Deprecated]/Brand/Okko/AdditionalA",
+        "key": "fe5f45bae68a23f4f8a7fd4e31cd4d3677b48c06",
+        "count": 4,
+        "buckets": {
+          "outside": 4
+        },
+        "example": {
+          "id": "17591:302670",
+          "name": " ",
+          "field": "fills"
+        }
+      },
+      {
+        "id": "S:a8c9f8cdf1edacc21d3ecfae93d08086ae4eb21e,32110:67",
+        "name": "[Deprecated]/Fill/Decorative/on Light/Button",
+        "key": "a8c9f8cdf1edacc21d3ecfae93d08086ae4eb21e",
+        "count": 1,
+        "buckets": {
+          "outside": 1
+        },
+        "example": {
+          "id": "17591:303488",
+          "name": "Cases",
+          "field": "fills"
+        }
+      },
+      {
+        "id": "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+        "name": "[Deprecated]/Text & icon/on Dark/Forth",
+        "key": "0f7b602df21889b566056efb403ddb4aead4dede",
+        "count": 1,
+        "buckets": {
+          "outside": 1
+        },
+        "example": {
+          "id": "17591:303489",
+          "name": "Featured Cases",
+          "field": "fillRange",
+          "start": 9,
+          "end": 14
+        }
+      },
+      {
+        "id": "S:4860c43429459b0c34bfdad5632d8300497faa4c,32110:25",
+        "name": "[Deprecated]/Fill/Decorative/Dark Violet",
+        "key": "4860c43429459b0c34bfdad5632d8300497faa4c",
+        "count": 2,
+        "buckets": {
+          "outside": 2
+        },
+        "example": {
+          "id": "17591:303492",
+          "name": " ",
+          "field": "fills"
+        }
+      },
+      {
+        "id": "S:86ed5589a7317e9b68733fe56f0624abb2d72263,39850:3",
+        "name": "[Deprecated]/Brand/Okko/AdditionalB",
+        "key": "86ed5589a7317e9b68733fe56f0624abb2d72263",
+        "count": 34,
+        "buckets": {
+          "light": 34
+        },
+        "example": {
+          "id": "I17613:330908;17591:303160;17613:314630;17595:311338;17613:310423",
+          "name": "Label - Large",
+          "field": "fills",
+          "instance": "I17613:330908;17591:303160;17613:314630;17595:311338;17613:310423",
+          "light": true
+        }
+      },
+      {
+        "id": "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "name": "Color/fill/solid/hover-focus/Third",
+        "key": "7190d7e2c06681786a2e62457fbad4e50931c325",
+        "count": 12,
+        "buckets": {
+          "outside": 12
+        },
+        "example": {
+          "id": "I17613:329659;17613:326960;17613:323325;17595:311338;17613:314006;30392:2057;24384:3936",
+          "name": "Vector",
+          "field": "region0",
+          "instance": "I17613:329659;17613:326960;17613:323325;17595:311338;17613:314006;30392:2057"
+        }
+      },
+      {
+        "id": "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+        "name": "Fill/Solid/Primary",
+        "key": "974f85fc28b4a77fb28ea56ae2aba7dbc10a9905",
+        "count": 6,
+        "buckets": {
+          "outside": 6
+        },
+        "example": {
+          "id": "I17613:329659;17613:326960;17613:323325;17595:311338;17613:314006;30392:2057;24384:3936",
+          "name": "Vector",
+          "field": "region2",
+          "instance": "I17613:329659;17613:326960;17613:323325;17595:311338;17613:314006;30392:2057"
+        }
+      },
+      {
+        "id": "S:47e08f16230afdb512e51d6a6fec5826500c5a1b,32110:32",
+        "name": "[Deprecated]/Fill/Decorative/Kids",
+        "key": "47e08f16230afdb512e51d6a6fec5826500c5a1b",
+        "count": 2,
+        "buckets": {
+          "outside": 2
+        },
+        "example": {
+          "id": "18897:300155",
+          "name": " ",
+          "field": "fills"
+        }
+      },
+      {
+        "id": "S:231dd10ff9b5eb39c8b5a3bbd64439a1639af2ec,32110:132",
+        "name": "[Deprecated]/Fill/Solid/On Light/Third",
+        "key": "231dd10ff9b5eb39c8b5a3bbd64439a1639af2ec",
+        "count": 4,
+        "buckets": {
+          "light": 4
+        },
+        "example": {
+          "id": "I18897:300158;18906:300191;17613:314630;18907:306500;26093:350858",
+          "name": "circle",
+          "field": "fills",
+          "instance": "I18897:300158;18906:300191;17613:314630;18907:306500",
+          "light": true
+        }
+      },
+      {
+        "id": "S:1082d45b02cee1ebf04885f304cfa0cae2c2bbc3,32110:6",
+        "name": "[Deprecated]/Border/Glassy",
+        "key": "1082d45b02cee1ebf04885f304cfa0cae2c2bbc3",
+        "count": 4,
+        "buckets": {
+          "light": 4
+        },
+        "example": {
+          "id": "I18897:300158;18906:300191;17613:314630;18907:306500;26093:350858",
+          "name": "circle",
+          "field": "strokes",
+          "instance": "I18897:300158;18906:300191;17613:314630;18907:306500",
+          "light": true
+        }
+      }
+    ],
+    "remainingRows": [],
+    "reasons": {
+      "kids": 2,
+      "light": 76,
+      "outside": 44,
+      "eligible": 0
+    },
+    "remainingCount": 122,
+    "unresolved": [],
+    "variableDetails": [
+      {
+        "kind": "variable",
+        "id": "VariableID:7ccd0b1656c5f89fb3fda04fdcaf8a4f870556f6/39850:99",
+        "count": 4,
+        "buckets": {
+          "outside": 4
+        },
+        "examples": [
+          {
+            "id": "17591:302670",
+            "name": " ",
+            "field": "fills",
+            "i": 0
+          },
+          {
+            "id": "17591:303050",
+            "name": " ",
+            "field": "fills",
+            "i": 0
+          }
+        ],
+        "name": "primitives/electric800",
+        "key": "7ccd0b1656c5f89fb3fda04fdcaf8a4f870556f6",
+        "collection": "VariableCollectionId:9bfe8dde6e700cc0754156917935eea46ac309ee/32016:4307"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:f726b5e6a18952670ca687b36d8d05bf2bd82bce/39850:96",
+        "count": 34,
+        "buckets": {
+          "light": 34
+        },
+        "examples": [
+          {
+            "id": "I17613:330908;17591:303160;17613:314630;17595:311338;17613:310423",
+            "name": "Label - Large",
+            "field": "fills",
+            "instance": "I17613:330908;17591:303160;17613:314630;17595:311338;17613:310423",
+            "light": true,
+            "i": 0
+          },
+          {
+            "id": "I17613:330908;17591:303161;17613:314630;17595:311338;17613:310423",
+            "name": "Label - Large",
+            "field": "fills",
+            "instance": "I17613:330908;17591:303161;17613:314630;17595:311338;17613:310423",
+            "light": true,
+            "i": 0
+          }
+        ],
+        "name": "primitives/electric1100",
+        "key": "f726b5e6a18952670ca687b36d8d05bf2bd82bce",
+        "collection": "VariableCollectionId:9bfe8dde6e700cc0754156917935eea46ac309ee/32016:4307"
+      }
+    ],
+    "noncanonicalColorStyles": [
+      {
+        "name": "Color/fill/solid/hover-focus/Third",
+        "key": "7190d7e2c06681786a2e62457fbad4e50931c325",
+        "count": 12,
+        "buckets": {
+          "outside": 12
+        }
+      }
+    ],
+    "mixed": [],
+    "errors": []
+  },
+  "remaining": [
+    {
+      "row": [
+        "I17613:323321;17595:311336;17613:312882;30392:2057;24384:3936",
+        "region0",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:323320",
+        "I17613:323321;17595:311336;17613:312882;30392:2057",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:323321;17595:311336;17613:312882;30392:2057;24384:3936",
+        "region1",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:323320",
+        "I17613:323321;17595:311336;17613:312882;30392:2057",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:323321;17595:311336;17613:312882;30392:2057;24384:3936",
+        "region2",
+        "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+        "17613:323320",
+        "I17613:323321;17595:311336;17613:312882;30392:2057",
+        0,
+        0
+      ],
+      "source": "Fill/Solid/Primary",
+      "key": "974f85fc28b4a77fb28ea56ae2aba7dbc10a9905"
+    },
+    {
+      "row": [
+        "I17613:323323;17595:311337;17613:314081;30392:2057;24384:3936",
+        "region0",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:323322",
+        "I17613:323323;17595:311337;17613:314081;30392:2057",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:323323;17595:311337;17613:314081;30392:2057;24384:3936",
+        "region1",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:323322",
+        "I17613:323323;17595:311337;17613:314081;30392:2057",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:323323;17595:311337;17613:314081;30392:2057;24384:3936",
+        "region2",
+        "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+        "17613:323322",
+        "I17613:323323;17595:311337;17613:314081;30392:2057",
+        0,
+        0
+      ],
+      "source": "Fill/Solid/Primary",
+      "key": "974f85fc28b4a77fb28ea56ae2aba7dbc10a9905"
+    },
+    {
+      "row": [
+        "I17613:323325;17595:311338;17613:314006;30392:2057;24384:3936",
+        "region0",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:323324",
+        "I17613:323325;17595:311338;17613:314006;30392:2057",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:323325;17595:311338;17613:314006;30392:2057;24384:3936",
+        "region1",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:323324",
+        "I17613:323325;17595:311338;17613:314006;30392:2057",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:323325;17595:311338;17613:314006;30392:2057;24384:3936",
+        "region2",
+        "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+        "17613:323324",
+        "I17613:323325;17595:311338;17613:314006;30392:2057",
+        0,
+        0
+      ],
+      "source": "Fill/Solid/Primary",
+      "key": "974f85fc28b4a77fb28ea56ae2aba7dbc10a9905"
+    },
+    {
+      "row": [
+        "I17613:323327;17595:311341;17613:313962;30392:1971;24384:3936",
+        "region0",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:323326",
+        "I17613:323327;17595:311341;17613:313962;30392:1971",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:323327;17595:311341;17613:313962;30392:1971;24384:3936",
+        "region1",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:323326",
+        "I17613:323327;17595:311341;17613:313962;30392:1971",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:323327;17595:311341;17613:313962;30392:1971;24384:3936",
+        "region2",
+        "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+        "17613:323326",
+        "I17613:323327;17595:311341;17613:313962;30392:1971",
+        0,
+        0
+      ],
+      "source": "Fill/Solid/Primary",
+      "key": "974f85fc28b4a77fb28ea56ae2aba7dbc10a9905"
+    },
+    {
+      "row": [
+        "I17613:323329;17595:311342;17613:313882;30392:1971;24384:3936",
+        "region0",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:323328",
+        "I17613:323329;17595:311342;17613:313882;30392:1971",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:323329;17595:311342;17613:313882;30392:1971;24384:3936",
+        "region1",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:323328",
+        "I17613:323329;17595:311342;17613:313882;30392:1971",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:323329;17595:311342;17613:313882;30392:1971;24384:3936",
+        "region2",
+        "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+        "17613:323328",
+        "I17613:323329;17595:311342;17613:313882;30392:1971",
+        0,
+        0
+      ],
+      "source": "Fill/Solid/Primary",
+      "key": "974f85fc28b4a77fb28ea56ae2aba7dbc10a9905"
+    },
+    {
+      "row": [
+        "I17613:323331;17595:311339;17613:313796;30392:1753;24384:3936",
+        "region0",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:323330",
+        "I17613:323331;17595:311339;17613:313796;30392:1753",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:323331;17595:311339;17613:313796;30392:1753;24384:3936",
+        "region1",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:323330",
+        "I17613:323331;17595:311339;17613:313796;30392:1753",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:323331;17595:311339;17613:313796;30392:1753;24384:3936",
+        "region2",
+        "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+        "17613:323330",
+        "I17613:323331;17595:311339;17613:313796;30392:1753",
+        0,
+        0
+      ],
+      "source": "Fill/Solid/Primary",
+      "key": "974f85fc28b4a77fb28ea56ae2aba7dbc10a9905"
+    },
+    {
+      "row": [
+        "I17613:323333;17595:311343;17613:313747;30392:1753;24384:3936",
+        "region0",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:323332",
+        "I17613:323333;17595:311343;17613:313747;30392:1753",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:323333;17595:311343;17613:313747;30392:1753;24384:3936",
+        "region1",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:323332",
+        "I17613:323333;17595:311343;17613:313747;30392:1753",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:323333;17595:311343;17613:313747;30392:1753;24384:3936",
+        "region2",
+        "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+        "17613:323332",
+        "I17613:323333;17595:311343;17613:313747;30392:1753",
+        0,
+        0
+      ],
+      "source": "Fill/Solid/Primary",
+      "key": "974f85fc28b4a77fb28ea56ae2aba7dbc10a9905"
+    },
+    {
+      "row": [
+        "I17613:326950;17613:323321;17595:311336;17613:312882;30392:2057;24384:3936",
+        "region0",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:326948",
+        "I17613:326950;17613:323321;17595:311336;17613:312882;30392:2057",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:326950;17613:323321;17595:311336;17613:312882;30392:2057;24384:3936",
+        "region1",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:326948",
+        "I17613:326950;17613:323321;17595:311336;17613:312882;30392:2057",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:326950;17613:323321;17595:311336;17613:312882;30392:2057;24384:3936",
+        "region2",
+        "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+        "17613:326948",
+        "I17613:326950;17613:323321;17595:311336;17613:312882;30392:2057",
+        0,
+        0
+      ],
+      "source": "Fill/Solid/Primary",
+      "key": "974f85fc28b4a77fb28ea56ae2aba7dbc10a9905"
+    },
+    {
+      "row": [
+        "I17613:326951;17613:323321;17595:311336;17613:312882;30392:2057;24384:3936",
+        "region0",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:326948",
+        "I17613:326951;17613:323321;17595:311336;17613:312882;30392:2057",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:326951;17613:323321;17595:311336;17613:312882;30392:2057;24384:3936",
+        "region1",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:326948",
+        "I17613:326951;17613:323321;17595:311336;17613:312882;30392:2057",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:326951;17613:323321;17595:311336;17613:312882;30392:2057;24384:3936",
+        "region2",
+        "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+        "17613:326948",
+        "I17613:326951;17613:323321;17595:311336;17613:312882;30392:2057",
+        0,
+        0
+      ],
+      "source": "Fill/Solid/Primary",
+      "key": "974f85fc28b4a77fb28ea56ae2aba7dbc10a9905"
+    },
+    {
+      "row": [
+        "I17613:326952;17613:323321;17595:311336;17613:312882;30392:2057;24384:3936",
+        "region0",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:326948",
+        "I17613:326952;17613:323321;17595:311336;17613:312882;30392:2057",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:326952;17613:323321;17595:311336;17613:312882;30392:2057;24384:3936",
+        "region1",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:326948",
+        "I17613:326952;17613:323321;17595:311336;17613:312882;30392:2057",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:326952;17613:323321;17595:311336;17613:312882;30392:2057;24384:3936",
+        "region2",
+        "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+        "17613:326948",
+        "I17613:326952;17613:323321;17595:311336;17613:312882;30392:2057",
+        0,
+        0
+      ],
+      "source": "Fill/Solid/Primary",
+      "key": "974f85fc28b4a77fb28ea56ae2aba7dbc10a9905"
+    },
+    {
+      "row": [
+        "I17613:326955;17613:323323;17595:311337;17613:314081;30392:2057;24384:3936",
+        "region0",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:326953",
+        "I17613:326955;17613:323323;17595:311337;17613:314081;30392:2057",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:326955;17613:323323;17595:311337;17613:314081;30392:2057;24384:3936",
+        "region1",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:326953",
+        "I17613:326955;17613:323323;17595:311337;17613:314081;30392:2057",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:326955;17613:323323;17595:311337;17613:314081;30392:2057;24384:3936",
+        "region2",
+        "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+        "17613:326953",
+        "I17613:326955;17613:323323;17595:311337;17613:314081;30392:2057",
+        0,
+        0
+      ],
+      "source": "Fill/Solid/Primary",
+      "key": "974f85fc28b4a77fb28ea56ae2aba7dbc10a9905"
+    },
+    {
+      "row": [
+        "I17613:326956;17613:323323;17595:311337;17613:314081;30392:2057;24384:3936",
+        "region0",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:326953",
+        "I17613:326956;17613:323323;17595:311337;17613:314081;30392:2057",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:326956;17613:323323;17595:311337;17613:314081;30392:2057;24384:3936",
+        "region1",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:326953",
+        "I17613:326956;17613:323323;17595:311337;17613:314081;30392:2057",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:326956;17613:323323;17595:311337;17613:314081;30392:2057;24384:3936",
+        "region2",
+        "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+        "17613:326953",
+        "I17613:326956;17613:323323;17595:311337;17613:314081;30392:2057",
+        0,
+        0
+      ],
+      "source": "Fill/Solid/Primary",
+      "key": "974f85fc28b4a77fb28ea56ae2aba7dbc10a9905"
+    },
+    {
+      "row": [
+        "I17613:326957;17613:323323;17595:311337;17613:314081;30392:2057;24384:3936",
+        "region0",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:326953",
+        "I17613:326957;17613:323323;17595:311337;17613:314081;30392:2057",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:326957;17613:323323;17595:311337;17613:314081;30392:2057;24384:3936",
+        "region1",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:326953",
+        "I17613:326957;17613:323323;17595:311337;17613:314081;30392:2057",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:326957;17613:323323;17595:311337;17613:314081;30392:2057;24384:3936",
+        "region2",
+        "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+        "17613:326953",
+        "I17613:326957;17613:323323;17595:311337;17613:314081;30392:2057",
+        0,
+        0
+      ],
+      "source": "Fill/Solid/Primary",
+      "key": "974f85fc28b4a77fb28ea56ae2aba7dbc10a9905"
+    },
+    {
+      "row": [
+        "I17613:326960;17613:323325;17595:311338;17613:314006;30392:2057;24384:3936",
+        "region0",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:326958",
+        "I17613:326960;17613:323325;17595:311338;17613:314006;30392:2057",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:326960;17613:323325;17595:311338;17613:314006;30392:2057;24384:3936",
+        "region1",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:326958",
+        "I17613:326960;17613:323325;17595:311338;17613:314006;30392:2057",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:326960;17613:323325;17595:311338;17613:314006;30392:2057;24384:3936",
+        "region2",
+        "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+        "17613:326958",
+        "I17613:326960;17613:323325;17595:311338;17613:314006;30392:2057",
+        0,
+        0
+      ],
+      "source": "Fill/Solid/Primary",
+      "key": "974f85fc28b4a77fb28ea56ae2aba7dbc10a9905"
+    },
+    {
+      "row": [
+        "I17613:326961;17613:323325;17595:311338;17613:314006;30392:2057;24384:3936",
+        "region0",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:326958",
+        "I17613:326961;17613:323325;17595:311338;17613:314006;30392:2057",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:326961;17613:323325;17595:311338;17613:314006;30392:2057;24384:3936",
+        "region1",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:326958",
+        "I17613:326961;17613:323325;17595:311338;17613:314006;30392:2057",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:326961;17613:323325;17595:311338;17613:314006;30392:2057;24384:3936",
+        "region2",
+        "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+        "17613:326958",
+        "I17613:326961;17613:323325;17595:311338;17613:314006;30392:2057",
+        0,
+        0
+      ],
+      "source": "Fill/Solid/Primary",
+      "key": "974f85fc28b4a77fb28ea56ae2aba7dbc10a9905"
+    },
+    {
+      "row": [
+        "I17613:326962;17613:323325;17595:311338;17613:314006;30392:2057;24384:3936",
+        "region0",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:326958",
+        "I17613:326962;17613:323325;17595:311338;17613:314006;30392:2057",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:326962;17613:323325;17595:311338;17613:314006;30392:2057;24384:3936",
+        "region1",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:326958",
+        "I17613:326962;17613:323325;17595:311338;17613:314006;30392:2057",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:326962;17613:323325;17595:311338;17613:314006;30392:2057;24384:3936",
+        "region2",
+        "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+        "17613:326958",
+        "I17613:326962;17613:323325;17595:311338;17613:314006;30392:2057",
+        0,
+        0
+      ],
+      "source": "Fill/Solid/Primary",
+      "key": "974f85fc28b4a77fb28ea56ae2aba7dbc10a9905"
+    },
+    {
+      "row": [
+        "I17613:326965;17613:323327;17595:311341;17613:313962;30392:1971;24384:3936",
+        "region0",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:326963",
+        "I17613:326965;17613:323327;17595:311341;17613:313962;30392:1971",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:326965;17613:323327;17595:311341;17613:313962;30392:1971;24384:3936",
+        "region1",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:326963",
+        "I17613:326965;17613:323327;17595:311341;17613:313962;30392:1971",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:326965;17613:323327;17595:311341;17613:313962;30392:1971;24384:3936",
+        "region2",
+        "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+        "17613:326963",
+        "I17613:326965;17613:323327;17595:311341;17613:313962;30392:1971",
+        0,
+        0
+      ],
+      "source": "Fill/Solid/Primary",
+      "key": "974f85fc28b4a77fb28ea56ae2aba7dbc10a9905"
+    },
+    {
+      "row": [
+        "I17613:326966;17613:323327;17595:311341;17613:313962;30392:1971;24384:3936",
+        "region0",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:326963",
+        "I17613:326966;17613:323327;17595:311341;17613:313962;30392:1971",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:326966;17613:323327;17595:311341;17613:313962;30392:1971;24384:3936",
+        "region1",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:326963",
+        "I17613:326966;17613:323327;17595:311341;17613:313962;30392:1971",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:326966;17613:323327;17595:311341;17613:313962;30392:1971;24384:3936",
+        "region2",
+        "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+        "17613:326963",
+        "I17613:326966;17613:323327;17595:311341;17613:313962;30392:1971",
+        0,
+        0
+      ],
+      "source": "Fill/Solid/Primary",
+      "key": "974f85fc28b4a77fb28ea56ae2aba7dbc10a9905"
+    },
+    {
+      "row": [
+        "I17613:326967;17613:323327;17595:311341;17613:313962;30392:1971;24384:3936",
+        "region0",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:326963",
+        "I17613:326967;17613:323327;17595:311341;17613:313962;30392:1971",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:326967;17613:323327;17595:311341;17613:313962;30392:1971;24384:3936",
+        "region1",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:326963",
+        "I17613:326967;17613:323327;17595:311341;17613:313962;30392:1971",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:326967;17613:323327;17595:311341;17613:313962;30392:1971;24384:3936",
+        "region2",
+        "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+        "17613:326963",
+        "I17613:326967;17613:323327;17595:311341;17613:313962;30392:1971",
+        0,
+        0
+      ],
+      "source": "Fill/Solid/Primary",
+      "key": "974f85fc28b4a77fb28ea56ae2aba7dbc10a9905"
+    },
+    {
+      "row": [
+        "I17613:326970;17613:323329;17595:311342;17613:313882;30392:1971;24384:3936",
+        "region0",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:326968",
+        "I17613:326970;17613:323329;17595:311342;17613:313882;30392:1971",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:326970;17613:323329;17595:311342;17613:313882;30392:1971;24384:3936",
+        "region1",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:326968",
+        "I17613:326970;17613:323329;17595:311342;17613:313882;30392:1971",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:326970;17613:323329;17595:311342;17613:313882;30392:1971;24384:3936",
+        "region2",
+        "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+        "17613:326968",
+        "I17613:326970;17613:323329;17595:311342;17613:313882;30392:1971",
+        0,
+        0
+      ],
+      "source": "Fill/Solid/Primary",
+      "key": "974f85fc28b4a77fb28ea56ae2aba7dbc10a9905"
+    },
+    {
+      "row": [
+        "I17613:326971;17613:323329;17595:311342;17613:313882;30392:1971;24384:3936",
+        "region0",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:326968",
+        "I17613:326971;17613:323329;17595:311342;17613:313882;30392:1971",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:326971;17613:323329;17595:311342;17613:313882;30392:1971;24384:3936",
+        "region1",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:326968",
+        "I17613:326971;17613:323329;17595:311342;17613:313882;30392:1971",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:326971;17613:323329;17595:311342;17613:313882;30392:1971;24384:3936",
+        "region2",
+        "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+        "17613:326968",
+        "I17613:326971;17613:323329;17595:311342;17613:313882;30392:1971",
+        0,
+        0
+      ],
+      "source": "Fill/Solid/Primary",
+      "key": "974f85fc28b4a77fb28ea56ae2aba7dbc10a9905"
+    },
+    {
+      "row": [
+        "I17613:326972;17613:323329;17595:311342;17613:313882;30392:1971;24384:3936",
+        "region0",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:326968",
+        "I17613:326972;17613:323329;17595:311342;17613:313882;30392:1971",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:326972;17613:323329;17595:311342;17613:313882;30392:1971;24384:3936",
+        "region1",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:326968",
+        "I17613:326972;17613:323329;17595:311342;17613:313882;30392:1971",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:326972;17613:323329;17595:311342;17613:313882;30392:1971;24384:3936",
+        "region2",
+        "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+        "17613:326968",
+        "I17613:326972;17613:323329;17595:311342;17613:313882;30392:1971",
+        0,
+        0
+      ],
+      "source": "Fill/Solid/Primary",
+      "key": "974f85fc28b4a77fb28ea56ae2aba7dbc10a9905"
+    },
+    {
+      "row": [
+        "I17613:326975;17613:323331;17595:311339;17613:313796;30392:1753;24384:3936",
+        "region0",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:326973",
+        "I17613:326975;17613:323331;17595:311339;17613:313796;30392:1753",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:326975;17613:323331;17595:311339;17613:313796;30392:1753;24384:3936",
+        "region1",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:326973",
+        "I17613:326975;17613:323331;17595:311339;17613:313796;30392:1753",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:326975;17613:323331;17595:311339;17613:313796;30392:1753;24384:3936",
+        "region2",
+        "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+        "17613:326973",
+        "I17613:326975;17613:323331;17595:311339;17613:313796;30392:1753",
+        0,
+        0
+      ],
+      "source": "Fill/Solid/Primary",
+      "key": "974f85fc28b4a77fb28ea56ae2aba7dbc10a9905"
+    },
+    {
+      "row": [
+        "I17613:326976;17613:323331;17595:311339;17613:313796;30392:1753;24384:3936",
+        "region0",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:326973",
+        "I17613:326976;17613:323331;17595:311339;17613:313796;30392:1753",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:326976;17613:323331;17595:311339;17613:313796;30392:1753;24384:3936",
+        "region1",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:326973",
+        "I17613:326976;17613:323331;17595:311339;17613:313796;30392:1753",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:326976;17613:323331;17595:311339;17613:313796;30392:1753;24384:3936",
+        "region2",
+        "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+        "17613:326973",
+        "I17613:326976;17613:323331;17595:311339;17613:313796;30392:1753",
+        0,
+        0
+      ],
+      "source": "Fill/Solid/Primary",
+      "key": "974f85fc28b4a77fb28ea56ae2aba7dbc10a9905"
+    },
+    {
+      "row": [
+        "I17613:326977;17613:323331;17595:311339;17613:313796;30392:1753;24384:3936",
+        "region0",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:326973",
+        "I17613:326977;17613:323331;17595:311339;17613:313796;30392:1753",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:326977;17613:323331;17595:311339;17613:313796;30392:1753;24384:3936",
+        "region1",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:326973",
+        "I17613:326977;17613:323331;17595:311339;17613:313796;30392:1753",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:326977;17613:323331;17595:311339;17613:313796;30392:1753;24384:3936",
+        "region2",
+        "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+        "17613:326973",
+        "I17613:326977;17613:323331;17595:311339;17613:313796;30392:1753",
+        0,
+        0
+      ],
+      "source": "Fill/Solid/Primary",
+      "key": "974f85fc28b4a77fb28ea56ae2aba7dbc10a9905"
+    },
+    {
+      "row": [
+        "I17613:326980;17613:323333;17595:311343;17613:313747;30392:1753;24384:3936",
+        "region0",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:326978",
+        "I17613:326980;17613:323333;17595:311343;17613:313747;30392:1753",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:326980;17613:323333;17595:311343;17613:313747;30392:1753;24384:3936",
+        "region1",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:326978",
+        "I17613:326980;17613:323333;17595:311343;17613:313747;30392:1753",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:326980;17613:323333;17595:311343;17613:313747;30392:1753;24384:3936",
+        "region2",
+        "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+        "17613:326978",
+        "I17613:326980;17613:323333;17595:311343;17613:313747;30392:1753",
+        0,
+        0
+      ],
+      "source": "Fill/Solid/Primary",
+      "key": "974f85fc28b4a77fb28ea56ae2aba7dbc10a9905"
+    },
+    {
+      "row": [
+        "I17613:326981;17613:323333;17595:311343;17613:313747;30392:1753;24384:3936",
+        "region0",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:326978",
+        "I17613:326981;17613:323333;17595:311343;17613:313747;30392:1753",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:326981;17613:323333;17595:311343;17613:313747;30392:1753;24384:3936",
+        "region1",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:326978",
+        "I17613:326981;17613:323333;17595:311343;17613:313747;30392:1753",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:326981;17613:323333;17595:311343;17613:313747;30392:1753;24384:3936",
+        "region2",
+        "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+        "17613:326978",
+        "I17613:326981;17613:323333;17595:311343;17613:313747;30392:1753",
+        0,
+        0
+      ],
+      "source": "Fill/Solid/Primary",
+      "key": "974f85fc28b4a77fb28ea56ae2aba7dbc10a9905"
+    },
+    {
+      "row": [
+        "I17613:326982;17613:323333;17595:311343;17613:313747;30392:1753;24384:3936",
+        "region0",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:326978",
+        "I17613:326982;17613:323333;17595:311343;17613:313747;30392:1753",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:326982;17613:323333;17595:311343;17613:313747;30392:1753;24384:3936",
+        "region1",
+        "S:7190d7e2c06681786a2e62457fbad4e50931c325,32110:45",
+        "17613:326978",
+        "I17613:326982;17613:323333;17595:311343;17613:313747;30392:1753",
+        0,
+        0
+      ],
+      "source": "Color/fill/solid/hover-focus/Third",
+      "key": "7190d7e2c06681786a2e62457fbad4e50931c325"
+    },
+    {
+      "row": [
+        "I17613:326982;17613:323333;17595:311343;17613:313747;30392:1753;24384:3936",
+        "region2",
+        "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,20547:6",
+        "17613:326978",
+        "I17613:326982;17613:323333;17595:311343;17613:313747;30392:1753",
+        0,
+        0
+      ],
+      "source": "Fill/Solid/Primary",
+      "key": "974f85fc28b4a77fb28ea56ae2aba7dbc10a9905"
+    }
+  ],
+  "masterReasons": {
+    "kids": 0,
+    "light": 235,
+    "outside": 0,
+    "eligible": 84
+  },
+  "totalCheckedNodes": 10110,
+  "verification": "programmatic; no Selection colors UI check",
+  "newDesignVariablesOrStylesCreated": false
+}

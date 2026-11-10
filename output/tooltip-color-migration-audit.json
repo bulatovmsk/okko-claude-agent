@@ -1,0 +1,735 @@
+{
+  "date": "2026-10-20",
+  "fileKey": "sb7SelAF2PBcYZsOxL092c",
+  "pageId": "32992:394421",
+  "before": {
+    "variableDetails": [
+      {
+        "kind": "variable",
+        "id": "VariableID:d92b20d2fd97d8577428adfcf2584ae668bc2965/41700:29",
+        "count": 24,
+        "buckets": {
+          "own": 24
+        },
+        "examples": [
+          {
+            "id": "32992:394441",
+            "name": "Placement=Top, Device=Desktop 1720+",
+            "field": "fills",
+            "master": "32992:394441",
+            "masterName": "Placement=Top, Device=Desktop 1720+",
+            "i": 0
+          },
+          {
+            "id": "32992:394437",
+            "name": "Beak",
+            "field": "region0",
+            "master": "32992:394441",
+            "masterName": "Placement=Top, Device=Desktop 1720+",
+            "i": 0
+          }
+        ],
+        "name": "color/fill/solid/inverse",
+        "key": "d92b20d2fd97d8577428adfcf2584ae668bc2965",
+        "collection": "VariableCollectionId:1c6e07816c9c7d8423d676736c66af0f797411bb/41700:0"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:6a2da19c0b5e6c45ffa29b1fe769bbe31d6db150/41700:10",
+        "count": 12,
+        "buckets": {
+          "own": 12
+        },
+        "examples": [
+          {
+            "id": "32992:394439",
+            "name": "Title",
+            "field": "fills",
+            "master": "32992:394441",
+            "masterName": "Placement=Top, Device=Desktop 1720+",
+            "i": 0
+          },
+          {
+            "id": "32992:394648",
+            "name": "Title",
+            "field": "fills",
+            "master": "32992:394644",
+            "masterName": "Placement=Top, Device=Tablet 600+",
+            "i": 0
+          }
+        ],
+        "name": "color/text-icon/inverse/primary",
+        "key": "6a2da19c0b5e6c45ffa29b1fe769bbe31d6db150",
+        "collection": "VariableCollectionId:1c6e07816c9c7d8423d676736c66af0f797411bb/41700:0"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:c010b5e2e260119f3be5d8a236cbc53bea58d0b4/41700:82",
+        "count": 12,
+        "buckets": {
+          "own": 12
+        },
+        "examples": [
+          {
+            "id": "32992:394440",
+            "name": "Body text",
+            "field": "fills",
+            "master": "32992:394441",
+            "masterName": "Placement=Top, Device=Desktop 1720+",
+            "i": 0
+          },
+          {
+            "id": "32992:394649",
+            "name": "Body text",
+            "field": "fills",
+            "master": "32992:394644",
+            "masterName": "Placement=Top, Device=Tablet 600+",
+            "i": 0
+          }
+        ],
+        "name": "color/text-icon/inverse/secondary",
+        "key": "c010b5e2e260119f3be5d8a236cbc53bea58d0b4",
+        "collection": "VariableCollectionId:1c6e07816c9c7d8423d676736c66af0f797411bb/41700:0"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:f726b5e6a18952670ca687b36d8d05bf2bd82bce/39850:96",
+        "count": 3,
+        "buckets": {
+          "light": 3
+        },
+        "examples": [
+          {
+            "id": "33583:124981",
+            "name": "Label - Large",
+            "field": "fills",
+            "master": "33583:124976",
+            "masterName": "Device=Desktop 1720+",
+            "instance": "33583:124981",
+            "light": true,
+            "i": 0
+          },
+          {
+            "id": "33583:125073",
+            "name": "Label - Large",
+            "field": "fills",
+            "master": "33583:125068",
+            "masterName": "Device=Tablet 600+",
+            "instance": "33583:125073",
+            "light": true,
+            "i": 0
+          }
+        ],
+        "name": "primitives/electric1100",
+        "key": "f726b5e6a18952670ca687b36d8d05bf2bd82bce",
+        "collection": "VariableCollectionId:9bfe8dde6e700cc0754156917935eea46ac309ee/32016:4307"
+      }
+    ],
+    "styleDetails": [
+      {
+        "kind": "style",
+        "id": "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,32110:48",
+        "count": 6,
+        "buckets": {
+          "own": 6
+        },
+        "examples": [
+          {
+            "id": "33583:124976",
+            "name": "Device=Desktop 1720+",
+            "field": "fills",
+            "master": "33583:124976",
+            "masterName": "Device=Desktop 1720+"
+          },
+          {
+            "id": "33936:1815",
+            "name": "Subtract",
+            "field": "region0",
+            "master": "33583:124976",
+            "masterName": "Device=Desktop 1720+"
+          }
+        ],
+        "styleType": "PAINT",
+        "name": "[Deprecated]/Fill/Solid/Inverse",
+        "key": "974f85fc28b4a77fb28ea56ae2aba7dbc10a9905"
+      },
+      {
+        "kind": "style",
+        "id": "S:86ed5589a7317e9b68733fe56f0624abb2d72263,39850:3",
+        "count": 3,
+        "buckets": {
+          "light": 3
+        },
+        "examples": [
+          {
+            "id": "33583:124981",
+            "name": "Label - Large",
+            "field": "fills",
+            "master": "33583:124976",
+            "masterName": "Device=Desktop 1720+",
+            "instance": "33583:124981",
+            "light": true
+          },
+          {
+            "id": "33583:125073",
+            "name": "Label - Large",
+            "field": "fills",
+            "master": "33583:125068",
+            "masterName": "Device=Tablet 600+",
+            "instance": "33583:125073",
+            "light": true
+          }
+        ],
+        "styleType": "PAINT",
+        "name": "[Deprecated]/Brand/Okko/AdditionalB",
+        "key": "86ed5589a7317e9b68733fe56f0624abb2d72263"
+      },
+      {
+        "kind": "style",
+        "id": "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3",
+        "count": 6,
+        "buckets": {
+          "light": 6
+        },
+        "examples": [
+          {
+            "id": "I33583:124981;16627:178792",
+            "name": "text",
+            "field": "fills",
+            "master": "33583:124976",
+            "masterName": "Device=Desktop 1720+",
+            "instance": "33583:124981",
+            "light": true
+          },
+          {
+            "id": "I33583:124985;26093:350500",
+            "name": "Text",
+            "field": "fills",
+            "master": "33583:124976",
+            "masterName": "Device=Desktop 1720+",
+            "instance": "33583:124985",
+            "light": true
+          }
+        ],
+        "styleType": "PAINT",
+        "name": "[Deprecated]/Text & icon/on Dark/Primary",
+        "key": "8d1e4095c97d6f8de9740c869fae2aa91b41bd6d"
+      },
+      {
+        "kind": "style",
+        "id": "S:4e8ca772b49d5b02391ce1d8bbac531eae429f25,32110:52",
+        "count": 3,
+        "buckets": {
+          "own": 3
+        },
+        "examples": [
+          {
+            "id": "33583:124983",
+            "name": "Header",
+            "field": "fills",
+            "master": "33583:124976",
+            "masterName": "Device=Desktop 1720+"
+          },
+          {
+            "id": "33583:125075",
+            "name": "Header",
+            "field": "fills",
+            "master": "33583:125068",
+            "masterName": "Device=Tablet 600+"
+          }
+        ],
+        "styleType": "PAINT",
+        "name": "[Deprecated]/Text & icon/on Light/Primary",
+        "key": "4e8ca772b49d5b02391ce1d8bbac531eae429f25"
+      },
+      {
+        "kind": "style",
+        "id": "S:a8c9f8cdf1edacc21d3ecfae93d08086ae4eb21e,32110:67",
+        "count": 3,
+        "buckets": {
+          "light": 3
+        },
+        "examples": [
+          {
+            "id": "33583:124985",
+            "name": "_[Deprecated]Button/1720+/light/square/small/primary/true",
+            "field": "fills",
+            "master": "33583:124976",
+            "masterName": "Device=Desktop 1720+",
+            "instance": "33583:124985",
+            "light": true
+          },
+          {
+            "id": "33583:125077",
+            "name": "_[Deprecated]Button/600+/light/square/small/primary/true",
+            "field": "fills",
+            "master": "33583:125068",
+            "masterName": "Device=Tablet 600+",
+            "instance": "33583:125077",
+            "light": true
+          }
+        ],
+        "styleType": "PAINT",
+        "name": "[Deprecated]/Fill/Decorative/on Light/Button",
+        "key": "a8c9f8cdf1edacc21d3ecfae93d08086ae4eb21e"
+      },
+      {
+        "kind": "style",
+        "id": "S:844cacd63afb20e71c9cd7441f5596d64fa76e25,32110:75",
+        "count": 3,
+        "buckets": {
+          "instance": 3
+        },
+        "examples": [
+          {
+            "id": "I33936:1702;26093:350642;33124:6653",
+            "name": "Union",
+            "field": "fills",
+            "master": "33583:124976",
+            "masterName": "Device=Desktop 1720+",
+            "instance": "I33936:1702;26093:350642"
+          },
+          {
+            "id": "I33936:1664;26093:350856;33124:6653",
+            "name": "Union",
+            "field": "fills",
+            "master": "33583:125068",
+            "masterName": "Device=Tablet 600+",
+            "instance": "I33936:1664;26093:350856"
+          }
+        ],
+        "styleType": "PAINT",
+        "name": "[Deprecated]/Text & icon/on Light/Forth ⛔️ нет у разработчиков",
+        "key": "844cacd63afb20e71c9cd7441f5596d64fa76e25"
+      }
+    ],
+    "remainingRows": [
+      [
+        "33583:124976",
+        "fills",
+        "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,32110:48",
+        "33583:124976",
+        null,
+        0,
+        0
+      ],
+      [
+        "33583:124981",
+        "fills",
+        "S:86ed5589a7317e9b68733fe56f0624abb2d72263,39850:3",
+        "33583:124976",
+        "33583:124981",
+        1,
+        0
+      ],
+      [
+        "I33583:124981;16627:178792",
+        "fills",
+        "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3",
+        "33583:124976",
+        "33583:124981",
+        1,
+        0
+      ],
+      [
+        "33583:124983",
+        "fills",
+        "S:4e8ca772b49d5b02391ce1d8bbac531eae429f25,32110:52",
+        "33583:124976",
+        null,
+        0,
+        0
+      ],
+      [
+        "33583:124985",
+        "fills",
+        "S:a8c9f8cdf1edacc21d3ecfae93d08086ae4eb21e,32110:67",
+        "33583:124976",
+        "33583:124985",
+        1,
+        0
+      ],
+      [
+        "I33583:124985;26093:350500",
+        "fills",
+        "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3",
+        "33583:124976",
+        "33583:124985",
+        1,
+        0
+      ],
+      [
+        "I33936:1702;26093:350642;33124:6653",
+        "fills",
+        "S:844cacd63afb20e71c9cd7441f5596d64fa76e25,32110:75",
+        "33583:124976",
+        "I33936:1702;26093:350642",
+        0,
+        0
+      ],
+      [
+        "33936:1815",
+        "region0",
+        "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,32110:48",
+        "33583:124976",
+        null,
+        0,
+        0
+      ],
+      [
+        "33583:125068",
+        "fills",
+        "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,32110:48",
+        "33583:125068",
+        null,
+        0,
+        0
+      ],
+      [
+        "33583:125073",
+        "fills",
+        "S:86ed5589a7317e9b68733fe56f0624abb2d72263,39850:3",
+        "33583:125068",
+        "33583:125073",
+        1,
+        0
+      ],
+      [
+        "I33583:125073;16627:178795",
+        "fills",
+        "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3",
+        "33583:125068",
+        "33583:125073",
+        1,
+        0
+      ],
+      [
+        "33583:125075",
+        "fills",
+        "S:4e8ca772b49d5b02391ce1d8bbac531eae429f25,32110:52",
+        "33583:125068",
+        null,
+        0,
+        0
+      ],
+      [
+        "33583:125077",
+        "fills",
+        "S:a8c9f8cdf1edacc21d3ecfae93d08086ae4eb21e,32110:67",
+        "33583:125068",
+        "33583:125077",
+        1,
+        0
+      ],
+      [
+        "I33583:125077;26093:350788",
+        "fills",
+        "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3",
+        "33583:125068",
+        "33583:125077",
+        1,
+        0
+      ],
+      [
+        "I33936:1664;26093:350856;33124:6653",
+        "fills",
+        "S:844cacd63afb20e71c9cd7441f5596d64fa76e25,32110:75",
+        "33583:125068",
+        "I33936:1664;26093:350856",
+        0,
+        0
+      ],
+      [
+        "33936:1821",
+        "region0",
+        "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,32110:48",
+        "33583:125068",
+        null,
+        0,
+        0
+      ],
+      [
+        "33583:125160",
+        "fills",
+        "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,32110:48",
+        "33583:125160",
+        null,
+        0,
+        0
+      ],
+      [
+        "33583:125165",
+        "fills",
+        "S:86ed5589a7317e9b68733fe56f0624abb2d72263,39850:3",
+        "33583:125160",
+        "33583:125165",
+        1,
+        0
+      ],
+      [
+        "I33583:125165;16627:178798",
+        "fills",
+        "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3",
+        "33583:125160",
+        "33583:125165",
+        1,
+        0
+      ],
+      [
+        "33583:125167",
+        "fills",
+        "S:4e8ca772b49d5b02391ce1d8bbac531eae429f25,32110:52",
+        "33583:125160",
+        null,
+        0,
+        0
+      ],
+      [
+        "33583:125169",
+        "fills",
+        "S:a8c9f8cdf1edacc21d3ecfae93d08086ae4eb21e,32110:67",
+        "33583:125160",
+        "33583:125169",
+        1,
+        0
+      ],
+      [
+        "I33583:125169;26093:350480",
+        "fills",
+        "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3",
+        "33583:125160",
+        "33583:125169",
+        1,
+        0
+      ],
+      [
+        "I33936:1612;26093:350702;33124:6653",
+        "fills",
+        "S:844cacd63afb20e71c9cd7441f5596d64fa76e25,32110:75",
+        "33583:125160",
+        "I33936:1612;26093:350702",
+        0,
+        0
+      ],
+      [
+        "33936:1854",
+        "region0",
+        "S:974f85fc28b4a77fb28ea56ae2aba7dbc10a9905,32110:48",
+        "33583:125160",
+        null,
+        0,
+        0
+      ]
+    ],
+    "remainingCount": 24,
+    "reasons": {
+      "kids": 0,
+      "light": 12,
+      "outside": 0,
+      "eligible": 12
+    },
+    "noncanonicalColorStyles": [],
+    "oldTheme": [],
+    "page": "Tooltip",
+    "nodeCount": 143,
+    "rootCount": 2,
+    "groups": [
+      {
+        "name": "[Deprecated]/Fill/Solid/Inverse",
+        "key": "974f85fc28b4a77fb28ea56ae2aba7dbc10a9905",
+        "styleType": "PAINT",
+        "count": 6,
+        "buckets": {
+          "own": 6
+        },
+        "example": "33583:124976"
+      },
+      {
+        "name": "[Deprecated]/Brand/Okko/AdditionalB",
+        "key": "86ed5589a7317e9b68733fe56f0624abb2d72263",
+        "styleType": "PAINT",
+        "count": 3,
+        "buckets": {
+          "light": 3
+        },
+        "example": "33583:124981"
+      },
+      {
+        "name": "[Deprecated]/Text & icon/on Dark/Primary",
+        "key": "8d1e4095c97d6f8de9740c869fae2aa91b41bd6d",
+        "styleType": "PAINT",
+        "count": 6,
+        "buckets": {
+          "light": 6
+        },
+        "example": "I33583:124981;16627:178792"
+      },
+      {
+        "name": "[Deprecated]/Text & icon/on Light/Primary",
+        "key": "4e8ca772b49d5b02391ce1d8bbac531eae429f25",
+        "styleType": "PAINT",
+        "count": 3,
+        "buckets": {
+          "own": 3
+        },
+        "example": "33583:124983"
+      },
+      {
+        "name": "[Deprecated]/Fill/Decorative/on Light/Button",
+        "key": "a8c9f8cdf1edacc21d3ecfae93d08086ae4eb21e",
+        "styleType": "PAINT",
+        "count": 3,
+        "buckets": {
+          "light": 3
+        },
+        "example": "33583:124985"
+      },
+      {
+        "name": "[Deprecated]/Text & icon/on Light/Forth ⛔️ нет у разработчиков",
+        "key": "844cacd63afb20e71c9cd7441f5596d64fa76e25",
+        "styleType": "PAINT",
+        "count": 3,
+        "buckets": {
+          "instance": 3
+        },
+        "example": "I33936:1702;26093:350642;33124:6653"
+      }
+    ],
+    "collections": [
+      {
+        "id": "VariableCollectionId:1c6e07816c9c7d8423d676736c66af0f797411bb/41700:0",
+        "name": "Color",
+        "bindings": 48,
+        "variables": 3
+      },
+      {
+        "id": "VariableCollectionId:9bfe8dde6e700cc0754156917935eea46ac309ee/32016:4307",
+        "name": "Primitives",
+        "bindings": 3,
+        "variables": 1
+      }
+    ],
+    "primitiveBindings": [
+      {
+        "name": "primitives/electric1100",
+        "key": "f726b5e6a18952670ca687b36d8d05bf2bd82bce",
+        "count": 3,
+        "buckets": {
+          "light": 3
+        },
+        "example": "33583:124981"
+      }
+    ],
+    "mixed": [],
+    "errors": []
+  },
+  "write": {
+    "mode": "all",
+    "found": 12,
+    "attempted": 12,
+    "mutatedNodeIds": [
+      "33583:124976",
+      "33583:124983",
+      "I33936:1702;26093:350642;33124:6653",
+      "33936:1815",
+      "33583:125068",
+      "33583:125075",
+      "I33936:1664;26093:350856;33124:6653",
+      "33936:1821",
+      "33583:125160",
+      "33583:125167",
+      "I33936:1612;26093:350702;33124:6653",
+      "33936:1854"
+    ],
+    "applied": 12,
+    "summary": {
+      "color/fill/solid/inverse": 6,
+      "color/text-icon/inverse/primary": 3,
+      "color/text-icon/inverse/fourth": 3
+    },
+    "errors": []
+  },
+  "after": {
+    "page": "Tooltip",
+    "nodeCount": 143,
+    "rootCount": 2,
+    "groups": [
+      {
+        "name": "[Deprecated]/Brand/Okko/AdditionalB",
+        "key": "86ed5589a7317e9b68733fe56f0624abb2d72263",
+        "styleType": "PAINT",
+        "count": 3,
+        "buckets": {
+          "light": 3
+        },
+        "example": "33583:124981"
+      },
+      {
+        "name": "[Deprecated]/Text & icon/on Dark/Primary",
+        "key": "8d1e4095c97d6f8de9740c869fae2aa91b41bd6d",
+        "styleType": "PAINT",
+        "count": 6,
+        "buckets": {
+          "light": 6
+        },
+        "example": "I33583:124981;16627:178792"
+      },
+      {
+        "name": "[Deprecated]/Fill/Decorative/on Light/Button",
+        "key": "a8c9f8cdf1edacc21d3ecfae93d08086ae4eb21e",
+        "styleType": "PAINT",
+        "count": 3,
+        "buckets": {
+          "light": 3
+        },
+        "example": "33583:124985"
+      }
+    ],
+    "collections": [
+      {
+        "id": "VariableCollectionId:1c6e07816c9c7d8423d676736c66af0f797411bb/41700:0",
+        "name": "Color",
+        "bindings": 48,
+        "variables": 3
+      },
+      {
+        "id": "VariableCollectionId:1c6e07816c9c7d8423d676736c66af0f797411bb/41872:3468",
+        "name": "Color",
+        "bindings": 12,
+        "variables": 3
+      },
+      {
+        "id": "VariableCollectionId:9bfe8dde6e700cc0754156917935eea46ac309ee/32016:4307",
+        "name": "Primitives",
+        "bindings": 3,
+        "variables": 1
+      }
+    ],
+    "primitiveBindings": [
+      {
+        "name": "primitives/electric1100",
+        "key": "f726b5e6a18952670ca687b36d8d05bf2bd82bce",
+        "count": 3,
+        "buckets": {
+          "light": 3
+        },
+        "example": "33583:124981"
+      }
+    ],
+    "mixed": [],
+    "errors": []
+  },
+  "staticAudit": {
+    "stats": {
+      "scanned": 114,
+      "alreadyStatic": 0,
+      "overColored": 0
+    },
+    "found": 0,
+    "examples": [],
+    "raw": 0,
+    "unsupportedCount": 0,
+    "unsupported": [],
+    "skipped": []
+  }
+}

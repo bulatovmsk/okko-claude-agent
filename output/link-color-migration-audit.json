@@ -1,0 +1,116 @@
+{
+  "date": "2026-10-20",
+  "pageId": "32508:14",
+  "before": {
+    "page": "Link",
+    "nodeCount": 63,
+    "rootCount": 3,
+    "groups": [
+      {
+        "name": "[Deprecated]/Text & icon/on Dark/Third",
+        "key": "7ba87ccc576cd2381aee43f11162db346a88bf6a",
+        "styleType": "PAINT",
+        "count": 12,
+        "buckets": {
+          "instance": 6,
+          "own": 6
+        },
+        "example": "I32508:800;32958:4332"
+      },
+      {
+        "name": "[Deprecated]/Text & icon/on Dark/Primary",
+        "key": "8d1e4095c97d6f8de9740c869fae2aa91b41bd6d",
+        "styleType": "PAINT",
+        "count": 13,
+        "buckets": {
+          "instance": 6,
+          "own": 6,
+          "outside": 1
+        },
+        "example": "I32508:841;32958:4332"
+      }
+    ],
+    "collections": [],
+    "primitiveBindings": [],
+    "mixed": [],
+    "errors": []
+  },
+  "write": {
+    "mode": "all",
+    "found": 24,
+    "attempted": 24,
+    "mutatedNodeIds": [
+      "I32508:800;32958:4332",
+      "32508:801",
+      "I32508:841;32958:4332",
+      "32508:842",
+      "I32508:3338;32958:4332",
+      "32508:3339",
+      "I32508:3362;32958:4332",
+      "32508:3363",
+      "I32508:806;32958:4332",
+      "32508:807",
+      "I32508:844;32958:4332",
+      "32508:845",
+      "I32508:3341;32958:4332",
+      "32508:3342",
+      "I32508:3365;32958:4332",
+      "32508:3366",
+      "I32508:814;32958:4332",
+      "32508:815",
+      "I32508:847;32958:4332",
+      "32508:848",
+      "I32508:3344;32958:4332",
+      "32508:3345",
+      "I32508:3368;32958:4332",
+      "32508:3369"
+    ],
+    "applied": 24,
+    "summary": {
+      "color/text-icon/third": 12,
+      "color/text-icon/primary": 12
+    },
+    "errors": []
+  },
+  "after": {
+    "page": "Link",
+    "nodeCount": 63,
+    "rootCount": 3,
+    "groups": [
+      {
+        "name": "[Deprecated]/Text & icon/on Dark/Primary",
+        "key": "8d1e4095c97d6f8de9740c869fae2aa91b41bd6d",
+        "styleType": "PAINT",
+        "count": 1,
+        "buckets": {
+          "outside": 1
+        },
+        "example": "32508:3373"
+      }
+    ],
+    "collections": [
+      {
+        "id": "VariableCollectionId:1c6e07816c9c7d8423d676736c66af0f797411bb/41872:3468",
+        "name": "Color",
+        "bindings": 24,
+        "variables": 2
+      }
+    ],
+    "primitiveBindings": [],
+    "mixed": [],
+    "errors": []
+  },
+  "staticAudit": {
+    "stats": {
+      "scanned": 48,
+      "alreadyStatic": 0,
+      "overColored": 0
+    },
+    "found": 0,
+    "examples": [],
+    "raw": 0,
+    "unsupportedCount": 0,
+    "unsupported": [],
+    "skipped": []
+  }
+}

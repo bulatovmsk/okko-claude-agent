@@ -1,0 +1,3556 @@
+{
+  "date": "2026-10-19",
+  "fileKey": "sb7SelAF2PBcYZsOxL092c",
+  "pageId": "27605:105244",
+  "initialAudit": {
+    "components": [
+      {
+        "id": "4621:1251",
+        "name": "Neon=False, Детям=False",
+        "light": false,
+        "kids": false
+      },
+      {
+        "id": "4621:1253",
+        "name": "Neon=True, Детям=False",
+        "light": false,
+        "kids": false
+      },
+      {
+        "id": "4621:1263",
+        "name": "Neon=False, Детям=True",
+        "light": false,
+        "kids": true
+      },
+      {
+        "id": "4621:1282",
+        "name": "Раздел=Кино, Светлый фон=False",
+        "light": false,
+        "kids": false
+      },
+      {
+        "id": "4621:1284",
+        "name": "Раздел=Спорт, Светлый фон=False",
+        "light": false,
+        "kids": false
+      },
+      {
+        "id": "14894:176422",
+        "name": "Раздел=Раздел4, Светлый фон=True",
+        "light": true,
+        "kids": false
+      },
+      {
+        "id": "14894:176424",
+        "name": "Раздел=Раздел3, Светлый фон=True",
+        "light": true,
+        "kids": false
+      },
+      {
+        "id": "4621:1292",
+        "name": "Раздел=Кино, Светлый фон=False",
+        "light": false,
+        "kids": false
+      },
+      {
+        "id": "4621:1297",
+        "name": "Раздел=Спорт, Светлый фон=False",
+        "light": false,
+        "kids": false
+      },
+      {
+        "id": "14894:176418",
+        "name": "Раздел=Кино, Светлый фон=True",
+        "light": true,
+        "kids": false
+      },
+      {
+        "id": "14894:176420",
+        "name": "Раздел=Спорт, Светлый фон=True",
+        "light": true,
+        "kids": false
+      },
+      {
+        "id": "4621:1382",
+        "name": "Развернуто=True, Фон=Чёрный",
+        "light": false,
+        "kids": false
+      },
+      {
+        "id": "14894:176343",
+        "name": "Развернуто=True, Фон=Белый",
+        "light": true,
+        "kids": false
+      },
+      {
+        "id": "4621:1385",
+        "name": "Развернуто=False, Фон=Чёрный",
+        "light": false,
+        "kids": false
+      },
+      {
+        "id": "14894:176359",
+        "name": "Развернуто=False, Фон=Белый",
+        "light": true,
+        "kids": false
+      },
+      {
+        "id": "4621:1391",
+        "name": "Светлый фон=False",
+        "light": false,
+        "kids": false
+      },
+      {
+        "id": "4624:77",
+        "name": "Светлый фон=True",
+        "light": true,
+        "kids": false
+      },
+      {
+        "id": "4621:1286",
+        "name": "Светлый фон=False",
+        "light": false,
+        "kids": false
+      },
+      {
+        "id": "4621:2302",
+        "name": "Светлый фон=True",
+        "light": true,
+        "kids": false
+      },
+      {
+        "id": "4621:1289",
+        "name": "Светлый фон=False",
+        "light": false,
+        "kids": false
+      },
+      {
+        "id": "4621:2311",
+        "name": "Светлый фон=True",
+        "light": true,
+        "kids": false
+      },
+      {
+        "id": "10467:81740",
+        "name": ".Футер/1320+/False/True",
+        "light": false,
+        "kids": false
+      },
+      {
+        "id": "10467:82763",
+        "name": ".Футер/320-599/False/True",
+        "light": false,
+        "kids": false
+      },
+      {
+        "id": "10467:82578",
+        "name": ".Футер/960-1319/False/True",
+        "light": false,
+        "kids": false
+      },
+      {
+        "id": "10467:82665",
+        "name": ".Футер/600-959/False/True",
+        "light": false,
+        "kids": false
+      },
+      {
+        "id": "4621:1222",
+        "name": "Разрешение=1720+, Тёмный фон=True, Детский футер=False",
+        "light": false,
+        "kids": false
+      },
+      {
+        "id": "31975:1559",
+        "name": "Разрешение=1720+, Тёмный фон=False, Детский футер=False",
+        "light": true,
+        "kids": false
+      },
+      {
+        "id": "31975:2828",
+        "name": "Разрешение=1320+, Тёмный фон=False, Детский футер=False",
+        "light": true,
+        "kids": false
+      },
+      {
+        "id": "30477:4008",
+        "name": "Разрешение=1320+, Тёмный фон=True, Детский футер=False",
+        "light": false,
+        "kids": false
+      },
+      {
+        "id": "4621:3840",
+        "name": "Разрешение=960-1319, Тёмный фон=True, Детский футер=False",
+        "light": false,
+        "kids": false
+      },
+      {
+        "id": "31975:4599",
+        "name": "Разрешение=960-1319, Тёмный фон=False, Детский футер=False",
+        "light": true,
+        "kids": false
+      },
+      {
+        "id": "4621:4283",
+        "name": "Разрешение=600-959, Тёмный фон=True, Детский футер=False",
+        "light": false,
+        "kids": false
+      },
+      {
+        "id": "31975:4627",
+        "name": "Разрешение=600-959, Тёмный фон=False, Детский футер=False",
+        "light": true,
+        "kids": false
+      },
+      {
+        "id": "4621:4506",
+        "name": "Разрешение=375-599, Тёмный фон=True, Детский футер=False",
+        "light": false,
+        "kids": false
+      },
+      {
+        "id": "31975:4655",
+        "name": "Разрешение=375-599, Тёмный фон=False, Детский футер=False",
+        "light": true,
+        "kids": false
+      },
+      {
+        "id": "30474:20401",
+        "name": "Разрешение=320, Тёмный фон=True, Детский футер=False",
+        "light": false,
+        "kids": false
+      },
+      {
+        "id": "31975:4682",
+        "name": "Разрешение=320, Тёмный фон=False, Детский футер=False",
+        "light": true,
+        "kids": false
+      },
+      {
+        "id": "4621:1266",
+        "name": "Фон=Чёрный, Разрешение=Desktop",
+        "light": false,
+        "kids": false
+      },
+      {
+        "id": "14894:176404",
+        "name": "Фон=Белый, Разрешение=Desktop",
+        "light": true,
+        "kids": false
+      },
+      {
+        "id": "4621:2172",
+        "name": "Фон=Чёрный, Разрешение=Tablet",
+        "light": false,
+        "kids": false
+      },
+      {
+        "id": "14894:176389",
+        "name": "Фон=Белый, Разрешение=Tablet",
+        "light": true,
+        "kids": false
+      }
+    ],
+    "page": "Footer",
+    "nodeCount": 2863,
+    "rootCount": 22,
+    "groups": [
+      {
+        "kind": "style",
+        "id": "S:ff3be08bcfccaeec3fb5e3ec38e54759e7174f7b,39850:8",
+        "count": 2,
+        "buckets": {
+          "own": 2
+        },
+        "examples": [
+          {
+            "id": "4621:1254",
+            "name": "Ellipse 2",
+            "field": "fills",
+            "master": "4621:1253",
+            "masterName": "Neon=True, Детям=False"
+          },
+          {
+            "id": "4621:1255",
+            "name": "Ellipse 1",
+            "field": "fills",
+            "master": "4621:1253",
+            "masterName": "Neon=True, Детям=False"
+          }
+        ],
+        "name": "[Deprecated]/Background/Decorative/Primary",
+        "key": "ff3be08bcfccaeec3fb5e3ec38e54759e7174f7b"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:f726b5e6a18952670ca687b36d8d05bf2bd82bce/39850:96",
+        "count": 2,
+        "buckets": {
+          "own": 2
+        },
+        "examples": [
+          {
+            "id": "4621:1254",
+            "name": "Ellipse 2",
+            "field": "fills",
+            "master": "4621:1253",
+            "masterName": "Neon=True, Детям=False",
+            "i": 0
+          },
+          {
+            "id": "4621:1255",
+            "name": "Ellipse 1",
+            "field": "fills",
+            "master": "4621:1253",
+            "masterName": "Neon=True, Детям=False",
+            "i": 0
+          }
+        ],
+        "name": "primitives/electric1100",
+        "key": "f726b5e6a18952670ca687b36d8d05bf2bd82bce",
+        "collection": "VariableCollectionId:9bfe8dde6e700cc0754156917935eea46ac309ee/32016:4307"
+      },
+      {
+        "kind": "style",
+        "id": "S:8bdf49918db94d14995a8fa56da109512a09d02e,10968:25",
+        "count": 1,
+        "buckets": {
+          "own": 1
+        },
+        "examples": [
+          {
+            "id": "4621:1262",
+            "name": "Rectangle 244",
+            "field": "fills",
+            "master": "4621:1253",
+            "masterName": "Neon=True, Детям=False"
+          }
+        ],
+        "name": "Primitives/Blueberry/Dark blueberry 100",
+        "key": "8bdf49918db94d14995a8fa56da109512a09d02e"
+      },
+      {
+        "kind": "style",
+        "id": "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3",
+        "count": 97,
+        "buckets": {
+          "outside": 2,
+          "instance": 33,
+          "light": 62
+        },
+        "examples": [
+          {
+            "id": "6585:39435",
+            "name": "Vector",
+            "field": "region0"
+          },
+          {
+            "id": "6585:39435",
+            "name": "Vector",
+            "field": "region1"
+          }
+        ],
+        "name": "[Deprecated]/Text & icon/on Dark/Primary",
+        "key": "8d1e4095c97d6f8de9740c869fae2aa91b41bd6d"
+      },
+      {
+        "kind": "style",
+        "id": "S:13f1e41467f7c536b0c0f5e60463105cc260c9d4,32110:54",
+        "count": 283,
+        "buckets": {
+          "light": 257,
+          "instance": 26
+        },
+        "examples": [
+          {
+            "id": "14894:176423",
+            "name": "© 2020 ООО «Окко» 18+ Общероссийские каналы доступны для бесплатного просмотра круглосуточно",
+            "field": "fills",
+            "master": "14894:176422",
+            "masterName": "Раздел=Раздел4, Светлый фон=True",
+            "light": true
+          },
+          {
+            "id": "14894:176425",
+            "name": "Сервис Окко Спорт 18+ СМИ «OKKO Sport» Свидетельство о регистрации СМИ ЭЛ № ФС 77 - 76813 от 16.09.2019 Общероссийские каналы доступны для бесплатного просмотра круглосуточно",
+            "field": "fills",
+            "master": "14894:176424",
+            "masterName": "Раздел=Раздел3, Светлый фон=True",
+            "light": true
+          }
+        ],
+        "name": "[Deprecated]/Text & icon/on Light/Third",
+        "key": "13f1e41467f7c536b0c0f5e60463105cc260c9d4"
+      },
+      {
+        "kind": "style",
+        "id": "S:f89742b6887c24e9491e35659021bf8e090a258a,11494:59",
+        "count": 102,
+        "buckets": {
+          "instance": 48,
+          "light": 52,
+          "outside": 2
+        },
+        "examples": [
+          {
+            "id": "I4621:2174;4621:2190;33124:6746",
+            "name": "Union",
+            "field": "fills",
+            "master": "4621:1382",
+            "masterName": "Развернуто=True, Фон=Чёрный",
+            "instance": "I4621:2174;4621:2190"
+          },
+          {
+            "id": "I4621:2214;4621:2190;33124:6745",
+            "name": "Union",
+            "field": "fills",
+            "master": "4621:1385",
+            "masterName": "Развернуто=False, Фон=Чёрный",
+            "instance": "I4621:2214;4621:2190"
+          }
+        ],
+        "name": "Text & icon/on Dark/Primary",
+        "key": "f89742b6887c24e9491e35659021bf8e090a258a"
+      },
+      {
+        "kind": "style",
+        "id": "S:1082d45b02cee1ebf04885f304cfa0cae2c2bbc3,32110:6",
+        "count": 26,
+        "buckets": {
+          "light": 18,
+          "own": 8
+        },
+        "examples": [
+          {
+            "id": "14894:176344",
+            "name": "Rectangle 243",
+            "field": "fills",
+            "master": "14894:176343",
+            "masterName": "Развернуто=True, Фон=Белый",
+            "light": true
+          },
+          {
+            "id": "14894:176360",
+            "name": "Rectangle 243",
+            "field": "fills",
+            "master": "14894:176359",
+            "masterName": "Развернуто=False, Фон=Белый",
+            "light": true
+          }
+        ],
+        "name": "[Deprecated]/Border/Glassy",
+        "key": "1082d45b02cee1ebf04885f304cfa0cae2c2bbc3"
+      },
+      {
+        "kind": "style",
+        "id": "S:4e8ca772b49d5b02391ce1d8bbac531eae429f25,32110:52",
+        "count": 134,
+        "buckets": {
+          "light": 128,
+          "instance": 6
+        },
+        "examples": [
+          {
+            "id": "I14894:176345;4621:1268",
+            "name": "Заголовок",
+            "field": "fills",
+            "master": "14894:176343",
+            "masterName": "Развернуто=True, Фон=Белый",
+            "light": true,
+            "instance": "14894:176345"
+          },
+          {
+            "id": "I14894:176345;4621:2190;33124:6746",
+            "name": "Union",
+            "field": "fills",
+            "master": "14894:176343",
+            "masterName": "Развернуто=True, Фон=Белый",
+            "light": true,
+            "instance": "I14894:176345;4621:2190"
+          }
+        ],
+        "name": "[Deprecated]/Text & icon/on Light/Primary",
+        "key": "4e8ca772b49d5b02391ce1d8bbac531eae429f25"
+      },
+      {
+        "kind": "style",
+        "id": "S:034ebd7ec8d8e4d45ba92d69b6f9b333aacb4133,11363:29",
+        "count": 1,
+        "buckets": {
+          "instance": 1
+        },
+        "examples": [
+          {
+            "id": "I4621:2214;4621:1268",
+            "name": "Заголовок",
+            "field": "fills",
+            "master": "4621:1385",
+            "masterName": "Развернуто=False, Фон=Чёрный",
+            "instance": "4621:2214"
+          }
+        ],
+        "name": "Primitives/Grey/Primary",
+        "key": "034ebd7ec8d8e4d45ba92d69b6f9b333aacb4133"
+      },
+      {
+        "kind": "style",
+        "id": "S:2d18b315097685552c2b414e160cfdb5b917f5e7,32110:39",
+        "count": 70,
+        "buckets": {
+          "instance": 28,
+          "light": 42
+        },
+        "examples": [
+          {
+            "id": "4621:1288",
+            "name": "Кнопка ссылка / На темном",
+            "field": "fills",
+            "master": "4621:1286",
+            "masterName": "Светлый фон=False",
+            "instance": "4621:1288"
+          },
+          {
+            "id": "I4621:2304;1124:9006",
+            "name": "Кнопка ссылка / На темном",
+            "field": "fills",
+            "master": "4621:2302",
+            "masterName": "Светлый фон=True",
+            "light": true,
+            "instance": "I4621:2304;1124:9006"
+          }
+        ],
+        "name": "[Deprecated]/Fill/Glassy/Third",
+        "key": "2d18b315097685552c2b414e160cfdb5b917f5e7"
+      },
+      {
+        "kind": "style",
+        "id": "S:0f7b602df21889b566056efb403ddb4aead4dede,32110:26",
+        "count": 1,
+        "buckets": {
+          "instance": 1
+        },
+        "examples": [
+          {
+            "id": "I4621:1290;4621:1287",
+            "name": "Пользовательские соглашения",
+            "field": "fills",
+            "master": "4621:1289",
+            "masterName": "Светлый фон=False",
+            "instance": "4621:1290"
+          }
+        ],
+        "name": "[Deprecated]/Text & icon/on Dark/Forth",
+        "key": "0f7b602df21889b566056efb403ddb4aead4dede"
+      },
+      {
+        "kind": "style",
+        "id": "S:ac16386563414ce63f5d1ca74524cba4951046df,32110:27",
+        "count": 16,
+        "buckets": {
+          "instance": 4,
+          "light": 12
+        },
+        "examples": [
+          {
+            "id": "I10467:81186;4622:27304",
+            "name": "Футер",
+            "field": "fills",
+            "master": "10467:81740",
+            "masterName": ".Футер/1320+/False/True",
+            "instance": "I10467:81186;4622:27304"
+          },
+          {
+            "id": "I10467:81931;4623:2",
+            "name": "Футер",
+            "field": "fills",
+            "master": "10467:82763",
+            "masterName": ".Футер/320-599/False/True",
+            "instance": "I10467:81931;4623:2"
+          }
+        ],
+        "name": "[Deprecated]/Background/Solid/Kids",
+        "key": "ac16386563414ce63f5d1ca74524cba4951046df"
+      },
+      {
+        "kind": "style",
+        "id": "S:1082d45b02cee1ebf04885f304cfa0cae2c2bbc3,19450:1",
+        "count": 8,
+        "buckets": {
+          "instance": 5,
+          "light": 3
+        },
+        "examples": [
+          {
+            "id": "I10467:81186;4622:27304;4621:1223",
+            "name": "Rectangle 232",
+            "field": "fills",
+            "master": "10467:81740",
+            "masterName": ".Футер/1320+/False/True",
+            "instance": "I10467:81186;4622:27304"
+          },
+          {
+            "id": "I10467:81931;4623:2;4621:1359",
+            "name": "Rectangle 232",
+            "field": "fills",
+            "master": "10467:82763",
+            "masterName": ".Футер/320-599/False/True",
+            "instance": "I10467:81931;4623:2"
+          }
+        ],
+        "name": "Border/Glassy",
+        "key": "1082d45b02cee1ebf04885f304cfa0cae2c2bbc3"
+      },
+      {
+        "kind": "style",
+        "id": "S:f69acb569715bd3e75f18aa4fe568070118e82b5,10968:5",
+        "count": 3,
+        "buckets": {
+          "instance": 3
+        },
+        "examples": [
+          {
+            "id": "I10467:81186;4622:27304;4621:1227;1741:1550",
+            "name": "Path",
+            "field": "region0",
+            "master": "10467:81740",
+            "masterName": ".Футер/1320+/False/True",
+            "instance": "I10467:81186;4622:27304;4621:1227"
+          },
+          {
+            "id": "I10467:81186;4622:27304;4621:1231;23:1899",
+            "name": "Fill 1",
+            "field": "region0",
+            "master": "10467:81740",
+            "masterName": ".Футер/1320+/False/True",
+            "instance": "I10467:81186;4622:27304;4621:1231"
+          }
+        ],
+        "name": "Primitives/Black/Primary",
+        "key": "f69acb569715bd3e75f18aa4fe568070118e82b5"
+      },
+      {
+        "kind": "style",
+        "id": "S:a8c9f8cdf1edacc21d3ecfae93d08086ae4eb21e,32110:67",
+        "count": 16,
+        "buckets": {
+          "light": 16
+        },
+        "examples": [
+          {
+            "id": "I10467:81186;4622:27304;19906:301886",
+            "name": "_[Deprecated]Button/1720+/light/square/small/primary/true",
+            "field": "fills",
+            "master": "10467:81740",
+            "masterName": ".Футер/1320+/False/True",
+            "instance": "I10467:81186;4622:27304;19906:301886",
+            "light": true
+          },
+          {
+            "id": "I10467:81931;4623:2;19906:302906",
+            "name": "_[Deprecated]Button/320+/light/square/small/primary/true",
+            "field": "fills",
+            "master": "10467:82763",
+            "masterName": ".Футер/320-599/False/True",
+            "instance": "I10467:81931;4623:2;19906:302906",
+            "light": true
+          }
+        ],
+        "name": "[Deprecated]/Fill/Decorative/on Light/Button",
+        "key": "a8c9f8cdf1edacc21d3ecfae93d08086ae4eb21e"
+      },
+      {
+        "kind": "style",
+        "id": "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,19430:0",
+        "count": 4,
+        "buckets": {
+          "light": 4
+        },
+        "examples": [
+          {
+            "id": "I10467:81186;4622:27304;19906:301886;26093:350499;23027:7656",
+            "name": "Union",
+            "field": "region0",
+            "master": "10467:81740",
+            "masterName": ".Футер/1320+/False/True",
+            "instance": "I10467:81186;4622:27304;19906:301886;26093:350499",
+            "light": true
+          },
+          {
+            "id": "I10467:81931;4623:2;19906:302906;26093:350479;23027:7656",
+            "name": "Union",
+            "field": "region0",
+            "master": "10467:82763",
+            "masterName": ".Футер/320-599/False/True",
+            "instance": "I10467:81931;4623:2;19906:302906;26093:350479",
+            "light": true
+          }
+        ],
+        "name": "Text & icon/on Dark/Primary",
+        "key": "8d1e4095c97d6f8de9740c869fae2aa91b41bd6d"
+      },
+      {
+        "kind": "style",
+        "id": "S:4e8ca772b49d5b02391ce1d8bbac531eae429f25,19430:9",
+        "count": 12,
+        "buckets": {
+          "instance": 12
+        },
+        "examples": [
+          {
+            "id": "I10467:81186;4622:27304;4621:2374;4621:1268",
+            "name": "Заголовок",
+            "field": "fills",
+            "master": "10467:81740",
+            "masterName": ".Футер/1320+/False/True",
+            "instance": "I10467:81186;4622:27304;4621:2374"
+          },
+          {
+            "id": "I10467:81186;4622:27304;4621:2852;4621:1268",
+            "name": "Заголовок",
+            "field": "fills",
+            "master": "10467:81740",
+            "masterName": ".Футер/1320+/False/True",
+            "instance": "I10467:81186;4622:27304;4621:2852"
+          }
+        ],
+        "name": "Text & icon/on Light/Primary",
+        "key": "4e8ca772b49d5b02391ce1d8bbac531eae429f25"
+      },
+      {
+        "kind": "style",
+        "id": "S:13f1e41467f7c536b0c0f5e60463105cc260c9d4,19430:11",
+        "count": 17,
+        "buckets": {
+          "instance": 15,
+          "light": 2
+        },
+        "examples": [
+          {
+            "id": "I10467:81186;4622:27304;4621:2374;4621:1271",
+            "name": "Пункт",
+            "field": "fills",
+            "master": "10467:81740",
+            "masterName": ".Футер/1320+/False/True",
+            "instance": "I10467:81186;4622:27304;4621:2374"
+          },
+          {
+            "id": "I10467:81186;4622:27304;4621:2374;4621:1272",
+            "name": "Пункт",
+            "field": "fills",
+            "master": "10467:81740",
+            "masterName": ".Футер/1320+/False/True",
+            "instance": "I10467:81186;4622:27304;4621:2374"
+          }
+        ],
+        "name": "Text & icon/on Light/Third",
+        "key": "13f1e41467f7c536b0c0f5e60463105cc260c9d4"
+      },
+      {
+        "kind": "style",
+        "id": "S:a58b219ba53603c8b26af4e925d7c6fcc41005af,32110:34",
+        "count": 6,
+        "buckets": {
+          "own": 6
+        },
+        "examples": [
+          {
+            "id": "4621:1222",
+            "name": "Разрешение=1720+, Тёмный фон=True, Детский футер=False",
+            "field": "fills",
+            "master": "4621:1222",
+            "masterName": "Разрешение=1720+, Тёмный фон=True, Детский футер=False"
+          },
+          {
+            "id": "30477:4008",
+            "name": "Разрешение=1320+, Тёмный фон=True, Детский футер=False",
+            "field": "fills",
+            "master": "30477:4008",
+            "masterName": "Разрешение=1320+, Тёмный фон=True, Детский футер=False"
+          }
+        ],
+        "name": "[Deprecated]/Background/Solid/Primary",
+        "key": "a58b219ba53603c8b26af4e925d7c6fcc41005af"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:06848edfde485c1730cae5922b1faf29414d2b2b/41943:1614",
+        "count": 6,
+        "buckets": {
+          "instance": 6
+        },
+        "examples": [
+          {
+            "id": "19906:301886",
+            "name": "Button",
+            "field": "fills",
+            "master": "4621:1222",
+            "masterName": "Разрешение=1720+, Тёмный фон=True, Детский футер=False",
+            "instance": "19906:301886",
+            "i": 0,
+            "j": 0
+          },
+          {
+            "id": "30477:4019",
+            "name": "Button",
+            "field": "fills",
+            "master": "30477:4008",
+            "masterName": "Разрешение=1320+, Тёмный фон=True, Детский футер=False",
+            "instance": "30477:4019",
+            "i": 0,
+            "j": 0
+          }
+        ],
+        "name": "gradient/component/button/Step_1",
+        "key": "06848edfde485c1730cae5922b1faf29414d2b2b",
+        "collection": "VariableCollectionId:1c6e07816c9c7d8423d676736c66af0f797411bb/41872:3468"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:ea3767627de70204d9132d4a23bf503eaa965fec/41943:1463",
+        "count": 6,
+        "buckets": {
+          "instance": 6
+        },
+        "examples": [
+          {
+            "id": "19906:301886",
+            "name": "Button",
+            "field": "fills",
+            "master": "4621:1222",
+            "masterName": "Разрешение=1720+, Тёмный фон=True, Детский футер=False",
+            "instance": "19906:301886",
+            "i": 0,
+            "j": 1
+          },
+          {
+            "id": "30477:4019",
+            "name": "Button",
+            "field": "fills",
+            "master": "30477:4008",
+            "masterName": "Разрешение=1320+, Тёмный фон=True, Детский футер=False",
+            "instance": "30477:4019",
+            "i": 0,
+            "j": 1
+          }
+        ],
+        "name": "gradient/component/button/Step_2",
+        "key": "ea3767627de70204d9132d4a23bf503eaa965fec",
+        "collection": "VariableCollectionId:1c6e07816c9c7d8423d676736c66af0f797411bb/41872:3468"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:a165d9776004dd901eb353960d5c202b977650b4/41943:1465",
+        "count": 6,
+        "buckets": {
+          "instance": 6
+        },
+        "examples": [
+          {
+            "id": "19906:301886",
+            "name": "Button",
+            "field": "fills",
+            "master": "4621:1222",
+            "masterName": "Разрешение=1720+, Тёмный фон=True, Детский футер=False",
+            "instance": "19906:301886",
+            "i": 0,
+            "j": 2
+          },
+          {
+            "id": "30477:4019",
+            "name": "Button",
+            "field": "fills",
+            "master": "30477:4008",
+            "masterName": "Разрешение=1320+, Тёмный фон=True, Детский футер=False",
+            "instance": "30477:4019",
+            "i": 0,
+            "j": 2
+          }
+        ],
+        "name": "gradient/component/button/Step_3",
+        "key": "a165d9776004dd901eb353960d5c202b977650b4",
+        "collection": "VariableCollectionId:1c6e07816c9c7d8423d676736c66af0f797411bb/41872:3468"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:83d669f093eb58ab69e1c772dcffd96370ff296a/41943:1616",
+        "count": 6,
+        "buckets": {
+          "instance": 6
+        },
+        "examples": [
+          {
+            "id": "19906:301886",
+            "name": "Button",
+            "field": "fills",
+            "master": "4621:1222",
+            "masterName": "Разрешение=1720+, Тёмный фон=True, Детский футер=False",
+            "instance": "19906:301886",
+            "i": 0,
+            "j": 3
+          },
+          {
+            "id": "30477:4019",
+            "name": "Button",
+            "field": "fills",
+            "master": "30477:4008",
+            "masterName": "Разрешение=1320+, Тёмный фон=True, Детский футер=False",
+            "instance": "30477:4019",
+            "i": 0,
+            "j": 3
+          }
+        ],
+        "name": "gradient/component/button/Step_4",
+        "key": "83d669f093eb58ab69e1c772dcffd96370ff296a",
+        "collection": "VariableCollectionId:1c6e07816c9c7d8423d676736c66af0f797411bb/41872:3468"
+      },
+      {
+        "kind": "style",
+        "id": "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "count": 162,
+        "buckets": {
+          "instance": 108,
+          "light": 52,
+          "own": 2
+        },
+        "examples": [
+          {
+            "id": "I4621:2374;4621:1271",
+            "name": "Пункт",
+            "field": "fills",
+            "master": "4621:1222",
+            "masterName": "Разрешение=1720+, Тёмный фон=True, Детский футер=False",
+            "instance": "4621:2374"
+          },
+          {
+            "id": "I4621:2374;4621:1272",
+            "name": "Пункт",
+            "field": "fills",
+            "master": "4621:1222",
+            "masterName": "Разрешение=1720+, Тёмный фон=True, Детский футер=False",
+            "instance": "4621:2374"
+          }
+        ],
+        "name": "[Deprecated]/Text & icon/on Dark/Third",
+        "key": "7ba87ccc576cd2381aee43f11162db346a88bf6a"
+      }
+    ],
+    "current": [
+      {
+        "kind": "variable",
+        "name": "color/text-icon/primary",
+        "count": 73,
+        "key": "4f21a856bdfc52444ea3e3f62c9f6af53b98e6e5",
+        "id": "VariableID:4f21a856bdfc52444ea3e3f62c9f6af53b98e6e5/41978:2829"
+      },
+      {
+        "kind": "variable",
+        "name": "color/text-icon/third",
+        "count": 232,
+        "key": "5226651ce5a4bdc8084370cb5e6f1fa43510e93a",
+        "id": "VariableID:5226651ce5a4bdc8084370cb5e6f1fa43510e93a/41978:2474"
+      },
+      {
+        "kind": "variable",
+        "name": "color/border/glassy",
+        "count": 20,
+        "key": "9ba2948e527f3f0d7474077b301b59fbb738f00b",
+        "id": "VariableID:9ba2948e527f3f0d7474077b301b59fbb738f00b/41978:2882"
+      },
+      {
+        "kind": "variable",
+        "name": "color/text-icon/fourth",
+        "count": 1,
+        "key": "000c47d50675e1540e094db544a262f14620a755",
+        "id": "VariableID:000c47d50675e1540e094db544a262f14620a755/41700:4"
+      },
+      {
+        "kind": "style",
+        "name": "color/component/button",
+        "count": 6,
+        "key": "946da08d4a2c39b0922904a1293867c37b175fce",
+        "id": "S:946da08d4a2c39b0922904a1293867c37b175fce,41943:1615"
+      },
+      {
+        "kind": "variable",
+        "name": "color/text-icon/inverse/primary",
+        "count": 24,
+        "key": "6a2da19c0b5e6c45ffa29b1fe769bbe31d6db150",
+        "id": "VariableID:6a2da19c0b5e6c45ffa29b1fe769bbe31d6db150/41978:2837"
+      }
+    ],
+    "mixed": [],
+    "errors": []
+  },
+  "finalAudit": {
+    "page": "Footer",
+    "nodeCount": 2863,
+    "rootCount": 22,
+    "groups": [
+      {
+        "kind": "style",
+        "id": "S:ff3be08bcfccaeec3fb5e3ec38e54759e7174f7b,39850:8",
+        "count": 2,
+        "buckets": {
+          "own": 2
+        },
+        "examples": [
+          {
+            "id": "4621:1254",
+            "name": "Ellipse 2",
+            "field": "fills",
+            "master": "4621:1253",
+            "masterName": "Neon=True, Детям=False"
+          },
+          {
+            "id": "4621:1255",
+            "name": "Ellipse 1",
+            "field": "fills",
+            "master": "4621:1253",
+            "masterName": "Neon=True, Детям=False"
+          }
+        ],
+        "name": "[Deprecated]/Background/Decorative/Primary",
+        "key": "ff3be08bcfccaeec3fb5e3ec38e54759e7174f7b"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:f726b5e6a18952670ca687b36d8d05bf2bd82bce/39850:96",
+        "count": 2,
+        "buckets": {
+          "own": 2
+        },
+        "examples": [
+          {
+            "id": "4621:1254",
+            "name": "Ellipse 2",
+            "field": "fills",
+            "master": "4621:1253",
+            "masterName": "Neon=True, Детям=False",
+            "i": 0
+          },
+          {
+            "id": "4621:1255",
+            "name": "Ellipse 1",
+            "field": "fills",
+            "master": "4621:1253",
+            "masterName": "Neon=True, Детям=False",
+            "i": 0
+          }
+        ],
+        "name": "primitives/electric1100",
+        "key": "f726b5e6a18952670ca687b36d8d05bf2bd82bce",
+        "collection": "VariableCollectionId:9bfe8dde6e700cc0754156917935eea46ac309ee/32016:4307"
+      },
+      {
+        "kind": "style",
+        "id": "S:8bdf49918db94d14995a8fa56da109512a09d02e,10968:25",
+        "count": 1,
+        "buckets": {
+          "own": 1
+        },
+        "examples": [
+          {
+            "id": "4621:1262",
+            "name": "Rectangle 244",
+            "field": "fills",
+            "master": "4621:1253",
+            "masterName": "Neon=True, Детям=False"
+          }
+        ],
+        "name": "Primitives/Blueberry/Dark blueberry 100",
+        "key": "8bdf49918db94d14995a8fa56da109512a09d02e"
+      },
+      {
+        "kind": "style",
+        "id": "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3",
+        "count": 22,
+        "buckets": {
+          "outside": 2,
+          "light": 20
+        },
+        "examples": [
+          {
+            "id": "6585:39435",
+            "name": "Vector",
+            "field": "region0"
+          },
+          {
+            "id": "6585:39435",
+            "name": "Vector",
+            "field": "region1"
+          }
+        ],
+        "name": "[Deprecated]/Text & icon/on Dark/Primary",
+        "key": "8d1e4095c97d6f8de9740c869fae2aa91b41bd6d"
+      },
+      {
+        "kind": "style",
+        "id": "S:1082d45b02cee1ebf04885f304cfa0cae2c2bbc3,32110:6",
+        "count": 18,
+        "buckets": {
+          "light": 18
+        },
+        "examples": [
+          {
+            "id": "14894:176344",
+            "name": "Rectangle 243",
+            "field": "fills",
+            "master": "14894:176343",
+            "masterName": "Развернуто=True, Фон=Белый",
+            "light": true
+          },
+          {
+            "id": "14894:176360",
+            "name": "Rectangle 243",
+            "field": "fills",
+            "master": "14894:176359",
+            "masterName": "Развернуто=False, Фон=Белый",
+            "light": true
+          }
+        ],
+        "name": "[Deprecated]/Border/Glassy",
+        "key": "1082d45b02cee1ebf04885f304cfa0cae2c2bbc3"
+      },
+      {
+        "kind": "style",
+        "id": "S:034ebd7ec8d8e4d45ba92d69b6f9b333aacb4133,11363:29",
+        "count": 1,
+        "buckets": {
+          "instance": 1
+        },
+        "examples": [
+          {
+            "id": "I4621:2214;4621:1268",
+            "name": "Заголовок",
+            "field": "fills",
+            "master": "4621:1385",
+            "masterName": "Развернуто=False, Фон=Чёрный",
+            "instance": "4621:2214"
+          }
+        ],
+        "name": "Primitives/Grey/Primary",
+        "key": "034ebd7ec8d8e4d45ba92d69b6f9b333aacb4133"
+      },
+      {
+        "kind": "style",
+        "id": "S:f89742b6887c24e9491e35659021bf8e090a258a,11494:59",
+        "count": 12,
+        "buckets": {
+          "outside": 2,
+          "light": 10
+        },
+        "examples": [
+          {
+            "id": "4621:2157",
+            "name": ".Ячейки",
+            "field": "fills"
+          },
+          {
+            "id": "4621:2158",
+            "name": ".Ресурсы",
+            "field": "fills"
+          }
+        ],
+        "name": "Text & icon/on Dark/Primary",
+        "key": "f89742b6887c24e9491e35659021bf8e090a258a"
+      },
+      {
+        "kind": "style",
+        "id": "S:2d18b315097685552c2b414e160cfdb5b917f5e7,32110:39",
+        "count": 10,
+        "buckets": {
+          "light": 10
+        },
+        "examples": [
+          {
+            "id": "I4621:2304;1124:9006",
+            "name": "Кнопка ссылка / На темном",
+            "field": "fills",
+            "master": "4621:2302",
+            "masterName": "Светлый фон=True",
+            "light": true,
+            "instance": "I4621:2304;1124:9006"
+          },
+          {
+            "id": "I4621:2312;4621:2304;1124:9006",
+            "name": "Кнопка ссылка / На темном",
+            "field": "fills",
+            "master": "4621:2311",
+            "masterName": "Светлый фон=True",
+            "light": true,
+            "instance": "I4621:2312;4621:2304;1124:9006"
+          }
+        ],
+        "name": "[Deprecated]/Fill/Glassy/Third",
+        "key": "2d18b315097685552c2b414e160cfdb5b917f5e7"
+      },
+      {
+        "kind": "style",
+        "id": "S:ac16386563414ce63f5d1ca74524cba4951046df,32110:27",
+        "count": 16,
+        "buckets": {
+          "instance": 4,
+          "light": 12
+        },
+        "examples": [
+          {
+            "id": "I10467:81186;4622:27304",
+            "name": "Футер",
+            "field": "fills",
+            "master": "10467:81740",
+            "masterName": ".Футер/1320+/False/True",
+            "instance": "I10467:81186;4622:27304"
+          },
+          {
+            "id": "I10467:81931;4623:2",
+            "name": "Футер",
+            "field": "fills",
+            "master": "10467:82763",
+            "masterName": ".Футер/320-599/False/True",
+            "instance": "I10467:81931;4623:2"
+          }
+        ],
+        "name": "[Deprecated]/Background/Solid/Kids",
+        "key": "ac16386563414ce63f5d1ca74524cba4951046df"
+      },
+      {
+        "kind": "style",
+        "id": "S:f69acb569715bd3e75f18aa4fe568070118e82b5,10968:5",
+        "count": 3,
+        "buckets": {
+          "instance": 3
+        },
+        "examples": [
+          {
+            "id": "I10467:81186;4622:27304;4621:1227;1741:1550",
+            "name": "Path",
+            "field": "region0",
+            "master": "10467:81740",
+            "masterName": ".Футер/1320+/False/True",
+            "instance": "I10467:81186;4622:27304;4621:1227"
+          },
+          {
+            "id": "I10467:81186;4622:27304;4621:1231;23:1899",
+            "name": "Fill 1",
+            "field": "region0",
+            "master": "10467:81740",
+            "masterName": ".Футер/1320+/False/True",
+            "instance": "I10467:81186;4622:27304;4621:1231"
+          }
+        ],
+        "name": "Primitives/Black/Primary",
+        "key": "f69acb569715bd3e75f18aa4fe568070118e82b5"
+      },
+      {
+        "kind": "style",
+        "id": "S:a8c9f8cdf1edacc21d3ecfae93d08086ae4eb21e,32110:67",
+        "count": 16,
+        "buckets": {
+          "light": 16
+        },
+        "examples": [
+          {
+            "id": "I10467:81186;4622:27304;19906:301886",
+            "name": "_[Deprecated]Button/1720+/light/square/small/primary/true",
+            "field": "fills",
+            "master": "10467:81740",
+            "masterName": ".Футер/1320+/False/True",
+            "instance": "I10467:81186;4622:27304;19906:301886",
+            "light": true
+          },
+          {
+            "id": "I10467:81931;4623:2;19906:302906",
+            "name": "_[Deprecated]Button/320+/light/square/small/primary/true",
+            "field": "fills",
+            "master": "10467:82763",
+            "masterName": ".Футер/320-599/False/True",
+            "instance": "I10467:81931;4623:2;19906:302906",
+            "light": true
+          }
+        ],
+        "name": "[Deprecated]/Fill/Decorative/on Light/Button",
+        "key": "a8c9f8cdf1edacc21d3ecfae93d08086ae4eb21e"
+      },
+      {
+        "kind": "style",
+        "id": "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,19430:0",
+        "count": 4,
+        "buckets": {
+          "light": 4
+        },
+        "examples": [
+          {
+            "id": "I10467:81186;4622:27304;19906:301886;26093:350499;23027:7656",
+            "name": "Union",
+            "field": "region0",
+            "master": "10467:81740",
+            "masterName": ".Футер/1320+/False/True",
+            "instance": "I10467:81186;4622:27304;19906:301886;26093:350499",
+            "light": true
+          },
+          {
+            "id": "I10467:81931;4623:2;19906:302906;26093:350479;23027:7656",
+            "name": "Union",
+            "field": "region0",
+            "master": "10467:82763",
+            "masterName": ".Футер/320-599/False/True",
+            "instance": "I10467:81931;4623:2;19906:302906;26093:350479",
+            "light": true
+          }
+        ],
+        "name": "Text & icon/on Dark/Primary",
+        "key": "8d1e4095c97d6f8de9740c869fae2aa91b41bd6d"
+      },
+      {
+        "kind": "style",
+        "id": "S:1082d45b02cee1ebf04885f304cfa0cae2c2bbc3,19450:1",
+        "count": 3,
+        "buckets": {
+          "light": 3
+        },
+        "examples": [
+          {
+            "id": "I10467:81931;4623:2;4621:4305;14894:176360",
+            "name": "Rectangle 243",
+            "field": "fills",
+            "master": "10467:82763",
+            "masterName": ".Футер/320-599/False/True",
+            "instance": "I10467:81931;4623:2;4621:4305",
+            "light": true
+          },
+          {
+            "id": "I10467:81931;4623:2;4621:4306;14894:176360",
+            "name": "Rectangle 243",
+            "field": "fills",
+            "master": "10467:82763",
+            "masterName": ".Футер/320-599/False/True",
+            "instance": "I10467:81931;4623:2;4621:4306",
+            "light": true
+          }
+        ],
+        "name": "Border/Glassy",
+        "key": "1082d45b02cee1ebf04885f304cfa0cae2c2bbc3"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:06848edfde485c1730cae5922b1faf29414d2b2b/41943:1614",
+        "count": 6,
+        "buckets": {
+          "instance": 6
+        },
+        "examples": [
+          {
+            "id": "19906:301886",
+            "name": "Button",
+            "field": "fills",
+            "master": "4621:1222",
+            "masterName": "Разрешение=1720+, Тёмный фон=True, Детский футер=False",
+            "instance": "19906:301886",
+            "i": 0,
+            "j": 0
+          },
+          {
+            "id": "30477:4019",
+            "name": "Button",
+            "field": "fills",
+            "master": "30477:4008",
+            "masterName": "Разрешение=1320+, Тёмный фон=True, Детский футер=False",
+            "instance": "30477:4019",
+            "i": 0,
+            "j": 0
+          }
+        ],
+        "name": "gradient/component/button/Step_1",
+        "key": "06848edfde485c1730cae5922b1faf29414d2b2b",
+        "collection": "VariableCollectionId:1c6e07816c9c7d8423d676736c66af0f797411bb/41872:3468"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:ea3767627de70204d9132d4a23bf503eaa965fec/41943:1463",
+        "count": 6,
+        "buckets": {
+          "instance": 6
+        },
+        "examples": [
+          {
+            "id": "19906:301886",
+            "name": "Button",
+            "field": "fills",
+            "master": "4621:1222",
+            "masterName": "Разрешение=1720+, Тёмный фон=True, Детский футер=False",
+            "instance": "19906:301886",
+            "i": 0,
+            "j": 1
+          },
+          {
+            "id": "30477:4019",
+            "name": "Button",
+            "field": "fills",
+            "master": "30477:4008",
+            "masterName": "Разрешение=1320+, Тёмный фон=True, Детский футер=False",
+            "instance": "30477:4019",
+            "i": 0,
+            "j": 1
+          }
+        ],
+        "name": "gradient/component/button/Step_2",
+        "key": "ea3767627de70204d9132d4a23bf503eaa965fec",
+        "collection": "VariableCollectionId:1c6e07816c9c7d8423d676736c66af0f797411bb/41872:3468"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:a165d9776004dd901eb353960d5c202b977650b4/41943:1465",
+        "count": 6,
+        "buckets": {
+          "instance": 6
+        },
+        "examples": [
+          {
+            "id": "19906:301886",
+            "name": "Button",
+            "field": "fills",
+            "master": "4621:1222",
+            "masterName": "Разрешение=1720+, Тёмный фон=True, Детский футер=False",
+            "instance": "19906:301886",
+            "i": 0,
+            "j": 2
+          },
+          {
+            "id": "30477:4019",
+            "name": "Button",
+            "field": "fills",
+            "master": "30477:4008",
+            "masterName": "Разрешение=1320+, Тёмный фон=True, Детский футер=False",
+            "instance": "30477:4019",
+            "i": 0,
+            "j": 2
+          }
+        ],
+        "name": "gradient/component/button/Step_3",
+        "key": "a165d9776004dd901eb353960d5c202b977650b4",
+        "collection": "VariableCollectionId:1c6e07816c9c7d8423d676736c66af0f797411bb/41872:3468"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:83d669f093eb58ab69e1c772dcffd96370ff296a/41943:1616",
+        "count": 6,
+        "buckets": {
+          "instance": 6
+        },
+        "examples": [
+          {
+            "id": "19906:301886",
+            "name": "Button",
+            "field": "fills",
+            "master": "4621:1222",
+            "masterName": "Разрешение=1720+, Тёмный фон=True, Детский футер=False",
+            "instance": "19906:301886",
+            "i": 0,
+            "j": 3
+          },
+          {
+            "id": "30477:4019",
+            "name": "Button",
+            "field": "fills",
+            "master": "30477:4008",
+            "masterName": "Разрешение=1320+, Тёмный фон=True, Детский футер=False",
+            "instance": "30477:4019",
+            "i": 0,
+            "j": 3
+          }
+        ],
+        "name": "gradient/component/button/Step_4",
+        "key": "83d669f093eb58ab69e1c772dcffd96370ff296a",
+        "collection": "VariableCollectionId:1c6e07816c9c7d8423d676736c66af0f797411bb/41872:3468"
+      },
+      {
+        "kind": "style",
+        "id": "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "count": 52,
+        "buckets": {
+          "light": 52
+        },
+        "examples": [
+          {
+            "id": "I31975:4610;4621:1274",
+            "name": "Пункт",
+            "field": "fills",
+            "master": "31975:4599",
+            "masterName": "Разрешение=960-1319, Тёмный фон=False, Детский футер=False",
+            "light": true,
+            "instance": "31975:4610"
+          },
+          {
+            "id": "I31975:4610;4621:1275",
+            "name": "Пункт",
+            "field": "fills",
+            "master": "31975:4599",
+            "masterName": "Разрешение=960-1319, Тёмный фон=False, Детский футер=False",
+            "light": true,
+            "instance": "31975:4610"
+          }
+        ],
+        "name": "[Deprecated]/Text & icon/on Dark/Third",
+        "key": "7ba87ccc576cd2381aee43f11162db346a88bf6a"
+      }
+    ],
+    "current": [
+      {
+        "kind": "variable",
+        "name": "color/text-icon/primary",
+        "count": 238,
+        "key": "4f21a856bdfc52444ea3e3f62c9f6af53b98e6e5",
+        "id": "VariableID:4f21a856bdfc52444ea3e3f62c9f6af53b98e6e5/41978:2829"
+      },
+      {
+        "kind": "variable",
+        "name": "color/text-icon/third",
+        "count": 342,
+        "key": "5226651ce5a4bdc8084370cb5e6f1fa43510e93a",
+        "id": "VariableID:5226651ce5a4bdc8084370cb5e6f1fa43510e93a/41978:2474"
+      },
+      {
+        "kind": "variable",
+        "name": "color/text-icon/inverse/third",
+        "count": 300,
+        "key": "181cb53d171bbdcc3c457f9e7b17f0a0dc8035f7",
+        "id": "VariableID:181cb53d171bbdcc3c457f9e7b17f0a0dc8035f7/41978:2846"
+      },
+      {
+        "kind": "variable",
+        "name": "color/border/glassy",
+        "count": 33,
+        "key": "9ba2948e527f3f0d7474077b301b59fbb738f00b",
+        "id": "VariableID:9ba2948e527f3f0d7474077b301b59fbb738f00b/41978:2882"
+      },
+      {
+        "kind": "variable",
+        "name": "color/text-icon/inverse/primary",
+        "count": 170,
+        "key": "6a2da19c0b5e6c45ffa29b1fe769bbe31d6db150",
+        "id": "VariableID:6a2da19c0b5e6c45ffa29b1fe769bbe31d6db150/41978:2837"
+      },
+      {
+        "kind": "variable",
+        "name": "color/text-icon/fourth",
+        "count": 1,
+        "key": "000c47d50675e1540e094db544a262f14620a755",
+        "id": "VariableID:000c47d50675e1540e094db544a262f14620a755/41700:4"
+      },
+      {
+        "kind": "variable",
+        "name": "color/fill/glassy/third",
+        "count": 60,
+        "key": "9ad3109750be6a714a2a1dd028605b0a23221f4b",
+        "id": "VariableID:9ad3109750be6a714a2a1dd028605b0a23221f4b/41978:2855"
+      },
+      {
+        "kind": "variable",
+        "name": "color/text-icon/fourth",
+        "count": 1,
+        "key": "000c47d50675e1540e094db544a262f14620a755",
+        "id": "VariableID:000c47d50675e1540e094db544a262f14620a755/41978:2831"
+      },
+      {
+        "kind": "variable",
+        "name": "color/background/solid/primary",
+        "count": 6,
+        "key": "22b40d9806162a614c8e6016efdcbbb696e83436",
+        "id": "VariableID:22b40d9806162a614c8e6016efdcbbb696e83436/41872:3503"
+      },
+      {
+        "kind": "style",
+        "name": "color/component/button",
+        "count": 6,
+        "key": "946da08d4a2c39b0922904a1293867c37b175fce",
+        "id": "S:946da08d4a2c39b0922904a1293867c37b175fce,41943:1615"
+      }
+    ],
+    "mixed": [],
+    "errors": []
+  },
+  "remaining": {
+    "total": 2863,
+    "roots": [
+      "4621:1250",
+      "6585:39434",
+      "4621:1281",
+      "4621:1291",
+      "4621:1381",
+      "4621:1388",
+      "4621:2157",
+      "4621:2158",
+      "4621:2301",
+      "4621:2310",
+      "10467:81740",
+      "10467:82763",
+      "10467:82578",
+      "10467:82665",
+      "11074:98288",
+      "37416:83341",
+      "37416:83342",
+      "37416:83343",
+      "37416:83344",
+      "37416:83345",
+      "37416:83346",
+      "14894:176388"
+    ],
+    "keys": [
+      "ff3be08bcfccaeec3fb5e3ec38e54759e7174f7b",
+      "8bdf49918db94d14995a8fa56da109512a09d02e",
+      "8d1e4095c97d6f8de9740c869fae2aa91b41bd6d",
+      "1082d45b02cee1ebf04885f304cfa0cae2c2bbc3",
+      "034ebd7ec8d8e4d45ba92d69b6f9b333aacb4133",
+      "f89742b6887c24e9491e35659021bf8e090a258a",
+      "2d18b315097685552c2b414e160cfdb5b917f5e7",
+      "ac16386563414ce63f5d1ca74524cba4951046df",
+      "f69acb569715bd3e75f18aa4fe568070118e82b5",
+      "a8c9f8cdf1edacc21d3ecfae93d08086ae4eb21e",
+      "7ba87ccc576cd2381aee43f11162db346a88bf6a"
+    ],
+    "rows": [
+      [
+        "4621:1254",
+        "fills",
+        0,
+        "4621:1253",
+        null,
+        0,
+        0
+      ],
+      [
+        "4621:1255",
+        "fills",
+        0,
+        "4621:1253",
+        null,
+        0,
+        0
+      ],
+      [
+        "4621:1262",
+        "fills",
+        1,
+        "4621:1253",
+        null,
+        0,
+        0
+      ],
+      [
+        "6585:39435",
+        "region0",
+        2,
+        null,
+        null,
+        0,
+        0
+      ],
+      [
+        "6585:39435",
+        "region1",
+        2,
+        null,
+        null,
+        0,
+        0
+      ],
+      [
+        "14894:176344",
+        "fills",
+        3,
+        "14894:176343",
+        null,
+        1,
+        0
+      ],
+      [
+        "I4621:2214;4621:1268",
+        "fills",
+        4,
+        "4621:1385",
+        "4621:2214",
+        0,
+        0
+      ],
+      [
+        "14894:176360",
+        "fills",
+        3,
+        "14894:176359",
+        null,
+        1,
+        0
+      ],
+      [
+        "4621:2157",
+        "fills",
+        5,
+        null,
+        null,
+        0,
+        0
+      ],
+      [
+        "4621:2158",
+        "fills",
+        5,
+        null,
+        null,
+        0,
+        0
+      ],
+      [
+        "I4621:2304;1124:9006",
+        "fills",
+        6,
+        "4621:2302",
+        "I4621:2304;1124:9006",
+        1,
+        0
+      ],
+      [
+        "I4621:2312;4621:2304;1124:9006",
+        "fills",
+        6,
+        "4621:2311",
+        "I4621:2312;4621:2304;1124:9006",
+        1,
+        0
+      ],
+      [
+        "I10467:81186;4622:27304",
+        "fills",
+        7,
+        "10467:81740",
+        "I10467:81186;4622:27304",
+        0,
+        0
+      ],
+      [
+        "I10467:81186;4622:27304;4621:1227;1741:1550",
+        "region0",
+        8,
+        "10467:81740",
+        "I10467:81186;4622:27304;4621:1227",
+        0,
+        0
+      ],
+      [
+        "I10467:81186;4622:27304;4621:1231;23:1899",
+        "region0",
+        8,
+        "10467:81740",
+        "I10467:81186;4622:27304;4621:1231",
+        0,
+        0
+      ],
+      [
+        "I10467:81186;4622:27304;4621:1233;23:1932",
+        "region0",
+        8,
+        "10467:81740",
+        "I10467:81186;4622:27304;4621:1233",
+        0,
+        0
+      ],
+      [
+        "I10467:81186;4622:27304;19906:301886",
+        "fills",
+        9,
+        "10467:81740",
+        "I10467:81186;4622:27304;19906:301886",
+        1,
+        0
+      ],
+      [
+        "I10467:81186;4622:27304;19906:301886;26093:350499;23027:7656",
+        "region0",
+        2,
+        "10467:81740",
+        "I10467:81186;4622:27304;19906:301886;26093:350499",
+        1,
+        0
+      ],
+      [
+        "I10467:81186;4622:27304;19906:301886;26093:350500",
+        "fills",
+        2,
+        "10467:81740",
+        "I10467:81186;4622:27304;19906:301886",
+        1,
+        0
+      ],
+      [
+        "I10467:81186;4622:27304;4621:1244;4621:2304;1124:9006",
+        "fills",
+        6,
+        "10467:81740",
+        "I10467:81186;4622:27304;4621:1244;4621:2304;1124:9006",
+        1,
+        0
+      ],
+      [
+        "I10467:81186;4622:27304;4621:1245;4621:2304;1124:9006",
+        "fills",
+        6,
+        "10467:81740",
+        "I10467:81186;4622:27304;4621:1245;4621:2304;1124:9006",
+        1,
+        0
+      ],
+      [
+        "I10467:81931;4623:2",
+        "fills",
+        7,
+        "10467:82763",
+        "I10467:81931;4623:2",
+        0,
+        0
+      ],
+      [
+        "I10467:81931;4623:2;19906:302906",
+        "fills",
+        9,
+        "10467:82763",
+        "I10467:81931;4623:2;19906:302906",
+        1,
+        0
+      ],
+      [
+        "I10467:81931;4623:2;19906:302906;26093:350479;23027:7656",
+        "region0",
+        2,
+        "10467:82763",
+        "I10467:81931;4623:2;19906:302906;26093:350479",
+        1,
+        0
+      ],
+      [
+        "I10467:81931;4623:2;19906:302906;26093:350480",
+        "fills",
+        2,
+        "10467:82763",
+        "I10467:81931;4623:2;19906:302906",
+        1,
+        0
+      ],
+      [
+        "I10467:81931;4623:2;4621:4305;14894:176360",
+        "fills",
+        3,
+        "10467:82763",
+        "I10467:81931;4623:2;4621:4305",
+        1,
+        0
+      ],
+      [
+        "I10467:81931;4623:2;4621:4306;14894:176360",
+        "fills",
+        3,
+        "10467:82763",
+        "I10467:81931;4623:2;4621:4306",
+        1,
+        0
+      ],
+      [
+        "I10467:81931;4623:2;4621:4307;14894:176360",
+        "fills",
+        3,
+        "10467:82763",
+        "I10467:81931;4623:2;4621:4307",
+        1,
+        0
+      ],
+      [
+        "I10467:81931;4623:2;4621:4455;4621:2312;4621:2304;1124:9006",
+        "fills",
+        6,
+        "10467:82763",
+        "I10467:81931;4623:2;4621:4455;4621:2312;4621:2304;1124:9006",
+        1,
+        0
+      ],
+      [
+        "I10467:81931;4623:2;4621:4456;4621:2312;4621:2304;1124:9006",
+        "fills",
+        6,
+        "10467:82763",
+        "I10467:81931;4623:2;4621:4456;4621:2312;4621:2304;1124:9006",
+        1,
+        0
+      ],
+      [
+        "I10467:81929;4623:1;4623:0",
+        "fills",
+        7,
+        "10467:82578",
+        "I10467:81929;4623:1;4623:0",
+        0,
+        0
+      ],
+      [
+        "I10467:81929;4623:1;4623:0;19906:302510",
+        "fills",
+        9,
+        "10467:82578",
+        "I10467:81929;4623:1;4623:0;19906:302510",
+        1,
+        0
+      ],
+      [
+        "I10467:81929;4623:1;4623:0;19906:302510;26093:350787;23027:7656",
+        "region0",
+        2,
+        "10467:82578",
+        "I10467:81929;4623:1;4623:0;19906:302510;26093:350787",
+        1,
+        0
+      ],
+      [
+        "I10467:81929;4623:1;4623:0;19906:302510;26093:350788",
+        "fills",
+        2,
+        "10467:82578",
+        "I10467:81929;4623:1;4623:0;19906:302510",
+        1,
+        0
+      ],
+      [
+        "I10467:81929;4623:1;4623:0;4621:3740;14894:176407;33124:6745",
+        "fills",
+        5,
+        "10467:82578",
+        "I10467:81929;4623:1;4623:0;4621:3740;14894:176407",
+        1,
+        0
+      ],
+      [
+        "I10467:81929;4623:1;4623:0;4621:3741;14894:176407;33124:6745",
+        "fills",
+        5,
+        "10467:82578",
+        "I10467:81929;4623:1;4623:0;4621:3741;14894:176407",
+        1,
+        0
+      ],
+      [
+        "I10467:81929;4623:1;4623:0;4621:3742;14894:176407;33124:6745",
+        "fills",
+        5,
+        "10467:82578",
+        "I10467:81929;4623:1;4623:0;4621:3742;14894:176407",
+        1,
+        0
+      ],
+      [
+        "I10467:81930;4623:1",
+        "fills",
+        7,
+        "10467:82665",
+        "I10467:81930;4623:1",
+        0,
+        0
+      ],
+      [
+        "I10467:81930;4623:1;19906:302717",
+        "fills",
+        9,
+        "10467:82665",
+        "I10467:81930;4623:1;19906:302717",
+        1,
+        0
+      ],
+      [
+        "I10467:81930;4623:1;19906:302717;26093:350787;23027:7656",
+        "region0",
+        2,
+        "10467:82665",
+        "I10467:81930;4623:1;19906:302717;26093:350787",
+        1,
+        0
+      ],
+      [
+        "I10467:81930;4623:1;19906:302717;26093:350788",
+        "fills",
+        2,
+        "10467:82665",
+        "I10467:81930;4623:1;19906:302717",
+        1,
+        0
+      ],
+      [
+        "31975:1559",
+        "fills",
+        7,
+        "31975:1559",
+        null,
+        1,
+        0
+      ],
+      [
+        "31975:1561",
+        "fills",
+        3,
+        "31975:1559",
+        null,
+        1,
+        0
+      ],
+      [
+        "31975:1570",
+        "fills",
+        9,
+        "31975:1559",
+        "31975:1570",
+        1,
+        0
+      ],
+      [
+        "31975:2828",
+        "fills",
+        7,
+        "31975:2828",
+        null,
+        1,
+        0
+      ],
+      [
+        "31975:2830",
+        "fills",
+        3,
+        "31975:2828",
+        null,
+        1,
+        0
+      ],
+      [
+        "31975:2839",
+        "fills",
+        9,
+        "31975:2828",
+        "31975:2839",
+        1,
+        0
+      ],
+      [
+        "31975:4599",
+        "fills",
+        7,
+        "31975:4599",
+        null,
+        1,
+        0
+      ],
+      [
+        "31975:4600",
+        "fills",
+        3,
+        "31975:4599",
+        null,
+        1,
+        0
+      ],
+      [
+        "31975:4608",
+        "fills",
+        9,
+        "31975:4599",
+        "31975:4608",
+        1,
+        0
+      ],
+      [
+        "I31975:4608;26093:350782;33124:6731",
+        "fills",
+        2,
+        "31975:4599",
+        "I31975:4608;26093:350782",
+        1,
+        0
+      ],
+      [
+        "I31975:4608;26093:350783",
+        "fills",
+        2,
+        "31975:4599",
+        "31975:4608",
+        1,
+        0
+      ],
+      [
+        "I31975:4610;4621:2190",
+        "fills",
+        5,
+        "31975:4599",
+        "I31975:4610;4621:2190",
+        1,
+        0
+      ],
+      [
+        "I31975:4610;4621:1274",
+        "fills",
+        10,
+        "31975:4599",
+        "31975:4610",
+        1,
+        0
+      ],
+      [
+        "I31975:4610;4621:1275",
+        "fills",
+        10,
+        "31975:4599",
+        "31975:4610",
+        1,
+        0
+      ],
+      [
+        "I31975:4610;4621:1277",
+        "fills",
+        10,
+        "31975:4599",
+        "31975:4610",
+        1,
+        0
+      ],
+      [
+        "I31975:4610;4621:1278",
+        "fills",
+        10,
+        "31975:4599",
+        "31975:4610",
+        1,
+        0
+      ],
+      [
+        "I31975:4611;4621:2190",
+        "fills",
+        5,
+        "31975:4599",
+        "I31975:4611;4621:2190",
+        1,
+        0
+      ],
+      [
+        "I31975:4611;4621:1275",
+        "fills",
+        10,
+        "31975:4599",
+        "31975:4611",
+        1,
+        0
+      ],
+      [
+        "I31975:4611;4621:1276",
+        "fills",
+        10,
+        "31975:4599",
+        "31975:4611",
+        1,
+        0
+      ],
+      [
+        "I31975:4611;4621:1277",
+        "fills",
+        10,
+        "31975:4599",
+        "31975:4611",
+        1,
+        0
+      ],
+      [
+        "I31975:4611;4621:1278",
+        "fills",
+        10,
+        "31975:4599",
+        "31975:4611",
+        1,
+        0
+      ],
+      [
+        "I31975:4612;4621:2190",
+        "fills",
+        5,
+        "31975:4599",
+        "I31975:4612;4621:2190",
+        1,
+        0
+      ],
+      [
+        "I31975:4612;4621:1272",
+        "fills",
+        10,
+        "31975:4599",
+        "31975:4612",
+        1,
+        0
+      ],
+      [
+        "I31975:4612;4621:1273",
+        "fills",
+        10,
+        "31975:4599",
+        "31975:4612",
+        1,
+        0
+      ],
+      [
+        "I31975:4612;4621:1275",
+        "fills",
+        10,
+        "31975:4599",
+        "31975:4612",
+        1,
+        0
+      ],
+      [
+        "I31975:4612;4621:1276",
+        "fills",
+        10,
+        "31975:4599",
+        "31975:4612",
+        1,
+        0
+      ],
+      [
+        "I31975:4612;4621:1277",
+        "fills",
+        10,
+        "31975:4599",
+        "31975:4612",
+        1,
+        0
+      ],
+      [
+        "I31975:4612;4621:1278",
+        "fills",
+        10,
+        "31975:4599",
+        "31975:4612",
+        1,
+        0
+      ],
+      [
+        "31975:4627",
+        "fills",
+        7,
+        "31975:4627",
+        null,
+        1,
+        0
+      ],
+      [
+        "31975:4628",
+        "fills",
+        3,
+        "31975:4627",
+        null,
+        1,
+        0
+      ],
+      [
+        "31975:4636",
+        "fills",
+        9,
+        "31975:4627",
+        "31975:4636",
+        1,
+        0
+      ],
+      [
+        "I31975:4636;26093:350782;33124:6731",
+        "fills",
+        2,
+        "31975:4627",
+        "I31975:4636;26093:350782",
+        1,
+        0
+      ],
+      [
+        "I31975:4636;26093:350783",
+        "fills",
+        2,
+        "31975:4627",
+        "31975:4636",
+        1,
+        0
+      ],
+      [
+        "I31975:4638;4621:2159;4621:1277",
+        "fills",
+        10,
+        "31975:4627",
+        "I31975:4638;4621:2159",
+        1,
+        0
+      ],
+      [
+        "I31975:4638;4621:2159;4621:1278",
+        "fills",
+        10,
+        "31975:4627",
+        "I31975:4638;4621:2159",
+        1,
+        0
+      ],
+      [
+        "I31975:4639;4621:2159;4621:1275",
+        "fills",
+        10,
+        "31975:4627",
+        "I31975:4639;4621:2159",
+        1,
+        0
+      ],
+      [
+        "I31975:4639;4621:2159;4621:1276",
+        "fills",
+        10,
+        "31975:4627",
+        "I31975:4639;4621:2159",
+        1,
+        0
+      ],
+      [
+        "I31975:4639;4621:2159;4621:1277",
+        "fills",
+        10,
+        "31975:4627",
+        "I31975:4639;4621:2159",
+        1,
+        0
+      ],
+      [
+        "I31975:4639;4621:2159;4621:1278",
+        "fills",
+        10,
+        "31975:4627",
+        "I31975:4639;4621:2159",
+        1,
+        0
+      ],
+      [
+        "I31975:4640;4621:2159;4621:1272",
+        "fills",
+        10,
+        "31975:4627",
+        "I31975:4640;4621:2159",
+        1,
+        0
+      ],
+      [
+        "I31975:4640;4621:2159;4621:1273",
+        "fills",
+        10,
+        "31975:4627",
+        "I31975:4640;4621:2159",
+        1,
+        0
+      ],
+      [
+        "I31975:4640;4621:2159;4621:1275",
+        "fills",
+        10,
+        "31975:4627",
+        "I31975:4640;4621:2159",
+        1,
+        0
+      ],
+      [
+        "I31975:4640;4621:2159;4621:1276",
+        "fills",
+        10,
+        "31975:4627",
+        "I31975:4640;4621:2159",
+        1,
+        0
+      ],
+      [
+        "I31975:4640;4621:2159;4621:1277",
+        "fills",
+        10,
+        "31975:4627",
+        "I31975:4640;4621:2159",
+        1,
+        0
+      ],
+      [
+        "I31975:4640;4621:2159;4621:1278",
+        "fills",
+        10,
+        "31975:4627",
+        "I31975:4640;4621:2159",
+        1,
+        0
+      ],
+      [
+        "31975:4655",
+        "fills",
+        7,
+        "31975:4655",
+        null,
+        1,
+        0
+      ],
+      [
+        "31975:4656",
+        "fills",
+        3,
+        "31975:4655",
+        null,
+        1,
+        0
+      ],
+      [
+        "31975:4664",
+        "fills",
+        9,
+        "31975:4655",
+        "31975:4664",
+        1,
+        0
+      ],
+      [
+        "I31975:4664;26093:350474;33124:6731",
+        "fills",
+        2,
+        "31975:4655",
+        "I31975:4664;26093:350474",
+        1,
+        0
+      ],
+      [
+        "I31975:4664;26093:350475",
+        "fills",
+        2,
+        "31975:4655",
+        "31975:4664",
+        1,
+        0
+      ],
+      [
+        "31975:4669",
+        "fills",
+        3,
+        "31975:4655",
+        null,
+        1,
+        0
+      ],
+      [
+        "31975:4678",
+        "fills",
+        6,
+        "31975:4655",
+        "31975:4678",
+        1,
+        0
+      ],
+      [
+        "31975:4682",
+        "fills",
+        7,
+        "31975:4682",
+        null,
+        1,
+        0
+      ],
+      [
+        "31975:4683",
+        "fills",
+        3,
+        "31975:4682",
+        null,
+        1,
+        0
+      ],
+      [
+        "31975:4691",
+        "fills",
+        9,
+        "31975:4682",
+        "31975:4691",
+        1,
+        0
+      ],
+      [
+        "I31975:4691;26093:350474;33124:6731",
+        "fills",
+        2,
+        "31975:4682",
+        "I31975:4691;26093:350474",
+        1,
+        0
+      ],
+      [
+        "I31975:4691;26093:350475",
+        "fills",
+        2,
+        "31975:4682",
+        "31975:4691",
+        1,
+        0
+      ],
+      [
+        "31975:4696",
+        "fills",
+        3,
+        "31975:4682",
+        null,
+        1,
+        0
+      ],
+      [
+        "31975:4706",
+        "fills",
+        6,
+        "31975:4682",
+        "31975:4706",
+        1,
+        0
+      ],
+      [
+        "37416:83341",
+        "fills",
+        7,
+        null,
+        "37416:83341",
+        1,
+        0
+      ],
+      [
+        "I37416:83341;31975:1561",
+        "fills",
+        3,
+        null,
+        "37416:83341",
+        1,
+        0
+      ],
+      [
+        "I37416:83341;31975:1570",
+        "fills",
+        9,
+        null,
+        "I37416:83341;31975:1570",
+        1,
+        0
+      ],
+      [
+        "37416:83342",
+        "fills",
+        7,
+        null,
+        "37416:83342",
+        1,
+        0
+      ],
+      [
+        "I37416:83342;31975:2830",
+        "fills",
+        3,
+        null,
+        "37416:83342",
+        1,
+        0
+      ],
+      [
+        "I37416:83342;31975:2839",
+        "fills",
+        9,
+        null,
+        "I37416:83342;31975:2839",
+        1,
+        0
+      ],
+      [
+        "37416:83343",
+        "fills",
+        7,
+        null,
+        "37416:83343",
+        1,
+        0
+      ],
+      [
+        "I37416:83343;31975:4600",
+        "fills",
+        3,
+        null,
+        "37416:83343",
+        1,
+        0
+      ],
+      [
+        "I37416:83343;31975:4608",
+        "fills",
+        9,
+        null,
+        "I37416:83343;31975:4608",
+        1,
+        0
+      ],
+      [
+        "I37416:83343;31975:4608;26093:350782;33124:6731",
+        "fills",
+        2,
+        null,
+        "I37416:83343;31975:4608;26093:350782",
+        1,
+        0
+      ],
+      [
+        "I37416:83343;31975:4608;26093:350783",
+        "fills",
+        2,
+        null,
+        "I37416:83343;31975:4608",
+        1,
+        0
+      ],
+      [
+        "I37416:83343;31975:4610;4621:2190",
+        "fills",
+        5,
+        null,
+        "I37416:83343;31975:4610;4621:2190",
+        1,
+        0
+      ],
+      [
+        "I37416:83343;31975:4610;4621:1274",
+        "fills",
+        10,
+        null,
+        "I37416:83343;31975:4610",
+        1,
+        0
+      ],
+      [
+        "I37416:83343;31975:4610;4621:1275",
+        "fills",
+        10,
+        null,
+        "I37416:83343;31975:4610",
+        1,
+        0
+      ],
+      [
+        "I37416:83343;31975:4610;4621:1277",
+        "fills",
+        10,
+        null,
+        "I37416:83343;31975:4610",
+        1,
+        0
+      ],
+      [
+        "I37416:83343;31975:4610;4621:1278",
+        "fills",
+        10,
+        null,
+        "I37416:83343;31975:4610",
+        1,
+        0
+      ],
+      [
+        "I37416:83343;31975:4611;4621:2190",
+        "fills",
+        5,
+        null,
+        "I37416:83343;31975:4611;4621:2190",
+        1,
+        0
+      ],
+      [
+        "I37416:83343;31975:4611;4621:1275",
+        "fills",
+        10,
+        null,
+        "I37416:83343;31975:4611",
+        1,
+        0
+      ],
+      [
+        "I37416:83343;31975:4611;4621:1276",
+        "fills",
+        10,
+        null,
+        "I37416:83343;31975:4611",
+        1,
+        0
+      ],
+      [
+        "I37416:83343;31975:4611;4621:1277",
+        "fills",
+        10,
+        null,
+        "I37416:83343;31975:4611",
+        1,
+        0
+      ],
+      [
+        "I37416:83343;31975:4611;4621:1278",
+        "fills",
+        10,
+        null,
+        "I37416:83343;31975:4611",
+        1,
+        0
+      ],
+      [
+        "I37416:83343;31975:4612;4621:2190",
+        "fills",
+        5,
+        null,
+        "I37416:83343;31975:4612;4621:2190",
+        1,
+        0
+      ],
+      [
+        "I37416:83343;31975:4612;4621:1272",
+        "fills",
+        10,
+        null,
+        "I37416:83343;31975:4612",
+        1,
+        0
+      ],
+      [
+        "I37416:83343;31975:4612;4621:1273",
+        "fills",
+        10,
+        null,
+        "I37416:83343;31975:4612",
+        1,
+        0
+      ],
+      [
+        "I37416:83343;31975:4612;4621:1275",
+        "fills",
+        10,
+        null,
+        "I37416:83343;31975:4612",
+        1,
+        0
+      ],
+      [
+        "I37416:83343;31975:4612;4621:1276",
+        "fills",
+        10,
+        null,
+        "I37416:83343;31975:4612",
+        1,
+        0
+      ],
+      [
+        "I37416:83343;31975:4612;4621:1277",
+        "fills",
+        10,
+        null,
+        "I37416:83343;31975:4612",
+        1,
+        0
+      ],
+      [
+        "I37416:83343;31975:4612;4621:1278",
+        "fills",
+        10,
+        null,
+        "I37416:83343;31975:4612",
+        1,
+        0
+      ],
+      [
+        "37416:83344",
+        "fills",
+        7,
+        null,
+        "37416:83344",
+        1,
+        0
+      ],
+      [
+        "I37416:83344;31975:4628",
+        "fills",
+        3,
+        null,
+        "37416:83344",
+        1,
+        0
+      ],
+      [
+        "I37416:83344;31975:4636",
+        "fills",
+        9,
+        null,
+        "I37416:83344;31975:4636",
+        1,
+        0
+      ],
+      [
+        "I37416:83344;31975:4636;26093:350782;33124:6731",
+        "fills",
+        2,
+        null,
+        "I37416:83344;31975:4636;26093:350782",
+        1,
+        0
+      ],
+      [
+        "I37416:83344;31975:4636;26093:350783",
+        "fills",
+        2,
+        null,
+        "I37416:83344;31975:4636",
+        1,
+        0
+      ],
+      [
+        "I37416:83344;31975:4638;4621:2159;4621:1277",
+        "fills",
+        10,
+        null,
+        "I37416:83344;31975:4638;4621:2159",
+        1,
+        0
+      ],
+      [
+        "I37416:83344;31975:4638;4621:2159;4621:1278",
+        "fills",
+        10,
+        null,
+        "I37416:83344;31975:4638;4621:2159",
+        1,
+        0
+      ],
+      [
+        "I37416:83344;31975:4639;4621:2159;4621:1275",
+        "fills",
+        10,
+        null,
+        "I37416:83344;31975:4639;4621:2159",
+        1,
+        0
+      ],
+      [
+        "I37416:83344;31975:4639;4621:2159;4621:1276",
+        "fills",
+        10,
+        null,
+        "I37416:83344;31975:4639;4621:2159",
+        1,
+        0
+      ],
+      [
+        "I37416:83344;31975:4639;4621:2159;4621:1277",
+        "fills",
+        10,
+        null,
+        "I37416:83344;31975:4639;4621:2159",
+        1,
+        0
+      ],
+      [
+        "I37416:83344;31975:4639;4621:2159;4621:1278",
+        "fills",
+        10,
+        null,
+        "I37416:83344;31975:4639;4621:2159",
+        1,
+        0
+      ],
+      [
+        "I37416:83344;31975:4640;4621:2159;4621:1272",
+        "fills",
+        10,
+        null,
+        "I37416:83344;31975:4640;4621:2159",
+        1,
+        0
+      ],
+      [
+        "I37416:83344;31975:4640;4621:2159;4621:1273",
+        "fills",
+        10,
+        null,
+        "I37416:83344;31975:4640;4621:2159",
+        1,
+        0
+      ],
+      [
+        "I37416:83344;31975:4640;4621:2159;4621:1275",
+        "fills",
+        10,
+        null,
+        "I37416:83344;31975:4640;4621:2159",
+        1,
+        0
+      ],
+      [
+        "I37416:83344;31975:4640;4621:2159;4621:1276",
+        "fills",
+        10,
+        null,
+        "I37416:83344;31975:4640;4621:2159",
+        1,
+        0
+      ],
+      [
+        "I37416:83344;31975:4640;4621:2159;4621:1277",
+        "fills",
+        10,
+        null,
+        "I37416:83344;31975:4640;4621:2159",
+        1,
+        0
+      ],
+      [
+        "I37416:83344;31975:4640;4621:2159;4621:1278",
+        "fills",
+        10,
+        null,
+        "I37416:83344;31975:4640;4621:2159",
+        1,
+        0
+      ],
+      [
+        "37416:83345",
+        "fills",
+        7,
+        null,
+        "37416:83345",
+        1,
+        0
+      ],
+      [
+        "I37416:83345;31975:4656",
+        "fills",
+        3,
+        null,
+        "37416:83345",
+        1,
+        0
+      ],
+      [
+        "I37416:83345;31975:4664",
+        "fills",
+        9,
+        null,
+        "I37416:83345;31975:4664",
+        1,
+        0
+      ],
+      [
+        "I37416:83345;31975:4664;26093:350474;33124:6731",
+        "fills",
+        2,
+        null,
+        "I37416:83345;31975:4664;26093:350474",
+        1,
+        0
+      ],
+      [
+        "I37416:83345;31975:4664;26093:350475",
+        "fills",
+        2,
+        null,
+        "I37416:83345;31975:4664",
+        1,
+        0
+      ],
+      [
+        "I37416:83345;31975:4669",
+        "fills",
+        3,
+        null,
+        "37416:83345",
+        1,
+        0
+      ],
+      [
+        "I37416:83345;31975:4678",
+        "fills",
+        6,
+        null,
+        "I37416:83345;31975:4678",
+        1,
+        0
+      ],
+      [
+        "37416:83346",
+        "fills",
+        7,
+        null,
+        "37416:83346",
+        1,
+        0
+      ],
+      [
+        "I37416:83346;31975:4683",
+        "fills",
+        3,
+        null,
+        "37416:83346",
+        1,
+        0
+      ],
+      [
+        "I37416:83346;31975:4691",
+        "fills",
+        9,
+        null,
+        "I37416:83346;31975:4691",
+        1,
+        0
+      ],
+      [
+        "I37416:83346;31975:4691;26093:350474;33124:6731",
+        "fills",
+        2,
+        null,
+        "I37416:83346;31975:4691;26093:350474",
+        1,
+        0
+      ],
+      [
+        "I37416:83346;31975:4691;26093:350475",
+        "fills",
+        2,
+        null,
+        "I37416:83346;31975:4691",
+        1,
+        0
+      ],
+      [
+        "I37416:83346;31975:4696",
+        "fills",
+        3,
+        null,
+        "37416:83346",
+        1,
+        0
+      ],
+      [
+        "I37416:83346;31975:4706",
+        "fills",
+        6,
+        null,
+        "I37416:83346;31975:4706",
+        1,
+        0
+      ],
+      [
+        "I14894:176407;33124:6745",
+        "fills",
+        5,
+        "14894:176404",
+        "14894:176407",
+        1,
+        0
+      ]
+    ],
+    "rawUnboundPaintsOrStops": 458,
+    "errors": []
+  },
+  "changes": {
+    "total": 440,
+    "uniqueNodes": 440,
+    "summaries": {
+      "color/text-icon/inverse/third": 184,
+      "color/background/solid/primary": 6,
+      "color/border/glassy": 13,
+      "color/text-icon/third": 110,
+      "color/text-icon/inverse/primary": 76,
+      "color/text-icon/primary": 46,
+      "color/fill/glassy/third": 4,
+      "color/text-icon/fourth": 1
+    },
+    "mutatedNodeIds": [
+      "14894:176423",
+      "14894:176425",
+      "14894:176419",
+      "14894:176421",
+      "4621:2303",
+      "4621:1222",
+      "4621:1223",
+      "30477:4008",
+      "30477:4010",
+      "4621:3840",
+      "4621:3727",
+      "4621:4283",
+      "4621:4168",
+      "4621:4506",
+      "4621:1359",
+      "4621:1374",
+      "31480:10688",
+      "31975:4677",
+      "30474:20401",
+      "30474:20402",
+      "30474:20415",
+      "31480:10684",
+      "31975:4705",
+      "14894:176406",
+      "14894:176409",
+      "14894:176410",
+      "14894:176411",
+      "14894:176412",
+      "14894:176413",
+      "14894:176414",
+      "14894:176415",
+      "14894:176416",
+      "I4621:2174;4621:2190;33124:6746",
+      "I14894:176345;4621:1268",
+      "I14894:176345;4621:2190;33124:6746",
+      "I14894:176345;4621:1271",
+      "I14894:176345;4621:1272",
+      "I14894:176345;4621:1273",
+      "I14894:176345;4621:1274",
+      "I14894:176345;4621:1275",
+      "I14894:176345;4621:1276",
+      "I14894:176345;4621:1277",
+      "I14894:176345;4621:1278",
+      "I4621:2214;4621:2190;33124:6745",
+      "I14894:176361;4621:1268",
+      "4621:1288",
+      "I4621:1290;4621:1287",
+      "I4621:2312;4621:2303",
+      "I10467:81186;4622:27304;4621:1223",
+      "I10467:81186;4622:27304;4621:2374;4621:1268",
+      "I10467:81186;4622:27304;4621:2374;4621:2190;33124:6745",
+      "I10467:81186;4622:27304;4621:2374;4621:1271",
+      "I10467:81186;4622:27304;4621:2374;4621:1272",
+      "I10467:81186;4622:27304;4621:2374;4621:1273",
+      "I10467:81186;4622:27304;4621:2374;4621:1274",
+      "I10467:81186;4622:27304;4621:2374;4621:1275",
+      "I10467:81186;4622:27304;4621:2374;4621:1276",
+      "I10467:81186;4622:27304;4621:2852;4621:1268",
+      "I10467:81186;4622:27304;4621:2852;4621:2190;33124:6745",
+      "I10467:81186;4622:27304;4621:2852;4621:1271",
+      "I10467:81186;4622:27304;4621:2852;4621:1272",
+      "I10467:81186;4622:27304;4621:2852;4621:1273",
+      "I10467:81186;4622:27304;4621:2852;4621:1274",
+      "I10467:81186;4622:27304;4621:2964;4621:1268",
+      "I10467:81186;4622:27304;4621:2964;4621:2190;33124:6745",
+      "I10467:81186;4622:27304;4621:2964;4621:1271",
+      "I10467:81186;4622:27304;4621:2964;4621:1272",
+      "I10467:81186;4622:27304;4621:2964;4621:1273",
+      "I10467:81186;4622:27304;4621:2964;4621:1274",
+      "I10467:81186;4622:27304;4621:1242;4621:1283",
+      "I10467:81186;4622:27304;4621:1244;4621:2303",
+      "I10467:81186;4622:27304;4621:1245;4621:2303",
+      "I10467:81186;4622:27304;30300:11857;4621:1287",
+      "I10467:81931;4623:2;4621:1359",
+      "I10467:81931;4623:2;29290:5772;1741:1550",
+      "I10467:81931;4623:2;29290:5774;23:1899",
+      "I10467:81931;4623:2;29290:5776;23:1932",
+      "I10467:81931;4623:2;4621:1374",
+      "I10467:81931;4623:2;31480:10688",
+      "I10467:81931;4623:2;31480:10888",
+      "I10467:81929;4623:1;4623:0;4621:3727",
+      "I10467:81929;4623:1;4623:0;29290:3200;1741:1550",
+      "I10467:81929;4623:1;4623:0;29290:3202;23:1899",
+      "I10467:81929;4623:1;4623:0;29290:3204;23:1932",
+      "I10467:81929;4623:1;4623:0;31975:1573;4621:1268",
+      "I10467:81929;4623:1;4623:0;31975:1573;4621:2190;33124:6745",
+      "I10467:81929;4623:1;4623:0;31975:1573;4621:1271",
+      "I10467:81929;4623:1;4623:0;31975:1573;4621:1272",
+      "I10467:81929;4623:1;4623:0;31975:1573;4621:1273",
+      "I10467:81929;4623:1;4623:0;31975:1573;4621:1274",
+      "I10467:81929;4623:1;4623:0;31975:1573;4621:1275",
+      "I10467:81929;4623:1;4623:0;31975:1573;4621:1276",
+      "I10467:81929;4623:1;4623:0;31975:1573;4621:1277",
+      "I10467:81929;4623:1;4623:0;31975:1573;4621:1278",
+      "I10467:81929;4623:1;4623:0;31480:8727;4621:1252",
+      "I10467:81929;4623:1;4623:0;31480:8729;4621:1283",
+      "I10467:81929;4623:1;4623:0;31480:8731;4621:1287",
+      "I10467:81929;4623:1;4623:0;31480:8732;4621:1287",
+      "I10467:81929;4623:1;4623:0;31480:8733;4621:1287",
+      "I10467:81930;4623:1;4621:4168",
+      "I10467:81930;4623:1;29290:4726;1741:1550",
+      "I10467:81930;4623:1;29290:4728;23:1899",
+      "I10467:81930;4623:1;29290:4730;23:1932",
+      "I10467:81930;4623:1;4621:4180;14894:176390;4621:1268",
+      "I10467:81930;4623:1;4621:4180;14894:176390;4621:1271",
+      "I10467:81930;4623:1;4621:4180;14894:176390;4621:1272",
+      "I10467:81930;4623:1;4621:4180;14894:176390;4621:1273",
+      "I10467:81930;4623:1;4621:4180;14894:176390;4621:1274",
+      "I10467:81930;4623:1;4621:4180;14894:176390;4621:1275",
+      "I10467:81930;4623:1;4621:4180;14894:176390;4621:1276",
+      "I10467:81930;4623:1;4621:4180;14894:176390;4621:1277",
+      "I10467:81930;4623:1;4621:4180;14894:176390;4621:1278",
+      "I10467:81930;4623:1;4621:4181;14894:176390;4621:1268",
+      "I10467:81930;4623:1;4621:4181;14894:176390;4621:1271",
+      "I10467:81930;4623:1;4621:4181;14894:176390;4621:1272",
+      "I10467:81930;4623:1;4621:4181;14894:176390;4621:1273",
+      "I10467:81930;4623:1;4621:4181;14894:176390;4621:1274",
+      "I10467:81930;4623:1;4621:4181;14894:176390;4621:1275",
+      "I10467:81930;4623:1;4621:4181;14894:176390;4621:1276",
+      "I10467:81930;4623:1;4621:4181;14894:176390;4621:1277",
+      "I10467:81930;4623:1;4621:4181;14894:176390;4621:1278",
+      "I10467:81930;4623:1;4621:4182;14894:176390;4621:1268",
+      "I10467:81930;4623:1;4621:4182;14894:176390;4621:1271",
+      "I10467:81930;4623:1;4621:4182;14894:176390;4621:1272",
+      "I10467:81930;4623:1;4621:4182;14894:176390;4621:1273",
+      "I10467:81930;4623:1;4621:4182;14894:176390;4621:1274",
+      "I10467:81930;4623:1;4621:4182;14894:176390;4621:1275",
+      "I10467:81930;4623:1;4621:4182;14894:176390;4621:1276",
+      "I10467:81930;4623:1;4621:4182;14894:176390;4621:1277",
+      "I10467:81930;4623:1;4621:4182;14894:176390;4621:1278",
+      "I10467:81930;4623:1;31480:9307;4621:1252",
+      "I10467:81930;4623:1;31480:9309;4621:1283",
+      "I10467:81930;4623:1;31480:9311;4621:1287",
+      "I10467:81930;4623:1;31480:9312;4621:1287",
+      "I10467:81930;4623:1;31480:9313;4621:1287",
+      "I4621:2374;4621:2190;33124:6745",
+      "I4621:2374;4621:1271",
+      "I4621:2374;4621:1272",
+      "I4621:2374;4621:1273",
+      "I4621:2374;4621:1274",
+      "I4621:2374;4621:1275",
+      "I4621:2374;4621:1276",
+      "I4621:2852;4621:2190;33124:6745",
+      "I4621:2852;4621:1271",
+      "I4621:2852;4621:1272",
+      "I4621:2852;4621:1273",
+      "I4621:2852;4621:1274",
+      "I4621:2964;4621:2190;33124:6745",
+      "I4621:2964;4621:1271",
+      "I4621:2964;4621:1272",
+      "I4621:2964;4621:1273",
+      "I4621:2964;4621:1274",
+      "I4621:1242;4621:1283",
+      "I4621:1244;4621:1287",
+      "I4621:1245;4621:1287",
+      "I30300:11857;4621:1287",
+      "I31975:1565;1741:1550",
+      "I31975:1566;34948:1032",
+      "I31975:1568;33124:6698",
+      "I31975:1567;23:1899",
+      "I31975:1569;23:1932",
+      "I31975:1572;4621:1268",
+      "I31975:1572;4621:1271",
+      "I31975:1572;4621:1272",
+      "I31975:1572;4621:1273",
+      "I31975:1572;4621:1274",
+      "I31975:1572;4621:1275",
+      "I31975:1572;4621:1276",
+      "I31975:1572;4621:1277",
+      "I31975:1572;4621:1278",
+      "I31975:1574;4621:1268",
+      "I31975:1574;4621:1271",
+      "I31975:1574;4621:1272",
+      "I31975:1574;4621:1273",
+      "I31975:1574;4621:1274",
+      "I31975:1574;4621:1275",
+      "I31975:1574;4621:1276",
+      "I31975:1574;4621:1277",
+      "I31975:1574;4621:1278",
+      "I31975:1577;4621:1252",
+      "I31975:1579;4621:1283",
+      "I31975:1581;4621:1287",
+      "I31975:1582;4621:1287",
+      "I31975:1583;4621:1287",
+      "I31975:2834;1741:1550",
+      "I31975:2835;34948:1032",
+      "I31975:2837;33124:6698",
+      "I31975:2836;23:1899",
+      "I31975:2838;23:1932",
+      "I31975:2841;4621:1268",
+      "I31975:2841;4621:1271",
+      "I31975:2841;4621:1272",
+      "I31975:2841;4621:1273",
+      "I31975:2841;4621:1274",
+      "I31975:2841;4621:1275",
+      "I31975:2841;4621:1276",
+      "I31975:2841;4621:1277",
+      "I31975:2841;4621:1278",
+      "I31975:2842;4621:1268",
+      "I31975:2842;4621:1271",
+      "I31975:2842;4621:1272",
+      "I31975:2842;4621:1273",
+      "I31975:2842;4621:1274",
+      "I31975:2842;4621:1275",
+      "I31975:2842;4621:1276",
+      "I31975:2842;4621:1277",
+      "I31975:2842;4621:1278",
+      "I31975:2843;4621:1268",
+      "I31975:2843;4621:1271",
+      "I31975:2843;4621:1272",
+      "I31975:2843;4621:1273",
+      "I31975:2843;4621:1274",
+      "I31975:2843;4621:1275",
+      "I31975:2843;4621:1276",
+      "I31975:2843;4621:1277",
+      "I31975:2843;4621:1278",
+      "I31975:2846;4621:1252",
+      "I31975:2848;4621:1283",
+      "I31975:2850;4621:1287",
+      "I31975:2851;4621:1287",
+      "I31975:2852;4621:1287",
+      "I30477:4019;26093:350495",
+      "I30477:4021;4621:1268",
+      "I30477:4021;4621:2190",
+      "I30477:4021;4621:2190;33124:6745",
+      "I30477:4021;4621:1271",
+      "I30477:4021;4621:1272",
+      "I30477:4021;4621:1273",
+      "I30477:4021;4621:1274",
+      "I30477:4021;4621:1275",
+      "I30477:4021;4621:1276",
+      "I30477:4021;4621:1277",
+      "I30477:4021;4621:1278",
+      "I30477:4022;4621:1268",
+      "I30477:4022;4621:2190",
+      "I30477:4022;4621:2190;33124:6745",
+      "I30477:4022;4621:1271",
+      "I30477:4022;4621:1272",
+      "I30477:4022;4621:1273",
+      "I30477:4022;4621:1274",
+      "I30477:4022;4621:1275",
+      "I30477:4022;4621:1276",
+      "I30477:4022;4621:1277",
+      "I30477:4022;4621:1278",
+      "I30477:4023;4621:1268",
+      "I30477:4023;4621:2190",
+      "I30477:4023;4621:2190;33124:6745",
+      "I30477:4023;4621:1271",
+      "I30477:4023;4621:1272",
+      "I30477:4023;4621:1273",
+      "I30477:4023;4621:1274",
+      "I30477:4023;4621:1275",
+      "I30477:4023;4621:1276",
+      "I30477:4023;4621:1277",
+      "I30477:4023;4621:1278",
+      "I30477:4027;4621:1283",
+      "I30477:4029;4621:1287",
+      "I30477:4030;4621:1287",
+      "I30477:4031;4621:1287",
+      "I31975:1573;4621:1268",
+      "I31975:1573;4621:2190;33124:6745",
+      "I31975:1573;4621:1271",
+      "I31975:1573;4621:1272",
+      "I31975:1573;4621:1273",
+      "I31975:1573;4621:1274",
+      "I31975:1573;4621:1275",
+      "I31975:1573;4621:1276",
+      "I31975:1573;4621:1277",
+      "I31975:1573;4621:1278",
+      "I19906:302510;26093:350783",
+      "I4621:3740;4621:1268",
+      "I4621:3740;4621:2190",
+      "I4621:3740;4621:2190;33124:6745",
+      "I4621:3740;4621:1271",
+      "I4621:3740;4621:1272",
+      "I4621:3740;4621:1273",
+      "I4621:3740;4621:1274",
+      "I4621:3740;4621:1275",
+      "I4621:3740;4621:1276",
+      "I4621:3740;4621:1277",
+      "I4621:3740;4621:1278",
+      "I4621:3741;4621:1268",
+      "I4621:3741;4621:2190",
+      "I4621:3741;4621:2190;33124:6745",
+      "I4621:3741;4621:1271",
+      "I4621:3741;4621:1272",
+      "I4621:3741;4621:1273",
+      "I4621:3741;4621:1274",
+      "I4621:3741;4621:1275",
+      "I4621:3741;4621:1276",
+      "I4621:3741;4621:1277",
+      "I4621:3741;4621:1278",
+      "I4621:3742;4621:1268",
+      "I4621:3742;4621:2190",
+      "I4621:3742;4621:2190;33124:6745",
+      "I4621:3742;4621:1271",
+      "I4621:3742;4621:1272",
+      "I4621:3742;4621:1273",
+      "I4621:3742;4621:1274",
+      "I4621:3742;4621:1275",
+      "I4621:3742;4621:1276",
+      "I4621:3742;4621:1277",
+      "I4621:3742;4621:1278",
+      "I31480:8729;4621:1283",
+      "I31480:8731;4621:1287",
+      "I31480:8732;4621:1287",
+      "I31480:8733;4621:1287",
+      "I31975:4603;1741:1550",
+      "I31975:4604;34948:1032",
+      "I31975:4606;33124:6698",
+      "I31975:4605;23:1899",
+      "I31975:4607;23:1932",
+      "I31975:4610;4621:1268",
+      "I31975:4610;4621:1271",
+      "I31975:4610;4621:1272",
+      "I31975:4610;4621:1273",
+      "I31975:4610;4621:1276",
+      "I31975:4611;4621:1268",
+      "I31975:4611;4621:1271",
+      "I31975:4611;4621:1272",
+      "I31975:4611;4621:1273",
+      "I31975:4611;4621:1274",
+      "I31975:4612;4621:1268",
+      "I31975:4612;4621:1271",
+      "I31975:4612;4621:1274",
+      "I31975:4615;4621:1252",
+      "I31975:4617;4621:1283",
+      "I31975:4619;4621:1287",
+      "I31975:4620;4621:1287",
+      "I31975:4621;4621:1287",
+      "I19906:302717;26093:350783",
+      "I4621:4180;4621:2159;4621:1268",
+      "I4621:4180;4621:2159;4621:2190;33124:6745",
+      "I4621:4180;4621:2159;4621:1271",
+      "I4621:4180;4621:2159;4621:1272",
+      "I4621:4180;4621:2159;4621:1273",
+      "I4621:4180;4621:2159;4621:1274",
+      "I4621:4180;4621:2159;4621:1275",
+      "I4621:4180;4621:2159;4621:1276",
+      "I4621:4180;4621:2159;4621:1277",
+      "I4621:4180;4621:2159;4621:1278",
+      "I4621:4181;4621:2159;4621:1268",
+      "I4621:4181;4621:2159;4621:2190;33124:6745",
+      "I4621:4181;4621:2159;4621:1271",
+      "I4621:4181;4621:2159;4621:1272",
+      "I4621:4181;4621:2159;4621:1273",
+      "I4621:4181;4621:2159;4621:1274",
+      "I4621:4181;4621:2159;4621:1275",
+      "I4621:4181;4621:2159;4621:1276",
+      "I4621:4181;4621:2159;4621:1277",
+      "I4621:4181;4621:2159;4621:1278",
+      "I4621:4182;4621:2159;4621:1268",
+      "I4621:4182;4621:2159;4621:2190;33124:6745",
+      "I4621:4182;4621:2159;4621:1271",
+      "I4621:4182;4621:2159;4621:1272",
+      "I4621:4182;4621:2159;4621:1273",
+      "I4621:4182;4621:2159;4621:1274",
+      "I4621:4182;4621:2159;4621:1275",
+      "I4621:4182;4621:2159;4621:1276",
+      "I4621:4182;4621:2159;4621:1277",
+      "I4621:4182;4621:2159;4621:1278",
+      "I31480:9309;4621:1283",
+      "I31480:9311;4621:1287",
+      "I31480:9312;4621:1287",
+      "I31480:9313;4621:1287",
+      "I31975:4631;1741:1550",
+      "I31975:4632;34948:1032",
+      "I31975:4634;33124:6698",
+      "I31975:4633;23:1899",
+      "I31975:4635;23:1932",
+      "I31975:4638;4621:2159;4621:1268",
+      "I31975:4638;4621:2159;4621:1271",
+      "I31975:4638;4621:2159;4621:1272",
+      "I31975:4638;4621:2159;4621:1273",
+      "I31975:4638;4621:2159;4621:1274",
+      "I31975:4638;4621:2159;4621:1275",
+      "I31975:4638;4621:2159;4621:1276",
+      "I31975:4639;4621:2159;4621:1268",
+      "I31975:4639;4621:2159;4621:1271",
+      "I31975:4639;4621:2159;4621:1272",
+      "I31975:4639;4621:2159;4621:1273",
+      "I31975:4639;4621:2159;4621:1274",
+      "I31975:4640;4621:2159;4621:1268",
+      "I31975:4640;4621:2159;4621:1271",
+      "I31975:4640;4621:2159;4621:1274",
+      "I31975:4643;4621:1252",
+      "I31975:4645;4621:1283",
+      "I31975:4647;4621:1287",
+      "I31975:4648;4621:1287",
+      "I31975:4649;4621:1287",
+      "I19906:302906;26093:350475",
+      "I4621:4305;4621:2214;4621:1268",
+      "I4621:4306;4621:2214;4621:1268",
+      "I4621:4307;4621:2214;4621:1268",
+      "I4621:4453;4621:1293",
+      "I4621:4455;4621:1290;4621:1287",
+      "I4621:4456;4621:1290;4621:1287",
+      "31480:10888",
+      "I31975:4659;1741:1550",
+      "I31975:4660;34948:1032",
+      "I31975:4662;33124:6698",
+      "I31975:4661;23:1899",
+      "I31975:4663;23:1932",
+      "I31975:4666;4621:2214;4621:1268",
+      "I31975:4667;4621:2214;4621:1268",
+      "I31975:4668;4621:2214;4621:1268",
+      "I31975:4672;4621:1252",
+      "I31975:4674;4621:1293",
+      "I31975:4675;4621:1290;4621:1287",
+      "I31975:4676;4621:1290;4621:1287",
+      "I30474:20410;26093:350475",
+      "I30474:20412;4621:2214;4621:1268",
+      "I30474:20413;4621:2214;4621:1268",
+      "I30474:20414;4621:2214;4621:1268",
+      "I30474:20420;4621:1293",
+      "I30474:20421;4621:1290;4621:1287",
+      "I30474:20422;4621:1290;4621:1287",
+      "31480:10685",
+      "I31975:4686;1741:1550",
+      "I31975:4687;34948:1032",
+      "I31975:4689;33124:6698",
+      "I31975:4688;23:1899",
+      "I31975:4690;23:1932",
+      "I31975:4693;4621:2214;4621:1268",
+      "I31975:4694;4621:2214;4621:1268",
+      "I31975:4695;4621:2214;4621:1268",
+      "I31975:4699;4621:1252",
+      "I31975:4701;4621:1293",
+      "I31975:4702;4621:1290;4621:1287",
+      "I31975:4703;4621:1290;4621:1287",
+      "I4621:2190;33124:6745",
+      "I14894:176390;4621:1268",
+      "I14894:176390;4621:1271",
+      "I14894:176390;4621:1272",
+      "I14894:176390;4621:1273",
+      "I14894:176390;4621:1274",
+      "I14894:176390;4621:1275",
+      "I14894:176390;4621:1276",
+      "I14894:176390;4621:1277",
+      "I14894:176390;4621:1278"
+    ]
+  },
+  "dependency": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"mutatedNodeIds\":[\"1124:8855\",\"I3511:22045;33124:6916\"],\"applied\":2,\"errors\":[]}"
+      }
+    ],
+    "isError": false
+  },
+  "writes": [
+    {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"mode\":\"own\",\"found\":32,\"attempted\":32,\"mutatedNodeIds\":[\"14894:176423\",\"14894:176425\",\"14894:176419\",\"14894:176421\",\"4621:2303\",\"4621:1222\",\"4621:1223\",\"30477:4008\",\"30477:4010\",\"4621:3840\",\"4621:3727\",\"4621:4283\",\"4621:4168\",\"4621:4506\",\"4621:1359\",\"4621:1374\",\"31480:10688\",\"31975:4677\",\"30474:20401\",\"30474:20402\",\"30474:20415\",\"31480:10684\",\"31975:4705\",\"14894:176406\",\"14894:176409\",\"14894:176410\",\"14894:176411\",\"14894:176412\",\"14894:176413\",\"14894:176414\",\"14894:176415\",\"14894:176416\"],\"applied\":32,\"summary\":{\"color/text-icon/inverse/third\":15,\"color/background/solid/primary\":6,\"color/border/glassy\":8,\"color/text-icon/third\":2,\"color/text-icon/inverse/primary\":1},\"errors\":[]}"
+        }
+      ],
+      "isError": false
+    },
+    {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"mode\":\"instance\",\"found\":444,\"attempted\":150,\"mutatedNodeIds\":[\"I4621:2174;4621:2190;33124:6746\",\"I14894:176345;4621:1268\",\"I14894:176345;4621:2190;33124:6746\",\"I14894:176345;4621:1271\",\"I14894:176345;4621:1272\",\"I14894:176345;4621:1273\",\"I14894:176345;4621:1274\",\"I14894:176345;4621:1275\",\"I14894:176345;4621:1276\",\"I14894:176345;4621:1277\",\"I14894:176345;4621:1278\",\"I4621:2214;4621:2190;33124:6745\",\"I14894:176361;4621:1268\",\"4621:1288\",\"I4621:1290;4621:1287\",\"I4621:2312;4621:2303\",\"I10467:81186;4622:27304;4621:1223\",\"I10467:81186;4622:27304;4621:2374;4621:1268\",\"I10467:81186;4622:27304;4621:2374;4621:2190;33124:6745\",\"I10467:81186;4622:27304;4621:2374;4621:1271\",\"I10467:81186;4622:27304;4621:2374;4621:1272\",\"I10467:81186;4622:27304;4621:2374;4621:1273\",\"I10467:81186;4622:27304;4621:2374;4621:1274\",\"I10467:81186;4622:27304;4621:2374;4621:1275\",\"I10467:81186;4622:27304;4621:2374;4621:1276\",\"I10467:81186;4622:27304;4621:2852;4621:1268\",\"I10467:81186;4622:27304;4621:2852;4621:2190;33124:6745\",\"I10467:81186;4622:27304;4621:2852;4621:1271\",\"I10467:81186;4622:27304;4621:2852;4621:1272\",\"I10467:81186;4622:27304;4621:2852;4621:1273\",\"I10467:81186;4622:27304;4621:2852;4621:1274\",\"I10467:81186;4622:27304;4621:2964;4621:1268\",\"I10467:81186;4622:27304;4621:2964;4621:2190;33124:6745\",\"I10467:81186;4622:27304;4621:2964;4621:1271\",\"I10467:81186;4622:27304;4621:2964;4621:1272\",\"I10467:81186;4622:27304;4621:2964;4621:1273\",\"I10467:81186;4622:27304;4621:2964;4621:1274\",\"I10467:81186;4622:27304;4621:1242;4621:1283\",\"I10467:81186;4622:27304;4621:1244;4621:2303\",\"I10467:81186;4622:27304;4621:1245;4621:2303\",\"I10467:81186;4622:27304;30300:11857;4621:1287\",\"I10467:81931;4623:2;4621:1359\",\"I10467:81931;4623:2;29290:5772;1741:1550\",\"I10467:81931;4623:2;29290:5774;23:1899\",\"I10467:81931;4623:2;29290:5776;23:1932\",\"I10467:81931;4623:2;4621:1374\",\"I10467:81931;4623:2;31480:10688\",\"I10467:81931;4623:2;31480:10888\",\"I10467:81929;4623:1;4623:0;4621:3727\",\"I10467:81929;4623:1;4623:0;29290:3200;1741:1550\",\"I10467:81929;4623:1;4623:0;29290:3202;23:1899\",\"I10467:81929;4623:1;4623:0;29290:3204;23:1932\",\"I10467:81929;4623:1;4623:0;31975:1573;4621:1268\",\"I10467:81929;4623:1;4623:0;31975:1573;4621:2190;33124:6745\",\"I10467:81929;4623:1;4623:0;31975:1573;4621:1271\",\"I10467:81929;4623:1;4623:0;31975:1573;4621:1272\",\"I10467:81929;4623:1;4623:0;31975:1573;4621:1273\",\"I10467:81929;4623:1;4623:0;31975:1573;4621:1274\",\"I10467:81929;4623:1;4623:0;31975:1573;4621:1275\",\"I10467:81929;4623:1;4623:0;31975:1573;4621:1276\",\"I10467:81929;4623:1;4623:0;31975:1573;4621:1277\",\"I10467:81929;4623:1;4623:0;31975:1573;4621:1278\",\"I10467:81929;4623:1;4623:0;31480:8727;4621:1252\",\"I10467:81929;4623:1;4623:0;31480:8729;4621:1283\",\"I10467:81929;4623:1;4623:0;31480:8731;4621:1287\",\"I10467:81929;4623:1;4623:0;31480:8732;4621:1287\",\"I10467:81929;4623:1;4623:0;31480:8733;4621:1287\",\"I10467:81930;4623:1;4621:4168\",\"I10467:81930;4623:1;29290:4726;1741:1550\",\"I10467:81930;4623:1;29290:4728;23:1899\",\"I10467:81930;4623:1;29290:4730;23:1932\",\"I10467:81930;4623:1;4621:4180;14894:176390;4621:1268\",\"I10467:81930;4623:1;4621:4180;14894:176390;4621:1271\",\"I10467:81930;4623:1;4621:4180;14894:176390;4621:1272\",\"I10467:81930;4623:1;4621:4180;14894:176390;4621:1273\",\"I10467:81930;4623:1;4621:4180;14894:176390;4621:1274\",\"I10467:81930;4623:1;4621:4180;14894:176390;4621:1275\",\"I10467:81930;4623:1;4621:4180;14894:176390;4621:1276\",\"I10467:81930;4623:1;4621:4180;14894:176390;4621:1277\",\"I10467:81930;4623:1;4621:4180;14894:176390;4621:1278\",\"I10467:81930;4623:1;4621:4181;14894:176390;4621:1268\",\"I10467:81930;4623:1;4621:4181;14894:176390;4621:1271\",\"I10467:81930;4623:1;4621:4181;14894:176390;4621:1272\",\"I10467:81930;4623:1;4621:4181;14894:176390;4621:1273\",\"I10467:81930;4623:1;4621:4181;14894:176390;4621:1274\",\"I10467:81930;4623:1;4621:4181;14894:176390;4621:1275\",\"I10467:81930;4623:1;4621:4181;14894:176390;4621:1276\",\"I10467:81930;4623:1;4621:4181;14894:176390;4621:1277\",\"I10467:81930;4623:1;4621:4181;14894:176390;4621:1278\",\"I10467:81930;4623:1;4621:4182;14894:176390;4621:1268\",\"I10467:81930;4623:1;4621:4182;14894:176390;4621:1271\",\"I10467:81930;4623:1;4621:4182;14894:176390;4621:1272\",\"I10467:81930;4623:1;4621:4182;14894:176390;4621:1273\",\"I10467:81930;4623:1;4621:4182;14894:176390;4621:1274\",\"I10467:81930;4623:1;4621:4182;14894:176390;4621:1275\",\"I10467:81930;4623:1;4621:4182;14894:176390;4621:1276\",\"I10467:81930;4623:1;4621:4182;14894:176390;4621:1277\",\"I10467:81930;4623:1;4621:4182;14894:176390;4621:1278\",\"I10467:81930;4623:1;31480:9307;4621:1252\",\"I10467:81930;4623:1;31480:9309;4621:1283\",\"I10467:81930;4623:1;31480:9311;4621:1287\",\"I10467:81930;4623:1;31480:9312;4621:1287\",\"I10467:81930;4623:1;31480:9313;4621:1287\",\"I4621:2374;4621:2190;33124:6745\",\"I4621:2374;4621:1271\",\"I4621:2374;4621:1272\",\"I4621:2374;4621:1273\",\"I4621:2374;4621:1274\",\"I4621:2374;4621:1275\",\"I4621:2374;4621:1276\",\"I4621:2852;4621:2190;33124:6745\",\"I4621:2852;4621:1271\",\"I4621:2852;4621:1272\",\"I4621:2852;4621:1273\",\"I4621:2852;4621:1274\",\"I4621:2964;4621:2190;33124:6745\",\"I4621:2964;4621:1271\",\"I4621:2964;4621:1272\",\"I4621:2964;4621:1273\",\"I4621:2964;4621:1274\",\"I4621:1242;4621:1283\",\"I4621:1244;4621:1287\",\"I4621:1245;4621:1287\",\"I30300:11857;4621:1287\",\"I31975:1565;1741:1550\",\"I31975:1566;34948:1032\",\"I31975:1568;33124:6698\",\"I31975:1567;23:1899\",\"I31975:1569;23:1932\",\"I31975:1572;4621:1268\",\"I31975:1572;4621:1271\",\"I31975:1572;4621:1272\",\"I31975:1572;4621:1273\",\"I31975:1572;4621:1274\"],\"applied\":134,\"summary\":{\"color/text-icon/primary\":9,\"color/text-icon/inverse/primary\":26,\"color/text-icon/inverse/third\":73,\"color/fill/glassy/third\":2,\"color/text-icon/fourth\":1,\"color/border/glassy\":5,\"color/text-icon/third\":18},\"errors\":[]}"
+        }
+      ],
+      "isError": false
+    },
+    {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"mode\":\"instance\",\"found\":275,\"attempted\":275,\"mutatedNodeIds\":[\"I31975:1572;4621:1275\",\"I31975:1572;4621:1276\",\"I31975:1572;4621:1277\",\"I31975:1572;4621:1278\",\"I31975:1574;4621:1268\",\"I31975:1574;4621:1271\",\"I31975:1574;4621:1272\",\"I31975:1574;4621:1273\",\"I31975:1574;4621:1274\",\"I31975:1574;4621:1275\",\"I31975:1574;4621:1276\",\"I31975:1574;4621:1277\",\"I31975:1574;4621:1278\",\"I31975:1577;4621:1252\",\"I31975:1579;4621:1283\",\"I31975:1581;4621:1287\",\"I31975:1582;4621:1287\",\"I31975:1583;4621:1287\",\"I31975:2834;1741:1550\",\"I31975:2835;34948:1032\",\"I31975:2837;33124:6698\",\"I31975:2836;23:1899\",\"I31975:2838;23:1932\",\"I31975:2841;4621:1268\",\"I31975:2841;4621:1271\",\"I31975:2841;4621:1272\",\"I31975:2841;4621:1273\",\"I31975:2841;4621:1274\",\"I31975:2841;4621:1275\",\"I31975:2841;4621:1276\",\"I31975:2841;4621:1277\",\"I31975:2841;4621:1278\",\"I31975:2842;4621:1268\",\"I31975:2842;4621:1271\",\"I31975:2842;4621:1272\",\"I31975:2842;4621:1273\",\"I31975:2842;4621:1274\",\"I31975:2842;4621:1275\",\"I31975:2842;4621:1276\",\"I31975:2842;4621:1277\",\"I31975:2842;4621:1278\",\"I31975:2843;4621:1268\",\"I31975:2843;4621:1271\",\"I31975:2843;4621:1272\",\"I31975:2843;4621:1273\",\"I31975:2843;4621:1274\",\"I31975:2843;4621:1275\",\"I31975:2843;4621:1276\",\"I31975:2843;4621:1277\",\"I31975:2843;4621:1278\",\"I31975:2846;4621:1252\",\"I31975:2848;4621:1283\",\"I31975:2850;4621:1287\",\"I31975:2851;4621:1287\",\"I31975:2852;4621:1287\",\"I30477:4019;26093:350495\",\"I30477:4021;4621:1268\",\"I30477:4021;4621:2190\",\"I30477:4021;4621:2190;33124:6745\",\"I30477:4021;4621:1271\",\"I30477:4021;4621:1272\",\"I30477:4021;4621:1273\",\"I30477:4021;4621:1274\",\"I30477:4021;4621:1275\",\"I30477:4021;4621:1276\",\"I30477:4021;4621:1277\",\"I30477:4021;4621:1278\",\"I30477:4022;4621:1268\",\"I30477:4022;4621:2190\",\"I30477:4022;4621:2190;33124:6745\",\"I30477:4022;4621:1271\",\"I30477:4022;4621:1272\",\"I30477:4022;4621:1273\",\"I30477:4022;4621:1274\",\"I30477:4022;4621:1275\",\"I30477:4022;4621:1276\",\"I30477:4022;4621:1277\",\"I30477:4022;4621:1278\",\"I30477:4023;4621:1268\",\"I30477:4023;4621:2190\",\"I30477:4023;4621:2190;33124:6745\",\"I30477:4023;4621:1271\",\"I30477:4023;4621:1272\",\"I30477:4023;4621:1273\",\"I30477:4023;4621:1274\",\"I30477:4023;4621:1275\",\"I30477:4023;4621:1276\",\"I30477:4023;4621:1277\",\"I30477:4023;4621:1278\",\"I30477:4027;4621:1283\",\"I30477:4029;4621:1287\",\"I30477:4030;4621:1287\",\"I30477:4031;4621:1287\",\"I31975:1573;4621:1268\",\"I31975:1573;4621:2190;33124:6745\",\"I31975:1573;4621:1271\",\"I31975:1573;4621:1272\",\"I31975:1573;4621:1273\",\"I31975:1573;4621:1274\",\"I31975:1573;4621:1275\",\"I31975:1573;4621:1276\",\"I31975:1573;4621:1277\",\"I31975:1573;4621:1278\",\"I19906:302510;26093:350783\",\"I4621:3740;4621:1268\",\"I4621:3740;4621:2190\",\"I4621:3740;4621:2190;33124:6745\",\"I4621:3740;4621:1271\",\"I4621:3740;4621:1272\",\"I4621:3740;4621:1273\",\"I4621:3740;4621:1274\",\"I4621:3740;4621:1275\",\"I4621:3740;4621:1276\",\"I4621:3740;4621:1277\",\"I4621:3740;4621:1278\",\"I4621:3741;4621:1268\",\"I4621:3741;4621:2190\",\"I4621:3741;4621:2190;33124:6745\",\"I4621:3741;4621:1271\",\"I4621:3741;4621:1272\",\"I4621:3741;4621:1273\",\"I4621:3741;4621:1274\",\"I4621:3741;4621:1275\",\"I4621:3741;4621:1276\",\"I4621:3741;4621:1277\",\"I4621:3741;4621:1278\",\"I4621:3742;4621:1268\",\"I4621:3742;4621:2190\",\"I4621:3742;4621:2190;33124:6745\",\"I4621:3742;4621:1271\",\"I4621:3742;4621:1272\",\"I4621:3742;4621:1273\",\"I4621:3742;4621:1274\",\"I4621:3742;4621:1275\",\"I4621:3742;4621:1276\",\"I4621:3742;4621:1277\",\"I4621:3742;4621:1278\",\"I31480:8729;4621:1283\",\"I31480:8731;4621:1287\",\"I31480:8732;4621:1287\",\"I31480:8733;4621:1287\",\"I31975:4603;1741:1550\",\"I31975:4604;34948:1032\",\"I31975:4606;33124:6698\",\"I31975:4605;23:1899\",\"I31975:4607;23:1932\",\"I31975:4610;4621:1268\",\"I31975:4610;4621:1271\",\"I31975:4610;4621:1272\",\"I31975:4610;4621:1273\",\"I31975:4610;4621:1276\",\"I31975:4611;4621:1268\",\"I31975:4611;4621:1271\",\"I31975:4611;4621:1272\",\"I31975:4611;4621:1273\",\"I31975:4611;4621:1274\",\"I31975:4612;4621:1268\",\"I31975:4612;4621:1271\",\"I31975:4612;4621:1274\",\"I31975:4615;4621:1252\",\"I31975:4617;4621:1283\",\"I31975:4619;4621:1287\",\"I31975:4620;4621:1287\",\"I31975:4621;4621:1287\",\"I19906:302717;26093:350783\",\"I4621:4180;4621:2159;4621:1268\",\"I4621:4180;4621:2159;4621:2190;33124:6745\",\"I4621:4180;4621:2159;4621:1271\",\"I4621:4180;4621:2159;4621:1272\",\"I4621:4180;4621:2159;4621:1273\",\"I4621:4180;4621:2159;4621:1274\",\"I4621:4180;4621:2159;4621:1275\",\"I4621:4180;4621:2159;4621:1276\",\"I4621:4180;4621:2159;4621:1277\",\"I4621:4180;4621:2159;4621:1278\",\"I4621:4181;4621:2159;4621:1268\",\"I4621:4181;4621:2159;4621:2190;33124:6745\",\"I4621:4181;4621:2159;4621:1271\",\"I4621:4181;4621:2159;4621:1272\",\"I4621:4181;4621:2159;4621:1273\",\"I4621:4181;4621:2159;4621:1274\",\"I4621:4181;4621:2159;4621:1275\",\"I4621:4181;4621:2159;4621:1276\",\"I4621:4181;4621:2159;4621:1277\",\"I4621:4181;4621:2159;4621:1278\",\"I4621:4182;4621:2159;4621:1268\",\"I4621:4182;4621:2159;4621:2190;33124:6745\",\"I4621:4182;4621:2159;4621:1271\",\"I4621:4182;4621:2159;4621:1272\",\"I4621:4182;4621:2159;4621:1273\",\"I4621:4182;4621:2159;4621:1274\",\"I4621:4182;4621:2159;4621:1275\",\"I4621:4182;4621:2159;4621:1276\",\"I4621:4182;4621:2159;4621:1277\",\"I4621:4182;4621:2159;4621:1278\",\"I31480:9309;4621:1283\",\"I31480:9311;4621:1287\",\"I31480:9312;4621:1287\",\"I31480:9313;4621:1287\",\"I31975:4631;1741:1550\",\"I31975:4632;34948:1032\",\"I31975:4634;33124:6698\",\"I31975:4633;23:1899\",\"I31975:4635;23:1932\",\"I31975:4638;4621:2159;4621:1268\",\"I31975:4638;4621:2159;4621:1271\",\"I31975:4638;4621:2159;4621:1272\",\"I31975:4638;4621:2159;4621:1273\",\"I31975:4638;4621:2159;4621:1274\",\"I31975:4638;4621:2159;4621:1275\",\"I31975:4638;4621:2159;4621:1276\",\"I31975:4639;4621:2159;4621:1268\",\"I31975:4639;4621:2159;4621:1271\",\"I31975:4639;4621:2159;4621:1272\",\"I31975:4639;4621:2159;4621:1273\",\"I31975:4639;4621:2159;4621:1274\",\"I31975:4640;4621:2159;4621:1268\",\"I31975:4640;4621:2159;4621:1271\",\"I31975:4640;4621:2159;4621:1274\",\"I31975:4643;4621:1252\",\"I31975:4645;4621:1283\",\"I31975:4647;4621:1287\",\"I31975:4648;4621:1287\",\"I31975:4649;4621:1287\",\"I19906:302906;26093:350475\",\"I4621:4305;4621:2214;4621:1268\",\"I4621:4306;4621:2214;4621:1268\",\"I4621:4307;4621:2214;4621:1268\",\"I4621:4453;4621:1293\",\"I4621:4455;4621:1290;4621:1287\",\"I4621:4456;4621:1290;4621:1287\",\"31480:10888\",\"I31975:4659;1741:1550\",\"I31975:4660;34948:1032\",\"I31975:4662;33124:6698\",\"I31975:4661;23:1899\",\"I31975:4663;23:1932\",\"I31975:4666;4621:2214;4621:1268\",\"I31975:4667;4621:2214;4621:1268\",\"I31975:4668;4621:2214;4621:1268\",\"I31975:4672;4621:1252\",\"I31975:4674;4621:1293\",\"I31975:4675;4621:1290;4621:1287\",\"I31975:4676;4621:1290;4621:1287\",\"I30474:20410;26093:350475\",\"I30474:20412;4621:2214;4621:1268\",\"I30474:20413;4621:2214;4621:1268\",\"I30474:20414;4621:2214;4621:1268\",\"I30474:20420;4621:1293\",\"I30474:20421;4621:1290;4621:1287\",\"I30474:20422;4621:1290;4621:1287\",\"31480:10685\",\"I31975:4686;1741:1550\",\"I31975:4687;34948:1032\",\"I31975:4689;33124:6698\",\"I31975:4688;23:1899\",\"I31975:4690;23:1932\",\"I31975:4693;4621:2214;4621:1268\",\"I31975:4694;4621:2214;4621:1268\",\"I31975:4695;4621:2214;4621:1268\",\"I31975:4699;4621:1252\",\"I31975:4701;4621:1293\",\"I31975:4702;4621:1290;4621:1287\",\"I31975:4703;4621:1290;4621:1287\",\"I4621:2190;33124:6745\",\"I14894:176390;4621:1268\",\"I14894:176390;4621:1271\",\"I14894:176390;4621:1272\",\"I14894:176390;4621:1273\",\"I14894:176390;4621:1274\",\"I14894:176390;4621:1275\",\"I14894:176390;4621:1276\",\"I14894:176390;4621:1277\",\"I14894:176390;4621:1278\"],\"applied\":274,\"summary\":{\"color/text-icon/inverse/third\":96,\"color/text-icon/inverse/primary\":49,\"color/text-icon/primary\":37,\"color/text-icon/third\":90,\"color/fill/glassy/third\":2},\"errors\":[]}"
+        }
+      ],
+      "isError": false
+    }
+  ],
+  "ambiguousPaths": [
+    {
+      "type": "text",
+      "text": "{\"ambiguous\":[{\"id\":\"4621:1254\",\"path\":[{\"id\":\"4621:1254\",\"name\":\"Ellipse 2\",\"type\":\"ELLIPSE\"},{\"id\":\"4621:1253\",\"name\":\"Neon=True, Детям=False\",\"type\":\"COMPONENT\"},{\"id\":\"4621:1250\",\"name\":\".х / Okk\",\"type\":\"COMPONENT_SET\"}]},{\"id\":\"4621:1255\",\"path\":[{\"id\":\"4621:1255\",\"name\":\"Ellipse 1\",\"type\":\"ELLIPSE\"},{\"id\":\"4621:1253\",\"name\":\"Neon=True, Детям=False\",\"type\":\"COMPONENT\"},{\"id\":\"4621:1250\",\"name\":\".х / Okk\",\"type\":\"COMPONENT_SET\"}]},{\"id\":\"4621:1262\",\"path\":[{\"id\":\"4621:1262\",\"name\":\"Rectangle 244\",\"type\":\"RECTANGLE\"},{\"id\":\"4621:1253\",\"name\":\"Neon=True, Детям=False\",\"type\":\"COMPONENT\"},{\"id\":\"4621:1250\",\"name\":\".х / Okk\",\"type\":\"COMPONENT_SET\"}]},{\"id\":\"I4621:2214;4621:1268\",\"path\":[{\"id\":\"I4621:2214;4621:1268\",\"name\":\"Заголовок\",\"type\":\"TEXT\"},{\"id\":\"I4621:2214;4621:1267\",\"name\":\"Заголовок\",\"type\":\"FRAME\"},{\"id\":\"4621:2214\",\"name\":\".Ячейка\",\"type\":\"INSTANCE\"},{\"id\":\"4621:1385\",\"name\":\"Развернуто=False, Фон=Чёрный\",\"type\":\"COMPONENT\"},{\"id\":\"4621:1381\",\"name\":\".Ячейка / Колонка / Mobile\",\"type\":\"COMPONENT_SET\"}]},{\"id\":\"I10467:81186;4622:27304\",\"path\":[{\"id\":\"I10467:81186;4622:27304\",\"name\":\"Футер\",\"type\":\"INSTANCE\"},{\"id\":\"10467:81186\",\"name\":\"Футер\",\"type\":\"INSTANCE\"},{\"id\":\"10467:81740\",\"name\":\".Футер/1320+/False/True\",\"type\":\"COMPONENT\"}]},{\"id\":\"I10467:81186;4622:27304;4621:1227;1741:1550\",\"path\":[]},{\"id\":\"I10467:81186;4622:27304;4621:1231;23:1899\",\"path\":[]},{\"id\":\"I10467:81186;4622:27304;4621:1233;23:1932\",\"path\":[]},{\"id\":\"I10467:81931;4623:2\",\"path\":[{\"id\":\"I10467:81931;4623:2\",\"name\":\"Футер\",\"type\":\"INSTANCE\"},{\"id\":\"10467:81931\",\"name\":\"Футер\",\"type\":\"INSTANCE\"},{\"id\":\"10467:82763\",\"name\":\".Футер/320-599/False/True\",\"type\":\"COMPONENT\"}]},{\"id\":\"I10467:81929;4623:1;4623:0\",\"path\":[{\"id\":\"I10467:81929;4623:1;4623:0\",\"name\":\"Футер\",\"type\":\"INSTANCE\"},{\"id\":\"I10467:81929;4623:1\",\"name\":\"Футер\",\"type\":\"INSTANCE\"},{\"id\":\"10467:81929\",\"name\":\"Футер\",\"type\":\"INSTANCE\"},{\"id\":\"10467:82578\",\"name\":\".Футер/960-1319/False/True\",\"type\":\"COMPONENT\"}]},{\"id\":\"I10467:81930;4623:1\",\"path\":[{\"id\":\"I10467:81930;4623:1\",\"name\":\"Футер\",\"type\":\"INSTANCE\"},{\"id\":\"10467:81930\",\"name\":\"Футер\",\"type\":\"INSTANCE\"},{\"id\":\"10467:82665\",\"name\":\".Футер/600-959/False/True\",\"type\":\"COMPONENT\"}]}]}"
+    }
+  ]
+}

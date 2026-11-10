@@ -1,0 +1,2395 @@
+{
+  "date": "2026-10-20",
+  "fileKey": "sb7SelAF2PBcYZsOxL092c",
+  "pageId": "18808:300281",
+  "summary": {
+    "directlyChangedLayers": 103,
+    "directChanges": 127,
+    "staticDirect": 10,
+    "staticInherited": 3,
+    "checkedNodes": 1419,
+    "remaining": {
+      "kids": 0,
+      "light": 12,
+      "outside": 255,
+      "eligible": 72
+    }
+  },
+  "before": {
+    "page": "Snackbar, Notification",
+    "nodeCount": 1419,
+    "rootCount": 30,
+    "groups": [
+      {
+        "name": "[Deprecated]/Border/Focus",
+        "key": "12624d72e826e045d96307f7fa75f5cad8fa66d4",
+        "styleType": "PAINT",
+        "count": 3,
+        "buckets": {
+          "outside": 3
+        },
+        "example": "10570:86412"
+      },
+      {
+        "name": "[Deprecated]/Text & icon/on Dark/Negative",
+        "key": "998680c64c9c1838add8356e03c0178eb6a65a50",
+        "styleType": "PAINT",
+        "count": 10,
+        "buckets": {
+          "own": 7,
+          "instance": 3
+        },
+        "example": "6670:39919"
+      },
+      {
+        "name": "[Deprecated]/Brand/Okko/continuum",
+        "key": "a3bc677d4e98b3daf14f987ff5d77160d83c018d",
+        "styleType": "PAINT",
+        "count": 60,
+        "buckets": {
+          "instance": 43,
+          "outside": 17
+        },
+        "example": "I13457:138825;5595:1259"
+      },
+      {
+        "name": "Primitives/Blueberry/90",
+        "key": "88532c0a3229f60d0cfd3c0cae8f3312582f2b7f",
+        "styleType": "PAINT",
+        "count": 20,
+        "buckets": {
+          "own": 14,
+          "instance": 6
+        },
+        "example": "13457:138826"
+      },
+      {
+        "name": "[Deprecated]/Fill/Solid/Negative",
+        "key": "5cd53462aea8059c48019303237f34fb14ae333b",
+        "styleType": "PAINT",
+        "count": 31,
+        "buckets": {
+          "own": 21,
+          "instance": 10
+        },
+        "example": "13490:145114"
+      },
+      {
+        "name": "[Deprecated]/Text & icon/on Light/Primary",
+        "key": "4e8ca772b49d5b02391ce1d8bbac531eae429f25",
+        "styleType": "PAINT",
+        "count": 44,
+        "buckets": {
+          "own": 20,
+          "instance": 6,
+          "outside": 18
+        },
+        "example": "13475:145145"
+      },
+      {
+        "name": "[Deprecated]/Text & icon/on Light/Secondary",
+        "key": "a3a659f561be25a75b141bc7adee2a84609fa336",
+        "styleType": "PAINT",
+        "count": 3,
+        "buckets": {
+          "own": 2,
+          "instance": 1
+        },
+        "example": "10586:87733"
+      },
+      {
+        "name": "Fill/Solid/AccentB",
+        "key": "2326a1ddea4f1e1fb7982ad15e02f124b7d09638",
+        "styleType": "PAINT",
+        "count": 3,
+        "buckets": {
+          "instance": 3
+        },
+        "example": "I16787:191954;6029:33677"
+      },
+      {
+        "name": "Border/Glassy",
+        "key": "1082d45b02cee1ebf04885f304cfa0cae2c2bbc3",
+        "styleType": "PAINT",
+        "count": 3,
+        "buckets": {
+          "instance": 3
+        },
+        "example": "I16787:191954;6029:33677;6017:32950;6026:33845;1500:14"
+      },
+      {
+        "name": "Text & icon/on Dark/Primary",
+        "key": "f89742b6887c24e9491e35659021bf8e090a258a",
+        "styleType": "PAINT",
+        "count": 3,
+        "buckets": {
+          "instance": 3
+        },
+        "example": "I16787:191954;6029:33677;6017:32950;6026:33845;1500:11"
+      },
+      {
+        "name": "Text & icon/on Dark/Primary",
+        "key": "8d1e4095c97d6f8de9740c869fae2aa91b41bd6d",
+        "styleType": "PAINT",
+        "count": 3,
+        "buckets": {
+          "instance": 3
+        },
+        "example": "I16787:191954;6029:33677;6017:32951"
+      },
+      {
+        "name": "Blur/Button",
+        "key": "46a5b7ce2458b9b9812984ebadd816459e681f17",
+        "styleType": "EFFECT",
+        "count": 29,
+        "buckets": {
+          "instance": 15,
+          "outside": 14
+        },
+        "example": "16861:208180"
+      },
+      {
+        "name": "Fill/Glassy/On Dark/Third",
+        "key": "2d18b315097685552c2b414e160cfdb5b917f5e7",
+        "styleType": "PAINT",
+        "count": 29,
+        "buckets": {
+          "instance": 15,
+          "outside": 14
+        },
+        "example": "I16861:208180;962:7655"
+      },
+      {
+        "name": "Text & icon/on Dark/Primary",
+        "key": "8d1e4095c97d6f8de9740c869fae2aa91b41bd6d",
+        "styleType": "PAINT",
+        "count": 29,
+        "buckets": {
+          "instance": 15,
+          "outside": 14
+        },
+        "example": "I16861:208180;962:7656;2089:18"
+      },
+      {
+        "name": "[Deprecated]/Text & icon/on Dark/Accent",
+        "key": "c0564bc982150679520f79befc91330305fb313a",
+        "styleType": "PAINT",
+        "count": 10,
+        "buckets": {
+          "own": 7,
+          "instance": 3
+        },
+        "example": "13488:145602"
+      },
+      {
+        "name": "Fill/Solid/On Dark/Primary",
+        "key": "974f85fc28b4a77fb28ea56ae2aba7dbc10a9905",
+        "styleType": "PAINT",
+        "count": 6,
+        "buckets": {
+          "light": 6
+        },
+        "example": "I13488:145803;8396:5"
+      },
+      {
+        "name": "Primitives/Blueberry/15",
+        "key": "d83c273ae53e49a14e2dc841946de93ed2397e9d",
+        "styleType": "PAINT",
+        "count": 6,
+        "buckets": {
+          "light": 6
+        },
+        "example": "I13488:145803;8396:5;962:7655"
+      },
+      {
+        "name": "Text & icon/on Light/Primary",
+        "key": "4e8ca772b49d5b02391ce1d8bbac531eae429f25",
+        "styleType": "PAINT",
+        "count": 6,
+        "buckets": {
+          "light": 6
+        },
+        "example": "I13488:145803;8396:5;962:7656;2089:18"
+      },
+      {
+        "name": "Primitives/Violet/Primary",
+        "key": "5b4aab89983dd6c0b15940e8917c893ab9c33540",
+        "styleType": "PAINT",
+        "count": 6,
+        "buckets": {
+          "instance": 3,
+          "own": 3
+        },
+        "example": "I13491:145243;13490:145150"
+      },
+      {
+        "name": "[Deprecated]/Fill/Solid/Inverse",
+        "key": "974f85fc28b4a77fb28ea56ae2aba7dbc10a9905",
+        "styleType": "PAINT",
+        "count": 23,
+        "buckets": {
+          "own": 6,
+          "outside": 17
+        },
+        "example": "6670:39910"
+      },
+      {
+        "name": "[Deprecated]/Text & icon/on Dark/Primary",
+        "key": "8d1e4095c97d6f8de9740c869fae2aa91b41bd6d",
+        "styleType": "PAINT",
+        "count": 93,
+        "buckets": {
+          "outside": 93
+        },
+        "example": "18808:300158"
+      },
+      {
+        "name": "[Deprecated]/Text & icon/on Dark/Secondary",
+        "key": "eb0848c39cf58e48e9aae01f73f766c68f7bdde4",
+        "styleType": "PAINT",
+        "count": 13,
+        "buckets": {
+          "outside": 13
+        },
+        "example": "20239:303500"
+      },
+      {
+        "name": "[Deprecated]/Text & icon/on Light/Accent",
+        "key": "e9463c9956e97719d0493314e757a60e733378f0",
+        "styleType": "PAINT",
+        "count": 1,
+        "buckets": {
+          "outside": 1
+        },
+        "example": "I20209:304073;10586:87759"
+      },
+      {
+        "name": "[Deprecated]/Background/Solid/Secondary",
+        "key": "6b0d5a4adbf8961b9daa987c9db7b1f66a5a0472",
+        "styleType": "PAINT",
+        "count": 17,
+        "buckets": {
+          "outside": 17
+        },
+        "example": "20142:303019"
+      },
+      {
+        "name": "[Deprecated]/Border/Active",
+        "key": "075c49f40910d50af05873eda0928826475bf084",
+        "styleType": "PAINT",
+        "count": 17,
+        "buckets": {
+          "outside": 17
+        },
+        "example": "20142:303019"
+      },
+      {
+        "name": "[Deprecated]/Fill/Solid/Secondary",
+        "key": "cc9f8ed188fba9318e96d598d00738e0625fd414",
+        "styleType": "PAINT",
+        "count": 6,
+        "buckets": {
+          "outside": 6
+        },
+        "example": "20142:303026"
+      },
+      {
+        "name": "[Deprecated]/Fill/Solid/Accent",
+        "key": "e3ec3eec23dc45dab6e9ecf81f98639db564615b",
+        "styleType": "PAINT",
+        "count": 2,
+        "buckets": {
+          "outside": 2
+        },
+        "example": "20209:304239"
+      },
+      {
+        "name": "[Deprecated]/Background/Solid/Primary",
+        "key": "a58b219ba53603c8b26af4e925d7c6fcc41005af",
+        "styleType": "PAINT",
+        "count": 6,
+        "buckets": {
+          "outside": 6
+        },
+        "example": "20142:303048"
+      },
+      {
+        "name": "[Deprecated]/Border/Glassy",
+        "key": "1082d45b02cee1ebf04885f304cfa0cae2c2bbc3",
+        "styleType": "PAINT",
+        "count": 3,
+        "buckets": {
+          "outside": 3
+        },
+        "example": "20142:303049"
+      },
+      {
+        "name": "Primitives/Grey/Primary",
+        "key": "034ebd7ec8d8e4d45ba92d69b6f9b333aacb4133",
+        "styleType": "PAINT",
+        "count": 3,
+        "buckets": {
+          "outside": 3
+        },
+        "example": "I20142:303052;43994:27457;3644:1176"
+      },
+      {
+        "name": "Тень/Мини",
+        "key": "f10e03d3fd0867a89d5480eb78ccb32cf26b9079",
+        "styleType": "EFFECT",
+        "count": 3,
+        "buckets": {
+          "outside": 3
+        },
+        "example": "I20142:303052;43994:27467"
+      },
+      {
+        "name": "[Deprecated]/Fill/Glassy/Secondary",
+        "key": "5c78f242f595f0f73fe7c5b12f695071b35c3a2d",
+        "styleType": "PAINT",
+        "count": 14,
+        "buckets": {
+          "outside": 14
+        },
+        "example": "20685:305508"
+      },
+      {
+        "name": "[Deprecated]/Text & icon/on Dark/Third",
+        "key": "7ba87ccc576cd2381aee43f11162db346a88bf6a",
+        "styleType": "PAINT",
+        "count": 16,
+        "buckets": {
+          "outside": 16
+        },
+        "example": "20280:303537"
+      },
+      {
+        "name": "[Deprecated]/Text & icon/on Dark/Forth",
+        "key": "0f7b602df21889b566056efb403ddb4aead4dede",
+        "styleType": "PAINT",
+        "count": 2,
+        "buckets": {
+          "outside": 2
+        },
+        "example": "20280:303537"
+      },
+      {
+        "name": "[Deprecated]/Fill/Solid/Third",
+        "key": "3f22c2f6f68741f6009a395ea6e0be846163ac7c",
+        "styleType": "PAINT",
+        "count": 7,
+        "buckets": {
+          "outside": 7
+        },
+        "example": "20303:303580"
+      },
+      {
+        "name": "[Deprecated]/Fill/Solid/Warning",
+        "key": "45c7e0841a35cba281fac00776621b65b14f6fed",
+        "styleType": "PAINT",
+        "count": 16,
+        "buckets": {
+          "outside": 16
+        },
+        "example": "20290:303580"
+      },
+      {
+        "name": "[Deprecated]/Text & icon/on Dark/Warning",
+        "key": "cc9b20453a66c1b7a7bc72e5d01559574475a957",
+        "styleType": "PAINT",
+        "count": 16,
+        "buckets": {
+          "outside": 16
+        },
+        "example": "20290:303586"
+      },
+      {
+        "name": "[Deprecated]/Fill/Solid/Positive",
+        "key": "549095b548000afc744b26d6727f100cad79feac",
+        "styleType": "PAINT",
+        "count": 3,
+        "buckets": {
+          "outside": 3
+        },
+        "example": "22791:326176"
+      }
+    ],
+    "collections": [
+      {
+        "id": "VariableCollectionId:9bfe8dde6e700cc0754156917935eea46ac309ee/32016:4307",
+        "name": "Primitives",
+        "bindings": 25,
+        "variables": 4
+      },
+      {
+        "id": "VariableCollectionId:1c6e07816c9c7d8423d676736c66af0f797411bb/41872:3468",
+        "name": "Color",
+        "bindings": 462,
+        "variables": 16
+      },
+      {
+        "id": "VariableCollectionId:1c6e07816c9c7d8423d676736c66af0f797411bb/41700:0",
+        "name": "Color",
+        "bindings": 3,
+        "variables": 1
+      }
+    ],
+    "primitiveBindings": [
+      {
+        "name": "primitives/electric1000",
+        "key": "581f4b9f12c0461ca64bfda4e31661f9bba5f66e",
+        "count": 3,
+        "buckets": {
+          "outside": 3
+        },
+        "example": "10570:86412"
+      },
+      {
+        "name": "primitives/red600",
+        "key": "6b57403c4ed80c0ad8e2eca29c2e74c565f6ab37",
+        "count": 10,
+        "buckets": {
+          "own": 7,
+          "instance": 3
+        },
+        "example": "6670:39919"
+      },
+      {
+        "name": "primitives/electric300",
+        "key": "55ef3bc5d7cb945bd9075c4bfe8e6b8b7e152404",
+        "count": 10,
+        "buckets": {
+          "own": 7,
+          "instance": 3
+        },
+        "example": "13488:145602"
+      },
+      {
+        "name": "primitives/electric900",
+        "key": "68b8fbbbc78be34af7815443b21ef244eee6b6b0",
+        "count": 2,
+        "buckets": {
+          "outside": 2
+        },
+        "example": "20209:304239"
+      }
+    ],
+    "mixed": [],
+    "errors": []
+  },
+  "phases": {
+    "own": {
+      "mode": "own",
+      "found": 44,
+      "attempted": 44,
+      "mutatedNodeIds": [
+        "6670:39919",
+        "13490:145114",
+        "13488:145885",
+        "13490:145118",
+        "10586:87745",
+        "13490:145122",
+        "13488:145889",
+        "13490:145126",
+        "13475:145142",
+        "13475:145145",
+        "10586:87730",
+        "10586:87733",
+        "13475:145146",
+        "13475:145149",
+        "13488:145599",
+        "13488:145603",
+        "13488:145607",
+        "6669:39865",
+        "6669:39863",
+        "13488:145611",
+        "6669:39875",
+        "13490:145139",
+        "10586:87771",
+        "13490:145143",
+        "13488:145615",
+        "13488:145619",
+        "10586:87712",
+        "13490:145147",
+        "13488:145622",
+        "13488:145626",
+        "13488:145629",
+        "13488:145633",
+        "6670:39910",
+        "6669:39892",
+        "22791:326096",
+        "22791:326098",
+        "10586:87680",
+        "10586:87683",
+        "22791:326109",
+        "22791:326111",
+        "22791:326126",
+        "22791:326128",
+        "10586:87756",
+        "10586:87759"
+      ],
+      "applied": 44,
+      "summary": {
+        "color/text-icon/negative": 7,
+        "color/fill/solid/negative": 21,
+        "color/text-icon/inverse/primary": 8,
+        "color/text-icon/inverse/secondary": 2,
+        "color/fill/solid/inverse": 6
+      },
+      "errors": []
+    },
+    "nested": {
+      "mode": "instance",
+      "found": 52,
+      "attempted": 52,
+      "mutatedNodeIds": [
+        "I16787:191954;6029:33677;6017:32950;6026:33845;1500:14",
+        "I16787:191954;6029:33677;6017:32950;6026:33845;1500:11",
+        "I16787:191954;6029:33677;6017:32951",
+        "I16861:208180;962:7655",
+        "I16861:208180;962:7656;2089:18",
+        "13488:145289",
+        "I13488:145289;16859:207822;962:7655",
+        "I13488:145289;16859:207822;962:7656;2089:18",
+        "I13488:145297;962:7655",
+        "I13488:145297;962:7656;2089:18",
+        "I13488:145803;8396:5;962:7656;2089:18",
+        "I13490:145132;8396:5;962:7656;2089:18",
+        "I16787:187371;6029:33693;6017:32950;6022:33234;1500:14",
+        "I16787:187371;6029:33693;6017:32950;6022:33234;1500:11",
+        "I16787:187371;6029:33693;6017:32951",
+        "I16858:207677;962:7655",
+        "I16858:207677;962:7656;2089:18",
+        "13488:145277",
+        "I13488:145277;6669:39856",
+        "I13488:145285;962:7655",
+        "I13488:145285;962:7656;2089:18",
+        "I13488:145806;8396:5;962:7656;2089:18",
+        "I13490:145135;8396:5;962:7656;2089:18",
+        "13488:145062",
+        "I13488:145062;16858:207496;962:7655",
+        "I13488:145062;16858:207496;962:7656;2089:18",
+        "I13475:145187;962:7655",
+        "I13475:145187;962:7656;2089:18",
+        "I13488:145809;8396:5;962:7656;2089:18",
+        "I13490:145138;8396:5;962:7656;2089:18",
+        "13488:145718",
+        "I13488:145621;962:7655",
+        "I13488:145621;962:7656;2089:18",
+        "13488:145710",
+        "I13488:145628;962:7655",
+        "I13488:145628;962:7656;2089:18",
+        "13488:145702",
+        "I13488:145635;962:7655",
+        "I13488:145635;962:7656;2089:18",
+        "I16859:207822;962:7655",
+        "I16859:207822;962:7656;2089:18",
+        "I22791:326113;962:7655",
+        "I22791:326113;962:7656;2089:18",
+        "I22791:326130;962:7655",
+        "I22791:326130;962:7656;2089:18",
+        "I16858:207496;962:7655",
+        "I16858:207496;962:7656;2089:18"
+      ],
+      "applied": 47,
+      "summary": {
+        "color/border/glassy": 2,
+        "color/text-icon/primary": 18,
+        "color/fill/glassy/third": 14,
+        "color/fill/solid/negative": 7,
+        "color/text-icon/inverse/primary": 6
+      },
+      "errors": []
+    },
+    "ranges": {
+      "mutatedNodeIds": [
+        "13488:145602",
+        "13488:145606",
+        "13488:145610",
+        "13488:145614",
+        "13488:145618",
+        "13488:145625",
+        "13488:145632",
+        "I13488:145718;13488:145618",
+        "I13488:145710;13488:145625",
+        "I13488:145702;13488:145632"
+      ],
+      "rangeCount": 26,
+      "ranges": [
+        [
+          "13488:145602",
+          0,
+          59,
+          "color/text-icon/inverse/primary"
+        ],
+        [
+          "13488:145602",
+          59,
+          67,
+          "color/text-icon/accent"
+        ],
+        [
+          "13488:145602",
+          67,
+          68,
+          "color/text-icon/inverse/primary"
+        ],
+        [
+          "13488:145606",
+          0,
+          59,
+          "color/text-icon/inverse/primary"
+        ],
+        [
+          "13488:145606",
+          59,
+          67,
+          "color/text-icon/accent"
+        ],
+        [
+          "13488:145606",
+          67,
+          69,
+          "color/text-icon/inverse/primary"
+        ],
+        [
+          "13488:145610",
+          0,
+          44,
+          "color/text-icon/inverse/primary"
+        ],
+        [
+          "13488:145610",
+          44,
+          52,
+          "color/text-icon/accent"
+        ],
+        [
+          "13488:145610",
+          52,
+          53,
+          "color/text-icon/inverse/primary"
+        ],
+        [
+          "13488:145614",
+          0,
+          44,
+          "color/text-icon/inverse/primary"
+        ],
+        [
+          "13488:145614",
+          44,
+          52,
+          "color/text-icon/accent"
+        ],
+        [
+          "13488:145614",
+          52,
+          53,
+          "color/text-icon/inverse/primary"
+        ],
+        [
+          "13488:145618",
+          0,
+          45,
+          "color/text-icon/inverse/primary"
+        ],
+        [
+          "13488:145618",
+          45,
+          53,
+          "color/text-icon/accent"
+        ],
+        [
+          "13488:145625",
+          0,
+          45,
+          "color/text-icon/inverse/primary"
+        ],
+        [
+          "13488:145625",
+          45,
+          53,
+          "color/text-icon/accent"
+        ],
+        [
+          "13488:145632",
+          0,
+          45,
+          "color/text-icon/inverse/primary"
+        ],
+        [
+          "13488:145632",
+          45,
+          53,
+          "color/text-icon/accent"
+        ],
+        [
+          "13488:145632",
+          53,
+          54,
+          "color/text-icon/inverse/primary"
+        ],
+        [
+          "I13488:145718;13488:145618",
+          0,
+          45,
+          "color/text-icon/inverse/primary"
+        ],
+        [
+          "I13488:145718;13488:145618",
+          45,
+          53,
+          "color/text-icon/accent"
+        ],
+        [
+          "I13488:145710;13488:145625",
+          0,
+          45,
+          "color/text-icon/inverse/primary"
+        ],
+        [
+          "I13488:145710;13488:145625",
+          45,
+          53,
+          "color/text-icon/accent"
+        ],
+        [
+          "I13488:145702;13488:145632",
+          0,
+          45,
+          "color/text-icon/inverse/primary"
+        ],
+        [
+          "I13488:145702;13488:145632",
+          45,
+          53,
+          "color/text-icon/accent"
+        ],
+        [
+          "I13488:145702;13488:145632",
+          53,
+          54,
+          "color/text-icon/inverse/primary"
+        ]
+      ],
+      "errors": []
+    },
+    "static": {
+      "found": 13,
+      "mutatedNodeIds": [
+        "13475:145145",
+        "10586:87733",
+        "I16787:191954;6029:33677;6017:32950;6026:33845;1500:11",
+        "I16787:191954;6029:33677;6017:32951",
+        "13475:145149",
+        "I13488:145289;10586:87683",
+        "6669:39863",
+        "I16787:187371;6029:33693;6017:32950;6022:33234;1500:11",
+        "I16787:187371;6029:33693;6017:32951",
+        "I13488:145062;10586:87759"
+      ],
+      "records": [
+        [
+          "13475:145145",
+          "13475:145142",
+          "color/static/solid/black",
+          0.9599999785423279,
+          1,
+          "VariableID:6a2da19c0b5e6c45ffa29b1fe769bbe31d6db150/41978:2837",
+          0.9599999785423279
+        ],
+        [
+          "10586:87733",
+          "10586:87730",
+          "color/static/solid/black",
+          0.800000011920929,
+          1,
+          "VariableID:c010b5e2e260119f3be5d8a236cbc53bea58d0b4/41978:2844",
+          0.800000011920929
+        ],
+        [
+          "I16787:191954;6029:33677;6017:32950;6026:33845;1500:11",
+          "10586:87730",
+          "color/static/solid/white",
+          0.9599999785423279,
+          1,
+          "VariableID:4f21a856bdfc52444ea3e3f62c9f6af53b98e6e5/41978:2829",
+          0.9599999785423279
+        ],
+        [
+          "I16787:191954;6029:33677;6017:32951",
+          "10586:87730",
+          "color/static/solid/white",
+          0.9599999785423279,
+          1,
+          "VariableID:4f21a856bdfc52444ea3e3f62c9f6af53b98e6e5/41978:2829",
+          0.9599999785423279
+        ],
+        [
+          "13475:145149",
+          "13475:145146",
+          "color/static/solid/black",
+          0.9599999785423279,
+          1,
+          "VariableID:6a2da19c0b5e6c45ffa29b1fe769bbe31d6db150/41978:2837",
+          0.9599999785423279
+        ],
+        [
+          "I13488:145289;10586:87683",
+          "13475:145150",
+          "color/static/solid/black",
+          0.9599999785423279,
+          1,
+          "VariableID:6a2da19c0b5e6c45ffa29b1fe769bbe31d6db150/41978:2837",
+          0.9599999785423279
+        ],
+        [
+          "6669:39863",
+          "6669:39865",
+          "color/static/solid/black",
+          0.800000011920929,
+          1,
+          "VariableID:c010b5e2e260119f3be5d8a236cbc53bea58d0b4/41978:2844",
+          0.800000011920929
+        ],
+        [
+          "I16787:187371;6029:33693;6017:32950;6022:33234;1500:11",
+          "6669:39865",
+          "color/static/solid/white",
+          0.9599999785423279,
+          1,
+          "VariableID:4f21a856bdfc52444ea3e3f62c9f6af53b98e6e5/41978:2829",
+          0.9599999785423279
+        ],
+        [
+          "I16787:187371;6029:33693;6017:32951",
+          "6669:39865",
+          "color/static/solid/white",
+          0.9599999785423279,
+          1,
+          "VariableID:4f21a856bdfc52444ea3e3f62c9f6af53b98e6e5/41978:2829",
+          0.9599999785423279
+        ],
+        [
+          "I13488:145062;10586:87759",
+          "13475:145158",
+          "color/static/solid/black",
+          0.9599999785423279,
+          1,
+          "VariableID:6a2da19c0b5e6c45ffa29b1fe769bbe31d6db150/41978:2837",
+          0.9599999785423279
+        ]
+      ],
+      "errors": [],
+      "unsupportedCount": 14,
+      "skipped": []
+    }
+  },
+  "after": {
+    "eligibleDetails": [
+      {
+        "id": "I13457:138825;5595:1259",
+        "name": "Oval",
+        "master": "6670:39919",
+        "path": "исп. 375, Type=Icon+Text+Button, Theme=⛔️ заменяем на Dark, State=Enabled > иконка + текст > Snackbar / Универсальный успех > Oval",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:a3bc677d4e98b3daf14f987ff5d77160d83c018d,41872:3543"
+          }
+        ]
+      },
+      {
+        "id": "13457:138826",
+        "name": "Title",
+        "master": "6670:39919",
+        "path": "Snackbar > Resolution=⛔️ Не исп. 375, Type=Icon+Text+Button, Theme=⛔️ заменяем на Dark, State=Enabled > иконка + текст > Title",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:88532c0a3229f60d0cfd3c0cae8f3312582f2b7f,10968:13"
+          }
+        ]
+      },
+      {
+        "id": "I13490:145116;5595:1259",
+        "name": "Oval",
+        "master": "13490:145114",
+        "path": "e=⛔️ заменяем на первый вариант, Theme=⛔️ заменяем на Dark, State=Enabled > иконка + текст > Snackbar / Универсальный успех > Oval",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:a3bc677d4e98b3daf14f987ff5d77160d83c018d,41872:3543"
+          }
+        ]
+      },
+      {
+        "id": "13490:145117",
+        "name": "Title",
+        "master": "13490:145114",
+        "path": "> Resolution=⛔️ Не исп. 375, Type=⛔️ заменяем на первый вариант, Theme=⛔️ заменяем на Dark, State=Enabled > иконка + текст > Title",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:88532c0a3229f60d0cfd3c0cae8f3312582f2b7f,10968:13"
+          }
+        ]
+      },
+      {
+        "id": "I13488:145887;5595:1259",
+        "name": "Oval",
+        "master": "13488:145885",
+        "path": "Icon+Text+Button, Theme=⛔️ заменяем на Dark, State=⛔️ заменяем на Enabled > иконка + текст > Snackbar / Универсальный успех > Oval",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:a3bc677d4e98b3daf14f987ff5d77160d83c018d,41872:3543"
+          }
+        ]
+      },
+      {
+        "id": "13488:145888",
+        "name": "Title",
+        "master": "13488:145885",
+        "path": "Resolution=⛔️ Не исп. 375, Type=Icon+Text+Button, Theme=⛔️ заменяем на Dark, State=⛔️ заменяем на Enabled > иконка + текст > Title",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:88532c0a3229f60d0cfd3c0cae8f3312582f2b7f,10968:13"
+          }
+        ]
+      },
+      {
+        "id": "I13490:145120;5595:1259",
+        "name": "Oval",
+        "master": "13490:145118",
+        "path": "а первый вариант, Theme=⛔️ заменяем на Dark, State=⛔️ заменяем на Enabled > иконка + текст > Snackbar / Универсальный успех > Oval",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:a3bc677d4e98b3daf14f987ff5d77160d83c018d,41872:3543"
+          }
+        ]
+      },
+      {
+        "id": "13490:145121",
+        "name": "Title",
+        "master": "13490:145118",
+        "path": " Не исп. 375, Type=⛔️ заменяем на первый вариант, Theme=⛔️ заменяем на Dark, State=⛔️ заменяем на Enabled > иконка + текст > Title",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:88532c0a3229f60d0cfd3c0cae8f3312582f2b7f,10968:13"
+          }
+        ]
+      },
+      {
+        "id": "I13457:138833;5595:1259",
+        "name": "Oval",
+        "master": "10586:87745",
+        "path": "исп. 320, Type=Icon+Text+Button, Theme=⛔️ заменяем на Dark, State=Enabled > иконка + текст > Snackbar / Универсальный успех > Oval",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:a3bc677d4e98b3daf14f987ff5d77160d83c018d,41872:3543"
+          }
+        ]
+      },
+      {
+        "id": "13457:138834",
+        "name": "Title",
+        "master": "10586:87745",
+        "path": "Snackbar > Resolution=⛔️ Не исп. 320, Type=Icon+Text+Button, Theme=⛔️ заменяем на Dark, State=Enabled > иконка + текст > Title",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:88532c0a3229f60d0cfd3c0cae8f3312582f2b7f,10968:13"
+          }
+        ]
+      },
+      {
+        "id": "I13490:145124;5595:1259",
+        "name": "Oval",
+        "master": "13490:145122",
+        "path": "e=⛔️ заменяем на первый вариант, Theme=⛔️ заменяем на Dark, State=Enabled > иконка + текст > Snackbar / Универсальный успех > Oval",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:a3bc677d4e98b3daf14f987ff5d77160d83c018d,41872:3543"
+          }
+        ]
+      },
+      {
+        "id": "13490:145125",
+        "name": "Title",
+        "master": "13490:145122",
+        "path": "> Resolution=⛔️ Не исп. 320, Type=⛔️ заменяем на первый вариант, Theme=⛔️ заменяем на Dark, State=Enabled > иконка + текст > Title",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:88532c0a3229f60d0cfd3c0cae8f3312582f2b7f,10968:13"
+          }
+        ]
+      },
+      {
+        "id": "I13488:145891;5595:1259",
+        "name": "Oval",
+        "master": "13488:145889",
+        "path": "Icon+Text+Button, Theme=⛔️ заменяем на Dark, State=⛔️ заменяем на Enabled > иконка + текст > Snackbar / Универсальный успех > Oval",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:a3bc677d4e98b3daf14f987ff5d77160d83c018d,41872:3543"
+          }
+        ]
+      },
+      {
+        "id": "13488:145892",
+        "name": "Title",
+        "master": "13488:145889",
+        "path": "Resolution=⛔️ Не исп. 320, Type=Icon+Text+Button, Theme=⛔️ заменяем на Dark, State=⛔️ заменяем на Enabled > иконка + текст > Title",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:88532c0a3229f60d0cfd3c0cae8f3312582f2b7f,10968:13"
+          }
+        ]
+      },
+      {
+        "id": "I13490:145128;5595:1259",
+        "name": "Oval",
+        "master": "13490:145126",
+        "path": "а первый вариант, Theme=⛔️ заменяем на Dark, State=⛔️ заменяем на Enabled > иконка + текст > Snackbar / Универсальный успех > Oval",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:a3bc677d4e98b3daf14f987ff5d77160d83c018d,41872:3543"
+          }
+        ]
+      },
+      {
+        "id": "13490:145129",
+        "name": "Title",
+        "master": "13490:145126",
+        "path": " Не исп. 320, Type=⛔️ заменяем на первый вариант, Theme=⛔️ заменяем на Dark, State=⛔️ заменяем на Enabled > иконка + текст > Title",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:88532c0a3229f60d0cfd3c0cae8f3312582f2b7f,10968:13"
+          }
+        ]
+      },
+      {
+        "id": "I13475:145144;5595:1259",
+        "name": "Oval",
+        "master": "13475:145142",
+        "path": "исп. 375, Type=Icon+Text+Button, Theme=Dark, State=⛔️ заменяем на Enabled > иконка + текст > Snackbar / Универсальный успех > Oval",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:a3bc677d4e98b3daf14f987ff5d77160d83c018d,41872:3543"
+          }
+        ]
+      },
+      {
+        "id": "I10586:87732;5595:1259",
+        "name": "Oval",
+        "master": "10586:87730",
+        "path": "аменяем на Phone<600, Type=Icon+Text+Button, Theme=Dark, State=Enabled > panel > text&icon > Snackbar / Универсальный успех > Oval",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:a3bc677d4e98b3daf14f987ff5d77160d83c018d,41872:3543"
+          }
+        ]
+      },
+      {
+        "id": "I16787:191954;6029:33677",
+        "name": "🔴 Кнопка (базовая)",
+        "master": "10586:87730",
+        "path": "а Phone<600, Type=Icon+Text+Button, Theme=Dark, State=Enabled > panel > 🔴 Маленькая / Прямоугольник / Текст > 🔴 Кнопка (базовая)",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:2326a1ddea4f1e1fb7982ad15e02f124b7d09638,15461:1"
+          }
+        ]
+      },
+      {
+        "id": "I13475:145148;5595:1259",
+        "name": "Oval",
+        "master": "13475:145146",
+        "path": "исп. 320, Type=Icon+Text+Button, Theme=Dark, State=⛔️ заменяем на Enabled > иконка + текст > Snackbar / Универсальный успех > Oval",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:a3bc677d4e98b3daf14f987ff5d77160d83c018d,41872:3543"
+          }
+        ]
+      },
+      {
+        "id": "I13488:145601;5595:1259",
+        "name": "Oval",
+        "master": "13488:145599",
+        "path": "е исп. 375, Type=⛔️ заменяем на первый вариант, Theme=Dark, State=Enabled > иконка + текст > Snackbar / Универсальный успех > Oval",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:a3bc677d4e98b3daf14f987ff5d77160d83c018d,41872:3543"
+          }
+        ]
+      },
+      {
+        "id": "I13488:145605;5595:1259",
+        "name": "Oval",
+        "master": "13488:145603",
+        "path": "e=⛔️ заменяем на первый вариант, Theme=Dark, State=⛔️ заменяем на Enabled > иконка + текст > Snackbar / Универсальный успех > Oval",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:a3bc677d4e98b3daf14f987ff5d77160d83c018d,41872:3543"
+          }
+        ]
+      },
+      {
+        "id": "I13488:145289;10586:87682;5595:1259",
+        "name": "Oval",
+        "master": "13475:145150",
+        "path": "nackbar > Resolution=⛔️ Не исп. 1024-768, Type=Icon+Text+Button, Theme=Dark, State=⛔️ заменяем на Enabled > Snackbar > Icon > Oval",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:a3bc677d4e98b3daf14f987ff5d77160d83c018d,41872:3543"
+          }
+        ]
+      },
+      {
+        "id": "I13488:145802;10586:87714;5595:1259",
+        "name": "Oval",
+        "master": "13488:145801",
+        "path": "utton, Theme=⛔️ заменяем на Dark, State=⛔️ заменяем на Enabled > Snackbar > иконка + текст > Snackbar / Универсальный успех > Oval",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:a3bc677d4e98b3daf14f987ff5d77160d83c018d,41872:3543"
+          }
+        ]
+      },
+      {
+        "id": "I13488:145802;10586:87715",
+        "name": "Title",
+        "master": "13488:145801",
+        "path": " исп. 1024-768, Type=Icon+Text+Button, Theme=⛔️ заменяем на Dark, State=⛔️ заменяем на Enabled > Snackbar > иконка + текст > Title",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:88532c0a3229f60d0cfd3c0cae8f3312582f2b7f,10968:13"
+          }
+        ]
+      },
+      {
+        "id": "I13491:145243;13490:145149;5595:1259",
+        "name": "Oval",
+        "master": "13490:145130",
+        "path": "риант, Theme=⛔️ заменяем на Dark, State=⛔️ заменяем на Enabled > Snackbar > иконка + текст > Snackbar / Универсальный успех > Oval",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:a3bc677d4e98b3daf14f987ff5d77160d83c018d,41872:3543"
+          }
+        ]
+      },
+      {
+        "id": "I13491:145243;13490:145150",
+        "name": "Title",
+        "master": "13490:145130",
+        "path": "8, Type=⛔️ заменяем на первый вариант, Theme=⛔️ заменяем на Dark, State=⛔️ заменяем на Enabled > Snackbar > иконка + текст > Title",
+        "fields": [
+          {
+            "field": "fillRange",
+            "source": "S:88532c0a3229f60d0cfd3c0cae8f3312582f2b7f,10968:13"
+          },
+          {
+            "field": "fillRange",
+            "source": "S:5b4aab89983dd6c0b15940e8917c893ab9c33540,11363:19"
+          }
+        ]
+      },
+      {
+        "id": "I13488:145609;5595:1259",
+        "name": "Oval",
+        "master": "13488:145607",
+        "path": "е исп. 320, Type=⛔️ заменяем на первый вариант, Theme=Dark, State=Enabled > иконка + текст > Snackbar / Универсальный успех > Oval",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:a3bc677d4e98b3daf14f987ff5d77160d83c018d,41872:3543"
+          }
+        ]
+      },
+      {
+        "id": "I6670:39875;5595:1259",
+        "name": "Oval",
+        "master": "6669:39865",
+        "path": "на Laptop and Tablet, Type=Icon+Text+Button, Theme=Dark, State=Enabled > panel > icon&text > Snackbar / Универсальный успех > Oval",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:a3bc677d4e98b3daf14f987ff5d77160d83c018d,41872:3543"
+          }
+        ]
+      },
+      {
+        "id": "I16787:187371;6029:33693",
+        "name": "🔴 Кнопка (базовая)",
+        "master": "6669:39865",
+        "path": " and Tablet, Type=Icon+Text+Button, Theme=Dark, State=Enabled > panel > 🔴 Маленькая / Прямоугольник / Текст > 🔴 Кнопка (базовая)",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:2326a1ddea4f1e1fb7982ad15e02f124b7d09638,15461:1"
+          }
+        ]
+      },
+      {
+        "id": "I13488:145277;6670:39875;5595:1259",
+        "name": "Oval",
+        "master": "13475:145154",
+        "path": "=Icon+Text+Button, Theme=Dark, State=⛔️ заменяем на Enabled > Snackbar > panel > icon&text > Snackbar / Универсальный успех > Oval",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:a3bc677d4e98b3daf14f987ff5d77160d83c018d,41872:3543"
+          }
+        ]
+      },
+      {
+        "id": "I13488:145277;16787:187371;6029:33693",
+        "name": "🔴 Кнопка (базовая)",
+        "master": "13475:145154",
+        "path": "t+Button, Theme=Dark, State=⛔️ заменяем на Enabled > Snackbar > panel > 🔴 Маленькая / Прямоугольник / Текст > 🔴 Кнопка (базовая)",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:2326a1ddea4f1e1fb7982ad15e02f124b7d09638,15461:1"
+          }
+        ]
+      },
+      {
+        "id": "I13488:145805;13457:138841;5595:1259",
+        "name": "Oval",
+        "master": "13488:145804",
+        "path": "utton, Theme=⛔️ заменяем на Dark, State=⛔️ заменяем на Enabled > Snackbar > иконка + текст > Snackbar / Универсальный успех > Oval",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:a3bc677d4e98b3daf14f987ff5d77160d83c018d,41872:3543"
+          }
+        ]
+      },
+      {
+        "id": "I13488:145805;13457:138842",
+        "name": "Title",
+        "master": "13488:145804",
+        "path": "️ Не исп. 1440, Type=Icon+Text+Button, Theme=⛔️ заменяем на Dark, State=⛔️ заменяем на Enabled > Snackbar > иконка + текст > Title",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:88532c0a3229f60d0cfd3c0cae8f3312582f2b7f,10968:13"
+          }
+        ]
+      },
+      {
+        "id": "I13491:145235;13490:145141;5595:1259",
+        "name": "Oval",
+        "master": "13490:145133",
+        "path": "риант, Theme=⛔️ заменяем на Dark, State=⛔️ заменяем на Enabled > Snackbar > иконка + текст > Snackbar / Универсальный успех > Oval",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:a3bc677d4e98b3daf14f987ff5d77160d83c018d,41872:3543"
+          }
+        ]
+      },
+      {
+        "id": "I13491:145235;13490:145142",
+        "name": "Title",
+        "master": "13490:145133",
+        "path": "0, Type=⛔️ заменяем на первый вариант, Theme=⛔️ заменяем на Dark, State=⛔️ заменяем на Enabled > Snackbar > иконка + текст > Title",
+        "fields": [
+          {
+            "field": "fillRange",
+            "source": "S:88532c0a3229f60d0cfd3c0cae8f3312582f2b7f,10968:13"
+          },
+          {
+            "field": "fillRange",
+            "source": "S:5b4aab89983dd6c0b15940e8917c893ab9c33540,11363:19"
+          }
+        ]
+      },
+      {
+        "id": "I13488:145062;10586:87758;5595:1259",
+        "name": "Oval",
+        "master": "13475:145158",
+        "path": "ackbar > Resolution=⛔️ Не исп. 1920-1792, Type=Icon+Text+Button, Theme=Dark, State=⛔️ заменяем на Enabled > Snackbar > Icon > Oval",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:a3bc677d4e98b3daf14f987ff5d77160d83c018d,41872:3543"
+          }
+        ]
+      },
+      {
+        "id": "I13488:145808;10593:87782;5595:1259",
+        "name": "Oval",
+        "master": "13488:145807",
+        "path": "utton, Theme=⛔️ заменяем на Dark, State=⛔️ заменяем на Enabled > Snackbar > иконка + текст > Snackbar / Универсальный успех > Oval",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:a3bc677d4e98b3daf14f987ff5d77160d83c018d,41872:3543"
+          }
+        ]
+      },
+      {
+        "id": "I13488:145808;10593:87783",
+        "name": "Title",
+        "master": "13488:145807",
+        "path": "исп. 1920-1792, Type=Icon+Text+Button, Theme=⛔️ заменяем на Dark, State=⛔️ заменяем на Enabled > Snackbar > иконка + текст > Title",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:88532c0a3229f60d0cfd3c0cae8f3312582f2b7f,10968:13"
+          }
+        ]
+      },
+      {
+        "id": "I13491:145227;13490:145145;5595:1259",
+        "name": "Oval",
+        "master": "13490:145136",
+        "path": "риант, Theme=⛔️ заменяем на Dark, State=⛔️ заменяем на Enabled > Snackbar > иконка + текст > Snackbar / Универсальный успех > Oval",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:a3bc677d4e98b3daf14f987ff5d77160d83c018d,41872:3543"
+          }
+        ]
+      },
+      {
+        "id": "I13491:145227;13490:145146",
+        "name": "Title",
+        "master": "13490:145136",
+        "path": "2, Type=⛔️ заменяем на первый вариант, Theme=⛔️ заменяем на Dark, State=⛔️ заменяем на Enabled > Snackbar > иконка + текст > Title",
+        "fields": [
+          {
+            "field": "fillRange",
+            "source": "S:88532c0a3229f60d0cfd3c0cae8f3312582f2b7f,10968:13"
+          },
+          {
+            "field": "fillRange",
+            "source": "S:5b4aab89983dd6c0b15940e8917c893ab9c33540,11363:19"
+          }
+        ]
+      },
+      {
+        "id": "I13488:145613;5595:1259",
+        "name": "Oval",
+        "master": "13488:145611",
+        "path": "e=⛔️ заменяем на первый вариант, Theme=Dark, State=⛔️ заменяем на Enabled > иконка + текст > Snackbar / Универсальный успех > Oval",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:a3bc677d4e98b3daf14f987ff5d77160d83c018d,41872:3543"
+          }
+        ]
+      },
+      {
+        "id": "I13457:138841;5595:1259",
+        "name": "Oval",
+        "master": "6669:39875",
+        "path": "сп. 1440, Type=Icon+Text+Button, Theme=⛔️ заменяем на Dark, State=Enabled > иконка + текст > Snackbar / Универсальный успех > Oval",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:a3bc677d4e98b3daf14f987ff5d77160d83c018d,41872:3543"
+          }
+        ]
+      },
+      {
+        "id": "13457:138842",
+        "name": "Title",
+        "master": "6669:39875",
+        "path": "Snackbar > Resolution=⛔️ Не исп. 1440, Type=Icon+Text+Button, Theme=⛔️ заменяем на Dark, State=Enabled > иконка + текст > Title",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:88532c0a3229f60d0cfd3c0cae8f3312582f2b7f,10968:13"
+          }
+        ]
+      },
+      {
+        "id": "I13490:145141;5595:1259",
+        "name": "Oval",
+        "master": "13490:145139",
+        "path": "e=⛔️ заменяем на первый вариант, Theme=⛔️ заменяем на Dark, State=Enabled > иконка + текст > Snackbar / Универсальный успех > Oval",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:a3bc677d4e98b3daf14f987ff5d77160d83c018d,41872:3543"
+          }
+        ]
+      },
+      {
+        "id": "13490:145142",
+        "name": "Title",
+        "master": "13490:145139",
+        "path": " Resolution=⛔️ Не исп. 1440, Type=⛔️ заменяем на первый вариант, Theme=⛔️ заменяем на Dark, State=Enabled > иконка + текст > Title",
+        "fields": [
+          {
+            "field": "fillRange",
+            "source": "S:88532c0a3229f60d0cfd3c0cae8f3312582f2b7f,10968:13"
+          },
+          {
+            "field": "fillRange",
+            "source": "S:5b4aab89983dd6c0b15940e8917c893ab9c33540,11363:19"
+          }
+        ]
+      },
+      {
+        "id": "I10593:87782;5595:1259",
+        "name": "Oval",
+        "master": "10586:87771",
+        "path": "920-1792, Type=Icon+Text+Button, Theme=⛔️ заменяем на Dark, State=Enabled > иконка + текст > Snackbar / Универсальный успех > Oval",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:a3bc677d4e98b3daf14f987ff5d77160d83c018d,41872:3543"
+          }
+        ]
+      },
+      {
+        "id": "10593:87783",
+        "name": "Title",
+        "master": "10586:87771",
+        "path": "ackbar > Resolution=⛔️ Не исп. 1920-1792, Type=Icon+Text+Button, Theme=⛔️ заменяем на Dark, State=Enabled > иконка + текст > Title",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:88532c0a3229f60d0cfd3c0cae8f3312582f2b7f,10968:13"
+          }
+        ]
+      },
+      {
+        "id": "I13490:145145;5595:1259",
+        "name": "Oval",
+        "master": "13490:145143",
+        "path": "e=⛔️ заменяем на первый вариант, Theme=⛔️ заменяем на Dark, State=Enabled > иконка + текст > Snackbar / Универсальный успех > Oval",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:a3bc677d4e98b3daf14f987ff5d77160d83c018d,41872:3543"
+          }
+        ]
+      },
+      {
+        "id": "13490:145146",
+        "name": "Title",
+        "master": "13490:145143",
+        "path": "lution=⛔️ Не исп. 1920-1792, Type=⛔️ заменяем на первый вариант, Theme=⛔️ заменяем на Dark, State=Enabled > иконка + текст > Title",
+        "fields": [
+          {
+            "field": "fillRange",
+            "source": "S:88532c0a3229f60d0cfd3c0cae8f3312582f2b7f,10968:13"
+          },
+          {
+            "field": "fillRange",
+            "source": "S:5b4aab89983dd6c0b15940e8917c893ab9c33540,11363:19"
+          }
+        ]
+      },
+      {
+        "id": "I13488:145617;5595:1259",
+        "name": "Oval",
+        "master": "13488:145615",
+        "path": ". 1024-768, Type=⛔️ заменяем на первый вариант, Theme=Dark, State=Enabled > иконка + текст > Snackbar / Универсальный успех > Oval",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:a3bc677d4e98b3daf14f987ff5d77160d83c018d,41872:3543"
+          }
+        ]
+      },
+      {
+        "id": "I13488:145718;13488:145617;5595:1259",
+        "name": "Oval",
+        "master": "13488:145619",
+        "path": "ем на первый вариант, Theme=Dark, State=⛔️ заменяем на Enabled > Snackbar > иконка + текст > Snackbar / Универсальный успех > Oval",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:a3bc677d4e98b3daf14f987ff5d77160d83c018d,41872:3543"
+          }
+        ]
+      },
+      {
+        "id": "I10586:87714;5595:1259",
+        "name": "Oval",
+        "master": "10586:87712",
+        "path": "1024-768, Type=Icon+Text+Button, Theme=⛔️ заменяем на Dark, State=Enabled > иконка + текст > Snackbar / Универсальный успех > Oval",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:a3bc677d4e98b3daf14f987ff5d77160d83c018d,41872:3543"
+          }
+        ]
+      },
+      {
+        "id": "10586:87715",
+        "name": "Title",
+        "master": "10586:87712",
+        "path": "nackbar > Resolution=⛔️ Не исп. 1024-768, Type=Icon+Text+Button, Theme=⛔️ заменяем на Dark, State=Enabled > иконка + текст > Title",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:88532c0a3229f60d0cfd3c0cae8f3312582f2b7f,10968:13"
+          }
+        ]
+      },
+      {
+        "id": "I13490:145149;5595:1259",
+        "name": "Oval",
+        "master": "13490:145147",
+        "path": "e=⛔️ заменяем на первый вариант, Theme=⛔️ заменяем на Dark, State=Enabled > иконка + текст > Snackbar / Универсальный успех > Oval",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:a3bc677d4e98b3daf14f987ff5d77160d83c018d,41872:3543"
+          }
+        ]
+      },
+      {
+        "id": "13490:145150",
+        "name": "Title",
+        "master": "13490:145147",
+        "path": "olution=⛔️ Не исп. 1024-768, Type=⛔️ заменяем на первый вариант, Theme=⛔️ заменяем на Dark, State=Enabled > иконка + текст > Title",
+        "fields": [
+          {
+            "field": "fillRange",
+            "source": "S:88532c0a3229f60d0cfd3c0cae8f3312582f2b7f,10968:13"
+          },
+          {
+            "field": "fillRange",
+            "source": "S:5b4aab89983dd6c0b15940e8917c893ab9c33540,11363:19"
+          }
+        ]
+      },
+      {
+        "id": "I13488:145624;5595:1259",
+        "name": "Oval",
+        "master": "13488:145622",
+        "path": " исп. 1440, Type=⛔️ заменяем на первый вариант, Theme=Dark, State=Enabled > иконка + текст > Snackbar / Универсальный успех > Oval",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:a3bc677d4e98b3daf14f987ff5d77160d83c018d,41872:3543"
+          }
+        ]
+      },
+      {
+        "id": "I13488:145710;13488:145624;5595:1259",
+        "name": "Oval",
+        "master": "13488:145626",
+        "path": "ем на первый вариант, Theme=Dark, State=⛔️ заменяем на Enabled > Snackbar > иконка + текст > Snackbar / Универсальный успех > Oval",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:a3bc677d4e98b3daf14f987ff5d77160d83c018d,41872:3543"
+          }
+        ]
+      },
+      {
+        "id": "I13488:145631;5595:1259",
+        "name": "Oval",
+        "master": "13488:145629",
+        "path": " 1920-1792, Type=⛔️ заменяем на первый вариант, Theme=Dark, State=Enabled > иконка + текст > Snackbar / Универсальный успех > Oval",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:a3bc677d4e98b3daf14f987ff5d77160d83c018d,41872:3543"
+          }
+        ]
+      },
+      {
+        "id": "I13488:145702;13488:145631;5595:1259",
+        "name": "Oval",
+        "master": "13488:145633",
+        "path": "ем на первый вариант, Theme=Dark, State=⛔️ заменяем на Enabled > Snackbar > иконка + текст > Snackbar / Универсальный успех > Oval",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:a3bc677d4e98b3daf14f987ff5d77160d83c018d,41872:3543"
+          }
+        ]
+      },
+      {
+        "id": "I6670:39868;5595:1259",
+        "name": "Oval",
+        "master": "6670:39910",
+        "path": "Snackbar > Resolution=320+, Type=Icon+Text+Button, Theme=Dark, State=Enabled > Icon > Oval",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:a3bc677d4e98b3daf14f987ff5d77160d83c018d,41872:3543"
+          }
+        ]
+      },
+      {
+        "id": "I22791:326097;5595:1259",
+        "name": "Oval",
+        "master": "22791:326096",
+        "path": "Snackbar > Resolution=375+, Type=Icon+Text+Button, Theme=Dark, State=Enabled > Icon > Oval",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:a3bc677d4e98b3daf14f987ff5d77160d83c018d,41872:3543"
+          }
+        ]
+      },
+      {
+        "id": "I10586:87682;5595:1259",
+        "name": "Oval",
+        "master": "10586:87680",
+        "path": "Snackbar > Resolution=600+, Type=Icon+Text+Button, Theme=Dark, State=Enabled > Icon > Oval",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:a3bc677d4e98b3daf14f987ff5d77160d83c018d,41872:3543"
+          }
+        ]
+      },
+      {
+        "id": "I22791:326110;5595:1259",
+        "name": "Oval",
+        "master": "22791:326109",
+        "path": "Snackbar > Resolution=960+, Type=Icon+Text+Button, Theme=Dark, State=Enabled > Icon > Oval",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:a3bc677d4e98b3daf14f987ff5d77160d83c018d,41872:3543"
+          }
+        ]
+      },
+      {
+        "id": "I22791:326127;5595:1259",
+        "name": "Oval",
+        "master": "22791:326126",
+        "path": "Snackbar > Resolution=1320+, Type=Icon+Text+Button, Theme=Dark, State=Enabled > Icon > Oval",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:a3bc677d4e98b3daf14f987ff5d77160d83c018d,41872:3543"
+          }
+        ]
+      },
+      {
+        "id": "I10586:87758;5595:1259",
+        "name": "Oval",
+        "master": "10586:87756",
+        "path": "Snackbar > Resolution=1720+, Type=Icon+Text+Button, Theme=Dark, State=Enabled > Icon > Oval",
+        "fields": [
+          {
+            "field": "fills",
+            "source": "S:a3bc677d4e98b3daf14f987ff5d77160d83c018d,41872:3543"
+          }
+        ]
+      }
+    ],
+    "variableDetails": [
+      {
+        "kind": "variable",
+        "id": "VariableID:581f4b9f12c0461ca64bfda4e31661f9bba5f66e/39850:97",
+        "count": 3,
+        "buckets": {
+          "outside": 3
+        },
+        "examples": [
+          {
+            "id": "10570:86412",
+            "name": "Snackbar",
+            "field": "strokes",
+            "i": 0
+          },
+          {
+            "id": "20306:303482",
+            "name": "Rectangle 4",
+            "field": "strokes",
+            "i": 0
+          }
+        ],
+        "name": "primitives/electric1000",
+        "key": "581f4b9f12c0461ca64bfda4e31661f9bba5f66e",
+        "collection": "VariableCollectionId:9bfe8dde6e700cc0754156917935eea46ac309ee/32016:4307"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:68b8fbbbc78be34af7815443b21ef244eee6b6b0/39850:98",
+        "count": 2,
+        "buckets": {
+          "outside": 2
+        },
+        "examples": [
+          {
+            "id": "20209:304239",
+            "name": "Frame 287",
+            "field": "fills",
+            "i": 0
+          },
+          {
+            "id": "20209:304241",
+            "name": "Frame 287",
+            "field": "fills",
+            "i": 0
+          }
+        ],
+        "name": "primitives/electric900",
+        "key": "68b8fbbbc78be34af7815443b21ef244eee6b6b0",
+        "collection": "VariableCollectionId:9bfe8dde6e700cc0754156917935eea46ac309ee/32016:4307"
+      },
+      {
+        "kind": "variable",
+        "id": "VariableID:000c47d50675e1540e094db544a262f14620a755/41700:4",
+        "count": 3,
+        "buckets": {
+          "outside": 3
+        },
+        "examples": [
+          {
+            "id": "I20142:303052;43994:27468;27054:17920",
+            "name": "Текст",
+            "field": "fills",
+            "instance": "I20142:303052;43994:27468",
+            "i": 0
+          },
+          {
+            "id": "I20142:303248;43994:27468;27054:17920",
+            "name": "Текст",
+            "field": "fills",
+            "instance": "I20142:303248;43994:27468",
+            "i": 0
+          }
+        ],
+        "name": "color/text-icon/fourth",
+        "key": "000c47d50675e1540e094db544a262f14620a755",
+        "collection": "VariableCollectionId:1c6e07816c9c7d8423d676736c66af0f797411bb/41700:0"
+      }
+    ],
+    "remainingCount": 339,
+    "reasons": {
+      "kids": 0,
+      "light": 12,
+      "outside": 255,
+      "eligible": 72
+    },
+    "noncanonicalColorStyles": [],
+    "oldTheme": [],
+    "page": "Snackbar, Notification",
+    "nodeCount": 1419,
+    "rootCount": 30,
+    "groups": [
+      {
+        "name": "[Deprecated]/Border/Focus",
+        "key": "12624d72e826e045d96307f7fa75f5cad8fa66d4",
+        "styleType": "PAINT",
+        "count": 3,
+        "buckets": {
+          "outside": 3
+        },
+        "example": "10570:86412"
+      },
+      {
+        "name": "[Deprecated]/Brand/Okko/continuum",
+        "key": "a3bc677d4e98b3daf14f987ff5d77160d83c018d",
+        "styleType": "PAINT",
+        "count": 60,
+        "buckets": {
+          "instance": 43,
+          "outside": 17
+        },
+        "example": "I13457:138825;5595:1259"
+      },
+      {
+        "name": "Primitives/Blueberry/90",
+        "key": "88532c0a3229f60d0cfd3c0cae8f3312582f2b7f",
+        "styleType": "PAINT",
+        "count": 20,
+        "buckets": {
+          "own": 14,
+          "instance": 6
+        },
+        "example": "13457:138826"
+      },
+      {
+        "name": "Fill/Solid/AccentB",
+        "key": "2326a1ddea4f1e1fb7982ad15e02f124b7d09638",
+        "styleType": "PAINT",
+        "count": 3,
+        "buckets": {
+          "instance": 3
+        },
+        "example": "I16787:191954;6029:33677"
+      },
+      {
+        "name": "Blur/Button",
+        "key": "46a5b7ce2458b9b9812984ebadd816459e681f17",
+        "styleType": "EFFECT",
+        "count": 29,
+        "buckets": {
+          "instance": 15,
+          "outside": 14
+        },
+        "example": "16861:208180"
+      },
+      {
+        "name": "Fill/Solid/On Dark/Primary",
+        "key": "974f85fc28b4a77fb28ea56ae2aba7dbc10a9905",
+        "styleType": "PAINT",
+        "count": 6,
+        "buckets": {
+          "light": 6
+        },
+        "example": "I13488:145803;8396:5"
+      },
+      {
+        "name": "Primitives/Blueberry/15",
+        "key": "d83c273ae53e49a14e2dc841946de93ed2397e9d",
+        "styleType": "PAINT",
+        "count": 6,
+        "buckets": {
+          "light": 6
+        },
+        "example": "I13488:145803;8396:5;962:7655"
+      },
+      {
+        "name": "Primitives/Violet/Primary",
+        "key": "5b4aab89983dd6c0b15940e8917c893ab9c33540",
+        "styleType": "PAINT",
+        "count": 6,
+        "buckets": {
+          "instance": 3,
+          "own": 3
+        },
+        "example": "I13491:145243;13490:145150"
+      },
+      {
+        "name": "[Deprecated]/Text & icon/on Dark/Primary",
+        "key": "8d1e4095c97d6f8de9740c869fae2aa91b41bd6d",
+        "styleType": "PAINT",
+        "count": 93,
+        "buckets": {
+          "outside": 93
+        },
+        "example": "18808:300158"
+      },
+      {
+        "name": "[Deprecated]/Text & icon/on Dark/Secondary",
+        "key": "eb0848c39cf58e48e9aae01f73f766c68f7bdde4",
+        "styleType": "PAINT",
+        "count": 13,
+        "buckets": {
+          "outside": 13
+        },
+        "example": "20239:303500"
+      },
+      {
+        "name": "[Deprecated]/Text & icon/on Light/Accent",
+        "key": "e9463c9956e97719d0493314e757a60e733378f0",
+        "styleType": "PAINT",
+        "count": 1,
+        "buckets": {
+          "outside": 1
+        },
+        "example": "I20209:304073;10586:87759"
+      },
+      {
+        "name": "[Deprecated]/Background/Solid/Secondary",
+        "key": "6b0d5a4adbf8961b9daa987c9db7b1f66a5a0472",
+        "styleType": "PAINT",
+        "count": 17,
+        "buckets": {
+          "outside": 17
+        },
+        "example": "20142:303019"
+      },
+      {
+        "name": "[Deprecated]/Border/Active",
+        "key": "075c49f40910d50af05873eda0928826475bf084",
+        "styleType": "PAINT",
+        "count": 17,
+        "buckets": {
+          "outside": 17
+        },
+        "example": "20142:303019"
+      },
+      {
+        "name": "[Deprecated]/Fill/Solid/Secondary",
+        "key": "cc9f8ed188fba9318e96d598d00738e0625fd414",
+        "styleType": "PAINT",
+        "count": 6,
+        "buckets": {
+          "outside": 6
+        },
+        "example": "20142:303026"
+      },
+      {
+        "name": "[Deprecated]/Fill/Solid/Accent",
+        "key": "e3ec3eec23dc45dab6e9ecf81f98639db564615b",
+        "styleType": "PAINT",
+        "count": 2,
+        "buckets": {
+          "outside": 2
+        },
+        "example": "20209:304239"
+      },
+      {
+        "name": "[Deprecated]/Background/Solid/Primary",
+        "key": "a58b219ba53603c8b26af4e925d7c6fcc41005af",
+        "styleType": "PAINT",
+        "count": 6,
+        "buckets": {
+          "outside": 6
+        },
+        "example": "20142:303048"
+      },
+      {
+        "name": "[Deprecated]/Border/Glassy",
+        "key": "1082d45b02cee1ebf04885f304cfa0cae2c2bbc3",
+        "styleType": "PAINT",
+        "count": 3,
+        "buckets": {
+          "outside": 3
+        },
+        "example": "20142:303049"
+      },
+      {
+        "name": "Primitives/Grey/Primary",
+        "key": "034ebd7ec8d8e4d45ba92d69b6f9b333aacb4133",
+        "styleType": "PAINT",
+        "count": 3,
+        "buckets": {
+          "outside": 3
+        },
+        "example": "I20142:303052;43994:27457;3644:1176"
+      },
+      {
+        "name": "Тень/Мини",
+        "key": "f10e03d3fd0867a89d5480eb78ccb32cf26b9079",
+        "styleType": "EFFECT",
+        "count": 3,
+        "buckets": {
+          "outside": 3
+        },
+        "example": "I20142:303052;43994:27467"
+      },
+      {
+        "name": "[Deprecated]/Fill/Glassy/Secondary",
+        "key": "5c78f242f595f0f73fe7c5b12f695071b35c3a2d",
+        "styleType": "PAINT",
+        "count": 14,
+        "buckets": {
+          "outside": 14
+        },
+        "example": "20685:305508"
+      },
+      {
+        "name": "[Deprecated]/Text & icon/on Dark/Third",
+        "key": "7ba87ccc576cd2381aee43f11162db346a88bf6a",
+        "styleType": "PAINT",
+        "count": 16,
+        "buckets": {
+          "outside": 16
+        },
+        "example": "20280:303537"
+      },
+      {
+        "name": "[Deprecated]/Text & icon/on Dark/Forth",
+        "key": "0f7b602df21889b566056efb403ddb4aead4dede",
+        "styleType": "PAINT",
+        "count": 2,
+        "buckets": {
+          "outside": 2
+        },
+        "example": "20280:303537"
+      },
+      {
+        "name": "[Deprecated]/Fill/Solid/Third",
+        "key": "3f22c2f6f68741f6009a395ea6e0be846163ac7c",
+        "styleType": "PAINT",
+        "count": 7,
+        "buckets": {
+          "outside": 7
+        },
+        "example": "20303:303580"
+      },
+      {
+        "name": "[Deprecated]/Fill/Solid/Warning",
+        "key": "45c7e0841a35cba281fac00776621b65b14f6fed",
+        "styleType": "PAINT",
+        "count": 16,
+        "buckets": {
+          "outside": 16
+        },
+        "example": "20290:303580"
+      },
+      {
+        "name": "[Deprecated]/Text & icon/on Dark/Warning",
+        "key": "cc9b20453a66c1b7a7bc72e5d01559574475a957",
+        "styleType": "PAINT",
+        "count": 16,
+        "buckets": {
+          "outside": 16
+        },
+        "example": "20290:303586"
+      },
+      {
+        "name": "[Deprecated]/Fill/Solid/Positive",
+        "key": "549095b548000afc744b26d6727f100cad79feac",
+        "styleType": "PAINT",
+        "count": 3,
+        "buckets": {
+          "outside": 3
+        },
+        "example": "22791:326176"
+      }
+    ],
+    "collections": [
+      {
+        "id": "VariableCollectionId:9bfe8dde6e700cc0754156917935eea46ac309ee/32016:4307",
+        "name": "Primitives",
+        "bindings": 5,
+        "variables": 2
+      },
+      {
+        "id": "VariableCollectionId:1c6e07816c9c7d8423d676736c66af0f797411bb/41872:3468",
+        "name": "Color",
+        "bindings": 655,
+        "variables": 24
+      },
+      {
+        "id": "VariableCollectionId:1c6e07816c9c7d8423d676736c66af0f797411bb/41700:0",
+        "name": "Color",
+        "bindings": 3,
+        "variables": 1
+      }
+    ],
+    "primitiveBindings": [
+      {
+        "name": "primitives/electric1000",
+        "key": "581f4b9f12c0461ca64bfda4e31661f9bba5f66e",
+        "count": 3,
+        "buckets": {
+          "outside": 3
+        },
+        "example": "10570:86412"
+      },
+      {
+        "name": "primitives/electric900",
+        "key": "68b8fbbbc78be34af7815443b21ef244eee6b6b0",
+        "count": 2,
+        "buckets": {
+          "outside": 2
+        },
+        "example": "20209:304239"
+      }
+    ],
+    "mixed": [],
+    "errors": []
+  },
+  "staticFinal": {
+    "stats": {
+      "scanned": 443,
+      "alreadyStatic": 61,
+      "overColored": 75
+    },
+    "found": 0,
+    "examples": [],
+    "raw": 0,
+    "unsupportedCount": 14,
+    "unsupported": [
+      [
+        "13457:138826",
+        "6670:39919",
+        "Title",
+        "S:88532c0a3229f60d0cfd3c0cae8f3312582f2b7f,10968:13",
+        [
+          0.10196078568696976,
+          0.0313725508749485,
+          0.1725490242242813
+        ],
+        "Snackbar > Resolution=⛔️ Не исп. 375, Type=Icon+Text+Button, Theme=⛔️ заменяем на Dark, State=Enabled > иконка + текст > Title"
+      ],
+      [
+        "13490:145117",
+        "13490:145114",
+        "Title",
+        "S:88532c0a3229f60d0cfd3c0cae8f3312582f2b7f,10968:13",
+        [
+          0.10196078568696976,
+          0.0313725508749485,
+          0.1725490242242813
+        ],
+        "Snackbar > Resolution=⛔️ Не исп. 375, Type=⛔️ заменяем на первый вариант, Theme=⛔️ заменяем на Dark, State=Enabled > иконка + текст > Title"
+      ],
+      [
+        "13488:145888",
+        "13488:145885",
+        "Title",
+        "S:88532c0a3229f60d0cfd3c0cae8f3312582f2b7f,10968:13",
+        [
+          0.10196078568696976,
+          0.0313725508749485,
+          0.1725490242242813
+        ],
+        "Snackbar > Resolution=⛔️ Не исп. 375, Type=Icon+Text+Button, Theme=⛔️ заменяем на Dark, State=⛔️ заменяем на Enabled > иконка + текст > Title"
+      ],
+      [
+        "13490:145121",
+        "13490:145118",
+        "Title",
+        "S:88532c0a3229f60d0cfd3c0cae8f3312582f2b7f,10968:13",
+        [
+          0.10196078568696976,
+          0.0313725508749485,
+          0.1725490242242813
+        ],
+        "Snackbar > Resolution=⛔️ Не исп. 375, Type=⛔️ заменяем на первый вариант, Theme=⛔️ заменяем на Dark, State=⛔️ заменяем на Enabled > иконка + текст > Title"
+      ],
+      [
+        "13457:138834",
+        "10586:87745",
+        "Title",
+        "S:88532c0a3229f60d0cfd3c0cae8f3312582f2b7f,10968:13",
+        [
+          0.10196078568696976,
+          0.0313725508749485,
+          0.1725490242242813
+        ],
+        "Snackbar > Resolution=⛔️ Не исп. 320, Type=Icon+Text+Button, Theme=⛔️ заменяем на Dark, State=Enabled > иконка + текст > Title"
+      ],
+      [
+        "13490:145125",
+        "13490:145122",
+        "Title",
+        "S:88532c0a3229f60d0cfd3c0cae8f3312582f2b7f,10968:13",
+        [
+          0.10196078568696976,
+          0.0313725508749485,
+          0.1725490242242813
+        ],
+        "Snackbar > Resolution=⛔️ Не исп. 320, Type=⛔️ заменяем на первый вариант, Theme=⛔️ заменяем на Dark, State=Enabled > иконка + текст > Title"
+      ],
+      [
+        "13488:145892",
+        "13488:145889",
+        "Title",
+        "S:88532c0a3229f60d0cfd3c0cae8f3312582f2b7f,10968:13",
+        [
+          0.10196078568696976,
+          0.0313725508749485,
+          0.1725490242242813
+        ],
+        "Snackbar > Resolution=⛔️ Не исп. 320, Type=Icon+Text+Button, Theme=⛔️ заменяем на Dark, State=⛔️ заменяем на Enabled > иконка + текст > Title"
+      ],
+      [
+        "13490:145129",
+        "13490:145126",
+        "Title",
+        "S:88532c0a3229f60d0cfd3c0cae8f3312582f2b7f,10968:13",
+        [
+          0.10196078568696976,
+          0.0313725508749485,
+          0.1725490242242813
+        ],
+        "Snackbar > Resolution=⛔️ Не исп. 320, Type=⛔️ заменяем на первый вариант, Theme=⛔️ заменяем на Dark, State=⛔️ заменяем на Enabled > иконка + текст > Title"
+      ],
+      [
+        "I13488:145802;10586:87715",
+        "13488:145801",
+        "Title",
+        "S:88532c0a3229f60d0cfd3c0cae8f3312582f2b7f,10968:13",
+        [
+          0.10196078568696976,
+          0.0313725508749485,
+          0.1725490242242813
+        ],
+        "Snackbar > Resolution=⛔️ Не исп. 1024-768, Type=Icon+Text+Button, Theme=⛔️ заменяем на Dark, State=⛔️ заменяем на Enabled > Snackbar > иконка + текст > Title"
+      ],
+      [
+        "I13488:145805;13457:138842",
+        "13488:145804",
+        "Title",
+        "S:88532c0a3229f60d0cfd3c0cae8f3312582f2b7f,10968:13",
+        [
+          0.10196078568696976,
+          0.0313725508749485,
+          0.1725490242242813
+        ],
+        "Snackbar > Resolution=⛔️ Не исп. 1440, Type=Icon+Text+Button, Theme=⛔️ заменяем на Dark, State=⛔️ заменяем на Enabled > Snackbar > иконка + текст > Title"
+      ],
+      [
+        "I13488:145808;10593:87783",
+        "13488:145807",
+        "Title",
+        "S:88532c0a3229f60d0cfd3c0cae8f3312582f2b7f,10968:13",
+        [
+          0.10196078568696976,
+          0.0313725508749485,
+          0.1725490242242813
+        ],
+        "Snackbar > Resolution=⛔️ Не исп. 1920-1792, Type=Icon+Text+Button, Theme=⛔️ заменяем на Dark, State=⛔️ заменяем на Enabled > Snackbar > иконка + текст > Title"
+      ],
+      [
+        "13457:138842",
+        "6669:39875",
+        "Title",
+        "S:88532c0a3229f60d0cfd3c0cae8f3312582f2b7f,10968:13",
+        [
+          0.10196078568696976,
+          0.0313725508749485,
+          0.1725490242242813
+        ],
+        "Snackbar > Resolution=⛔️ Не исп. 1440, Type=Icon+Text+Button, Theme=⛔️ заменяем на Dark, State=Enabled > иконка + текст > Title"
+      ],
+      [
+        "10593:87783",
+        "10586:87771",
+        "Title",
+        "S:88532c0a3229f60d0cfd3c0cae8f3312582f2b7f,10968:13",
+        [
+          0.10196078568696976,
+          0.0313725508749485,
+          0.1725490242242813
+        ],
+        "Snackbar > Resolution=⛔️ Не исп. 1920-1792, Type=Icon+Text+Button, Theme=⛔️ заменяем на Dark, State=Enabled > иконка + текст > Title"
+      ],
+      [
+        "10586:87715",
+        "10586:87712",
+        "Title",
+        "S:88532c0a3229f60d0cfd3c0cae8f3312582f2b7f,10968:13",
+        [
+          0.10196078568696976,
+          0.0313725508749485,
+          0.1725490242242813
+        ],
+        "Snackbar > Resolution=⛔️ Не исп. 1024-768, Type=Icon+Text+Button, Theme=⛔️ заменяем на Dark, State=Enabled > иконка + текст > Title"
+      ]
+    ],
+    "skipped": []
+  },
+  "mutatedNodeIds": [
+    "6670:39919",
+    "13490:145114",
+    "13488:145885",
+    "13490:145118",
+    "10586:87745",
+    "13490:145122",
+    "13488:145889",
+    "13490:145126",
+    "13475:145142",
+    "13475:145145",
+    "10586:87730",
+    "10586:87733",
+    "13475:145146",
+    "13475:145149",
+    "13488:145599",
+    "13488:145603",
+    "13488:145607",
+    "6669:39865",
+    "6669:39863",
+    "13488:145611",
+    "6669:39875",
+    "13490:145139",
+    "10586:87771",
+    "13490:145143",
+    "13488:145615",
+    "13488:145619",
+    "10586:87712",
+    "13490:145147",
+    "13488:145622",
+    "13488:145626",
+    "13488:145629",
+    "13488:145633",
+    "6670:39910",
+    "6669:39892",
+    "22791:326096",
+    "22791:326098",
+    "10586:87680",
+    "10586:87683",
+    "22791:326109",
+    "22791:326111",
+    "22791:326126",
+    "22791:326128",
+    "10586:87756",
+    "10586:87759",
+    "I16787:191954;6029:33677;6017:32950;6026:33845;1500:14",
+    "I16787:191954;6029:33677;6017:32950;6026:33845;1500:11",
+    "I16787:191954;6029:33677;6017:32951",
+    "I16861:208180;962:7655",
+    "I16861:208180;962:7656;2089:18",
+    "13488:145289",
+    "I13488:145289;16859:207822;962:7655",
+    "I13488:145289;16859:207822;962:7656;2089:18",
+    "I13488:145297;962:7655",
+    "I13488:145297;962:7656;2089:18",
+    "I13488:145803;8396:5;962:7656;2089:18",
+    "I13490:145132;8396:5;962:7656;2089:18",
+    "I16787:187371;6029:33693;6017:32950;6022:33234;1500:14",
+    "I16787:187371;6029:33693;6017:32950;6022:33234;1500:11",
+    "I16787:187371;6029:33693;6017:32951",
+    "I16858:207677;962:7655",
+    "I16858:207677;962:7656;2089:18",
+    "13488:145277",
+    "I13488:145277;6669:39856",
+    "I13488:145285;962:7655",
+    "I13488:145285;962:7656;2089:18",
+    "I13488:145806;8396:5;962:7656;2089:18",
+    "I13490:145135;8396:5;962:7656;2089:18",
+    "13488:145062",
+    "I13488:145062;16858:207496;962:7655",
+    "I13488:145062;16858:207496;962:7656;2089:18",
+    "I13475:145187;962:7655",
+    "I13475:145187;962:7656;2089:18",
+    "I13488:145809;8396:5;962:7656;2089:18",
+    "I13490:145138;8396:5;962:7656;2089:18",
+    "13488:145718",
+    "I13488:145621;962:7655",
+    "I13488:145621;962:7656;2089:18",
+    "13488:145710",
+    "I13488:145628;962:7655",
+    "I13488:145628;962:7656;2089:18",
+    "13488:145702",
+    "I13488:145635;962:7655",
+    "I13488:145635;962:7656;2089:18",
+    "I16859:207822;962:7655",
+    "I16859:207822;962:7656;2089:18",
+    "I22791:326113;962:7655",
+    "I22791:326113;962:7656;2089:18",
+    "I22791:326130;962:7655",
+    "I22791:326130;962:7656;2089:18",
+    "I16858:207496;962:7655",
+    "I16858:207496;962:7656;2089:18",
+    "13488:145602",
+    "13488:145606",
+    "13488:145610",
+    "13488:145614",
+    "13488:145618",
+    "13488:145625",
+    "13488:145632",
+    "I13488:145718;13488:145618",
+    "I13488:145710;13488:145625",
+    "I13488:145702;13488:145632",
+    "I13488:145289;10586:87683",
+    "I13488:145062;10586:87759"
+  ]
+}

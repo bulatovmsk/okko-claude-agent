@@ -1,0 +1,1005 @@
+{
+  "date": "2026-10-20",
+  "fileKey": "sb7SelAF2PBcYZsOxL092c",
+  "pageId": "9837:77149",
+  "pageName": "Чат и голосовой помощник",
+  "masterCount": 11,
+  "masterNodeCount": 136,
+  "pageNodeCount": 140,
+  "uniqueChangedNodeCount": 53,
+  "mutatedNodeIds": [
+    "5526:30714",
+    "5526:30706",
+    "5526:30708",
+    "5526:30709",
+    "I5526:30709;99:192;218:778",
+    "99:306",
+    "99:219",
+    "99:222",
+    "5524:30688",
+    "I5524:30688;99:192;218:778",
+    "95:537",
+    "95:538",
+    "95:536",
+    "95:535",
+    "83:125",
+    "83:128",
+    "83:130",
+    "83:120",
+    "83:127",
+    "83:329",
+    "I83:298;1178:13",
+    "83:288",
+    "83:294",
+    "I83:294;82:668",
+    "83:92",
+    "I83:50;1357:1489",
+    "83:38",
+    "83:57",
+    "I83:57;82:668",
+    "83:93",
+    "83:61",
+    "83:66",
+    "83:65",
+    "I83:69;1317:1471",
+    "I83:70;1357:1489",
+    "83:71",
+    "I83:71;82:668",
+    "83:94",
+    "83:77",
+    "83:82",
+    "I83:85;1317:1471",
+    "I83:86;1357:1489",
+    "83:87",
+    "I83:87;82:668",
+    "5520:30667",
+    "5520:30670",
+    "5520:30674",
+    "5520:30678",
+    "I5520:30680;83:329",
+    "5520:30681",
+    "5520:30682",
+    "83:131",
+    "83:39"
+  ],
+  "initial": {
+    "staticResult": null,
+    "page": "Чат и голосовой помощник",
+    "nodeCount": 136,
+    "sources": [
+      {
+        "id": "S:5c78f242f595f0f73fe7c5b12f695071b35c3a2d,32110:38",
+        "name": "[Deprecated]/Fill/Glassy/Secondary",
+        "key": "5c78f242f595f0f73fe7c5b12f695071b35c3a2d",
+        "count": 6,
+        "buckets": {
+          "own": 3,
+          "instance": 3
+        },
+        "example": {
+          "id": "5526:30714",
+          "name": "Ячейка / Чат / Виджет оценки / Mobile",
+          "field": "fills",
+          "master": "5526:30714",
+          "masterName": "Ячейка / Чат / Виджет оценки / Mobile"
+        }
+      },
+      {
+        "id": "S:f89742b6887c24e9491e35659021bf8e090a258a,11494:59",
+        "name": "Text & icon/on Dark/Primary",
+        "key": "f89742b6887c24e9491e35659021bf8e090a258a",
+        "count": 18,
+        "buckets": {
+          "own": 7,
+          "instance": 11
+        },
+        "example": {
+          "id": "5526:30706",
+          "name": "Оцените работу поддержки",
+          "field": "fills",
+          "master": "5526:30714",
+          "masterName": "Ячейка / Чат / Виджет оценки / Mobile"
+        }
+      },
+      {
+        "id": "S:2d18b315097685552c2b414e160cfdb5b917f5e7,32110:39",
+        "name": "[Deprecated]/Fill/Glassy/Third",
+        "key": "2d18b315097685552c2b414e160cfdb5b917f5e7",
+        "count": 6,
+        "buckets": {
+          "instance": 6
+        },
+        "example": {
+          "id": "5526:30708",
+          "name": "Чат / 50 / Оценить работу",
+          "field": "fills",
+          "master": "5526:30714",
+          "masterName": "Ячейка / Чат / Виджет оценки / Mobile",
+          "instance": "5526:30708"
+        }
+      },
+      {
+        "id": "S:652819774a1ef1f79fa807ae422bcdd4d03842f2,32110:41",
+        "name": "[Deprecated]/Background/Glassy/Secondary",
+        "key": "652819774a1ef1f79fa807ae422bcdd4d03842f2",
+        "count": 2,
+        "buckets": {
+          "own": 2
+        },
+        "example": {
+          "id": "95:537",
+          "name": "Frame 1",
+          "field": "fills",
+          "master": "95:526",
+          "masterName": "Ячейка / Чат / Баббл / Картинка / Вертикальная"
+        }
+      },
+      {
+        "id": "S:2326a1ddea4f1e1fb7982ad15e02f124b7d09638,15461:1",
+        "name": "Fill/Solid/AccentB",
+        "key": "2326a1ddea4f1e1fb7982ad15e02f124b7d09638",
+        "count": 3,
+        "buckets": {
+          "own": 1,
+          "instance": 2
+        },
+        "example": {
+          "id": "83:131",
+          "name": "Ячейка / Чат / Баббл / Мой ",
+          "field": "fills",
+          "master": "83:131",
+          "masterName": "Ячейка / Чат / Баббл / Мой "
+        }
+      },
+      {
+        "id": "S:eb0848c39cf58e48e9aae01f73f766c68f7bdde4,32110:4",
+        "name": "[Deprecated]/Text & icon/on Dark/Secondary",
+        "key": "eb0848c39cf58e48e9aae01f73f766c68f7bdde4",
+        "count": 7,
+        "buckets": {
+          "own": 3,
+          "instance": 4
+        },
+        "example": {
+          "id": "83:128",
+          "name": "15:30",
+          "field": "fills",
+          "master": "83:131",
+          "masterName": "Ячейка / Чат / Баббл / Мой "
+        }
+      },
+      {
+        "id": "S:6b0d5a4adbf8961b9daa987c9db7b1f66a5a0472,32110:35",
+        "name": "[Deprecated]/Background/Solid/Secondary",
+        "key": "6b0d5a4adbf8961b9daa987c9db7b1f66a5a0472",
+        "count": 8,
+        "buckets": {
+          "own": 6,
+          "instance": 2
+        },
+        "example": {
+          "id": "83:329",
+          "name": "BG",
+          "field": "region0",
+          "master": "83:300",
+          "masterName": "Ячейка / Чат / Шапка"
+        }
+      },
+      {
+        "id": "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3",
+        "name": "[Deprecated]/Text & icon/on Dark/Primary",
+        "key": "8d1e4095c97d6f8de9740c869fae2aa91b41bd6d",
+        "count": 2,
+        "buckets": {
+          "own": 1,
+          "instance": 1
+        },
+        "example": {
+          "id": "83:288",
+          "name": "Служба поддержки Okko",
+          "field": "fills",
+          "master": "83:300",
+          "masterName": "Ячейка / Чат / Шапка"
+        }
+      },
+      {
+        "id": "S:1082d45b02cee1ebf04885f304cfa0cae2c2bbc3,32110:6",
+        "name": "[Deprecated]/Border/Glassy",
+        "key": "1082d45b02cee1ebf04885f304cfa0cae2c2bbc3",
+        "count": 12,
+        "buckets": {
+          "instance": 12
+        },
+        "example": {
+          "id": "83:294",
+          "name": "Разделитель",
+          "field": "fills",
+          "master": "83:300",
+          "masterName": "Ячейка / Чат / Шапка",
+          "instance": "83:294"
+        }
+      },
+      {
+        "id": "S:5b4aab89983dd6c0b15940e8917c893ab9c33540,11363:19",
+        "name": "Primitives/Violet/Primary",
+        "key": "5b4aab89983dd6c0b15940e8917c893ab9c33540",
+        "count": 5,
+        "buckets": {
+          "own": 4,
+          "instance": 1
+        },
+        "example": {
+          "id": "83:39",
+          "name": "Rectangle 195",
+          "field": "fills",
+          "master": "83:92",
+          "masterName": "Ячейка / Чат / Поле отправки / Ввод данных"
+        }
+      },
+      {
+        "id": "S:e3ec3eec23dc45dab6e9ecf81f98639db564615b,39850:0",
+        "name": "[Deprecated]/Fill/Solid/Accent",
+        "key": "e3ec3eec23dc45dab6e9ecf81f98639db564615b",
+        "count": 1,
+        "buckets": {
+          "own": 1
+        },
+        "example": {
+          "id": "83:66",
+          "name": "Rectangle 195",
+          "field": "fills",
+          "master": "83:93",
+          "masterName": "Ячейка / Чат / Поле отправки / Активный"
+        }
+      },
+      {
+        "id": "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,32110:5",
+        "name": "[Deprecated]/Text & icon/on Dark/Third",
+        "key": "7ba87ccc576cd2381aee43f11162db346a88bf6a",
+        "count": 6,
+        "buckets": {
+          "own": 2,
+          "instance": 4
+        },
+        "example": {
+          "id": "83:65",
+          "name": "Введите сообщение",
+          "field": "fills",
+          "master": "83:93",
+          "masterName": "Ячейка / Чат / Поле отправки / Активный"
+        }
+      },
+      {
+        "id": "S:9a5a52f852eb295e25acd6402b0ece77498e60d2,11494:58",
+        "name": "Text & icon/on Dark/Secondary",
+        "key": "9a5a52f852eb295e25acd6402b0ece77498e60d2",
+        "count": 3,
+        "buckets": {
+          "instance": 3
+        },
+        "example": {
+          "id": "I83:69;1317:1471",
+          "name": "Vector",
+          "field": "region0",
+          "master": "83:93",
+          "masterName": "Ячейка / Чат / Поле отправки / Активный",
+          "instance": "83:69"
+        }
+      },
+      {
+        "id": "S:a58b219ba53603c8b26af4e925d7c6fcc41005af,32110:34",
+        "name": "[Deprecated]/Background/Solid/Primary",
+        "key": "a58b219ba53603c8b26af4e925d7c6fcc41005af",
+        "count": 2,
+        "buckets": {
+          "own": 1,
+          "instance": 1
+        },
+        "example": {
+          "id": "5520:30667",
+          "name": " BG",
+          "field": "fills",
+          "master": "5520:30723",
+          "masterName": "Чат"
+        }
+      }
+    ],
+    "remainingRows": [
+      [
+        "5526:30714",
+        "fills",
+        "S:5c78f242f595f0f73fe7c5b12f695071b35c3a2d,32110:38",
+        "5526:30714",
+        null,
+        0,
+        0
+      ],
+      [
+        "5526:30706",
+        "fills",
+        "S:f89742b6887c24e9491e35659021bf8e090a258a,11494:59",
+        "5526:30714",
+        null,
+        0,
+        0
+      ],
+      [
+        "5526:30708",
+        "fills",
+        "S:2d18b315097685552c2b414e160cfdb5b917f5e7,32110:39",
+        "5526:30714",
+        "5526:30708",
+        0,
+        0
+      ],
+      [
+        "5526:30709",
+        "fills",
+        "S:2d18b315097685552c2b414e160cfdb5b917f5e7,32110:39",
+        "5526:30714",
+        "5526:30709",
+        0,
+        0
+      ],
+      [
+        "I5526:30709;99:192;218:778",
+        "region0",
+        "S:f89742b6887c24e9491e35659021bf8e090a258a,11494:59",
+        "5526:30714",
+        "I5526:30709;99:192",
+        0,
+        0
+      ],
+      [
+        "99:306",
+        "fills",
+        "S:5c78f242f595f0f73fe7c5b12f695071b35c3a2d,32110:38",
+        "99:306",
+        null,
+        0,
+        0
+      ],
+      [
+        "99:219",
+        "fills",
+        "S:f89742b6887c24e9491e35659021bf8e090a258a,11494:59",
+        "99:306",
+        null,
+        0,
+        0
+      ],
+      [
+        "99:222",
+        "fills",
+        "S:2d18b315097685552c2b414e160cfdb5b917f5e7,32110:39",
+        "99:306",
+        "99:222",
+        0,
+        0
+      ],
+      [
+        "5524:30688",
+        "fills",
+        "S:2d18b315097685552c2b414e160cfdb5b917f5e7,32110:39",
+        "99:306",
+        "5524:30688",
+        0,
+        0
+      ],
+      [
+        "I5524:30688;99:192;218:778",
+        "region0",
+        "S:f89742b6887c24e9491e35659021bf8e090a258a,11494:59",
+        "99:306",
+        "I5524:30688;99:192",
+        0,
+        0
+      ],
+      [
+        "95:537",
+        "fills",
+        "S:652819774a1ef1f79fa807ae422bcdd4d03842f2,32110:41",
+        "95:526",
+        null,
+        0,
+        0
+      ],
+      [
+        "95:538",
+        "fills",
+        "S:f89742b6887c24e9491e35659021bf8e090a258a,11494:59",
+        "95:526",
+        null,
+        0,
+        0
+      ],
+      [
+        "95:536",
+        "fills",
+        "S:652819774a1ef1f79fa807ae422bcdd4d03842f2,32110:41",
+        "95:525",
+        null,
+        0,
+        0
+      ],
+      [
+        "95:535",
+        "fills",
+        "S:f89742b6887c24e9491e35659021bf8e090a258a,11494:59",
+        "95:525",
+        null,
+        0,
+        0
+      ],
+      [
+        "83:131",
+        "fills",
+        "S:2326a1ddea4f1e1fb7982ad15e02f124b7d09638,15461:1",
+        "83:131",
+        null,
+        0,
+        0
+      ],
+      [
+        "83:125",
+        "fills",
+        "S:f89742b6887c24e9491e35659021bf8e090a258a,11494:59",
+        "83:131",
+        null,
+        0,
+        0
+      ],
+      [
+        "83:128",
+        "fills",
+        "S:eb0848c39cf58e48e9aae01f73f766c68f7bdde4,32110:4",
+        "83:131",
+        null,
+        0,
+        0
+      ],
+      [
+        "83:130",
+        "fills",
+        "S:5c78f242f595f0f73fe7c5b12f695071b35c3a2d,32110:38",
+        "83:130",
+        null,
+        0,
+        0
+      ],
+      [
+        "83:120",
+        "fills",
+        "S:f89742b6887c24e9491e35659021bf8e090a258a,11494:59",
+        "83:130",
+        null,
+        0,
+        0
+      ],
+      [
+        "83:127",
+        "fills",
+        "S:eb0848c39cf58e48e9aae01f73f766c68f7bdde4,32110:4",
+        "83:130",
+        null,
+        0,
+        0
+      ],
+      [
+        "83:329",
+        "region0",
+        "S:6b0d5a4adbf8961b9daa987c9db7b1f66a5a0472,32110:35",
+        "83:300",
+        null,
+        0,
+        0
+      ],
+      [
+        "I83:298;1178:13",
+        "region0",
+        "S:f89742b6887c24e9491e35659021bf8e090a258a,11494:59",
+        "83:300",
+        "83:298",
+        0,
+        0
+      ],
+      [
+        "83:288",
+        "fills",
+        "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3",
+        "83:300",
+        null,
+        0,
+        0
+      ],
+      [
+        "83:294",
+        "fills",
+        "S:1082d45b02cee1ebf04885f304cfa0cae2c2bbc3,32110:6",
+        "83:300",
+        "83:294",
+        0,
+        0
+      ],
+      [
+        "I83:294;82:668",
+        "fills",
+        "S:1082d45b02cee1ebf04885f304cfa0cae2c2bbc3,32110:6",
+        "83:300",
+        "83:294",
+        0,
+        0
+      ],
+      [
+        "83:92",
+        "fills",
+        "S:6b0d5a4adbf8961b9daa987c9db7b1f66a5a0472,32110:35",
+        "83:92",
+        null,
+        0,
+        0
+      ],
+      [
+        "I83:50;1357:1489",
+        "region0",
+        "S:f89742b6887c24e9491e35659021bf8e090a258a,11494:59",
+        "83:92",
+        "83:50",
+        0,
+        0
+      ],
+      [
+        "83:38",
+        "fills",
+        "S:f89742b6887c24e9491e35659021bf8e090a258a,11494:59",
+        "83:92",
+        null,
+        0,
+        0
+      ],
+      [
+        "83:39",
+        "fills",
+        "S:5b4aab89983dd6c0b15940e8917c893ab9c33540,11363:19",
+        "83:92",
+        null,
+        0,
+        0
+      ],
+      [
+        "83:41",
+        "fills",
+        "S:5b4aab89983dd6c0b15940e8917c893ab9c33540,11363:19",
+        "83:92",
+        null,
+        0,
+        0
+      ]
+    ],
+    "reasons": {
+      "kids": 0,
+      "light": 0,
+      "outside": 0,
+      "eligible": 81
+    },
+    "remainingCount": 81,
+    "unresolved": [],
+    "variableDetails": [
+      {
+        "kind": "variable",
+        "id": "VariableID:68b8fbbbc78be34af7815443b21ef244eee6b6b0/39850:98",
+        "count": 1,
+        "buckets": {
+          "own": 1
+        },
+        "examples": [
+          {
+            "id": "83:66",
+            "name": "Rectangle 195",
+            "field": "fills",
+            "master": "83:93",
+            "masterName": "Ячейка / Чат / Поле отправки / Активный",
+            "i": 0
+          }
+        ],
+        "name": "primitives/electric900",
+        "key": "68b8fbbbc78be34af7815443b21ef244eee6b6b0",
+        "collection": "VariableCollectionId:9bfe8dde6e700cc0754156917935eea46ac309ee/32016:4307"
+      }
+    ],
+    "noncanonicalColorStyles": [],
+    "mixed": [],
+    "errors": []
+  },
+  "phases": {
+    "standard": {
+      "mode": "instance",
+      "found": 73,
+      "attempted": 73,
+      "mutatedNodeIds": [
+        "5526:30714",
+        "5526:30706",
+        "5526:30708",
+        "5526:30709",
+        "I5526:30709;99:192;218:778",
+        "99:306",
+        "99:219",
+        "99:222",
+        "5524:30688",
+        "I5524:30688;99:192;218:778",
+        "95:537",
+        "95:538",
+        "95:536",
+        "95:535",
+        "83:125",
+        "83:128",
+        "83:130",
+        "83:120",
+        "83:127",
+        "83:329",
+        "I83:298;1178:13",
+        "83:288",
+        "83:294",
+        "I83:294;82:668",
+        "83:92",
+        "I83:50;1357:1489",
+        "83:38",
+        "83:57",
+        "I83:57;82:668",
+        "83:93",
+        "83:61",
+        "83:66",
+        "83:65",
+        "I83:69;1317:1471",
+        "I83:70;1357:1489",
+        "83:71",
+        "I83:71;82:668",
+        "83:94",
+        "83:77",
+        "83:82",
+        "I83:85;1317:1471",
+        "I83:86;1357:1489",
+        "83:87",
+        "I83:87;82:668",
+        "5520:30667",
+        "5520:30670",
+        "5520:30674",
+        "5520:30678",
+        "I5520:30680;83:329",
+        "5520:30681",
+        "5520:30682"
+      ],
+      "applied": 51,
+      "summary": {
+        "color/fill/glassy/secondary": 6,
+        "color/text-icon/primary": 12,
+        "color/fill/glassy/third": 4,
+        "color/background/glassy/secondary": 2,
+        "color/text-icon/secondary": 5,
+        "color/background/solid/secondary": 7,
+        "color/border/glassy": 8,
+        "color/fill/solid/accent": 1,
+        "color/text-icon/third": 4,
+        "color/background/solid/primary": 2
+      },
+      "errors": [],
+      "details": [
+        {
+          "id": "83:131",
+          "name": "Ячейка / Чат / Баббл / Мой ",
+          "type": "COMPONENT",
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.364705890417099,
+                "g": 0.054901961237192154,
+                "b": 0.9607843160629272
+              },
+              "boundVariables": {}
+            }
+          ],
+          "children": [
+            {
+              "id": "83:125",
+              "name": "Привет",
+              "type": "TEXT"
+            },
+            {
+              "id": "83:128",
+              "name": "15:30",
+              "type": "TEXT"
+            }
+          ],
+          "ancestors": [
+            "Чат",
+            "Чат и голосовой помощник"
+          ]
+        },
+        {
+          "id": "83:39",
+          "name": "Rectangle 195",
+          "type": "RECTANGLE",
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.42352941632270813,
+                "g": 0.26274511218070984,
+                "b": 0.7490196228027344
+              },
+              "boundVariables": {}
+            }
+          ],
+          "children": [],
+          "ancestors": [
+            "текст + фокус",
+            "Инпут"
+          ]
+        },
+        {
+          "id": "83:41",
+          "name": "Ellipse 3",
+          "type": "ELLIPSE",
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.42352941632270813,
+                "g": 0.26274511218070984,
+                "b": 0.7490196228027344
+              },
+              "boundVariables": {}
+            }
+          ],
+          "children": [],
+          "ancestors": [
+            "Кнопка отправки",
+            "Инпут"
+          ]
+        },
+        {
+          "id": "83:66",
+          "name": "Rectangle 195",
+          "type": "RECTANGLE",
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.2549019753932953,
+                "g": 0.21568627655506134,
+                "b": 0.8745098114013672
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:bb9358cae6559d7a3001214747d015afcad82da0/42020:441"
+                }
+              }
+            }
+          ],
+          "children": [],
+          "ancestors": [
+            "текст + фокус",
+            "Input"
+          ]
+        }
+      ]
+    },
+    "roles": {
+      "mutatedNodeIds": [
+        "83:131",
+        "83:39"
+      ],
+      "records": [
+        [
+          "83:131",
+          "color/fill/solid/accent"
+        ],
+        [
+          "83:39",
+          "color/fill/solid/accent"
+        ]
+      ]
+    },
+    "static": {
+      "found": 8,
+      "mutatedNodeIds": [
+        "83:125",
+        "83:128",
+        "I83:69;1317:1471",
+        "I83:85;1317:1471"
+      ],
+      "recordCount": 4,
+      "errors": [],
+      "fontErrors": [],
+      "unsupportedCount": 0,
+      "unsupported": [],
+      "skipped": [],
+      "rawCount": 0
+    }
+  },
+  "final": {
+    "roleResult": {
+      "mutatedNodeIds": [
+        "83:131",
+        "83:39"
+      ],
+      "records": [
+        [
+          "83:131",
+          "color/fill/solid/accent"
+        ],
+        [
+          "83:39",
+          "color/fill/solid/accent"
+        ]
+      ]
+    },
+    "staticResult": {
+      "found": 8,
+      "mutatedNodeIds": [
+        "83:125",
+        "83:128",
+        "I83:69;1317:1471",
+        "I83:85;1317:1471"
+      ],
+      "recordCount": 4,
+      "errors": [],
+      "fontErrors": [],
+      "unsupportedCount": 0,
+      "unsupported": [],
+      "skipped": [],
+      "rawCount": 0
+    },
+    "page": "Чат и голосовой помощник",
+    "nodeCount": 140,
+    "sources": [
+      {
+        "id": "S:6b0d5a4adbf8961b9daa987c9db7b1f66a5a0472,32110:35",
+        "name": "[Deprecated]/Background/Solid/Secondary",
+        "key": "6b0d5a4adbf8961b9daa987c9db7b1f66a5a0472",
+        "count": 1,
+        "buckets": {
+          "outside": 1
+        },
+        "example": {
+          "id": "82:493",
+          "name": "Чат",
+          "field": "fills"
+        }
+      },
+      {
+        "id": "S:5b4aab89983dd6c0b15940e8917c893ab9c33540,11363:19",
+        "name": "Primitives/Violet/Primary",
+        "key": "5b4aab89983dd6c0b15940e8917c893ab9c33540",
+        "count": 4,
+        "buckets": {
+          "own": 3,
+          "instance": 1
+        },
+        "example": {
+          "id": "83:41",
+          "name": "Ellipse 3",
+          "field": "fills",
+          "master": "83:92",
+          "masterName": "Ячейка / Чат / Поле отправки / Ввод данных"
+        }
+      },
+      {
+        "id": "S:eb0848c39cf58e48e9aae01f73f766c68f7bdde4,32110:4",
+        "name": "[Deprecated]/Text & icon/on Dark/Secondary",
+        "key": "eb0848c39cf58e48e9aae01f73f766c68f7bdde4",
+        "count": 1,
+        "buckets": {
+          "outside": 1
+        },
+        "example": {
+          "id": "5520:30657",
+          "name": "Ячейки",
+          "field": "fills"
+        }
+      },
+      {
+        "id": "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,32110:3",
+        "name": "[Deprecated]/Text & icon/on Dark/Primary",
+        "key": "8d1e4095c97d6f8de9740c869fae2aa91b41bd6d",
+        "count": 1,
+        "buckets": {
+          "outside": 1
+        },
+        "example": {
+          "id": "5520:30656",
+          "name": "Чат",
+          "field": "fills"
+        }
+      }
+    ],
+    "remainingRows": [
+      [
+        "83:41",
+        "fills",
+        "S:5b4aab89983dd6c0b15940e8917c893ab9c33540,11363:19",
+        "83:92",
+        null,
+        0,
+        0
+      ],
+      [
+        "83:68",
+        "fills",
+        "S:5b4aab89983dd6c0b15940e8917c893ab9c33540,11363:19",
+        "83:93",
+        null,
+        0,
+        0
+      ],
+      [
+        "83:84",
+        "fills",
+        "S:5b4aab89983dd6c0b15940e8917c893ab9c33540,11363:19",
+        "83:94",
+        null,
+        0,
+        0
+      ],
+      [
+        "I5520:30681;83:84",
+        "fills",
+        "S:5b4aab89983dd6c0b15940e8917c893ab9c33540,11363:19",
+        "5520:30723",
+        "5520:30681",
+        0,
+        0
+      ]
+    ],
+    "reasons": {
+      "kids": 0,
+      "light": 0,
+      "outside": 3,
+      "eligible": 4
+    },
+    "remainingCount": 7,
+    "unresolved": [],
+    "variableDetails": [],
+    "noncanonicalColorStyles": [],
+    "mixed": [],
+    "errors": []
+  },
+  "decisions": [
+    {
+      "source": "Primitives/Violet/Primary",
+      "count": 4,
+      "nodeIds": [
+        "83:41",
+        "83:68",
+        "83:84",
+        "I5520:30681;83:84"
+      ],
+      "masterIds": [
+        "83:92",
+        "83:93",
+        "83:94",
+        "5520:30723"
+      ],
+      "where": "Кнопка отправки / Ellipse 3 в трёх состояниях поля и вложении общего мастера Чат",
+      "candidates": [
+        "color/fill/solid/accent",
+        "color/component/button"
+      ],
+      "reason": "Однотонный фиолетовый фон кнопки: требуется выбрать семантический акцент либо актуальный компонентный стиль кнопки. У состояний могут быть разные правила; автоматическая замена на градиент не утверждена."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "updated": "2026-10-20",
+  "fileKey": "sb7SelAF2PBcYZsOxL092c",
+  "status": "completed_with_decisions",
+  "items": [
+    {
+      "id": "10537:85671",
+      "name": "Экшн блок",
+      "status": "complete",
+      "masterCount": 7,
+      "changedEligibleLayers": 5,
+      "remainingEligible": 0,
+      "report": "action-block-color-migration-report.md"
+    },
+    {
+      "id": "14176:164159",
+      "name": "Подписки",
+      "status": "complete_with_decisions",
+      "masterCount": 116,
+      "changedLayers": 1713,
+      "remainingEligible": 56,
+      "ambiguousApplications": 47,
+      "deferredSberApplications": 9,
+      "report": "subscriptions-page-v2-color-migration-report.md"
+    },
+    {
+      "id": "22129:332034",
+      "name": "Выбор возраста (New)🦖",
+      "status": "complete",
+      "masterCount": 54,
+      "changedLayers": 222,
+      "remainingEligible": 0,
+      "outsideApplications": 13,
+      "report": "age-selection-new-color-migration-report.md"
+    },
+    {
+      "id": "27553:23263",
+      "name": "Авторизация (В работе)🦖",
+      "status": "complete",
+      "masterCount": 10,
+      "removedOldStyleApplications": 135,
+      "mixedRangesChanged": 50,
+      "staticMarksChanged": 5,
+      "remainingEligible": 0,
+      "report": "authorisation-work-color-migration-report.md"
+    }
+  ]
+}
