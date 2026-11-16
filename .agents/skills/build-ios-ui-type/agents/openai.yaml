@@ -1,4 +1,0 @@
-interface:
-  display_name: "Собрать iOS UI Type"
-  short_description: "Совместимый вызов актуальной сборки iOS Rail"
-  default_prompt: "Используй $build-ios-ui-type, чтобы собрать iOS Rail по актуальным общим и iOS-правилам build-ui-type."

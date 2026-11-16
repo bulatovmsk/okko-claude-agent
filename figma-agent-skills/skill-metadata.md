@@ -1,5 +1,23 @@
 # Имена и описания скилов для Figma
 
+## Сборка UI Type Rail
+
+**Skill name:** `okko-ui-type-builder`
+
+**Description:** Собирает Rail Okko по концепту любой детализации для iOS, Android Mobile и всех Web-брейкпойнтов из связанных библиотечных компонентов. Проверяет слоты, скрытые элементы, размеры, токены и покрытие платформ.
+
+**Instructions:** `ui-type-builder.md` — самостоятельный файл со всеми правилами; локальные references Codex не нужны.
+
+## Сетки UI Type Rail
+
+**Skill name:** `okko-rail-layout-guides`
+
+**Description:** Создаёт и проверяет нативные сетки Rail для Web и Android по существующим токенам и добавляет подписи Web breakpoint. Сохраняет существующие iOS guides.
+
+**Instructions:** `rail-layout-guides.md`.
+
+Для обновления этих двух файлов из исходных правил запускайте `python scripts/export-ui-type-figma-skills.py`. Экспорт также создаёт `dist/ui-type-figma-agent.zip`. При переносе в Figma Agent укажите имя/описание выше и загрузите соответствующую инструкцию доступным в интерфейсе способом. Экспорт файлов не устанавливает навыки в Figma автоматически.
+
 ## Навигация по библиотекам
 
 **Skill name:** `okko-library-navigator`

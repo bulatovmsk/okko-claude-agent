@@ -1,5 +1,7 @@
 # Okko Codex Skills
 
+Пакет Guidelines для сборки UI Type в Figma Agent: [figma-guidelines/README.md](figma-guidelines/README.md). Содержит шесть файлов для библиотеки и отдельную запускаемую команду.
+
 Repo-scoped навыки Codex для работы с дизайн-системой и интерфейсными текстами Okko.
 
 Контекст прежних обсуждений и указатель чатов: [CONTEXT_FROM_CHATS.md](CONTEXT_FROM_CHATS.md).
@@ -22,7 +24,6 @@ Repo-scoped навыки Codex для работы с дизайн-систем�
 │   ├── design-platform-mobile/
 │   ├── design-platform-tv/
 │   ├── build-ui-type/
-│   ├── build-ios-ui-type/
 │   ├── rail-layout-guides/
 │   └── ux-copy/
 ├── design-system/          # source of truth для компонентов и платформенных правил
@@ -73,13 +74,14 @@ $ux-copy Проверь текст кнопки: «Нажмите для про�
 | `design-platform-mobile` | Правила iOS и Android |
 | `design-platform-tv` | D-pad, focus и ограничения TV |
 | `build-ui-type` | Сборка и проверка Rail для iOS, Android и всех Web-брейкпойнтов |
-| `build-ios-ui-type` | Совместимость прежней команды; требует соседний build-ui-type |
 | `rail-layout-guides` | Нативные сетки Rail, правые расчётные отступы и подписи Web breakpoint |
 | `ux-copy` | Редактура интерфейсных текстов по Редполитике |
 
 Актуальное состояние библиотеки UI Type и точка продолжения: [docs/ui-type-context.md](docs/ui-type-context.md). Правила Rail хранятся в references навыков build-ui-type и rail-layout-guides; старые карточки Rail в design-system/components описывают исходные платформенные библиотеки и не отменяют эти решения.
 
-Для установки Rail-навыков вне этого репозитория копируйте build-ui-type и rail-layout-guides в каталог skills вместе. Если нужна прежняя команда, добавьте build-ios-ui-type рядом с build-ui-type.
+Для установки Rail-навыков вне этого репозитория копируйте build-ui-type и rail-layout-guides в каталог skills вместе. Команда build-ui-type собирает все платформы или явно указанный поднабор, например только iOS.
+
+Отдельные самостоятельные инструкции для Figma Agent: [ui-type-builder.md](figma-agent-skills/ui-type-builder.md) и [rail-layout-guides.md](figma-agent-skills/rail-layout-guides.md). Имена и описания для переноса: [skill-metadata.md](figma-agent-skills/skill-metadata.md). Пересборка: `python scripts/export-ui-type-figma-skills.py`; архив появляется в `dist/ui-type-figma-agent.zip`. Тестовая сборка по новому дизайнерскому концепту ожидает концепт; экспорт инструкций не подтверждает запуск в Figma Agent.
 
 ## Обновление данных
 
