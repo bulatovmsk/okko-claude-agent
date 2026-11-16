@@ -1,0 +1,2470 @@
+{
+  "checkedAt": "2026-11-11",
+  "fileKey": "VCkyAgp18B3cs0RwzcwHrI",
+  "pageId": "14399:22904",
+  "sets": [
+    {
+      "id": "14399:23969",
+      "name": "Rail - Main",
+      "rows": [
+        {
+          "name": "Device=Phone",
+          "w": 328,
+          "h": 146,
+          "car": {
+            "width": 328,
+            "gap": 6,
+            "padding": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 202,
+                "h": 114,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Main / Main Card / Phone",
+                    "w": 202,
+                    "h": 114
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 202,
+                "h": 114,
+                "x": 208,
+                "children": [
+                  {
+                    "name": "_Main / Main Card / Phone",
+                    "w": 202,
+                    "h": 114
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "Device=Tablet P",
+          "w": 592,
+          "h": 143,
+          "car": {
+            "width": 592,
+            "gap": 8,
+            "padding": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 189,
+                "h": 107,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Main / Main Card / Tablet P",
+                    "w": 189,
+                    "h": 107
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 189,
+                "h": 107,
+                "x": 197,
+                "children": [
+                  {
+                    "name": "_Main / Main Card / Tablet P",
+                    "w": 189,
+                    "h": 107
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "Device=Tablet L",
+          "w": 976,
+          "h": 169,
+          "car": {
+            "width": 976,
+            "gap": 8,
+            "padding": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 235,
+                "h": 133,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Main / Main Card / Tablet L",
+                    "w": 235,
+                    "h": 133
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 235,
+                "h": 133,
+                "x": 243,
+                "children": [
+                  {
+                    "name": "_Main / Main Card / Tablet L",
+                    "w": 235,
+                    "h": 133
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "22622:23036",
+      "name": "Rail - Medium",
+      "rows": [
+        {
+          "name": "Device=Phone",
+          "w": 328,
+          "h": 170,
+          "car": {
+            "width": 328,
+            "gap": 6,
+            "padding": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 244,
+                "h": 138,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Medium / Card",
+                    "w": 244,
+                    "h": 138
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 244,
+                "h": 138,
+                "x": 250,
+                "children": [
+                  {
+                    "name": "_Medium / Card",
+                    "w": 244,
+                    "h": 138
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "Device=Tablet P",
+          "w": 592,
+          "h": 200,
+          "car": {
+            "width": 592,
+            "gap": 8,
+            "padding": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 290,
+                "h": 164,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Medium / Card",
+                    "w": 290,
+                    "h": 164
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 290,
+                "h": 164,
+                "x": 298,
+                "children": [
+                  {
+                    "name": "_Medium / Card",
+                    "w": 290,
+                    "h": 164
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "Device=Tablet L",
+          "w": 976,
+          "h": 215,
+          "car": {
+            "width": 976,
+            "gap": 8,
+            "padding": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 317,
+                "h": 179,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Medium / Card",
+                    "w": 317,
+                    "h": 179
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 317,
+                "h": 179,
+                "x": 325,
+                "children": [
+                  {
+                    "name": "_Medium / Card",
+                    "w": 317,
+                    "h": 179
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "20628:18736",
+      "name": "Rail - Marketing",
+      "rows": [
+        {
+          "name": "Device=Phone",
+          "w": 328,
+          "h": 360,
+          "car": {
+            "width": 328,
+            "gap": 6,
+            "padding": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 328,
+                "h": 328,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Marketing / Marketing Card / Phone",
+                    "w": 328,
+                    "h": 328
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 328,
+                "h": 328,
+                "x": 334,
+                "children": [
+                  {
+                    "name": "_Marketing / Marketing Card / Phone",
+                    "w": 328,
+                    "h": 328
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "Device=Tablet P",
+          "w": 592,
+          "h": 326,
+          "car": {
+            "width": 592,
+            "gap": 8,
+            "padding": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 290,
+                "h": 290,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Marketing / Marketing Card / Tablet P",
+                    "w": 290,
+                    "h": 290
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 290,
+                "h": 290,
+                "x": 298,
+                "children": [
+                  {
+                    "name": "_Marketing / Marketing Card / Tablet P",
+                    "w": 290,
+                    "h": 290
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "Device=Tablet L",
+          "w": 976,
+          "h": 353,
+          "car": {
+            "width": 976,
+            "gap": 8,
+            "padding": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 317,
+                "h": 317,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Marketing / Marketing Card / Tablet L",
+                    "w": 317,
+                    "h": 317
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 317,
+                "h": 317,
+                "x": 325,
+                "children": [
+                  {
+                    "name": "_Marketing / Marketing Card / Tablet L",
+                    "w": 317,
+                    "h": 317
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "14399:24020",
+      "name": "🟡 Rail - Catalog",
+      "rows": [
+        {
+          "name": "Device=Phone",
+          "w": 360,
+          "h": 286,
+          "car": {
+            "width": 360,
+            "gap": 8,
+            "padding": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 202,
+                "h": 114,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 202,
+                    "h": 114
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 202,
+                "h": 114,
+                "x": 210,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 202,
+                    "h": 114
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "Device=Tablet",
+          "w": 1024,
+          "h": 294,
+          "car": {
+            "width": 1331,
+            "gap": 16,
+            "padding": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 189,
+                "h": 107,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 189,
+                    "h": 107
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 189,
+                "h": 107,
+                "x": 205,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 189,
+                    "h": 107
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "14399:24139",
+      "name": "Rail - Background",
+      "rows": [
+        {
+          "name": "device=Phone",
+          "w": 360,
+          "h": 457,
+          "car": {
+            "width": 328,
+            "gap": 6,
+            "padding": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 202,
+                "h": 114,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Main / Main Card / Phone",
+                    "w": 202,
+                    "h": 114
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 202,
+                "h": 114,
+                "x": 208,
+                "children": [
+                  {
+                    "name": "_Main / Main Card / Phone",
+                    "w": 202,
+                    "h": 114
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "device=Tablet P",
+          "w": 640,
+          "h": 349,
+          "car": {
+            "width": 592,
+            "gap": 8,
+            "padding": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 189,
+                "h": 107,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Main / Main Card / Tablet P",
+                    "w": 189,
+                    "h": 107
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 189,
+                "h": 107,
+                "x": 197,
+                "children": [
+                  {
+                    "name": "_Main / Main Card / Tablet P",
+                    "w": 189,
+                    "h": 107
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "device=Tablet L",
+          "w": 1024,
+          "h": 424,
+          "car": {
+            "width": 976,
+            "gap": 8,
+            "padding": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 235,
+                "h": 133,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Main / Main Card / Tablet L",
+                    "w": 235,
+                    "h": 133
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 235,
+                "h": 133,
+                "x": 243,
+                "children": [
+                  {
+                    "name": "_Main / Main Card / Tablet L",
+                    "w": 235,
+                    "h": 133
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "14399:24191",
+      "name": "Rail - Vertical",
+      "rows": [
+        {
+          "name": "Device=Phone",
+          "w": 328,
+          "h": 209,
+          "car": {
+            "width": 328,
+            "gap": 6,
+            "padding": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 118,
+                "h": 177,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Vertical / Vertical Card / Phone",
+                    "w": 118,
+                    "h": 177
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 118,
+                "h": 177,
+                "x": 124,
+                "children": [
+                  {
+                    "name": "_Vertical / Vertical Card / Phone",
+                    "w": 118,
+                    "h": 177
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "Device=Tablet P",
+          "w": 592,
+          "h": 319,
+          "car": {
+            "width": 592,
+            "gap": 8,
+            "padding": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 189,
+                "h": 283,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Vertical / Vertical Card / Tablet P",
+                    "w": 189,
+                    "h": 283
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 189,
+                "h": 283,
+                "x": 197,
+                "children": [
+                  {
+                    "name": "_Vertical / Vertical Card / Tablet P",
+                    "w": 189,
+                    "h": 283
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "Device=Tablet L",
+          "w": 976,
+          "h": 389,
+          "car": {
+            "width": 976,
+            "gap": 8,
+            "padding": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 235,
+                "h": 353,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Vertical / Vertical Card / Tablet L",
+                    "w": 235,
+                    "h": 353
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 235,
+                "h": 353,
+                "x": 243,
+                "children": [
+                  {
+                    "name": "_Vertical / Vertical Card / Tablet L",
+                    "w": 235,
+                    "h": 353
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "14399:24256",
+      "name": "Rail - Square Small 2 Story",
+      "rows": [
+        {
+          "name": "device=Phone",
+          "w": 360,
+          "h": 252,
+          "car": {
+            "width": 360,
+            "gap": 6,
+            "padding": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 104,
+                "h": 220,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Card",
+                    "w": 104,
+                    "h": 104
+                  },
+                  {
+                    "name": "_Card",
+                    "w": 104,
+                    "h": 104
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 104,
+                "h": 220,
+                "x": 110,
+                "children": [
+                  {
+                    "name": "_Card",
+                    "w": 104,
+                    "h": 104
+                  },
+                  {
+                    "name": "_Card",
+                    "w": 104,
+                    "h": 104
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "device=Tablet P",
+          "w": 640,
+          "h": 266,
+          "car": {
+            "width": 640,
+            "gap": 8,
+            "padding": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 109,
+                "h": 230,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Card",
+                    "w": 109,
+                    "h": 109
+                  },
+                  {
+                    "name": "_Card",
+                    "w": 109,
+                    "h": 109
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 109,
+                "h": 230,
+                "x": 117,
+                "children": [
+                  {
+                    "name": "_Card",
+                    "w": 109,
+                    "h": 109
+                  },
+                  {
+                    "name": "_Card",
+                    "w": 109,
+                    "h": 109
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "device=Tablet L",
+          "w": 1024,
+          "h": 354,
+          "car": {
+            "width": 1024,
+            "gap": 8,
+            "padding": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 153,
+                "h": 318,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Card",
+                    "w": 153,
+                    "h": 153
+                  },
+                  {
+                    "name": "_Card",
+                    "w": 153,
+                    "h": 153
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 153,
+                "h": 318,
+                "x": 161,
+                "children": [
+                  {
+                    "name": "_Card",
+                    "w": 153,
+                    "h": 153
+                  },
+                  {
+                    "name": "_Card",
+                    "w": 153,
+                    "h": 153
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "14399:24362",
+      "name": "Rail - Square Small 1 Story",
+      "rows": [
+        {
+          "name": "Device=Phone",
+          "w": 360,
+          "h": 136,
+          "car": {
+            "width": 360,
+            "gap": 6,
+            "padding": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 104,
+                "h": 104,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Card",
+                    "w": 104,
+                    "h": 104
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 104,
+                "h": 104,
+                "x": 110,
+                "children": [
+                  {
+                    "name": "_Card",
+                    "w": 104,
+                    "h": 104
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "Device=Tablet P",
+          "w": 640,
+          "h": 145,
+          "car": {
+            "width": 640,
+            "gap": 8,
+            "padding": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 109,
+                "h": 109,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Card",
+                    "w": 109,
+                    "h": 109
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 109,
+                "h": 109,
+                "x": 117,
+                "children": [
+                  {
+                    "name": "_Card",
+                    "w": 109,
+                    "h": 109
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "Device=Tablet L",
+          "w": 1024,
+          "h": 189,
+          "car": {
+            "width": 1024,
+            "gap": 8,
+            "padding": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 153,
+                "h": 153,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Card",
+                    "w": 153,
+                    "h": 153
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 153,
+                "h": 153,
+                "x": 161,
+                "children": [
+                  {
+                    "name": "_Card",
+                    "w": 153,
+                    "h": 153
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "14399:24454",
+      "name": "Rail - Square",
+      "rows": [
+        {
+          "name": "Device=Phone",
+          "w": 360,
+          "h": 150,
+          "car": {
+            "width": 360,
+            "gap": 6,
+            "padding": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 118,
+                "h": 118,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Square / Square Card / Phone",
+                    "w": 118,
+                    "h": 118
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 118,
+                "h": 118,
+                "x": 124,
+                "children": [
+                  {
+                    "name": "_Square / Square Card / Phone",
+                    "w": 118,
+                    "h": 118
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "Device=Tablet P",
+          "w": 640,
+          "h": 225,
+          "car": {
+            "width": 640,
+            "gap": 8,
+            "padding": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 189,
+                "h": 189,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Square / Square Card / Tablet P",
+                    "w": 189,
+                    "h": 189
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 189,
+                "h": 189,
+                "x": 197,
+                "children": [
+                  {
+                    "name": "_Square / Square Card / Tablet P",
+                    "w": 189,
+                    "h": 189
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "Device=Tablet L",
+          "w": 1024,
+          "h": 271,
+          "car": {
+            "width": 1024,
+            "gap": 8,
+            "padding": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 235,
+                "h": 235,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Square / Square Card / Tablet L",
+                    "w": 235,
+                    "h": 235
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 235,
+                "h": 235,
+                "x": 243,
+                "children": [
+                  {
+                    "name": "_Square / Square Card / Tablet L",
+                    "w": 235,
+                    "h": 235
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "14399:24513",
+      "name": "Rail - Large",
+      "rows": [
+        {
+          "name": "device=Phone",
+          "w": 328,
+          "h": 193,
+          "car": {
+            "width": 328,
+            "gap": 6,
+            "padding": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 289,
+                "h": 161,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Large / Large Card / Phone",
+                    "w": 289,
+                    "h": 161
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 289,
+                "h": 161,
+                "x": 295,
+                "children": [
+                  {
+                    "name": "_Large / Large Card / Phone",
+                    "w": 289,
+                    "h": 161
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "device=Tablet P",
+          "w": 592,
+          "h": 257,
+          "car": {
+            "width": 592,
+            "gap": 8,
+            "padding": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 390,
+                "h": 221,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Large / Large Card / Tablet P",
+                    "w": 390,
+                    "h": 221
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 390,
+                "h": 221,
+                "x": 398,
+                "children": [
+                  {
+                    "name": "_Large / Large Card / Tablet P",
+                    "w": 390,
+                    "h": 221
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "device=Tablet L",
+          "w": 976,
+          "h": 307,
+          "car": {
+            "width": 976,
+            "gap": 8,
+            "padding": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 481,
+                "h": 271,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Large / Large Card / Tablet L",
+                    "w": 481,
+                    "h": 271
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 481,
+                "h": 271,
+                "x": 489,
+                "children": [
+                  {
+                    "name": "_Large / Large Card / Tablet L",
+                    "w": 481,
+                    "h": 271
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "14399:24596",
+      "name": "Rail - Continue",
+      "rows": [
+        {
+          "name": "Device=Phone",
+          "w": 328,
+          "h": 192,
+          "car": {
+            "width": 328,
+            "gap": 6,
+            "padding": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 202,
+                "h": 160,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Main / Main Card / Phone",
+                    "w": 202,
+                    "h": 160
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 202,
+                "h": 160,
+                "x": 208,
+                "children": [
+                  {
+                    "name": "_Main / Main Card / Phone",
+                    "w": 202,
+                    "h": 160
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "Device=Tablet P",
+          "w": 592,
+          "h": 195,
+          "car": {
+            "width": 592,
+            "gap": 8,
+            "padding": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 189,
+                "h": 159,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Main / Main Card / Tablet P",
+                    "w": 189,
+                    "h": 159
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 189,
+                "h": 159,
+                "x": 197,
+                "children": [
+                  {
+                    "name": "_Main / Main Card / Tablet P",
+                    "w": 189,
+                    "h": 159
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "Device=Tablet L",
+          "w": 976,
+          "h": 221,
+          "car": {
+            "width": 976,
+            "gap": 8,
+            "padding": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 235,
+                "h": 185,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Main / Main Card / Tablet L",
+                    "w": 235,
+                    "h": 185
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 235,
+                "h": 185,
+                "x": 243,
+                "children": [
+                  {
+                    "name": "_Main / Main Card / Tablet L",
+                    "w": 235,
+                    "h": 185
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "16997:107683",
+      "name": "Rail - Circle",
+      "rows": [
+        {
+          "name": "Device=Phone",
+          "w": 328,
+          "h": 180,
+          "car": {
+            "width": 328,
+            "gap": 6,
+            "padding": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 88,
+                "h": 148,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Circle/ Person Card",
+                    "w": 88,
+                    "h": 148
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 88,
+                "h": 148,
+                "x": 94,
+                "children": [
+                  {
+                    "name": "_Circle/ Person Card",
+                    "w": 88,
+                    "h": 148
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "Device=Tablet",
+          "w": 592,
+          "h": 216,
+          "car": {
+            "width": 592,
+            "gap": 8,
+            "padding": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 112,
+                "h": 180,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Circle/ Person Card",
+                    "w": 112,
+                    "h": 180
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 112,
+                "h": 180,
+                "x": 120,
+                "children": [
+                  {
+                    "name": "_Circle/ Person Card",
+                    "w": 112,
+                    "h": 180
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "20812:23203",
+      "name": "Rail - Person",
+      "rows": [
+        {
+          "name": "device=Tablet L",
+          "w": 1024,
+          "h": 208,
+          "car": {
+            "width": 976,
+            "gap": 8,
+            "padding": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 235,
+                "h": 172,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Person / Card",
+                    "w": 235,
+                    "h": 80
+                  },
+                  {
+                    "name": "_Person / Card",
+                    "w": 235,
+                    "h": 80
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 235,
+                "h": 172,
+                "x": 243,
+                "children": [
+                  {
+                    "name": "_Person / Card",
+                    "w": 235,
+                    "h": 80
+                  },
+                  {
+                    "name": "_Person / Card",
+                    "w": 235,
+                    "h": 80
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "device=Tablet P",
+          "w": 640,
+          "h": 176,
+          "car": {
+            "width": 592,
+            "gap": 8,
+            "padding": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 189,
+                "h": 140,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Person / Card",
+                    "w": 189,
+                    "h": 64
+                  },
+                  {
+                    "name": "_Person / Card",
+                    "w": 189,
+                    "h": 64
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 189,
+                "h": 140,
+                "x": 197,
+                "children": [
+                  {
+                    "name": "_Person / Card",
+                    "w": 189,
+                    "h": 64
+                  },
+                  {
+                    "name": "_Person / Card",
+                    "w": 189,
+                    "h": 64
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "device=Phone",
+          "w": 345,
+          "h": 156,
+          "car": {
+            "width": 313,
+            "gap": 6,
+            "padding": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 211,
+                "h": 124,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Person / Card",
+                    "w": 211,
+                    "h": 56
+                  },
+                  {
+                    "name": "_Person / Card",
+                    "w": 211,
+                    "h": 56
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 211,
+                "h": 124,
+                "x": 217,
+                "children": [
+                  {
+                    "name": "_Person / Card",
+                    "w": 211,
+                    "h": 56
+                  },
+                  {
+                    "name": "_Person / Card",
+                    "w": 211,
+                    "h": 56
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "26351:25851",
+      "name": "Rail - Ticket",
+      "rows": [
+        {
+          "name": "Device=Phone",
+          "w": 360,
+          "h": 211,
+          "car": {
+            "width": 336,
+            "gap": 8,
+            "padding": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "name": "itemRail 01",
+                "type": "INSTANCE",
+                "w": 118,
+                "h": 177,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 118,
+                    "h": 177
+                  }
+                ]
+              },
+              {
+                "name": "itemRail 02",
+                "type": "INSTANCE",
+                "w": 118,
+                "h": 177,
+                "x": 126,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 118,
+                    "h": 177
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "Device=Tablet P",
+          "w": 640,
+          "h": 321,
+          "car": {
+            "width": 592,
+            "gap": 12,
+            "padding": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "name": "itemRail 01",
+                "type": "INSTANCE",
+                "w": 189,
+                "h": 283,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 189,
+                    "h": 283
+                  }
+                ]
+              },
+              {
+                "name": "itemRail 02",
+                "type": "INSTANCE",
+                "w": 189,
+                "h": 283,
+                "x": 201,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 189,
+                    "h": 283
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "Device=Tablet L",
+          "w": 1024,
+          "h": 391,
+          "car": {
+            "width": 976,
+            "gap": 12,
+            "padding": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "name": "itemRail 01",
+                "type": "INSTANCE",
+                "w": 235,
+                "h": 353,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 235,
+                    "h": 353
+                  }
+                ]
+              },
+              {
+                "name": "itemRail 02",
+                "type": "INSTANCE",
+                "w": 235,
+                "h": 353,
+                "x": 247,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 235,
+                    "h": 353
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "27172:35849",
+      "name": "Rail - Highlights",
+      "rows": [
+        {
+          "name": "Device=Tablet L",
+          "w": 976,
+          "h": 400,
+          "car": {
+            "width": 976,
+            "gap": 8,
+            "padding": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 646,
+                "h": 364,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Hightlights / Highlights Card",
+                    "w": 646,
+                    "h": 364
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 646,
+                "h": 364,
+                "x": 654,
+                "children": [
+                  {
+                    "name": "_Hightlights / Highlights Card",
+                    "w": 646,
+                    "h": 364
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "Device=Tablet P",
+          "w": 592,
+          "h": 369,
+          "car": {
+            "width": 592,
+            "gap": 8,
+            "padding": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 592,
+                "h": 333,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Hightlights / Highlights Card",
+                    "w": 592,
+                    "h": 333
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 592,
+                "h": 333,
+                "x": 600,
+                "children": [
+                  {
+                    "name": "_Hightlights / Highlights Card",
+                    "w": 592,
+                    "h": 333
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "Device=Phone",
+          "w": 328,
+          "h": 510,
+          "car": {
+            "width": 328,
+            "gap": 6,
+            "padding": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 328,
+                "h": 478,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Hightlights / Highlights Card",
+                    "w": 328,
+                    "h": 478
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 328,
+                "h": 478,
+                "x": 334,
+                "children": [
+                  {
+                    "name": "_Hightlights / Highlights Card",
+                    "w": 328,
+                    "h": 478
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "28033:41342",
+      "name": "Rail - Personal Widget",
+      "rows": [
+        {
+          "name": "Device=Phone",
+          "w": 360,
+          "h": 440.91998291015625,
+          "car": {
+            "width": 360,
+            "gap": 6,
+            "padding": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 328,
+                "h": 408.91998291015625,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Raw",
+                    "w": 328,
+                    "h": 232
+                  },
+                  {
+                    "name": "Widget / Horizontal / Card",
+                    "w": 328,
+                    "h": 168.9199981689453
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 332,
+                "h": 408.91998291015625,
+                "x": 334,
+                "children": [
+                  {
+                    "name": "Widget / Horizontal / Card",
+                    "w": 328,
+                    "h": 168.9199981689453
+                  },
+                  {
+                    "name": "Frame 8",
+                    "w": 332,
+                    "h": 232
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "Device=Tablet P",
+          "w": 640,
+          "h": 374.25,
+          "car": {
+            "width": 640,
+            "gap": 8,
+            "padding": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 290,
+                "h": 338,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Widget / Cover",
+                    "w": 290,
+                    "h": 338
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 290,
+                "h": 338,
+                "x": 298,
+                "children": [
+                  {
+                    "name": "Widget / Vertical / Card",
+                    "w": 290,
+                    "h": 338
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "Device=Tablet L",
+          "w": 1024,
+          "h": 404,
+          "car": {
+            "width": 1024,
+            "gap": 8,
+            "padding": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 317,
+                "h": 368,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Widget / Cover",
+                    "w": 317,
+                    "h": 368
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 317,
+                "h": 368,
+                "x": 325,
+                "children": [
+                  {
+                    "name": "Widget / Vertical / Card",
+                    "w": 317,
+                    "h": 368
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "28557:26358",
+      "name": "Rail - Subscriptions",
+      "rows": [
+        {
+          "name": "Device=Phone",
+          "w": 360,
+          "h": 397,
+          "car": {
+            "width": 360,
+            "gap": 6,
+            "padding": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 328,
+                "h": 397,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Subscriptions / Card",
+                    "w": 328,
+                    "h": 397
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 328,
+                "h": 397,
+                "x": 334,
+                "children": [
+                  {
+                    "name": "_Subscriptions / Card",
+                    "w": 328,
+                    "h": 397
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "Device=Tablet",
+          "w": 812,
+          "h": 457,
+          "car": {
+            "width": 640,
+            "gap": 8,
+            "padding": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 400,
+                "h": 457,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Subscriptions / Card",
+                    "w": 400,
+                    "h": 457
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 400,
+                "h": 457,
+                "x": 408,
+                "children": [
+                  {
+                    "name": "_Subscriptions / Card",
+                    "w": 400,
+                    "h": 457
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "29526:33290",
+      "name": "Rail - Announces",
+      "rows": [
+        {
+          "name": "Device=Phone",
+          "w": 360,
+          "h": 206,
+          "car": {
+            "width": 360,
+            "gap": 6,
+            "padding": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 252,
+                "h": 174,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Announces / Card",
+                    "w": 252,
+                    "h": 174
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 252,
+                "h": 174,
+                "x": 258,
+                "children": [
+                  {
+                    "name": "_Announces / Card",
+                    "w": 252,
+                    "h": 174
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "Device=Tablet P",
+          "w": 640,
+          "h": 223,
+          "car": {
+            "width": 360,
+            "gap": 6,
+            "padding": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 290,
+                "h": 189,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Announces / Card",
+                    "w": 290,
+                    "h": 189
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 290,
+                "h": 189,
+                "x": 296,
+                "children": [
+                  {
+                    "name": "_Announces / Card",
+                    "w": 290,
+                    "h": 189
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "Device=Tablet L",
+          "w": 1024,
+          "h": 250,
+          "car": {
+            "width": 360,
+            "gap": 6,
+            "padding": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 317,
+                "h": 216,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Announces / Card",
+                    "w": 317,
+                    "h": 216
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 317,
+                "h": 216,
+                "x": 323,
+                "children": [
+                  {
+                    "name": "_Announces / Card",
+                    "w": 317,
+                    "h": 216
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "34622:26065",
+      "name": "Rail - Tracks",
+      "rows": [
+        {
+          "name": "Device=Phone",
+          "w": 328,
+          "h": 236,
+          "car": {
+            "width": 328,
+            "gap": 16,
+            "padding": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 289,
+                "h": 204,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Tracks / Card",
+                    "w": 289,
+                    "h": 204
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 289,
+                "h": 204,
+                "x": 305,
+                "children": [
+                  {
+                    "name": "_Tracks / Card",
+                    "w": 289,
+                    "h": 204
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "Device=Tablet",
+          "w": 592,
+          "h": 188,
+          "car": {
+            "width": 592,
+            "gap": 8,
+            "padding": [
+              0,
+              0
+            ],
+            "items": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 390,
+                "h": 152,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Tracks / Card",
+                    "w": 390,
+                    "h": 152
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 390,
+                "h": 152,
+                "x": 398,
+                "children": [
+                  {
+                    "name": "_Tracks / Card",
+                    "w": 390,
+                    "h": 152
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

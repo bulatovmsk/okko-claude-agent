@@ -1,0 +1,499 @@
+{
+  "checkedAt": "2026-11-13",
+  "fileKey": "TGfdPRzrhCA6CbiHsRjBSD",
+  "boardId": "125:21651",
+  "styles": [
+    {
+      "id": "S:63d6b1d8aa38f284259f14059e5ad14b49928ad5,",
+      "name": "Web/Mobile (320, 375)",
+      "grids": [
+        {
+          "pattern": "COLUMNS",
+          "visible": true,
+          "color": {
+            "r": 0.529411792755127,
+            "g": 0.4627451002597809,
+            "b": 0.9764705896377563,
+            "a": 0.30000001192092896
+          },
+          "gutterSize": 6,
+          "alignment": "STRETCH",
+          "count": 12,
+          "offset": 12,
+          "boundVariables": {
+            "offset": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:62c12bcb844ca03f6214f5c4ccf094a5686598a5/5511:844"
+            },
+            "gutterSize": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:43:1618"
+            }
+          }
+        },
+        {
+          "pattern": "COLUMNS",
+          "visible": true,
+          "color": {
+            "r": 1,
+            "g": 0,
+            "b": 0,
+            "a": 0.30000001192092896
+          },
+          "gutterSize": 0,
+          "alignment": "MAX",
+          "count": 1,
+          "sectionSize": 36,
+          "offset": 0,
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "S:30e771408092b5d368e9259ff8c515c19252023a,",
+      "name": "Web/Tablet (768, 1024)",
+      "grids": [
+        {
+          "pattern": "COLUMNS",
+          "visible": true,
+          "color": {
+            "r": 0.529411792755127,
+            "g": 0.4627451002597809,
+            "b": 0.9764705896377563,
+            "a": 0.30000001192092896
+          },
+          "gutterSize": 8,
+          "alignment": "STRETCH",
+          "count": 12,
+          "offset": 32,
+          "boundVariables": {
+            "offset": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:93ed3f838d3bab4da16f1abab23d1fd2183abee6/5511:845"
+            },
+            "gutterSize": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:43:1617"
+            }
+          }
+        },
+        {
+          "pattern": "COLUMNS",
+          "visible": true,
+          "color": {
+            "r": 1,
+            "g": 0,
+            "b": 0,
+            "a": 0.30000001192092896
+          },
+          "gutterSize": 0,
+          "alignment": "MAX",
+          "count": 1,
+          "sectionSize": 56,
+          "offset": 0,
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "S:989c1abb7d9c1d378554e9eb93148710c0bf90fc,",
+      "name": "Web/Desktop M (1440)",
+      "grids": [
+        {
+          "pattern": "COLUMNS",
+          "visible": true,
+          "color": {
+            "r": 0.529411792755127,
+            "g": 0.4627451002597809,
+            "b": 0.9764705896377563,
+            "a": 0.30000001192092896
+          },
+          "gutterSize": 8,
+          "alignment": "STRETCH",
+          "count": 12,
+          "offset": 56,
+          "boundVariables": {
+            "offset": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:222c966504e03b4f41a593fe9d728b422d569e0c/5511:846"
+            },
+            "gutterSize": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:43:1617"
+            }
+          }
+        },
+        {
+          "pattern": "COLUMNS",
+          "visible": true,
+          "color": {
+            "r": 1,
+            "g": 0,
+            "b": 0,
+            "a": 0.30000001192092896
+          },
+          "gutterSize": 0,
+          "alignment": "MAX",
+          "count": 1,
+          "sectionSize": 56,
+          "offset": 0,
+          "boundVariables": {
+            "sectionSize": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:222c966504e03b4f41a593fe9d728b422d569e0c/5511:846"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:7f5741330aeb4fa667423c340d4096ed864fdcdc,",
+      "name": "Web/Desktop L (1920)",
+      "grids": [
+        {
+          "pattern": "COLUMNS",
+          "visible": true,
+          "color": {
+            "r": 0.529411792755127,
+            "g": 0.4627451002597809,
+            "b": 0.9764705896377563,
+            "a": 0.30000001192092896
+          },
+          "gutterSize": 10,
+          "alignment": "STRETCH",
+          "count": 12,
+          "offset": 72,
+          "boundVariables": {
+            "offset": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:e5ba9a8261a759611f664d139b2c4167011166b7/5511:847"
+            },
+            "gutterSize": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:43:1616"
+            }
+          }
+        },
+        {
+          "pattern": "COLUMNS",
+          "visible": true,
+          "color": {
+            "r": 1,
+            "g": 0,
+            "b": 0,
+            "a": 0.30000001192092896
+          },
+          "gutterSize": 0,
+          "alignment": "MAX",
+          "count": 1,
+          "sectionSize": 72,
+          "offset": 0,
+          "boundVariables": {
+            "sectionSize": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:e5ba9a8261a759611f664d139b2c4167011166b7/5511:847"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:e1a2203eb888f9c8a595dc012570b0fb9d97b59e,",
+      "name": "Android/Phone",
+      "grids": [
+        {
+          "pattern": "COLUMNS",
+          "visible": true,
+          "color": {
+            "r": 0.529411792755127,
+            "g": 0.4627451002597809,
+            "b": 0.9764705896377563,
+            "a": 0.30000001192092896
+          },
+          "gutterSize": 8,
+          "alignment": "STRETCH",
+          "count": 8,
+          "offset": 16,
+          "boundVariables": {
+            "offset": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:4519e7d6535c137252afe7eb297e46997b44e3a5/5511:849"
+            },
+            "gutterSize": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:fa50de5db1af868fa9a03e6db2987ae723ffaf05/5511:827"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "S:46a989a6458fd3dbceaa58715d9c5aaecdb2570e,",
+      "name": "Android/Tablet",
+      "grids": [
+        {
+          "pattern": "COLUMNS",
+          "visible": true,
+          "color": {
+            "r": 0.529411792755127,
+            "g": 0.4627451002597809,
+            "b": 0.9764705896377563,
+            "a": 0.30000001192092896
+          },
+          "gutterSize": 12,
+          "alignment": "STRETCH",
+          "count": 12,
+          "offset": 24,
+          "boundVariables": {
+            "offset": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:fa55d5fefdb6c8bdd5c300e8cf2fd6dcc79e091e/5511:851"
+            },
+            "gutterSize": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:0911bcc8c9847bef9f4110c180d2c81aa6a10049/5511:828"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "frames": [
+    {
+      "id": "125:21662",
+      "styleId": "S:63d6b1d8aa38f284259f14059e5ad14b49928ad5,",
+      "style": "Web/Mobile (320, 375)",
+      "width": 320,
+      "height": 220,
+      "padding": 12,
+      "gutter": 6,
+      "columns": 12,
+      "columnWidth": 19.166666666666668,
+      "rightCalculation": 36,
+      "responsive": true,
+      "passed": true,
+      "breakpoint": 320
+    },
+    {
+      "id": "125:21665",
+      "styleId": "S:63d6b1d8aa38f284259f14059e5ad14b49928ad5,",
+      "style": "Web/Mobile (320, 375)",
+      "width": 375,
+      "height": 220,
+      "padding": 12,
+      "gutter": 6,
+      "columns": 12,
+      "columnWidth": 23.75,
+      "rightCalculation": 36,
+      "responsive": true,
+      "passed": true,
+      "breakpoint": 375
+    },
+    {
+      "id": "125:21668",
+      "styleId": "S:63d6b1d8aa38f284259f14059e5ad14b49928ad5,",
+      "style": "Web/Mobile (320, 375)",
+      "width": 440,
+      "height": 220,
+      "padding": 12,
+      "gutter": 6,
+      "columns": 12,
+      "columnWidth": 29.166666666666668,
+      "rightCalculation": 36,
+      "responsive": true,
+      "passed": true,
+      "breakpoint": null
+    },
+    {
+      "id": "125:21677",
+      "styleId": "S:30e771408092b5d368e9259ff8c515c19252023a,",
+      "style": "Web/Tablet (768, 1024)",
+      "width": 768,
+      "height": 220,
+      "padding": 32,
+      "gutter": 8,
+      "columns": 12,
+      "columnWidth": 51.333333333333336,
+      "rightCalculation": 56,
+      "responsive": true,
+      "passed": true,
+      "breakpoint": 768
+    },
+    {
+      "id": "125:21680",
+      "styleId": "S:30e771408092b5d368e9259ff8c515c19252023a,",
+      "style": "Web/Tablet (768, 1024)",
+      "width": 1024,
+      "height": 220,
+      "padding": 32,
+      "gutter": 8,
+      "columns": 12,
+      "columnWidth": 72.66666666666667,
+      "rightCalculation": 56,
+      "responsive": true,
+      "passed": true,
+      "breakpoint": 1024
+    },
+    {
+      "id": "125:21689",
+      "styleId": "S:989c1abb7d9c1d378554e9eb93148710c0bf90fc,",
+      "style": "Web/Desktop M (1440)",
+      "width": 1440,
+      "height": 220,
+      "padding": 56,
+      "gutter": 8,
+      "columns": 12,
+      "columnWidth": 103.33333333333333,
+      "rightCalculation": 56,
+      "responsive": true,
+      "passed": true,
+      "breakpoint": 1440
+    },
+    {
+      "id": "125:21698",
+      "styleId": "S:7f5741330aeb4fa667423c340d4096ed864fdcdc,",
+      "style": "Web/Desktop L (1920)",
+      "width": 1920,
+      "height": 220,
+      "padding": 72,
+      "gutter": 10,
+      "columns": 12,
+      "columnWidth": 138.83333333333334,
+      "rightCalculation": 72,
+      "responsive": true,
+      "passed": true,
+      "breakpoint": 1920
+    },
+    {
+      "id": "125:21707",
+      "styleId": "S:e1a2203eb888f9c8a595dc012570b0fb9d97b59e,",
+      "style": "Android/Phone",
+      "width": 360,
+      "height": 220,
+      "padding": 16,
+      "gutter": 8,
+      "columns": 8,
+      "columnWidth": 34,
+      "rightCalculation": null,
+      "responsive": true,
+      "passed": true
+    },
+    {
+      "id": "125:21716",
+      "styleId": "S:46a989a6458fd3dbceaa58715d9c5aaecdb2570e,",
+      "style": "Android/Tablet",
+      "width": 640,
+      "height": 220,
+      "padding": 24,
+      "gutter": 12,
+      "columns": 12,
+      "columnWidth": 38.333333333333336,
+      "rightCalculation": null,
+      "responsive": true,
+      "passed": true
+    },
+    {
+      "id": "125:21719",
+      "styleId": "S:46a989a6458fd3dbceaa58715d9c5aaecdb2570e,",
+      "style": "Android/Tablet",
+      "width": 1024,
+      "height": 220,
+      "padding": 24,
+      "gutter": 12,
+      "columns": 12,
+      "columnWidth": 70.33333333333333,
+      "rightCalculation": null,
+      "responsive": true,
+      "passed": true
+    }
+  ],
+  "iosPreserved": [
+    {
+      "id": "S:6966b23bf6c1890dad164253e102c731a72753fd,",
+      "name": "iOS/iPad",
+      "description": "Сетка для построения UI-тайпов Rail на iOS (iPad). 12 колонок, gap 8 px. Исходник: Lib-iOS, ветка концепта карточки. Применять к внутреннему фрейму Rail grid. Gap сохранён значением: исходная локальная переменная не опубликована.",
+      "grids": [
+        {
+          "pattern": "COLUMNS",
+          "visible": true,
+          "color": {
+            "r": 0.529411792755127,
+            "g": 0.4627451002597809,
+            "b": 0.9764705896377563,
+            "a": 0.30000001192092896
+          },
+          "gutterSize": 8,
+          "alignment": "STRETCH",
+          "count": 12,
+          "offset": 35,
+          "boundVariables": {
+            "offset": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:4552e59c463779fd169baf05b8d9213903d1a647/5511:853"
+            }
+          }
+        },
+        {
+          "pattern": "COLUMNS",
+          "visible": true,
+          "color": {
+            "r": 1,
+            "g": 0,
+            "b": 0,
+            "a": 0.30000001192092896
+          },
+          "gutterSize": 50,
+          "alignment": "MAX",
+          "count": 1,
+          "sectionSize": 50,
+          "offset": 0,
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "S:c124e6383ab71267629dd49f24d1aeb8efca0804,",
+      "name": "iOS/iPhone",
+      "description": "Сетка для построения UI-тайпов Rail на iOS (iPhone). 12 колонок, gap 6 px. Исходник: Lib-iOS, ветка концепта карточки. Применять к внутреннему фрейму Rail grid. Gap сохранён значением: исходная локальная переменная не опубликована.",
+      "grids": [
+        {
+          "pattern": "COLUMNS",
+          "visible": true,
+          "color": {
+            "r": 0.529411792755127,
+            "g": 0.4627451002597809,
+            "b": 0.9764705896377563,
+            "a": 0.30000001192092896
+          },
+          "gutterSize": 6,
+          "alignment": "STRETCH",
+          "count": 12,
+          "offset": 15,
+          "boundVariables": {
+            "offset": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:47cce4136486ba6827636bcb247671d54b310aa2/5511:852"
+            }
+          }
+        },
+        {
+          "pattern": "COLUMNS",
+          "visible": true,
+          "color": {
+            "r": 1,
+            "g": 0,
+            "b": 0,
+            "a": 0.30000001192092896
+          },
+          "gutterSize": 30,
+          "alignment": "MAX",
+          "count": 1,
+          "sectionSize": 33,
+          "offset": 0,
+          "boundVariables": {}
+        }
+      ]
+    }
+  ],
+  "breakpointLabelsVerified": true
+}

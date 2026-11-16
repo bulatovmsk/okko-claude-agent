@@ -1,0 +1,4735 @@
+{
+  "checkedAt": "2026-11-11",
+  "fileKey": "e72TWMOh7ibwauqgKwLnC9",
+  "pageId": "16685:178431",
+  "sets": [
+    {
+      "id": "17117:237850",
+      "name": "Rail / Main",
+      "rows": [
+        {
+          "bp": "breakpoint=1920, theme=Dark",
+          "w": 1776,
+          "car": {
+            "w": 1776,
+            "gap": 10,
+            "children": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 347.20001220703125,
+                "h": 195,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 347.20001220703125
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 347.20001220703125,
+                "h": 195,
+                "x": 357.20001220703125,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 347.20001220703125
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=1440, theme=Dark",
+          "w": 1328,
+          "car": {
+            "w": 1328,
+            "gap": 8,
+            "children": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 259.20001220703125,
+                "h": 146,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 259.20001220703125
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 259.20001220703125,
+                "h": 146,
+                "x": 267.20001220703125,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 259.20001220703125
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=1024, theme=Dark",
+          "w": 960,
+          "car": {
+            "w": 960,
+            "gap": 8,
+            "children": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 228,
+                "h": 128,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 228
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 228,
+                "h": 128,
+                "x": 236,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 228
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=768, theme=Dark",
+          "w": 704,
+          "car": {
+            "w": 704,
+            "gap": 8,
+            "children": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 221.3300018310547,
+                "h": 125,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 221.3300018310547
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 221.3300018310547,
+                "h": 125,
+                "x": 229.3300018310547,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 221.3300018310547
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=375, theme=Dark",
+          "w": 351,
+          "car": {
+            "w": 351,
+            "gap": 6,
+            "children": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 193.8000030517578,
+                "h": 109,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 193.8000030517578
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 193.8000030517578,
+                "h": 109,
+                "x": 199.8000030517578,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 193.8000030517578
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=320, theme=Dark",
+          "w": 296,
+          "car": {
+            "w": 296,
+            "gap": 6,
+            "children": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 160.8000030517578,
+                "h": 90,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 160.8000030517578
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 160.8000030517578,
+                "h": 90,
+                "x": 166.8000030517578,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 160.8000030517578
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "43862:37393",
+      "name": "Rail / Main 2Story",
+      "rows": [
+        {
+          "bp": "breakpoint=1920, theme=Dark",
+          "w": 1776,
+          "car": {
+            "w": 1776,
+            "gap": 10,
+            "children": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 347.20001220703125,
+                "h": 195,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 347.20001220703125
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 347.20001220703125,
+                "h": 195,
+                "x": 357.20001220703125,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 347.20001220703125
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=1440, theme=Dark",
+          "w": 1328,
+          "car": {
+            "w": 1328,
+            "gap": 8,
+            "children": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 259.20001220703125,
+                "h": 146,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 259.20001220703125
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 259.20001220703125,
+                "h": 146,
+                "x": 267.20001220703125,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 259.20001220703125
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=1024, theme=Dark",
+          "w": 960,
+          "car": {
+            "w": 960,
+            "gap": 8,
+            "children": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 228,
+                "h": 128,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 228
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 228,
+                "h": 128,
+                "x": 236,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 228
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=768, theme=Dark",
+          "w": 704,
+          "car": {
+            "w": 704,
+            "gap": 8,
+            "children": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 221.3300018310547,
+                "h": 125,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 221.3300018310547
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 221.3300018310547,
+                "h": 125,
+                "x": 229.3300018310547,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 221.3300018310547
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=375, theme=Dark",
+          "w": 351,
+          "car": {
+            "w": 351,
+            "gap": 6,
+            "children": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 193.8000030517578,
+                "h": 109,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 193.8000030517578
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 193.8000030517578,
+                "h": 109,
+                "x": 199.8000030517578,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 193.8000030517578
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=320, theme=Dark",
+          "w": 296,
+          "car": {
+            "w": 296,
+            "gap": 6,
+            "children": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 160.8000030517578,
+                "h": 90,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 160.8000030517578
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 160.8000030517578,
+                "h": 90,
+                "x": 166.8000030517578,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 160.8000030517578
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "16814:211664",
+      "name": "Rail / Continue",
+      "rows": [
+        {
+          "bp": "breakpoint=1920, theme=Dark",
+          "w": 1776,
+          "car": {
+            "w": 1776,
+            "gap": 10,
+            "children": [
+              {
+                "name": "itemRail / 1920",
+                "type": "INSTANCE",
+                "w": 347.20001220703125,
+                "h": 229,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 347.20001220703125
+                  },
+                  {
+                    "name": "coverTitle",
+                    "w": 347.20001220703125
+                  }
+                ]
+              },
+              {
+                "name": "itemRail / 1920",
+                "type": "INSTANCE",
+                "w": 347.20001220703125,
+                "h": 229,
+                "x": 357.20001220703125,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 347.20001220703125
+                  },
+                  {
+                    "name": "coverTitle",
+                    "w": 347.20001220703125
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=1440, theme=Dark",
+          "w": 1328,
+          "car": {
+            "w": 1328,
+            "gap": 8,
+            "children": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 259.20001220703125,
+                "h": 178,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 259.20001220703125
+                  },
+                  {
+                    "name": "coverTitle",
+                    "w": 259.20001220703125
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 259.20001220703125,
+                "h": 178,
+                "x": 267.20001220703125,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 259.20001220703125
+                  },
+                  {
+                    "name": "coverTitle",
+                    "w": 259.20001220703125
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=1024, theme=Dark",
+          "w": 960,
+          "car": {
+            "w": 960,
+            "gap": 8,
+            "children": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 228,
+                "h": 158,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 228
+                  },
+                  {
+                    "name": "coverTitle",
+                    "w": 228
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 228,
+                "h": 158,
+                "x": 236,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 228
+                  },
+                  {
+                    "name": "coverTitle",
+                    "w": 228
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=768, theme=Dark",
+          "w": 704,
+          "car": {
+            "w": 704,
+            "gap": 8,
+            "children": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 221.3300018310547,
+                "h": 155,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 221.3300018310547
+                  },
+                  {
+                    "name": "coverTitle",
+                    "w": 221.3300018310547
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 221.3300018310547,
+                "h": 155,
+                "x": 229.3300018310547,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 221.3300018310547
+                  },
+                  {
+                    "name": "coverTitle",
+                    "w": 221.3300018310547
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=375, theme=Dark",
+          "w": 351,
+          "car": {
+            "w": 351,
+            "gap": 6,
+            "children": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 193.8000030517578,
+                "h": 149,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 193.8000030517578
+                  },
+                  {
+                    "name": "coverTitle",
+                    "w": 193.8000030517578
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 193.8000030517578,
+                "h": 149,
+                "x": 199.8000030517578,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 193.8000030517578
+                  },
+                  {
+                    "name": "coverTitle",
+                    "w": 193.8000030517578
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=320, theme=Dark",
+          "w": 296,
+          "car": {
+            "w": 296,
+            "gap": 6,
+            "children": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 160.8000030517578,
+                "h": 114,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 160.8000030517578
+                  },
+                  {
+                    "name": "coverTitle",
+                    "w": 160.8000030517578
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 160.8000030517578,
+                "h": 114,
+                "x": 166.8000030517578,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 160.8000030517578
+                  },
+                  {
+                    "name": "coverTitle",
+                    "w": 160.8000030517578
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "17369:245242",
+      "name": "Rail / Vertical ",
+      "rows": [
+        {
+          "bp": "breakpoint=1920, theme=Dark",
+          "w": 1776,
+          "car": {
+            "w": 1776,
+            "gap": 10,
+            "children": [
+              {
+                "name": "_itemRail",
+                "type": "INSTANCE",
+                "w": 347.20001220703125,
+                "h": 521,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 347.20001220703125
+                  }
+                ]
+              },
+              {
+                "name": "_itemRail",
+                "type": "INSTANCE",
+                "w": 347.20001220703125,
+                "h": 521,
+                "x": 357.20001220703125,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 347.20001220703125
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=1440, theme=Dark",
+          "w": 1328,
+          "car": {
+            "w": 1328,
+            "gap": 8,
+            "children": [
+              {
+                "name": "_itemRail",
+                "type": "INSTANCE",
+                "w": 259.20001220703125,
+                "h": 389,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 259.20001220703125
+                  }
+                ]
+              },
+              {
+                "name": "_itemRail",
+                "type": "INSTANCE",
+                "w": 259.20001220703125,
+                "h": 389,
+                "x": 267.20001220703125,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 259.20001220703125
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=1024, theme=Dark",
+          "w": 960,
+          "car": {
+            "w": 960,
+            "gap": 8,
+            "children": [
+              {
+                "name": "_itemRail",
+                "type": "INSTANCE",
+                "w": 228,
+                "h": 342,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 228
+                  }
+                ]
+              },
+              {
+                "name": "_itemRail",
+                "type": "INSTANCE",
+                "w": 228,
+                "h": 342,
+                "x": 236,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 228
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=768, theme=Dark",
+          "w": 704,
+          "car": {
+            "w": 704,
+            "gap": 8,
+            "children": [
+              {
+                "name": "_itemRail",
+                "type": "INSTANCE",
+                "w": 221.3300018310547,
+                "h": 332,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 221.3300018310547
+                  }
+                ]
+              },
+              {
+                "name": "_itemRail",
+                "type": "INSTANCE",
+                "w": 221.3300018310547,
+                "h": 332,
+                "x": 229.3300018310547,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 221.3300018310547
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=375, theme=Dark",
+          "w": 351,
+          "car": {
+            "w": 351,
+            "gap": 6,
+            "children": [
+              {
+                "name": "_itemRail",
+                "type": "INSTANCE",
+                "w": 127.19999694824219,
+                "h": 191,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 127.19999694824219
+                  }
+                ]
+              },
+              {
+                "name": "_itemRail",
+                "type": "INSTANCE",
+                "w": 127.19999694824219,
+                "h": 191,
+                "x": 133.1999969482422,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 127.19999694824219
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=320, theme=Dark",
+          "w": 296,
+          "car": {
+            "w": 296,
+            "gap": 6,
+            "children": [
+              {
+                "name": "_itemRail",
+                "type": "INSTANCE",
+                "w": 105.19999694824219,
+                "h": 158,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 105.19999694824219
+                  }
+                ]
+              },
+              {
+                "name": "_itemRail",
+                "type": "INSTANCE",
+                "w": 105.19999694824219,
+                "h": 158,
+                "x": 111.19999694824219,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 105.19999694824219
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "17356:236810",
+      "name": "Rail / Large",
+      "rows": [
+        {
+          "bp": "breakpoint=1920, theme=Dark",
+          "w": 1776,
+          "car": {
+            "w": 1776,
+            "gap": 10,
+            "children": [
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 585.3300170898438,
+                "h": 329,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 585.3300170898438
+                  }
+                ]
+              },
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 585.3300170898438,
+                "h": 329,
+                "x": 595.3300170898438,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 585.3300170898438
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=1440, theme=Dark",
+          "w": 1328,
+          "car": {
+            "w": 1328,
+            "gap": 8,
+            "children": [
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 437.3299865722656,
+                "h": 246,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 437.3299865722656
+                  }
+                ]
+              },
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 437.3299865722656,
+                "h": 246,
+                "x": 445.3299560546875,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 437.3299865722656
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=1024, theme=Dark",
+          "w": 960,
+          "car": {
+            "w": 960,
+            "gap": 8,
+            "children": [
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 464,
+                "h": 261,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 464
+                  }
+                ]
+              },
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 464,
+                "h": 261,
+                "x": 472,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 464
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=768, theme=Dark",
+          "w": 704,
+          "car": {
+            "w": 704,
+            "gap": 8,
+            "children": [
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 450,
+                "h": 254,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 450
+                  }
+                ]
+              },
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 450,
+                "h": 254,
+                "x": 458,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 450
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=375, theme=Dark",
+          "w": 351,
+          "car": {
+            "w": 351,
+            "gap": 6,
+            "children": [
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 327,
+                "h": 184,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 327
+                  }
+                ]
+              },
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 327,
+                "h": 184,
+                "x": 333,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 327
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=320, theme=Dark",
+          "w": 296,
+          "car": {
+            "w": 296,
+            "gap": 6,
+            "children": [
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 272,
+                "h": 153,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 272
+                  }
+                ]
+              },
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 272,
+                "h": 153,
+                "x": 278,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 272
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "17121:221943",
+      "name": "Rail / Background",
+      "rows": [
+        {
+          "bp": "breakpoint=1920",
+          "w": 1920,
+          "car": {
+            "w": 1848,
+            "gap": 10,
+            "children": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 347.20001220703125,
+                "h": 195,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 347.20001220703125
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 347.20001220703125,
+                "h": 195,
+                "x": 357.20001220703125,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 347.20001220703125
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=1440",
+          "w": 1440,
+          "car": {
+            "w": 1384,
+            "gap": 8,
+            "children": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 259.20001220703125,
+                "h": 146,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 259.20001220703125
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 259.20001220703125,
+                "h": 146,
+                "x": 267.20001220703125,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 259.20001220703125
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=1024",
+          "w": 1024,
+          "car": {
+            "w": 992,
+            "gap": 8,
+            "children": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 228,
+                "h": 128,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 228
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 228,
+                "h": 128,
+                "x": 236,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 228
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=768",
+          "w": 768,
+          "car": {
+            "w": 736,
+            "gap": 8,
+            "children": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 221.3300018310547,
+                "h": 125,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 221.3300018310547
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 221.3300018310547,
+                "h": 125,
+                "x": 229.3300018310547,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 221.3300018310547
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=375",
+          "w": 375,
+          "car": {
+            "w": 363,
+            "gap": 6,
+            "children": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 193.8000030517578,
+                "h": 109,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 193.8000030517578
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 193.8000030517578,
+                "h": 109,
+                "x": 199.8000030517578,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 193.8000030517578
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=320",
+          "w": 320,
+          "car": {
+            "w": 308,
+            "gap": 6,
+            "children": [
+              {
+                "name": "1",
+                "type": "INSTANCE",
+                "w": 160.8000030517578,
+                "h": 90,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 160.8000030517578
+                  }
+                ]
+              },
+              {
+                "name": "2",
+                "type": "INSTANCE",
+                "w": 160.8000030517578,
+                "h": 90,
+                "x": 166.8000030517578,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 160.8000030517578
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "17372:246666",
+      "name": "Rail / Square",
+      "rows": [
+        {
+          "bp": "breakpoint=1920, theme=Dark",
+          "w": 1776,
+          "car": {
+            "w": 1776,
+            "gap": 10,
+            "children": [
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 347.20001220703125,
+                "h": 347,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 347.20001220703125
+                  }
+                ]
+              },
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 347.20001220703125,
+                "h": 347,
+                "x": 357.20001220703125,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 347.20001220703125
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=1440, theme=Dark",
+          "w": 1328,
+          "car": {
+            "w": 1328,
+            "gap": 8,
+            "children": [
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 259.20001220703125,
+                "h": 259,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 259.20001220703125
+                  }
+                ]
+              },
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 259.20001220703125,
+                "h": 259,
+                "x": 267.20001220703125,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 259.20001220703125
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=1024, theme=Dark",
+          "w": 960,
+          "car": {
+            "w": 960,
+            "gap": 8,
+            "children": [
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 228,
+                "h": 228,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 228
+                  }
+                ]
+              },
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 228,
+                "h": 228,
+                "x": 236,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 228
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=768, theme=Dark",
+          "w": 704,
+          "car": {
+            "w": 704,
+            "gap": 8,
+            "children": [
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 221.3300018310547,
+                "h": 221,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 221.3300018310547
+                  }
+                ]
+              },
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 221.3300018310547,
+                "h": 221,
+                "x": 229.3300018310547,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 221.3300018310547
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=375, theme=Dark",
+          "w": 351,
+          "car": {
+            "w": 351,
+            "gap": 6,
+            "children": [
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 160.5,
+                "h": 160,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 160.5
+                  }
+                ]
+              },
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 160.5,
+                "h": 160,
+                "x": 166.5,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 160.5
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=320, theme=Dark",
+          "w": 296,
+          "car": {
+            "w": 296,
+            "gap": 6,
+            "children": [
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 133,
+                "h": 133,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 133
+                  }
+                ]
+              },
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 133,
+                "h": 133,
+                "x": 139,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 133
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "17377:245819",
+      "name": "Rail / SquareSmall2Story",
+      "rows": [
+        {
+          "bp": "breakpoint=1920, theme=Dark",
+          "w": 1776,
+          "car": {
+            "w": 1776,
+            "gap": 10,
+            "children": [
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 213,
+                "h": 436,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 213
+                  },
+                  {
+                    "name": "Cover",
+                    "w": 213
+                  }
+                ]
+              },
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 213,
+                "h": 436,
+                "x": 223,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 213
+                  },
+                  {
+                    "name": "Cover",
+                    "w": 213
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=1440, theme=Dark",
+          "w": 1328,
+          "car": {
+            "w": 1328,
+            "gap": 8,
+            "children": [
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 159,
+                "h": 328,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 159
+                  },
+                  {
+                    "name": "Cover",
+                    "w": 159
+                  }
+                ]
+              },
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 159,
+                "h": 328,
+                "x": 167,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 159
+                  },
+                  {
+                    "name": "Cover",
+                    "w": 159
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=1024, theme=Dark",
+          "w": 960,
+          "car": {
+            "w": 960,
+            "gap": 8,
+            "children": [
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 149.3300018310547,
+                "h": 306,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 149.3300018310547
+                  },
+                  {
+                    "name": "Cover",
+                    "w": 149.3300018310547
+                  }
+                ]
+              },
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 149.3300018310547,
+                "h": 306,
+                "x": 157.3300018310547,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 149.3300018310547
+                  },
+                  {
+                    "name": "Cover",
+                    "w": 149.3300018310547
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=768, theme=Dark",
+          "w": 704,
+          "car": {
+            "w": 704,
+            "gap": 8,
+            "children": [
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 129.60000610351562,
+                "h": 266,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 129.60000610351562
+                  },
+                  {
+                    "name": "Cover",
+                    "w": 129.60000610351562
+                  }
+                ]
+              },
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 129.60000610351562,
+                "h": 266,
+                "x": 137.60000610351562,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 129.60000610351562
+                  },
+                  {
+                    "name": "Cover",
+                    "w": 129.60000610351562
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=375, theme=Dark",
+          "w": 351,
+          "car": {
+            "w": 351,
+            "gap": 6,
+            "children": [
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 105,
+                "h": 216,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 105
+                  },
+                  {
+                    "name": "Cover",
+                    "w": 105
+                  }
+                ]
+              },
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 105,
+                "h": 216,
+                "x": 111,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 105
+                  },
+                  {
+                    "name": "Cover",
+                    "w": 105
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=320, theme=Dark",
+          "w": 296,
+          "car": {
+            "w": 296,
+            "gap": 6,
+            "children": [
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 86.66999816894531,
+                "h": 180,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 86.66999816894531
+                  },
+                  {
+                    "name": "Cover",
+                    "w": 86.66999816894531
+                  }
+                ]
+              },
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 86.66999816894531,
+                "h": 180,
+                "x": 92.66999816894531,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 86.66999816894531
+                  },
+                  {
+                    "name": "Cover",
+                    "w": 86.66999816894531
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "25717:342362",
+      "name": "Rail / SquareSmall1Story ",
+      "rows": [
+        {
+          "bp": "breakpoint=1920, theme=Dark",
+          "w": 1776,
+          "car": {
+            "w": 1776,
+            "gap": 10,
+            "children": [
+              {
+                "name": "_Card / SquareSmall1Story",
+                "type": "INSTANCE",
+                "w": 213,
+                "h": 213,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 213
+                  }
+                ]
+              },
+              {
+                "name": "_Card / SquareSmall1Story",
+                "type": "INSTANCE",
+                "w": 213,
+                "h": 213,
+                "x": 223,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 213
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=1440, theme=Dark",
+          "w": 1328,
+          "car": {
+            "w": 1328,
+            "gap": 8,
+            "children": [
+              {
+                "name": "_Card / SquareSmall1Story",
+                "type": "INSTANCE",
+                "w": 159,
+                "h": 159,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 159
+                  }
+                ]
+              },
+              {
+                "name": "_Card / SquareSmall1Story",
+                "type": "INSTANCE",
+                "w": 159,
+                "h": 159,
+                "x": 167,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 159
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=1024, theme=Dark",
+          "w": 960,
+          "car": {
+            "w": 960,
+            "gap": 8,
+            "children": [
+              {
+                "name": "_Card / SquareSmall1Story",
+                "type": "INSTANCE",
+                "w": 149.3300018310547,
+                "h": 149,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 149.3300018310547
+                  }
+                ]
+              },
+              {
+                "name": "_Card / SquareSmall1Story",
+                "type": "INSTANCE",
+                "w": 149.3300018310547,
+                "h": 149,
+                "x": 157.3300018310547,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 149.3300018310547
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=768, theme=Dark",
+          "w": 704,
+          "car": {
+            "w": 704,
+            "gap": 8,
+            "children": [
+              {
+                "name": "_Card / SquareSmall1Story",
+                "type": "INSTANCE",
+                "w": 129.60000610351562,
+                "h": 129,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 129.60000610351562
+                  }
+                ]
+              },
+              {
+                "name": "_Card / SquareSmall1Story",
+                "type": "INSTANCE",
+                "w": 129.60000610351562,
+                "h": 129,
+                "x": 137.60000610351562,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 129.60000610351562
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=375, theme=Dark",
+          "w": 351,
+          "car": {
+            "w": 351,
+            "gap": 6,
+            "children": [
+              {
+                "name": "_Card / SquareSmall1Story",
+                "type": "INSTANCE",
+                "w": 105,
+                "h": 105,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 105
+                  }
+                ]
+              },
+              {
+                "name": "_Card / SquareSmall1Story",
+                "type": "INSTANCE",
+                "w": 105,
+                "h": 105,
+                "x": 111,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 105
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=320, theme=Dark",
+          "w": 296,
+          "car": {
+            "w": 296,
+            "gap": 6,
+            "children": [
+              {
+                "name": "_Card / SquareSmall1Story",
+                "type": "INSTANCE",
+                "w": 86.66999816894531,
+                "h": 87,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 86.66999816894531
+                  }
+                ]
+              },
+              {
+                "name": "_Card / SquareSmall1Story",
+                "type": "INSTANCE",
+                "w": 86.66999816894531,
+                "h": 87,
+                "x": 92.66999816894531,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 86.66999816894531
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "17413:248096",
+      "name": "Rail / Circle2Story",
+      "rows": [
+        {
+          "bp": "breakpoint=1920, theme=Dark",
+          "w": 1776,
+          "car": {
+            "w": 1776,
+            "gap": 10,
+            "children": [
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 213.25,
+                "h": 442,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 197.25
+                  },
+                  {
+                    "name": "Cover",
+                    "w": 197.25
+                  }
+                ]
+              },
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 213.25,
+                "h": 442,
+                "x": 223.25,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 197.25
+                  },
+                  {
+                    "name": "Cover",
+                    "w": 197.25
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=1440, theme=Dark",
+          "w": 1328,
+          "car": {
+            "w": 1328,
+            "gap": 8,
+            "children": [
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 159,
+                "h": 318,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 147
+                  },
+                  {
+                    "name": "Cover",
+                    "w": 147
+                  }
+                ]
+              },
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 159,
+                "h": 318,
+                "x": 167,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 147
+                  },
+                  {
+                    "name": "Cover",
+                    "w": 147
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=1024, theme=Dark",
+          "w": 960,
+          "car": {
+            "w": 960,
+            "gap": 8,
+            "children": [
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 149.3300018310547,
+                "h": 306,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 141.3300018310547
+                  },
+                  {
+                    "name": "Cover",
+                    "w": 141.3300018310547
+                  }
+                ]
+              },
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 149.3300018310547,
+                "h": 306,
+                "x": 157.3300018310547,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 141.3300018310547
+                  },
+                  {
+                    "name": "Cover",
+                    "w": 141.3300018310547
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=768, theme=Dark",
+          "w": 704,
+          "car": {
+            "w": 704,
+            "gap": 8,
+            "children": [
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 129.60000610351562,
+                "h": 266,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 121.5999984741211
+                  },
+                  {
+                    "name": "Cover",
+                    "w": 121.5999984741211
+                  }
+                ]
+              },
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 129.60000610351562,
+                "h": 266,
+                "x": 137.60000610351562,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 121.5999984741211
+                  },
+                  {
+                    "name": "Cover",
+                    "w": 121.5999984741211
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=375, theme=Dark",
+          "w": 351,
+          "car": {
+            "w": 351,
+            "gap": 6,
+            "children": [
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 105,
+                "h": 222,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 101
+                  },
+                  {
+                    "name": "Cover",
+                    "w": 101
+                  }
+                ]
+              },
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 105,
+                "h": 222,
+                "x": 111,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 101
+                  },
+                  {
+                    "name": "Cover",
+                    "w": 101
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=320, theme=Dark",
+          "w": 296,
+          "car": {
+            "w": 296,
+            "gap": 6,
+            "children": [
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 86.66999816894531,
+                "h": 184,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 82.66999816894531
+                  },
+                  {
+                    "name": "Cover",
+                    "w": 82.66999816894531
+                  }
+                ]
+              },
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 86.66999816894531,
+                "h": 184,
+                "x": 92.66999816894531,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 82.66999816894531
+                  },
+                  {
+                    "name": "Cover",
+                    "w": 82.66999816894531
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "17494:255172",
+      "name": "Rail / Circle1Story",
+      "rows": [
+        {
+          "bp": "breakpoint=1920, theme=Dark",
+          "w": 1776,
+          "car": {
+            "w": 1776,
+            "gap": 10,
+            "children": [
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 213.25,
+                "h": 269,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 197.25
+                  },
+                  {
+                    "name": "personTitle",
+                    "w": 197.25
+                  }
+                ]
+              },
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 213.25,
+                "h": 269,
+                "x": 223.25,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 197.25
+                  },
+                  {
+                    "name": "personTitle",
+                    "w": 197.25
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=1440, theme=Dark",
+          "w": 1328,
+          "car": {
+            "w": 1328,
+            "gap": 8,
+            "children": [
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 159,
+                "h": 203,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 147
+                  },
+                  {
+                    "name": "personTitle",
+                    "w": 147
+                  }
+                ]
+              },
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 159,
+                "h": 203,
+                "x": 167,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 147
+                  },
+                  {
+                    "name": "personTitle",
+                    "w": 147
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=1024, theme=Dark",
+          "w": 960,
+          "car": {
+            "w": 960,
+            "gap": 8,
+            "children": [
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 149.3300018310547,
+                "h": 197,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 141.3300018310547
+                  },
+                  {
+                    "name": "personTitle",
+                    "w": 141.3300018310547
+                  }
+                ]
+              },
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 149.3300018310547,
+                "h": 197,
+                "x": 157.3300018310547,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 141.3300018310547
+                  },
+                  {
+                    "name": "personTitle",
+                    "w": 141.3300018310547
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=768, theme=Dark",
+          "w": 704,
+          "car": {
+            "w": 704,
+            "gap": 8,
+            "children": [
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 129.60000610351562,
+                "h": 177,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 121.5999984741211
+                  },
+                  {
+                    "name": "personTitle",
+                    "w": 121.5999984741211
+                  }
+                ]
+              },
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 129.60000610351562,
+                "h": 177,
+                "x": 137.60000610351562,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 121.5999984741211
+                  },
+                  {
+                    "name": "personTitle",
+                    "w": 121.5999984741211
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=375, theme=Dark",
+          "w": 351,
+          "car": {
+            "w": 351,
+            "gap": 6,
+            "children": [
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 105,
+                "h": 149,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 101
+                  },
+                  {
+                    "name": "personTitle",
+                    "w": 101
+                  }
+                ]
+              },
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 105,
+                "h": 149,
+                "x": 111,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 101
+                  },
+                  {
+                    "name": "personTitle",
+                    "w": 101
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=320, theme=Dark",
+          "w": 296,
+          "car": {
+            "w": 296,
+            "gap": 6,
+            "children": [
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 86.66999816894531,
+                "h": 150,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 82.66999816894531
+                  },
+                  {
+                    "name": "personTitle",
+                    "w": 82.66999816894531
+                  }
+                ]
+              },
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 86.66999816894531,
+                "h": 150,
+                "x": 92.66999816894531,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 82.66999816894531
+                  },
+                  {
+                    "name": "personTitle",
+                    "w": 82.66999816894531
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "30484:65737",
+      "name": "Rail / Marketing",
+      "rows": [
+        {
+          "bp": "breakpoint=1720, Theme=Dark",
+          "w": 1776,
+          "car": {
+            "w": 1776,
+            "gap": 10,
+            "children": [
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 585.3300170898438,
+                "h": 585,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 585.3300170898438
+                  }
+                ]
+              },
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 585.3300170898438,
+                "h": 585,
+                "x": 595.3300170898438,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 585.3300170898438
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=1440, Theme=Dark",
+          "w": 1328,
+          "car": {
+            "w": 1328,
+            "gap": 8,
+            "children": [
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 437.3299865722656,
+                "h": 437,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 437.3299865722656
+                  }
+                ]
+              },
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 437.3299865722656,
+                "h": 437,
+                "x": 445.3299560546875,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 437.3299865722656
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=1024, Theme=Dark",
+          "w": 960,
+          "car": {
+            "w": 960,
+            "gap": 8,
+            "children": [
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 464,
+                "h": 464,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 464
+                  }
+                ]
+              },
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 464,
+                "h": 464,
+                "x": 472,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 464
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=768, Theme=Dark",
+          "w": 704,
+          "car": {
+            "w": 704,
+            "gap": 8,
+            "children": [
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 450.6700134277344,
+                "h": 451,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 450.6700134277344
+                  }
+                ]
+              },
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 450.6700134277344,
+                "h": 451,
+                "x": 458.6700134277344,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 450.6700134277344
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=375, Theme=Dark",
+          "w": 351,
+          "car": {
+            "w": 351,
+            "gap": 6,
+            "children": [
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 327,
+                "h": 327,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 327
+                  }
+                ]
+              },
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 327,
+                "h": 327,
+                "x": 333,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 327
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=320, Theme=Dark",
+          "w": 296,
+          "car": {
+            "w": 296,
+            "gap": 6,
+            "children": [
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 272,
+                "h": 272,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 272
+                  }
+                ]
+              },
+              {
+                "name": "litemRail",
+                "type": "INSTANCE",
+                "w": 272,
+                "h": 272,
+                "x": 278,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 272
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "30690:70227",
+      "name": "Rail / Person",
+      "rows": [
+        {
+          "bp": "Device=1920, Theme=Dark",
+          "w": 1776,
+          "car": {
+            "w": 2847.60009765625,
+            "gap": 10,
+            "children": [
+              {
+                "name": "itemRail",
+                "type": "INSTANCE",
+                "w": 347.20001220703125,
+                "h": 80,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 80
+                  },
+                  {
+                    "name": "personTitle",
+                    "w": 219.20001220703125
+                  }
+                ]
+              },
+              {
+                "name": "itemRail",
+                "type": "INSTANCE",
+                "w": 347.20001220703125,
+                "h": 80,
+                "x": 357.20001220703125,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 80
+                  },
+                  {
+                    "name": "personTitle",
+                    "w": 219.20001220703125
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "Device=1440, Theme=Dark",
+          "w": 1328,
+          "car": {
+            "w": 2129.60009765625,
+            "gap": 8,
+            "children": [
+              {
+                "name": "itemRail",
+                "type": "INSTANCE",
+                "w": 259.20001220703125,
+                "h": 72,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 72
+                  },
+                  {
+                    "name": "personTitle",
+                    "w": 155.20001220703125
+                  }
+                ]
+              },
+              {
+                "name": "itemRail",
+                "type": "INSTANCE",
+                "w": 259.20001220703125,
+                "h": 72,
+                "x": 267.20001220703125,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 72
+                  },
+                  {
+                    "name": "personTitle",
+                    "w": 155.20001220703125
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "Device=1024, Theme=Dark",
+          "w": 960,
+          "car": {
+            "w": 1880,
+            "gap": 8,
+            "children": [
+              {
+                "name": "itemRail",
+                "type": "INSTANCE",
+                "w": 228,
+                "h": 64,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 64
+                  },
+                  {
+                    "name": "personTitle",
+                    "w": 136
+                  }
+                ]
+              },
+              {
+                "name": "itemRail",
+                "type": "INSTANCE",
+                "w": 228,
+                "h": 64,
+                "x": 236,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 64
+                  },
+                  {
+                    "name": "personTitle",
+                    "w": 136
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "Device=768, Theme=Dark",
+          "w": 704,
+          "car": {
+            "w": 1826.6400146484375,
+            "gap": 8,
+            "children": [
+              {
+                "name": "itemRail",
+                "type": "INSTANCE",
+                "w": 221.3300018310547,
+                "h": 64,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 64
+                  },
+                  {
+                    "name": "personTitle",
+                    "w": 129.3300018310547
+                  }
+                ]
+              },
+              {
+                "name": "itemRail",
+                "type": "INSTANCE",
+                "w": 221.3300018310547,
+                "h": 64,
+                "x": 229.3300018310547,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 64
+                  },
+                  {
+                    "name": "personTitle",
+                    "w": 129.3300018310547
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "Device=375, Theme=Dark",
+          "w": 351,
+          "car": {
+            "w": 1592.4000244140625,
+            "gap": 6,
+            "children": [
+              {
+                "name": "itemRail",
+                "type": "INSTANCE",
+                "w": 193.8000030517578,
+                "h": 56,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 56
+                  },
+                  {
+                    "name": "personTitle",
+                    "w": 117.80000305175781
+                  }
+                ]
+              },
+              {
+                "name": "itemRail",
+                "type": "INSTANCE",
+                "w": 193.8000030517578,
+                "h": 56,
+                "x": 199.8000030517578,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 56
+                  },
+                  {
+                    "name": "personTitle",
+                    "w": 117.80000305175781
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "Device=320, Theme=Dark",
+          "w": 296,
+          "car": {
+            "w": 1328.4000244140625,
+            "gap": 6,
+            "children": [
+              {
+                "name": "itemRail",
+                "type": "INSTANCE",
+                "w": 160.8000030517578,
+                "h": 48,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 48
+                  },
+                  {
+                    "name": "personTitle",
+                    "w": 96.80000305175781
+                  }
+                ]
+              },
+              {
+                "name": "itemRail",
+                "type": "INSTANCE",
+                "w": 160.8000030517578,
+                "h": 48,
+                "x": 166.8000030517578,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 48
+                  },
+                  {
+                    "name": "personTitle",
+                    "w": 96.80000305175781
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "44831:42206",
+      "name": "Rail / Teams",
+      "rows": [
+        {
+          "bp": "Device=1920",
+          "w": 1776,
+          "car": {
+            "w": 2847.60009765625,
+            "gap": 10,
+            "children": [
+              {
+                "name": "itemRail",
+                "type": "INSTANCE",
+                "w": 347.20001220703125,
+                "h": 80,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 80
+                  },
+                  {
+                    "name": "personTitle",
+                    "w": 219.20001220703125
+                  }
+                ]
+              },
+              {
+                "name": "itemRail",
+                "type": "INSTANCE",
+                "w": 347.20001220703125,
+                "h": 80,
+                "x": 357.20001220703125,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 80
+                  },
+                  {
+                    "name": "personTitle",
+                    "w": 219.20001220703125
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "Device=1440",
+          "w": 1328,
+          "car": {
+            "w": 2129.60009765625,
+            "gap": 8,
+            "children": [
+              {
+                "name": "itemRail",
+                "type": "INSTANCE",
+                "w": 259.20001220703125,
+                "h": 72,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 72
+                  },
+                  {
+                    "name": "personTitle",
+                    "w": 155.20001220703125
+                  }
+                ]
+              },
+              {
+                "name": "itemRail",
+                "type": "INSTANCE",
+                "w": 259.20001220703125,
+                "h": 72,
+                "x": 267.20001220703125,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 72
+                  },
+                  {
+                    "name": "personTitle",
+                    "w": 155.20001220703125
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "Device=1024",
+          "w": 960,
+          "car": {
+            "w": 1880,
+            "gap": 8,
+            "children": [
+              {
+                "name": "itemRail",
+                "type": "INSTANCE",
+                "w": 228,
+                "h": 64,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 64
+                  },
+                  {
+                    "name": "personTitle",
+                    "w": 136
+                  }
+                ]
+              },
+              {
+                "name": "itemRail",
+                "type": "INSTANCE",
+                "w": 228,
+                "h": 64,
+                "x": 236,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 64
+                  },
+                  {
+                    "name": "personTitle",
+                    "w": 136
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "Device=768",
+          "w": 704,
+          "car": {
+            "w": 1826.6400146484375,
+            "gap": 8,
+            "children": [
+              {
+                "name": "itemRail",
+                "type": "INSTANCE",
+                "w": 221.3300018310547,
+                "h": 64,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 64
+                  },
+                  {
+                    "name": "personTitle",
+                    "w": 129.3300018310547
+                  }
+                ]
+              },
+              {
+                "name": "itemRail",
+                "type": "INSTANCE",
+                "w": 221.3300018310547,
+                "h": 64,
+                "x": 229.3300018310547,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 64
+                  },
+                  {
+                    "name": "personTitle",
+                    "w": 129.3300018310547
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "Device=375",
+          "w": 351,
+          "car": {
+            "w": 1592.4000244140625,
+            "gap": 6,
+            "children": [
+              {
+                "name": "itemRail",
+                "type": "INSTANCE",
+                "w": 193.8000030517578,
+                "h": 56,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 56
+                  },
+                  {
+                    "name": "personTitle",
+                    "w": 117.80000305175781
+                  }
+                ]
+              },
+              {
+                "name": "itemRail",
+                "type": "INSTANCE",
+                "w": 193.8000030517578,
+                "h": 56,
+                "x": 199.8000030517578,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 56
+                  },
+                  {
+                    "name": "personTitle",
+                    "w": 117.80000305175781
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "Device=320",
+          "w": 296,
+          "car": {
+            "w": 1328.4000244140625,
+            "gap": 6,
+            "children": [
+              {
+                "name": "itemRail",
+                "type": "INSTANCE",
+                "w": 160.8000030517578,
+                "h": 48,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 48
+                  },
+                  {
+                    "name": "personTitle",
+                    "w": 96.80000305175781
+                  }
+                ]
+              },
+              {
+                "name": "itemRail",
+                "type": "INSTANCE",
+                "w": 160.8000030517578,
+                "h": 48,
+                "x": 166.8000030517578,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 48
+                  },
+                  {
+                    "name": "personTitle",
+                    "w": 96.80000305175781
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "32971:136833",
+      "name": "Rail / Medium",
+      "rows": [
+        {
+          "bp": "Breakpoint=1920, Theme=Dark",
+          "w": 1776,
+          "car": {
+            "w": 1776,
+            "gap": 10,
+            "children": [
+              {
+                "name": "_Medium / Item",
+                "type": "INSTANCE",
+                "w": 436.5,
+                "h": 246,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 436.5
+                  }
+                ]
+              },
+              {
+                "name": "_Medium / Item",
+                "type": "INSTANCE",
+                "w": 436.5,
+                "h": 246,
+                "x": 446.5,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 436.5
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "Breakpoint=1440, Theme=Dark",
+          "w": 1328,
+          "car": {
+            "w": 1328,
+            "gap": 8,
+            "children": [
+              {
+                "name": "_Medium / Item",
+                "type": "INSTANCE",
+                "w": 326,
+                "h": 183.89744567871094,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 326
+                  }
+                ]
+              },
+              {
+                "name": "_Medium / Item",
+                "type": "INSTANCE",
+                "w": 326,
+                "h": 183.89744567871094,
+                "x": 334,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 326
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "Breakpoint=1024, Theme=Dark",
+          "w": 960,
+          "car": {
+            "w": 960,
+            "gap": 8,
+            "children": [
+              {
+                "name": "_Medium / Item",
+                "type": "INSTANCE",
+                "w": 306.6700134277344,
+                "h": 172.5805206298828,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 306.6700134277344
+                  }
+                ]
+              },
+              {
+                "name": "_Medium / Item",
+                "type": "INSTANCE",
+                "w": 306.6700134277344,
+                "h": 172.5805206298828,
+                "x": 314.6700134277344,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 306.6700134277344
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "Breakpoint=768, Theme=Dark",
+          "w": 704,
+          "car": {
+            "w": 704,
+            "gap": 8,
+            "children": [
+              {
+                "name": "_Medium / Item",
+                "type": "INSTANCE",
+                "w": 336,
+                "h": 189,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 336
+                  }
+                ]
+              },
+              {
+                "name": "_Medium / Item",
+                "type": "INSTANCE",
+                "w": 336,
+                "h": 189,
+                "x": 344,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 336
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "Breakpoint=375, Theme=Dark",
+          "w": 351,
+          "car": {
+            "w": 351,
+            "gap": 6,
+            "children": [
+              {
+                "name": "_Medium / Item",
+                "type": "INSTANCE",
+                "w": 260.3999938964844,
+                "h": 146.65126037597656,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 260.3999938964844
+                  }
+                ]
+              },
+              {
+                "name": "_Medium / Item",
+                "type": "INSTANCE",
+                "w": 260.3999938964844,
+                "h": 146.65126037597656,
+                "x": 266.3999938964844,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 260.3999938964844
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "Breakpoint=320, Theme=Dark",
+          "w": 296,
+          "car": {
+            "w": 296,
+            "gap": 6,
+            "children": [
+              {
+                "name": "_Medium / Item",
+                "type": "INSTANCE",
+                "w": 216.39999389648438,
+                "h": 121.32886505126953,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 216.39999389648438
+                  }
+                ]
+              },
+              {
+                "name": "_Medium / Item",
+                "type": "INSTANCE",
+                "w": 216.39999389648438,
+                "h": 121.32886505126953,
+                "x": 222.39999389648438,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 216.39999389648438
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "39700:136925",
+      "name": "Rail / Ticket",
+      "rows": [
+        {
+          "bp": "breakpoint=1920",
+          "w": 1776,
+          "car": {
+            "w": 1776,
+            "gap": 10,
+            "children": [
+              {
+                "name": "itemRail 01",
+                "type": "INSTANCE",
+                "w": 347.20001220703125,
+                "h": 521,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 347.20001220703125
+                  }
+                ]
+              },
+              {
+                "name": "itemRail 02",
+                "type": "INSTANCE",
+                "w": 347.20001220703125,
+                "h": 521,
+                "x": 357.20001220703125,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 347.20001220703125
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=1440",
+          "w": 1328,
+          "car": {
+            "w": 1328,
+            "gap": 8,
+            "children": [
+              {
+                "name": "itemRail 01",
+                "type": "INSTANCE",
+                "w": 259.20001220703125,
+                "h": 389,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 259.20001220703125
+                  }
+                ]
+              },
+              {
+                "name": "itemRail 02",
+                "type": "INSTANCE",
+                "w": 259.20001220703125,
+                "h": 389,
+                "x": 267.20001220703125,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 259.20001220703125
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=1024",
+          "w": 960,
+          "car": {
+            "w": 960,
+            "gap": 8,
+            "children": [
+              {
+                "name": "itemRail 01",
+                "type": "INSTANCE",
+                "w": 228,
+                "h": 342,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 228
+                  }
+                ]
+              },
+              {
+                "name": "itemRail 02",
+                "type": "INSTANCE",
+                "w": 228,
+                "h": 342,
+                "x": 236,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 228
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=768",
+          "w": 704,
+          "car": {
+            "w": 704,
+            "gap": 8,
+            "children": [
+              {
+                "name": "itemRail 01",
+                "type": "INSTANCE",
+                "w": 221.3000030517578,
+                "h": 332,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 221.3000030517578
+                  }
+                ]
+              },
+              {
+                "name": "itemRail 02",
+                "type": "INSTANCE",
+                "w": 221.3000030517578,
+                "h": 332,
+                "x": 229.3000030517578,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 221.3000030517578
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=375",
+          "w": 351,
+          "car": {
+            "w": 351,
+            "gap": 6,
+            "children": [
+              {
+                "name": "itemRail itemTicketRail 01",
+                "type": "INSTANCE",
+                "w": 127.19999694824219,
+                "h": 191,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 127.19999694824219
+                  }
+                ]
+              },
+              {
+                "name": "itemRail itemTicketRail 02",
+                "type": "INSTANCE",
+                "w": 127.19999694824219,
+                "h": 191,
+                "x": 133.1999969482422,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 127.19999694824219
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=320",
+          "w": 296,
+          "car": {
+            "w": 296,
+            "gap": 6,
+            "children": [
+              {
+                "name": "itemRail 01",
+                "type": "INSTANCE",
+                "w": 105.19999694824219,
+                "h": 158,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 105.19999694824219
+                  }
+                ]
+              },
+              {
+                "name": "itemRail 02",
+                "type": "INSTANCE",
+                "w": 105.19999694824219,
+                "h": 158,
+                "x": 111.19999694824219,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 105.19999694824219
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "40478:85013",
+      "name": "Rail / Material",
+      "rows": [
+        {
+          "bp": "breakpoint=1920+",
+          "w": 1776,
+          "car": {
+            "w": 1776,
+            "gap": 10,
+            "children": [
+              {
+                "name": "01",
+                "type": "INSTANCE",
+                "w": 436.5,
+                "h": 351.98919677734375,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 436.5
+                  }
+                ]
+              },
+              {
+                "name": "02",
+                "type": "INSTANCE",
+                "w": 436.5,
+                "h": 351.98919677734375,
+                "x": 446.5,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 436.5
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=1440+",
+          "w": 1328,
+          "car": {
+            "w": 1328,
+            "gap": 8,
+            "children": [
+              {
+                "name": "01",
+                "type": "INSTANCE",
+                "w": 326,
+                "h": 271.8974609375,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 326
+                  }
+                ]
+              },
+              {
+                "name": "02",
+                "type": "INSTANCE",
+                "w": 326,
+                "h": 271.8974609375,
+                "x": 334,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 326
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=1024+",
+          "w": 960,
+          "car": {
+            "w": 960,
+            "gap": 8,
+            "children": [
+              {
+                "name": "01",
+                "type": "INSTANCE",
+                "w": 306.6700134277344,
+                "h": 260.58050537109375,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 306.6700134277344
+                  }
+                ]
+              },
+              {
+                "name": "02",
+                "type": "INSTANCE",
+                "w": 306.6700134277344,
+                "h": 260.58050537109375,
+                "x": 314.6700134277344,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 306.6700134277344
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=768+",
+          "w": 704,
+          "car": {
+            "w": 704,
+            "gap": 8,
+            "children": [
+              {
+                "name": "01",
+                "type": "INSTANCE",
+                "w": 336,
+                "h": 277,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 336
+                  }
+                ]
+              },
+              {
+                "name": "02",
+                "type": "INSTANCE",
+                "w": 336,
+                "h": 277,
+                "x": 344,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 336
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=375+",
+          "w": 351,
+          "car": {
+            "w": 351,
+            "gap": 6,
+            "children": [
+              {
+                "name": "01",
+                "type": "INSTANCE",
+                "w": 260.3999938964844,
+                "h": 220.65126037597656,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 260.3999938964844
+                  }
+                ]
+              },
+              {
+                "name": "02",
+                "type": "INSTANCE",
+                "w": 260.3999938964844,
+                "h": 220.65126037597656,
+                "x": 266.3999938964844,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 260.3999938964844
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=320+",
+          "w": 296,
+          "car": {
+            "w": 296,
+            "gap": 6,
+            "children": [
+              {
+                "name": "01",
+                "type": "INSTANCE",
+                "w": 216.39999389648438,
+                "h": 191.328857421875,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 216.39999389648438
+                  }
+                ]
+              },
+              {
+                "name": "02",
+                "type": "INSTANCE",
+                "w": 216.39999389648438,
+                "h": 191.328857421875,
+                "x": 222.39999389648438,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 216.39999389648438
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "41567:95304",
+      "name": "Rail / Announces",
+      "rows": [
+        {
+          "bp": "breakpoint=1920",
+          "w": 1776,
+          "car": {
+            "w": 1776,
+            "gap": 10,
+            "children": [
+              {
+                "name": "itemRail",
+                "type": "INSTANCE",
+                "w": 417,
+                "h": 300,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 417
+                  }
+                ]
+              },
+              {
+                "name": "itemRail 02",
+                "type": "INSTANCE",
+                "w": 417,
+                "h": 300,
+                "x": 427,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 417
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=1440",
+          "w": 1328,
+          "car": {
+            "w": 1328,
+            "gap": 8,
+            "children": [
+              {
+                "name": "itemRail / 1440",
+                "type": "INSTANCE",
+                "w": 312,
+                "h": 216,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 312
+                  }
+                ]
+              },
+              {
+                "name": "itemRail 02",
+                "type": "INSTANCE",
+                "w": 312,
+                "h": 216,
+                "x": 320,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 312
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=1024",
+          "w": 960,
+          "car": {
+            "w": 960,
+            "gap": 8,
+            "children": [
+              {
+                "name": "itemRail",
+                "type": "INSTANCE",
+                "w": 312,
+                "h": 216,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 312
+                  }
+                ]
+              },
+              {
+                "name": "itemRail 02",
+                "type": "INSTANCE",
+                "w": 312,
+                "h": 216,
+                "x": 320,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 312
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=768",
+          "w": 704,
+          "car": {
+            "w": 704,
+            "gap": 8,
+            "children": [
+              {
+                "name": "itemRail",
+                "type": "INSTANCE",
+                "w": 316,
+                "h": 216,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 316
+                  }
+                ]
+              },
+              {
+                "name": "itemRail 02",
+                "type": "INSTANCE",
+                "w": 316,
+                "h": 216,
+                "x": 324,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 316
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=375",
+          "w": 351,
+          "car": {
+            "w": 351,
+            "gap": 6,
+            "children": [
+              {
+                "name": "itemRail",
+                "type": "INSTANCE",
+                "w": 306,
+                "h": 210,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 306
+                  }
+                ]
+              },
+              {
+                "name": "itemRail itemTicketRail 02",
+                "type": "INSTANCE",
+                "w": 306,
+                "h": 210,
+                "x": 312,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 306
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=320",
+          "w": 296,
+          "car": {
+            "w": 296,
+            "gap": 6,
+            "children": [
+              {
+                "name": "itemRail",
+                "type": "INSTANCE",
+                "w": 258,
+                "h": 174,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 258
+                  }
+                ]
+              },
+              {
+                "name": "itemRail 02",
+                "type": "INSTANCE",
+                "w": 258,
+                "h": 174,
+                "x": 264,
+                "children": [
+                  {
+                    "name": "Cover",
+                    "w": 258
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "42082:33461",
+      "name": "Rail / Highligts",
+      "rows": [
+        {
+          "bp": "Breakpoint=1920",
+          "w": 1776,
+          "car": {
+            "w": 1776,
+            "gap": 10,
+            "children": [
+              {
+                "name": "itemRail 02",
+                "type": "INSTANCE",
+                "w": 1024,
+                "h": 577,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 1024
+                  }
+                ]
+              },
+              {
+                "name": "itemRail 03",
+                "type": "INSTANCE",
+                "w": 1024,
+                "h": 577,
+                "x": 1034,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 1024
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "Breakpoint=1440",
+          "w": 1328,
+          "car": {
+            "w": 1328,
+            "gap": 8,
+            "children": [
+              {
+                "name": "itemRail 02",
+                "type": "INSTANCE",
+                "w": 804,
+                "h": 453,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 804
+                  }
+                ]
+              },
+              {
+                "name": "itemRail 03",
+                "type": "INSTANCE",
+                "w": 804,
+                "h": 453,
+                "x": 812,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 804
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "Breakpoint=1024",
+          "w": 960,
+          "car": {
+            "w": 960,
+            "gap": 8,
+            "children": [
+              {
+                "name": "itemRail 02",
+                "type": "INSTANCE",
+                "w": 604,
+                "h": 340,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 604
+                  }
+                ]
+              },
+              {
+                "name": "itemRail 03",
+                "type": "INSTANCE",
+                "w": 604,
+                "h": 340,
+                "x": 612,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 604
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "Breakpoint=768",
+          "w": 704,
+          "car": {
+            "w": 704,
+            "gap": 8,
+            "children": [
+              {
+                "name": "itemRail 02",
+                "type": "INSTANCE",
+                "w": 568,
+                "h": 320,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 568
+                  }
+                ]
+              },
+              {
+                "name": "itemRail 03",
+                "type": "INSTANCE",
+                "w": 568,
+                "h": 320,
+                "x": 576,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 568
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "Breakpoint=375",
+          "w": 351,
+          "car": {
+            "w": 351,
+            "gap": 6,
+            "children": [
+              {
+                "name": "itemRail itemTicketRail 02",
+                "type": "INSTANCE",
+                "w": 343,
+                "h": 412,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 343
+                  }
+                ]
+              },
+              {
+                "name": "itemRail itemTicketRail 03",
+                "type": "INSTANCE",
+                "w": 343,
+                "h": 412,
+                "x": 349,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 343
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "Breakpoint=320",
+          "w": 296,
+          "car": {
+            "w": 296,
+            "gap": 6,
+            "children": [
+              {
+                "name": "itemRail 02",
+                "type": "INSTANCE",
+                "w": 296,
+                "h": 361,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 296
+                  }
+                ]
+              },
+              {
+                "name": "itemRail 03",
+                "type": "INSTANCE",
+                "w": 296,
+                "h": 361,
+                "x": 302,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 296
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "45540:62623",
+      "name": "Rail / Highlights Movie",
+      "rows": [
+        {
+          "bp": "breakpoint=1920",
+          "w": 1776,
+          "car": {
+            "w": 1776,
+            "gap": 10,
+            "children": [
+              {
+                "name": "itemRail 02",
+                "type": "INSTANCE",
+                "w": 1024,
+                "h": 577,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 1024
+                  }
+                ]
+              },
+              {
+                "name": "itemRail 03",
+                "type": "INSTANCE",
+                "w": 1024,
+                "h": 577,
+                "x": 1034,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 1024
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=1440",
+          "w": 1328,
+          "car": {
+            "w": 1328,
+            "gap": 8,
+            "children": [
+              {
+                "name": "itemRail 02",
+                "type": "INSTANCE",
+                "w": 804,
+                "h": 453,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 804
+                  }
+                ]
+              },
+              {
+                "name": "itemRail 03",
+                "type": "INSTANCE",
+                "w": 804,
+                "h": 453,
+                "x": 812,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 804
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=1024",
+          "w": 960,
+          "car": {
+            "w": 960,
+            "gap": 8,
+            "children": [
+              {
+                "name": "itemRail 02",
+                "type": "INSTANCE",
+                "w": 604,
+                "h": 340,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 604
+                  }
+                ]
+              },
+              {
+                "name": "itemRail 03",
+                "type": "INSTANCE",
+                "w": 604,
+                "h": 340,
+                "x": 612,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 604
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=768",
+          "w": 704,
+          "car": {
+            "w": 704,
+            "gap": 8,
+            "children": [
+              {
+                "name": "itemRail 02",
+                "type": "INSTANCE",
+                "w": 568,
+                "h": 320,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 568
+                  }
+                ]
+              },
+              {
+                "name": "itemRail 03",
+                "type": "INSTANCE",
+                "w": 568,
+                "h": 320,
+                "x": 576,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 568
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=375",
+          "w": 351,
+          "car": {
+            "w": 351,
+            "gap": 6,
+            "children": [
+              {
+                "name": "itemRail 02",
+                "type": "INSTANCE",
+                "w": 343,
+                "h": 300,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 343
+                  }
+                ]
+              },
+              {
+                "name": "itemRail 03",
+                "type": "INSTANCE",
+                "w": 343,
+                "h": 300,
+                "x": 349,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 343
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "bp": "breakpoint=320",
+          "w": 296,
+          "car": {
+            "w": 296,
+            "gap": 6,
+            "children": [
+              {
+                "name": "itemRail 02",
+                "type": "INSTANCE",
+                "w": 296,
+                "h": 259,
+                "x": 0,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 296
+                  }
+                ]
+              },
+              {
+                "name": "itemRail 03",
+                "type": "INSTANCE",
+                "w": 296,
+                "h": 259,
+                "x": 302,
+                "children": [
+                  {
+                    "name": "_Cover",
+                    "w": 296
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

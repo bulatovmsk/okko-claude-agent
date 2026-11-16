@@ -1,0 +1,4 @@
+interface:
+  display_name: "Сетки Rail"
+  short_description: "Layout guides и подписи breakpoint для Rail"
+  default_prompt: "Используй $rail-layout-guides, чтобы обновить сетки Rail и подписи Web breakpoint по существующим платформенным токенам."

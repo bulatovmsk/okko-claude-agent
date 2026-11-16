@@ -1,0 +1,4 @@
+interface:
+  display_name: "Собрать UI Type Rail"
+  short_description: "Rail для iOS, Android и Web по правилам Okko"
+  default_prompt: "Используй $build-ui-type, чтобы полностью собрать указанный Rail по концепту для нужных платформ, сохранив токены, слоты и скрытые элементы."

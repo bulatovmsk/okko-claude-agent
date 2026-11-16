@@ -21,6 +21,9 @@ Repo-scoped навыки Codex для работы с дизайн-систем�
 │   ├── design-figma-library-optimizer/
 │   ├── design-platform-mobile/
 │   ├── design-platform-tv/
+│   ├── build-ui-type/
+│   ├── build-ios-ui-type/
+│   ├── rail-layout-guides/
 │   └── ux-copy/
 ├── design-system/          # source of truth для компонентов и платформенных правил
 │   ├── registry/           # lifecycle и полный реестр Figma-библиотек
@@ -69,7 +72,14 @@ $ux-copy Проверь текст кнопки: «Нажмите для про�
 | `design-figma-library-optimizer` | Аудит и безопасная оптимизация структуры Figma-библиотек |
 | `design-platform-mobile` | Правила iOS и Android |
 | `design-platform-tv` | D-pad, focus и ограничения TV |
+| `build-ui-type` | Сборка и проверка Rail для iOS, Android и всех Web-брейкпойнтов |
+| `build-ios-ui-type` | Совместимость прежней команды; требует соседний build-ui-type |
+| `rail-layout-guides` | Нативные сетки Rail, правые расчётные отступы и подписи Web breakpoint |
 | `ux-copy` | Редактура интерфейсных текстов по Редполитике |
+
+Актуальное состояние библиотеки UI Type и точка продолжения: [docs/ui-type-context.md](docs/ui-type-context.md). Правила Rail хранятся в references навыков build-ui-type и rail-layout-guides; старые карточки Rail в design-system/components описывают исходные платформенные библиотеки и не отменяют эти решения.
+
+Для установки Rail-навыков вне этого репозитория копируйте build-ui-type и rail-layout-guides в каталог skills вместе. Если нужна прежняя команда, добавьте build-ios-ui-type рядом с build-ui-type.
 
 ## Обновление данных
 
