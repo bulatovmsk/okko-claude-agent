@@ -11,7 +11,7 @@ FILES = ("overview.md", "tokens.md", "components.md", "layouts.md",
 
 
 def package():
-    skill = BASE / "skills/okko-build-ui-type.md"
+    skill = BASE / "skills/ui-type-rail-build.md"
     workflow = skill.read_text(encoding="utf-8").split(MARKER, 1)[0].rstrip()
     fallback = "\n\n".join((BASE / "ui-type" / name).read_text(encoding="utf-8").rstrip()
                              for name in FILES)

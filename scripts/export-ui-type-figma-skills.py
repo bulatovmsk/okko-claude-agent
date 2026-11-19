@@ -20,6 +20,7 @@ def export():
     sections = [
         ("Разбор концепта", "concept.md"),
         ("Общие правила", "common.md"),
+        ("Собственная карточка UI Type", "card-component.md"),
         ("Проверка на устройствах", "device-review.md"),
         ("Выбор радиуса по минимальной стороне — beta", "radius.md"),
         ("iOS", "ios.md"),
