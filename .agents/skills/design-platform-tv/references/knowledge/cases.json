@@ -21,6 +21,26 @@
         "https://www.figma.com/design/Q3DVcDJnhMCtpdQAUoDPrp/Lib-TV?node-id=35689-4749",
         "https://www.figma.com/design/Q3DVcDJnhMCtpdQAUoDPrp/Lib-TV?node-id=35678-109"
       ]
+    },
+    {
+      "id": "ui-type-android-grid-responsive-layout",
+      "status": "confirmed",
+      "title": "Android Grid в UI Type: ресайз, зазоры и лейблы",
+      "platforms": ["android"],
+      "deviceClasses": ["phone", "tablet"],
+      "componentIds": [],
+      "situation": "После слияния ветки «Правки» в мастере UI Type проверены восемь страниц Android Grid и 27 вариантов.",
+      "decision": "В пределах варианта устройства ряды делят ширину на равные колонки. Обложки сохраняют пропорции, подписи занимают свою высоту. Для Main используются 2, 3 и 4 колонки с зазорами 8 × 10, 12 × 10 и 12 × 12 px по исходному набору Android 8282:33229. Лейблы на обложках по умолчанию выключены.",
+      "constraints": [
+        "Страницы именуются <тип> Grid. Main покрывает базовую прямоугольную сетку.",
+        "Для зазоров и других привязок использовать существующие переменные.",
+        "В Person фото сохраняет размер для устройства, текст переносится в колонке. В Square есть компактный и раскрытый варианты.",
+        "Зазоры остальных наборов, ширины и ссылки на мастера собраны в design-system/components/grid-android-ui-type.md."
+      ],
+      "sourceLinks": [
+        "https://www.figma.com/design/TGfdPRzrhCA6CbiHsRjBSD?node-id=2268-9708",
+        "https://www.figma.com/design/VCkyAgp18B3cs0RwzcwHrI?node-id=8282-33229"
+      ]
     }
   ]
 }
